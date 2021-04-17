@@ -1,0 +1,61 @@
+import React from 'react'
+import { LogoWhite } from '../Layout/Logo'
+import { FacebookIcon, LinkedInIcon, TwitterIcon } from './Icons'
+
+const Footer = () => {
+	return (
+		<div className="flex items-center justify-between w-full py-20 text-white px-44 bg-dark-blue">
+			<div className="space-y-3">
+				<LogoWhite />
+				<p>2021 by AML Solutions. Všechna práva vyhrazena.</p>
+			</div>
+			<div className="flex space-x-32">
+				<div className="space-y-10">
+					<h3 className="text-xl font-bold">Menu</h3>
+					<div className="flex flex-col space-y-4">
+						<a className="hover:underline" href="/">
+							AML Povinnosti
+						</a>
+						<a className="hover:underline" href="/services">
+							Služby
+						</a>
+						<a className="hover:underline" href="/">
+							Cenový kalkulátor
+						</a>
+						<a className="hover:underline" href="/about">
+							O nás
+						</a>
+					</div>
+				</div>
+				<div className="space-y-10">
+					<h3 className="text-xl font-bold">Kontakty</h3>
+					<div className="flex flex-col space-y-3">
+						<p className="font-bold">AML Solutions s.r.o</p>
+						<p>Vršovická 896/32, Vršovice</p>
+						<p>100 01 Praha</p>
+					</div>
+                    <div className="flex flex-col space-y-3">
+						<a href="tel:123123123" className="hover:underline">+420 123 123 123</a>
+						<a href="mail:info@amlsolutions.com" className="hover:underline">info@amlsolutions.com</a>
+					</div>
+				</div>
+				<div className="space-y-10">
+					<h3 className="text-xl font-bold">Sledujte nás</h3>
+					<div className="flex space-x-4 text-white">
+						<a href={"https://facebook.com"}>
+							<FacebookIcon className="fill-current w-7 h-7" />
+						</a>
+						<a href={"https://facebook.com"}>
+							<TwitterIcon className="fill-current w-7 h-7" />
+						</a>
+						<a href={"https://facebook.com"}>
+							<LinkedInIcon className="fill-current w-7 h-7" />
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	)
+}
+
+export default Footer
