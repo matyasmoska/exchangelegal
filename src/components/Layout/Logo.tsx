@@ -1,8 +1,9 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Logo = () => {
     return (
-        <Image src="/images/logo.png" height={40} width={240} />
+        <Link href="/"><a><Image src="/images/logo.png" height={40} width={240} /></a></Link>
     )
 }
 

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import { LogoWhite } from '../Layout/Logo'
 import { FacebookIcon, LinkedInIcon, TwitterIcon } from './Icons'
@@ -13,18 +14,26 @@ const Footer = () => {
 				<div className="space-y-10">
 					<h3 className="text-xl font-bold">Menu</h3>
 					<div className="flex flex-col space-y-4">
-						<a className="hover:underline" href="/">
-							AML Povinnosti
-						</a>
-						<a className="hover:underline" href="/services">
-							Služby
-						</a>
-						<a className="hover:underline" href="/">
-							Cenový kalkulátor
-						</a>
-						<a className="hover:underline" href="/about">
-							O nás
-						</a>
+						<Link href="/obligations">
+						    <a className="hover:underline">
+    							AML Povinnosti
+    						</a>
+						</Link>
+						<Link href="/services">
+						    <a className="hover:underline">
+    							Služby
+    						</a>
+						</Link>
+						<Link href="/calculator">
+						    <a className="hover:underline">
+                                Cenový kalkulátor
+    						</a>
+						</Link>
+						<Link href="/about">
+						    <a className="hover:underline">
+                                O nás
+    						</a>
+						</Link>
 					</div>
 				</div>
 				<div className="space-y-10">
