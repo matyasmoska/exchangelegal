@@ -1,35 +1,46 @@
-import React, { FC, ReactComponentElement, ReactElement, ReactNode } from "react"
-import { WrappedIconRow, IconRow } from "../../Layout/Icon"
-import { PhoneIcon, MessageIcon, FacebookIcon, TwitterIcon, LinkedInIcon } from "../../Layout/Icons"
+import React from 'react'
+import { c } from '../../../services/misc'
+import { WrappedIconRow, IconRow } from '../../Layout/Icon'
+import { PhoneIcon, MessageIcon, FacebookIcon, TwitterIcon, LinkedInIcon } from '../../Layout/Icons'
 
 const ContactSection = () => {
 	return (
-		<div className="flex justify-between w-full my-64 space-x-12">
-			<div className="pl-32 space-y-8">
-				<div className="space-y-2.5 w-4/6">
-					<h2 className="text-3xl font-bold">Spojte se s námi</h2>
+		<div className={c('flex justify-between w-full my-64 space-x-12', 'md:flex-col md:space-x-0 md:space-y-12')}>
+			<div className={c('pl-32 space-y-8', 'md:pl-8')}>
+				<div className={c('space-y-2.5 w-4/6', 'md:w-full')}>
+					<h2 className="text-3xl font-bold">Kontakty</h2>
 					<p>
-						Je součástí systému vnitřních zásad. Správné nastavení hodnocení rizik “na
-						míru” je nezbytným předpokladem k tomu, aby AML povinnosti byly řádně plněna
-						a případná kontrola skončila bez nálezu.
+						Je součástí systému vnitřních zásad. Správné nastavení hodnocení rizik “na míru” je nezbytným
+						předpokladem k tomu, aby AML povinnosti byly řádně plněna a případná kontrola skončila bez
+						nálezu.
 					</p>
 				</div>
-				<div className="space-y-2.5 w-4/6">
+				<div className={c('space-y-2.5 w-4/6', 'md:w-full')}>
 					<p className="font-bold">AML Solutions s.r.o</p>
 					<p>Vršovická 896/32, Vršovice</p>
 					<p>100 01 Praha</p>
 				</div>
-				<div className="space-y-2.5 w-4/6">
-					<WrappedIconRow Icon={PhoneIcon} href="tel:607172067">123 123 123</WrappedIconRow>
-					<WrappedIconRow Icon={MessageIcon} href="mail:info@amlsolutions.cz">info@amlsolutions.cz</WrappedIconRow>
+				<div className={c('space-y-2.5 w-4/6', 'md:w-full')}>
+					<WrappedIconRow Icon={PhoneIcon} href="tel:607172067">
+						123 123 123
+					</WrappedIconRow>
+					<WrappedIconRow Icon={MessageIcon} href="mail:info@amlsolutions.cz">
+						info@amlsolutions.cz
+					</WrappedIconRow>
 				</div>
-				<div className="flex flex-col space-y-2.5 w-4/6 text-dark-blue">
-					<IconRow href="https://facebook.com" Icon={FacebookIcon}>Facebook</IconRow>
-					<IconRow href="https://facebook.com" Icon={TwitterIcon}>Twitter</IconRow>
-					<IconRow href="https://facebook.com" Icon={LinkedInIcon}>Linked In</IconRow>
+				<div className={c('space-y-2.5 w-4/6 flex flex-col', 'md:w-full')}>
+					<IconRow href="https://facebook.com" Icon={FacebookIcon}>
+						Facebook
+					</IconRow>
+					<IconRow href="https://facebook.com" Icon={TwitterIcon}>
+						Twitter
+					</IconRow>
+					<IconRow href="https://facebook.com" Icon={LinkedInIcon}>
+						Linked In
+					</IconRow>
 				</div>
 			</div>
-			<div className="w-full shadow-inner">
+			<div className={c("w-full shadow-inner", 'md:h-56')}>
 				<iframe
 					width="100%"
 					height="100%"

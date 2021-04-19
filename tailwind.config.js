@@ -3,7 +3,6 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   purge: ['./src/pages/**/*.tsx', './src/components/**/*.tsx', './src/layouts/**/*.tsx'],
   darkMode: false,
-  mode: 'jit',
   theme: {
     extend: {
       colors: {
@@ -21,7 +20,8 @@ module.exports = {
         'fill-available': 'calc(var(--vh, 1vh) * 100)'
       },
       borderWidth: {
-        '10': '10px'
+        '10': '10px',
+        '3': '3px'
       },
       boxShadow: {
         'tile': '0 0 10px 0 rgba(0, 0, 0, 0.17)'

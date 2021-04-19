@@ -1,0 +1,50 @@
+import { motion } from 'framer-motion'
+import { ChangeEvent, ComponentPropsWithoutRef, FC } from 'react'
+import { c } from '../../services/misc'
+import Cleave from 'cleave.js/react'
+import 'cleave.js/dist/addons/cleave-phone.cz'
+
+export interface AuthTextInputFields extends ComponentPropsWithoutRef<'input'> {
+	form: any
+	value: string
+	id: string
+	type?: string
+}
+
+const PhoneTextInput: FC<AuthTextInputFields> = ({ form, value, id, type = 'text', placeholder }) => {
+	const onChange = (e: ChangeEvent<HTMLInputElement>) => {
+		form.handleChange(e)
+		form.errors[id] = ''
+		form.errors.api = ''
+	}
+
+	return (
+		<motion.label layout data-test={`${id}-input-wrapper`} className="block space-y-1 text-dark-blue">
+			<Cleave
+				className={c(
+					form.errors[id] ? 'border-red-500' : 'border-dark-blue',
+					'text-medium block w-full px-3 py-2 mt-1 text-base placeholder-gray-400',
+					'focus:ring-0 focus:border-orange-primary focus:shadow-none',
+					'md:py-2.5 md:px-2.5'
+				)}
+				value={value}
+				data-test={`${id}-input`}
+				id={id}
+				options={{
+					phone: true,
+					phoneRegionCode: 'CZ'
+				}}
+				placeholder={placeholder}
+				onChange={(event: ChangeEvent<HTMLInputElement>) => {
+					onChange(event)
+				}}
+				type={type}
+			/>
+			<span data-test={`${id}-error`} className="block text-left text-red-500 font-text">
+				{form.errors[id]}
+			</span>
+		</motion.label>
+	)
+}
+
+export default PhoneTextInput

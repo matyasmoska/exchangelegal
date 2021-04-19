@@ -9,4 +9,8 @@ export const dateStringToDateFormat = function (dateString: string) {
 	return `${date.getDate()}. ${date.getMonth() + 1}. ${date.getFullYear()}`
 }
 
+export function emailIsValid (email: string) {
+	return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
+}
+
 export const c = (...args: ClassValue[]) => clsx(...args)

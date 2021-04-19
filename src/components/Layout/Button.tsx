@@ -4,14 +4,14 @@ import { c } from '../../services/misc'
 interface ButtonProps {
 	type: 'basic' | 'light'
 	className: string,
-	onClick?: () => {}
+	onClick?: () => void
 }
 
 const Button: FC<ButtonProps> = ({ type, className, onClick, children }) => {
 	const getButtonStyle = () => {
 		switch (type) {
 			case 'basic':
-				return 'bg-orange-primary hover:bg-orange-primary-hover border-orange-primary hover:border-orange-primary-hover'
+				return 'bg-orange-primary text-white hover:bg-orange-primary-hover border-orange-primary hover:border-orange-primary-hover'
 			case  'light':
 				return 'bg-transparent border border-white text-white hover:bg-white hover:text-dark-blue'
 		}

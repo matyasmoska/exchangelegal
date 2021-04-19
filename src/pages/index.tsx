@@ -6,10 +6,11 @@ import { GetStaticProps, NextPage } from 'next'
 import { fetchEntries } from '../services/contentful'
 import { RichTextData, RichTextNodeType } from 'contentful'
 import NewsSection from '../components/Pages/index/NewsSection'
+import { NewsItem } from '../typings'
+import PartnersSection from '../components/Pages/index/PartnersSection'
+import { c } from '../services/misc'
 
 const Home: NextPage<{ news: NewsItem[] }> = ({ news }) => {
-  console.log('NEWS', news)
-
 	return (
 		<DefaultLayout>
 			<div className="relative">
@@ -17,38 +18,35 @@ const Home: NextPage<{ news: NewsItem[] }> = ({ news }) => {
 					<span className="font-bold">1. Ledna 2021 - Nabytí zástavního práva</span>
 				</div>
 				<div
-					className="relative w-full h-screen bg-cover px-36 pt-36"
+					className={c("relative w-full h-screen bg-cover px-36 pt-36", 'md:px-5 md:pt-24')}
 					style={{ backgroundImage: "url('./images/background.png')" }}
 				>
-					<div className="absolute top-0 left-0 z-0 w-full h-full from-dark-blue via-[#021C62A6] bg-gradient-to-r to-transparent" />
+					<div className={c(
+						"absolute top-0 left-0 z-0 w-full h-full from-dark-blue via-[#021C62A6] bg-gradient-to-r to-transparent",
+						'md:to-dark-blue md:opacity-80'
+					)} />
 					<HeroSection />
 				</div>
-        <NewsSection news={news} />
+				<NewsSection news={news} />
 				<ContactSection />
+				<PartnersSection />
 			</div>
 		</DefaultLayout>
 	)
 }
 
-export interface NewsItem {
-  name: string
-  text: RichTextData
-  date: string,
-  previewText: string
-}
-
 export const getStaticProps: GetStaticProps = async (context) => {
-  const res = await fetchEntries()
+	const res = await fetchEntries()
 
-  const news = res.map((n: any) => {
-    return n.fields
-  })
+	const news = res.map((n: any) => {
+		return n.fields
+	})
 
-  return {
-    props: {
-      news
-    }
-  }
+	return {
+		props: {
+			news
+		}
+	}
 }
 
-export default Home;
+export default Home

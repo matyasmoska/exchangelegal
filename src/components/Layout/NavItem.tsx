@@ -18,10 +18,10 @@ const NavItem: React.FunctionComponent<{ href: string }> = ({ href, children }) 
 				<m.div
                     layoutId={router.pathname === href ? 'selected-path' : undefined}
 					className={c(
-						'absolute w-full h-full top-0 left-0 border-b-[3px]',
+						'absolute w-full h-full top-0 left-0 border-b-3',
 						router.pathname === href
 							? 'border-orange-primary'
-							: 'hover:border-b-[3px] border-transparent hover:border-orange-primary'
+							: 'hover:border-b-3 border-transparent hover:border-orange-primary'
 					)}
 				/>
 				{children}
