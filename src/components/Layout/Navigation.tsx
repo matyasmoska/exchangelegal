@@ -16,7 +16,7 @@ const HamburgerIcon: FC<{ sidebarOpen: boolean }> = ({ sidebarOpen }) => {
 const NavItems = () => {
 	return (
 		<Fragment>
-			<NavItem href={'/'}>O Nás</NavItem>
+			<NavItem href={'/'}>Hlavní stránka</NavItem>
 			<NavItem href={'/news'}>Aktuality</NavItem>
 			<NavItem href={'/services'}>Naše služby</NavItem>
 			<NavItem href={'/calculator'}>Cenový kalkulátor</NavItem>
@@ -33,11 +33,19 @@ const Navigation = () => {
 		<div
 			className={c(
 				'flex items-center justify-between w-full py-8 text-black bg-transparent px-36',
+                'xl:space-x-12',
 				'md:px-8 md:py-5'
 			)}
 		>
 			<Logo />
-			<div className={c('flex items-center space-x-16 font-semibold', 'md:hidden')}>
+			<div
+				className={c(
+					'flex items-center space-x-16 font-semibold',
+					'2xl:space-x-10 2xl:text-center',
+					'xl:space-x-4',
+					'md:hidden'
+				)}
+			>
 				<NavItems />
 			</div>
 			<span className={c('hidden z-50', 'md:block')} onClick={() => setSidebarOpen(!sidebarOpen)}>
