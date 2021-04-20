@@ -12,7 +12,6 @@ interface ContactFormValues {
 }
 
 function useContactForm() {
-
 	const validate = (values: ContactFormValues): FormikErrors<ContactFormValues> => {
 		const errors: FormikErrors<ContactFormValues> = {}
 		
@@ -27,7 +26,7 @@ function useContactForm() {
 		return errors
 	}
 
-	const formik = useFormik({
+	const formik = useFormik<ContactFormValues>({
 		initialValues: { firstName: '', lastName: '', email: '', phone: '', message: '', personalDataAgreement: false, marketingAgreement: false },
 		validate,
 		validateOnChange: false,

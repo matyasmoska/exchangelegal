@@ -23,6 +23,8 @@ const Checkbox: FC<CheckboxProps> = ({ form, isChecked, id, label, className = '
 					type="checkbox"
 					className="w-5 h-5 border cursor-pointer text-dark-blue"
 					onChange={(e) => onChange(e)}
+					value={label}
+					name={id}
 					id={id}
 					checked={isChecked}
 				/>

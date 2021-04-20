@@ -34,7 +34,7 @@ const Navigation = () => {
 			className={c(
 				'flex items-center justify-between w-full py-8 text-black bg-transparent px-36',
                 'xl:space-x-12',
-				'md:px-8 md:py-5'
+				'md:px-8 md:py-5 md:space-x-0'
 			)}
 		>
 			<Logo />

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import { c } from '../../../services/misc'
 import Button from '../../Layout/Button'
@@ -14,9 +15,11 @@ const HeroSection = () => {
 				aspernatur? Impedit?
 			</p>
 			<div className={c('flex items-center w-9/12 space-x-6', 'md:block md:space-y-6 md:w-full md:space-x-0')}>
-				<Button type="basic" className="px-12 py-2.5">
-					Ověřit vaší činnost
-				</Button>
+				<Link href="/obligations">
+					<Button type="basic" className="px-12 py-2.5">
+						Ověřit vaší činnost
+					</Button>
+				</Link>
 				<Button type="light" className="px-10 py-2.5">
 					Co je to AML?
 				</Button>
