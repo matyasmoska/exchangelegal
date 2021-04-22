@@ -22,7 +22,7 @@ const ObligationsSuccessPage = () => {
 							zobrazíte Naše služby spojené s AML.
 						</p>
 					</div>
-					<Link href="/">
+					<Link href="/services">
 						<Button type="basic" className="px-12 py-3">
 							Zobrazit služby
 						</Button>
