@@ -9,6 +9,8 @@ const Footer = () => {
 		<div
 			className={c(
 				'flex items-center justify-between w-full py-20 text-white px-44 bg-dark-blue',
+				'3xl:px-24',
+				'2xl:px-20',
 				'md:py-10 md:px-10 md:block md:space-y-16 md:text-center md:text-lg'
 			)}
 		>
@@ -16,7 +18,13 @@ const Footer = () => {
 				<LogoWhite />
 				<p>2021 by AML Solutions. Všechna práva vyhrazena.</p>
 			</div>
-			<div className={c('flex space-x-32', 'md:flex-col md:space-x-0 md:space-y-16 md:text-center')}>
+			<div
+				className={c(
+					'flex space-x-32',
+					'2xl:space-x-24',
+					'md:flex-col md:space-x-0 md:space-y-16 md:text-center'
+				)}
+			>
 				<div className="space-y-10">
 					<h3 className="text-xl font-bold">Menu</h3>
 					<div className="flex flex-col space-y-4">
@@ -52,7 +60,7 @@ const Footer = () => {
 				</div>
 				<div className="space-y-10">
 					<h3 className="text-xl font-bold">Sledujte nás</h3>
-					<div className={c("flex space-x-4 text-white", 'md:text-center md:justify-center')}>
+					<div className={c('flex space-x-4 text-white', 'md:text-center md:justify-center')}>
 						<a href={'https://facebook.com'}>
 							<FacebookIcon className="fill-current w-7 h-7" />
 						</a>

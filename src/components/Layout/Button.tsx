@@ -1,10 +1,10 @@
-import React, { FC } from 'react'
+import React, { FC, MouseEventHandler } from 'react'
 import { c } from '../../services/misc'
 
 interface ButtonProps {
 	type: 'basic' | 'light'
 	className: string,
-	onClick?: () => void
+	onClick?: MouseEventHandler<HTMLDivElement>
 }
 
 const Button: FC<ButtonProps> = ({ type, className, onClick, children }) => {

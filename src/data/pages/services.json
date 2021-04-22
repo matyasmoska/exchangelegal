@@ -1,0 +1,52 @@
+{
+    "services": [
+        {
+            "icon": "/images/learning.svg",
+            "name": "Systém vnitřních zásad",
+            "description": "Písemný dokument, který musí mít zpracován některé povinné osoby. U ostatních povinných osob musí existovat alespoň v podobě “nepsaných pravidel”, která se dodržují.",
+            "price": 19000
+        },
+        {
+            "icon": "/images/learning.svg",
+            "name": "Hodnocení rizik",
+            "description": "Je součástí systému vnitřních zásad. Správné nastavení hodnocení rizik \"na míru\" je nezbytným předpokladem k tomu, aby AML povinnosti byly řádně plněna a případná kontrola skončila bez nálezu.",
+            "price": 19000
+        },
+        {
+            "icon": "/images/learning.svg",
+            "name": "Systém identifikace klienta",
+            "description": "Postupy při získávání a vyhodnocování  identifikačních údajů klienta, případně dalších osob zúčastněných na obchodu. Zahrnuje i identifikaci politicky exponovaných osob, osob dotčených mezinárodními sankcemi apod.",
+            "price": 19000
+        },
+        {
+            "icon": "/images/learning.svg",
+            "name": "Systém kontroly klienta",
+            "description": "Postupy pro zjišťování podrobnějších informací o klientovi a obchodu nebo obchodním vztahu. Hraje podstatnou roli při identifikaci případného podezřelého obchodu.",
+            "price": 19000
+        },
+        {
+            "icon": "/images/learning.svg",
+            "name": "Školení a metodika",
+            "description": "Pravidelné školení zaměstnanců a dalších osob, které provádějí identifikaci a kontrolu klienta, nejméně jednou za 12 měsíců je povinností, za jejíž porušení hrozí sankce.",
+            "price": 19000
+        },
+        {
+            "icon": "/images/learning.svg",
+            "name": "Komunikace s FAÚ / ČNB",
+            "description": "Zajistíme za vás nezbytnou komunikaci související s plněním AML povinností, nebo pro vás připravím potřebné dokumenty.",
+            "price": 19000
+        },
+        {
+            "icon": "/images/learning.svg",
+            "name": "AML Audit",
+            "description": "Klikněte a můžete začít psát. Aut fugit sed quia consequuntur.",
+            "price": 19000
+        },
+        {
+            "icon": "/images/learning.svg",
+            "name": "Dlouhodobá spolupráce",
+            "description": "Klikněte a můžete začít psát. Ea commodi consequatur quis.",
+            "price": 19000
+        }
+    ]
+}

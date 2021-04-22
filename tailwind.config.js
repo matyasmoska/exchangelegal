@@ -3,6 +3,7 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   purge: ['./src/pages/**/*.tsx', './src/components/**/*.tsx', './src/layouts/**/*.tsx'],
   darkMode: false,
+  mode: 'jit',
   theme: {
     extend: {
       colors: {
@@ -24,7 +25,7 @@ module.exports = {
         '3': '3px'
       },
       boxShadow: {
-        'tile': '0 0 10px 0 rgba(0, 0, 0, 0.17)'
+        'tile': '0 0 10px 0 rgba(0, 0, 0, 0.10)'
       },
       spacing: {
         '1/8': '12.5%',
@@ -37,6 +38,7 @@ module.exports = {
       }
     },
     screens: {
+      '3xl': {'max': '1919px'},
       '2xl': {'max': '1535px'},
       'xl': {'max': '1279px'},
       'lg': {'max': '1023px'},

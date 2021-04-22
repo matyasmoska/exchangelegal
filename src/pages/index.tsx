@@ -18,7 +18,7 @@ const Home: NextPage<{ news: NewsItem[] }> = ({ news }) => {
 					<span className="font-bold">1. Ledna 2021 - Nabytí zástavního práva</span>
 				</div>
 				<div
-					className={c("relative w-full h-screen bg-cover px-36 pt-36", 'md:px-5 md:pt-24')}
+					className={c("relative w-full h-screen bg-cover px-36 pt-36", '3xl:px-28', 'md:px-5 md:pt-24')}
 				>
 					<Image src={'/images/background.png'} priority className="absolute top-0 left-0 z-0" layout="fill" objectFit="cover" />
 					<div className={c(

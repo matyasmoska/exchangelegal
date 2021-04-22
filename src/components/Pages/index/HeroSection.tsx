@@ -20,9 +20,11 @@ const HeroSection = () => {
 						Ověřit vaší činnost
 					</Button>
 				</Link>
-				<Button type="light" className="px-10 py-2.5">
-					Co je to AML?
-				</Button>
+				<Link href="/whatisaml">
+					<Button type="light" className="px-10 py-2.5">
+						Co je to AML?
+					</Button>
+				</Link>
 			</div>
 		</div>
 	)

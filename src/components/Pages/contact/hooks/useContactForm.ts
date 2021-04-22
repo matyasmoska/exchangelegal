@@ -1,7 +1,7 @@
 import { FormikErrors, useFormik } from 'formik'
 import { emailIsValid } from '../../../../services/misc'
 
-interface ContactFormValues {
+export interface ContactFormValues {
 	firstName: string,
 	lastName: string,
 	email: string,

@@ -20,7 +20,7 @@ export default function Contact () {
 					/>
 					<div className="absolute top-0 left-0 z-0 w-full h-full transition transform bg-gray-300 animate-pulse" />
 				</div>
-				<div className={c('w-5/6 p-16 space-y-8', 'md:p-8 md:w-full')}>
+				<div className={c('w-5/6 p-16 space-y-8', '2xl:p-10 2xl:px-8', 'md:p-8 md:w-full')}>
 					<div className="space-y-8">
 						<div className={c('space-y-2.5 w-4/6', 'md:w-full')}>
 							<h2 className="text-3xl font-bold">Kontakty</h2>

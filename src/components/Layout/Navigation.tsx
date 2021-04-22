@@ -33,7 +33,8 @@ const Navigation = () => {
 		<div
 			className={c(
 				'flex items-center justify-between w-full py-8 text-black bg-transparent px-36',
-                'xl:space-x-12',
+				'2xl:px-24',
+                'xl:space-x-12 xl:px-16',
 				'md:px-8 md:py-5 md:space-x-0'
 			)}
 		>
@@ -41,7 +42,8 @@ const Navigation = () => {
 			<div
 				className={c(
 					'flex items-center space-x-16 font-semibold',
-					'2xl:space-x-10 2xl:text-center',
+					'3xl:space-x-10',
+					'2xl:space-x-6 2xl:text-center',
 					'xl:space-x-4',
 					'md:hidden'
 				)}
