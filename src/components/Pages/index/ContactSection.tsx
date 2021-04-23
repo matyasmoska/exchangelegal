@@ -9,13 +9,13 @@ const ContactSection = () => {
 			className={c(
 				'flex justify-between w-full my-64 space-x-12',
 				'3xl:space-x-8',
-				'md:flex-col md:space-x-0 md:space-y-12'
+				'md:flex-col md:space-x-0 md:space-y-12 md:my-16'
 			)}
 		>
-			<div className={c('pl-32 space-y-8', 'md:pl-8')}>
+			<div className={c('pl-32 space-y-8', 'md:px-8')}>
 				<div className={c('space-y-2.5 w-4/6', '2xl:w-5/6', 'md:w-full')}>
 					<h2 className="text-3xl font-bold">Kontakty</h2>
-					<p>
+					<p className="text-justify">
 						Je součástí systému vnitřních zásad. Správné nastavení hodnocení rizik “na míru” je nezbytným
 						předpokladem k tomu, aby AML povinnosti byly řádně plněna a případná kontrola skončila bez
 						nálezu.
@@ -46,7 +46,7 @@ const ContactSection = () => {
 					</IconRow>
 				</div>
 			</div>
-			<div className={c('w-full shadow-inner', 'md:h-56')}>
+			<div className={c('w-full pr-32 shadow-inner', 'md:h-56 md:pr-0')}>
 				<iframe
 					width="100%"
 					height="100%"

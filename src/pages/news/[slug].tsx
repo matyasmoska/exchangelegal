@@ -10,6 +10,7 @@ import { NewsItem } from "../../typings";
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 import Image from 'next/image'
 import ReadingTime from "../../components/Pages/news/ReadingTime";
+import NewsPreviewItem from "../../components/Pages/news/NewsPreviewItem";
 
 interface PostDetailPageProps {
     news: NewsItem[]
@@ -26,7 +27,7 @@ const PostDetailPage: NextPage<PostDetailPageProps> = ({ news, newsItem }) => {
                 <div className="absolute top-0 left-0 w-full h-full transition transform bg-gray-400 animate-pulse" />
             </div>
             <div className="p-24 px-32">
-                <div className="grid grid-cols-2 gap-20">
+                <div className="grid gap-20" style={{ gridTemplateColumns: '2fr 1fr'}}>
                     <div className="space-y-10">
                         <div className="space-y-5">
                             <h1 className="text-3xl font-bold">{ newsItem.name }</h1>
@@ -34,10 +35,15 @@ const PostDetailPage: NextPage<PostDetailPageProps> = ({ news, newsItem }) => {
                                 <span>{dateStringToDateFormat(newsItem.date)}</span>
                                 <ReadingTime stats={stats} />
                             </div>
-                            <div className="space-y-8 prose text-justify">
+                            <article className="space-y-8 prose text-justify max-w-none">
                                 { documentToReactComponents(newsItem.text) }
-                            </div>
+                            </article>
                         </div>
+                    </div>
+                    <div className="flex flex-col space-y-28">
+                        { news.filter( item => item.slug !== newsItem.slug ).map(item => (
+                            <NewsPreviewItem newsItem={item} />
+                        ))}
                     </div>
                 </div>
             </div>

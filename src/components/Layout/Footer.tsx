@@ -34,8 +34,8 @@ const Footer = () => {
 						<Link href="/services">
 							<a className="hover:underline">Služby</a>
 						</Link>
-						<Link href="/calculator">
-							<a className="hover:underline">Cenový kalkulátor</a>
+						<Link href="/faq">
+							<a className="hover:underline">Nejčastěji kladené otázky</a>
 						</Link>
 						<Link href="/about">
 							<a className="hover:underline">O nás</a>

@@ -30,7 +30,7 @@ const Checkbox: FC<CheckboxProps> = ({ form, isChecked, id, label, className = '
 				/>
 				<span className="ml-2">{label}</span>
 			</label>
-			<ErrorMessage id={id}>{form.errors[id as string]}</ErrorMessage>
+			{ form.errors[id as string]?.length > 0 && <ErrorMessage id={id}>{form.errors[id as string]}</ErrorMessage>}
 		</>
 	)
 }

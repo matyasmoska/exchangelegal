@@ -14,14 +14,21 @@ export default function Obligations () {
 
 	return (
 		<DefaultLayout>
-			<div className="space-y-10 text-center p-36">
-				<h1 className="text-5xl font-bold leading-snug">Zjistěte, zda se na Vás vztahují AML povinnosti</h1>
+			<div className={c('space-y-10 text-center p-36', 'md:px-4 md:py-8')}>
+				<h1 className={c('text-5xl font-bold leading-snug', 'md:text-2xl md:px-4')}>
+					Zjistěte, zda se na Vás vztahují AML povinnosti
+				</h1>
 				<div>
-					<h3 className="text-lg font-bold">
+					<h3 className={c('text-lg font-bold', 'md:text-sm')}>
 						Provádím jako podnikatel nebo nepodnikající právnická osoba některou z těchto činností?
 					</h3>
 				</div>
-				<form className="flex flex-col w-1/2 mx-auto space-y-2.5">
+				<form
+					className={c(
+						'grid grid-rows-[8] grid-cols-2 gap-2 px-28 pb-16 pt-12',
+						'md:flex md:flex-col md:space-y-2 md:px-0 md:pt-0 md:pb-8'
+					)}
+				>
 					{data.obligations.map((obl: string) => (
 						<Checkbox
 							key={obl}

@@ -1,5 +1,3 @@
-import { Asset, RichTextContent } from "contentful";
-
 export interface NewsItem {
 	name: string
 	text: any
