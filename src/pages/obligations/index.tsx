@@ -34,7 +34,7 @@ export default function Obligations () {
 					))}
 				</form>
 				<div className="relative flex flex-col items-center space-y-5">
-					<Button type="basic" onClick={form.handleSubmit} className="py-2.5 px-24">
+					<Button type="basic" onClick={form.handleSubmit as any} className="py-2.5 px-24">
 						Ověřit
 					</Button>
 					<div className="absolute -bottom-10">

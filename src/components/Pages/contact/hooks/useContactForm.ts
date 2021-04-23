@@ -1,4 +1,3 @@
-import { ContactFormValues } from './useContactForm';
 import { FormikErrors, useFormik } from 'formik'
 import { emailIsValid } from '../../../../services/misc'
 import axios from 'redaxios'

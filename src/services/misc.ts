@@ -29,7 +29,7 @@ export function doScrolling(element: string, duration: number, offset: number = 
 	var diff = targetY - startingY - offset
 	// Easing function: easeInOutCubic
 	// From: https://gist.github.com/gre/1650294
-	var easing = function (t) { return t<.5 ? 4*t*t*t : (t-1)*(2*t-2)*(2*t-2)+1 }
+	var easing = function (t: number) { return t<.5 ? 4*t*t*t : (t-1)*(2*t-2)*(2*t-2)+1 }
 	var start: number
 
   	if (!diff) return

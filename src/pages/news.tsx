@@ -47,7 +47,7 @@ export default function NewsPage({ news }: { news: NewsItem[] }) {
 export const getStaticProps: GetStaticProps = async (context) => {
 	const res = await fetchEntries()
 
-	const news = res?.map((n) => {
+	const news = res?.map((n: any) => {
 		return n.fields
 	})
 
