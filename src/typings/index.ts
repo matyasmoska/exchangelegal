@@ -6,3 +6,10 @@ export interface NewsItem {
 	date: string
 	previewText: string
 }
+
+export interface TeamMember {
+	name: string
+	title: string
+	description: string | string[]
+	photo: string
+}

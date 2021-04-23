@@ -55,7 +55,7 @@ const ContactForm = () => {
 			</div>
 			<div className="flex justify-end">
 				<Button
-					onClick={form.handleSubmit}
+					onClick={form.handleSubmit as any}
 					type="basic"
 					className={c('px-16 py-2', 'md:w-full md:text-center md:py-3.5')}
 				>

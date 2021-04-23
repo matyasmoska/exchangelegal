@@ -4,10 +4,11 @@ import { c } from '../../services/misc'
 interface ButtonProps {
 	type: 'basic' | 'light'
 	className: string,
+	disabled?: boolean,
 	onClick?: MouseEventHandler<HTMLDivElement>
 }
 
-const Button: FC<ButtonProps> = ({ type, className, onClick, children }) => {
+const Button: FC<ButtonProps> = ({ type, className, onClick, disabled = false, children }) => {
 	const getButtonStyle = () => {
 		switch (type) {
 			case 'basic':
@@ -20,7 +21,7 @@ const Button: FC<ButtonProps> = ({ type, className, onClick, children }) => {
 	return (
 		<div
 			onClick={onClick}
-			className={c(getButtonStyle(), 'transform-gpu transition cursor-pointer border', className)}
+			className={c(getButtonStyle(), 'transform-gpu transition cursor-pointer border', className, disabled && '!bg-gray-400 !border-gray-400 !text-gray-100 pointer-events-none')}
 		>
 			{children}
 		</div>

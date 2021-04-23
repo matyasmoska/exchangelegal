@@ -1,5 +1,7 @@
+import { ContactFormValues } from './useContactForm';
 import { FormikErrors, useFormik } from 'formik'
 import { emailIsValid } from '../../../../services/misc'
+import axios from 'redaxios'
 
 export interface ContactFormValues {
 	firstName: string,
@@ -30,8 +32,11 @@ function useContactForm() {
 		initialValues: { firstName: '', lastName: '', email: '', phone: '', message: '', personalDataAgreement: false, marketingAgreement: false },
 		validate,
 		validateOnChange: false,
-		onSubmit: async (values) => {
-			console.log('VALUES', values)
+		onSubmit: async (values, { resetForm }) => {
+			const res = await axios.post('/api/message', { ...values } as ContactFormValues)
+			
+			resetForm()
+			console.log('RESULT', res)
 		}
 	})
 

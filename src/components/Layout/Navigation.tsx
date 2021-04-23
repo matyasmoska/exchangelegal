@@ -19,7 +19,7 @@ const NavItems = () => {
 			<NavItem href={'/'}>Hlavní stránka</NavItem>
 			<NavItem href={'/news'}>Aktuality</NavItem>
 			<NavItem href={'/services'}>Naše služby</NavItem>
-			<NavItem href={'/calculator'}>Cenový kalkulátor</NavItem>
+			{/* <NavItem href={'/calculator'}>Cenový kalkulátor</NavItem> */}
 			<NavItem href={'/contact'}>Kontakty</NavItem>
 			<NavItem href={'/about'}>O nás</NavItem>
 		</Fragment>
@@ -57,9 +57,9 @@ const Navigation = () => {
 				{sidebarOpen && (
 					<m.div
 						{...opacityAnimation}
-						className="fixed top-0 left-0 z-40 w-screen h-screen font-bold bg-white text-dark-blue"
+						className="fixed top-0 left-0 z-40 w-screen h-screen overflow-hidden font-bold bg-white text-dark-blue"
 					>
-						<div className="flex flex-col items-center justify-center h-full space-y-6 text-2xl text-dark-blue">
+						<div className="flex flex-col items-center justify-center h-screen space-y-6 text-2xl text-dark-blue">
 							<NavItems />
 						</div>
 					</m.div>

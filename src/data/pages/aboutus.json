@@ -1,0 +1,61 @@
+{
+	"people": [
+		{
+			"name": "Mgr. Vít Šilhavý",
+			"title": "advokát",
+			"description": [
+				"Klikněte a můžete začít psát. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque",
+				"laudantium totam rem aperiam eaque ipsa quae ab illo inventore . veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt neque porro quisquam est qui dolorem."
+			],
+			"photo": "/images/vitek.png"
+		},
+		{
+			"name": "Mgr. Matyáš Moska",
+			"title": "advokát",
+			"description": [
+				"Klikněte a můžete začít psát. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque",
+				"laudantium totam rem aperiam eaque ipsa quae ab illo inventore . veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt neque porro quisquam est qui dolorem."
+			],
+			"photo": "/images/vitek.png"
+		},
+		{
+			"name": "Mgr. Hana Erbsová",
+			"title": "advokát",
+			"description": [
+				"Klikněte a můžete začít psát. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque",
+				"laudantium totam rem aperiam eaque ipsa quae ab illo inventore . veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt neque porro quisquam est qui dolorem."
+			],
+			"photo": "/images/vitek.png"
+		},
+		{
+			"name": "Veronika Hurtová",
+			"title": "advokát",
+			"description": [
+				"Klikněte a můžete začít psát. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque",
+				"laudantium totam rem aperiam eaque ipsa quae ab illo inventore . veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt neque porro quisquam est qui dolorem."
+			],
+			"photo": "/images/vitek.png"
+		},
+		{
+			"name": "Ondřej Beck",
+			"title": "advokát",
+			"description": [
+				"Klikněte a můžete začít psát. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque",
+				"laudantium totam rem aperiam eaque ipsa quae ab illo inventore . veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt neque porro quisquam est qui dolorem."
+			],
+			"photo": "/images/vitek.png"
+		}
+	],
+	"references": [
+		{
+			"photo": "/images/reference.png",
+			"reference": "Spolupráce s týmem AML solutions byla na skvělé úrovní. Rychlá a profesionální komunikace Jejich služby mohu vřele doporučit!",
+			"who": "Jan Novák, CEO ve společnosti Novák s r.o."
+		},
+		{
+			"photo": "/images/reference.png",
+			"reference": "Spolupráce s týmem AML solutions byla na skvělé úrovní. Rychlá a profesionální komunikace Jejich služby mohu vřele doporučit!",
+			"who": "Jan Novák, CEO ve společnosti Novák s r.o."
+		}
+	]
+}
