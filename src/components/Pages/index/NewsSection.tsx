@@ -3,6 +3,7 @@ import { c, dateStringToDateFormat } from '../../../services/misc'
 import { NewsItem } from '../../../typings'
 import Button from '../../Layout/Button'
 
+
 const NewsPreviewItem: FC<{ newsItem: NewsItem }> = ({ newsItem }) => {
 	return (
 		<div className="space-y-10">

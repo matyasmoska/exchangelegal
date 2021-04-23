@@ -21,8 +21,6 @@ function getElementY(query: string) {
 	return window.pageYOffset + document.querySelector(query)!.getBoundingClientRect()?.top
 }
   
-
-
 export function doScrolling(element: string, duration: number, offset: number = 0) {
 	var startingY = window.pageYOffset
 	var elementY = getElementY(element)

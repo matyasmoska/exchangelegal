@@ -1,10 +1,11 @@
-import { RichTextData } from "contentful";
+import { Asset, RichTextContent } from "contentful";
 
 export interface NewsItem {
 	name: string
-	text: RichTextData
+	text: any
 	date: string
 	previewText: string
+	thumbnail: any
 }
 
 export interface TeamMember {
