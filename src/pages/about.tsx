@@ -31,7 +31,10 @@ export default function AboutPage () {
 	return (
 		<DefaultLayout>
 			<div className="text-center">
-				<Image width={1920} height={700} layout="responsive" quality={90} priority src={'/images/team.png'} />
+				<div className="relative">
+					<Image width={1920} height={700} className="z-10" layout="responsive" quality={90} priority src={'/images/team.png'} />
+					<div className="absolute top-0 left-0 w-full h-full transition transform bg-gray-400 animate-pulse" />
+				</div>
 				<div className="flex flex-col items-center justify-center text-center my-14">
 					<div className={c("flex flex-col max-w-lg space-y-8", "md:px-8 md:text-left")}>
 						<h1 className="text-3xl font-bold">Kdo jsme</h1>
