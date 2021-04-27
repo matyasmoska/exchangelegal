@@ -12,7 +12,7 @@ const Logo = () => {
 }
 
 export const LogoWhite = () => {
-	return <Image src="/images/logo-white.png" height={40} width={240} />
+	return <Image alt="AML Solutions Logo" src="/images/logo-white.png" height={40} width={240} />
 }
 
 export default Logo

@@ -7,16 +7,22 @@ import { fetchEntries } from '../services/contentful'
 import NewsSection from '../components/Pages/index/NewsSection'
 import { NewsItem } from '../typings'
 import PartnersSection from '../components/Pages/index/PartnersSection'
-import { c } from '../services/misc'
+import { c, dateStringToDateFormat } from '../services/misc'
 import Image from 'next/image'
 import { Fade } from 'react-awesome-reveal'
+import Link from 'next/link'
 
 const Home: NextPage<{ news: NewsItem[] }> = ({ news }) => {
 	return (
 		<DefaultLayout>
 			<div className="relative">
 				<div className="absolute top-0 z-20 w-full py-3 text-center bg-white text-dark-blue bg-opacity-70">
-					<span className="font-bold">1. Ledna 2021 - Nabytí zástavního práva</span>
+					<Link href={'/news/' + news[0].slug}>
+						<a>
+							<span className="font-bold">{`${dateStringToDateFormat(news[0].date)} - ${news[0]
+								.name}`}</span>
+						</a>
+					</Link>
 				</div>
 				<div className={c('relative w-full h-screen bg-cover px-36 pt-36', '3xl:px-28', 'md:px-5 md:pt-24')}>
 					<Image
