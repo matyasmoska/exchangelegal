@@ -22,6 +22,7 @@ const Home: NextPage<{ news: NewsItem[] }> = ({ news }) => {
 					<Image
 						src={'/images/background.png'}
 						priority
+						alt="Background Image"
 						className="absolute top-0 left-0 z-0"
 						layout="fill"
 						objectFit="cover"
