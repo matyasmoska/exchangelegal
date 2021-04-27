@@ -64,13 +64,13 @@ const Footer = () => {
 				<div className="space-y-10">
 					<h3 className="text-xl font-bold">Sledujte nás</h3>
 					<div className={c('flex space-x-4 text-white', 'md:text-center md:justify-center')}>
-						<a href={'https://facebook.com'}>
+						<a href={'https://facebook.com'} aria-label="Facebook Link">
 							<FacebookIcon className="fill-current w-7 h-7" />
 						</a>
-						<a href={'https://facebook.com'}>
+						<a href={'https://facebook.com'} aria-label="Twitter Link">
 							<TwitterIcon className="fill-current w-7 h-7" />
 						</a>
-						<a href={'https://facebook.com'}>
+						<a href={'https://facebook.com'} aria-label="Linked In Link">
 							<LinkedInIcon className="fill-current w-7 h-7" />
 						</a>
 					</div>
