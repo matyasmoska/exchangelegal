@@ -5,7 +5,6 @@ const SEO = ({ title = 'Antonín Wingender | Web Applications Developer' }) => {
         <NextSeo
             title={title}
             description="A full-stack web developer based in Prague. I enjoy creating real web products that users like to use."
-            canonical="https://amlsolutions.cz"
             openGraph={{
                 url: 'https://amlsolutions.cz',
                 title: 'AML Solutions | Praktické řešení na míru vaší AML povinnosti',
