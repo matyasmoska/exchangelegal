@@ -54,6 +54,12 @@ const ContactForm = () => {
 					isChecked={form.values.personalDataAgreement}
 					label={'Souhlasím se zpracováním osobních údajů'}
 				/>
+				<Checkbox
+					id={'marketingAgreement'}
+					form={form}
+					isChecked={form.values.marketingAgreement}
+					label={'Souhlasím se zasíláním obchodních sdělení'}
+				/>
 			</div>
 			<div className="flex flex-col items-end justify-end space-y-4">
 				<Button

@@ -14,7 +14,7 @@ const Footer = () => {
 				'md:py-10 md:px-10 md:block md:space-y-16 md:text-center md:text-lg'
 			)}
 		>
-			<div className="space-y-3">
+			<div className="self-start space-y-3">
 				<LogoWhite />
 				<p>2021 by AML Solutions. Všechna práva vyhrazena.</p>
 			</div>
@@ -31,14 +31,17 @@ const Footer = () => {
 						<Link href="/obligations">
 							<a className="hover:underline">AML Povinnosti</a>
 						</Link>
+						<Link href="/whatisaml">
+							<a className="hover:underline">Co je AML?</a>
+						</Link>
 						<Link href="/services">
 							<a className="hover:underline">Služby</a>
 						</Link>
-						<Link href="/faq">
-							<a className="hover:underline">Nejčastěji kladené otázky</a>
-						</Link>
 						<Link href="/about">
 							<a className="hover:underline">O nás</a>
+						</Link>
+						<Link href="/faq">
+							<a className="hover:underline">Často kladené dotazy</a>
 						</Link>
 					</div>
 				</div>

@@ -55,8 +55,14 @@ const ServicesForm: FC<{ form: any }> = ({ form }) => {
 					isChecked={form.values.personalDataAgreement}
 					label={'Souhlasím se zpracováním osobních údajů'}
 				/>
+				<Checkbox
+					id={'marketingAgreement'}
+					form={form}
+					isChecked={form.values.marketingAgreement}
+					label={'Souhlasím se zasíláním obchodních sdělení'}
+				/>
 			</div>
-			<div className="flex flex-col items-end space-y-4 justify-end w-full">
+			<div className="flex flex-col items-end justify-end w-full space-y-4">
 				<Button
 					onClick={form.handleSubmit}
 					type="basic"

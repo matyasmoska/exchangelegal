@@ -16,12 +16,11 @@ const HamburgerIcon: FC<{ sidebarOpen: boolean }> = ({ sidebarOpen }) => {
 const NavItems = () => {
 	return (
 		<Fragment>
-			<NavItem href={'/'}>Hlavní stránka</NavItem>
 			<NavItem href={'/news'}>Aktuality</NavItem>
 			<NavItem href={'/services'}>Naše služby</NavItem>
 			{/* <NavItem href={'/calculator'}>Cenový kalkulátor</NavItem> */}
-			<NavItem href={'/contact'}>Kontakty</NavItem>
 			<NavItem href={'/about'}>O nás</NavItem>
+			<NavItem href={'/contact'}>Kontakty</NavItem>
 		</Fragment>
 	)
 }
@@ -32,7 +31,7 @@ const Navigation = () => {
 	return (
 		<div
 			className={c(
-				'flex items-center justify-between w-full py-8 text-black bg-transparent px-36',
+				'flex items-center justify-between w-full py-7 text-black bg-transparent px-36',
 				'2xl:px-24',
                 'xl:space-x-12 xl:px-16',
 				'md:px-8 md:py-5 md:space-x-0'

@@ -11,9 +11,9 @@ export const NewsPreviewItem: FC<{ newsItem: NewsItem }> = ({ newsItem }) => {
 	const stats = useMemo(() => readingTime(documentToPlainTextString(newsItem.text)), [newsItem]);
 
 	return (
-		<div className="space-y-10">
+		<div className="space-y-6">
 			<Link href={ '/news/' + newsItem.slug }>
-				<div className={c("space-y-3", "md:flex md:flex-col-reverse")}>
+				<div className={c("space-y-4", "md:flex md:flex-col-reverse")}>
 					<div className={c("flex items-center space-x-12", "md:justify-center md:mt-5")}>
 						<span>{dateStringToDateFormat(newsItem.date)}</span>
 						<ReadingTime stats={stats} />
