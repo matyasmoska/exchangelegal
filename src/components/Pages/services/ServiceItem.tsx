@@ -36,9 +36,9 @@ export const ServiceItem: FC<ServiceItemProps> = ({ serviceItem, selectedItems, 
 			className={c("relative flex flex-col justify-between p-8 text-left cursor-pointer text-dark-blue shadow-tile", '3xl:p-6')}
 		>
 			<div className="flex flex-col justify-between h-full space-y-4">
-				<img src={serviceItem.icon} className="w-12" />
-				<h3 className={c("text-2xl font-bold", '3xl:text-xl')}>{serviceItem.name}</h3>
-				<p className={c('text-justify', '3xl:text-sm')}>{serviceItem.description}</p>
+				<img src={serviceItem.icon} className={c("w-12", 'self-center')} />
+				<h3 className={c("text-2xl font-bold", '3xl:text-xl', 'md:text-center md:text-2xl')}>{serviceItem.name}</h3>
+				<p className={c('text-justify', '3xl:text-sm', 'md:text-justify')}>{serviceItem.description}</p>
 				<div className="flex items-end justify-between">
 					<p className="mb-0.5 text-sm">Cena od</p>
 					<p className={c("text-3xl font-bold text-orange-primary", '3xl:text-2xl')}>{`${serviceItem.price},- Kč`}</p>
