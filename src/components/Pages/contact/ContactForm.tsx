@@ -1,6 +1,8 @@
+import { spawn } from 'node:child_process'
 import React from 'react'
 import { c } from '../../../services/misc'
 import Checkbox from '../../Forms/Checkbox'
+import ErrorMessage from '../../Forms/ErrorMessage'
 import PhoneTextInput from '../../Forms/PhoneTextInput'
 import TextArea from '../../Forms/TextArea'
 import TextInput from '../../Forms/TextInput'
@@ -53,7 +55,7 @@ const ContactForm = () => {
 					label={'Souhlasím se zpracováním osobních údajů'}
 				/>
 			</div>
-			<div className="flex justify-end">
+			<div className="flex flex-col items-end justify-end space-y-4">
 				<Button
 					onClick={form.handleSubmit as any}
 					type="basic"
@@ -61,6 +63,8 @@ const ContactForm = () => {
 				>
 					Odeslat
 				</Button>
+				{ (form.errors as any).api && <ErrorMessage id="api" >{ (form.errors as any).api }</ErrorMessage> }
+				{ form.status === 'submitted' && <span className="text-green-600">Odeslání proběhlo úspěšně. Děkujeme!</span>}
 			</div>
 		</form>
 	)

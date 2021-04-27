@@ -1,8 +1,8 @@
 import { ContactFormValues } from './../../contact/hooks/useContactForm'
 import { ServiceItem, ServiceItemType } from './../ServiceItem'
-import { useRouter } from 'next/dist/client/router'
 import { FormikErrors, useFormik } from 'formik'
 import { emailIsValid } from '../../../../services/misc'
+import axios from 'redaxios'
 
 export interface ServicesFormValues extends ContactFormValues {
 	checked: ServiceItemType[]
@@ -38,8 +38,18 @@ function useServicesForm () {
 		},
 		validate,
 		validateOnChange: false,
-		onSubmit: async (values) => {
-			console.log(values)
+		onSubmit: async (values, { resetForm, setStatus, setFieldError }) => {
+			const res = await axios.post('/api/servicesMessage', { ...values } as ContactFormValues)
+
+			if ( res.data.result ) {
+				resetForm()
+				setStatus('submitted')
+				window.setTimeout(() => {
+					setStatus('default')
+				}, 5000)
+			} else {
+				setFieldError('api', 'Odeslání nebylo úspěšné. Prosím, kontaktujte nás na výše uvedeném emailu.')
+			}
 		}
 	})
 

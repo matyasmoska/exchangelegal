@@ -9,7 +9,7 @@ const HeroSection = () => {
 			<h1 className={c('text-6xl font-bold leading-snug', 'md:text-4xl')}>
 				Praktické řešení na míru vaší AML povinnosti
 			</h1>
-			<p className="text-lg">
+			<p className="text-lg text-justify">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam adipisci natus amet magni dolorum
 				possimus provident autem illo, eum tempore nisi magnam quibusdam ducimus expedita suscipit aut modi
 				aspernatur? Impedit?

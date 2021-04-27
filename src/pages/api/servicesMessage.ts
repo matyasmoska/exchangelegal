@@ -1,8 +1,9 @@
+import { ServicesFormValues } from './../../components/Pages/services/hooks/useServicesForm';
 import { ContactFormValues } from './../../components/Pages/contact/hooks/useContactForm';
 import { NextApiRequest, NextApiResponse } from "next"
 import nodemailer from "nodemailer";
 
-async function sendMail( { firstName, lastName, message, email, phone }: ContactFormValues ) {
+async function sendMail( { firstName, lastName, message, email, phone, checked }: ServicesFormValues ) {
     let transporter = nodemailer.createTransport({
       host: "smtp.gmail.com",
       port: 587,
@@ -16,7 +17,7 @@ async function sendMail( { firstName, lastName, message, email, phone }: Contact
     await transporter.sendMail({
       from: email,
       to: process.env.SMTP_USER,
-      subject: `[AMLSOLUTIONS.cz Kontaktní formulář] Nová zpráva od ${firstName} ${lastName}`,
+      subject: `[AMLSOLUTIONS.cz Kontaktní formulář se službami] Nová zpráva od ${firstName} ${lastName}`,
       html:
       `
         <div>
@@ -28,12 +29,16 @@ async function sendMail( { firstName, lastName, message, email, phone }: Contact
               <li>Telefonní číslo: <b>${phone}</b></li>
             </ul>
           </div>
+          <h3>Vybrané služby:</h3>
+          <ul>
+            ${ checked.map((item) => `<li>${item.name}</li>`).join(' ') }
+          </ul>
           <h3>Zpráva:</h3>
           <p>
             ${message}
           </p>
         </div>
-      `,
+      `
     });
 }
 

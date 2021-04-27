@@ -9,6 +9,7 @@ import { NewsItem } from '../typings'
 import PartnersSection from '../components/Pages/index/PartnersSection'
 import { c } from '../services/misc'
 import Image from 'next/image'
+import { Fade } from 'react-awesome-reveal'
 
 const Home: NextPage<{ news: NewsItem[] }> = ({ news }) => {
 	return (
@@ -17,19 +18,29 @@ const Home: NextPage<{ news: NewsItem[] }> = ({ news }) => {
 				<div className="absolute top-0 z-20 w-full py-3 text-center bg-white text-dark-blue bg-opacity-70">
 					<span className="font-bold">1. Ledna 2021 - Nabytí zástavního práva</span>
 				</div>
-				<div
-					className={c("relative w-full h-screen bg-cover px-36 pt-36", '3xl:px-28', 'md:px-5 md:pt-24')}
-				>
-					<Image src={'/images/background.png'} priority className="absolute top-0 left-0 z-0" layout="fill" objectFit="cover" />
-					<div className={c(
-						"absolute top-0 left-0 z-10 w-full h-full from-dark-blue via-[#021C62A6] bg-gradient-to-r to-transparent",
-						'md:to-dark-blue md:opacity-80'
-					)} />
+				<div className={c('relative w-full h-screen bg-cover px-36 pt-36', '3xl:px-28', 'md:px-5 md:pt-24')}>
+					<Image
+						src={'/images/background.png'}
+						priority
+						className="absolute top-0 left-0 z-0"
+						layout="fill"
+						objectFit="cover"
+					/>
+					<div
+						className={c(
+							'absolute top-0 left-0 z-10 w-full h-full from-dark-blue via-[#021C62A6] bg-gradient-to-r to-transparent',
+							'md:to-dark-blue md:opacity-80'
+						)}
+					/>
 					<HeroSection />
 				</div>
 				<NewsSection news={news} />
-				<ContactSection />
-				<PartnersSection />
+				<Fade direction={'up'} triggerOnce>
+					<ContactSection />
+				</Fade>
+				<Fade direction={'up'} cascade triggerOnce>
+					<PartnersSection />
+				</Fade>
 			</div>
 		</DefaultLayout>
 	)

@@ -16,6 +16,7 @@ export default function CalculatorPage () {
 							width={950}
 							height={980}
 							layout="responsive"
+							objectFit="cover"
 							className="z-10"
 							quality={85}
 							src={'/images/whatisaml.png'}
@@ -23,7 +24,7 @@ export default function CalculatorPage () {
 						<div className="absolute top-0 left-0 w-full h-full transition transform bg-gray-400 animate-pulse" />
 					</div>
 				</div>
-				<div className={c('px-12 space-y-8', '2xl:py-16', 'md:py-6 md:pb-16')}>
+				<div className={c('px-12 space-y-8 text-justify', '2xl:py-16', 'md:py-6 md:pb-16')}>
 					<h1 className="text-5xl font-bold">Co je to AML?</h1>
 					<p>
 						AML je zkratka anglického "Anti Money Laundering" a používá se v souvislosti s opatřeními, které

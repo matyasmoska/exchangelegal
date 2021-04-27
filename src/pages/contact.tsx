@@ -24,7 +24,7 @@ export default function Contact () {
 					<div className="space-y-8">
 						<div className={c('space-y-2.5 w-4/6', 'md:w-full')}>
 							<h2 className="text-3xl font-bold">Kontakty</h2>
-							<p>
+							<p className="text-justify">
 								Je součástí systému vnitřních zásad. Správné nastavení hodnocení rizik “na míru” je
 								nezbytným předpokladem k tomu, aby AML povinnosti byly řádně plněna a případná kontrola
 								skončila bez nálezu.

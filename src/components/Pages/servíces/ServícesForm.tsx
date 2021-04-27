@@ -1,6 +1,7 @@
 import React, { FC } from 'react'
 import { c } from '../../../services/misc'
 import Checkbox from '../../Forms/Checkbox'
+import ErrorMessage from '../../Forms/ErrorMessage'
 import PhoneTextInput from '../../Forms/PhoneTextInput'
 import TextArea from '../../Forms/TextArea'
 import TextInput from '../../Forms/TextInput'
@@ -55,7 +56,7 @@ const ServicesForm: FC<{ form: any }> = ({ form }) => {
 					label={'Souhlasím se zpracováním osobních údajů'}
 				/>
 			</div>
-			<div className="flex justify-end w-full">
+			<div className="flex flex-col items-end space-y-4 justify-end w-full">
 				<Button
 					onClick={form.handleSubmit}
 					type="basic"
@@ -63,6 +64,8 @@ const ServicesForm: FC<{ form: any }> = ({ form }) => {
 				>
 					Nezávazně poptat
 				</Button>
+				{ (form.errors as any).api && <ErrorMessage id="api" >{ (form.errors as any).api }</ErrorMessage> }
+				{ form.status === 'submitted' && <span className="text-green-600">Odeslání proběhlo úspěšně. Děkujeme!</span>}
 			</div>
 		</form>
 	)

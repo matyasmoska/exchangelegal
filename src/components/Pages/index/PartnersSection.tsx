@@ -1,4 +1,5 @@
-import { FC } from "react";
+import React, { FC } from "react";
+import { Fade } from "react-awesome-reveal";
 import { c } from "../../../services/misc";
 
 const PartnersSection: FC = () => {
@@ -6,9 +7,11 @@ const PartnersSection: FC = () => {
         <div className={c("w-full space-y-32 my-36 px-36", "md:px-8 md:py-16")}>
             <h2 className="text-4xl font-bold text-center">Hlavní Partneři</h2>
             <div className={c("flex justify-center space-x-32", 'md:flex-col md:space-x-0 md:space-y-16')}>
-                <img className="w-72" src={'/images/google.png'}  />
-                <img className="w-72" src={'/images/google.png'}  />
-                <img className="w-72" src={'/images/google.png'}  />
+                <Fade damping={0.5} duration={500} cascade triggerOnce>
+                    <img className="w-72" src={'/images/google.png'}  />
+                    <img className="w-72" src={'/images/google.png'}  />
+                    <img className="w-72" src={'/images/google.png'}  />
+                </Fade>
             </div>
         </div>
 

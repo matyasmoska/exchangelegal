@@ -31,11 +31,18 @@ function useContactForm() {
 		initialValues: { firstName: '', lastName: '', email: '', phone: '', message: '', personalDataAgreement: false, marketingAgreement: false },
 		validate,
 		validateOnChange: false,
-		onSubmit: async (values, { resetForm }) => {
+		onSubmit: async (values, { resetForm, setStatus, setFieldError }) => {
 			const res = await axios.post('/api/message', { ...values } as ContactFormValues)
-			
-			resetForm()
-			console.log('RESULT', res)
+
+			if ( res.data.result ) {
+				resetForm()
+				setStatus('submitted')
+				window.setTimeout(() => {
+					setStatus('default')
+				}, 5000)
+			} else {
+				setFieldError('api', 'Odeslání nebylo úspěšné. Prosím, kontaktujte nás na výše uvedeném emailu.')
+			}
 		}
 	})
 
