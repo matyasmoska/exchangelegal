@@ -11,15 +11,49 @@ import Image from 'next/image'
 import ReadingTime from "../../components/Pages/news/ReadingTime";
 import NewsPreviewItem from "../../components/Pages/news/NewsPreviewItem";
 import { useMediaQueries } from "../../hooks/useMediaQueries";
+import { INLINES } from '@contentful/rich-text-types'
 
 interface PostDetailPageProps {
     news: NewsItem[]
     newsItem: NewsItem
 }
 
+let options = {
+    renderNode: {
+        'embedded-asset-block': (node: any) => (
+            <div className="relative w-full my-10">
+                <img  className="img-fluid" src={'https:' + node.data.target.fields.file.url} />
+            </div>
+        ),
+        [INLINES.HYPERLINK]: (node: any) => {
+            if (node.data.uri.indexOf('youtube.com') !== -1) {
+                return (
+                    <div className="video">
+                        <iframe
+                            id="ytplayer"
+                            width="100%"
+                            height="480"
+                            src={node.data.uri}
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture ; fullscreen"
+                        />
+                    </div>
+                );
+            } else {
+                return (
+                    <a href={node.data.uri}>
+                        {node.content[0].value}
+                    </a>
+                );
+            }
+        }
+    }
+}
+
 const PostDetailPage: NextPage<PostDetailPageProps> = ({ news, newsItem }) => {
     const stats = useMemo(() => readingTime(documentToPlainTextString(newsItem.text)), [newsItem]);
     const { isMd, isLg } = useMediaQueries()
+    console.log('NEWS ITEM', newsItem)
 
     return (
         <DefaultLayout>
@@ -40,7 +74,7 @@ const PostDetailPage: NextPage<PostDetailPageProps> = ({ news, newsItem }) => {
                                 <ReadingTime stats={stats} />
                             </div>
                             <article className="space-y-8 prose text-justify max-w-none">
-                                { documentToReactComponents(newsItem.text) }
+                                { documentToReactComponents(newsItem.text, options) }
                             </article>
                         </div>
                     </div>

@@ -18,6 +18,7 @@ const NavItems = () => {
 		<Fragment>
 			<NavItem href={'/news'}>Aktuality</NavItem>
 			<NavItem href={'/services'}>Naše služby</NavItem>
+			<NavItem href={'/whatisaml'}>Co je AML?</NavItem>
 			{/* <NavItem href={'/calculator'}>Cenový kalkulátor</NavItem> */}
 			<NavItem href={'/about'}>O nás</NavItem>
 			<NavItem href={'/contact'}>Kontakty</NavItem>
