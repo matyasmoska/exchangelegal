@@ -27,7 +27,9 @@ const MainNewsItem: FC<{ newsItem: NewsItem }> = ({ newsItem }) => {
 				<div className="absolute top-0 left-0 w-full h-full transition transform bg-gray-400 animate-pulse" />
 			</div>
 			<div className="flex flex-col space-y-6 text-left">
-				<h1 className={c('text-4xl font-bold', 'md:text-2xl md:text-center')}>{newsItem.name}</h1>
+				<Link href={'/news/' + newsItem.slug}>
+					<h1 className={c('text-4xl font-bold', 'md:text-2xl md:text-center')}>{newsItem.name}</h1>
+				</Link>
 				<div className={c('flex items-center space-x-12', 'md:justify-center')}>
 					<span className={c('md:text-lg')}>{dateStringToDateFormat(newsItem.date)}</span>
 					<ReadingTime stats={stats} />
