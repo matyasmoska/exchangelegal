@@ -4,6 +4,7 @@ import Logo from './Logo'
 import NavItem from './NavItem'
 import { AnimatePresence, motion as m } from 'framer-motion'
 import { opacityAnimation } from '../../animations/navigation'
+import pageData from '../../data/navigation.json'
 
 const HamburgerIcon: FC<{ sidebarOpen: boolean }> = ({ sidebarOpen }) => {
 	return (
@@ -16,12 +17,12 @@ const HamburgerIcon: FC<{ sidebarOpen: boolean }> = ({ sidebarOpen }) => {
 const NavItems = () => {
 	return (
 		<Fragment>
-			<NavItem href={'/news'}>Aktuality</NavItem>
-			<NavItem href={'/services'}>Naše služby</NavItem>
-			<NavItem href={'/whatisaml'}>Co je AML?</NavItem>
+			<NavItem href={'/news'}>{pageData.news}</NavItem>
+			<NavItem href={'/services'}>{pageData.services}</NavItem>
+			<NavItem href={'/whatisaml'}>{pageData.whatisaml}</NavItem>
 			{/* <NavItem href={'/calculator'}>Cenový kalkulátor</NavItem> */}
-			<NavItem href={'/about'}>O nás</NavItem>
-			<NavItem href={'/contact'}>Kontakty</NavItem>
+			<NavItem href={'/about'}>{pageData.about}</NavItem>
+			<NavItem href={'/contact'}>{pageData.contact}</NavItem>
 		</Fragment>
 	)
 }

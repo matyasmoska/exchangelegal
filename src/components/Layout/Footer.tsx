@@ -3,6 +3,8 @@ import React from 'react'
 import { c } from '../../services/misc'
 import { LogoWhite } from '../Layout/Logo'
 import { FacebookIcon, LinkedInIcon, TwitterIcon } from './Icons'
+import pageData from '../../data/navigation.json'
+import contactPageData from '../../data/contact.json'
 
 const Footer = () => {
 	return (
@@ -29,48 +31,48 @@ const Footer = () => {
 					<h3 className="text-xl font-bold">Menu</h3>
 					<div className="flex flex-col space-y-4">
 						<Link href="/obligations">
-							<a className="hover:underline">AML Povinnosti</a>
+							<a className="hover:underline">{pageData.obligations}</a>
 						</Link>
 						<Link href="/whatisaml">
-							<a className="hover:underline">Co je AML?</a>
+							<a className="hover:underline">{pageData.whatisaml}</a>
 						</Link>
 						<Link href="/services">
-							<a className="hover:underline">Služby</a>
+							<a className="hover:underline">{pageData.services}</a>
 						</Link>
 						<Link href="/about">
-							<a className="hover:underline">O nás</a>
+							<a className="hover:underline">{pageData.whatisaml}</a>
 						</Link>
 						<Link href="/faq">
-							<a className="hover:underline">Často kladené dotazy</a>
+							<a className="hover:underline">{pageData.faq}</a>
 						</Link>
 					</div>
 				</div>
 				<div className="space-y-10">
 					<h3 className="text-xl font-bold">Kontakty</h3>
 					<div className="flex flex-col space-y-3">
-						<p className="font-bold">AML Solutions s.r.o</p>
-						<p>Vršovická 896/32, Vršovice</p>
-						<p>100 01 Praha</p>
+						<p className="font-bold">{contactPageData.address.firstLine}</p>
+						<p>{contactPageData.address.secondLine}</p>
+						<p>{contactPageData.address.thirdLine}</p>
 					</div>
 					<div className="flex flex-col space-y-3">
-						<a href="tel:123123123" className="hover:underline">
-							+420 123 123 123
+						<a href={"tel:" + contactPageData.phoneNumber} className="hover:underline">
+							{contactPageData.phoneNumber}
 						</a>
-						<a href="mail:info@amlsolutions.com" className="hover:underline">
-							info@amlsolutions.com
+						<a href={`mail:${contactPageData.email}`} className="hover:underline">
+							{contactPageData.email}
 						</a>
 					</div>
 				</div>
 				<div className="space-y-10">
 					<h3 className="text-xl font-bold">Sledujte nás</h3>
 					<div className={c('flex space-x-4 text-white', 'md:text-center md:justify-center')}>
-						<a href={'https://facebook.com'} aria-label="Facebook Link">
+						<a href={contactPageData.links.facebook} aria-label="Facebook Link">
 							<FacebookIcon className="fill-current w-7 h-7" />
 						</a>
-						<a href={'https://facebook.com'} aria-label="Twitter Link">
+						<a href={contactPageData.links.twitter} aria-label="Twitter Link">
 							<TwitterIcon className="fill-current w-7 h-7" />
 						</a>
-						<a href={'https://facebook.com'} aria-label="Linked In Link">
+						<a href={contactPageData.links.linkedIn} aria-label="Linked In Link">
 							<LinkedInIcon className="fill-current w-7 h-7" />
 						</a>
 					</div>

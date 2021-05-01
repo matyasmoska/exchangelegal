@@ -4,6 +4,8 @@ import { PhoneIcon, MessageIcon, FacebookIcon, TwitterIcon, LinkedInIcon } from 
 import { WrappedIconRow, IconRow } from '../components/Layout/Icon'
 import ContactForm from '../components/Pages/contact/ContactForm'
 import { c } from '../services/misc'
+import contactPageData from '../data/contact.json'
+import pageData from '../data/pages/contact.json'
 
 export default function Contact () {
 	return (
@@ -23,36 +25,34 @@ export default function Contact () {
 				<div className={c('w-5/6 p-16 space-y-8', '2xl:p-10 2xl:px-8', 'md:p-8 md:w-full')}>
 					<div className="space-y-8">
 						<div className={c('space-y-2.5 w-4/6', 'md:w-full')}>
-							<h2 className="text-3xl font-bold">Kontakty</h2>
+							<h2 className="text-3xl font-bold">{pageData.header}</h2>
 							<p className="text-justify">
-								Je součástí systému vnitřních zásad. Správné nastavení hodnocení rizik “na míru” je
-								nezbytným předpokladem k tomu, aby AML povinnosti byly řádně plněna a případná kontrola
-								skončila bez nálezu.
+								{pageData.description}
 							</p>
 						</div>
 						<div className={c('space-y-2.5 w-4/6', 'md:w-full')}>
-							<p className="font-bold">AML Solutions s.r.o</p>
-							<p>Vršovická 896/32, Vršovice</p>
-							<p>100 01 Praha</p>
+							<p className="font-bold">{contactPageData.address.firstLine}</p>
+							<p>{contactPageData.address.secondLine}</p>
+							<p>{contactPageData.address.thirdLine}</p>
 						</div>
 						<div className={c('space-y-2.5 w-4/6', 'md:w-full')}>
-							<WrappedIconRow Icon={PhoneIcon} href="tel:607172067">
-								123 123 123
+							<WrappedIconRow Icon={PhoneIcon} href={`tel:${contactPageData.phoneNumber}`}>
+								{contactPageData.phoneNumber}
 							</WrappedIconRow>
-							<WrappedIconRow Icon={MessageIcon} href="mail:info@amlsolutions.cz">
-								info@amlsolutions.cz
+							<WrappedIconRow Icon={MessageIcon} href={`mail:${contactPageData.email}`}>
+								{contactPageData.email}
 							</WrappedIconRow>
 						</div>
 						<div className="flex flex-col space-y-2.5 w-4/6 text-dark-blue">
-							<IconRow href="https://facebook.com" Icon={FacebookIcon}>
-								Facebook
-							</IconRow>
-							<IconRow href="https://facebook.com" Icon={TwitterIcon}>
-								Twitter
-							</IconRow>
-							<IconRow href="https://facebook.com" Icon={LinkedInIcon}>
-								Linked In
-							</IconRow>
+							<a href={contactPageData.links.facebook} aria-label="Facebook Link">
+								<FacebookIcon className="fill-current w-7 h-7" />
+							</a>
+							<a href={contactPageData.links.twitter} aria-label="Twitter Link">
+								<TwitterIcon className="fill-current w-7 h-7" />
+							</a>
+							<a href={contactPageData.links.linkedIn} aria-label="Linked In Link">
+								<LinkedInIcon className="fill-current w-7 h-7" />
+							</a>
 						</div>
 					</div>
 					<ContactForm />
