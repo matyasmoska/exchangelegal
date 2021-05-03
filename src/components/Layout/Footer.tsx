@@ -41,7 +41,7 @@ const Footer = () => {
 							<a className="hover:underline">{pageData.services}</a>
 						</Link>
 						<Link href="/about">
-							<a className="hover:underline">{pageData.whatisaml}</a>
+							<a className="hover:underline">{pageData.about}</a>
 						</Link>
 						<Link href="/faq">
 							<a className="hover:underline">{pageData.faq}</a>
