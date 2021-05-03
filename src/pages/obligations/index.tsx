@@ -25,7 +25,7 @@ export default function Obligations () {
 				</div>
 				<form
 					className={c(
-						'grid grid-rows-[8] grid-cols-2 gap-2 px-28 pb-16 pt-12',
+						'grid grid-rows-[8] grid-cols-2 gap-2.5 px-28 pb-16 pt-12',
 						'md:flex md:flex-col md:space-y-2 md:px-0 md:pt-0 md:pb-8'
 					)}
 				>

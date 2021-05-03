@@ -13,7 +13,7 @@ export default function NewsPage({ news }: { news: NewsItem[] }) {
       <div className={c("p-36 space-y-28", "md:px-4 md:space-y-6 md:py-4")}>
         <MainNewsItem newsItem={news[0]} />
 
-        <div className={c("grid grid-cols-3 gap-12", "md:flex md:flex-col md:space-y-8 md:text-center md:gap-0 md:pb-8")}>
+        <div className={c("grid grid-cols-3 gap-16", "md:flex md:flex-col md:space-y-16 md:text-center md:gap-0 md:pb-8")}>
           {news.slice(1).map((item: NewsItem) => <NewsPreviewItem key={item.name} newsItem={item} />)}
         </div>
       </div>

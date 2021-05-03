@@ -28,7 +28,7 @@ function useContactForm() {
 	}
 
 	const formik = useFormik<ContactFormValues>({
-		initialValues: { firstName: '', lastName: '', email: '', phone: '', message: '', personalDataAgreement: false, marketingAgreement: false },
+		initialValues: { firstName: '', lastName: '', email: '', phone: '', message: '', personalDataAgreement: false, marketingAgreement: true },
 		validate,
 		validateOnChange: false,
 		onSubmit: async (values, { resetForm, setStatus, setFieldError }) => {

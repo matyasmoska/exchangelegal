@@ -21,7 +21,7 @@ const Checkbox: FC<CheckboxProps> = ({ form, isChecked, id, label, className = '
 			<label className={`flex items-center ${className}`}>
 				<input
 					type="checkbox"
-					className="w-5 h-5 border cursor-pointer text-dark-blue"
+					className="w-5 h-5 border cursor-pointer text-dark-blue border-dark-blue"
 					onChange={(e) => onChange(e)}
 					value={label}
 					name={id}

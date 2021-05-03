@@ -18,7 +18,7 @@ export const NewsPreviewItem: FC<{ newsItem: NewsItem }> = ({ newsItem }) => {
 						<span>{dateStringToDateFormat(newsItem.date)}</span>
 						<ReadingTime stats={stats} />
 		        	</div>
-					<h3 className="text-3xl font-bold">{newsItem.name}</h3>
+					<h3 className={c("text-3xl font-bold", "md:text-2xl")}>{newsItem.name}</h3>
 				</div>
 			</Link>
 			<p className="md:hidden">{newsItem.previewText}</p>

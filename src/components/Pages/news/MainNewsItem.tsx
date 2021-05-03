@@ -28,7 +28,7 @@ const MainNewsItem: FC<{ newsItem: NewsItem }> = ({ newsItem }) => {
 			</div>
 			<div className="flex flex-col space-y-6 text-left">
 				<Link href={'/news/' + newsItem.slug}>
-					<h1 className={c('text-4xl font-bold', 'md:text-2xl md:text-center')}>{newsItem.name}</h1>
+					<h1 className={c('text-3xl font-bold', 'md:text-2xl md:text-center')}>{newsItem.name}</h1>
 				</Link>
 				<div className={c('flex items-center space-x-12', 'md:justify-center')}>
 					<span className={c('md:text-lg')}>{dateStringToDateFormat(newsItem.date)}</span>

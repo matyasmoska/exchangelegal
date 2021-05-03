@@ -14,18 +14,16 @@ const SelectedServicesList: FC<{ form: FormikProps<ServicesFormValues> }> = ({ f
 				{form.values.checked.length ? (
 					<React.Fragment>
 						<div className="flex flex-col space-y-3">
-							{form.values.checked.map((item) => {
-								return (
-									<m.div key={item.name} layout className="flex items-center justify-between">
-										<span className="font-bold">{item.name}</span>
-										<span>{`${ns(item.price)},- Kč`}</span>
-									</m.div>
-								)
-							})}
+							{form.values.checked.map((item) => (
+								<m.div key={item.name} layout className="flex items-center justify-between">
+									<span className="font-bold">{item.name}</span>
+									<span>{`${ns(item.price)},- Kč`}</span>
+								</m.div>
+							))}
 						</div>
 						<hr />
 						<m.div layout className="flex items-center justify-between">
-							<p className="text-sm">Celkem</p>
+							<p>Celkem</p>
 							<p className={c('text-2xl font-bold text-orange-primary', 'text-xl')}>{`${ns(
 								price
 							)},- Kč`}</p>

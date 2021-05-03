@@ -34,7 +34,7 @@ function useServicesForm () {
 			phone: '',
 			message: '',
 			personalDataAgreement: false,
-			marketingAgreement: false
+			marketingAgreement:  true
 		},
 		validate,
 		validateOnChange: false,
