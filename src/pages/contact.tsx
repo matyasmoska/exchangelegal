@@ -44,14 +44,17 @@ export default function Contact () {
 							</WrappedIconRow>
 						</div>
 						<div className="flex flex-col space-y-2.5 w-4/6 text-dark-blue">
-							<a href={contactPageData.links.facebook} aria-label="Facebook Link">
+							<a href={contactPageData.links.facebook} className="flex items-center space-x-3" aria-label="Facebook Link">
 								<FacebookIcon className="fill-current w-7 h-7" />
+								<span>Facebook</span>
 							</a>
-							<a href={contactPageData.links.twitter} aria-label="Twitter Link">
+							<a href={contactPageData.links.twitter} className="flex items-center space-x-3" aria-label="Twitter Link">
 								<TwitterIcon className="fill-current w-7 h-7" />
+								<span>Twitter</span>
 							</a>
-							<a href={contactPageData.links.linkedIn} aria-label="Linked In Link">
+							<a href={contactPageData.links.linkedIn} className="flex items-center space-x-3" aria-label="Linked In Link">
 								<LinkedInIcon className="fill-current w-7 h-7" />
+								<span>Linked In</span>
 							</a>
 						</div>
 					</div>

@@ -3,10 +3,11 @@ import { NextApiRequest, NextApiResponse } from "next"
 import nodemailer from "nodemailer";
 
 async function sendMail( { firstName, lastName, message, email, phone }: ContactFormValues ) {
+    console.log(process.env.SMTP_SERVER)
     let transporter = nodemailer.createTransport({
-      host: "smtp.gmail.com",
-      port: 587,
-      secure: false,
+      host: process.env.SMTP_SERVER,
+      port: 465,
+      secure: true,
       auth: {
           user: process.env.SMTP_USER,
           pass: process.env.SMTP_PASSWORD
@@ -15,7 +16,7 @@ async function sendMail( { firstName, lastName, message, email, phone }: Contact
   
     await transporter.sendMail({
       from: email,
-      to: process.env.SMTP_USER,
+      to: process.env.SEND_TO_EMAIL,
       subject: `[AMLSOLUTIONS.cz Kontaktní formulář] Nová zpráva od ${firstName} ${lastName}`,
       html:
       `
