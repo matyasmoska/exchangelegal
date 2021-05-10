@@ -18,7 +18,7 @@ const Footer = () => {
 		>
 			<div className="self-start space-y-3">
 				<LogoWhite />
-				<p>2021 by AML Solutions. Všechna práva vyhrazena.</p>
+				<p>{contactPageData.allRightsReserved}</p>
 				<img src="/images/crypto_white.svg" className={c("w-4/5 pt-2", 'md:mx-auto')} />
 			</div>
 			<div

@@ -2,6 +2,7 @@ import React from 'react'
 import { c } from '../../../services/misc'
 import { WrappedIconRow, IconRow } from '../../Layout/Icon'
 import { PhoneIcon, MessageIcon, FacebookIcon, TwitterIcon, LinkedInIcon } from '../../Layout/Icons'
+import contactPageData from '../../../data/contact.json'
 
 const ContactSection = () => {
 	return (
@@ -22,26 +23,26 @@ const ContactSection = () => {
 					</p>
 				</div>
 				<div className={c('space-y-2.5 w-4/6', 'md:w-full')}>
-					<p className="font-bold">AML Solutions s.r.o</p>
-					<p>Vršovická 896/32, Vršovice</p>
-					<p>100 01 Praha</p>
+					<p className="font-bold">{contactPageData.address.firstLine}</p>
+					<p>{contactPageData.address.secondLine}</p>
+					<p>{contactPageData.address.thirdLine}</p>
 				</div>
 				<div className={c('space-y-2.5 w-4/6', 'md:w-full')}>
-					<WrappedIconRow Icon={PhoneIcon} href="tel:607172067">
-						123 123 123
+					<WrappedIconRow Icon={PhoneIcon} href={`tel:${contactPageData.phoneNumber}`}>
+						{contactPageData.phoneNumber}
 					</WrappedIconRow>
-					<WrappedIconRow Icon={MessageIcon} href="mail:info@amlsolutions.cz">
-						info@amlsolutions.cz
+					<WrappedIconRow Icon={MessageIcon} href={`mail:${contactPageData.email}`}>
+						{contactPageData.email}
 					</WrappedIconRow>
 				</div>
 				<div className={c('space-y-2.5 w-4/6 flex flex-col', 'md:w-full')}>
-					<IconRow href="https://facebook.com" Icon={FacebookIcon}>
+					<IconRow href={contactPageData.links.facebook} Icon={FacebookIcon}>
 						Facebook
 					</IconRow>
-					<IconRow href="https://facebook.com" Icon={TwitterIcon}>
+					<IconRow href={contactPageData.links.twitter} Icon={TwitterIcon}>
 						Twitter
 					</IconRow>
-					<IconRow href="https://facebook.com" Icon={LinkedInIcon}>
+					<IconRow href={contactPageData.links.linkedIn} Icon={LinkedInIcon}>
 						Linked In
 					</IconRow>
 				</div>
