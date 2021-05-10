@@ -53,7 +53,6 @@ let options = {
 const PostDetailPage: NextPage<PostDetailPageProps> = ({ news, newsItem }) => {
     const stats = useMemo(() => readingTime(documentToPlainTextString(newsItem.text)), [newsItem]);
     const { isMd, isLg } = useMediaQueries()
-    console.log('NEWS ITEM', newsItem)
 
     return (
         <DefaultLayout>
@@ -80,7 +79,7 @@ const PostDetailPage: NextPage<PostDetailPageProps> = ({ news, newsItem }) => {
                     </div>
                     <div className={c("flex flex-col space-y-28", 'md:space-y-8 md:text-center')}>
                         { news.filter( item => item.slug !== newsItem.slug ).map(item => (
-                            <NewsPreviewItem newsItem={item} />
+                            <NewsPreviewItem key={item.slug} newsItem={item} />
                         ))}
                     </div>
                 </div>

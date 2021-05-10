@@ -60,15 +60,15 @@ export default function AboutPage () {
 						)}
 					>
 						{pageData.people.map((member: TeamMember) => (
-							<Fade direction={'up'} className="team-member" triggerOnce duration={800}>
-								<TeamMemberDetail key={member.name} member={member} />
+							<Fade key={member.name} direction={'up'} className="team-member" triggerOnce duration={800}>
+								<TeamMemberDetail member={member} />
 							</Fade>
 						))}
 					</div>
 					<div className={c('flex flex-col space-y-20', 'md:px-8')}>
 						<h1 className="text-3xl font-bold">Řekli o nás</h1>
 						{pageData.references.map((reference: Reference) => (
-							<Fade direction={'up'} className="team-member" triggerOnce duration={800}>
+							<Fade key={reference.who} direction={'up'} className="team-member" triggerOnce duration={800}>
 								<ReferenceDetail reference={reference} />
 							</Fade>
 						))}

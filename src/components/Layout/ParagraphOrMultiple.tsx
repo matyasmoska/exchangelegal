@@ -4,7 +4,7 @@ const ParagraphOrMultiple: FC<{ text: string | string[]; className?: string }> =
 	return (
 		<>
 			{Array.isArray(text) ? (
-				text.map((desc: string) => <p className={className}>{desc}</p>)
+				text.map((desc: string) => <p key={desc} className={className}>{desc}</p>)
 			) : (
 				<p className={className}>{text}</p>
 			)}

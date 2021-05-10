@@ -1,4 +1,4 @@
-import React, { FC, Fragment, useState } from 'react'
+import React, { FC, Fragment, useEffect, useState } from 'react'
 import { c } from '../../services/misc'
 import Logo from './Logo'
 import NavItem from './NavItem'
@@ -29,6 +29,11 @@ const NavItems = () => {
 
 const Navigation = () => {
 	const [ sidebarOpen, setSidebarOpen ] = useState<boolean>(false)
+
+	useEffect(() => {
+		if ( sidebarOpen ) document.body.classList.add('overflow-hidden') 
+		else document.body.classList.remove('overflow-hidden')
+	}, [sidebarOpen])
 
 	return (
 		<div
