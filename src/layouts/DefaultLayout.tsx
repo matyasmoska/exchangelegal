@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import React, { FC } from "react";
+import React, { FC, useEffect } from "react";
 import Footer from '../components/Layout/Footer';
 import Navigation from '../components/Layout/Navigation';
 import SEO from '../components/Layout/SEO';
