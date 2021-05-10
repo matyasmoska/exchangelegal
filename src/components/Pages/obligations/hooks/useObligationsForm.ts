@@ -18,8 +18,8 @@ function useObligationsForm() {
 
 	const formik = useFormik<ObligationsFormValues>({
 		initialValues: { checked: [] },
-		// validate,
-		// validateOnChange: false,
+		validate,
+		validateOnChange: false,
 		onSubmit: async ({ checked }) => {
 			if ( checked.length ) {
 				router.push('/obligations/success')

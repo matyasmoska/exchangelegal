@@ -14,7 +14,7 @@
         },
         {
             "name": "Systém identifikace klienta",
-            "description": "Postupy při získávání a vyhodnocování  identifikačních údajů klienta, případně dalších osob zúčastněných na obchodu. Zahrnuje i identifikaci politicky exponovaných osob, osob dotčených mezinárodními sankcemi apod.",
+            "description": "Postupy při získávání a vyhodnocování identifikačních údajů klienta, případně dalších osob zúčastněných na obchodu. Zahrnuje i identifikaci politicky exponovaných osob, osob dotčených mezinárodními sankcemi apod.",
             "price": 19000,
             "icon": "/images/serviceIcons/system_identifikace_klienta.svg"
         },
