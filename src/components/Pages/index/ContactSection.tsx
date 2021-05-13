@@ -8,7 +8,7 @@ const ContactSection = () => {
 	return (
 		<div
 			className={c(
-				'flex justify-between w-full my-64 space-x-12',
+				'flex justify-between w-full mt-52 space-x-12',
 				'3xl:space-x-8',
 				'md:flex-col md:space-x-0 md:space-y-12 md:my-16'
 			)}

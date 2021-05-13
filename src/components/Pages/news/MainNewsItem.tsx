@@ -12,13 +12,11 @@ const MainNewsItem: FC<{ newsItem: NewsItem }> = ({ newsItem }) => {
 	const stats = useMemo(() => readingTime(documentToPlainTextString(newsItem.text)), [ newsItem ])
 
 	return (
-		<div className={c('grid grid-cols-2 gap-8 space-x-4', 'md:flex md:flex-col md:space-x-0 md:space-y-4')}>
+		<div className={c('grid grid-cols-2 gap-8', 'md:flex md:flex-col md:space-x-0 md:space-y-4')}>
 			<div className="relative">
 				<Image
-					width={802}
-					height={433}
 					className="z-10"
-					layout="responsive"
+					layout="fill"
 					objectFit="cover"
 					quality={90}
 					priority
@@ -26,15 +24,17 @@ const MainNewsItem: FC<{ newsItem: NewsItem }> = ({ newsItem }) => {
 				/>
 				<div className="absolute top-0 left-0 w-full h-full transition transform bg-gray-400 animate-pulse" />
 			</div>
-			<div className="flex flex-col space-y-6 text-left">
-				<Link href={'/news/' + newsItem.slug}>
-					<h1 className={c('text-3xl font-bold', 'md:text-2xl md:text-center')}>{newsItem.name}</h1>
-				</Link>
-				<div className={c('flex items-center space-x-12', 'md:justify-center')}>
-					<span className={c('md:text-lg')}>{dateStringToDateFormat(newsItem.date)}</span>
-					<ReadingTime stats={stats} />
+			<div className="flex flex-col space-y-12 text-left">
+				<div className="flex flex-col space-y-4">
+					<Link href={'/news/' + newsItem.slug}>
+						<h1 className={c('text-[40px] leading-tight font-bold', 'xl:text-3xl', 'md:text-2xl md:text-center')}>{newsItem.name}</h1>
+					</Link>
+					<div className={c('flex items-center space-x-12', 'md:justify-center')}>
+						<span className={c('md:text-lg')}>{dateStringToDateFormat(newsItem.date)}</span>
+						<ReadingTime stats={stats} />
+					</div>
+					<p className="text-justify">{newsItem.previewText}</p>
 				</div>
-				<p className="text-justify">{newsItem.previewText}</p>
 				<div className={c('flex', 'md:justify-center')}>
 					<Link href={'/news/' + newsItem.slug}>
 						<Button type="basic" className="float-left px-20 py-2.5 text-white">

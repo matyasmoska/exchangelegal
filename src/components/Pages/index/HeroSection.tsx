@@ -8,7 +8,7 @@ const HeroSection = () => {
 	return (
 		<div className={c('relative z-10 max-w-2xl space-y-14 text-white', 'md:max-w-none md:text-center')}>
 			<div className="flex flex-col space-y-8">
-				<h1 className={c('text-6xl font-bold leading-snug', 'md:text-4xl')}>
+				<h1 className={c('text-6xl font-bold leading-tight', 'md:text-4xl')}>
 					{pageData.title}
 				</h1>
 				<p className="leading-relaxed text-justify">
