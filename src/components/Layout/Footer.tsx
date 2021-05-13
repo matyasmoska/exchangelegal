@@ -4,7 +4,7 @@ import { c } from '../../services/misc'
 import { LogoWhite } from '../Layout/Logo'
 import { FacebookIcon, LinkedInIcon, TwitterIcon } from './Icons'
 import pageData from '../../data/navigation.json'
-import contactPageData from '../../data/contact.json'
+import contactPageData from '../../data/footer.json'
 
 const Footer = () => {
 	return (
@@ -51,29 +51,29 @@ const Footer = () => {
 				<div className="space-y-10">
 					<h3 className="text-xl font-bold">Kontakty</h3>
 					<div className="flex flex-col space-y-3">
-						<p className="font-bold">{contactPageData.address.firstLine}</p>
-						<p>{contactPageData.address.secondLine}</p>
-						<p>{contactPageData.address.thirdLine}</p>
+						<p className="font-bold">{contactPageData.contact.address.firstLine}</p>
+						<p>{contactPageData.contact.address.secondLine}</p>
+						<p>{contactPageData.contact.address.thirdLine}</p>
 					</div>
 					<div className="flex flex-col space-y-3">
-						<a href={"tel:" + contactPageData.phoneNumber} className="hover:underline">
-							{contactPageData.phoneNumber}
+						<a href={"tel:" + contactPageData.contact.phoneNumber} className="hover:underline">
+							{contactPageData.contact.phoneNumber}
 						</a>
-						<a href={`mail:${contactPageData.email}`} className="hover:underline">
-							{contactPageData.email}
+						<a href={`mail:${contactPageData.contact.email}`} className="hover:underline">
+							{contactPageData.contact.email}
 						</a>
 					</div>
 				</div>
 				<div className="space-y-10">
 					<h3 className="text-xl font-bold">Sledujte nás</h3>
 					<div className={c('flex space-x-4 text-white', 'md:text-center md:justify-center')}>
-						<a href={contactPageData.links.facebook} aria-label="Facebook Link">
+						<a href={contactPageData.contact.links.facebook} aria-label="Facebook Link">
 							<FacebookIcon className="fill-current w-7 h-7" />
 						</a>
-						<a href={contactPageData.links.twitter} aria-label="Twitter Link">
+						<a href={contactPageData.contact.links.twitter} aria-label="Twitter Link">
 							<TwitterIcon className="fill-current w-7 h-7" />
 						</a>
-						<a href={contactPageData.links.linkedIn} aria-label="Linked In Link">
+						<a href={contactPageData.contact.links.linkedIn} aria-label="Linked In Link">
 							<LinkedInIcon className="fill-current w-7 h-7" />
 						</a>
 					</div>

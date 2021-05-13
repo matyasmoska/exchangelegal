@@ -2,7 +2,7 @@ import React from 'react'
 import { c } from '../../../services/misc'
 import { WrappedIconRow, IconRow } from '../../Layout/Icon'
 import { PhoneIcon, MessageIcon, FacebookIcon, TwitterIcon, LinkedInIcon } from '../../Layout/Icons'
-import contactPageData from '../../../data/contact.json'
+import contactPageData from '../../../data/pages/index.json'
 
 const ContactSection = () => {
 	return (
@@ -15,34 +15,32 @@ const ContactSection = () => {
 		>
 			<div className={c('pl-32 space-y-8', 'md:px-8')}>
 				<div className={c('space-y-2.5 w-4/6', '2xl:w-5/6', 'md:w-full')}>
-					<h2 className="text-3xl font-bold">Kontakty</h2>
+					<h2 className="text-3xl font-bold">{ contactPageData.contact.header }</h2>
 					<p className="text-justify">
-						Je součástí systému vnitřních zásad. Správné nastavení hodnocení rizik “na míru” je nezbytným
-						předpokladem k tomu, aby AML povinnosti byly řádně plněna a případná kontrola skončila bez
-						nálezu.
+						{ contactPageData.contact.description }
 					</p>
 				</div>
 				<div className={c('space-y-2.5 w-4/6', 'md:w-full')}>
-					<p className="font-bold">{contactPageData.address.firstLine}</p>
-					<p>{contactPageData.address.secondLine}</p>
-					<p>{contactPageData.address.thirdLine}</p>
+					<p className="font-bold">{contactPageData.contact.address.firstLine}</p>
+					<p>{contactPageData.contact.address.secondLine}</p>
+					<p>{contactPageData.contact.address.thirdLine}</p>
 				</div>
 				<div className={c('space-y-2.5 w-4/6', 'md:w-full')}>
-					<WrappedIconRow Icon={PhoneIcon} href={`tel:${contactPageData.phoneNumber}`}>
-						{contactPageData.phoneNumber}
+					<WrappedIconRow Icon={PhoneIcon} href={`tel:${contactPageData.contact.phoneNumberLink}`}>
+						{contactPageData.contact.phoneNumber}
 					</WrappedIconRow>
-					<WrappedIconRow Icon={MessageIcon} href={`mail:${contactPageData.email}`}>
-						{contactPageData.email}
+					<WrappedIconRow Icon={MessageIcon} href={`mail:${contactPageData.contact.emailLink}`}>
+						{contactPageData.contact.email}
 					</WrappedIconRow>
 				</div>
 				<div className={c('space-y-2.5 w-4/6 flex flex-col', 'md:w-full')}>
-					<IconRow href={contactPageData.links.facebook} Icon={FacebookIcon}>
+					<IconRow href={contactPageData.contact.links.facebook} Icon={FacebookIcon}>
 						Facebook
 					</IconRow>
-					<IconRow href={contactPageData.links.twitter} Icon={TwitterIcon}>
+					<IconRow href={contactPageData.contact.links.twitter} Icon={TwitterIcon}>
 						Twitter
 					</IconRow>
-					<IconRow href={contactPageData.links.linkedIn} Icon={LinkedInIcon}>
+					<IconRow href={contactPageData.contact.links.linkedIn} Icon={LinkedInIcon}>
 						Linked In
 					</IconRow>
 				</div>

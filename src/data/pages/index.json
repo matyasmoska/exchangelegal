@@ -2,5 +2,23 @@
     "title": "Systémová řešení pro Vaše AML povinnosti",
     "subtitle": "Poskytujeme profesionální služby v oblasti AML/CFT na míru klientům.",
     "checkAMLObligations": "Ověřit Vaši činnost",
-    "whatIsAML": "Co je to AML/CFT?"
+    "whatIsAML": "Co je to AML/CFT?",
+    "contact": {
+        "header": "Kontakty",
+        "description": "Je součástí systému vnitřních zásad. Správné nastavení hodnocení rizik “na míru” je nezbytným předpokladem k tomu, aby AML povinnosti byly řádně plněna a případná kontrola skončila bez nálezu.",
+        "address": {
+            "firstLine": "AML solutions s.r.o.",
+            "secondLine": "Vršovická 896/32, Vršovice",
+            "thirdLine": "101 00 Praha"
+        },
+        "phoneNumber": "tel.: +420 605 006 807",
+        "phoneNumberLink":"00420605006807",
+        "email": "e-mail: info@amlsolutions.cz",
+        "emailLink": "info@amlsolutions.cz",
+        "links": {
+            "facebook": "https://facebook.com",
+            "twitter": "https://twitter.com/solutions_aml",
+            "linkedIn": "https://linkedin.com"
+        }
+    }
 }
