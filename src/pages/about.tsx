@@ -31,22 +31,14 @@ const ReferenceDetail: FC<{ reference: Reference }> = ({ reference }) => {
 }
 
 export default function AboutPage () {
-	const { isLg } = useMediaQueries()
-
 	return (
 		<DefaultLayout>
 			<div className="text-center">
 				<div className="relative">
-					<Image
-						width={1920}
-						height={700}
-						className="z-10"
-						layout="responsive"
-						quality={90}
-						priority
+					<img
+						className="z-10 w-full"
 						src={'/images/team.png'}
 					/>
-					<div className="absolute top-0 left-0 w-full h-full transition transform bg-gray-400 animate-pulse" />
 				</div>
 				<div className="flex flex-col items-center justify-center text-center my-14">
 					<div className={c('flex flex-col max-w-lg space-y-8', 'md:px-8 md:text-left')}>
@@ -55,20 +47,20 @@ export default function AboutPage () {
 					</div>
 					<div
 						className={c(
-							'flex flex-col items-start w-full my-24 space-y-20 text-left px-1/8 justify-self-start',
+							'flex flex-col items-center w-full my-24 space-y-20 text-left px-1/8 justify-self-start',
 							'md:px-8'
 						)}
 					>
 						{pageData.people.map((member: TeamMember) => (
-							<Fade key={member.name} direction={'up'} className="team-member" triggerOnce duration={800}>
+							<Fade key={member.name} direction={'up'} triggerOnce duration={800}>
 								<TeamMemberDetail member={member} />
 							</Fade>
 						))}
 					</div>
-					<div className={c('flex flex-col space-y-20', 'md:px-8')}>
+					<div className={c('flex flex-col items-center space-y-20', 'md:px-8')}>
 						<h1 className="text-3xl font-bold">Řekli o nás</h1>
 						{pageData.references.map((reference: Reference) => (
-							<Fade key={reference.who} direction={'up'} className="team-member" triggerOnce duration={800}>
+							<Fade key={reference.who} direction={'up'} triggerOnce duration={800}>
 								<ReferenceDetail reference={reference} />
 							</Fade>
 						))}

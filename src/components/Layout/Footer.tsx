@@ -16,10 +16,10 @@ const Footer = () => {
 				'md:py-10 md:px-10 md:block md:space-y-16 md:text-center md:text-lg'
 			)}
 		>
-			<div className="self-start space-y-3">
+			<div className="self-start space-y-4">
 				<LogoWhite />
 				<p>{contactPageData.allRightsReserved}</p>
-				<img src="/images/crypto_white.svg" className={c("w-4/5 pt-2", 'md:mx-auto')} />
+				<img src="/images/crypto_white.svg" className={c("w-4/5 rounded-lg flex", 'md:mx-auto')} />
 			</div>
 			<div
 				className={c(

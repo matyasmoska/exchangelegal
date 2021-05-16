@@ -24,14 +24,12 @@ const Home: NextPage<{ news: NewsItem[] }> = ({ news }) => {
 						</a>
 					</Link>
 				</div>
-				<div className={c('relative w-full h-screen bg-cover px-36 pt-36', '3xl:px-28', 'md:px-5 md:pt-24')}>
-					<Image
-						src={'/images/background.png'}
-						priority
+				<div className={c('relative flex w-full bg-cover px-36 py-36 pt-24', '3xl:px-28', 'md:px-5 md:pt-24')}>
+					
+					<img
+						src={'/images/background2.png'}
 						alt="Background Image"
-						className="absolute top-0 left-0 z-0"
-						layout="fill"
-						objectFit="cover"
+						className="absolute top-0 left-0 z-0 w-full h-full"
 					/>
 					<div
 						className={c(
@@ -57,6 +55,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
 	const res = await fetchEntries()
 
 	const news = res.map((n: any) => {
+		
 		return n.fields
 	})
 
