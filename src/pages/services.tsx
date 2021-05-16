@@ -50,9 +50,7 @@ export default function Services () {
 						<Button
 							type="basic"
 							disabled={selectedServices.length === 0}
-							onClick={() => {
-								doScrolling('#services-form', 1000, 100)
-							}}
+							onClick={() => doScrolling('#services-form', 1000, 100)}
 							className={c('px-12 py-3.5', 'md:py-3 md:px-10')}
 						>
 							<div className="flex items-center space-x-8">
