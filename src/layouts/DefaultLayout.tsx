@@ -8,7 +8,7 @@ const DefaultLayout: FC = ({ children }) => {
     return (
         <div className="text-dark-blue">
             <Head>
-                <title>AML Solutions</title>
+                <title>AML solutions</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <SEO />
