@@ -2,12 +2,12 @@
     "contact": {
         "address": {
             "firstLine": "AML solutions s.r.o.",
-            "secondLine": "Vršovická 896/32, Vršovice, 101 00 Praha",
-            "thirdLine": " "
+            "secondLine": "Jsme přední odborníci v oblasti AML copmliance",
+            "thirdLine": "Vršovická 896/32, Vršovice, 101 00 Praha"
         },
         "phoneNumber": "tel.: +420 605 006 807",
         "phoneNumberLink":"00420605006807",
-        "email": "e-mail: info@amlsolutions.cz",
+        "email": "info@amlsolutions.cz",
         "emailLink": "info@amlsolutions.cz",
         "links": {
             "facebook": "https://facebook.com",
@@ -15,5 +15,5 @@
             "linkedIn": "https://www.linkedin.com/company/amlsolutions-cz/"
         }
     },
-    "allRightsReserved": "© 2021 by AML solutions, všechna práva vyhrazena."
+    "allRightsReserved": "© 2021 by AML solutions s.r.o., všechna práva vyhrazena."
 }
