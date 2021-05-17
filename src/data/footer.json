@@ -2,8 +2,8 @@
     "contact": {
         "address": {
             "firstLine": "AML solutions s.r.o.",
-            "secondLine": "Vršovická 896/32, Vršovice, 101 00 Praha"
- 
+            "secondLine": "Vršovická 896/32, Vršovice, 101 00 Praha",
+            "thirdLine": " "
         },
         "phoneNumber": "tel.: +420 605 006 807",
         "phoneNumberLink":"00420605006807",
