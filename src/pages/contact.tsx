@@ -10,7 +10,14 @@ import pageData from '../data/pages/contact.json'
 export default function Contact () {
 	return (
 		<DefaultLayout>
-			<div className={c('flex space-x-8', 'md:block md:space-x-0')}>
+			<div
+				className={c(
+					'flex space-x-8 px-36 py-8 pb-52',
+					'2xl:px-30',
+					'xl:px-24',
+					'md:block md:space-x-0 md:px-0 md:pb-32'
+				)}
+			>
 				<div className={c('w-full relative shadow-inner', 'md:h-72')}>
 					<iframe
 						width="100%"
@@ -26,9 +33,7 @@ export default function Contact () {
 					<div className="space-y-8">
 						<div className={c('space-y-2.5 w-4/6', 'md:w-full')}>
 							<h2 className="text-3xl font-bold">{pageData.header}</h2>
-							<p className="text-justify">
-								{pageData.description}
-							</p>
+							<p className="text-justify">{pageData.description}</p>
 						</div>
 						<div className={c('space-y-2.5 w-4/6', 'md:w-full')}>
 							<p className="font-bold">{contactPageData.address.firstLine}</p>
@@ -44,15 +49,27 @@ export default function Contact () {
 							</WrappedIconRow>
 						</div>
 						<div className="flex flex-col space-y-2.5 w-4/6 text-dark-blue">
-							<a href={contactPageData.links.facebook} className="flex items-center space-x-3" aria-label="Facebook Link">
+							<a
+								href={contactPageData.links.facebook}
+								className="flex items-center space-x-3"
+								aria-label="Facebook Link"
+							>
 								<FacebookIcon className="fill-current w-7 h-7" />
 								<span>Facebook</span>
 							</a>
-							<a href={contactPageData.links.twitter} className="flex items-center space-x-3" aria-label="Twitter Link">
+							<a
+								href={contactPageData.links.twitter}
+								className="flex items-center space-x-3"
+								aria-label="Twitter Link"
+							>
 								<TwitterIcon className="fill-current w-7 h-7" />
 								<span>Twitter</span>
 							</a>
-							<a href={contactPageData.links.linkedIn} className="flex items-center space-x-3" aria-label="Linked In Link">
+							<a
+								href={contactPageData.links.linkedIn}
+								className="flex items-center space-x-3"
+								aria-label="Linked In Link"
+							>
 								<LinkedInIcon className="fill-current w-7 h-7" />
 								<span>Linked In</span>
 							</a>

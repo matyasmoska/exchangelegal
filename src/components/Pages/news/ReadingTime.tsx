@@ -3,6 +3,7 @@ import { FC, useMemo } from "react";
 const ReadingTime: FC<{ stats: { minutes: number } }> = ({ stats }) => {
     const minuteString = useMemo(() => {
         if ( Math.round(stats.minutes) === 1 ) return 'minuta'
+        else if ( Math.round(stats.minutes) <= 4 ) return 'minuty'
         else return 'minut'
     }, [stats]);
 

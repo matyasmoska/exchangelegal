@@ -12,7 +12,7 @@ const NewsSection: FC<{ news: NewsItem[] }> = ({ news }) => {
 			</Fade>
 			<div className={c('grid grid-cols-3 gap-16', 'md:flex md:flex-col md:space-y-6 md:text-center')}>
 				<Fade damping={0.5} duration={500} cascade triggerOnce>
-					{news.map((newsItem) => <NewsPreviewItem key={newsItem.name} newsItem={newsItem} />)}
+					{news.slice(0, 3).map((newsItem) => <NewsPreviewItem key={newsItem.name} newsItem={newsItem} />)}
 				</Fade>
 			</div>
 		</div>
