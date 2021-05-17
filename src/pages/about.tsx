@@ -37,7 +37,7 @@ export default function AboutPage () {
 				<div className="relative">
 					<img
 						className="z-10 w-full"
-						src={'/images/team.png'}
+						src={'/images/team.jpg'}
 					/>
 				</div>
 				<div className="flex flex-col items-center justify-center text-center my-14">
