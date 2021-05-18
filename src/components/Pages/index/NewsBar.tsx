@@ -3,7 +3,7 @@ import Link from 'next/link'
 import React, { FC, useEffect, useMemo, useState } from 'react'
 import { dateStringToDateFormat } from '../../../services/misc'
 import { NewsItem } from '../../../typings'
-import { newsBar } from '../../../data/pages/index.json'
+import config from '../../../data/pages/index.json'
 
 /*
     News item bar on the first page, first few items are taken and toggled between.
@@ -14,7 +14,7 @@ const NewsBar: FC<{ news: NewsItem[] }> = ({ news }) => {
     const [currentItemIndex, setCurrentItemIndex] = useState(0)
 
     // Take only first five articles
-    news = news.slice(0, newsBar.howManyArticles)
+    news = news.slice(0, config.newsBar.howManyArticles)
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -22,7 +22,7 @@ const NewsBar: FC<{ news: NewsItem[] }> = ({ news }) => {
                 if ( c < news.length - 1 ) return c + 1
                 else return 0
             })
-        }, newsBar.betweenArticlesDelaySeconds * 1000)
+        }, config.newsBar.betweenArticlesDelaySeconds * 1000)
 
         // Clear interval after killing the component
         return () => clearInterval(interval)
