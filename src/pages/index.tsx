@@ -10,17 +10,20 @@ import PartnersSection from '../components/Pages/index/PartnersSection'
 import { c } from '../services/misc'
 import { Fade } from 'react-awesome-reveal'
 import NewsBar from '../components/Pages/index/NewsBar'
+import Image from 'next/image'
 
 const Home: NextPage<{ news: NewsItem[] }> = ({ news }) => {
 	return (
 		<DefaultLayout>
 			<div className="relative">
 				<NewsBar news={news} />
-				<div className={c('relative flex w-full bg-cover px-36 py-36 pt-24', '3xl:px-28', 'md:px-5 md:pt-28')}>
-					<img
+				<div className={c('relative w-full bg-cover px-36 py-36 pt-24', '3xl:px-28', 'md:px-5 md:pt-28')}>
+					<Image
+						layout="fill"
+						priority
 						src={'/images/background2.png'}
 						alt="Background Image"
-						className="absolute top-0 left-0 z-0 w-full h-full"
+						className="top-0 left-0 z-0"
 					/>
 					<div
 						className={c(
