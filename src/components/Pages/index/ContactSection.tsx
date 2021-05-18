@@ -45,7 +45,7 @@ const ContactSection = () => {
 					</IconRow>
 				</div>
 			</div>
-			<div className={c('w-full pr-32 shadow-inner', 'md:h-56 md:pr-0')}>
+			<div className={c('w-full pr-32', 'md:h-56 md:pr-0')}>
 				<iframe
 					width="100%"
 					height="100%"
