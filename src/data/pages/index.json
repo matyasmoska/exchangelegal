@@ -3,6 +3,10 @@
     "subtitle": "Jsme předními odborníky v oblasti AML compliance, poskytujeme profesionální služby v oblasti AML/CFT na míru klientům.",
     "checkAMLObligations": "Jsem povinnou osobou?",
     "whatIsAML": "Co je to AML/CFT?",
+    "newsBar": {
+        "howManyArticles": 5,
+        "betweenArticlesDelaySeconds": 5
+    },
     "contact": {
         "header": "Rychlé kontakty",
         "description": "Řešíte problémy z oblasti AML compliance? Neváhejte se nám ozvat.",
