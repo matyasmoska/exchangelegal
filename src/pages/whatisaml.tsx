@@ -21,6 +21,7 @@ export default function CalculatorPage () {
 							objectFit="cover"
 							className="z-10"
 							quality={85}
+							priority
 							src={'/images/whatisaml.png'}
 						/>
 						<div className="absolute top-0 left-0 w-full h-full transition transform bg-gray-400 animate-pulse" />
