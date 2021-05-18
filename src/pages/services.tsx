@@ -29,7 +29,7 @@ export default function Services () {
 		<DefaultLayout>
 			<div className={c('py-20 space-y-12 text-center px-36', 'md:px-4 md:py-8 md:relative')}>
 				<h1 className="text-5xl font-bold leading-snug">Naše služby</h1>
-				<div className={c('grid grid-cols-3 gap-8', '2xl:grid-cols-3', 'md:grid-cols-1')}>
+				<div className={c('grid grid-cols-3 gap-8 items-stretch', '2xl:grid-cols-3', 'md:grid-cols-1')}>
 					{pageData.services.map((service: ServiceItemType) => (
 						<ServiceItem
 							key={service.name}

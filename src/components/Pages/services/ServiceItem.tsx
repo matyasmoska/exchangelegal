@@ -1,5 +1,5 @@
 import { AnimatePresence, motion as m } from 'framer-motion'
-import { Dispatch, FC, MouseEventHandler, useMemo } from 'react'
+import { Dispatch, FC, MouseEventHandler, useMemo, useState } from 'react'
 import { heightAnimation } from '../../../animations/navigation'
 import { c } from '../../../services/misc'
 import Button from '../../Layout/Button'
@@ -23,6 +23,8 @@ export const ServiceItem: FC<ServiceItemProps> = ({ serviceItem, selectedItems, 
 		selectedItems
 	])
 
+	const [ hover, setHover ] = useState(false)
+
 	const deselectItem: MouseEventHandler = (e) => {
 		e.stopPropagation()
 		setSelectedItems(selectedItems.filter((i: ServiceItemType) => i.name !== serviceItem.name))
@@ -30,9 +32,8 @@ export const ServiceItem: FC<ServiceItemProps> = ({ serviceItem, selectedItems, 
 
 	return (
 		<div
-			onClick={() => {
-				if (!isSelected) setSelectedItems([ ...selectedItems, serviceItem ])
-			}}
+			onMouseEnter={() => setHover(true)}
+			onMouseLeave={() => setHover(false)}
 			className={c(
 				'relative flex flex-col justify-between p-8 text-left cursor-pointer text-dark-blue shadow-tile',
 				'3xl:p-6'
@@ -67,7 +68,30 @@ export const ServiceItem: FC<ServiceItemProps> = ({ serviceItem, selectedItems, 
 						<h3 className={c('text-2xl font-bold', '3xl:text-xl')}>{serviceItem.name}</h3>
 					</m.div>
 				)}
+				{hover &&
+					!isSelected && (
+					<m.div
+						{...heightAnimation}
+						className={c(
+							'absolute top-0 left-0 flex flex-col items-center justify-center w-full h-full space-y-12 overflow-hidden text-white bg-dark-blue bg-opacity-90',
+							'3xl:space-y-8 3xl:px-2'
+						)}
+					>
+						<h3 className={c('text-2xl font-bold', '3xl:text-xl')}>{serviceItem.name}</h3>
+						<p className={c('text-2xl font-bold', '3xl:text-xl')}>Cena od {`${serviceItem.price},- Kč`}</p>
+						<Button
+							onClick={() => {
+								if (!isSelected) setSelectedItems([ ...selectedItems, serviceItem ])
+							}}
+							type="basic"
+							className="px-8 py-2.5"
+						>
+							Přidat
+						</Button>
+					</m.div>
+				)}
 			</AnimatePresence>
+
 		</div>
 	)
 }
