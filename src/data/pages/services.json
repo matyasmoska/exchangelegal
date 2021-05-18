@@ -13,16 +13,10 @@
             "icon": "/images/serviceIcons/hodnoceni_rizik.svg"
         },
         {
-            "name": "Systém identifikace klienta",
-            "description": "Postupy při získávání a vyhodnocování identifikačních údajů klienta, případně dalších osob zúčastněných na obchodu. Zahrnuje i identifikaci politicky exponovaných osob, osob dotčených mezinárodními sankcemi apod.",
+            "name": "Systém identifikace a kontroly klienta",
+            "description": "Postupy při získávání a vyhodnocování identifikačních údajů klienta, případně dalších osob zúčastněných na obchodu, a postupy pro zjišťování podrobnějších informací o klientovi a obchodu nebo obchodním vztahu Zahrnuje i identifikaci politicky exponovaných osob, osob dotčených mezinárodními sankcemi apod.",
             "price": 19000,
             "icon": "/images/serviceIcons/system_identifikace_klienta.svg"
-        },
-        {
-            "name": "Systém kontroly klienta",
-            "description": "Postupy pro zjišťování podrobnějších informací o klientovi a obchodu nebo obchodním vztahu. Hraje podstatnou roli při identifikaci případného podezřelého obchodu.",
-            "price": 19000,
-            "icon": "/images/serviceIcons/system_kontroly_klienta.svg"
         },
         {
             "name": "Školení a metodika",
@@ -41,12 +35,6 @@
             "description": "Klikněte a můžete začít psát. Aut fugit sed quia consequuntur.",
             "price": 19000,
             "icon": "/images/serviceIcons/aml_audit.svg"
-        },
-        {
-            "name": "Dlouhodobá spolupráce",
-            "description": "Klikněte a můžete začít psát. Ea commodi consequatur quis.",
-            "price": 19000,
-            "icon": "/images/serviceIcons/dlouhodoba_spoluprace.svg"
         }
     ]
 }
