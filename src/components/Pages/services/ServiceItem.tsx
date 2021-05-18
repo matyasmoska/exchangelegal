@@ -1,6 +1,7 @@
 import { AnimatePresence, motion as m } from 'framer-motion'
 import { Dispatch, FC, MouseEventHandler, useMemo, useState } from 'react'
 import { heightAnimation } from '../../../animations/navigation'
+import { useMediaQueries } from '../../../hooks/useMediaQueries'
 import { c } from '../../../services/misc'
 import Button from '../../Layout/Button'
 import { AnimatedCheckmarkIcon, CheckmarkIcon, CloseIcon } from '../../Layout/Icons'
@@ -19,6 +20,8 @@ export interface ServiceItemProps {
 }
 
 export const ServiceItem: FC<ServiceItemProps> = ({ serviceItem, selectedItems, setSelectedItems }) => {
+	const { isMd } = useMediaQueries()
+
 	const isSelected = useMemo(() => selectedItems.find((item: ServiceItemType) => item.name === serviceItem.name), [
 		selectedItems
 	])
@@ -34,6 +37,9 @@ export const ServiceItem: FC<ServiceItemProps> = ({ serviceItem, selectedItems, 
 		<div
 			onMouseEnter={() => setHover(true)}
 			onMouseLeave={() => setHover(false)}
+			onClick={() => {
+				if (!isSelected && isMd) setSelectedItems([ ...selectedItems, serviceItem ])
+			}}
 			className={c(
 				'relative flex flex-col justify-between p-8 text-left cursor-pointer text-dark-blue shadow-tile',
 				'3xl:p-6'
@@ -68,8 +74,7 @@ export const ServiceItem: FC<ServiceItemProps> = ({ serviceItem, selectedItems, 
 						<h3 className={c('text-2xl font-bold', '3xl:text-xl')}>{serviceItem.name}</h3>
 					</m.div>
 				)}
-				{hover &&
-					!isSelected && (
+				{hover && !isSelected && !isMd && (
 					<m.div
 						{...heightAnimation}
 						className={c(
