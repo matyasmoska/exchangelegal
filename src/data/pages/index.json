@@ -4,7 +4,7 @@
     "checkAMLObligations": "Jsem povinnou osobou?",
     "whatIsAML": "Co je to AML/CFT?",
     "newsBar": {
-        "howManyArticles": 5,
+        "howManyArticles": 3,
         "betweenArticlesDelaySeconds": 5
     },
     "contact": {
