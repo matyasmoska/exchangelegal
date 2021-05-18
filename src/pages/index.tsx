@@ -16,7 +16,7 @@ const Home: NextPage<{ news: NewsItem[] }> = ({ news }) => {
 		<DefaultLayout>
 			<div className="relative">
 				<NewsBar news={news} />
-				<div className={c('relative flex w-full bg-cover px-36 py-36 pt-24', '3xl:px-28', 'md:px-5 md:pt-24')}>
+				<div className={c('relative flex w-full bg-cover px-36 py-36 pt-24', '3xl:px-28', 'md:px-5 md:pt-28')}>
 					<img
 						src={'/images/background2.png'}
 						alt="Background Image"
