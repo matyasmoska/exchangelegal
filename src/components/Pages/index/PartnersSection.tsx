@@ -10,13 +10,13 @@ const PartnersSection: FC = () => {
 			<div className={c('flex justify-center space-x-32', 'md:flex-col md:items-center md:space-x-0 md:space-y-16')}>
 				<Fade damping={0.5} duration={500} cascade triggerOnce>
 					<a href="http://www.ondato.com/" target="_blank" rel="noreferrer">
-						<Image height={54} width={204} alt="ondato-logo" className="h-14" src={'/images/ondato.png'} />
+						<img alt="ondato-logo" className="h-14" src={'/images/ondato.png'} />
 					</a>
 					<a href="https://www.pozemkovekompenzace.cz/" target="_blank" rel="noreferrer">
-						<Image height={54} width={429} alt="pkf-logo" className="h-14" src={'/images/PKF logo.png'} />
+						<img alt="pkf-logo" className="h-14" src={'/images/PKF logo.png'} />
 					</a>
 					<a href="#" target="_blank" rel="noreferrer">
-						<Image height={54} width={429} alt="pkf-logo" className="h-14" src={'/images/Bill_logo_horizontal.svg'} />
+						<img alt="pkf-logo" className="h-14" src={'/images/Bill_logo_horizontal.svg'} />
 					</a>
 				</Fade>
 			</div>
