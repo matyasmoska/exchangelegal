@@ -20,6 +20,7 @@ const Home: NextPage<{ news: NewsItem[] }> = ({ news }) => {
 				<div className={c('relative w-full bg-cover px-36 py-36 pt-24', '3xl:px-28', 'md:px-5 md:pt-28')}>
 					<Image
 						layout="fill"
+						objectFit="cover"
 						priority
 						src={'/images/background2.png'}
 						alt="Background Image"

@@ -50,16 +50,26 @@ const Footer = () => {
 				</div>
 				<div className="space-y-10">
 					<h3 className="text-xl font-bold">Kontakty</h3>
-					<div className="flex flex-col space-y-4">
-						<p className="font-bold">{contactPageData.contact.address.firstLine}</p>
-						<p className="italic">{contactPageData.contact.address.secondLine}</p>
-						{contactPageData.contact.address.thirdLine.trim().length > 0 && <p>{contactPageData.contact.address.thirdLine}</p>}
-						<a href={"tel:" + contactPageData.contact.phoneNumber} className="hover:underline">
-							{contactPageData.contact.phoneNumber}
-						</a>
-						<a href={`mail:${contactPageData.contact.email}`} className="hover:underline">
-							{contactPageData.contact.email}
-						</a>
+					<div className="flex flex-col space-y-8">
+						<div className="flex flex-col space-y-4">
+							<p className="font-bold">{contactPageData.contact.address.firstLine}</p>
+							<p className="italic">{contactPageData.contact.address.secondLine}</p>
+							{contactPageData.contact.address.thirdLine.trim().length > 0 && <p>{contactPageData.contact.address.thirdLine}</p>}
+							<a href={"tel:" + contactPageData.contact.phoneNumber} className="hover:underline">
+								{contactPageData.contact.phoneNumber}
+							</a>
+							<a href={`mail:${contactPageData.contact.email}`} className="hover:underline">
+								{contactPageData.contact.email}
+							</a>
+						</div>
+						<div className="flex flex-col space-y-4">
+							<Link href="/tos">
+								<a className="hover:underline">{pageData.tos}</a>
+							</Link>
+							<Link href="/privacypolicy">
+								<a className="hover:underline">{pageData.privacypolicy}</a>
+							</Link>
+						</div>
 					</div>
 				</div>
 				<div className="space-y-10">
