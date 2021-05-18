@@ -16,7 +16,7 @@
 
 				"Vít hovoří plynně anglicky a francouzsky."
 			],
-			"photo": "/images/vitek.png"
+			"photo": "/images/team/vitek.png"
 		},
 		{
 			"name": "Mgr. Hana Erbsová, partnerka",
@@ -34,7 +34,7 @@
 				
 				"Hana hovoří plynně anglicky, dorozumí se polsky a rusky a učí se francouzsky."
 			],
-			"photo": "/images/vitek.png"
+			"photo": "/images/team/hanka.png"
 		},
 		{
 			"name": "Mgr. Matyáš Moska, partner",
@@ -54,7 +54,7 @@
 				
 				"Matyáš plynně hovoří anglicky, německy a polsky."
 			],
-			"photo": "/images/vitek.png"
+			"photo": "/images/team/matyas.png"
 		},
 		{
 			"name": "Veronika Hurtová, back office manager",
@@ -66,7 +66,7 @@
 
 				"Veronika hovoří plynně anglicky."
 			],
-			"photo": "/images/vitek.png"
+			"photo": "/images/team/verca.png"
 		},
 		{
 			"name": "Ondřej Beck, compliance consultant",
@@ -80,7 +80,7 @@
 				
 				"Ondřej hovoří plynně anglicky."
 			],
-			"photo": "/images/vitek.png"
+			"photo": "/images/team/ondrej.png"
 		}
 	],
 	"references": [

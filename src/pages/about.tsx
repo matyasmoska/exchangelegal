@@ -34,10 +34,13 @@ export default function AboutPage () {
 	return (
 		<DefaultLayout>
 			<div className="text-center">
-				<div className="relative">
-					<img
+				<div className="relative w-full">
+					<Image
+						layout="responsive"
+						width={1920}
+						height={485}
 						className="z-10 w-full"
-						src={'/images/team.jpg'}
+						src={'/images/team.png'}
 					/>
 				</div>
 				<div className="flex flex-col items-center justify-center text-center my-14">

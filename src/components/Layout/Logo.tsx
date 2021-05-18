@@ -1,18 +1,23 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { useMediaQueries } from '../../hooks/useMediaQueries'
 
 const Logo = () => {
+	const { isMd } = useMediaQueries()
+
 	return (
 		<Link href="/">
 			<a className="z-50">
-				<Image alt="AML Solutions Logo" src="/images/logo.png" height={40} width={240} />
+				<Image alt="AML Solutions Logo" src="/images/logo.png" height={isMd ? 35 : 40} width={isMd ? 200 : 240} />
 			</a>
 		</Link>
 	)
 }
 
 export const LogoWhite = () => {
-	return <Image alt="AML Solutions Logo" src="/images/logo-white.png" height={40} width={240} />
+	const { isMd } = useMediaQueries()
+
+	return <Image alt="AML Solutions Logo" src="/images/logo-white.png" height={isMd ? 35 : 40} width={isMd ? 200 : 240} />
 }
 
 export default Logo
