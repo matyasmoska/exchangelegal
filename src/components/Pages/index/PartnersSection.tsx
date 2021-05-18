@@ -15,8 +15,8 @@ const PartnersSection: FC = () => {
 					<a href="https://www.pozemkovekompenzace.cz/" target="_blank" rel="noreferrer">
 						<img alt="pkf-logo" className="h-14" src={'/images/PKF logo.png'} />
 					</a>
-					<a href="#" target="_blank" rel="noreferrer">
-						<img alt="pkf-logo" className="h-14" src={'/images/Bill_logo_horizontal.svg'} />
+					<a href="https://billsystems.co" target="_blank" rel="noreferrer">
+						<img alt="bill_logo" className="h-14" src={'/images/Bill_logo_horizontal.svg'} />
 					</a>
 				</Fade>
 			</div>
