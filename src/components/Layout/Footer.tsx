@@ -18,8 +18,8 @@ const Footer = () => {
 		>
 			<div className="self-start space-y-4">
 				<LogoWhite />
-				<p>{contactPageData.allRightsReserved}</p>
 				<img src="/images/crypto_white.svg" className={c("w-4/5 rounded-lg flex", 'md:mx-auto')} />
+				<p className="pt-2">{contactPageData.allRightsReserved}</p>
 			</div>
 			<div
 				className={c(
@@ -50,12 +50,10 @@ const Footer = () => {
 				</div>
 				<div className="space-y-10">
 					<h3 className="text-xl font-bold">Kontakty</h3>
-					<div className="flex flex-col space-y-3">
+					<div className="flex flex-col space-y-4">
 						<p className="font-bold">{contactPageData.contact.address.firstLine}</p>
-						<p>{contactPageData.contact.address.secondLine}</p>
-						<p>{contactPageData.contact.address.thirdLine}</p>
-					</div>
-					<div className="flex flex-col space-y-3">
+						<p className="italic">{contactPageData.contact.address.secondLine}</p>
+						{contactPageData.contact.address.thirdLine.trim().length > 0 && <p>{contactPageData.contact.address.thirdLine}</p>}
 						<a href={"tel:" + contactPageData.contact.phoneNumber} className="hover:underline">
 							{contactPageData.contact.phoneNumber}
 						</a>

@@ -8,12 +8,12 @@ const ContactSection = () => {
 	return (
 		<div
 			className={c(
-				'flex justify-between w-full mt-52 space-x-12',
+				'flex justify-between w-full mt-32 space-x-12',
 				'3xl:space-x-8',
 				'md:flex-col md:space-x-0 md:space-y-12 md:my-16'
 			)}
 		>
-			<div className={c('pl-32 space-y-8', 'md:px-8')}>
+			<div className={c('pl-32 flex-shrink-0 space-y-8', 'md:px-8')}>
 				<div className={c('space-y-2.5 w-4/6', '2xl:w-5/6', 'md:w-full')}>
 					<h2 className="text-3xl font-bold">{ contactPageData.contact.header }</h2>
 					<p className="text-justify">

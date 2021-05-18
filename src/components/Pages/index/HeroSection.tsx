@@ -11,7 +11,7 @@ const HeroSection = () => {
 				<h1 className={c('text-6xl font-bold leading-tight', 'md:text-4xl')}>
 					{pageData.title}
 				</h1>
-				<p className="leading-relaxed text-justify">
+				<p className="text-lg leading-relaxed text-justify">
 					{pageData.subtitle}
 				</p>
 			</div>
