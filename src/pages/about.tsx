@@ -34,9 +34,10 @@ export default function AboutPage () {
 	return (
 		<DefaultLayout>
 			<div className="text-center">
-				<div className="relative w-full">
+				<div className="relative w-full bg-gray-50">
 					<Image
 						layout="responsive"
+						priority
 						width={1920}
 						height={485}
 						className="z-10 w-full"
