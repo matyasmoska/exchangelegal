@@ -16,7 +16,7 @@ const PartnersSection: FC = () => {
 						<img alt="pkf-logo" className="h-14" src={'/images/PKF logo.png'} />
 					</a>
 					<a href="https://billsystems.co" target="_blank" rel="noreferrer">
-						<img alt="bill_logo" className="h-14" src={'/images/Bill_logo_horizontal.svg'} />
+						<img alt="bill_logo" className="h-14" src={'/images/Bill_logo_horizontal.png'} />
 					</a>
 				</Fade>
 			</div>
