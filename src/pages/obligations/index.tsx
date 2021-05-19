@@ -14,7 +14,7 @@ export default function Obligations () {
 
 	return (
 		<DefaultLayout>
-			<div className={c('space-y-10 text-center p-36', 'md:px-4 md:py-8')}>
+			<div className={c('space-y-10 text-center p-36 py-16', 'md:px-4 md:py-8')}>
 				<h1 className={c('text-5xl font-bold leading-snug', 'md:text-2xl md:px-4')}>
 					Zjistěte, zda se na Vás vztahují AML povinnosti
 				</h1>
