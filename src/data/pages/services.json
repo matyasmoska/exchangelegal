@@ -19,14 +19,14 @@
             "icon": "/images/serviceIcons/system_identifikace_klienta.svg"
         },
         {
-            "name": "Školení a metodika",
-            "description": "Pravidelné školení zaměstnanců a dalších osob, které provádějí identifikaci a kontrolu klienta, nejméně jednou za 12 měsíců je povinností, za jejíž porušení hrozí sankce.",
+            "name": "AML školení a metodika",
+            "description": "Pravidelné AML školení zaměstnanců a dalších osob, které provádějí identifikaci a kontrolu klienta, nejméně jednou za 12 měsíců je povinností, za jejíž porušení hrozí sankce.",
             "price": 15000,
             "icon": "/images/serviceIcons/skoleni_a_metodika.svg"
         },
         {
-            "name": "Komunikace s FAÚ / ČNB",
-            "description": "Zajistíme za vás nezbytnou komunikaci související s plněním AML povinností, nebo pro vás připravím potřebné dokumenty.",
+            "name": "Určení kontaktní osoby FAÚ, písemné pověření člena statutárního orgánu apod.",
+            "description": "Připravíme pro Vás nezbytné dokumenty související s plněním AML povinností.",
             "price": 2000,
             "icon": "/images/serviceIcons/komunikace_s_fau.svg"
         },
