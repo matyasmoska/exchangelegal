@@ -11,5 +11,6 @@ export interface TeamMember {
 	name: string
 	title: string
 	description: string | string[]
-	photo: string
+	photo: string,
+	linkedIn?: string
 }

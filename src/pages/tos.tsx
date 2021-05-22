@@ -1,11 +1,26 @@
 import DefaultLayout from '../layouts/DefaultLayout'
 import { c } from '../services/misc'
+import data from '../data/pages/tos.json'
+import React from 'react'
+import ParagraphOrMultiple from '../components/Layout/ParagraphOrMultiple'
 
 export default function TOSPage () {
 	return (
 		<DefaultLayout>
-			<div className={c("py-24 text-center px-36 mb-52 space-y-14", 'md:px-4 md:py-8')}>
-				<h1 className={c("text-5xl font-bold leading-snug", "md:text-2xl")}>Obchodní podmínky</h1>
+			<div className="flex justify-center w-full">
+				<div
+					className={c(
+						'py-24 flex flex-col items-center text-center max-w-[803px] mb-52 space-y-14',
+						'md:px-4 md:py-8'
+					)}
+				>
+					<h1 className={c('text-5xl font-bold leading-snug', 'md:text-2xl')}>
+						Obchodní podmínky
+					</h1>
+					<div className="flex flex-col space-y-6">
+						<ParagraphOrMultiple text={data.text} className="text-justify" />
+					</div>
+				</div>
 			</div>
 		</DefaultLayout>
 	)

@@ -16,7 +16,8 @@
 
 				"Vít hovoří plynně anglicky a francouzsky."
 			],
-			"photo": "/images/team/vitek.png"
+			"photo": "/images/team/vitek.png",
+			"linkedIn": "https://www.linkedin.com/in/vít-šilhavý-5697b6181/"
 		},
 		{
 			"name": "Mgr. Hana Erbsová, partnerka",
@@ -34,7 +35,8 @@
 				
 				"Hana hovoří plynně anglicky, dorozumí se polsky a rusky a učí se francouzsky."
 			],
-			"photo": "/images/team/hanka.png"
+			"photo": "/images/team/hanka.png",
+			"linkedIn": "https://www.linkedin.com/in/hanaerbsova/"
 		},
 		{
 			"name": "Mgr. Matyáš Moska, partner",
@@ -54,7 +56,8 @@
 				
 				"Matyáš plynně hovoří anglicky, německy a polsky."
 			],
-			"photo": "/images/team/matyas.png"
+			"photo": "/images/team/matyas.png",
+			"linkedIn": "https://www.linkedin.com/in/matyas-moska/"
 		},
 		{
 			"name": "Ondřej Beck, compliance consultant",

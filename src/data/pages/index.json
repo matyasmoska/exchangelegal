@@ -1,8 +1,8 @@
 {
     "title": "Systémová řešení pro Vaše AML povinnosti",
     "subtitle": "Jsme předními odborníky v oblasti AML compliance, poskytujeme profesionální služby v oblasti AML/CFT na míru klientům.",
-    "checkAMLObligations": "Jsem povinnou osobou?",
-    "whatIsAML": "Co je to AML/CFT?",
+    "checkAMLObligations": "Musím řešit AML?",
+    "seeAMLServices": "Chci řešit AML",
     "newsBar": {
         "howManyArticles": 3,
         "betweenArticlesDelaySeconds": 5

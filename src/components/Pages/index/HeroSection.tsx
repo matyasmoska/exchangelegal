@@ -21,9 +21,9 @@ const HeroSection = () => {
 						{pageData.checkAMLObligations}
 					</Button>
 				</Link>
-				<Link href="/whatisaml">
+				<Link href="/services">
 					<Button type="light" className="px-10 py-2">
-						{pageData.whatIsAML}
+						{pageData.seeAMLServices}
 					</Button>
 				</Link>
 			</div>
