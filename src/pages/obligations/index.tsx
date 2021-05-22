@@ -16,11 +16,11 @@ export default function Obligations () {
 		<DefaultLayout>
 			<div className={c('space-y-10 text-center p-36 py-16', 'md:px-4 md:py-8')}>
 				<h1 className={c('text-5xl font-bold leading-snug', 'md:text-2xl md:px-4')}>
-					Zjistěte, zda se na Vás vztahují AML povinnosti
+					{data.header}
 				</h1>
 				<div>
 					<h3 className={c('text-lg font-bold', 'md:text-sm')}>
-						Provádím jako podnikatel nebo nepodnikající právnická osoba některou z těchto činností?
+						{data.subheader}
 					</h3>
 				</div>
 				<form
