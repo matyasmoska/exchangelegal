@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import { c } from '../../../services/misc'
 import Checkbox from '../../Forms/Checkbox'
@@ -43,7 +44,14 @@ const ContactForm = () => {
 					autoComplete="tel"
 				/>
 				<div className="col-span-2">
-					<TextArea placeholder={'Zde napište zprávu'} className={c('md:h-40')} form={form} rows={3} value={form.values.message} id={'message'} />
+					<TextArea
+						placeholder={'Zde napište zprávu'}
+						className={c('md:h-40')}
+						form={form}
+						rows={3}
+						value={form.values.message}
+						id={'message'}
+					/>
 				</div>
 			</div>
 			<div className="space-y-4">
@@ -51,7 +59,14 @@ const ContactForm = () => {
 					id={'personalDataAgreement'}
 					form={form}
 					isChecked={form.values.personalDataAgreement}
-					label={'Souhlasím se zpracováním osobních údajů'}
+					label={
+						<span>
+							Souhlasím se{' '}
+							<Link href="/privacypolicy">
+								<a className="underline">zpracováním osobních údajů</a>
+							</Link>
+						</span>
+					}
 				/>
 				<Checkbox
 					id={'marketingAgreement'}
@@ -68,8 +83,10 @@ const ContactForm = () => {
 				>
 					Odeslat
 				</Button>
-				{ (form.errors as any).api && <ErrorMessage id="api" >{ (form.errors as any).api }</ErrorMessage> }
-				{ form.status === 'submitted' && <span className="text-green-600">Odeslání proběhlo úspěšně. Děkujeme!</span>}
+				{(form.errors as any).api && <ErrorMessage id="api">{(form.errors as any).api}</ErrorMessage>}
+				{form.status === 'submitted' && (
+					<span className="text-green-600">Odeslání proběhlo úspěšně. Děkujeme!</span>
+				)}
 			</div>
 		</form>
 	)

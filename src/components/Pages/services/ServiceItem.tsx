@@ -2,9 +2,9 @@ import { AnimatePresence, motion as m } from 'framer-motion'
 import { Dispatch, FC, MouseEventHandler, useMemo, useState } from 'react'
 import { heightAnimation } from '../../../animations/navigation'
 import { useMediaQueries } from '../../../hooks/useMediaQueries'
-import { c } from '../../../services/misc'
+import { c, numberWithSpaces as ns } from '../../../services/misc'
 import Button from '../../Layout/Button'
-import { AnimatedCheckmarkIcon, CheckmarkIcon, CloseIcon } from '../../Layout/Icons'
+import { CheckmarkIcon, CloseIcon } from '../../Layout/Icons'
 
 export interface ServiceItemType {
 	name: string
@@ -46,16 +46,21 @@ export const ServiceItem: FC<ServiceItemProps> = ({ serviceItem, selectedItems, 
 			)}
 		>
 			<div className="flex flex-col justify-between h-full space-y-4">
-				<img src={serviceItem.icon} className={c('w-12', 'md:self-center')} />
-				<h3 className={c('text-2xl font-bold', '3xl:text-xl', 'md:text-center md:text-2xl')}>
-					{serviceItem.name}
-				</h3>
-				<p className={c('text-justify', '3xl:text-sm', 'md:text-justify')}>{serviceItem.description}</p>
-				<div className="flex items-end justify-between">
-					<p className="mb-0.5 text-sm">Cena od</p>
-					<p
-						className={c('text-3xl font-bold text-orange-primary', '3xl:text-2xl')}
-					>{`${serviceItem.price},- Kč`}</p>
+				<div className="flex flex-col space-y-5">
+					<img src={serviceItem.icon} className={c('w-12', 'md:self-center')} />
+					<h3 className={c('text-2xl font-bold', '3xl:text-xl', 'md:text-center md:text-2xl')}>
+						{serviceItem.name}
+					</h3>
+					<p className={c('text-justify', '3xl:text-sm', 'md:text-justify')}>{serviceItem.description}</p>
+				</div>
+				<div className="flex flex-col space-y-1">
+					<div className="flex items-end justify-between">
+						<p className="mb-[2px] text-lg">Cena od:</p>
+						<p
+							className={c('text-3xl font-bold text-orange-primary', '3xl:text-2xl')}
+						>{`${ns(serviceItem.price)},- Kč`}</p>
+					</div>
+					<div className="flex justify-end text-lg text-gray-400">bez DPH</div>
 				</div>
 			</div>
 			<AnimatePresence>
@@ -71,7 +76,8 @@ export const ServiceItem: FC<ServiceItemProps> = ({ serviceItem, selectedItems, 
 							<CloseIcon className="absolute w-8 h-8 transition transform top-5 right-5 hover:scale-110" />
 						</m.div>
 						<CheckmarkIcon className="w-12 h-12" />
-						<h3 className={c('text-2xl font-bold', '3xl:text-xl')}>{serviceItem.name}</h3>
+						<h3 className={c('text-3xl font-bold max-w-[90%] text-center', '3xl:text-xl')}>{serviceItem.name}</h3>
+						<p className="text-[32px] font-bold text-orange-primary">Přidáno</p>
 					</m.div>
 				)}
 				{hover && !isSelected && !isMd && (
@@ -83,7 +89,7 @@ export const ServiceItem: FC<ServiceItemProps> = ({ serviceItem, selectedItems, 
 						)}
 					>
 						<h3 className={c('text-2xl font-bold', '3xl:text-xl')}>{serviceItem.name}</h3>
-						<p className={c('text-2xl font-bold', '3xl:text-xl')}>Cena od {`${serviceItem.price},- Kč`}</p>
+						<p className={c('text-2xl font-bold', '3xl:text-xl')}>Cena od {`${ns(serviceItem.price)},- Kč`}</p>
 						<Button
 							onClick={() => {
 								if (!isSelected) setSelectedItems([ ...selectedItems, serviceItem ])

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React, { FC } from 'react'
 import { c } from '../../../services/misc'
 import Checkbox from '../../Forms/Checkbox'
@@ -8,13 +9,21 @@ import TextInput from '../../Forms/TextInput'
 import Button from '../../Layout/Button'
 import SelectedServicesList from './SelectedServicesList'
 
-const ServicesForm: FC<{ form: any, visibleRef: any }> = ({ form, visibleRef }) => {
+const ServicesForm: FC<{ form: any; visibleRef: any }> = ({ form, visibleRef }) => {
 	return (
-		<form id="services-form" className={c("flex flex-col items-center max-w-2xl mx-auto mb-24 space-y-6 text-center", 'md:max-w-none, md:px-4 md:py-16')}>
-			<img className={c("w-16 h-16", "md:w-12 md:h-12")} src="/images/services.svg" alt="Services icon"/>
+		<form
+			id="services-form"
+			className={c(
+				'flex flex-col items-center max-w-2xl mx-auto mb-24 space-y-6 text-center',
+				'md:max-w-none, md:px-4 md:py-16'
+			)}
+		>
+			<img className={c('w-16 h-16', 'md:w-12 md:h-12')} src="/images/services.svg" alt="Services icon" />
 			<h2 className="text-4xl font-bold">Nezávazná poptávka</h2>
-			<p className={c('md:text-sm')}>Vyplněním údajů a kliknutím tlačítka "Nezávazně poptat" nezávazně poptáte nabídku služeb.</p>
-			<img src="/images/crypto_blue.svg" className={c("w-1/2 rounded-lg", 'md:w-3/4')} />
+			<p className={c('md:text-sm')}>
+				Vyplněním údajů a kliknutím tlačítka "Nezávazně poptat" nezávazně poptáte nabídku služeb.
+			</p>
+			<img src="/images/crypto_blue.svg" className={c('w-1/2 rounded-lg', 'md:w-3/4')} />
 			<SelectedServicesList form={form} />
 			<div ref={visibleRef} className={c('grid w-full grid-cols-2 gap-4', 'md:block md:space-y-6')}>
 				<TextInput
@@ -46,7 +55,14 @@ const ServicesForm: FC<{ form: any, visibleRef: any }> = ({ form, visibleRef }) 
 					autoComplete="tel"
 				/>
 				<div className="col-span-2">
-					<TextArea placeholder={'Zde napište zprávu'} className={c('md:h-40')} form={form} rows={3} value={form.values.message} id={'message'} />
+					<TextArea
+						placeholder={'Zde napište zprávu'}
+						className={c('md:h-40')}
+						form={form}
+						rows={3}
+						value={form.values.message}
+						id={'message'}
+					/>
 				</div>
 			</div>
 			<div className="w-full space-y-4">
@@ -54,7 +70,14 @@ const ServicesForm: FC<{ form: any, visibleRef: any }> = ({ form, visibleRef }) 
 					id={'personalDataAgreement'}
 					form={form}
 					isChecked={form.values.personalDataAgreement}
-					label={'Souhlasím se zpracováním osobních údajů'}
+					label={
+						<span>
+							Souhlasím se{' '}
+							<Link href="/privacypolicy">
+								<a className="underline">zpracováním osobních údajů</a>
+							</Link>
+						</span>
+					}
 				/>
 				<Checkbox
 					id={'marketingAgreement'}
@@ -71,8 +94,10 @@ const ServicesForm: FC<{ form: any, visibleRef: any }> = ({ form, visibleRef }) 
 				>
 					Nezávazně poptat
 				</Button>
-				{ (form.errors as any).api && <ErrorMessage id="api" >{ (form.errors as any).api }</ErrorMessage> }
-				{ form.status === 'submitted' && <span className="text-green-600">Odeslání proběhlo úspěšně. Děkujeme!</span>}
+				{(form.errors as any).api && <ErrorMessage id="api">{(form.errors as any).api}</ErrorMessage>}
+				{form.status === 'submitted' && (
+					<span className="text-green-600">Odeslání proběhlo úspěšně. Děkujeme!</span>
+				)}
 			</div>
 		</form>
 	)

@@ -1,10 +1,10 @@
-import React, { ChangeEvent, FC } from 'react'
+import React, { ChangeEvent, FC, ReactNode } from 'react'
 import ErrorMessage from './ErrorMessage'
 
 interface CheckboxProps extends React.ComponentPropsWithoutRef<"input"> {
 	form: any
 	isChecked: boolean,
-	label: string,
+	label: ReactNode,
 	id: string,
 	className?: string
 }
