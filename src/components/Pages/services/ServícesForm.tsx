@@ -30,7 +30,7 @@ const ServicesForm: FC<{ form: any; visibleRef: any }> = ({ form, visibleRef }) 
 					form={form}
 					value={form.values.firstName}
 					id={'firstName'}
-					placeholder={'Křestní jméno'}
+					placeholder={'Jméno'}
 					autoComplete="given-name"
 				/>
 				<TextInput

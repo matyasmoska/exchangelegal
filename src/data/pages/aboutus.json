@@ -57,18 +57,6 @@
 			"photo": "/images/team/matyas.png"
 		},
 		{
-			"name": "Veronika Hurtová, back office manager",
-			"title": "#BackOffice #Support #CustomerCare",
-			"description": [
-				"Veronika se stará o zpracování došlých objednávek, jejich zadávání do interních firemních systémů a následné zpracování. Připravuje podklady pro fakturaci a zajišťuje veškeré činnosti včetně podpory a evidence všech provedených operací.",
-				
-				"Ve volném čase se jako členka hudební skupiny aktivně věnuje elektronické hudbě a divadlu.",
-
-				"Veronika hovoří plynně anglicky."
-			],
-			"photo": "/images/team/verca.png"
-		},
-		{
 			"name": "Ondřej Beck, compliance consultant",
 			"title": "#AML #Compliance #Software",
 			"description": [
@@ -81,7 +69,20 @@
 				"Ondřej hovoří plynně anglicky."
 			],
 			"photo": "/images/team/ondrej.png"
+		},
+		{
+			"name": "Veronika Hurtová, back office manager",
+			"title": "#BackOffice #Support #CustomerCare",
+			"description": [
+				"Veronika se stará o zpracování došlých objednávek, jejich zadávání do interních firemních systémů a následné zpracování. Připravuje podklady pro fakturaci a zajišťuje veškeré činnosti včetně podpory a evidence všech provedených operací.",
+				
+				"Ve volném čase se jako členka hudební skupiny aktivně věnuje elektronické hudbě a divadlu.",
+
+				"Veronika hovoří plynně anglicky."
+			],
+			"photo": "/images/team/verca.png"
 		}
+		
 	],
 	"references": [
 		{

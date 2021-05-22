@@ -1,15 +1,45 @@
+import { useRouter } from 'next/dist/client/router'
 import Link from 'next/link'
-import React from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
 import Button from '../../components/Layout/Button'
 import DefaultLayout from '../../layouts/DefaultLayout'
 import { c } from '../../services/misc'
 
+
+
 const ObligationsSuccessPage = () => {
+	const router = useRouter()
+
+	// Seconds before redirect
+	const [count, setCount] = useState(5)
+	
+	useEffect(() => {
+        const interval = setInterval(() => {
+            setCount(( c ) => c - 1)
+        }, 1000)
+
+        // Clear interval after killing the component
+        return () => clearInterval(interval)
+    }, []);
+
+	// Send user off to servies at the end
+	useEffect(() => {
+		if ( count === 0 ) {
+			router.push('/services')
+		}
+	}, [count])
+
+	const secondsString = useMemo(() => {
+		if ( count === 1 ) return 'vteřinu'
+		else if ( count <= 4 ) return 'vteřiny'
+		else return 'vteřin'
+	}, [count]);
+
 	return (
 		<DefaultLayout>
 			<main className="flex items-center justify-center w-full">
 				<div
-					className={c('flex flex-col items-center justify-center max-w-lg space-y-20', 'md:space-y-10')}
+					className={c('flex flex-col items-center justify-center max-w-lg space-y-10', 'md:space-y-10')}
 					style={{ height: 'calc(100vh - 200px)' }}
 				>
 					<div className="flex flex-col items-center space-y-6 text-center">
@@ -22,9 +52,10 @@ const ObligationsSuccessPage = () => {
 							zobrazíte Naše služby spojené s AML.
 						</p>
 					</div>
+					<p className="font-bold">Budete přesměrováni na nabídku Našich služeb za { count } { secondsString }...</p>
 					<Link href="/services">
 						<Button type="basic" className="px-12 py-3">
-							Zobrazit služby
+							Přesměrovat ihned
 						</Button>
 					</Link>
 				</div>

@@ -19,7 +19,7 @@ const ContactForm = () => {
 					form={form}
 					value={form.values.firstName}
 					id={'firstName'}
-					placeholder={'Křestní jméno'}
+					placeholder={'Jméno'}
 					autoComplete="given-name"
 				/>
 				<TextInput

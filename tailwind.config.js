@@ -11,6 +11,7 @@ module.exports = {
           primary: '#FF872E',
           'primary-hover': '#CE6C24'
         },
+        'light-blue': '#E6E8F2',
         'dark-blue': '#021C62'
       },
       fontFamily: {
