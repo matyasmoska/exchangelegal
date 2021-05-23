@@ -11,6 +11,15 @@ const SEO = ({ title = pageData.title }) => {
                 title: pageData.title,
                 description: pageData.description,
                 site_name: pageData.site_name,
+                locale: 'cs_CS',
+                images: [
+                    {
+                        url: 'https://www.amlsolutions.cz/_next/image?url=%2Fimages%2Fbackground2.png&w=3840&q=75',
+                        alt: 'AML Solutions',
+                        width: 1352,
+                        height: 602
+                    }
+                ]
               }}
               twitter={{
                 handle: '@solutions_aml',

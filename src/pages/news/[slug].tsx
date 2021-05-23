@@ -54,8 +54,9 @@ let options = {
 }
 
 const PostDetailPage: NextPage<PostDetailPageProps> = ({ news, newsItem, author }) => {
-    const stats = useMemo(() => readingTime(documentToPlainTextString(newsItem.text)), [newsItem]);
     const { isMd, isLg } = useMediaQueries()
+    
+    const stats = useMemo(() => readingTime(documentToPlainTextString(newsItem.text)), [newsItem]);
 
     return (
         <DefaultLayout>
