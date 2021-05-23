@@ -20,7 +20,7 @@ const ShareArticleLinks: FC<{ article: NewsItem }> = ({ article }) => {
         <div className="flex items-center space-x-4">
             <span className="text-sm">Sdílejte článek:</span>
             <div className="flex items-center space-x-2">
-                <ShareLink link={'https://amlsolutions.cz/news' + article.slug}>
+                <ShareLink link={'https://amlsolutions.cz/news/' + article.slug}>
                     {(link: string) => <a href={link} aria-label="Facebook Link" target="_blank">
                         <FacebookIcon className="fill-current w-7 h-7" />
                     </a>}
