@@ -59,10 +59,10 @@ const Footer = () => {
 							{contactPageData.contact.address.thirdLine.trim().length > 0 && (
 								<p>{contactPageData.contact.address.thirdLine}</p>
 							)}
-							<a href={'tel:' + contactPageData.contact.phoneNumber} className="hover:underline">
+							<a href={`tel:${contactPageData.contact.phoneNumber}`} className="hover:underline">
 								{contactPageData.contact.phoneNumber}
 							</a>
-							<a href={`mail:${contactPageData.contact.email}`} className="hover:underline">
+							<a href={`mailto:${contactPageData.contact.email}`} className="hover:underline">
 								{contactPageData.contact.email}
 							</a>
 							<Link href="/tos">
@@ -78,13 +78,13 @@ const Footer = () => {
 				<div className="space-y-10">
 					<h3 className="text-xl font-bold">Sledujte nás</h3>
 					<div className={c('flex space-x-4 text-white', 'md:text-center md:justify-center')}>
-						<a href={contactPageData.contact.links.facebook} aria-label="Facebook Link">
+						<a href={contactPageData.contact.links.facebook} target="_blank" aria-label="Facebook Link">
 							<FacebookIcon className="fill-current w-7 h-7" />
 						</a>
-						<a href={contactPageData.contact.links.twitter} aria-label="Twitter Link">
+						<a href={contactPageData.contact.links.twitter} target="_blank" aria-label="Twitter Link">
 							<TwitterIcon className="fill-current w-7 h-7" />
 						</a>
-						<a href={contactPageData.contact.links.linkedIn} aria-label="Linked In Link">
+						<a href={contactPageData.contact.links.linkedIn} target="_blank" aria-label="Linked In Link">
 							<LinkedInIcon className="fill-current w-7 h-7" />
 						</a>
 					</div>

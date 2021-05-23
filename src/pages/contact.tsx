@@ -38,12 +38,13 @@ export default function Contact () {
 							<p className="font-bold">{contactPageData.address.firstLine}</p>
 							<p>{contactPageData.address.secondLine}</p>
 							<p>{contactPageData.address.thirdLine}</p>
+							<p>Společnost je zapsána v obchodním rejstříku vedeném Městským soudem v Praze, sp. zn. C 346730</p>
 						</div>
 						<div className={c('space-y-2.5 w-4/6', 'md:w-full')}>
 							<WrappedIconRow Icon={PhoneIcon} href={`tel:${contactPageData.phoneNumber}`}>
 								{contactPageData.phoneNumber}
 							</WrappedIconRow>
-							<WrappedIconRow Icon={MessageIcon} href={`mail:${contactPageData.email}`}>
+							<WrappedIconRow Icon={MessageIcon} href={`mailto:${contactPageData.email}`}>
 								{contactPageData.email}
 							</WrappedIconRow>
 						</div>
@@ -52,6 +53,7 @@ export default function Contact () {
 								href={contactPageData.links.facebook}
 								className="flex items-center space-x-3"
 								aria-label="Facebook Link"
+								target="_blank"
 							>
 								<FacebookIcon className="fill-current w-7 h-7" />
 								<span>Facebook</span>
@@ -60,6 +62,7 @@ export default function Contact () {
 								href={contactPageData.links.twitter}
 								className="flex items-center space-x-3"
 								aria-label="Twitter Link"
+								target="_blank"
 							>
 								<TwitterIcon className="fill-current w-7 h-7" />
 								<span>Twitter</span>
@@ -68,6 +71,7 @@ export default function Contact () {
 								href={contactPageData.links.linkedIn}
 								className="flex items-center space-x-3"
 								aria-label="Linked In Link"
+								target="_blank"
 							>
 								<LinkedInIcon className="fill-current w-7 h-7" />
 								<span>Linked In</span>

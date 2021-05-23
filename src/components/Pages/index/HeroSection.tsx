@@ -6,11 +6,9 @@ import pageData from '../../../data/pages/index.json'
 
 const HeroSection = () => {
 	return (
-		<div className={c('relative z-10 max-w-2xl space-y-20 text-white', 'md:max-w-none md:text-center')}>
+		<div className={c('relative z-10 max-w-3xl space-y-20 text-white', 'md:max-w-none md:text-center')}>
 			<div className="flex flex-col space-y-8">
-				<h1 className={c('text-6xl font-bold leading-tight', 'md:text-4xl')}>
-					{pageData.title}
-				</h1>
+				<h1 dangerouslySetInnerHTML={{ __html: pageData.title }} className={c('text-6xl font-bold leading-tight', 'md:text-4xl')} />
 				<p className="text-lg leading-relaxed text-justify">
 					{pageData.subtitle}
 				</p>

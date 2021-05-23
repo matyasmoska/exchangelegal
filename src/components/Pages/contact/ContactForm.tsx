@@ -26,14 +26,14 @@ const ContactForm = () => {
 					form={form}
 					value={form.values.lastName}
 					id={'lastName'}
-					placeholder={'Přijmení'}
+					placeholder={'Příjmení'}
 					autoComplete="family-name"
 				/>
 				<TextInput
 					form={form}
 					value={form.values.email}
 					id={'email'}
-					placeholder={'Email'}
+					placeholder={'E-mail'}
 					autoComplete="email"
 				/>
 				<PhoneTextInput
@@ -48,7 +48,7 @@ const ContactForm = () => {
 					form={form}
 					value={form.values.businessAddress}
 					id={'businessAddress'}
-					placeholder={'Adresa (nepovinné)'}
+					placeholder={'Obchodní firma (nepovinné)'}
 					autoComplete="street-address"
 				/>
 				<div className="col-span-2">
@@ -62,47 +62,50 @@ const ContactForm = () => {
 					/>
 				</div>
 			</div>
-			<div className="space-y-4">
-				<Checkbox
-					id={'personalDataAgreement'}
-					form={form}
-					isChecked={form.values.personalDataAgreement}
-					label={
-						<span>
-							Souhlasím se{' '}
-							<Link href="/privacypolicy">
-								<a className="underline">zpracováním osobních údajů</a>
-							</Link>
-						</span>
-					}
-				/>
-				<Checkbox
-					id={'marketingAgreement'}
-					form={form}
-					isChecked={form.values.marketingAgreement}
-					label={
-						<span>
-							Souhlasím se{' '}
-							<Link href="/tos">
-								<a className="underline">zasíláním obchodních sdělení</a>
-							</Link>
-						</span>
-					}
-				/>
+			<div className="flex justify-between">
+				<div className="space-y-4">
+					<Checkbox
+						id={'personalDataAgreement'}
+						form={form}
+						isChecked={form.values.personalDataAgreement}
+						label={
+							<span>
+								Souhlasím se{' '}
+								<Link href="/privacypolicy">
+									<a className="underline">zpracováním osobních údajů</a>
+								</Link>
+							</span>
+						}
+					/>
+					<Checkbox
+						id={'marketingAgreement'}
+						form={form}
+						isChecked={form.values.marketingAgreement}
+						label={
+							<span>
+								Souhlasím se{' '}
+								<Link href="/tos">
+									<a className="underline">zasíláním obchodních sdělení</a>
+								</Link>
+							</span>
+						}
+					/>
+				</div>
+				<div className="flex flex-col items-end self-end space-y-4">
+					<Button
+						onClick={form.handleSubmit as any}
+						type="basic"
+						className={c('px-16 py-2', 'md:w-full md:text-center md:py-3.5')}
+					>
+						Odeslat
+					</Button>
+					{(form.errors as any).api && <ErrorMessage id="api">{(form.errors as any).api}</ErrorMessage>}
+					{form.status === 'submitted' && (
+						<span className="text-green-600">Odeslání proběhlo úspěšně. Děkujeme!</span>
+					)}
+				</div>
 			</div>
-			<div className="flex flex-col items-end justify-end space-y-4">
-				<Button
-					onClick={form.handleSubmit as any}
-					type="basic"
-					className={c('px-16 py-2', 'md:w-full md:text-center md:py-3.5')}
-				>
-					Odeslat
-				</Button>
-				{(form.errors as any).api && <ErrorMessage id="api">{(form.errors as any).api}</ErrorMessage>}
-				{form.status === 'submitted' && (
-					<span className="text-green-600">Odeslání proběhlo úspěšně. Děkujeme!</span>
-				)}
-			</div>
+			
 		</form>
 	)
 }

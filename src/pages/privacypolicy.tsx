@@ -9,7 +9,7 @@ export default function PrivacyPolicyPage () {
 			<div className="flex justify-center w-full">
 				<div
 					className={c(
-						'py-24 flex flex-col items-center text-center max-w-[803px] mb-52 space-y-14',
+						'py-16 flex flex-col items-center text-center max-w-[803px] mb-52 space-y-14',
 						'md:px-4 md:py-8'
 					)}
 				>

@@ -37,14 +37,14 @@ const ServicesForm: FC<{ form: any; visibleRef: any }> = ({ form, visibleRef }) 
 					form={form}
 					value={form.values.lastName}
 					id={'lastName'}
-					placeholder={'Přijmení'}
+					placeholder={'Příjmení'}
 					autoComplete="family-name"
 				/>
 				<TextInput
 					form={form}
 					value={form.values.email}
 					id={'email'}
-					placeholder={'Email'}
+					placeholder={'E-mail'}
 					autoComplete="email"
 				/>
 				<PhoneTextInput
@@ -59,7 +59,7 @@ const ServicesForm: FC<{ form: any; visibleRef: any }> = ({ form, visibleRef }) 
 					form={form}
 					value={form.values.businessAddress}
 					id={'businessAddress'}
-					placeholder={'Adresa (nepovinné)'}
+					placeholder={'Obchodní firma (nepovinné)'}
 					autoComplete="street-address"
 				/>
 				<div className="col-span-2">
