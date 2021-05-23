@@ -1,6 +1,7 @@
 import React, { FC, useEffect, useState } from "react";
 import { NewsItem } from "../../../typings";
 import { FacebookIcon, TwitterIcon, LinkedInIcon } from "../../Layout/Icons";
+// @ts-ignore
 import ShareLink from 'react-facebook-share-link'
 
 
