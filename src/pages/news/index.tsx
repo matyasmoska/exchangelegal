@@ -19,7 +19,7 @@ export default function NewsPage({ news }: { news: NewsItem[] }) {
       </div>
     </DefaultLayout>
   )
-}e
+}
 
 export const getStaticProps: GetStaticProps = async (context) => {
 	const res = await fetchEntries()
