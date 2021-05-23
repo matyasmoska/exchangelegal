@@ -1,5 +1,4 @@
 import DefaultLayout from '../layouts/DefaultLayout'
-import Head from 'next/head'
 import Image from 'next/image'
 import React from 'react'
 import { c } from '../services/misc'

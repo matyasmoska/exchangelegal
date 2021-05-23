@@ -13,7 +13,6 @@ interface CheckboxProps extends React.ComponentPropsWithoutRef<"input"> {
 const Checkbox: FC<CheckboxProps> = ({ form, isChecked, id, value, label, className = '' }) => {
 	const onChange = (e: ChangeEvent<HTMLInputElement>) => {
 		form.handleChange(e)
-		console.log(e)
 		form.errors[id as string] = ''
 		form.errors.api = ''
 	}
