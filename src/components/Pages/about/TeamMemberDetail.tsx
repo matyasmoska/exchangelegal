@@ -31,7 +31,8 @@ const TeamMemberDetail: FC<{ member: TeamMember }> = ({ member }) => {
 						href={member.linkedIn}
 						className={c(
 							'absolute z-30 flex items-center px-5 py-2 space-x-2 rounded-full bottom-4 right-4 text-dark-blue bg-light-blue',
-							'hover:scale-102 transform transition'
+							'hover:scale-102 transform transition',
+							'md:px-4 md:py-1.5'
 						)}
 						target="_blank"
 					>
@@ -57,7 +58,7 @@ const TeamMemberDetail: FC<{ member: TeamMember }> = ({ member }) => {
 						))}
 					</div>
 				</div>
-				<div className="space-y-6">
+				<div className="max-h-full space-y-6 overflow-hidden">
 					<ParagraphOrMultiple className="text-justify" text={member.description} />
 				</div>
 			</div>
