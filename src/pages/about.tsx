@@ -9,8 +9,9 @@ import { c } from '../services/misc'
 import ParagraphOrMultiple from '../components/Layout/ParagraphOrMultiple'
 import { useMediaQueries } from '../hooks/useMediaQueries'
 import { Fade } from 'react-awesome-reveal'
+import ReferencesCarousel from '../components/Pages/about/ReferencesCarousel'
 
-interface Reference {
+export interface Reference {
 	photo: string
 	reference: string
 	who: string
@@ -61,13 +62,8 @@ export default function AboutPage () {
 							</Fade>
 						))}
 					</div>
-					<div className={c('flex flex-col items-center space-y-20', 'md:px-8')}>
-						<h1 className="text-3xl font-bold">Řekli o nás</h1>
-						{pageData.references.map((reference: Reference) => (
-							<Fade key={reference.who} direction={'up'} triggerOnce duration={800}>
-								<ReferenceDetail reference={reference} />
-							</Fade>
-						))}
+					<div className={c('flex flex-col my-24 items-center space-y-20', 'md:px-8')}>
+						<ReferencesCarousel references={pageData.references} />
 					</div>
 				</div>
 			</div>
