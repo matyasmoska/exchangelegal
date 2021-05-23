@@ -13,7 +13,7 @@ function useServicesForm () {
 		const errors: FormikErrors<ServicesFormValues & { api: string }> = {}
 
 		if (!emailIsValid(values.email)) errors.email = 'E-mail je v nesprávném formátu'
-		if (!values.email) errors.email = 'Je potřeba zadat e-mail'
+		if (!values.email) errors.email = 'Je třeba zadat e-mail'
 		if (!values.firstName) errors.firstName = 'Je třeba zadat jméno'
 		if (!values.lastName) errors.lastName = 'Je třeba zadat příjmení'
 		// if (!values.message) errors.message = 'Zpráva nemůže být prázdná'
