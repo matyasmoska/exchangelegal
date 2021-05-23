@@ -12,10 +12,6 @@ import { FormikErrors } from 'formik'
 export default function Obligations () {
 	const form = useObligationsForm()
 
-	useEffect(() => {
-		console.log(form.values.checked)
-	}, [form]);
-
 	return (
 		<DefaultLayout>
 			<div className={c('space-y-10 text-center p-36 py-16', 'md:px-4 md:py-8')}>
