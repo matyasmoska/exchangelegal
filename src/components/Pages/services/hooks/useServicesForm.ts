@@ -32,6 +32,8 @@ function useServicesForm () {
 			lastName: '',
 			email: '',
 			phone: '',
+			ico: '',
+			businessAddress: '',
 			message: '',
 			personalDataAgreement: false,
 			marketingAgreement:  true

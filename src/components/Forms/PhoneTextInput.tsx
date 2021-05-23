@@ -23,7 +23,7 @@ const PhoneTextInput: FC<AuthTextInputFields> = ({ form, value, id, type = 'text
 			<Cleave
 				className={c(
 					form.errors[id] ? 'border-red-500' : 'border-dark-blue',
-					'text-medium block w-full px-3 py-2 mt-1 text-base placeholder-gray-400',
+					'text-medium block w-full px-3 py-2 text-base placeholder-gray-400',
 					'focus:ring-0 focus:border-orange-primary focus:shadow-none',
 					'md:py-2.5 md:px-2.5'
 				)}
@@ -40,9 +40,7 @@ const PhoneTextInput: FC<AuthTextInputFields> = ({ form, value, id, type = 'text
 				}}
 				type={type}
 			/>
-			<span data-test={`${id}-error`} className="block text-left text-red-500 font-text">
-				{form.errors[id]}
-			</span>
+			{form.errors[id] && <ErrorMessage id={id}>{form.errors[id]}</ErrorMessage>}
 		</motion.label>
 	)
 }

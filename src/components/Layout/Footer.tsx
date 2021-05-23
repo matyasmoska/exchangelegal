@@ -18,7 +18,7 @@ const Footer = () => {
 		>
 			<div className="self-start space-y-4">
 				<LogoWhite />
-				<img src="/images/crypto_white.svg" className={c("w-4/5 rounded-lg flex", 'md:mx-auto')} />
+				<img src="/images/crypto_white.svg" className={c('w-4/5 rounded-lg flex', 'md:mx-auto')} />
 				<p className="pt-2">{contactPageData.allRightsReserved}</p>
 			</div>
 			<div
@@ -53,16 +53,18 @@ const Footer = () => {
 					<div className="flex flex-col space-y-8">
 						<div className="flex flex-col space-y-4">
 							<p className="font-bold">{contactPageData.contact.address.firstLine}</p>
-							<p className="italic">{contactPageData.contact.address.secondLine}</p>
-							{contactPageData.contact.address.thirdLine.trim().length > 0 && <p>{contactPageData.contact.address.thirdLine}</p>}
-							<a href={"tel:" + contactPageData.contact.phoneNumber} className="hover:underline">
+							{contactPageData.contact.address.secondLine.length > 0 && (
+								<p className="italic">{contactPageData.contact.address.secondLine}</p>
+							)}
+							{contactPageData.contact.address.thirdLine.trim().length > 0 && (
+								<p>{contactPageData.contact.address.thirdLine}</p>
+							)}
+							<a href={'tel:' + contactPageData.contact.phoneNumber} className="hover:underline">
 								{contactPageData.contact.phoneNumber}
 							</a>
 							<a href={`mail:${contactPageData.contact.email}`} className="hover:underline">
 								{contactPageData.contact.email}
 							</a>
-						</div>
-						<div className="flex flex-col space-y-4">
 							<Link href="/tos">
 								<a className="hover:underline">{pageData.tos}</a>
 							</Link>
@@ -70,6 +72,7 @@ const Footer = () => {
 								<a className="hover:underline">{pageData.privacypolicy}</a>
 							</Link>
 						</div>
+						
 					</div>
 				</div>
 				<div className="space-y-10">

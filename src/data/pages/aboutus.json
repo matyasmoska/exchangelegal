@@ -4,7 +4,6 @@
 	"people": [
 		{
 			"name": "Mgr. Vít Šilhavý, partner",
-			"title": "#AML #IT #Finance",
 			"description": [
 				"Vít je zakládajícím partnerem AML solutions a právníkem zabývajícím se problematikou AML/CFT. V této oblasti působí rovněž jako odborný lektor.",
 				
@@ -17,11 +16,11 @@
 				"Vít hovoří plynně anglicky a francouzsky."
 			],
 			"photo": "/images/team/vitek.png",
-			"linkedIn": "https://www.linkedin.com/in/vít-šilhavý-5697b6181/"
+			"linkedIn": "https://www.linkedin.com/in/vít-šilhavý-5697b6181/",
+			"tags": [ "#AML", "#IT", "#Finance" ]
 		},
 		{
 			"name": "Mgr. Hana Erbsová, partnerka",
-			"title": "#AML #Tax #Assets",
 			"description": [
 				"Hana je zakládající partnerkou AML solutions a oboru AML/CFT se dlouhodobě věnuje.",
 				
@@ -36,11 +35,11 @@
 				"Hana hovoří plynně anglicky, dorozumí se polsky a rusky a učí se francouzsky."
 			],
 			"photo": "/images/team/hanka.png",
-			"linkedIn": "https://www.linkedin.com/in/hanaerbsova/"
+			"linkedIn": "https://www.linkedin.com/in/hanaerbsova/",
+			"tags": [ "#AML", "#Tax", "#Assets" ]
 		},
 		{
 			"name": "Mgr. Matyáš Moska, partner",
-			"title": "#AML #FinTech #Blockchain #DeFi",
 			"description": [
 				"Matyáš je zakládajícím partnerem AML solutions a odborníkem na AML/CFT.",
 				
@@ -57,11 +56,11 @@
 				"Matyáš plynně hovoří anglicky, německy a polsky."
 			],
 			"photo": "/images/team/matyas.png",
-			"linkedIn": "https://www.linkedin.com/in/matyas-moska/"
+			"linkedIn": "https://www.linkedin.com/in/matyas-moska/",
+			"tags": [ "#AML", "#FinTech", "#Blockchain", "#DeFi" ]
 		},
 		{
 			"name": "Ondřej Beck, compliance consultant",
-			"title": "#AML #Compliance #Software",
 			"description": [
 				"Ondřej je konzultantem v oblasti AML/CFT a jeho hlavní náplň práce spočívá v agendě AML compliance.",
 				
@@ -71,11 +70,11 @@
 				
 				"Ondřej hovoří plynně anglicky."
 			],
-			"photo": "/images/team/ondrej.png"
+			"photo": "/images/team/ondrej.png",
+			"tags": [ "#AML", "#Compliance", "#Software" ]
 		},
 		{
 			"name": "Veronika Hurtová, back office manager",
-			"title": "#BackOffice #Support #CustomerCare",
 			"description": [
 				"Veronika se stará o zpracování došlých objednávek, jejich zadávání do interních firemních systémů a následné zpracování. Připravuje podklady pro fakturaci a zajišťuje veškeré činnosti včetně podpory a evidence všech provedených operací.",
 				
@@ -83,7 +82,8 @@
 
 				"Veronika hovoří plynně anglicky."
 			],
-			"photo": "/images/team/verca.png"
+			"photo": "/images/team/verca.png",
+			"tags": [ "#BackOffice", "#Support", "#CustomerCare" ]
 		}
 		
 	],

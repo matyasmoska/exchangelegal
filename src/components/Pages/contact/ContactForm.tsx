@@ -14,7 +14,7 @@ const ContactForm = () => {
 
 	return (
 		<form className="flex flex-col space-y-5">
-			<div className={c('grid grid-cols-2 gap-6', 'md:block md:space-y-6')}>
+			<div className={c('grid grid-cols-2 gap-6 gap-x-4', 'md:block md:space-y-6')}>
 				<TextInput
 					form={form}
 					value={form.values.firstName}
@@ -42,6 +42,14 @@ const ContactForm = () => {
 					id={'phone'}
 					placeholder={'Telefon'}
 					autoComplete="tel"
+				/>
+				<TextInput form={form} value={form.values.ico} id={'ico'} placeholder={'IČO (nepovinné)'} />
+				<TextInput
+					form={form}
+					value={form.values.businessAddress}
+					id={'businessAddress'}
+					placeholder={'Adresa (nepovinné)'}
+					autoComplete="street-address"
 				/>
 				<div className="col-span-2">
 					<TextArea
@@ -72,7 +80,14 @@ const ContactForm = () => {
 					id={'marketingAgreement'}
 					form={form}
 					isChecked={form.values.marketingAgreement}
-					label={'Souhlasím se zasíláním obchodních sdělení'}
+					label={
+						<span>
+							Souhlasím se{' '}
+							<Link href="/tos">
+								<a className="underline">zasíláním obchodních sdělení</a>
+							</Link>
+						</span>
+					}
 				/>
 			</div>
 			<div className="flex flex-col items-end justify-end space-y-4">

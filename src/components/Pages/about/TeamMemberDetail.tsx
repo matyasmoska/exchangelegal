@@ -47,9 +47,15 @@ const TeamMemberDetail: FC<{ member: TeamMember }> = ({ member }) => {
 				/>
 			</div>
 			<div className="space-y-6">
-				<div className="space-y-1.5">
+				<div className="space-y-4">
 					<h3 className="text-3xl font-bold">{member.name}</h3>
-					<p className="text-sm">{member.title}</p>
+					<div className="flex items-center space-x-2">
+						{ member.tags.map(tag => (
+							<div className="px-4 py-1 text-sm rounded-full bg-light-blue text-dark-blue">
+								{ tag }
+							</div>
+						))}
+					</div>
 				</div>
 				<div className="space-y-6">
 					<ParagraphOrMultiple className="text-justify" text={member.description} />

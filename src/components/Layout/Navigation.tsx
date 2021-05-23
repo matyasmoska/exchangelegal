@@ -49,7 +49,7 @@ const Navigation = () => {
 			<Logo />
 			<div
 				className={c(
-					'flex items-center space-x-16 font-semibold',
+					'flex items-center space-x-14 font-semibold',
 					'3xl:space-x-10',
 					'2xl:space-x-6 2xl:text-center',
 					'xl:space-x-4',

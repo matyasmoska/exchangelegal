@@ -9,7 +9,7 @@ export interface NewsItem {
 
 export interface TeamMember {
 	name: string
-	title: string
+	tags: string[]
 	description: string | string[]
 	photo: string,
 	linkedIn?: string

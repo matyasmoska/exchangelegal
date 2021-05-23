@@ -54,6 +54,14 @@ const ServicesForm: FC<{ form: any; visibleRef: any }> = ({ form, visibleRef }) 
 					placeholder={'Telefon'}
 					autoComplete="tel"
 				/>
+				<TextInput form={form} value={form.values.ico} id={'ico'} placeholder={'IČO (nepovinné)'} />
+				<TextInput
+					form={form}
+					value={form.values.businessAddress}
+					id={'businessAddress'}
+					placeholder={'Adresa (nepovinné)'}
+					autoComplete="street-address"
+				/>
 				<div className="col-span-2">
 					<TextArea
 						placeholder={'Zde napište zprávu'}
@@ -83,7 +91,14 @@ const ServicesForm: FC<{ form: any; visibleRef: any }> = ({ form, visibleRef }) 
 					id={'marketingAgreement'}
 					form={form}
 					isChecked={form.values.marketingAgreement}
-					label={'Souhlasím se zasíláním obchodních sdělení'}
+					label={
+						<span>
+							Souhlasím se{' '}
+							<Link href="/tos">
+								<a className="underline">zasíláním obchodních sdělení</a>
+							</Link>
+						</span>
+					}
 				/>
 			</div>
 			<div className="flex flex-col items-end justify-end w-full space-y-4">
