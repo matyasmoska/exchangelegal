@@ -4,12 +4,13 @@ import ErrorMessage from './ErrorMessage'
 interface CheckboxProps extends React.ComponentPropsWithoutRef<"input"> {
 	form: any
 	isChecked: boolean,
-	label: string,
+	label: ReactNode,
 	id: string,
-	className?: string
+	className?: string,
+	value: string
 }
 
-const Checkbox: FC<CheckboxProps> = ({ form, isChecked, id, label, className = '' }) => {
+const Checkbox: FC<CheckboxProps> = ({ form, isChecked, id, value, label, className = '' }) => {
 	const onChange = (e: ChangeEvent<HTMLInputElement>) => {
 		form.handleChange(e)
 		console.log(e)
@@ -26,7 +27,7 @@ const Checkbox: FC<CheckboxProps> = ({ form, isChecked, id, label, className = '
 					onChange={(e) => onChange(e)}
 					name={id}
 					id={id}
-					value={label}
+					value={value}
 					checked={isChecked}
 				/>
 				<span className="ml-2">{label}</span>

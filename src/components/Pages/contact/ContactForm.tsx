@@ -68,6 +68,7 @@ const ContactForm = () => {
 						id={'personalDataAgreement'}
 						form={form}
 						isChecked={form.values.personalDataAgreement}
+						value={'Souhlasím se zpracováním osobních údajů'}
 						label={
 							<span>
 								Souhlasím se{' '}
@@ -81,6 +82,7 @@ const ContactForm = () => {
 						id={'marketingAgreement'}
 						form={form}
 						isChecked={form.values.marketingAgreement}
+						value={'Souhlasím se zasíláním obchodních sdělení'}
 						label={
 							<span>
 								Souhlasím se{' '}

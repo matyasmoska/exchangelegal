@@ -40,6 +40,7 @@ export default function Obligations () {
 							form={form}
 							isChecked={form.values.checked.includes(obl)}
 							label={obl}
+							value={obl}
 							id="checked"
 						/>
 					))}

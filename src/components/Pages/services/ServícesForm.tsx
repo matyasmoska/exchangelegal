@@ -78,6 +78,7 @@ const ServicesForm: FC<{ form: any; visibleRef: any }> = ({ form, visibleRef }) 
 					id={'personalDataAgreement'}
 					form={form}
 					isChecked={form.values.personalDataAgreement}
+					value={'Souhlasím se zpracováním osobních údajů'}
 					label={
 						<span>
 							Souhlasím se{' '}
@@ -91,6 +92,7 @@ const ServicesForm: FC<{ form: any; visibleRef: any }> = ({ form, visibleRef }) 
 					id={'marketingAgreement'}
 					form={form}
 					isChecked={form.values.marketingAgreement}
+					value={'Souhlasím se zasíláním obchodních sdělení'}
 					label={
 						<span>
 							Souhlasím se{' '}
