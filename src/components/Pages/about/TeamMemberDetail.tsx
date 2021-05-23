@@ -13,16 +13,16 @@ const TeamMemberDetail: FC<{ member: TeamMember }> = ({ member }) => {
 	return (
 		<div
 			style={{ gridTemplateColumns: isMd ? '1fr' : '0.6fr 1fr' }}
-			className={c('grid max-w-6xl space-x-8 team-member items-start', 'md:space-x-0 md:space-y-8 md:max-w-none')}
+			className={c('grid max-w-[900px] space-x-8 team-member items-start', 'md:space-x-0 md:space-y-8 md:max-w-none')}
 		>
 			<div className="relative flex-shrink-0">
 				<div>
 					<Image
 						layout="responsive"
 						className="z-10"
-						objectFit="fill"
-						width={524}
-						height={628}
+						objectFit="cover"
+						width={388}
+						height={521}
 						src={member.photo}
 					/>
 				</div>
@@ -49,9 +49,9 @@ const TeamMemberDetail: FC<{ member: TeamMember }> = ({ member }) => {
 			<div className="space-y-6">
 				<div className="space-y-4">
 					<h3 className="text-3xl font-bold">{member.name}</h3>
-					<div className="flex items-center space-x-2">
+					<div className={c("flex items-center space-x-2", "md:w-full flex-wrap md:space-x-0")}>
 						{ member.tags.map(tag => (
-							<div className="px-4 py-1 text-sm rounded-full bg-light-blue text-dark-blue">
+							<div className={c("px-4 py-1 text-sm rounded-full bg-light-blue text-dark-blue", "md:mr-2 md:mb-2 md:flex-shrink-0")}>
 								{ tag }
 							</div>
 						))}

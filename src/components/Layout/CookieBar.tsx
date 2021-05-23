@@ -12,7 +12,7 @@ const CookieBar = () => {
 	return (
 		<motion.div
 			className={c(
-				'fixed bottom-0 flex items-center justify-between w-full py-3 text-white bg-dark-blue bg-opacity-95',
+				'fixed bottom-0 flex items-center justify-between w-full z-50 py-3 text-white bg-dark-blue bg-opacity-95',
 				'px-36',
 				'2xl:px-24',
 				'xl:px-16',

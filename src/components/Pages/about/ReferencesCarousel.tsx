@@ -4,6 +4,7 @@ import { FC, useEffect, useMemo, useState } from 'react'
 import { opacityAnimation } from '../../../animations/navigation'
 import { Reference } from '../../../pages/about'
 import news from '../../../pages/news'
+import { c } from '../../../services/misc'
 
 interface ReferenceCarouselProps {
 	references: Reference[]
@@ -31,9 +32,12 @@ const ReferencesCarousel: FC<ReferenceCarouselProps> = ({ references }) => {
 		<AnimateSharedLayout>
 			<m.div
 				layout
-				className="p-12 w-[612px] h-[612px] text-dark-blue flex flex-col items-center justify-center space-y-16 rounded-full bg-orange-primary bg-opacity-20"
+				className={c(
+					"p-12 w-[612px] h-[612px] text-dark-blue flex flex-col items-center justify-center space-y-16 rounded-full bg-orange-primary bg-opacity-20",
+					"md:w-[330px] md:h-[330px]"
+				)}
 			>
-				<m.h1 layout className="font-bold text-[40px]">
+				<m.h1 layout className={c("font-bold text-[40px]", "md:text-2xl")}>
 					Řekli o nás
 				</m.h1>
 				<AnimatePresence initial={false} exitBeforeEnter>
@@ -43,8 +47,8 @@ const ReferencesCarousel: FC<ReferenceCarouselProps> = ({ references }) => {
 						layout
 						className="flex flex-col items-center justify-center space-y-8 h-2/4 "
 					>
-						<m.p layout className="text-3xl font-bold">{`“${currReference.reference}”`}</m.p>
-						<m.p layout className="max-w-sm text-sm">
+						<m.p layout className={c("text-3xl font-bold", "md:text-base md:leading-snug")}>{`“${currReference.reference}”`}</m.p>
+						<m.p layout className={c("max-w-sm text-sm")}>
 							{' '}
 							{currReference.who}{' '}
 						</m.p>

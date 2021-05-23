@@ -52,7 +52,7 @@ const ObligationsSuccessPage = () => {
 							zobrazíte Naše služby spojené s AML.
 						</p>
 					</div>
-					<p className="font-bold">Budete přesměrováni na nabídku Našich služeb za { count } { secondsString }...</p>
+					<p className="font-bold">Budete přesměrováni na nabídku našich služeb za { count } { secondsString }...</p>
 					<Link href="/services">
 						<Button type="basic" className="px-12 py-3">
 							Přesměrovat ihned

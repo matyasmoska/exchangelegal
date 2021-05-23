@@ -48,11 +48,11 @@ export default function AboutPage () {
 				<div className="flex flex-col items-center justify-center text-center my-14">
 					<div className={c('flex flex-col max-w-6xl space-y-8', 'md:px-8 md:text-left')}>
 						<h1 className="text-3xl font-bold">{pageData.header}</h1>
-						<ParagraphOrMultiple text={pageData.headerDescription} className="text-justify" />
+						<ParagraphOrMultiple text={pageData.headerDescription} className="text-justify max-w-[900px]" />
 					</div>
 					<div
 						className={c(
-							'flex flex-col items-center w-full my-24 space-y-20 text-left px-1/8 justify-self-start',
+							'flex flex-col items-center w-full my-24 space-y-40 text-left justify-self-start',
 							'md:px-8'
 						)}
 					>
