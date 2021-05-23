@@ -42,7 +42,7 @@ export default function AboutPage () {
 						width={1920}
 						height={485}
 						className="z-10 w-full"
-						src={'/images/team.png'}
+						src={'/images/team.jpg'}
 					/>
 				</div>
 				<div className="flex flex-col items-center justify-center text-center my-14">
