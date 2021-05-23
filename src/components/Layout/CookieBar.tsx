@@ -2,13 +2,12 @@ import { motion } from 'framer-motion'
 import Link from 'next/link'
 import React from 'react'
 import { useCookies } from 'react-cookie'
-import { useCookie } from 'react-use'
 import data from '../../data/pages/cookies.json'
 import { c } from '../../services/misc'
 import Button from './Button'
 
 const CookieBar = () => {
-	const [cookies, setCookie, removeCookie] = useCookies(['cookie-consent'])
+	const [cookies, setCookie] = useCookies(['cookie-consent'])
 
 	return (
 		<motion.div

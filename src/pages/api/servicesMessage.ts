@@ -3,7 +3,7 @@ import { ContactFormValues } from './../../components/Pages/contact/hooks/useCon
 import { NextApiRequest, NextApiResponse } from "next"
 import nodemailer from "nodemailer";
 
-async function sendMail( { firstName, lastName, message, email, phone, checked }: ServicesFormValues ) {
+async function sendMail( { firstName, lastName, message, email, phone, checked, ico, businessAddress }: ServicesFormValues ) {
     let transporter = nodemailer.createTransport({
       host: process.env.SMTP_SERVER,
       port: 465,
@@ -27,6 +27,8 @@ async function sendMail( { firstName, lastName, message, email, phone, checked }
               <li>Jméno: <b>${firstName} ${lastName}</b></li>
               <li>Email: <b>${email}</b></li>
               <li>Telefonní číslo: <b>${phone}</b></li>
+              <li>IČO: <b>${ico || '-'}</b></li>
+              <li>Adresa: <b>${businessAddress || '-'}</b></li>
             </ul>
           </div>
           <h3>Vybrané služby:</h3>
