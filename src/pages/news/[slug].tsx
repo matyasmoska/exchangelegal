@@ -5,7 +5,7 @@ import readingTime from "reading-time";
 import DefaultLayout from "../../layouts/DefaultLayout";
 import { fetchEntries } from "../../services/contentful";
 import { c, dateStringToDateFormat } from "../../services/misc";
-import { NewsItem } from "../../typings";
+import { Author, NewsItem } from "../../typings";
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 import Image from 'next/image'
 import ReadingTime from "../../components/Pages/news/ReadingTime";
@@ -15,7 +15,8 @@ import { INLINES } from '@contentful/rich-text-types'
 
 interface PostDetailPageProps {
     news: NewsItem[]
-    newsItem: NewsItem
+    newsItem: NewsItem,
+    author?: Author
 }
 
 let options = {
@@ -50,7 +51,7 @@ let options = {
     }
 }
 
-const PostDetailPage: NextPage<PostDetailPageProps> = ({ news, newsItem }) => {
+const PostDetailPage: NextPage<PostDetailPageProps> = ({ news, newsItem, author }) => {
     const stats = useMemo(() => readingTime(documentToPlainTextString(newsItem.text)), [newsItem]);
     const { isMd, isLg } = useMediaQueries()
 
@@ -75,6 +76,19 @@ const PostDetailPage: NextPage<PostDetailPageProps> = ({ news, newsItem }) => {
                             <article className="space-y-8 prose text-justify max-w-none">
                                 { documentToReactComponents(newsItem.text, options) }
                             </article>
+                           { author && <div className="flex items-center space-x-4">
+                                <Image 
+                                    width={64} 
+                                    height={64} 
+                                    className="z-10 rounded-full" 
+                                    objectFit="cover"
+                                    src={'https:' + author.photo.fields.file.url} 
+                                />
+                                <div className="flex flex-col space-y-0.5">
+                                    <h4 className="text-lg font-bold">{ author.name }</h4>
+                                    <p className="text-gray-400">{ author.title }</p>
+                                </div>
+                            </div>}
                         </div>
                     </div>
                     <div className={c("flex flex-col space-y-28", 'md:space-y-8 md:text-center')}>
@@ -91,14 +105,17 @@ const PostDetailPage: NextPage<PostDetailPageProps> = ({ news, newsItem }) => {
 export const getStaticProps: GetStaticProps = async ({ params }) => {
 	const res = await fetchEntries()
 
-	const news = res?.map((n: any) => {
+	const news = res?.filter((n: any)=> n.fields.slug).map((n: any) => {
 		return n.fields
 	})
 
+    const currentArticle = news.find((item: NewsItem) => item.slug === params?.slug)
+
 	return {
 		props: {
-            newsItem: news.find((item: NewsItem) => item.slug === params?.slug),
-			news
+            newsItem: currentArticle,
+			news,
+            author: currentArticle.author?.fields || null
 		}
 	}
 }
@@ -106,7 +123,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 export const getStaticPaths: GetStaticPaths = async () => {
     const res = await fetchEntries()
 
-	const news = res?.map((n: any) => {
+	const news = res?.filter((n: any)=> n.fields.slug).map((n: any) => {
 		return n.fields
 	})
 

@@ -31,7 +31,7 @@ const ReferencesCarousel: FC<ReferenceCarouselProps> = ({ references }) => {
 		<AnimateSharedLayout>
 			<m.div
 				layout
-				className="p-16 w-[612px] h-[612px] text-dark-blue flex flex-col items-center justify-center space-y-16 rounded-full bg-orange-primary bg-opacity-20"
+				className="p-12 w-[612px] h-[612px] text-dark-blue flex flex-col items-center justify-center space-y-16 rounded-full bg-orange-primary bg-opacity-20"
 			>
 				<m.h1 layout className="font-bold text-[40px]">
 					Řekli o nás

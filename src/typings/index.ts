@@ -14,3 +14,9 @@ export interface TeamMember {
 	photo: string,
 	linkedIn?: string
 }
+
+export interface Author {
+	name: string,
+	title: string,
+	photo: any
+}

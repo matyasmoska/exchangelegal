@@ -19,12 +19,12 @@ export default function NewsPage({ news }: { news: NewsItem[] }) {
       </div>
     </DefaultLayout>
   )
-}
+}e
 
 export const getStaticProps: GetStaticProps = async (context) => {
 	const res = await fetchEntries()
 
-	const news = res?.map((n: any) => {
+	const news = res?.filter((n: any)=> n.fields.slug).map((n: any) => {
 		return n.fields
 	})
 
