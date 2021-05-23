@@ -12,6 +12,8 @@ import ReadingTime from "../../components/Pages/news/ReadingTime";
 import NewsPreviewItem from "../../components/Pages/news/NewsPreviewItem";
 import { useMediaQueries } from "../../hooks/useMediaQueries";
 import { INLINES } from '@contentful/rich-text-types'
+import ShareArticleLinks from "../../components/Pages/news/ShareArticleLinks";
+import { NextSeo } from "next-seo";
 
 interface PostDetailPageProps {
     news: NewsItem[]
@@ -57,6 +59,32 @@ const PostDetailPage: NextPage<PostDetailPageProps> = ({ news, newsItem, author 
 
     return (
         <DefaultLayout>
+            <NextSeo
+                title={newsItem.name + ' | AML Solutions'}
+                description={newsItem.previewText}
+                openGraph={{
+                    url: 'https://amlsolutions.cz/news/' + newsItem.slug,
+                    title: newsItem.name + ' | AML Solutions',
+                    description: newsItem.previewText,
+                    site_name: 'AML Solutions',
+                    type: 'article',
+                    article: {
+                        publishedTime: newsItem.date
+                    },
+                    images: [
+                        {
+                            url: 'https:' + newsItem.thumbnail.fields.file.url,
+                            width: 1920,
+                            height: 439
+                        }
+                    ]
+                }}
+                twitter={{
+                    handle: '@solutions_aml',
+                    site: '@solutions_aml',
+                    cardType: 'summary_large_image'
+                }}
+            />
             <div className="relative">
                 <Image 
                     width={isLg ? 331 : 1920} 
@@ -76,19 +104,23 @@ const PostDetailPage: NextPage<PostDetailPageProps> = ({ news, newsItem, author 
                             <article className="space-y-8 prose text-justify max-w-none">
                                 { documentToReactComponents(newsItem.text, options) }
                             </article>
-                           { author && <div className="flex items-center space-x-4">
-                                <Image 
-                                    width={64} 
-                                    height={64} 
-                                    className="z-10 rounded-full" 
-                                    objectFit="cover"
-                                    src={'https:' + author.photo.fields.file.url} 
-                                />
-                                <div className="flex flex-col space-y-0.5">
-                                    <h4 className="text-lg font-bold">{ author.name }</h4>
-                                    <p className="text-gray-400">{ author.title }</p>
-                                </div>
-                            </div>}
+                           <div className="flex items-center justify-between">
+                               { author && <div className="flex items-center space-x-4">
+                                    <Image 
+                                        width={64} 
+                                        height={64}
+                                        priority 
+                                        className="z-10 rounded-full" 
+                                        objectFit="cover"
+                                        src={'https:' + author.photo.fields.file.url} 
+                                    />
+                                    <div className="flex flex-col space-y-0.5">
+                                        <h4 className="text-lg font-bold">{ author.name }</h4>
+                                        <p className="text-gray-400">{ author.title }</p>
+                                    </div>
+                                </div> }
+                                <ShareArticleLinks article={newsItem} />
+                           </div>
                         </div>
                     </div>
                     <div className={c("flex flex-col space-y-28", 'md:space-y-8 md:text-center')}>

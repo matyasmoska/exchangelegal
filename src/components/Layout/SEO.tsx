@@ -12,11 +12,11 @@ const SEO = ({ title = pageData.title }) => {
                 description: pageData.description,
                 site_name: pageData.site_name,
               }}
-              // twitter={{
-              //   handle: '@WingenderA',
-              //   site: '@WingenderA',
-              //   cardType: 'summary_large_image'
-              // }}
+              twitter={{
+                handle: '@solutions_aml',
+                site: '@solutions_aml',
+                cardType: 'summary_large_image'
+              }}
         />
     );
 }
