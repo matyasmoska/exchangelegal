@@ -29,7 +29,7 @@ const ContactSection = () => {
 					<WrappedIconRow Icon={PhoneIcon} href={`tel:${contactPageData.contact.phoneNumberLink}`}>
 						{contactPageData.contact.phoneNumber}
 					</WrappedIconRow>
-					<WrappedIconRow Icon={MessageIcon} href={`mail:${contactPageData.contact.emailLink}`}>
+					<WrappedIconRow Icon={MessageIcon} href={`mailto:${contactPageData.contact.emailLink}`}>
 						{contactPageData.contact.email}
 					</WrappedIconRow>
 				</div>

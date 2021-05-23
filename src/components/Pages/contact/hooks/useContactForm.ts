@@ -18,7 +18,7 @@ function useContactForm () {
 	const validate = (values: ContactFormValues): FormikErrors<ContactFormValues> => {
 		const errors: FormikErrors<ContactFormValues> = {}
 
-		if (!emailIsValid(values.email)) errors.email = 'Email je v nesprávném formátu'
+		if (!emailIsValid(values.email)) errors.email = 'E-mail je v nesprávném formátu'
 		if (!values.email) errors.email = 'Je potřeba zadat e-mail'
 		if (!values.firstName) errors.firstName = 'Je potřeba zadat křestní jméno'
 		if (!values.lastName) errors.lastName = 'Je potřeba zadat příjmení'
