@@ -31,7 +31,7 @@ const SelectedServicesList: FC<{ form: FormikProps<ServicesFormValues> }> = ({ f
 					</React.Fragment>
 				) : (
 					<m.p layout className="text-red-500">
-						Prosím, vyberte aspoň jednu službu.
+						Prosím, vyberte alespoň jednu službu.
 					</m.p>
 				)}
 			</m.div>
