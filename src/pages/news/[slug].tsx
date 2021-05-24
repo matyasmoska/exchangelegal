@@ -61,13 +61,13 @@ const PostDetailPage: NextPage<PostDetailPageProps> = ({ news, newsItem, author 
     return (
         <DefaultLayout>
             <NextSeo
-                title={newsItem.name + ' | AML Solutions'}
+                title={newsItem.name + ' | AML solutions'}
                 description={newsItem.previewText}
                 openGraph={{
                     url: 'https://amlsolutions.cz/news/' + newsItem.slug,
-                    title: newsItem.name + ' | AML Solutions',
+                    title: newsItem.name + ' | AML solutions',
                     description: newsItem.previewText,
-                    site_name: 'AML Solutions',
+                    site_name: 'AML solutions',
                     type: 'article',
                     article: {
                         publishedTime: newsItem.date

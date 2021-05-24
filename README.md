@@ -1,4 +1,4 @@
-Toto je repozitář pro stránky AML Solutions.
+Toto je repozitář pro stránky AML solutions.
 
 ## Vývoj
 

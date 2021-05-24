@@ -15,7 +15,7 @@ const SEO = ({ title = pageData.title }) => {
                 images: [
                     {
                         url: 'https://www.amlsolutions.cz/_next/image?url=%2Fimages%2Fbackground2.png&w=3840&q=75',
-                        alt: 'AML Solutions',
+                        alt: 'AML solutions',
                         width: 1352,
                         height: 602
                     }

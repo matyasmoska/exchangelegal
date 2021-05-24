@@ -1,3 +1,25 @@
 {
-    
+	"header": "Zjistěte, zda se na Vás vztahují AML povinnosti",
+	"subheader": "Provádím jako podnikatel nebo nepodnikající právnická osoba některou z těchto činností?",
+	"obligations": [
+		"nákup a prodej nemovitých věcí",
+		"realitní zprostředkování",
+		"poskytování služeb souvisejících s virtuálními aktivy (kryptoměny apod.)",
+		"prodej použitého zboží nebo zprostředkování takového prodeje",
+		"přijímání věcí do zástavy",
+		"činnost správce svěřenského fondu nebo obdobného zahraničního uspořádání",
+		"veřejné dražby nemovitých věcí",
+		"daňové poradenství nebo audit",
+		"exekuční činnost nebo úschovu majetku jako soudní exekutor",
+		"obchody v hodnotě  10 000 EUR a vyšší (platba hotově nebo vysoce hodnotnou komoditou)",
+		"obchody s uměleckými díly v hodnotě min. 10 000 EUR nebo skladování takových uměleckých děl",
+		"provozování hazardních her (mimo loterie, bingo a tomboly)",
+		"správu majetku investorů (\"minifond\" podle § 15 zákona o investičních společnostech a fondech)",
+		"činnost pověřeného akcionáře  pro jinou osobu",
+		"řízení nebo provozování obchodní korporace, podnikatelského seskupení nebo jiného obdobného útvaru za jiného, nebo získávání a shromažďovaní majetku za tím účelem",
+		"poskytování leasingu, záruk, úvěrů nebo peněžitých zápůjček anebo obchodování s nimi",
+		"odkup dluhů nebo pohledávek nebo obchodování s nimi",
+		"poradenské činnosti pro podnikatele ve věcech kapitálové struktury, průmyslové strategie nebo poradenství a služby v oblasti fúzí a koupě obchodních závodů",
+		"služby úschovy cenností nebo pronájmu bezpečnostních schránek"
+	]
 }

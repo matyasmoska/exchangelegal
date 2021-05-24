@@ -8,7 +8,7 @@ const Logo = () => {
 	return (
 		<Link href="/">
 			<a className="z-50">
-				<Image alt="AML Solutions Logo" src="/images/logo.png" height={isMd ? 35 : 40} width={isMd ? 200 : 240} />
+				<Image alt="AML solutions Logo" src="/images/logo.png" height={isMd ? 35 : 40} width={isMd ? 200 : 240} />
 			</a>
 		</Link>
 	)
@@ -17,7 +17,7 @@ const Logo = () => {
 export const LogoWhite = () => {
 	const { isMd } = useMediaQueries()
 
-	return <Image alt="AML Solutions Logo" src="/images/logo-white.png" height={isMd ? 35 : 40} width={isMd ? 200 : 240} />
+	return <Image alt="AML solutions Logo" src="/images/logo-white.png" height={isMd ? 35 : 40} width={isMd ? 200 : 240} />
 }
 
 export default Logo

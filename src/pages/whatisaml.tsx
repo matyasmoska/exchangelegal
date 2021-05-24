@@ -5,7 +5,7 @@ import { c } from '../services/misc'
 import pageData from '../data/pages/whatisaml.json'
 import ParagraphOrMultiple from '../components/Layout/ParagraphOrMultiple'
 
-export default function CalculatorPage () {
+export default function WhatIsAMLPage () {
 	return (
 		<DefaultLayout>
 			<div className={c('relative items-center')}>
