@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import React, { FC, Fragment, useState } from 'react'
 import { TeamMember } from '../../../typings'
 import Image from 'next/image'
 import { c } from '../../../services/misc'
@@ -6,8 +6,11 @@ import ParagraphOrMultiple from '../../Layout/ParagraphOrMultiple'
 import { Fade } from 'react-awesome-reveal'
 import { useMediaQueries } from '../../../hooks/useMediaQueries'
 import { LinkedInIcon } from '../../Layout/Icons'
+import Button from '../../Layout/Button'
 
 const TeamMemberDetail: FC<{ member: TeamMember }> = ({ member }) => {
+	const [readMore, setReadMore] = useState(false)
+
 	const { isMd } = useMediaQueries()
 
 	return (
@@ -58,9 +61,24 @@ const TeamMemberDetail: FC<{ member: TeamMember }> = ({ member }) => {
 						))}
 					</div>
 				</div>
-				<div className="max-h-full space-y-6 overflow-hidden">
+				<div className="max-h-full space-y-5 overflow-hidden">
 					<ParagraphOrMultiple className="text-justify" text={member.description} />
+					{ (member.readMore && (readMore || isMd)) && (
+						<ParagraphOrMultiple className="text-justify" text={member.readMore} />
+					)}
+					
 				</div>
+				{ (member.readMore && !isMd) && (
+						<div className="flex">
+							<Button
+								onClick={() => setReadMore(( c ) => !c )}
+								type="basic"
+								className="px-16 py-2"
+							>
+								{ readMore ? 'Méně' : 'Více' }
+							</Button>
+						</div>
+					)}
 			</div>
 		</div>
 	)

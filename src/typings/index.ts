@@ -11,8 +11,9 @@ export interface TeamMember {
 	name: string
 	tags: string[]
 	description: string | string[]
+	readMore?: string | string[]
 	photo: string,
-	linkedIn?: string
+	linkedIn?: string,
 }
 
 export interface Author {

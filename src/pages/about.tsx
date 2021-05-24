@@ -7,7 +7,6 @@ import React from 'react'
 import TeamMemberDetail from '../components/Pages/about/TeamMemberDetail'
 import { c } from '../services/misc'
 import ParagraphOrMultiple from '../components/Layout/ParagraphOrMultiple'
-import { useMediaQueries } from '../hooks/useMediaQueries'
 import { Fade } from 'react-awesome-reveal'
 import ReferencesCarousel from '../components/Pages/about/ReferencesCarousel'
 
@@ -15,20 +14,6 @@ export interface Reference {
 	photo: string
 	reference: string
 	who: string
-}
-
-const ReferenceDetail: FC<{ reference: Reference }> = ({ reference }) => {
-	return (
-		<div className={c('flex max-w-xl space-x-8 text-left', 'md:flex-col md:max-w-none md:space-x-0 md:space-y-12')}>
-			<div className="flex-shrink-0">
-				<Image width={177} height={263} src={reference.photo} />
-			</div>
-			<div className="space-y-4">
-				<p className="text-3xl font-bold">{`“${reference.reference}”`}</p>
-				<p className="text-sm"> {reference.who} </p>
-			</div>
-		</div>
-	)
 }
 
 export default function AboutPage () {
