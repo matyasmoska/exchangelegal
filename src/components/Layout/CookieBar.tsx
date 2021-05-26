@@ -25,7 +25,7 @@ const CookieBar = () => {
 		>
 			<div className="flex flex-col space-y-1">
 				<h3 className="font-bold">{data.header}</h3>
-				<p>{data.subheader} <Link href="/privacypolicy"><a className={c("underline", 'md:block')}>{data.moreInfoText}</a></Link> </p>
+				<p>{data.subheader} <Link href="/zasady-zpracovani-osobnich-udaju"><a className={c("underline", 'md:block')}>{data.moreInfoText}</a></Link> </p>
 			</div>
 			<Button
 				type="basic"

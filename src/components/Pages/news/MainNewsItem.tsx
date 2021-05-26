@@ -26,7 +26,7 @@ const MainNewsItem: FC<{ newsItem: NewsItem }> = ({ newsItem }) => {
 			</div>
 			<div className="flex flex-col space-y-12 text-left">
 				<div className="flex flex-col space-y-4">
-					<Link href={'/news/' + newsItem.slug}>
+					<Link href={'/aktuality/' + newsItem.slug}>
 						<h1 className={c('text-[40px] leading-tight font-bold', 'xl:text-3xl', 'md:text-2xl md:text-center')}>{newsItem.name}</h1>
 					</Link>
 					<div className={c('flex items-center space-x-12', 'md:justify-center')}>
@@ -36,7 +36,7 @@ const MainNewsItem: FC<{ newsItem: NewsItem }> = ({ newsItem }) => {
 					<p className="text-justify">{newsItem.previewText}</p>
 				</div>
 				<div className={c('flex', 'md:justify-center')}>
-					<Link href={'/news/' + newsItem.slug}>
+					<Link href={'/aktuality/' + newsItem.slug}>
 						<Button type="basic" className="float-left px-20 py-2.5 text-white">
 							Více
 						</Button>

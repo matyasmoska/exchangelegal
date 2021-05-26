@@ -43,7 +43,7 @@ const NewsBar: FC<{ news: NewsItem[] }> = ({ news }) => {
                         transition={{ duration: 0.4, type: 'tween'}}
                         key={currNewsItem.slug}
                     >
-        			    <Link href={'/news/' + currNewsItem.slug}>
+        			    <Link href={'/aktuality/' + currNewsItem.slug}>
             				<a>
             					<span className="font-bold">{`${dateStringToDateFormat(currNewsItem.date)} – ${currNewsItem.name}`}</span>
             				</a>

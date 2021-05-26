@@ -22,9 +22,9 @@ function useObligationsForm() {
 		validateOnChange: false,
 		onSubmit: async ({ checked }) => {
 			if ( checked.length ) {
-				router.push('/ineedaml/success')
+				router.push('/potrebuji-aml/success')
 			} else {
-				router.push('/ineedaml/fail')
+				router.push('/potrebuji-aml/fail')
 			}
 		}
 	})

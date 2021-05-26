@@ -25,7 +25,7 @@ const ObligationsSuccessPage = () => {
 	// Send user off to servies at the end
 	useEffect(() => {
 		if ( count === 0 ) {
-			router.push('/services')
+			router.push('/nase-sluzby')
 		}
 	}, [count])
 
@@ -53,7 +53,7 @@ const ObligationsSuccessPage = () => {
 						</p>
 					</div>
 					<p className="font-bold">Budete přesměrováni na nabídku našich služeb za { count } { secondsString }...</p>
-					<Link href="/services">
+					<Link href="/nase-sluzby">
 						<Button type="basic" className="px-12 py-3">
 							Přesměrovat ihned
 						</Button>

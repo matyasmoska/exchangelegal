@@ -14,12 +14,12 @@ const HeroSection = () => {
 				</p>
 			</div>
 			<div className={c('grid gap-6 items-center w-9/12 grid-cols-2', 'md:block md:space-y-6 md:w-full md:space-x-0')}>
-				<Link href="/ineedaml">
+				<Link href="/potrebuji-aml">
 					<Button type="basic" className="px-6 py-2">
 						{pageData.checkAMLObligations}
 					</Button>
 				</Link>
-				<Link href="/services">
+				<Link href="/nase-sluzby">
 					<Button type="light" className="px-10 py-2">
 						{pageData.seeAMLServices}
 					</Button>
