@@ -12,7 +12,7 @@ export const NewsPreviewItem: FC<{ newsItem: NewsItem }> = ({ newsItem }) => {
 
 	return (
 		<div className="flex flex-col justify-between h-full space-y-6">
-				<Link href={ '/news/' + newsItem.slug }>
+				<Link href={ '/aktuality/' + newsItem.slug }>
 					<div className={c("space-y-4", "md:flex md:flex-col-reverse")}>
 						<div className={c("flex items-center space-x-12", "md:justify-center md:mt-5")}>
 							<span>{dateStringToDateFormat(newsItem.date)}</span>
@@ -23,7 +23,7 @@ export const NewsPreviewItem: FC<{ newsItem: NewsItem }> = ({ newsItem }) => {
 				</Link>
 				<p className="text-justify md:hidden">{newsItem.previewText}</p>
 			<div className="md:hidden">
-				<Link href={ '/news/' + newsItem.slug }>
+				<Link href={ '/aktuality/' + newsItem.slug }>
 					<Button type="basic" className="float-left px-16 py-2 text-white">
 						Více
 					</Button>

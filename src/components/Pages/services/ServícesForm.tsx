@@ -82,7 +82,7 @@ const ServicesForm: FC<{ form: any; visibleRef: any }> = ({ form, visibleRef }) 
 					label={
 						<span>
 							Souhlasím se{' '}
-							<Link href="/privacypolicy">
+							<Link href="/zasady-zpracovani-osobnich-udaju">
 								<a className="underline">zpracováním osobních údajů</a>
 							</Link>
 						</span>
@@ -96,7 +96,7 @@ const ServicesForm: FC<{ form: any; visibleRef: any }> = ({ form, visibleRef }) 
 					label={
 						<span>
 							Souhlasím se{' '}
-							<Link href="/tos">
+							<Link href="/obchodni-podminky">
 								<a className="underline">zasíláním obchodních sdělení</a>
 							</Link>
 						</span>

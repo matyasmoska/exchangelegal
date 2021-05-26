@@ -31,16 +31,16 @@ const Footer = () => {
 				<div className="space-y-10">
 					<h3 className="text-xl font-bold">Menu</h3>
 					<div className="flex flex-col space-y-4">
-						<Link href="/obligations">
+						<Link href="/aml-povinnosti">
 							<a className="hover:underline">{pageData.obligations}</a>
 						</Link>
-						<Link href="/whatisaml">
+						<Link href="/co-je-aml">
 							<a className="hover:underline">{pageData.whatisaml}</a>
 						</Link>
-						<Link href="/services">
+						<Link href="/nase-sluzby">
 							<a className="hover:underline">{pageData.services}</a>
 						</Link>
-						<Link href="/about">
+						<Link href="/o-nas">
 							<a className="hover:underline">{pageData.about}</a>
 						</Link>
 						<Link href="/faq">
@@ -65,10 +65,10 @@ const Footer = () => {
 							<a href={`mailto:${contactPageData.contact.email}`} className="hover:underline">
 								{contactPageData.contact.email}
 							</a>
-							<Link href="/tos">
+							<Link href="/obchodni-podminky">
 								<a className="hover:underline">{pageData.tos}</a>
 							</Link>
-							<Link href="/privacypolicy">
+							<Link href="/zasady-zpracovani-osobnich-udaju">
 								<a className="hover:underline">{pageData.privacypolicy}</a>
 							</Link>
 						</div>

@@ -2,8 +2,8 @@ import { AnimatePresence, AnimateSharedLayout, motion as m } from 'framer-motion
 import { config } from 'process'
 import { FC, useEffect, useMemo, useState } from 'react'
 import { opacityAnimation } from '../../../animations/navigation'
-import { Reference } from '../../../pages/about'
-import news from '../../../pages/news'
+import { Reference } from '../../../pages/o-nas'
+import news from '../../../pages/aktuality'
 import { c } from '../../../services/misc'
 
 interface ReferenceCarouselProps {

@@ -17,14 +17,14 @@ const HamburgerIcon: FC<{ sidebarOpen: boolean }> = ({ sidebarOpen }) => {
 const NavItems = () => {
 	return (
 		<Fragment>
-			<NavItem href={'/news'}>{pageData.news}</NavItem>
-			<NavItem href={'/services'}>{pageData.services}</NavItem>
-			<NavItem href={'/whatisaml'}>{pageData.whatisaml}</NavItem>
-			<NavItem href={'/obligations'}>{pageData.obligations}</NavItem>
+			<NavItem href={'/aktuality'}>{pageData.news}</NavItem>
+			<NavItem href={'/nase-sluzby'}>{pageData.services}</NavItem>
+			<NavItem href={'/co-je-aml'}>{pageData.whatisaml}</NavItem>
+			<NavItem href={'/aml-povinnosti'}>{pageData.obligations}</NavItem>
 			<NavItem href={'/faq'}>{pageData.faq}</NavItem>
 			{/* <NavItem href={'/calculator'}>Cenový kalkulátor</NavItem> */}
-			<NavItem href={'/about'}>{pageData.about}</NavItem>
-			<NavItem href={'/contact'}>{pageData.contact}</NavItem>
+			<NavItem href={'/o-nas'}>{pageData.about}</NavItem>
+			<NavItem href={'/kontakty'}>{pageData.contact}</NavItem>
 		</Fragment>
 	)
 }
