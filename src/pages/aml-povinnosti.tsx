@@ -4,6 +4,8 @@ import DefaultLayout from "../layouts/DefaultLayout";
 import { c } from "../services/misc";
 import Image from 'next/image'
 import pageData from '../data/pages/obligations.json'
+import Button from "../components/Layout/Button";
+import Link from "next/link";
 
 const ObligationsPage = () => {
     return (
@@ -34,8 +36,7 @@ const ObligationsPage = () => {
 				</div>
 				<div
 					className={c(
-						'flex flex-col items-center text-justify leading-relaxed',
-						'2xl:py-16',
+						'flex flex-col items-center text-justify leading-relaxed pb-16',
 						'md:py-6 md:pb-16'
 					)}
 				>
@@ -57,9 +58,16 @@ const ObligationsPage = () => {
 						</div>
 					</section>
 
-					<section className={c('py-8 space-y-4', 'md:px-6 md:py-6')}>
+					<section className={c('py-8 pb-12 space-y-4', 'md:px-6 md:py-6')}>
 						<ParagraphOrMultiple text={pageData.bottomText} className="text-dark-blue max-w-[802px]" />
 					</section>
+					<div className={c('flex')}>
+						<Link href="/potrebuji-aml">
+							<Button type="basic" className="px-14 py-2.5">
+								{ pageData.buttonText }
+							</Button>
+						</Link>
+					</div>
 				</div>
 			</div>
 		</DefaultLayout>
