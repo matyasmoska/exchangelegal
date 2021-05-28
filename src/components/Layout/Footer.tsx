@@ -34,7 +34,7 @@ const Footer = () => {
 						<Link href="/aml-povinnosti">
 							<a className="hover:underline">{pageData.obligations}</a>
 						</Link>
-						<Link href="/co-je-aml">
+						<Link href="/co-je-to-aml">
 							<a className="hover:underline">{pageData.whatisaml}</a>
 						</Link>
 						<Link href="/nase-sluzby">
