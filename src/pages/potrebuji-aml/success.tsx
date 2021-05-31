@@ -23,11 +23,11 @@ const ObligationsSuccessPage = () => {
     }, []);
 
 	// Send user off to servies at the end
-	useEffect(() => {
-		if ( count === 0 ) {
-			router.push('/nase-sluzby')
-		}
-	}, [count])
+	// useEffect(() => {
+	// 	if ( count === 0 ) {
+	// 		router.push('/nase-sluzby')
+	// 	}
+	// }, [count])
 
 	const secondsString = useMemo(() => {
 		if ( count === 1 ) return 'vteřinu'
@@ -37,9 +37,9 @@ const ObligationsSuccessPage = () => {
 
 	return (
 		<DefaultLayout>
-			<main className="flex items-center justify-center w-full">
+			<main className={c("flex items-center justify-center w-full", "md:py-16")}>
 				<div
-					className={c('flex flex-col items-center justify-center max-w-lg space-y-10', 'md:space-y-10')}
+					className={c('flex flex-col items-center justify-center max-w-lg space-y-10', 'md:space-y-10 md:text-center md:px-4')}
 					style={{ height: 'calc(100vh - 200px)' }}
 				>
 					<div className="flex flex-col items-center space-y-6 text-center">
