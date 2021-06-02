@@ -72,9 +72,7 @@ const ContactForm = () => {
 						label={
 							<span>
 								Souhlasím se{' '}
-								<Link href="/zasady-zpracovani-osobnich-udaju">
-									<a className="underline">zpracováním osobních údajů</a>
-								</Link>
+								<a target="_blank" href="/zasady-zpracovani-osobnich-udaju" className="underline">zpracováním osobních údajů</a>
 							</span>
 						}
 					/>
@@ -86,9 +84,7 @@ const ContactForm = () => {
 						label={
 							<span>
 								Souhlasím se{' '}
-								<Link href="/obchodni-podminky">
-									<a className="underline">zasíláním obchodních sdělení</a>
-								</Link>
+								<a target="_blank" href="/obchodni-podminky" className="underline">zasíláním obchodních sdělení</a>
 							</span>
 						}
 					/>
