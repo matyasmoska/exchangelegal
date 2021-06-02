@@ -5,8 +5,6 @@ import Button from '../../components/Layout/Button'
 import DefaultLayout from '../../layouts/DefaultLayout'
 import { c } from '../../services/misc'
 
-
-
 const ObligationsSuccessPage = () => {
 	const router = useRouter()
 
@@ -15,7 +13,10 @@ const ObligationsSuccessPage = () => {
 	
 	useEffect(() => {
         const interval = setInterval(() => {
-            setCount(( c ) => c - 1)
+            setCount(( c ) => {
+				if ( c > 0 ) return c - 1
+				else return c
+			})
         }, 1000)
 
         // Clear interval after killing the component
@@ -23,11 +24,11 @@ const ObligationsSuccessPage = () => {
     }, []);
 
 	// Send user off to servies at the end
-	// useEffect(() => {
-	// 	if ( count === 0 ) {
-	// 		router.push('/nase-sluzby')
-	// 	}
-	// }, [count])
+	useEffect(() => {
+		if ( count === 0 ) {
+			router.push('/nase-sluzby')
+		}
+	}, [count])
 
 	const secondsString = useMemo(() => {
 		if ( count === 1 ) return 'vteřinu'
