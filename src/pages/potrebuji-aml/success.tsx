@@ -47,10 +47,10 @@ const ObligationsSuccessPage = () => {
 						<div>
 							<img src="/images/warning.svg" className={c('w-16 h-16', 'md:w-20 md:h-20')} />
 						</div>
-						<h1 className="text-3xl font-bold">Platí pro Vás AML povinnosti!</h1>
+						<h1 className="text-3xl font-bold">Vztahují se na Vás AML povinnosti!</h1>
 						<p className="px-6 mx-auto text-center">
-							Vaše podnikatelská činnost <strong>spadá</strong> pod AML povinnosti. Kliknutím na tlačítko
-							zobrazíte Naše služby spojené s AML.
+							Vaše podnikatelská činnost <strong>spadá</strong> pod věcnou působnost AML zákona. Kliknutím na tlačítko
+							zobrazíte naše služby spojené s plněním AML povinností.
 						</p>
 					</div>
 					<p className="font-bold">Budete přesměrováni na nabídku našich služeb za { count } { secondsString }...</p>
