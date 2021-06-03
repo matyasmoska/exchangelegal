@@ -44,15 +44,7 @@ export default function WhatIsAMLPage () {
 						<ParagraphOrMultiple text={pageData.topText} className="text-dark-blue max-w-[802px]" />
 					</section>
 					<section className={c('flex justify-center w-full bg-light-blue py-14', 'md:py-8')}>
-						<div
-							className={c(
-								'flex space-x-14 max-w-[802px]',
-								'md:flex md:flex-col md:items-center md:px-6 md:space-x-0 md:space-y-8'
-							)}
-						>
-							
-							
-						</div>
+						
 					</section>
 
 					
