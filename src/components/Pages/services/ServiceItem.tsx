@@ -62,6 +62,9 @@ export const ServiceItem: FC<ServiceItemProps> = ({ serviceItem, selectedItems, 
 					</div>
 					<div className="flex justify-end text-lg text-gray-400">bez DPH</div>
 				</div>
+				{isMd && <Button type="basic" className="px-8 py-2.5">
+					Přidat
+				</Button>}
 			</div>
 			<AnimatePresence>
 				{isSelected && (
@@ -84,7 +87,7 @@ export const ServiceItem: FC<ServiceItemProps> = ({ serviceItem, selectedItems, 
 					<m.div
 						{...heightAnimation}
 						className={c(
-							'absolute top-0 left-0 flex flex-col items-center justify-center w-full h-full space-y-12 overflow-hidden text-white bg-dark-blue bg-opacity-90',
+							'absolute top-0 left-0 flex text-center flex-col items-center justify-center w-full h-full space-y-12 overflow-hidden text-white bg-dark-blue bg-opacity-90',
 							'3xl:space-y-8 3xl:px-2'
 						)}
 					>
