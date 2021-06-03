@@ -16,7 +16,7 @@ export default function WhatIsAMLPage () {
 							objectFit="cover"
 							className="absolute"
 							priority
-							src={'/images/whatisaml_background.png'}
+							src={'/images/whatisaml_background.jpg'}
 						/>
 						<div
 							className={c(
