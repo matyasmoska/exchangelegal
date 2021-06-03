@@ -50,10 +50,7 @@ export default function WhatIsAMLPage () {
 								'md:flex md:flex-col md:items-center md:px-6 md:space-x-0 md:space-y-8'
 							)}
 						>
-							<div className="space-y-6 text-dark-blue">
-								<h3 className="text-3xl font-bold">{pageData.highlightSection.header}</h3>
-								<ParagraphOrMultiple text={pageData.highlightSection.text} className="text-justify" />
-							</div>
+							
 							
 						</div>
 					</section>
