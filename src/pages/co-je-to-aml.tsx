@@ -58,9 +58,7 @@ export default function WhatIsAMLPage () {
 						</div>
 					</section>
 
-					<section className={c('py-8 space-y-4', 'md:px-6 md:py-6')}>
-						<ParagraphOrMultiple text={pageData.bottomText} className="text-dark-blue max-w-[802px]" />
-					</section>
+					
 
 					
 				</div>
