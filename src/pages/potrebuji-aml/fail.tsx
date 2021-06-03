@@ -17,7 +17,7 @@ const ObligationsFailPage = () => {
 						</div>
 						<h1 className="text-3xl font-bold">AML povinnosti se vás netýkají!</h1>
 						<p className="px-6 mx-auto text-center">
-							Vaše podnikatelská činnost nespadá pod AML povinnosti. Kliknutím na tlačítko níže se vrátíte
+							Vaše podnikatelská činnost pravděpodobně nespadá pod působnost AML zákona. Kliknutím na tlačítko níže se vrátíte
 							na úvodní stránku.
 						</p>
 					</div>
