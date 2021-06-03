@@ -43,9 +43,7 @@ export default function WhatIsAMLPage () {
 					<section className={c('py-8 space-y-4', 'md:px-6 md:py-6')}>
 						<ParagraphOrMultiple text={pageData.topText} className="text-dark-blue max-w-[802px]" />
 					</section>
-					<section className={c('flex justify-center w-full bg-light-blue py-14', 'md:py-8')}>
-						
-					</section>
+					
 
 					
 
