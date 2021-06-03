@@ -16,13 +16,13 @@
     "cleave.js": "^1.6.0",
     "clsx": "^1.1.1",
     "contentful": "^8.3.7",
-    "formik": "^2.2.8",
+    "formik": "^2.2.9",
     "framer-motion": "^4.1.17",
     "next": "10.2.3",
     "next-seo": "^4.24.0",
     "nodemailer": "^6.6.1",
     "react": "17.0.2",
-    "react-awesome-reveal": "^3.7.1",
+    "react-awesome-reveal": "^3.7.2",
     "react-cookie": "^4.0.3",
     "react-dom": "17.0.2",
     "react-facebook-share-link": "^1.0.4",
@@ -36,13 +36,13 @@
   "devDependencies": {
     "@types/cleave.js": "^1.4.4",
     "@types/google-map-react": "^2.1.1",
-    "@types/node": "^15.6.1",
+    "@types/node": "^15.9.0",
     "@types/nodemailer": "^6.4.2",
     "@types/react": "^17.0.8",
     "@types/react-responsive": "^8.0.2",
     "autoprefixer": "^10.2.6",
     "postcss": "^8.3.0",
-    "tailwindcss": "^2.1.2",
+    "tailwindcss": "^2.1.4",
     "typescript": "^4.3.2"
   }
 }

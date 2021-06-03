@@ -15,7 +15,7 @@ async function sendMail( { firstName, lastName, message, email, phone, checked, 
     });
   
     await transporter.sendMail({
-      from: email,
+      from: process.env.SEND_FROM_EMAIL,
       to: process.env.SEND_TO_EMAIL,
       subject: `[AMLSOLUTIONS.cz Kontaktní formulář se službami] Nová zpráva od ${firstName} ${lastName}`,
       html:
