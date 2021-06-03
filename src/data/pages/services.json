@@ -31,7 +31,7 @@
             "icon": "/images/serviceIcons/komunikace_s_fau.svg"
         },
         {
-            "name": "AML Audit",
+            "name": "AML audit",
             "description": "Přezkoumáme a zhodnotíme Vaše interní AML postupy a procesy a navrhneme jejich optimalizaci.",
             "price": 29000,
             "icon": "/images/serviceIcons/aml_audit.svg"
