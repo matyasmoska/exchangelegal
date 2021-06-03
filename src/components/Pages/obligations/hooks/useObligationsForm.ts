@@ -11,15 +11,15 @@ function useObligationsForm() {
 	const validate = ({ checked }: ObligationsFormValues): FormikErrors<ObligationsFormValues> => {
 		const errors: FormikErrors<ObligationsFormValues & { api: string }> = {}
 		
-		if (!checked.length) errors.api = 'Musíte zaškrtnout alespoň jeden předmět.'
+		// if (!checked.length) errors.api = 'Musíte zaškrtnout alespoň jeden předmět.'
 
 		return errors
 	}
 
 	const formik = useFormik<ObligationsFormValues>({
 		initialValues: { checked: [] },
-		validate,
-		validateOnChange: false,
+		// validate,
+		// validateOnChange: false,
 		onSubmit: async ({ checked }) => {
 			if ( checked.length ) {
 				router.push('/potrebuji-aml/success')
