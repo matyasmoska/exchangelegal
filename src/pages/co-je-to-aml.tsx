@@ -39,27 +39,7 @@ export default function WhatIsAMLPage () {
 						'md:py-6 md:pb-16'
 					)}
 				>
-					<section className={c('py-8 space-y-4', 'md:px-6 md:py-6')}>
-						<ParagraphOrMultiple text={pageData.topText} className="text-dark-blue max-w-[802px]" />
-					</section>
-					<section className={c('flex justify-center w-full bg-light-blue py-14', 'md:py-8')}>
-						<div
-							className={c(
-								'flex space-x-14 max-w-[802px]',
-								'md:flex md:flex-col md:items-center md:px-6 md:space-x-0 md:space-y-8'
-							)}
-						>
-							<div className="space-y-6 text-dark-blue">
-								<h3 className="text-3xl font-bold">{pageData.highlightSection.header}</h3>
-								<ParagraphOrMultiple text={pageData.highlightSection.text} className="text-justify" />
-							</div>
-							<img src="/images/whatisaml_graphic.svg" alt="thumbnail-graphic" className="relative" />
-						</div>
-					</section>
-
-					<section className={c('py-8 space-y-4', 'md:px-6 md:py-6')}>
-						<ParagraphOrMultiple text={pageData.bottomText} className="text-dark-blue max-w-[802px]" />
-					</section>
+					
 				</div>
 			</div>
 		</DefaultLayout>
