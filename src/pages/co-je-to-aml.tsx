@@ -2,8 +2,10 @@ import DefaultLayout from '../layouts/DefaultLayout'
 import Image from 'next/image'
 import React from 'react'
 import { c } from '../services/misc'
-import pageData from '../data/pages/whatisaml.json'
+import pageData from '../data/pages/whatisaml/whatisaml.json'
 import ParagraphOrMultiple from '../components/Layout/ParagraphOrMultiple'
+//@ts-ignore
+import MDXText, {metadata} from '../data/pages/whatisaml/text.mdx'
 
 export default function WhatIsAMLPage () {
 	return (
@@ -39,15 +41,9 @@ export default function WhatIsAMLPage () {
 						'md:py-6 md:pb-16'
 					)}
 				>
-					
-					<section className={c('py-8 space-y-4', 'md:px-6 md:py-6')}>
-						<ParagraphOrMultiple text={pageData.topText} className="text-dark-blue max-w-[802px]" />
+					<section className={c('py-8 space-y-4 prose max-w-[802px] leading-relaxed', 'md:px-6 md:py-6')}>
+						<MDXText />
 					</section>
-					
-
-					
-
-					
 				</div>
 			</div>
 		</DefaultLayout>

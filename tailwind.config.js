@@ -6,6 +6,25 @@ module.exports = {
   mode: 'jit',
   theme: { 
     extend: {
+      typography: {
+        DEFAULT: {
+          css: {
+            strong: { color: '#021C62' },
+            h1: {
+              color: '#021C62'
+            },
+            h2: {
+              color: '#021C62'
+            },
+            h3: {
+              color: '#021C62'
+            },
+            h4: {
+              color: '#021C62'
+            }
+          }
+        }
+      },
       colors: {
         orange: {
           primary: '#FF872E',

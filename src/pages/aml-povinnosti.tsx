@@ -3,9 +3,13 @@ import ParagraphOrMultiple from "../components/Layout/ParagraphOrMultiple";
 import DefaultLayout from "../layouts/DefaultLayout";
 import { c } from "../services/misc";
 import Image from 'next/image'
-import pageData from '../data/pages/obligations.json'
+import pageData from '../data/pages/obligations/obligations.json'
 import Button from "../components/Layout/Button";
 import Link from "next/link";
+// @ts-ignore
+import TopPartMdx from "../data/pages/obligations/topPart.mdx"
+// @ts-ignore
+import BottomPartMdx from "../data/pages/obligations/bottomPart.mdx"
 
 const ObligationsPage = () => {
     return (
@@ -40,8 +44,8 @@ const ObligationsPage = () => {
 						'md:py-6 md:pb-16'
 					)}
 				>
-					<section className={c('py-8 space-y-4', 'md:px-6 md:py-6')}>
-						<ParagraphOrMultiple text={pageData.topText} className="text-dark-blue max-w-[802px]" />
+					<section className={c('py-8 space-y-4 prose max-w-[802px] leading-relaxed', 'md:px-6 md:py-6')}>
+						<TopPartMdx />
 					</section>
 					<section className={c('flex justify-center w-full bg-light-blue py-14', 'md:py-8')}>
 						<div
@@ -58,8 +62,8 @@ const ObligationsPage = () => {
 						</div>
 					</section>
 
-					<section className={c('py-8 pb-12 space-y-4', 'md:px-6 md:py-6')}>
-						<ParagraphOrMultiple text={pageData.bottomText} className="text-dark-blue max-w-[802px]" />
+					<section className={c('py-8 pb-12 space-y-4 max-w-[802px] leading-relaxed prose', 'md:px-6 md:py-6')}>
+						<BottomPartMdx />
 					</section>
 					<div className={c('flex')}>
 						<Link href="/potrebuji-aml">
