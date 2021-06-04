@@ -18,7 +18,7 @@ const Footer = () => {
 		>
 			<div className="self-start space-y-4">
 				<LogoWhite />
-				<img src="/images/crypto_white.svg" className={c('w-4/5 rounded-lg flex', 'md:mx-auto')} />
+				<img src="/images/crypto_white.svg" alt="we-take-crypto" className={c('w-4/5 rounded-lg flex', 'md:mx-auto')} />
 				<p className="pt-2">{contactPageData.allRightsReserved}</p>
 			</div>
 			<div
@@ -78,13 +78,13 @@ const Footer = () => {
 				<div className="space-y-10">
 					<h3 className="text-xl font-bold">Sledujte nás</h3>
 					<div className={c('flex space-x-4 text-white', 'md:text-center md:justify-center')}>
-						<a href={contactPageData.contact.links.facebook} target="_blank" aria-label="Facebook Link">
+						<a href={contactPageData.contact.links.facebook} target="_blank" rel="noopener" aria-label="Facebook Link">
 							<FacebookIcon className="fill-current w-7 h-7" />
 						</a>
-						<a href={contactPageData.contact.links.twitter} target="_blank" aria-label="Twitter Link">
+						<a href={contactPageData.contact.links.twitter} target="_blank" rel="noopener" aria-label="Twitter Link">
 							<TwitterIcon className="fill-current w-7 h-7" />
 						</a>
-						<a href={contactPageData.contact.links.linkedIn} target="_blank" aria-label="Linked In Link">
+						<a href={contactPageData.contact.links.linkedIn} target="_blank" rel="noopener" aria-label="Linked In Link">
 							<LinkedInIcon className="fill-current w-7 h-7" />
 						</a>
 					</div>
