@@ -54,7 +54,7 @@ export default function FAQPage () {
 				
 					</div>
 			
-				<div className={c("py-16 text-justify", 'md:px-4 md:py-8')}>
+				<div className={c("py-16 text-justify"}>
 	
 			
 				
