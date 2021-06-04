@@ -52,7 +52,7 @@ export default function FAQPage () {
 			<div className={c("py-16 text-center px-36 mb-52 space-y-14", 'md:px-4 md:py-8')}>
 				<h1 className={c("text-5xl font-bold leading-snug", "md:text-2xl")}>Často kladené dotazy</h1>
 				<AnimateSharedLayout>
-					<div className={c("flex flex-col items-center px-12 space-y-7", "md:px-0")}>
+					<div className={c("flex flex-col items-justify px-12 space-y-7", "md:px-0")}>
 						{pageData.questions.map((question: FAQuestion) => <QuestionDetail question={question} />)}
 					</div>
 				</AnimateSharedLayout>
