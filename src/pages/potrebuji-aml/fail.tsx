@@ -13,7 +13,7 @@ const ObligationsFailPage = () => {
 				>
 					<div className="flex flex-col items-center space-y-6 text-center">
 						<div>
-							<img src="/images/thumb-up.svg" className={c("w-16 h-16", 'md:w-20 md:h-20')} />
+							<img src="/images/thumb-up.png" className={c("w-16 h-16", 'md:w-20 md:h-20')} />
 						</div>
 						<h1 className="text-3xl font-bold">AML povinnosti se na Vás pravděpodobně nevztahují!</h1>
 						<p className="px-6 mx-auto text-center">
