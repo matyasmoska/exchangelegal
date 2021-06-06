@@ -23,9 +23,9 @@ export const QuestionDetail: FC<{ question: FAQuestion }> = ({ question }) => {
 		>
 			<m.div layout className="flex items-center space-x-2">
 				{isOpen ? (
-					<MinusIcon className="w-8 text-orange-primary" />
+					<MinusIcon className={c("self-start flex-shrink-0 w-8 text-orange-primary mt-0.5", "md:mt-1")} />
 				) : (
-					<PlusIcon className="w-8 text-orange-primary" />
+					<PlusIcon className={c("self-start flex-shrink-0 w-8 text-orange-primary mt-0.5", "md:mt-1")} />
 				)}
 				<m.h2 layout className="text-xl font-bold">
 					{question.question}
