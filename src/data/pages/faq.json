@@ -19,6 +19,11 @@
         },
         
         {
+            "question": "Provedli jsme takzvanou \"převzatou identifikaci\", kdy pro nás klienta identifikovala spolupracující osoba v zastoupení na základě smlouvy. Při kontrole jsme zjistili, že  klienta vedeme jako řádně identifikovaného, ale nemáme žádné záznamy či dokumenty o průběhu identifikace. Může zástupce dostat pokutu za to, že nám podklady nepředal?",
+            "answer": "Případná pokuta bude uložena Vám. Pokud převezmete identifikaci, kterou provedla jiná osoba ve vašem zastoupení, odpovídáte za její řádné provedení, jako byste identifikaci prováděli sami. Také je vaší povinností mít k dispozici veškeré informace a kopie dokladů, které byly zástupcem získány při identifikaci klienta, a to prokazatelně ještě před uzavřením obchodu nebo obchodního vztahu. Nesplnil-li zástupce při identifikaci klienta řádně svůj závazek vůči vám, může vám z tohoto důvodu odpovídat za náhradu škody tím způsobené."
+        },
+        
+        {
             "question": "Provedl jsem jednorázově Initial Coin Offering (ICO), znamená to, že jsem povinnou osobou a musím plnit AML povinnosti?",
             "answer": "Ano, i jednorázové provedení Initial Coin Offering Vám zakládá status povinné osoby, a proto se na Vás vztahují AML povinnosti."
         }
