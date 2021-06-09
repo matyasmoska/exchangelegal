@@ -19,11 +19,11 @@ function useContactForm () {
 		const errors: FormikErrors<ContactFormValues> = {}
 
 		if (!emailIsValid(values.email)) errors.email = 'E-mail je v nesprávném formátu'
-		if (!values.email) errors.email = 'Je potřeba zadat e-mail'
-		if (!values.firstName) errors.firstName = 'Je potřeba zadat jméno'
-		if (!values.lastName) errors.lastName = 'Je potřeba zadat příjmení'
+		if (!values.email) errors.email = 'Je třeba zadat e-mail'
+		if (!values.firstName) errors.firstName = 'Je třeba zadat jméno'
+		if (!values.lastName) errors.lastName = 'Je třeba zadat příjmení'
 		// if (!values.message) errors.message = 'Zpráva nemůže být prázdná'
-		if (!values.phone) errors.phone = 'Je potřeba zadat telefon'
+		if (!values.phone) errors.phone = 'Je třeba zadat telefon'
 		if (!values.personalDataAgreement)
 			errors.personalDataAgreement = 'Musíte souhlasit se zpracováním osobních údajů.'
 
@@ -54,7 +54,7 @@ function useContactForm () {
 					setStatus('default')
 				}, 5000)
 			} else {
-				setFieldError('api', 'Odeslání nebylo úspěšné. Prosím, kontaktujte nás na výše uvedeném emailu.')
+				setFieldError('api', 'Odeslání nebylo úspěšné. Prosím, kontaktujte nás na výše uvedeném e-mailu.')
 			}
 		}
 	})
