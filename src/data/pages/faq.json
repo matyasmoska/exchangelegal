@@ -11,6 +11,11 @@
             "answer": "Pokud nepodnikáte v oboru nákupu a prodeje nemovitostí, pak při takovémto obchodu AML povinnosti nemáte. Pokud však využijete služeb realitního zprostředkovatele, ten je povinnou osobou podle AML zákona a musí provést identifikaci a kontrolu obou stran smluvního vztahu. Stejně tak Vás může vyzvat banka, která vede váš účet, na který bude připsána kupní cena, k poskytnutí informace o původu těchto peněz."
         },
         
+             {
+            "question": "Existuje nějaký veřejně přístupný seznam politicky exponovaných osob, tzv. PEP?",
+            "answer": "Nikoli, žádný veřejně přístupný seznam politicky exponovaných osob, tzv. PEP, neexistuje. Z toho důvodu je nutno skutečnost, zda klient je nebo není PEP, zjišťovat vždy před uskutečněním obchodu nebo před navázáním obchodního vztahu a tuto informaci aktualizovat v době jeho trvání resp. při každém kontaktu s klientem. Tato povinnost se vztahuje na všechny povinné osoby, které identifikují svého klienta. Existuje několik možných přístupů. Povinnost zjišťovat, zda je klient PEP, je nezbytné plnit průkazně, a vždy o tom vyhotovit záznam. Postupy pro zjišťování této skutečnosti jsou nevyhnutelnou součástí každého systému vnitřních zásad."
+        },
+        
         
         {           
             "question": "Kdo je to \"skutečný majitel obchodu\"?",
