@@ -32,7 +32,7 @@ const ObligationsSuccessPage = () => {
 
 	const secondsString = useMemo(() => {
 		if ( count === 1 ) return 'vteřinu'
-		else if ( count <= 4 ) return 'vteřiny'
+		else if ( count <= 4 && count > 0 ) return 'vteřiny'
 		else return 'vteřin'
 	}, [count]);
 
