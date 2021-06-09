@@ -1,9 +1,17 @@
 {
     "questions": [
+       
+             {
+            "question": "AML povinnosti jsme bohužel zanedbali a chceme to co nejdříve napravit. Hrozí nám nějaká sankce nebo pokuta?",
+            "answer": "V této situaci nemůžeme doporučit nic jiného, než urychleně pořídit Systém vnitřních zásad a Hodnocení rizik a vyškolit zaměstnance ohledně AML povinností a začít je uplatňovat v praxi. Dozorové orgány obvykle takové kroky k nápravě vítají, nicméně nelze vyloučit, že Vám v případě kontroly bude uložena pokuta za opožděné splnění AML povinností. Obecně ale platí, že na opožděné splnění AML povinností je pohlíženo mírněji než na jejich úplné zanedbání."
+        },
+        
         {
             "question": "Prodávám nemovitost za cenu přesahující 7 mil. Kč, musím identifikovat kupujícího, prověřit zdroj peněz, ze kterých platí kupní cenu, a plnit další AML povinnosti?",
             "answer": "Pokud nepodnikáte v oboru nákupu a prodeje nemovitostí, pak při takovémto obchodu AML povinnosti nemáte. Pokud však využijete služeb realitního zprostředkovatele, ten je povinnou osobou podle AML zákona a musí provést identifikaci a kontrolu obou stran smluvního vztahu. Stejně tak Vás může vyzvat banka, která vede váš účet, na který bude připsána kupní cena, k poskytnutí informace o původu těchto peněz."
         },
+        
+        
         {           
             "question": "Kdo je to \"skutečný majitel obchodu\"?",
             "answer": "Za skutečného majitele obchodu se považuje osoba, za kterou obchod provádí někdo jiný. Je to osoba, která má z obchodu skutečný prospěch, ale sama v něm vlastním jménem nevystupuje. Povinné osoby by měly v rámci AML prevence ověřovat i to, zda osoba, která v ochodu vystupuje jako klient, skutečně  jedná sama za sebe, či zda svým jednáním \"nezastírá\" jinou osobu."
