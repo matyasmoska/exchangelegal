@@ -15,8 +15,9 @@
             "question": "Kdo je to \"skutečný majitel obchodu\"?",
             "answer": "Za skutečného majitele obchodu se považuje osoba, za kterou obchod provádí někdo jiný. Je to osoba, která má z obchodu skutečný prospěch, ale sama v něm vlastním jménem nevystupuje. Povinné osoby by měly v rámci AML prevence ověřovat i to, zda osoba, která v ochodu vystupuje jako klient, skutečně  jedná sama za sebe, či zda svým jednáním \"nezastírá\" jinou osobu."
         },
+
         
-          {
+        {
             "question": "Existuje nějaký veřejně přístupný seznam politicky exponovaných osob, tzv. PEP?",
             "answer": "Nikoli, žádný veřejně přístupný seznam politicky exponovaných osob, tzv. PEP, neexistuje. Z toho důvodu je nutno skutečnost, zda klient je nebo není PEP, zjišťovat vždy před uskutečněním obchodu nebo před navázáním obchodního vztahu a tuto informaci aktualizovat v době jeho trvání resp. při každém kontaktu s klientem. Tato povinnost se vztahuje na všechny povinné osoby, které identifikují svého klienta. Existuje několik možných přístupů. Povinnost zjišťovat, zda je klient PEP, je nezbytné plnit průkazně, a vždy o tom vyhotovit záznam. Postupy pro zjišťování této skutečnosti jsou nevyhnutelnou součástí každého systému vnitřních zásad."
         },
