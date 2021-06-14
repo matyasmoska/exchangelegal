@@ -94,7 +94,7 @@ const ServicesForm: FC<{ form: any; visibleRef: any }> = ({ form, visibleRef }) 
 					label={
 						<span>
 							Souhlasím se{' '}
-							<a className="underline" href="/docs/tos.pdf" target="_blank">zasíláním obchodních sdělení</a>
+							<a className="underline" href="/docs/Obchodní podmínky AML Solutions.pdf" target="_blank">zasíláním obchodních sdělení</a>
 						</span>
 					}
 				/>
