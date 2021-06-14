@@ -1,6 +1,6 @@
 import DefaultLayout from '../layouts/DefaultLayout'
 import { c } from '../services/misc'
-import data from 'https://github.com/AMLsolutionsCZ/amlsolutions-web/blob/main/src/data/pages/Obchodni_podminky_AML_solutions.pdf'
+import data from ''
 import React from 'react'
 import ParagraphOrMultiple from '../components/Layout/ParagraphOrMultiple'
 
