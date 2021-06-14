@@ -1,6 +1,6 @@
 import DefaultLayout from '../layouts/DefaultLayout'
 import { c } from '../services/misc'
-import data from '../data/pages/tos.json'
+import data from '../data/pages/Obchodní%20podmínky%20AML%20solutions.pdf'
 import React from 'react'
 import ParagraphOrMultiple from '../components/Layout/ParagraphOrMultiple'
 
