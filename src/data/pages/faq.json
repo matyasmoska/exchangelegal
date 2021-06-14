@@ -1,8 +1,16 @@
 {
     "questions": [
         {
+            "question": "Zjistili jsme, že naše společnost je povinnou osobou dle AML zákona. Musíme vypracovat písemná pravidla (vnitřní zásady a hodnocení rizik) pro AML/CFT prevenci? A v jaké lhůtě?",
+            "answer": "Všechny povinné osoby musí mít zavedené vnitřní strategie a postupy k předcházení rizika, že budou v rámci obchodu nebo obchodního vztahu zneužity k praní špinavých peněz nebo financování terorismu. Jen některé typy povinných osob musí mít tyto strategie zpracovány i písemně (a pokud je taková povinnost stanovena, musí být splněna do 60 dnů od vzniku statusu povinné osoby). Všechny povinné osoby však musí  tyto postupy mít zavedeny a dodržovat je, což také musí být schopné prokázat při případné kontrole ze strany FAÚ nebo jiného oprávněného orgánu (jinak hrozí citelná pokuta nebo i zákaz činnosti). Proto většina povinných osob postupuje tak, že tato pravidla a postupy zpracuje v písemné podobě formou vnitřního předpisu, i když patří k těm, jimž zákon takovou povinnost právě neukládá. V některých případech zákon ovšem požaduje, aby byl systém vnitřních zásad (a hodnocení rizik) nejen zpracován písemně, ale také předložen FAÚ, případně ČNB (dle typu povinné osoby)."
+        },
+        {
             "question": "AML povinnosti jsme bohužel zanedbali, nicméně chceme to co nejdříve napravit. Hrozí nám nějaká sankce nebo pokuta?",
             "answer": "V této situaci Vám důrazně doporučujeme urychleně pořídit Systém vnitřních zásad a Hodnocení rizik a vyškolit zaměstnance ohledně AML povinností a začít je uplatňovat v praxi. Dozorové orgány obvykle takové kroky k nápravě vítají, nicméně nelze vyloučit, že Vám v případě kontroly bude uložena pokuta za opožděné splnění AML povinností. Obecně ale platí, že na opožděné splnění AML povinností je pohlíženo mírněji než na jejich úplné zanedbání."
+        },
+        {
+            "question": "Provedli jsme takzvanou \"převzatou identifikaci\", kdy pro nás klienta identifikovala spolupracující osoba v zastoupení na základě smlouvy. Při kontrole jsme zjistili, že  klienta vedeme jako řádně identifikovaného, ale nemáme žádné záznamy či dokumenty o průběhu identifikace. Může zástupce dostat pokutu za to, že nám podklady nepředal?",
+            "answer": "Případná pokuta bude uložena Vám. Pokud převezmete identifikaci, kterou provedla jiná osoba ve Vašem zastoupení, odpovídáte za její řádné provedení, jako byste identifikaci prováděli sami. Také je Vaší povinností mít k dispozici veškeré informace a kopie dokladů, které byly zástupcem získány při identifikaci klienta, a to prokazatelně ještě před uzavřením obchodu nebo obchodního vztahu. Nesplnil-li zástupce při identifikaci klienta řádně svůj závazek vůči Vám, může Vám z tohoto důvodu odpovídat za náhradu škody tím způsobené."
         },
         {
             "question": "Prodávám nemovitost za cenu přesahující 7 mil. Kč, musím identifikovat kupujícího, prověřit zdroj peněz, ze kterých platí kupní cenu, a plnit další AML povinnosti?",
@@ -19,14 +27,6 @@
         {
             "question": "Jako platební prostředek přijímám kryptoměny (virtuální aktiva). Jsem povinnou osobou podle AML zákona?",
             "answer": "Ne, samotné přijímání kryptoměn bez dalšího nezakládá subjektu status povinné osoby ve smyslu AML zákona."
-        },
-        {
-            "question": "Zjistili jsme, že naše společnost je povinnou osobou dle AML zákona. Musíme vypracovat písemná pravidla (vnitřní zásady a hodnocení rizik) pro AML/CFT prevenci? A v jaké lhůtě?",
-            "answer": "Všechny povinné osoby musí mít zavedené vnitřní strategie a postupy k předcházení rizika, že budou v rámci obchodu nebo obchodního vztahu zneužity k praní špinavých peněz nebo financování terorismu. Jen některé typy povinných osob musí mít tyto strategie zpracovány i písemně (a pokud je taková povinnost stanovena, musí být splněna do 60 dnů od vzniku statusu povinné osoby). Všechny povinné osoby však musí  tyto postupy mít zavedeny a dodržovat je, což také musí být schopné prokázat při případné kontrole ze strany FAÚ nebo jiného oprávněného orgánu (jinak hrozí citelná pokuta nebo i zákaz činnosti). Proto většina povinných osob postupuje tak, že tato pravidla a postupy zpracuje v písemné podobě formou vnitřního předpisu, i když patří k těm, jimž zákon takovou povinnost právě neukládá. V některých případech zákon ovšem požaduje, aby byl systém vnitřních zásad (a hodnocení rizik) nejen zpracován písemně, ale také předložen FAÚ, případně ČNB (dle typu povinné osoby)."
-        },
-        {
-            "question": "Provedli jsme takzvanou \"převzatou identifikaci\", kdy pro nás klienta identifikovala spolupracující osoba v zastoupení na základě smlouvy. Při kontrole jsme zjistili, že  klienta vedeme jako řádně identifikovaného, ale nemáme žádné záznamy či dokumenty o průběhu identifikace. Může zástupce dostat pokutu za to, že nám podklady nepředal?",
-            "answer": "Případná pokuta bude uložena Vám. Pokud převezmete identifikaci, kterou provedla jiná osoba ve Vašem zastoupení, odpovídáte za její řádné provedení, jako byste identifikaci prováděli sami. Také je Vaší povinností mít k dispozici veškeré informace a kopie dokladů, které byly zástupcem získány při identifikaci klienta, a to prokazatelně ještě před uzavřením obchodu nebo obchodního vztahu. Nesplnil-li zástupce při identifikaci klienta řádně svůj závazek vůči Vám, může Vám z tohoto důvodu odpovídat za náhradu škody tím způsobené."
         },
         {
             "question": "Provedl jsem jednorázově Initial Coin Offering (ICO), znamená to, že jsem povinnou osobou a musím plnit AML povinnosti?",
