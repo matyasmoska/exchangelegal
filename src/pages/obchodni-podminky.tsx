@@ -1,6 +1,5 @@
 import DefaultLayout from '../layouts/DefaultLayout'
 import { c } from '../services/misc'
-import data from ''
 import React from 'react'
 import ParagraphOrMultiple from '../components/Layout/ParagraphOrMultiple'
 
@@ -17,9 +16,6 @@ export default function TOSPage () {
 					<h1 className={c('text-5xl font-bold leading-snug', 'md:text-2xl')}>
 						Obchodní podmínky
 					</h1>
-					<div className="flex flex-col space-y-6">
-						<ParagraphOrMultiple text={data.text} className="text-justify" />
-					</div>
 				</div>
 			</div>
 		</DefaultLayout>
