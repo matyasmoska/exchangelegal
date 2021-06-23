@@ -8,7 +8,7 @@
         },
         {
             "name": "Hodnocení rizik",
-            "description": "Je součástí systému vnitřních zásad. Správné nastavení hodnocení rizik \"na míru\" je nezbytným předpokladem k tomu, aby AML povinnosti byly řádně plněna a případná kontrola skončila bez nálezu.",
+            "description": "Je součástí systému vnitřních zásad. Správné nastavení hodnocení rizik \"na míru\" je nezbytným předpokladem k tomu, aby AML povinnosti byly řádně plněny a případná kontrola skončila bez nálezu.",
             "price": 9000,
             "icon": "/images/serviceIcons/hodnoceni_rizik.svg"
         },
