@@ -31,19 +31,19 @@ const Footer = () => {
 				<div className="space-y-10">
 					<h3 className="text-xl font-bold">Naše služby</h3>
 					<div className="flex flex-col space-y-4">
-						<Link href="/system-vnitrnich-zasad">
+						<Link href="/systemvnitrnichzasad">
 							<a className="hover:underline">{pageData.system}</a>
 						</Link>
-						<Link href="/hodnoceni-rizik">
+						<Link href="/hodnocenirizik">
 							<a className="hover:underline">{pageData.whatisaml}</a>
 						</Link>
-						<Link href="/system-identifikace-a-kontroly-klienta">
+						<Link href="/systemidentifikaceakontrolyklienta">
 							<a className="hover:underline">{pageData.services}</a>
 						</Link>
-						<Link href="/aml-skoleni-a-metodika">
+						<Link href="/amlskoleniametodika">
 							<a className="hover:underline">{pageData.about}</a>
 						</Link>
-						<Link href="/urceni-kontaktni-osoby-fau-a-dalsi">
+						<Link href="/urcenikontaktniosobyfauadalsi">
 							<a className="hover:underline">{pageData.faq}</a>
 						</Link>
 					</div>
