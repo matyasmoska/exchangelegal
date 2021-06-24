@@ -25,7 +25,11 @@ const NavItems = () => {
 			{/* <NavItem href={'/calculator'}>Cenový kalkulátor</NavItem> */}
 			<NavItem href={'/o-nas'}>{pageData.about}</NavItem>
 			<NavItem href={'/kontakty'}>{pageData.contact}</NavItem>
-			<NavItem href={'/system'}>{pageData.system}</NavItem>
+			<NavItem href={'/system-vnitrnich-zasad'}>{pageData.system}</NavItem>
+			<NavItem href={'/hodnoceni-rizik'}>{pageData.hodnocenirizik}</NavItem>  
+			<NavItem href={'/system-identifikace-a-kontroly-klienta'}>{pageData.systemidentifikaceakontrolyklienta}</NavItem>  
+			<NavItem href={'/aml-skoleni-a-metodika'}>{pageData.amlskoleniametodika}</NavItem>  
+			<NavItem href={'/urceni-kontaktni-osoby-fau-a-dalsi'}>{pageData.urcenikontaktniosobyfauadalsi}</NavItem>  	
 		</Fragment>
 	)
 }
