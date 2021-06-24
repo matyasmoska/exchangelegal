@@ -29,6 +29,27 @@ const Footer = () => {
 				)}
 			>
 				<div className="space-y-10">
+					<h3 className="text-xl font-bold">Naše služby</h3>
+					<div className="flex flex-col space-y-4">
+						<Link href="/aml-povinnosti">
+							<a className="hover:underline">{pageData.obligations}</a>
+						</Link>
+						<Link href="/co-je-to-aml">
+							<a className="hover:underline">{pageData.whatisaml}</a>
+						</Link>
+						<Link href="/nase-sluzby">
+							<a className="hover:underline">{pageData.services}</a>
+						</Link>
+						<Link href="/o-nas">
+							<a className="hover:underline">{pageData.about}</a>
+						</Link>
+						<Link href="/faq">
+							<a className="hover:underline">{pageData.faq}</a>
+						</Link>
+					</div>
+				</div>
+				
+				<div className="space-y-10">
 					<h3 className="text-xl font-bold">Menu</h3>
 					<div className="flex flex-col space-y-4">
 						<Link href="/aml-povinnosti">
