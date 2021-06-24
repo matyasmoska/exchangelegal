@@ -31,8 +31,8 @@ const Footer = () => {
 				<div className="space-y-10">
 					<h3 className="text-xl font-bold">Naše služby</h3>
 					<div className="flex flex-col space-y-4">
-						<Link href="/aml-povinnosti">
-							<a className="hover:underline">{pageData.obligations}</a>
+						<Link href="/system">
+							<a className="hover:underline">{pageData.system}</a>
 						</Link>
 						<Link href="/co-je-to-aml">
 							<a className="hover:underline">{pageData.whatisaml}</a>
