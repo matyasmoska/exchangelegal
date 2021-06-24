@@ -25,6 +25,7 @@ const NavItems = () => {
 			{/* <NavItem href={'/calculator'}>Cenový kalkulátor</NavItem> */}
 			<NavItem href={'/o-nas'}>{pageData.about}</NavItem>
 			<NavItem href={'/kontakty'}>{pageData.contact}</NavItem>
+			<NavItem href={'/system'}>{pageData.system}</NavItem>
 		</Fragment>
 	)
 }
