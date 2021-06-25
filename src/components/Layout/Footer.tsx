@@ -46,6 +46,9 @@ const Footer = () => {
 						<Link href="/urceni-kontaktni-osoby-fau-a-dalsi">
 							<a className="hover:underline">{pageData.urcenikontaktniosobyfauadalsi}</a>
 						</Link>
+						<Link href="/zapis-do-evidence-skutecnych-majitelu">
+							<a className="hover:underline">{pageData.zapisdoevidenceskutecnychmajitelu}</a>
+						</Link>
 					</div>
 				</div>
 				
