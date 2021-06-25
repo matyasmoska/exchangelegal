@@ -31,9 +31,9 @@
             "icon": "/images/serviceIcons/komunikace_s_fau.svg"
         },
         {
-            "name": "AML audit",
-            "description": "Přezkoumáme a zhodnotíme Vaše interní AML postupy a procesy a navrhneme jejich optimalizaci.",
-            "price": 29000,
+            "name": "Zápis do evidence skutečných majitelů",
+            "description": "Evidence skutečných majitelů je informačním systémem veřejné správy, do kterého se zapisují zákonem vymezené údaje o skutečných majitelích. Zajistíme pro Vás zápis údaje do evidence skutečných majitelů dle zákonných požadavků.",
+            "price": 5000,
             "icon": "/images/serviceIcons/aml_audit.svg"
         }
     ]
