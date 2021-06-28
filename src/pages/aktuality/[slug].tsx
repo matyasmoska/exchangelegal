@@ -93,9 +93,9 @@ const PostDetailPage: NextPage<PostDetailPageProps> = ({ news, newsItem, author 
                     className="z-10" layout="responsive" objectFit="cover" quality={90} priority src={'https:' + newsItem.thumbnail.fields.file.url} />
                 <div className="absolute top-0 left-0 w-full h-full transition transform bg-gray-400 animate-pulse" />
             </div>
-            <div className={c("p-24 px-32", "md:px-4 md:py-8")}>
-                <div className="grid gap-20" style={{ gridTemplateColumns: isMd ? '1fr' : '2fr 1fr' }}>
-                    <div className="space-y-10">
+            <div className={c("p-24 flex justify-center", "md:px-4 md:py-8")}>
+                <div className="flex justify-center space-x-20" style={{ gridTemplateColumns: isMd ? '1fr' : '2fr 1fr' }}>
+                    <div className="max-w-4xl space-y-10">
                         <div className="space-y-5">
                             <h1 className={c("text-3xl font-bold", "md:text-center")}>{ newsItem.name }</h1>
                             <div className="flex items-center space-x-12">
@@ -124,7 +124,7 @@ const PostDetailPage: NextPage<PostDetailPageProps> = ({ news, newsItem, author 
                            </div>
                         </div>
                     </div>
-                    <div className={c("flex flex-col space-y-28", 'md:space-y-8 md:text-center')}>
+                    <div className={c("flex flex-col space-y-28 max-w-lg", 'md:space-y-8 md:text-center')}>
                         { news.filter( item => item.slug !== newsItem.slug ).map(item => (
                             <NewsPreviewItem key={item.slug} newsItem={item} />
                         ))}

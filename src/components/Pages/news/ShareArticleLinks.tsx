@@ -3,6 +3,7 @@ import { NewsItem } from "../../../typings";
 import { FacebookIcon, TwitterIcon, LinkedInIcon } from "../../Layout/Icons";
 // @ts-ignore
 import ShareLink from 'react-facebook-share-link'
+import { FacebookShareButton } from 'react-share'
 
 
 const ShareArticleLinks: FC<{ article: NewsItem }> = ({ article }) => {
@@ -20,11 +21,9 @@ const ShareArticleLinks: FC<{ article: NewsItem }> = ({ article }) => {
         <div className="flex items-center space-x-4">
             <span className="text-sm">Sdílejte článek:</span>
             <div className="flex items-center space-x-2">
-                <ShareLink link={'https://amlsolutions.cz/news/' + article.slug}>
-                    {(link: string) => <a href={link} aria-label="Facebook Link" target="_blank">
-                        <FacebookIcon className="fill-current w-7 h-7" />
-                    </a>}
-                </ShareLink>
+                <FacebookShareButton url={encodeURI('https://www.amlsolutions.cz/aktuality/' + article.slug)}>
+                    <FacebookIcon className="fill-current w-7 h-7" />
+                </FacebookShareButton>
                 <a href={twitterLink} aria-label="Twitter Link" target="_blank">
                     <TwitterIcon className="fill-current w-7 h-7" />
                 </a>
