@@ -10,7 +10,7 @@ const MainSection: FC<{ news: NewsItem[] }> = ({ news }) => {
 	return (
 		<>
 			<NewsBar news={news} />
-			<div className={c('relative w-full bg-cover px-36 py-36 pt-24 h-[602px]', '3xl:px-28', 'md:px-5 md:h-auto md:pt-28')}>
+			<div className={c('relative w-full bg-cover px-36 py-36 pt-24 h-[602px]', '3xl:px-28', 'md:px-5 md:pt-28 md:h-[674px]')}>
 				<Image
 					layout="fill"
 					objectFit="cover"

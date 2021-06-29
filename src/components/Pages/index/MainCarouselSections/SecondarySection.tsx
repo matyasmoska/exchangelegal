@@ -11,7 +11,8 @@ const SecondarySection = () => {
 		<div
 			className={c(
 				'relative w-full flex justify-center items-center bg-cover  h-[602px]',
-				'md:px-5 md:py-28 md:pt-16 md:h-[674px]'
+				'md:px-5 md:py-28 md:pt-16 md:h-[674px]',
+				'xs:px-1'
 			)}
 		>
 			<Image
