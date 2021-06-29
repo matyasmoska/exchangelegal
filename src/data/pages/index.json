@@ -7,6 +7,16 @@
         "howManyArticles": 3,
         "betweenArticlesDelaySeconds": 5
     },
+    "secondarySection": {
+        "leftText": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa similique consequuntur inventore ratione nihil totam suscipit dolor amet iusto libero cum quam porro accusamus, earum eius, corrupti quod ea itaque.",
+        "firstButtonText": "Ověřování mezinárodních sankcí",
+        "secondButtonText": "Seznam rizikových zemí"
+    },
+    "pepCheckSection": {
+        "title": "Ověřujte status politicky exponovaných osob prostřednictvím PEP check",
+        "subtitle": "Jsme předními odborníky na AML compliance, poskytujeme profesionální služby v oblasti AML/CFT na míru klientům.",
+        "buttonText": "Vyzkoušet PEP Check"
+    },
     "contact": {
         "header": "Rychlé kontakty",
         "description": "Řešíte problémy z oblasti AML compliance? Neváhejte se nám ozvat.",
@@ -24,5 +34,6 @@
             "twitter": "https://twitter.com/solutions_aml",
             "linkedIn": "https://www.linkedin.com/company/amlsolutions-cz/"
         }
-    }
+    },
+    "carouselChangeEveryHowManySeconds": 2
 }
