@@ -94,7 +94,7 @@ const PostDetailPage: NextPage<PostDetailPageProps> = ({ news, newsItem, author 
                 <div className="absolute top-0 left-0 w-full h-full transition transform bg-gray-400 animate-pulse" />
             </div>
             <div className={c("p-24 flex justify-center", "md:px-4 md:py-8")}>
-                <div className="flex justify-center space-x-20" style={{ gridTemplateColumns: isMd ? '1fr' : '2fr 1fr' }}>
+                <div className={c("flex justify-center space-x-20", "md:flex-col md:space-x-0 md:space-y-20")}>
                     <div className="max-w-4xl space-y-10">
                         <div className="space-y-5">
                             <h1 className={c("text-3xl font-bold", "md:text-center")}>{ newsItem.name }</h1>
