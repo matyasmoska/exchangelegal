@@ -5,3 +5,7 @@
 .team-member:nth-child(even) {
     @apply self-end
 }
+
+.prose a {
+    @apply break-all
+}

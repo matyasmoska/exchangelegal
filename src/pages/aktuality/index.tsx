@@ -10,7 +10,7 @@ import { c } from '../../services/misc';
 export default function NewsPage({ news }: { news: NewsItem[] }) {
   return (
     <DefaultLayout>
-      <div className={c("p-36 py-16 space-y-28", "md:px-4 md:space-y-6 md:py-4")}>
+      <div className={c("p-36 py-16 space-y-28", "md:px-4 md:space-y-10 md:py-4")}>
         <MainNewsItem newsItem={news[0]} />
 
         <div className={c("grid grid-cols-3 gap-16", "md:flex md:flex-col md:space-y-16 md:text-center md:gap-0 md:pb-8")}>
