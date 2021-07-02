@@ -31,7 +31,7 @@ export default function Contact () {
 				<div className={c('w-5/6 px-4 py-0 space-y-8', '2xl:p-10 2xl:px-8', 'md:p-8 md:w-full')}>
 					<div className="space-y-8">
 						<div className={c('space-y-2.5 w-4/6', 'md:w-full')}>
-							<h2 className="text-3xl font-bold">{pageData.header}</h2>
+							<h1 className="text-3xl font-bold">{pageData.header}</h1>
 							<p className="text-justify">{pageData.description}</p>
 						</div>
 						<div className={c('space-y-2.5 w-4/6', 'md:w-full')}>
