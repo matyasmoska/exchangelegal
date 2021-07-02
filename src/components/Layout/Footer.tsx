@@ -67,8 +67,8 @@ const Footer = () => {
 						<Link href="/o-nas">
 							<a className="hover:underline">{pageData.about}</a>
 						</Link>
-						<Link href="/faq">
-							<a className="hover:underline">{pageData.faq}</a>
+						<Link href="/casto-kladene-dotazy">
+							<a className="hover:underline">{pageData.castokladenedotazy}</a>
 						</Link>
 					</div>
 				</div>
