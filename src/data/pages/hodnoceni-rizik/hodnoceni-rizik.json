@@ -4,11 +4,16 @@
     "topText": [
         ""      
     ],
-
+    "highlightSection": {
+        "header": "Na co si dát pozor?",
+        "text": [
+            "",
+            "Pozor, zákon č. 40/2009 Sb., trestní zákoník, v účinném znění, zná nejen úmyslný trestný čin \"legalizace výnosů z trestné činnosti\", ale i jeho nedbalostní formu \"legalizace výnosů z trestné činnosti z nedbalosti\". V praxi to znamená, že tento trestný čin můžete spáchat, aniž byste si toho byli vědomi (!)."
+        ]
+    },
     "bottomText": [
         " "
     ],
     "buttonText": "Musím řešit AML?"
 }
-
 
