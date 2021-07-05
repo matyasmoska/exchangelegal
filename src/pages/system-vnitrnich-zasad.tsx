@@ -58,7 +58,7 @@ const ObligationsPage = () => {
 								<h3 className="text-3xl font-bold">{pageData.highlightSection.header}</h3>
 								<ParagraphOrMultiple text={pageData.highlightSection.text} className="text-justify" />
 							</div>
-							<img src="/images/obligations_graphic.svg" alt="thumbnail-graphic" className="relative" />
+							<img src="/images/obligations_graphic1.svg" alt="thumbnail-graphic" className="relative" />
 						</div>
 					</section>
 
