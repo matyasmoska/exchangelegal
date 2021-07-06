@@ -17,14 +17,10 @@ const Footer = () => {
 			)}
 		>
 			<div className="self-start space-y-4">
-				<LogoWhite />
+				<LogoWhite />			
 				
-				<Link href="/prijimame-kryptomeny">				
-				<span style="cursor: hand; cursor: pointer">
-				<img src="/images/crypto_white.svg" alt="Přijímáme kryptoměny!" className={c('w-4/5 rounded-lg flex', 'md:mx-auto')} />
-				</span>
-				</Link>
-				
+				<img src="/images/crypto_white.svg" alt="Přijímáme kryptoměny!" href="/prijimame-kryptomeny" className={c('w-4/5 rounded-lg flex', 'md:mx-auto')} />
+						
 				<p className="pt-2">{contactPageData.allRightsReserved}</p>
 			</div>
 			<div
