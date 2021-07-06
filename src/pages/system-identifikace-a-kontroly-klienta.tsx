@@ -22,7 +22,7 @@ const ObligationsPage = () => {
 							objectFit="cover"
 							className="absolute"
 							priority
-							src={'/images/hodnoceni-rizik.jpg'}
+							src={'/images/system-identifikace-a-kontroly-klienta.jpg'}
 						/>
 						<div
 							className={c(
