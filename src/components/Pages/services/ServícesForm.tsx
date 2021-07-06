@@ -27,9 +27,9 @@ const ServicesForm: FC<{ form: any; visibleRef: any }> = ({ form, visibleRef }) 
 				Vyplněním údajů a kliknutím tlačítka "Nezávazně poptat" nezávazně poptáte nabídku služeb.
 			</p>
 			
-			<a href="/prijimame-kryptomeny" target="_blank">
-			<img src="/images/crypto_blue.svg" className={c('w-1/2 rounded-lg')} />
-			</a>
+			
+			<img src="/images/crypto_blue.svg" className={c('w-1/2 rounded-lg', 'md:w-3/4')} />
+			<h3 className="text-3xl">Více informací <a href="/prijimame-kryptomeny" target="_blank">zde</a>.</h3>
 			
 			<SelectedServicesList form={form} />
 			<div ref={visibleRef} className={c('grid w-full grid-cols-2 gap-4', 'md:block md:space-y-6')}>
