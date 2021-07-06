@@ -19,8 +19,11 @@ const ServicesForm: FC<{ form: any; visibleRef: any }> = ({ form, visibleRef }) 
 			)}
 		>
 			<a href="/prijimame-kryptomeny" target="_blank">
+				
 			<img className={c('w-16 h-16', 'md:w-12 md:h-12')} src="/images/services.svg" alt="Services icon" />
+				
 			</a>
+			
 			<h2 className="text-4xl font-bold">Nezávazná poptávka</h2>
 			<p className={c('md:text-sm')}>
 				Vyplněním údajů a kliknutím tlačítka "Nezávazně poptat" nezávazně poptáte nabídku služeb.
