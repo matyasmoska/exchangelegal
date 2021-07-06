@@ -18,7 +18,13 @@ const Footer = () => {
 		>
 			<div className="self-start space-y-4">
 				<LogoWhite />
+				
+				<Link href="/prijimame-kryptomeny" target="_blank">			
+						
 				<img src="/images/crypto_white.svg" alt="Přijímáme kryptoměny!" className={c('w-4/5 rounded-lg flex', 'md:mx-auto')} />
+				
+				</Link>
+				
 				<p className="pt-2">{contactPageData.allRightsReserved}</p>
 			</div>
 			<div
