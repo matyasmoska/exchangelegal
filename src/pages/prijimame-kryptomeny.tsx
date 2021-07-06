@@ -16,7 +16,7 @@ const ObligationsPage = () => {
         <DefaultLayout>
 			<div className={c('relative items-center')}>
 				<div className="relative w-full">
-					<div className="h-[485px]">
+					<div className="h-[285px]">
 						<Image
 							layout="fill"
 							objectFit="cover"
