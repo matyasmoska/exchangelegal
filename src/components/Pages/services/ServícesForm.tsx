@@ -29,7 +29,7 @@ const ServicesForm: FC<{ form: any; visibleRef: any }> = ({ form, visibleRef }) 
 			
 			
 			<img src="/images/crypto_blue.svg" className={c('w-1/2 rounded-lg', 'md:w-3/4')} />
-			<p className={c('md:text-sm')}>Více informací <a href="/prijimame-kryptomeny" target="_blank">zde</a>.</p>
+			<p className={c('md:text-sm')}>Více informací <a href="/prijimame-kryptomeny" target="_blank"><u>zde</u></a>.</p>
 			
 			<SelectedServicesList form={form} />
 			<div ref={visibleRef} className={c('grid w-full grid-cols-2 gap-4', 'md:block md:space-y-6')}>
