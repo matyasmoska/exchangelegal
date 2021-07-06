@@ -18,11 +18,7 @@ const ServicesForm: FC<{ form: any; visibleRef: any }> = ({ form, visibleRef }) 
 				'md:max-w-none, md:px-4 md:py-16'
 			)}
 		>
-			<a href="/prijimame-kryptomeny" target="_blank">
-				
-			<img className={c('w-16 h-16', 'md:w-12 md:h-12')} src="/images/services.svg" alt="Services icon" />
-				
-			</a>
+			<a href="/prijimame-kryptomeny" target="_blank"><img className={c('w-16 h-16', 'md:w-12 md:h-12')} src="/images/services.svg" alt="Services icon" /></a>
 			
 			<h2 className="text-4xl font-bold">Nezávazná poptávka</h2>
 			<p className={c('md:text-sm')}>
