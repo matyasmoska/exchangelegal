@@ -28,7 +28,7 @@ const ServicesForm: FC<{ form: any; visibleRef: any }> = ({ form, visibleRef }) 
 			</p>
 			
 			<a href="/prijimame-kryptomeny" target="_blank">
-			<img src="/images/crypto_blue.svg" className={c('w-1/2 rounded-lg', 'md:w-3/4')} />
+			<img src="/images/crypto_blue.svg" className={c('w-1/2 rounded-lg')} />
 			</a>
 			
 			<SelectedServicesList form={form} />
