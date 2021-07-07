@@ -31,7 +31,7 @@ const PEPSection = () => {
 			<div
 					className={c(
 					'absolute top-0 left-0 z-10 w-full h-full from-dark-blue via-[#021C62A6] bg-gradient-to-r to-transparent',
-					'md:to-dark-blue md:opacity-80'
+					'md:to-dark-blue md:opacity-100'
 				)}
 			/>
 			<div className={c('relative z-10 max-w-3xl space-y-12 text-white', 'md:max-w-none md:text-center')}>
