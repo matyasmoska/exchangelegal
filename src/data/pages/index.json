@@ -10,7 +10,7 @@
     "secondarySection": {
         "leftText": "Zjednodušujeme pro Vás plnění AML povinností. Prověřte obchodní partnery na sankčních seznamech EU, ověřujte mezinárodní sankce podle zákona o provádění mezinárodních sankcích, aktualizovaný seznam rizikových zemí.",
         "firstButtonText": "Ověřování mezinárodních sankcí",
-        "secondButtonText": "Seznam rizikových zemí"
+        "secondButtonText": "Seznam rizikových zemí",
         "newsBar": {
         "howManyArticles": 3,
         "betweenArticlesDelaySeconds": 5
@@ -18,7 +18,7 @@
     "pepCheckSection": {
         "title": "Ověřujte status politicky exponovaných osob prostřednictvím PEP check",
         "subtitle": "Prověřte Vaše obchodní partnery a klienty",
-        "buttonText": "Vyzkoušet PEP Check"
+        "buttonText": "Vyzkoušet PEP Check",
         "newsBar": {
         "howManyArticles": 3,
         "betweenArticlesDelaySeconds": 5
