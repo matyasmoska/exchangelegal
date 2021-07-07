@@ -1,6 +1,6 @@
 {
     "title": "Systémová řešení <br/>pro Vaše AML povinnosti",
-    "subtitle": "Jsme předními odborníky na AML compliance, poskytujeme profesionální služby v oblasti AML/CFT na míru klientům.",
+    "subtitle": "Jsme předními odborníky na AML compliance, poskytujeme profesionální služby v oblasti AML/CFT na míru klientům. #AML #RegTech",
     "checkAMLObligations": "Musím řešit AML?",
     "seeAMLServices": "Chci řešit AML",
     "newsBar": {
@@ -8,14 +8,20 @@
         "betweenArticlesDelaySeconds": 5
     },
     "secondarySection": {
-        "leftText": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa similique consequuntur inventore ratione nihil totam suscipit dolor amet iusto libero cum quam porro accusamus, earum eius, corrupti quod ea itaque.",
+        "leftText": "Zjednodušujeme pro Vás plnění AML povinností. Prověřte obchodní partnery na sankčních seznamech EU, ověřujte mezinárodní sankce podle zákona o provádění mezinárodních sankcích, aktualizovaný seznam rizikových zemí.",
         "firstButtonText": "Ověřování mezinárodních sankcí",
         "secondButtonText": "Seznam rizikových zemí"
+        "newsBar": {
+        "howManyArticles": 3,
+        "betweenArticlesDelaySeconds": 5
     },
     "pepCheckSection": {
         "title": "Ověřujte status politicky exponovaných osob prostřednictvím PEP check",
-        "subtitle": "Jsme předními odborníky na AML compliance, poskytujeme profesionální služby v oblasti AML/CFT na míru klientům.",
+        "subtitle": "Prověřte Vaše obchodní partnery a klienty",
         "buttonText": "Vyzkoušet PEP Check"
+        "newsBar": {
+        "howManyArticles": 3,
+        "betweenArticlesDelaySeconds": 5
     },
     "contact": {
         "header": "Rychlé kontakty",
