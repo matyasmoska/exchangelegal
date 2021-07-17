@@ -7,11 +7,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Button from '../../Layout/Button'
 import ReadingTime from './ReadingTime'
-import { useMediaQueries } from '../../../hooks/useMediaQueries'
 
 const MainNewsItem: FC<{ newsItem: NewsItem }> = ({ newsItem }) => {
 	const stats = useMemo(() => readingTime(documentToPlainTextString(newsItem.text)), [ newsItem ])
-	const { isMd, isLg } = useMediaQueries()
 
 	return (
 		<div className={c('grid grid-cols-2 gap-8', 'md:flex md:flex-col md:space-x-0 md:space-y-4')}>
