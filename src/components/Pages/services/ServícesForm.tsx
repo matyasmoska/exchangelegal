@@ -18,12 +18,19 @@ const ServicesForm: FC<{ form: any; visibleRef: any }> = ({ form, visibleRef }) 
 				'md:max-w-none, md:px-4 md:py-16'
 			)}
 		>
-			<img className={c('w-16 h-16', 'md:w-12 md:h-12')} src="/images/services.svg" alt="Services icon" />
+			
+				<img className={c('w-16 h-16', 'md:w-12 md:h-12')} src="/images/services.svg" alt="Services icon" />
+			
+			
 			<h2 className="text-4xl font-bold">Nezávazná poptávka</h2>
 			<p className={c('md:text-sm')}>
 				Vyplněním údajů a kliknutím tlačítka "Nezávazně poptat" nezávazně poptáte nabídku služeb.
 			</p>
+			
+			
 			<img src="/images/crypto_blue.svg" className={c('w-1/2 rounded-lg', 'md:w-3/4')} />
+			<p className={c('md:text-sm')}>Více informací k přijímání kryptoměn <a href="/prijimame-kryptomeny" target="_blank"><u>zde</u></a>.</p>
+			
 			<SelectedServicesList form={form} />
 			<div ref={visibleRef} className={c('grid w-full grid-cols-2 gap-4', 'md:block md:space-y-6')}>
 				<TextInput

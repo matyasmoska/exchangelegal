@@ -12,13 +12,13 @@ export default function WhatIsAMLPage () {
 		<DefaultLayout>
 			<div className={c('relative items-center')}>
 				<div className="relative w-full">
-					<div className="h-[485px]">
+					<div className="h-[385px]">
 						<Image
 							layout="fill"
 							objectFit="cover"
 							className="absolute"
 							priority
-							src={'/images/whatisaml_background.jpg'}
+							src={'/images/co-je-to-aml.jpg'}
 						/>
 						<div
 							className={c(

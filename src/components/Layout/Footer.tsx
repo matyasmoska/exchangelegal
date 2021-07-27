@@ -17,8 +17,10 @@ const Footer = () => {
 			)}
 		>
 			<div className="self-start space-y-4">
-				<LogoWhite />
+				<LogoWhite />			
+				<a href="/prijimame-kryptomeny" target="_blank">
 				<img src="/images/crypto_white.svg" alt="Přijímáme kryptoměny!" className={c('w-4/5 rounded-lg flex', 'md:mx-auto')} />
+				</a>		
 				<p className="pt-2">{contactPageData.allRightsReserved}</p>
 			</div>
 			<div
@@ -67,8 +69,8 @@ const Footer = () => {
 						<Link href="/o-nas">
 							<a className="hover:underline">{pageData.about}</a>
 						</Link>
-						<Link href="/faq">
-							<a className="hover:underline">{pageData.faq}</a>
+						<Link href="/casto-kladene-dotazy">
+							<a className="hover:underline">{pageData.castokladenedotazy}</a>
 						</Link>
 						<Link href="/overovani-mezinarodnich-sankci">
 							<a className="hover:underline">{pageData.internationalSanctions}</a>

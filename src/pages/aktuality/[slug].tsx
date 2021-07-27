@@ -60,7 +60,7 @@ const PostDetailPage: NextPage<PostDetailPageProps> = ({ news, newsItem, author 
 				title={newsItem.name + ' | AML solutions'}
 				description={newsItem.previewText}
 				openGraph={{
-					url: 'https://amlsolutions.cz/news/' + newsItem.slug,
+					url: 'https://amlsolutions.cz/aktuality/' + newsItem.slug,
 					title: newsItem.name + ' | AML solutions',
 					description: newsItem.previewText,
 					site_name: 'AML solutions',

@@ -3,26 +3,26 @@ import ParagraphOrMultiple from "../components/Layout/ParagraphOrMultiple";
 import DefaultLayout from "../layouts/DefaultLayout";
 import { c } from "../services/misc";
 import Image from 'next/image'
-import pageData from '../data/pages/obligations/obligations.json'
+import pageData from '../data/pages/system-vnitrnich-zasad/system-vnitrnich-zasad.json'
 import Button from "../components/Layout/Button";
 import Link from "next/link";
 // @ts-ignore
-import TopPartMdx from "../data/pages/obligations/topPart.mdx"
+import TopPartMdx from "../data/pages/system-vnitrnich-zasad/topPart.mdx"
 // @ts-ignore
-import BottomPartMdx from "../data/pages/obligations/bottomPart.mdx"
+import BottomPartMdx from "../data/pages/system-vnitrnich-zasad/bottomPart.mdx"
 
 const ObligationsPage = () => {
     return (
         <DefaultLayout>
 			<div className={c('relative items-center')}>
 				<div className="relative w-full">
-					<div className="h-[485px]">
+					<div className="h-[385px]">
 						<Image
 							layout="fill"
 							objectFit="cover"
 							className="absolute"
 							priority
-							src={'/images/obligations_background.jpg'}
+							src={'/images/system-vnitrnich-zasad.jpg'}
 						/>
 						<div
 							className={c(
@@ -66,7 +66,7 @@ const ObligationsPage = () => {
 						<BottomPartMdx />
 					</section>
 					<div className={c('flex')}>
-						<Link href="/potrebuji-aml">
+						<Link href="/nase-sluzby">
 							<Button type="basic" className="px-14 py-2.5">
 								{ pageData.buttonText }
 							</Button>
