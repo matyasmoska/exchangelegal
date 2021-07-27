@@ -17,14 +17,14 @@ const DefaultLayout: FC = ({ children }) => {
 			<Head>
 				<title>AML solutions</title>
 				<link rel="icon" href="/favicon.ico" />
-				<script async src="https://www.googletagmanager.com/gtag/js?id=G-SMKYRZN8DD" />
+				<script async src="https://www.googletagmanager.com/gtag/js?id=UA-198544478-1" />
 
 				{ process.env.NODE_ENV === 'production' && <script dangerouslySetInnerHTML={{ __html: `
                     window.dataLayer = window.dataLayer || [];
 					function gtag(){dataLayer.push(arguments);}
 					gtag('js', new Date());
 				  
-					gtag('config', 'G-SMKYRZN8DD');
+					gtag('config', 'UA-198544478-1');
                 `} }/>}
 			</Head>
 			<SEO />
