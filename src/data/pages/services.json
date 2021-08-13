@@ -1,13 +1,13 @@
 {
     "services": [
         {
-            "name": "Systém vnitřních zásad",
+            "name": "AML Systém vnitřních zásad",
             "description": "Písemný dokument, který musí mít zpracován některé povinné osoby. U ostatních povinných osob musí existovat alespoň v podobě “nepsaných pravidel”, která se dodržují.",
             "price": 19000,
             "icon": "/images/serviceIcons/zasady.svg"
         },
         {
-            "name": "Hodnocení rizik",
+            "name": "AML Hodnocení rizik",
             "description": "Je součástí systému vnitřních zásad. Správné nastavení hodnocení rizik \"na míru\" je nezbytným předpokladem k tomu, aby AML povinnosti byly řádně plněny a případná kontrola skončila bez nálezu.",
             "price": 9000,
             "icon": "/images/serviceIcons/hodnoceni_rizik.svg"
