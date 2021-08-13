@@ -13,7 +13,7 @@
             "icon": "/images/serviceIcons/hodnoceni_rizik.svg"
         },
         {
-            "name": "Systém identifikace a kontroly klienta",
+            "name": "Systém identifikace a kontroly klienta (AML dotazník)",
             "description": "Postupy při získávání a vyhodnocování identifikačních údajů klienta, případně dalších osob zúčastněných na obchodu, a postupy pro zjišťování podrobnějších informací o klientovi a obchodu nebo obchodním vztahu Zahrnuje i identifikaci politicky exponovaných osob, osob dotčených mezinárodními sankcemi apod.",
             "price": 15000,
             "icon": "/images/serviceIcons/system_identifikace_klienta.svg"
