@@ -42,7 +42,7 @@ const Footer = () => {
 						<Link href="/system-identifikace-a-kontroly-klienta">
 							<a className="hover:underline">{pageData.systemidentifikaceakontrolyklienta}</a>
 						</Link>
-						<Link href="/aml-skoleni-ametodika">
+						<Link href="/aml-skoleni-a-metodika">
 							<a className="hover:underline">{pageData.amlskoleniametodika}</a>
 						</Link>
 						<Link href="/urceni-kontaktni-osoby-fau-a-dalsi">
