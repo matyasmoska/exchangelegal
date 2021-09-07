@@ -18,7 +18,7 @@ const DefaultLayout: FC = ({ children }) => {
 				
 				<script type="application/ld+json">
 					
-					{ "@context": "https://schema.org/", "@type": "CreativeWorkSeries", "name": "Post title", "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "bestRating": "5", "ratingCount": "42" } }
+					{ "@context": { "https://schema.org/", "@type": "CreativeWorkSeries", "name": "Post title", "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "bestRating": "5", "ratingCount": "42" } } }
 				
 				</script>
 				
