@@ -16,20 +16,15 @@ const DefaultLayout: FC = ({ children }) => {
 		<div className="text-dark-blue">
 			<Head>
 				
-				<script type="application/ld+json">
-					
-					{
-   "@context":"https://schema.org/",
-   "@type":"CreativeWorkSeries",
-   "name":"Post title",
-   "aggregateRating":{
-      "@type":"AggregateRating",
-      "ratingValue":"4.9",
-      "bestRating":"5",
-      "ratingCount":"42"
-   }
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "url": "http://website.com",
+    "name": "wbs",
+    "description": "Web Studio"
 }
-				</script>
+</script>
 				
 				<title>AML solutions</title>
 				<link rel="icon" href="/favicon.ico" />
