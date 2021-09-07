@@ -16,7 +16,7 @@ const DefaultLayout: FC = ({ children }) => {
 		<div className="text-dark-blue">
 			<Head>
 				
-<script type="application/ld+json">
+<script>
 {
     "@context": "http://schema.org",
     "@type": "WebSite",
