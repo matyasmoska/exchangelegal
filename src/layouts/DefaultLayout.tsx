@@ -27,8 +27,7 @@ const DefaultLayout: FC = ({ children }) => {
 					gtag('config', 'UA-198544478-1');
                 `} }/>}
 				
-				<script type="application/ld+json">{ "@context": "https://schema.org/", "@type": "CreativeWorkSeries", "name": "Post title", "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "bestRating": "5", "ratingCount": "42" } }
-			</script>
+				<script type="application/ld+json">{ "@context": "https://schema.org/", "@type": "CreativeWorkSeries", "name": "Post title", "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "bestRating": "5", "ratingCount": "42" } }</script>
 				
 			</Head>
 			<SEO />
