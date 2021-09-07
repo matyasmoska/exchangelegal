@@ -14,18 +14,7 @@ const DefaultLayout: FC = ({ children }) => {
 
 	return (
 		<div className="text-dark-blue">
-			<Head>
-				
-<script>
-{
-    "@context": "http://schema.org",
-    "@type": "WebSite",
-    "url": "http://website.com",
-    "name": "wbs",
-    "description": "Web Studio"
-}
-</script>
-				
+			<Head>		
 				<title>AML solutions</title>
 				<link rel="icon" href="/favicon.ico" />
 				<script async src="https://www.googletagmanager.com/gtag/js?id=UA-198544478-1" />
