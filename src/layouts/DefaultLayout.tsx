@@ -15,6 +15,8 @@ const DefaultLayout: FC = ({ children }) => {
 	return (
 		<div className="text-dark-blue">
 			<Head>
+				<script type="application/ld+json">{ "@context": "https://schema.org/", "@type": "CreativeWorkSeries", "name": "Post title", "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "bestRating": "5", "ratingCount": "42" } }</script>
+				
 				<title>AML solutions</title>
 				<link rel="icon" href="/favicon.ico" />
 				<script async src="https://www.googletagmanager.com/gtag/js?id=UA-198544478-1" />
@@ -27,7 +29,7 @@ const DefaultLayout: FC = ({ children }) => {
 					gtag('config', 'UA-198544478-1');
                 `} }/>}
 				
-				<script type="application/ld+json">{ "@context": "https://schema.org/", "@type": "CreativeWorkSeries", "name": "Post title", "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "bestRating": "5", "ratingCount": "42" } }</script>
+				
 				
 			</Head>
 			<SEO />
