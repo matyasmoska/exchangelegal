@@ -15,7 +15,7 @@ const DefaultLayout: FC = ({ children }) => {
 	return (
 		<div className="text-dark-blue">
 			<Head>
-				<script type="application/ld+json">{ "@context": "https://schema.org/", "@type": "CreativeWorkSeries", "name": "Post title", "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "bestRating": "5", "ratingCount": "42" } }</script>
+				<script type="application/ld+json">{ "@context": "https://schema.org/", "@type": "CreativeWorkSeries", "name": "Post title", "aggregateRating": } { "@type": "AggregateRating", "ratingValue": "4.9", "bestRating": "5", "ratingCount": "42" }</script>
 				
 				<title>AML solutions</title>
 				<link rel="icon" href="/favicon.ico" />
