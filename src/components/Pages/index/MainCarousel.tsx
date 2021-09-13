@@ -11,6 +11,13 @@ import SecondarySection from './MainCarouselSections/SecondarySection'
 import pageData from '../../../data/pages/index.json'
 import { useBoolean, useInterval } from 'react-use'
 
+const Dot: FC<{ isSelected: boolean; onClick: any }> = ({ isSelected, onClick }) => (
+	<div
+		onClick={onClick}
+		className={c('w-2 h-2 rounded-full cursor-pointer', isSelected ? 'bg-orange-primary' : 'bg-white')}
+	/>
+)
+
 const MainCarousel: FC<{ news: NewsItem[] }> = ({ news }) => {
 	const components = [MainSection, SecondarySection, PEPSection]
 
@@ -60,6 +67,15 @@ const MainCarousel: FC<{ news: NewsItem[] }> = ({ news }) => {
 			</div>
 			<div className={c('absolute z-50 right-6', 'md:bottom-10')} onClick={moveRight}>
 				<ChevronRight className="w-8 h-8 text-white transition cursor-pointer transform-gpu hover:scale-110" />
+			</div>
+			<div className={c('absolute bottom-5 z-50 flex space-x-2 left-1/2 -translate-x-1/2')}>
+				{components.map((_, index) => (
+					<Dot
+						onClick={() => setCurrentItemIndex(index)}
+						key={index}
+						isSelected={currentItemIndex === index}
+					/>
+				))}
 			</div>
 		</div>
 	)

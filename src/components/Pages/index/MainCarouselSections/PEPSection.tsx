@@ -2,10 +2,14 @@ import React from 'react'
 import { c } from '../../../../services/misc'
 import Image from 'next/image'
 import thumbnail from '../../../../../public/images/pep-background.jpg'
+import thumbnailMobile from '../../../../../public/images/pep-background-mobile.jpg'
 import Button from '../../../Layout/Button'
 import pageData from '../../../../data/pages/index.json'
+import { useMediaQueries } from '../../../../hooks/useMediaQueries'
 
 const PEPSection = () => {
+	const { isMd } = useMediaQueries()
+
 	return (
 		<div
 			className={c(
@@ -13,26 +17,22 @@ const PEPSection = () => {
 				'3xl:px-28',
 				'md:px-5 md:pt-28 md:h-[674px]'
 			)}
-			
-			
-			
-
-			
 		>
 			<Image
 				layout="fill"
 				objectFit="cover"
 				priority
 				placeholder="blur"
-				src={thumbnail}
+				src={!isMd ? thumbnail : thumbnailMobile}
 				alt="Background Image"
-				className="top-0 left-0 z-0"
+				className="absolute top-0 left-0 z-0"
 			/>
 			<div
 					className={c(
 					'absolute top-0 left-0 z-10 w-full h-full from-dark-blue via-[#021C62A6] bg-gradient-to-r to-transparent',
-					'md:to-dark-blue md:opacity-100'
+					'md:bg-dark-blue md:opacity-100'
 				)}
+				style={{ background: !isMd ? 'transparent linear-gradient(90deg, #021C62 0%, #021C62D8 25%, #021C6279 42%, #021C620A 62%, #021C6200 100%) 0% 0% no-repeat padding-box' : ''}}
 			/>
 			<div className={c('relative z-10 max-w-3xl space-y-12 text-white', 'md:max-w-none md:text-center')}>
                 <div className="flex flex-col space-y-8">
