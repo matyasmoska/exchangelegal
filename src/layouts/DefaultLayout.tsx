@@ -14,7 +14,7 @@ const DefaultLayout: FC = ({ children }) => {
 
 	return (
 		<div className="text-dark-blue">
-			<Head>
+			<Head>		
 				<title>AML solutions</title>
 				<link rel="icon" href="/favicon.ico" />
 				<script async src="https://www.googletagmanager.com/gtag/js?id=UA-198544478-1" />
@@ -26,6 +26,9 @@ const DefaultLayout: FC = ({ children }) => {
 				  
 					gtag('config', 'UA-198544478-1');
                 `} }/>}
+				
+				
+				
 			</Head>
 			<SEO />
 			<Navigation />

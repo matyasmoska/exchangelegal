@@ -1,5 +1,5 @@
 {
-    "header": "Systém identifikace a kontroly klienta (tzv. AML dotazník / AML formulář)",
+    "header": "Určení kontaktní osoby FAÚ a další",
     "shortText": "",
     "topText": [
         ""      
@@ -15,5 +15,5 @@
         " "
     ],
     
-    "buttonText": "Objednat Systém identifikace a kontroly klienta na míru"
+    "buttonText": "Objednat určení kontaktní osoby FAÚ a další úkony"
 }
