@@ -8,7 +8,8 @@
         "betweenArticlesDelaySeconds": 5
     },
     "secondarySection": {
-        "leftText": "Zjednodušujeme pro Vás plnění AML povinností. Prověřte obchodní partnery na sankčních seznamech EU, ověřujte mezinárodní sankce podle zákona o provádění mezinárodních sankcích, aktualizovaný seznam rizikových zemí.",
+        "title": "Prověřujte si své partnery na jednom místě.",
+        "subtitle": "Zjednodušujeme pro Vás plnění AML povinností. Prověřte obchodní partnery na sankčních seznamech EU, ověřujte mezinárodní sankce podle zákona o provádění mezinárodních sankcích, aktualizovaný seznam rizikových zemí.",
         "firstButtonText": "Ověřování mezinárodních sankcí",
         "secondButtonText": "Seznam rizikových zemí"
 

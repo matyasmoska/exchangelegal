@@ -10,9 +10,9 @@ const SecondarySection = () => {
 	return (
 		<div
 			className={c(
-				'relative w-full flex justify-center items-center bg-cover  h-[602px]',
-				'md:px-5 md:py-28 md:pt-16 md:h-[674px]',
-				'xs:px-1'
+				'relative w-full bg-cover px-36 py-36 pt-24 h-[602px]',
+				'3xl:px-28',
+				'md:px-5 md:pt-28 md:h-[674px]'
 			)}
 		>
 			<Image
@@ -30,17 +30,28 @@ const SecondarySection = () => {
 					'md:to-dark-blue md:opacity-80'
 				)}
 			/>
-			
-			<div className={c("z-10 flex items-center justify-center space-x-32 text-white", "2xl:px-20 2xl:space-x-20", "md:flex-col md:space-x-0 md:px-4 md:space-y-12")}>
-				<div className={c("max-w-xl text-xl text-justify", "md:text-center")}>{pageData.secondarySection.leftText}</div>
-				<div className={c('flex space-x-8 justify-center', 'md:block md:space-y-6 md:w-full md:space-x-0')}>
-					<Link href="/overovani-mezinarodnich-sankci">
-						<Button type="basic" className="px-6 py-3">
+
+			<div className={c('relative z-10 max-w-3xl space-y-20 text-white', 'md:max-w-none md:text-center')}>
+				<div className="flex flex-col space-y-8">
+					<h1
+						dangerouslySetInnerHTML={{ __html: pageData.secondarySection.title }}
+						className={c('text-6xl font-bold leading-tight', 'md:text-4xl')}
+					/>
+					<p className="text-lg leading-relaxed text-justify">{pageData.secondarySection.subtitle}</p>
+				</div>
+				<div
+					className={c(
+						'grid gap-6 items-center w-9/12 grid-cols-2',
+						'md:block md:space-y-6 md:w-full md:space-x-0'
+					)}
+				>
+					<Link href="/potrebuji-aml">
+						<Button type="basic" className="px-3 py-2">
 							{pageData.secondarySection.firstButtonText}
 						</Button>
 					</Link>
-					<Link href="/seznam-rizikovych-zemi">
-						<Button type="basic" className="px-10 py-3">
+					<Link href="/nase-sluzby">
+						<Button type="light" className="px-10 py-2">
 							{pageData.secondarySection.secondButtonText}
 						</Button>
 					</Link>
