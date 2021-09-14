@@ -10,6 +10,7 @@ import PEPSection from './MainCarouselSections/PEPSection'
 import SecondarySection from './MainCarouselSections/SecondarySection'
 import pageData from '../../../data/pages/index.json'
 import { useBoolean, useInterval } from 'react-use'
+import NewsBar from './NewsBar'
 
 const Dot: FC<{ isSelected: boolean; onClick: any }> = ({ isSelected, onClick }) => (
 	<div
@@ -59,9 +60,10 @@ const MainCarousel: FC<{ news: NewsItem[] }> = ({ news }) => {
 				<ChevronLeft className="w-8 h-8 text-white transition cursor-pointer transform-gpu hover:scale-110" />
 			</div>
 			<div className="w-full">
+				<NewsBar news={news} />
 				<AnimatePresence exitBeforeEnter>
 					<motion.div key={CurrentSection.toString()} {...opacityAnimation}>
-						{<CurrentSection news={news} />}
+						<CurrentSection news={news} />
 					</motion.div>
 				</AnimatePresence>
 			</div>
