@@ -1,4 +1,5 @@
 import DefaultLayout from '../layouts/DefaultLayout'
+import SEO from '../components/Layout/SEO'
 import Image from 'next/image'
 import pageData from '../data/pages/aboutus.json'
 import { FC } from 'react'
@@ -19,6 +20,11 @@ export interface Reference {
 export default function AboutPage () {
 	return (
 		<DefaultLayout>
+			<SEO
+				title="AML solutions | Systémová řešení pro Vaše AML povinnosti na míru"
+				description="Jsme předními odborníky v oblasti AML compliance"
+				keywords="AML, AML solutions, AML compliance"
+			/>
 			<div className="text-center">
 				<div className="relative w-full bg-gray-50">
 					<Image

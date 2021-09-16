@@ -1,6 +1,7 @@
 import React from 'react'
 import HeroSection from '../components/Pages/index/HeroSection'
 import DefaultLayout from '../layouts/DefaultLayout'
+import SEO from '../components/Layout/SEO'
 import ContactSection from '../components/Pages/index/ContactSection'
 import { GetStaticProps, NextPage } from 'next'
 import { fetchEntries } from '../services/contentful'
@@ -15,6 +16,11 @@ import Image from 'next/image'
 const Home: NextPage<{ news: NewsItem[] }> = ({ news }) => {
 	return (
 		<DefaultLayout>
+			<SEO
+				title="AML solutions | Systémová řešení pro Vaše AML povinnosti na míru"
+				description="Jsme předními odborníky v oblasti AML compliance"
+				keywords="AML, AML solutions, AML compliance"
+			/>
 			<div className="relative">
 				<NewsBar news={news} />
 				<div className={c('relative w-full bg-cover px-36 py-36 pt-24', '3xl:px-28', 'md:px-5 md:pt-28')}>

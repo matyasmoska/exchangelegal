@@ -1,4 +1,5 @@
 import DefaultLayout from '../layouts/DefaultLayout'
+import SEO from '../components/Layout/SEO'
 import React from 'react'
 import { PhoneIcon, MessageIcon, FacebookIcon, TwitterIcon, LinkedInIcon } from '../components/Layout/Icons'
 import { WrappedIconRow, IconRow } from '../components/Layout/Icon'
@@ -10,6 +11,11 @@ import pageData from '../data/pages/contact.json'
 export default function Contact () {
 	return (
 		<DefaultLayout>
+			<SEO
+				title="AML solutions | Systémová řešení pro Vaše AML povinnosti na míru"
+				description="Jsme předními odborníky v oblasti AML compliance"
+				keywords="AML, AML solutions, AML compliance"
+			/>
 			<div
 				className={c(
 					'flex space-x-4 px-36 py-8 pb-52',

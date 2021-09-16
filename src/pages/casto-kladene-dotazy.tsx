@@ -1,4 +1,5 @@
 import DefaultLayout from '../layouts/DefaultLayout'
+import SEO from '../components/Layout/SEO'
 import Head from 'next/head'
 import { FC, useState } from 'react'
 import { MinusIcon, PlusIcon } from '../components/Layout/Icons'
@@ -49,6 +50,11 @@ export const QuestionDetail: FC<{ question: FAQuestion }> = ({ question }) => {
 export default function FAQPage () {
 	return (
 		<DefaultLayout>
+			<SEO
+				title="AML solutions | Systémová řešení pro Vaše AML povinnosti na míru"
+				description="Jsme předními odborníky v oblasti AML compliance"
+				keywords="AML, AML solutions, AML compliance"
+			/>
 			<div className={c("py-16 text-justify px-36 mb-52 space-y-14", 'md:px-4 md:py-8')}>
 				<h1 className={c("text-5xl font-bold leading-snug text-center", "md:text-2xl")}>Často kladené dotazy</h1>
 				

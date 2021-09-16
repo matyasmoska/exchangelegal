@@ -1,4 +1,5 @@
 import DefaultLayout from '../../layouts/DefaultLayout'
+import SEO from '../../components/Layout/SEO'
 import Head from 'next/head'
 import React, { useEffect, useState } from 'react'
 import data from '../../data/pages/ineedaml.json'
@@ -26,6 +27,11 @@ export default function Obligations () {
 
 	return (
 		<DefaultLayout>
+			<SEO
+				title="AML solutions | Systémová řešení pro Vaše AML povinnosti na míru"
+				description="Jsme předními odborníky v oblasti AML compliance"
+				keywords="AML, AML solutions, AML compliance"
+			/>
 			<div className={c('space-y-10 text-center p-36 py-16', 'md:px-4 md:py-8')}>
 				<h1 className={c('text-5xl font-bold leading-snug', 'md:text-2xl md:px-4')}>{data.header}</h1>
 				<div>

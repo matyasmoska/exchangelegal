@@ -1,5 +1,6 @@
 import React, { FC, useEffect, useRef, useState } from 'react'
 import DefaultLayout from '../layouts/DefaultLayout'
+import SEO from '../components/Layout/SEO'
 import pageData from '../data/pages/services.json'
 import Button from '../components/Layout/Button'
 import { ArrowRight } from '../components/Layout/Icons'
@@ -27,6 +28,11 @@ export default function Services () {
 
 	return (
 		<DefaultLayout>
+			<SEO
+				title="AML solutions | Systémová řešení pro Vaše AML povinnosti na míru"
+				description="Jsme předními odborníky v oblasti AML compliance"
+				keywords="AML, AML solutions, AML compliance"
+			/>
 			<div className={c('py-16 space-y-12 text-center px-36', 'md:px-4 md:py-8 md:relative')}>
 				<h1 className="text-5xl font-bold leading-snug">Naše služby</h1>
 				<div className={c('grid grid-cols-3 gap-8 items-stretch', '2xl:grid-cols-3', 'md:grid-cols-1')}>

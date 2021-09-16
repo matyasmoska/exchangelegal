@@ -1,11 +1,17 @@
 import Link from 'next/link'
 import Button from '../../components/Layout/Button'
 import DefaultLayout from '../../layouts/DefaultLayout'
+import SEO from '../../components/Layout/SEO'
 import { c } from '../../services/misc'
 
 const ObligationsFailPage = () => {
 	return (
 		<DefaultLayout>
+			<SEO
+				title="AML solutions | Systémová řešení pro Vaše AML povinnosti na míru"
+				description="Jsme předními odborníky v oblasti AML compliance"
+				keywords="AML, AML solutions, AML compliance"
+			/>
 			<main className="flex items-center justify-center w-full">
 				<div
 					className={c("flex flex-col items-center justify-center max-w-lg space-y-20", 'md:space-y-10')}

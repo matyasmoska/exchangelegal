@@ -1,6 +1,7 @@
 import React from "react";
 import ParagraphOrMultiple from "../components/Layout/ParagraphOrMultiple";
 import DefaultLayout from "../layouts/DefaultLayout";
+import SEO from "../components/Layout/SEO";
 import { c } from "../services/misc";
 import Image from 'next/image'
 import pageData from '../data/pages/urceni-kontaktni-osoby-fau-a-dalsi/urceni-kontaktni-osoby-fau-a-dalsi.json'
@@ -14,6 +15,11 @@ import BottomPartMdx from "../data/pages/urceni-kontaktni-osoby-fau-a-dalsi/bott
 const ObligationsPage = () => {
     return (
         <DefaultLayout>
+			<SEO
+				title="AML solutions | Systémová řešení pro Vaše AML povinnosti na míru"
+				description="Jsme předními odborníky v oblasti AML compliance"
+				keywords="AML, AML solutions, AML compliance"
+			/>
 			<div className={c('relative items-center')}>
 				<div className="relative w-full">
 					<div className="h-[385px]">
