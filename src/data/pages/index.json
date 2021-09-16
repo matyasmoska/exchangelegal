@@ -16,7 +16,7 @@
     },
     "pepCheckSection": {
         "title": "Ověřujte status politicky exponovaných osob prostřednictvím PEP check",
-        "subtitle": "Zjednodušujeme pro Vás plnění AML povinností. Prověřte obchodní partnery na sankčních seznamech EU, ověřujte mezinárodní sankce podle zákona o provádění mezinárodních sankcích, aktulizovaný seznam rizikových zemí a každodenně aktualizovaná databáze politicky exponovaných osob v ČR (tzv. PEP) v souladu s Metodickým pokynem FAÚ č. 7 ze dne 9. 10. 2020.",
+        "subtitle": "Prověřte obchodní partnery v každodenně aktualizované databázi politicky exponovaných osob v ČR (tzv. PEP) v souladu s Metodickým pokynem FAÚ č. 7 ze dne 9. 10. 2020.",
         "buttonText": "Vyzkoušet PEP check zdarma"
 
     },
