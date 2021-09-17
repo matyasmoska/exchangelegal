@@ -4,36 +4,42 @@
             "name": "AML Systém vnitřních zásad",
             "description": "Písemný dokument, který musí mít zpracován některé povinné osoby. U ostatních povinných osob musí existovat alespoň v podobě “nepsaných pravidel”, která se dodržují.",
             "price": 19000,
+            "link": "/system-vnitrnich-zasad",
             "icon": "/images/serviceIcons/zasady.svg"
         },
         {
             "name": "AML Hodnocení rizik",
             "description": "Je součástí systému vnitřních zásad. Správné nastavení hodnocení rizik \"na míru\" je nezbytným předpokladem k tomu, aby AML povinnosti byly řádně plněny a případná kontrola skončila bez nálezu.",
             "price": 9000,
+            "link": "/hodnoceni-rizik",
             "icon": "/images/serviceIcons/hodnoceni_rizik.svg"
         },
         {
             "name": "Systém identifikace a kontroly klienta (AML dotazník)",
             "description": "Postupy při získávání a vyhodnocování identifikačních údajů klienta, případně dalších osob zúčastněných na obchodu, a postupy pro zjišťování podrobnějších informací o klientovi a obchodu nebo obchodním vztahu Zahrnuje i identifikaci politicky exponovaných osob, osob dotčených mezinárodními sankcemi apod.",
             "price": 15000,
+            "link": "/system-identifikace-a-kontroly-klienta",
             "icon": "/images/serviceIcons/system_identifikace_klienta.svg"
         },
         {
             "name": "AML školení a metodika",
             "description": "Pravidelné AML školení zaměstnanců a dalších osob, které provádějí identifikaci a kontrolu klienta, nejméně jednou za 12 měsíců je povinností, za jejíž porušení hrozí sankce.",
             "price": 15000,
+            "link": "/aml-skoleni-a-metodika",
             "icon": "/images/serviceIcons/skoleni_a_metodika.svg"
         },
         {
             "name": "Určení kontaktní osoby FAÚ a další",
             "description": "Připravíme pro Vás nezbytné dokumenty související s plněním AML povinností.",
             "price": 2000,
+            "link": "/urceni-kontaktni-osoby-fau-a-dalsi",
             "icon": "/images/serviceIcons/komunikace_s_fau.svg"
         },
         {
             "name": "Zápis do evidence skutečných majitelů",
             "description": "Evidence skutečných majitelů je informačním systémem veřejné správy, do kterého se zapisují zákonem vymezené údaje o skutečných majitelích. Zajistíme pro Vás zápis údajů do evidence skutečných majitelů dle zákonných požadavků.",
             "price": 5000,
+            "link": "/zapis-do-evidence-skutecnych-majitelu",
             "icon": "/images/serviceIcons/aml_audit.svg"
         }
     ]
