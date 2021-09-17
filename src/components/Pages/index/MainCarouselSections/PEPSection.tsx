@@ -1,7 +1,7 @@
 import React from 'react'
 import { c } from '../../../../services/misc'
 import Image from 'next/image'
-import thumbnail from '../../../../../public/images/pep-background.jpg'
+import thumbnail from '../../../../../public/images/pep-background.svg'
 import thumbnailMobile from '../../../../../public/images/pep-background-mobile.jpg'
 import Button from '../../../Layout/Button'
 import pageData from '../../../../data/pages/index.json'
@@ -13,19 +13,15 @@ const PEPSection = () => {
 	return (
 		<div
 			className={c(
-				'relative w-full bg-cover px-36 py-36 pt-24 h-[602px]',
-				'3xl:px-28',
-				'md:px-5 md:pt-28 md:h-[674px]'
+				'relative w-full bg-cover px-36 py-36 pt-24 h-[602px] bg-white',
+				'3xl:px-28 3xl:pr-32',
+				'md:px-5 md:pt-36 md:h-[704px]'
 			)}
 		>
-			<Image
-				layout="fill"
-				objectFit="cover"
-				priority
-				placeholder="blur"
-				src={!isMd ? thumbnail : thumbnailMobile}
+			<img
+				src={'/images/pep-background.svg'}
 				alt="Background Image"
-				className="absolute top-0 left-0 z-0"
+				className="absolute max-w-xl pt-24 top-10 right-20"
 			/>
 			<div
 					className={c(
@@ -34,7 +30,7 @@ const PEPSection = () => {
 				)}
 				style={{ background: !isMd ? 'transparent linear-gradient(90deg, #021C62 0%, #021C62D8 25%, #021C6279 42%, #021C620A 62%, #021C6200 100%) 0% 0% no-repeat padding-box' : ''}}
 			/>
-			<div className={c('relative z-10 max-w-3xl space-y-12 text-white', 'md:max-w-none md:text-center')}>
+			<div className={c('relative z-10 max-w-3xl space-y-12 text-white', 'md:max-w-none md:text-center md:flex md:flex-col md:items-center')}>
                 <div className="flex flex-col space-y-8">
                     <h1
                         dangerouslySetInnerHTML={{ __html: pageData.pepCheckSection.title }}
