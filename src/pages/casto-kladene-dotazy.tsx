@@ -52,7 +52,7 @@ export default function FAQPage () {
 		<DefaultLayout>
 			<SEO
 				title="AML solutions | Často kladené dotazy"
-				description="Jsme předními odborníky v oblasti AML compliance"
+				description="Systémová řešení pro Vaše AML povinnosti na míru. Jsme předními odborníky v oblasti AML compliance"
 				keywords="AML, AML solutions, AML compliance, AML povinnosti, AML systém vnitřních zásad, AML školení, AML hodnocení rizik, AML dotazník, AML zákon, AML směrnice"
 			/>
 			<div className={c("py-16 text-justify px-36 mb-52 space-y-14", 'md:px-4 md:py-8')}>
