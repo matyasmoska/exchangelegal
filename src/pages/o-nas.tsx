@@ -21,9 +21,9 @@ export default function AboutPage () {
 	return (
 		<DefaultLayout>
 			<SEO
-				title="AML solutions | Systémová řešení pro Vaše AML povinnosti na míru"
-				description="Jsme předními odborníky v oblasti AML compliance"
-				keywords="AML, AML solutions, AML compliance"
+				title="AML solutions | O nás"
+				description="Systémová řešení pro Vaše AML povinnosti na míru. Jsme předními odborníky v oblasti AML compliance"
+				keywords="AML, AML solutions, AML compliance, AML povinnosti, AML systém vnitřních zásad, AML školení, AML hodnocení rizik, AML dotazník, AML zákon, AML směrnice"
 			/>
 			<div className="text-center">
 				<div className="relative w-full bg-gray-50">
