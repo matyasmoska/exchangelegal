@@ -51,7 +51,7 @@ export default function FAQPage () {
 	return (
 		<DefaultLayout>
 			<SEO
-				title="AML solutions | Systémová řešení pro Vaše AML povinnosti na míru – často kladené dotazy"
+				title="AML solutions | Často kladené dotazy"
 				description="Jsme předními odborníky v oblasti AML compliance"
 				keywords="AML, AML solutions, AML compliance, AML povinnosti, AML systém vnitřních zásad, AML školení, AML hodnocení rizik, AML dotazník, AML zákon, AML směrnice"
 			/>
