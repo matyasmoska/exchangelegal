@@ -29,9 +29,9 @@ export default function Services () {
 	return (
 		<DefaultLayout>
 			<SEO
-				title="AML solutions | Systémová řešení pro Vaše AML povinnosti na míru"
-				description="Jsme předními odborníky v oblasti AML compliance"
-				keywords="AML, AML solutions, AML compliance"
+				title="AML solutions | Naše služby"
+				description="Systémová řešení pro Vaše AML povinnosti na míru. Jsme předními odborníky v oblasti AML compliance"
+				keywords="AML, AML solutions, AML compliance, AML povinnosti, AML systém vnitřních zásad, AML školení, AML hodnocení rizik, AML dotazník, AML zákon, AML směrnice"
 			/>
 			<div className={c('py-16 space-y-12 text-center px-36', 'md:px-4 md:py-8 md:relative')}>
 				<h1 className="text-5xl font-bold leading-snug">Naše služby</h1>
