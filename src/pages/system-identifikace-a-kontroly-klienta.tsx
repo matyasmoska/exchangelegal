@@ -17,7 +17,7 @@ const ObligationsPage = () => {
         <DefaultLayout>
 			<SEO
 				title="AML solutions | Systém identifikace a kontroly klienta (AML dotazník)"
-				description="Jsme předními odborníky v oblasti AML compliance"
+				description="Systémová řešení pro Vaše AML povinnosti na míru. Jsme předními odborníky v oblasti AML compliance"
 				keywords="AML, AML solutions, AML compliance, AML povinnosti, AML systém vnitřních zásad, AML školení, AML hodnocení rizik, AML dotazník, AML zákon, AML směrnice"
 			/>
 			<div className={c('relative items-center')}>
