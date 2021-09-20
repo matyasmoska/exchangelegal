@@ -24,7 +24,7 @@
         {
             "name": "AML školení a metodika",
             "description": "Pravidelné AML školení zaměstnanců a dalších osob, které provádějí identifikaci a kontrolu klienta, nejméně jednou za 12 měsíců je povinností, za jejíž porušení hrozí sankce.",
-            "price": 15000,
+            "price": 9000,
             "link": "/aml-skoleni-a-metodika",
             "icon": "/images/serviceIcons/skoleni_a_metodika.svg"
         },
