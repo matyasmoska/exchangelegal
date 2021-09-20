@@ -84,7 +84,7 @@ const ContactForm = () => {
 						label={
 							<span>
 								Souhlasím se{' '}
-								<a className="underline" href="/docs/Obchodní podmínky AML Solutions.pdf" target="_blank">zasíláním obchodních sdělení</a>
+								<a className="underline" href="/docs/obchodni_podminky_AML_solutions.pdf" target="_blank">zasíláním obchodních sdělení</a>
 							</span>
 						}
 					/>
