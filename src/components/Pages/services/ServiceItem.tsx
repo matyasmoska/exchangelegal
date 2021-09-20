@@ -20,6 +20,7 @@ const MoreInfo: FC<MoreInfoProps> = ({ href, type }) => (
 )
 
 export interface ServiceItemType {
+	id: string
 	name: string
 	description: string
 	price: number
