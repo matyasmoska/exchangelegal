@@ -101,7 +101,7 @@ const Footer = () => {
 				</div>
 				<div className="space-y-10">
 					<h3 className="text-xl font-bold">Sledujte nás</h3>
-					<div className={c('flex space-x-4 text-white', 'md:text-center md:justify-center')}>
+					<div className={c('flex space-x-4 text-white', 'md:text-center md:justify-center md:pb-52')}>
 						<a href={contactPageData.contact.links.facebook} target="_blank" rel="noopener" aria-label="Facebook Link">
 							<FacebookIcon className="fill-current w-7 h-7" />
 						</a>

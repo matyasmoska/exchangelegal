@@ -30,7 +30,7 @@ const OrderButton: FC<OrderButtonProps> = ({ show, text, disabled, element = '#s
 				>
 					<div className="flex items-center space-x-8">
 						<span>{text}</span>
-						<ArrowRight className="w-5 h-5" />
+						<ArrowRight className="w-5 h-5 flex-shrink-0" />
 					</div>
 				</Button>
 			</motion.div>}
