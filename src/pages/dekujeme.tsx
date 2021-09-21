@@ -8,7 +8,7 @@ const ServiceFormSuccessPage = () => {
 	return (
 		<DefaultLayout>
 			<SEO
-				title="AML solutions | Systémová řešení pro Vaše AML povinnosti na míru"
+				title="AML solutions | Děkujeme!"
 				description="Jsme předními odborníky v oblasti AML compliance"
 				keywords="AML, AML solutions, AML compliance"
 			/>
@@ -23,7 +23,7 @@ const ServiceFormSuccessPage = () => {
 						</div>
 						<h1 className="text-3xl font-bold">Děkujeme!</h1>
 						<p className="px-6 mx-auto text-center">
-							Odeslání poptávky proběhlo úspěšně.
+							Odeslání poptávky proběhlo úspěšně. Brzy Vás budeme kontaktovat.
 						</p>
 					</div>
 					<Link href="/">
