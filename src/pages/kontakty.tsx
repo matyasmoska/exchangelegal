@@ -12,7 +12,7 @@ export default function Contact () {
 	return (
 		<DefaultLayout>
 			<SEO
-				title="AML solutions | Kontakty"
+				title="Kontakty – AML solutions"
 				description="Systémová řešení pro Vaše AML povinnosti na míru. Jsme předními odborníky v oblasti AML compliance"
 				keywords="AML, AML solutions, AML compliance, AML povinnosti, AML systém vnitřních zásad, AML školení, AML hodnocení rizik, AML dotazník, AML zákon, AML směrnice"
 			/>
