@@ -1,6 +1,5 @@
 import React, { FC } from 'react'
 import Image from 'next/image'
-import NewsBar from '../NewsBar'
 import { NewsItem } from '../../../../typings'
 import HeroSection from '../HeroSection'
 import thumbnail from '../../../../../public/images/background.jpg'

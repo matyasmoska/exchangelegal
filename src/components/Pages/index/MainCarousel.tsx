@@ -56,7 +56,7 @@ const MainCarousel: FC<{ news: NewsItem[] }> = ({ news }) => {
 
 	return (
 		<div className="relative flex items-center w-full bg-dark-blue">
-			<div className={c('absolute z-50 left-6', 'md:bottom-10')} onClick={moveLeft}>
+			<div className={c('absolute z-50 left-6', 'md:bottom-14')} onClick={moveLeft}>
 				<ChevronLeft className="w-8 h-8 text-white transition cursor-pointer transform-gpu hover:scale-110" />
 			</div>
 			<div className="w-full">
@@ -67,7 +67,7 @@ const MainCarousel: FC<{ news: NewsItem[] }> = ({ news }) => {
 					</motion.div>
 				</AnimatePresence>
 			</div>
-			<div className={c('absolute z-50 right-6', 'md:bottom-10')} onClick={moveRight}>
+			<div className={c('absolute z-50 right-6', 'md:bottom-14')} onClick={moveRight}>
 				<ChevronRight className="w-8 h-8 text-white transition cursor-pointer transform-gpu hover:scale-110" />
 			</div>
 			<div className={c('absolute bottom-5 z-50 flex space-x-2 left-1/2 -translate-x-1/2')}>
