@@ -28,7 +28,7 @@ const ObligationsPage = () => {
         <DefaultLayout>
 			<SEO
 				title="Váš systém vnitřních zásad dle požadavků AML zákona 2021 – AML solutions"
-				description="✅ Kvalitní systém vnitřních zásad připravíme na míru Vašemu podnikání.  Jsme předními odborníky v oblasti AML compliance ⭐"
+				description="✅ Kvalitní systém vnitřních zásad připravíme na míru Vašemu podnikání. Jsme předními odborníky v oblasti AML compliance ⭐"
 				keywords="AML, AML solutions, AML compliance, AML povinnosti, AML systém vnitřních zásad, AML školení, AML hodnocení rizik, AML dotazník, AML zákon, AML směrnice"
 			/>
 			<div className={c('relative items-center')}>
