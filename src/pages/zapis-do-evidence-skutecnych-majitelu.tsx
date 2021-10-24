@@ -27,8 +27,8 @@ const ObligationsPage = () => {
     return (
         <DefaultLayout>
 			<SEO
-				title="AML solutions | Zápis do evidence skutečných majitelů"
-				description="Systémová řešení pro Vaše AML povinnosti na míru. Jsme předními odborníky v oblasti AML compliance"
+				title="Evidence skutečných majitelů – nesrovnalostmi riskujete pokutu| AML solutions"
+				description="✅ Zajistíme oznámení skutečného majitele, poradíme s řešením nesrovnalostí. Jsme předními odborníky v oblasti AML compliance ⭐"
 				keywords="AML, AML solutions, AML compliance, AML povinnosti, AML systém vnitřních zásad, AML školení, AML hodnocení rizik, AML dotazník, AML zákon, AML směrnice"
 			/>
 			<div className={c('relative items-center')}>
