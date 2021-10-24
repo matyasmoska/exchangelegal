@@ -45,7 +45,7 @@ const Footer = () => {
 						<Link href="/aml-skoleni-a-metodika">
 							<a className="hover:underline">{pageData.amlskoleniametodika}</a>
 						</Link>
-						<Link href="/urceni-kontaktni-osoby-fau-a-dalsi">
+						<Link href="/urceni-kontaktni-osoby-fau-a-poverene-osoby">
 							<a className="hover:underline">{pageData.urcenikontaktniosobyfauadalsi}</a>
 						</Link>
 						<Link href="/zapis-do-evidence-skutecnych-majitelu">
