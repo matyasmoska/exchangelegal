@@ -4,16 +4,16 @@ import DefaultLayout from "../layouts/DefaultLayout";
 import SEO from "../components/Layout/SEO";
 import { c } from "../services/misc";
 import Image from 'next/image'
-import pageData from '../data/pages/urceni-kontaktni-osoby-fau-a-dalsi/urceni-kontaktni-osoby-fau-a-dalsi.json'
+import pageData from '../data/pages/urceni-kontaktni-osoby-fau-a-poverene-osoby/urceni-kontaktni-osoby-fau-a-poverene-osoby.json'
 import servicesData from '../data/pages/services.json'
 import useServicesForm from "../components/Pages/services/hooks/useServicesForm";
 import OrderButton from "../components/Pages/services/OrderButton";
 import ServicesForm from "../components/Pages/services/ServícesForm";
 import { useVisible } from "react-hooks-visible";
 // @ts-ignore
-import TopPartMdx from "../data/pages/urceni-kontaktni-osoby-fau-a-dalsi/topPart.mdx"
+import TopPartMdx from "../data/pages/urceni-kontaktni-osoby-fau-a-poverene-osoby/topPart.mdx"
 // @ts-ignore
-import BottomPartMdx from "../data/pages/urceni-kontaktni-osoby-fau-a-dalsi/bottomPart.mdx"
+import BottomPartMdx from "../data/pages/urceni-kontaktni-osoby-fau-a-poverene-osoby/bottomPart.mdx"
 
 const ObligationsPage = () => {
 	const [targetRef, visible] = useVisible()
@@ -21,7 +21,7 @@ const ObligationsPage = () => {
 	const servicesForm = useServicesForm()
 
 	useEffect(() => {
-		servicesForm.setFieldValue('checked', servicesData.services.filter(({ id }) => id === 'urceni-kontaktni-osoby-fau-a-dalsi'))
+		servicesForm.setFieldValue('checked', servicesData.services.filter(({ id }) => id === 'urceni-kontaktni-osoby-fau-a-poverene-osoby'))
 	}, [])
 
     return (
