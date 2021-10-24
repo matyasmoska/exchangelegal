@@ -46,7 +46,7 @@ const Footer = () => {
 							<a className="hover:underline">{pageData.amlskoleniametodika}</a>
 						</Link>
 						<Link href="/urceni-kontaktni-osoby-fau-a-poverene-osoby">
-							<a className="hover:underline">{pageData.urcenikontaktniosobyfauadalsi}</a>
+							<a className="hover:underline">{pageData.urcenikontaktniosobyfauapovereneosoby}</a>
 						</Link>
 						<Link href="/zapis-do-evidence-skutecnych-majitelu">
 							<a className="hover:underline">{pageData.zapisdoevidenceskutecnychmajitelu}</a>
