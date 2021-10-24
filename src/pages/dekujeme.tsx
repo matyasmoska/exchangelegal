@@ -8,8 +8,8 @@ const ServiceFormSuccessPage = () => {
 	return (
 		<DefaultLayout>
 			<SEO
-				title="Děkujeme za Vaši objednávku! – AML solutions"
-				description="Jsme předními odborníky v oblasti AML compliance"
+				title="Děkujeme za Vaši objednávku! AML solutions"
+				description="✅ Jsme předními odborníky v oblasti AML compliance ⭐ Máme unikátní zkušenosti a know-how v AML/CFT"
 				keywords="AML, AML solutions, AML compliance"
 			/>
 			<main className="flex items-center justify-center w-full">
