@@ -12,8 +12,8 @@ export default function WhatIsAMLPage () {
 	return (
 		<DefaultLayout>
 			<SEO
-				title="Co je to AML/CFT? – AML solutions"
-				description="Systémová řešení pro Vaše AML povinnosti na míru. Jsme předními odborníky v oblasti AML compliance"
+				title="Co je to AML/CFT? Nechte si poradit od profesionálů | AML solutions"
+				description="Jsme předními odborníky v oblasti AML compliance, poskytujeme komplexní řešení a služby ✅ Úvodní konzultace zdarma ⭐"
 				keywords="AML, AML solutions, AML compliance, AML povinnosti, AML systém vnitřních zásad, AML školení, AML hodnocení rizik, AML dotazník, AML zákon, AML směrnice"
 			/>
 			<div className={c('relative items-center')}>
