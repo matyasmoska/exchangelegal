@@ -33,11 +33,11 @@
             "icon": "/images/serviceIcons/skoleni_a_metodika.svg"
         },
         {
-            "id": "urceni-kontaktni-osoby-fau-a-dalsi",
+            "id": "urceni-kontaktni-osoby-fau-a-poverene-osoby",
             "name": "Určení kontaktní osoby FAÚ a pověřené osoby",
             "description": "Připravíme pro Vás nezbytné dokumenty související s plněním AML povinností za účelem určení kontaktní osoby FAÚ a písemného pověření člena statutárního orgánu.",
             "price": 2000,
-            "link": "/urceni-kontaktni-osoby-fau-a-dalsi",
+            "link": "/urceni-kontaktni-osoby-fau-a-poverene-osoby",
             "icon": "/images/serviceIcons/komunikace_s_fau.svg"
         },
         {
