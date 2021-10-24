@@ -27,8 +27,8 @@ const ObligationsPage = () => {
     return (
         <DefaultLayout>
 			<SEO
-				title="Určení kontaktní osoby FAÚ a určení pověřené osoby – AML solutions"
-				description="Systémová řešení pro Vaše AML povinnosti na míru. Jsme předními odborníky v oblasti AML compliance"
+				title="Kontaktní osoba FAÚ – důležitá AML povinnost, neriskujte pokutu| AML solutions"
+				description="✅ Zajistíme nahlášení kontaktní osoby pro styk s Finančním analytickým úřadem. Jsme předními odborníky v oblasti AML compliance ⭐"
 				keywords="AML, AML solutions, AML compliance, AML povinnosti, AML systém vnitřních zásad, AML školení, AML hodnocení rizik, AML dotazník, AML zákon, AML směrnice"
 			/>
 			<div className={c('relative items-center')}>
