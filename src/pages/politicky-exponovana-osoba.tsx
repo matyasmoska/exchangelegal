@@ -4,13 +4,13 @@ import DefaultLayout from "../layouts/DefaultLayout";
 import SEO from "../components/Layout/SEO";
 import { c } from "../services/misc";
 import Image from 'next/image'
-import pageData from '../data/pages/obligations/obligations.json'
+import pageData from '../data/pages/politicky-exponovana-osoba/politicky-exponovana-osoba.json'
 import Button from "../components/Layout/Button";
 import Link from "next/link";
 // @ts-ignore
-import TopPartMdx from "../data/pages/obligations/topPart.mdx"
+import TopPartMdx from "../data/pages/politicky-exponovana-osoba/topPart.mdx"
 // @ts-ignore
-import BottomPartMdx from "../data/pages/obligations/bottomPart.mdx"
+import BottomPartMdx from "../data/pages/politicky-exponovana-osoba/bottomPart.mdx"
 
 const ObligationsPage = () => {
     return (
