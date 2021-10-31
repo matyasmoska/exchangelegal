@@ -59,20 +59,6 @@ const ObligationsPage = () => {
 					
 					<section className={c('flex justify-center w-full bg-light-blue py-14', 'md:py-8')}>
 						<MiddlePartMdx />	
-						
-						<div
-							className={c(
-								'flex space-x-14 max-w-[802px]',
-								'md:flex md:flex-col md:items-center md:px-6 md:space-x-0 md:space-y-8'
-							)}
-						>
-							<div className="space-y-6 text-dark-blue">
-								
-				
-								
-							</div>
-							<img src="/images/obligations_graphic.svg" alt="thumbnail-graphic" className="relative" />
-						</div>
 					</section>
 
 					<section className={c('py-8 pb-12 space-y-4 max-w-[802px] leading-relaxed prose', 'md:px-6 md:py-6')}>
