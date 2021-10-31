@@ -8,10 +8,11 @@ import pageData from '../data/pages/politicky-exponovana-osoba/politicky-exponov
 import Button from "../components/Layout/Button";
 import Link from "next/link";
 // @ts-ignore
-import TopPartMdx from "../data/pages/politicky-exponovana-osoba/topPart.mdx"
+import TopPartMdx from "../data/pages/politicky-exponovana-osoba/topPart.mdx";
 // @ts-ignore
-import BottomPartMdx from "../data/pages/politicky-exponovana-osoba/bottomPart.mdx"
-import MiddlePartMdx from "../data/pages/politicky-exponovana-osoba/middlePart.mdx"
+import BottomPartMdx from "../data/pages/politicky-exponovana-osoba/bottomPart.mdx";
+import MiddlePartMdx from "../data/pages/politicky-exponovana-osoba/middlePart.mdx";
+// @ts-ignore
 
 const ObligationsPage = () => {
     return (
