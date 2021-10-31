@@ -25,7 +25,7 @@ const Footer = () => {
 			</div>
 			<div
 				className={c(
-					'flex space-x-32',
+					'flex space-x-30',
 					'2xl:space-x-24',
 					'md:flex-col md:space-x-0 md:space-y-16 md:text-center'
 				)}
