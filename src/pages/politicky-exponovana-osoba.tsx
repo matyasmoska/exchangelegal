@@ -57,7 +57,7 @@ const ObligationsPage = () => {
 						<TopPartMdx />
 					</section>
 					
-					<section className={c('flex justify-center w-full bg-light-blue py-14', 'md:py-8')}>
+					<section className={c('py-8 space-y-4 prose max-w-[802px] bg-light-blue leading-relaxed', 'md:px-6 md:py-6')}>
 						<MiddlePartMdx />	
 					</section>
 
