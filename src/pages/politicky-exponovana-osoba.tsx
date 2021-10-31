@@ -11,8 +11,9 @@ import Link from "next/link";
 import TopPartMdx from "../data/pages/politicky-exponovana-osoba/topPart.mdx";
 // @ts-ignore
 import BottomPartMdx from "../data/pages/politicky-exponovana-osoba/bottomPart.mdx";
-import MiddlePartMdx from "../data/pages/politicky-exponovana-osoba/middlePart.mdx";
 // @ts-ignore
+import MiddlePartMdx from "../data/pages/politicky-exponovana-osoba/middlePart.mdx";
+
 
 const ObligationsPage = () => {
     return (
