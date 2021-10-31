@@ -30,7 +30,7 @@ const Footer = () => {
 					'md:flex-col md:space-x-0 md:space-y-16 md:text-center'
 				)}
 			>
-				<div className="space-y-8">
+				<div className="space-y-6">
 					<h3 className="text-xl font-bold">Naše služby</h3>
 					<div className="flex flex-col space-y-4">
 						<Link href="/system-vnitrnich-zasad">
@@ -54,7 +54,7 @@ const Footer = () => {
 					</div>
 				</div>
 				
-				<div className="space-y-8">
+				<div className="space-y-6">
 					<h3 className="text-xl font-bold">Menu</h3>
 					<div className="flex flex-col space-y-4">
 						<Link href="/aml-povinnosti">
@@ -104,7 +104,7 @@ const Footer = () => {
 						
 					</div>
 				</div>
-				<div className="space-y-8">
+				<div className="space-y-6">
 					<h3 className="text-xl font-bold">Sledujte nás</h3>
 					<div className={c('flex space-x-4 text-white', 'md:text-center md:justify-center md:pb-52')}>
 						<a href={contactPageData.contact.links.facebook} target="_blank" rel="noopener" aria-label="Facebook Link">
