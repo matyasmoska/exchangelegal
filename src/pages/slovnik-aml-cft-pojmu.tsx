@@ -68,7 +68,7 @@ const ObligationsPage = () => {
 				</div>
 				
 			</div>
-			<ServicesForm visibleRef={targetRef} form={servicesForm} />
+			
 		</DefaultLayout>
     );
 }
