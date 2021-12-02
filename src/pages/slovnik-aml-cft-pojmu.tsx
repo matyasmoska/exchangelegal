@@ -62,7 +62,7 @@ const ObligationsPage = () => {
 					)}
 				>
 
-					<section className={c('py-8 pb-12 space-y-4 max-w-[802px] leading-relaxed prose', 'md:px-6 md:py-6')}>
+					<section className={c('py-8 pb-12 space-y-4 max-w-[1202px] leading-relaxed prose', 'md:px-6 md:py-6')}>
 						
 						
 						
