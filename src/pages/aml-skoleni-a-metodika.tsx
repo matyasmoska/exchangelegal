@@ -27,8 +27,8 @@ const ObligationsPage = () => {
     return (
         <DefaultLayout>
 			<SEO
-				title="AML školení – kurzy a metodika dle požadavků AML zákona 2021 | AML solutions"
-				description="✅ Pravidelně aktualizované AML školení dle AML zákona a směrnice 2021. Splňte své zákonné AML povinnosti. Příznivá cena ⭐"
+				title="AML školení – kurzy a metodika dle požadavků AML zákona 2022 | AML solutions"
+				description="✅ Pravidelně aktualizované AML školení dle AML zákona a směrnice 2022. Splňte své zákonné AML povinnosti. Příznivá cena ⭐"
 				keywords="AML školení, AML solutions, AML compliance, AML povinnosti, AML systém vnitřních zásad, AML hodnocení rizik, AML dotazník, AML formulář, AML zákon, AML směrnice"
 			/>
 			<div className={c('relative items-center')}>
