@@ -1,6 +1,6 @@
 import React from "react";
 import ParagraphOrMultiple from "../components/Layout/ParagraphOrMultiple";
-import DefaultLayout from "../layouts/DefaultLayout";
+
 import SEO from "../components/Layout/SEO";
 import { c } from "../services/misc";
 import Image from 'next/image'
@@ -19,7 +19,7 @@ const ObligationsPage = () => {
     return (
         <DefaultLayout>
 			<SEO
-				title="Politicky exponovaná osoba – co to je | AML solutions"
+				title="AML solutions"
 				description="Jsme předními odborníky v oblasti AML compliance, poskytujeme komplexní řešení a služby ✅ Úvodní konzultace zdarma ⭐"
 				keywords="AML, AML solutions, AML compliance, AML povinnosti, AML systém vnitřních zásad, AML školení, AML hodnocení rizik, AML dotazník, AML zákon, AML směrnice"
 			/>
