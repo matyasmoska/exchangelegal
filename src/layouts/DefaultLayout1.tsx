@@ -1,13 +1,10 @@
 import Head from 'next/head'
 import React, { FC, useEffect } from 'react'
-import Footer from '../components/Layout/Footer'
-import Navigation from '../components/Layout/Navigation'
-import SEO from '../components/Layout/SEO'
-import CookieBar from '../components/Layout/CookieBar'
-import { AnimatePresence } from 'framer-motion'
-import { useCookies } from 'react-cookie'
 
-const DefaultLayout: FC = ({ children }) => {
+import { AnimatePresence } from 'framer-motion'
+
+
+const DefaultLayout1: FC = ({ children }) => {
 	const [cookies, setCookie, removeCookie] = useCookies(['cookie-consent'])
 
 	useEffect(() => { console.log(cookies['cookie-consent']) }, [ cookies ])
@@ -40,4 +37,4 @@ const DefaultLayout: FC = ({ children }) => {
 	)
 }
 
-export default DefaultLayout
+export default DefaultLayout1
