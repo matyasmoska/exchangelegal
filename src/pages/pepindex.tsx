@@ -49,11 +49,7 @@ const ObligationsPage = () => {
 						<BottomPartMdx />
 					</section>
 					<div className={c('flex')}>
-						<Link href="/potrebuji-aml">
-							<Button type="basic" className="px-14 py-2.5">
-								{ pageData.buttonText }
-							</Button>
-						</Link>
+
 					</div>
 				</div>
 			</div>
