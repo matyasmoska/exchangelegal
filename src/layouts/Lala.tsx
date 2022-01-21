@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import React, { FC, useEffect } from 'react'
-import Footer from '../components/Layout/Footer'
-import Navigation from '../components/Layout/Navigation'
+
 import SEO from '../components/Layout/SEO'
 import CookieBar from '../components/Layout/CookieBar'
 import { AnimatePresence } from 'framer-motion'
@@ -32,9 +31,9 @@ const LaLa: FC = ({ children }) => {
 				}}/>
 				
 			</Head>
-			<Navigation />
+			
 			{children}
-			<Footer />
+			
 			<AnimatePresence>{!cookies['cookie-consent'] && <CookieBar />}</AnimatePresence>
 		</div>
 	)
