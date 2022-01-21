@@ -5,9 +5,7 @@ import { AnimatePresence } from 'framer-motion'
 
 
 const DefaultLayout1: FC = ({ children }) => {
-	const [cookies, setCookie, removeCookie] = useCookies(['cookie-consent'])
 
-	useEffect(() => { console.log(cookies['cookie-consent']) }, [ cookies ])
 
 	return (
 		<div className="text-dark-blue">
