@@ -1,6 +1,6 @@
 import React from "react";
 import ParagraphOrMultiple from "../components/Layout/ParagraphOrMultiple";
-
+import DefaultLayout from "../layouts/DefaultLayout1";
 import SEO from "../components/Layout/SEO";
 import { c } from "../services/misc";
 import Image from 'next/image'
@@ -17,7 +17,7 @@ import MiddlePartMdx from "../data/pages/pepindex/middlePart.mdx";
 
 const ObligationsPage = () => {
     return (
-       //  <DefaultLayout>
+ <DefaultLayout1>
 			<SEO
 				title="AML solutions"
 				description="Jsme předními odborníky v oblasti AML compliance, poskytujeme komplexní řešení a služby ✅ Úvodní konzultace zdarma ⭐"
@@ -77,7 +77,7 @@ const ObligationsPage = () => {
 					</div>
 				</div>
 			</div>
-		// </DefaultLayout>
+</DefaultLayout1>
     );
 }
 
