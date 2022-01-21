@@ -29,9 +29,9 @@ const DefaultLayout1: FC = ({ children }) => {
 				}}/>
 				
 			</Head>
-			<Navigation />
+			
 			{children}
-			<Footer />
+			
 			<AnimatePresence>{!cookies['cookie-consent'] && <CookieBar />}</AnimatePresence>
 		</div>
 	)
