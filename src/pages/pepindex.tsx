@@ -17,7 +17,7 @@ import MiddlePartMdx from "../data/pages/pepindex/middlePart.mdx";
 
 const ObligationsPage = () => {
     return (
-        <DefaultLayout>
+       //  <DefaultLayout>
 			<SEO
 				title="AML solutions"
 				description="Jsme předními odborníky v oblasti AML compliance, poskytujeme komplexní řešení a služby ✅ Úvodní konzultace zdarma ⭐"
@@ -77,7 +77,7 @@ const ObligationsPage = () => {
 					</div>
 				</div>
 			</div>
-		</DefaultLayout>
+		// </DefaultLayout>
     );
 }
 
