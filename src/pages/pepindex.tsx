@@ -26,13 +26,7 @@ const ObligationsPage = () => {
 			<div className={c('relative items-center')}>
 				<div className="relative w-full">
 					<div className="h-[385px]">
-						<Image
-							layout="fill"
-							objectFit="cover"
-							className="absolute"
-							priority
-							src={'/images/politicky-exponovana-osoba.jpg'}
-						/>
+
 						<div
 							className={c(
 								'absolute top-0 left-0 z-10 w-full h-full from-dark-blue via-[#021C62A6] bg-gradient-to-r to-transparent',
