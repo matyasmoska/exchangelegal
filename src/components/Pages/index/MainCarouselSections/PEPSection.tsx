@@ -24,7 +24,12 @@ const PEPSection = () => {
 				className={c(
 					'absolute top-0 left-0 z-10 w-full h-full',
 					'md:bg-dark-blue md:opacity-100'
-
+				)}
+				style={{
+					background: !isMd
+						? ''
+						: ''
+				}}
 			/>
 			<div
 				className={c(
