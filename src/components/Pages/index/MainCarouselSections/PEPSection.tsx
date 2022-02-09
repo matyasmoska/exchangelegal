@@ -22,7 +22,7 @@ const PEPSection = () => {
 			/>
 			<div
 				className={c(
-					'absolute top-0 left-0 z-10 w-full h-full from-dark-blue via-dark-blue bg-gradient-to-r to-dark-blue',
+					'absolute top-0 left-0 z-10 w-full h-full',
 					'md:bg-dark-blue md:opacity-100'
 				)}
 				style={{
