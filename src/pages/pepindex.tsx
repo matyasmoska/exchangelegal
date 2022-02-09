@@ -33,19 +33,19 @@ const ObligationsPage = () => {
 						'md:py-6 md:pb-16'
 					)}
 				>
-					<section className={c('py-8 space-y-4 prose max-w-[802px] leading-relaxed', 'md:px-6 md:py-6')}>
+					<section className={c('py-8 space-y-4 prose max-w-[1002px] leading-relaxed', 'md:px-6 md:py-6')}>
 						<TopPartMdx />
 					</section>
 					
 					<section className={c('flex justify-center w-full bg-light-blue py-2', 'md:py-2')}>
 					
-					<section className={c('py-8 space-y-4 prose max-w-[802px] leading-relaxed', 'md:px-6 md:py-6')}>
+					<section className={c('py-8 space-y-4 prose max-w-[1002px] leading-relaxed', 'md:px-6 md:py-6')}>
 						<MiddlePartMdx />	
 					</section>
 						
 					</section>
 
-					<section className={c('py-8 pb-12 space-y-4 max-w-[802px] leading-relaxed prose', 'md:px-6 md:py-6')}>
+					<section className={c('py-8 pb-12 space-y-4 max-w-[1002px] leading-relaxed prose', 'md:px-6 md:py-6')}>
 						<BottomPartMdx />
 					</section>
 					<div className={c('flex')}>
