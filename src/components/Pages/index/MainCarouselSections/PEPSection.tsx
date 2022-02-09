@@ -22,12 +22,12 @@ const PEPSection = () => {
 			/>
 			<div
 				className={c(
-					'absolute top-0 left-0 z-10 w-full h-full',
+					'absolute top-0 left-0 z-10 w-full h-full from-dark-blue via-[#021C62A6] bg-gradient-to-r to-transparent',
 					'md:bg-dark-blue md:opacity-100'
 				)}
 				style={{
 					background: !isMd
-						? ''
+						? 'transparent linear-gradient(90deg, #021C62 0%, #021C62D8 25%, #021C6279 42%, #021C620A 62%, #021C6200 100%) 0% 0% no-repeat padding-box'
 						: ''
 				}}
 			/>
