@@ -20,7 +20,7 @@ const ContactSection = () => {
 						{ contactPageData.contact.description }
 					</p>
 				</div>
-				<div className={c('space-y-2.5 w-4/6', 'md:w-full')}>
+				<div className={c('space-y-2.5 w-5/6', 'md:w-full')}>
 					<p className="font-bold">{contactPageData.contact.address.firstLine}</p>
 					<p>{contactPageData.contact.address.secondLine}</p>
 					<p>{contactPageData.contact.address.thirdLine}</p>
