@@ -4,22 +4,22 @@ import DefaultLayout from "../layouts/DefaultLayout";
 import SEO from "../components/Layout/SEO";
 import { c } from "../services/misc";
 import Image from 'next/image'
-import pageData from '../data/pages/politicky-exponovana-osoba/politicky-exponovana-osoba.json'
+import pageData from '../data/pages/seznam-vysoce-rizikovych-zemi/seznam-vysoce-rizikovych-zemi.json'
 import Button from "../components/Layout/Button";
 import Link from "next/link";
 // @ts-ignore
-import TopPartMdx from "../data/pages/politicky-exponovana-osoba/topPart.mdx";
+import TopPartMdx from "../data/pages/seznam-vysoce-rizikovych-zemi/topPart.mdx";
 // @ts-ignore
-import BottomPartMdx from "../data/pages/politicky-exponovana-osoba/bottomPart.mdx";
+import BottomPartMdx from "../data/pages/seznam-vysoce-rizikovych-zemi/bottomPart.mdx";
 // @ts-ignore
-import MiddlePartMdx from "../data/pages/politicky-exponovana-osoba/middlePart.mdx";
+import MiddlePartMdx from "../data/pages/seznam-vysoce-rizikovych-zemi/middlePart.mdx";
 
 
 const ObligationsPage = () => {
     return (
         <DefaultLayout>
 			<SEO
-				title="Politicky exponovaná osoba – co to je | AML solutions"
+				title="Seznam vysoce rizikových zemí | AML solutions"
 				description="Jsme předními odborníky v oblasti AML compliance, poskytujeme komplexní řešení a služby ✅ Úvodní konzultace zdarma ⭐"
 				keywords="AML, AML solutions, AML compliance, AML povinnosti, AML systém vnitřních zásad, AML školení, AML hodnocení rizik, AML dotazník, AML zákon, AML směrnice"
 			/>
@@ -31,7 +31,7 @@ const ObligationsPage = () => {
 							objectFit="cover"
 							className="absolute"
 							priority
-							src={'/images/politicky-exponovana-osoba.jpg'}
+							src={'/images/seznam-vysoce-rizikovych-zemi.jpg'}
 						/>
 						<div
 							className={c(
