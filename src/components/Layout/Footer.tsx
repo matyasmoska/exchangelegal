@@ -68,6 +68,10 @@ const Footer = () => {
 							<a className="hover:underline">{pageData.politickyexponovanaosoba}</a>
 						</Link>
 						
+						<Link href="/seznam-rizikovych-zemi">
+							<a className="hover:underline">{pageData.seznamrizikovychzemi}</a>
+						</Link>
+						
 						<Link href="/nase-sluzby">
 							<a className="hover:underline">{pageData.services}</a>
 						</Link>
