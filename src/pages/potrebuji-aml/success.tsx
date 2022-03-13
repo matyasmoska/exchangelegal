@@ -10,7 +10,7 @@ const ObligationsSuccessPage = () => {
 	const router = useRouter()
 
 	// Seconds before redirect
-	const [count, setCount] = useState(10)
+	const [count, setCount] = useState(15)
 	
 	useEffect(() => {
         const interval = setInterval(() => {
