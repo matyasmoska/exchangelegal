@@ -72,6 +72,7 @@ const ObligationsPage = () => {
 						<Link href="/potrebuji-aml">
 							<Button type="basic" className="px-14 py-2.5">
 								{ pageData.buttonText }
+								
 							</Button>
 						</Link>
 					</div>
