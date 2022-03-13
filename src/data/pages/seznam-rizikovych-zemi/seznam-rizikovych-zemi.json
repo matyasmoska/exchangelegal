@@ -1,1 +1,19 @@
-sss
+{
+    "header": "Seznam vysoce rizikových zemí",
+    "shortText": "",
+    "topText": [
+        ""      
+    ],
+    "highlightSection": {
+        "header": "",
+        "text": [
+            "",
+            ""
+
+        ]
+    },
+    "bottomText": [
+        ""
+    ],
+    "buttonText": "Musím řešit AML?"
+}
