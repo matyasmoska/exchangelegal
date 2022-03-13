@@ -1,1 +1,19 @@
-Seznam vysoce rizikových zemí
+{
+    "header": "Seznam vysoce rizikových zemí",
+    "shortText": "",
+    "topText": [
+        ""      
+    ],
+    "highlightSection": {
+        "header": "",
+        "text": [
+            "",
+            ""
+
+        ]
+    },
+    "bottomText": [
+        ""
+    ],
+    "buttonText": "Musím řešit AML?"
+}
