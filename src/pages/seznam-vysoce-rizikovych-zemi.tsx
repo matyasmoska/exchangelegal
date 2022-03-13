@@ -56,9 +56,6 @@ const ObligationsPage = () => {
 					<section className={c('py-8 space-y-4 prose max-w-[802px] leading-relaxed', 'md:px-6 md:py-6')}>
 						<TopPartMdx />
 					</section>
-					
-
-
 					<section className={c('py-8 pb-12 space-y-4 max-w-[802px] leading-relaxed prose', 'md:px-6 md:py-6')}>
 						<BottomPartMdx />
 					</section>
@@ -66,7 +63,6 @@ const ObligationsPage = () => {
 						<Link href="/potrebuji-aml">
 							<Button type="basic" className="px-14 py-2.5">
 								{ pageData.buttonText }
-								
 							</Button>
 						</Link>
 					</div>
