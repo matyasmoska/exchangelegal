@@ -68,7 +68,7 @@ const Footer = () => {
 							<a className="hover:underline">{pageData.politickyexponovanaosoba}</a>
 						</Link>
 						
-						<Link href="/seznam-rizikovych-zemi">
+						<Link href="/seznam-vysoce-rizikovych-zemi">
 							<a className="hover:underline">{pageData.seznamrizikovychzemi}</a>
 						</Link>
 						
