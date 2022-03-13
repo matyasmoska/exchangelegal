@@ -4,19 +4,22 @@ import DefaultLayout from "../layouts/DefaultLayout";
 import SEO from "../components/Layout/SEO";
 import { c } from "../services/misc";
 import Image from 'next/image'
-import pageData from '../data/pages/seznam-vysoce-rizikovych-zemi/seznam-vysoce-rizikovych-zemi.json'
+import pageData from '../data/pages/politicky-exponovana-osoba/politicky-exponovana-osoba.json'
 import Button from "../components/Layout/Button";
 import Link from "next/link";
 // @ts-ignore
-import TopPartMdx from "../data/pages/seznam-vysoce-rizikovych-zemi/topPart.mdx";
-
+import TopPartMdx from "../data/pages/politicky-exponovana-osoba/topPart.mdx";
+// @ts-ignore
+import BottomPartMdx from "../data/pages/politicky-exponovana-osoba/bottomPart.mdx";
+// @ts-ignore
+import MiddlePartMdx from "../data/pages/politicky-exponovana-osoba/middlePart.mdx";
 
 
 const ObligationsPage = () => {
     return (
         <DefaultLayout>
 			<SEO
-				title="Seznam vysoce rizikových zemí | AML solutions"
+				title="Politicky exponovaná osoba – co to je | AML solutions"
 				description="Jsme předními odborníky v oblasti AML compliance, poskytujeme komplexní řešení a služby ✅ Úvodní konzultace zdarma ⭐"
 				keywords="AML, AML solutions, AML compliance, AML povinnosti, AML systém vnitřních zásad, AML školení, AML hodnocení rizik, AML dotazník, AML zákon, AML směrnice"
 			/>
@@ -28,7 +31,7 @@ const ObligationsPage = () => {
 							objectFit="cover"
 							className="absolute"
 							priority
-							src={'/images/seznam-vysoce-rizikovych-zemi.jpg'}
+							src={'/images/politicky-exponovana-osoba.jpg'}
 						/>
 						<div
 							className={c(
@@ -56,6 +59,15 @@ const ObligationsPage = () => {
 					
 					<section className={c('flex justify-center w-full bg-light-blue py-2', 'md:py-2')}>
 					
+					<section className={c('py-8 space-y-4 prose max-w-[802px] leading-relaxed', 'md:px-6 md:py-6')}>
+						<MiddlePartMdx />	
+					</section>
+						
+					</section>
+
+					<section className={c('py-8 pb-12 space-y-4 max-w-[802px] leading-relaxed prose', 'md:px-6 md:py-6')}>
+						<BottomPartMdx />
+					</section>
 					<div className={c('flex')}>
 						<Link href="/potrebuji-aml">
 							<Button type="basic" className="px-14 py-2.5">
