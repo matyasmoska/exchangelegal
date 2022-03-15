@@ -54,4 +54,20 @@ export function doScrolling(element: string, duration: number, offset: number = 
   })
 }
 
+const parseMessage = (message: string) => {
+	try {
+	  return JSON.parse(message)
+	} catch (error) {
+	  return { message }
+	}
+}
+
+export const fetcher = (input: RequestInfo, init?: RequestInit) =>
+  fetch(input, init).then((res) =>
+    (res.ok ? res.json() : res.text()).then((data) => {
+      if (res.ok) return data
+      else throw parseMessage(data)
+    })
+  )
+
 export const c = (...args: ClassValue[]) => clsx(...args)

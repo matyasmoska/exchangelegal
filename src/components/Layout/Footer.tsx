@@ -104,6 +104,12 @@ const Footer = () => {
 							<Link href="/zasady-zpracovani-osobnich-udaju">
 								<a className="hover:underline">{pageData.privacypolicy}</a>
 							</Link>
+							<Link href="/pravidla-pouzivani-cookies">
+								<a className="hover:underline">{pageData.cookierules}</a>
+							</Link>
+							<Link href="?consent=setup" scroll={false}>
+								<a className="hover:underline">{pageData.cookiesettings}</a>
+							</Link>
 						</div>
 						
 					</div>
