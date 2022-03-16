@@ -20,6 +20,7 @@
     "cleave.js": "^1.6.0",
     "clsx": "^1.1.1",
     "contentful": "^8.4.2",
+    "firebase-admin": "^10.0.2",
     "formik": "^2.2.9",
     "framer-motion": "^4.1.17",
     "next": "11.0.1",

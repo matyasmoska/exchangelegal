@@ -1,12 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 import { isIP } from 'net'
-/*
-import { getFirebaseAdmin } from 'next-firebase-auth'
 
-import initAuth from '../../services/initAuth'
-
-initAuth()
-*/
+import db from '../../services/firebase'
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   if (req.method === 'POST') {
@@ -15,9 +10,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
       const ipAddress = isIP(ip) ? ip : await fetch('https://api64.ipify.org').then((res) => res.text())
       const date = dateString ? new Date(dateString) : new Date()
       const document = { date, expires: new Date(date.getFullYear(), date.getMonth() + 6, date.getDate()), ...consent }
-      /*
-      await getFirebaseAdmin().firestore().collection('consents').doc(ipAddress).set(document)
-      */
+      await db.collection('consents').doc(ipAddress).set(document)
       res.json(document)
     } catch (error) {
       console.error(error)
