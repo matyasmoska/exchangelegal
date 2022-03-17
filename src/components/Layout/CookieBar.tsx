@@ -106,9 +106,15 @@ const CookieBar = () => {
     }
   }, [showCookieModal, cookies])
 
+  const handleModalOpen = () => {
+    router.push({ pathname: router.pathname, query: { ...router.query, consent: 'setup' } }, undefined, { scroll: false })
+  }
+
   const handleBack = () => {
     setHideBar(true)
-    router.push(router.pathname, undefined, { scroll: false })
+    const query = { ...router.query }
+    delete query.consent
+    router.push({ pathname: router.pathname, query }, undefined, { scroll: false })
   }
 
   const setConsent = async (analytics: boolean) => {
@@ -163,7 +169,7 @@ const CookieBar = () => {
                 {staticData.description} <MoreInfo />
               </p>
             </div>
-            <Button type="light" className="w-40 xs:w-full flex-shrink-0 m-2 p-2" onClick={() => router.push('?consent=setup', undefined, { scroll: false })}>
+            <Button type="light" className="w-40 xs:w-full flex-shrink-0 m-2 p-2" onClick={handleModalOpen}>
               {staticData.settings}
             </Button>
             <Button type="light" className="w-40 xs:w-full flex-shrink-0 m-2 p-2" onClick={() => setConsent(false)}>

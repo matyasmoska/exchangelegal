@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 import React from 'react'
 import { c } from '../../services/misc'
 import { LogoWhite } from '../Layout/Logo'
@@ -7,6 +8,8 @@ import pageData from '../../data/navigation.json'
 import contactPageData from '../../data/footer.json'
 
 const Footer = () => {
+	const router = useRouter()
+
 	return (
 		<div
 			className={c(
@@ -107,7 +110,7 @@ const Footer = () => {
 							<Link href="/pravidla-pouzivani-cookies">
 								<a className="hover:underline">{pageData.cookierules}</a>
 							</Link>
-							<Link href="?consent=setup" scroll={false}>
+							<Link href={{ pathname: router.pathname, query: { ...router.query, consent: 'setup' } }} scroll={false}>
 								<a className="hover:underline">{pageData.cookiesettings}</a>
 							</Link>
 						</div>
