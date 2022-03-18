@@ -52,7 +52,7 @@ const PEPSection = () => {
 						'md:block md:space-y-6 md:w-full md:space-x-0'
 					)}
 				>
-					<a href="https://pepcheck.cz" target="_blank" rel="noreferrer">
+					<a href="https://www.pepcheck.cz" target="_blank" rel="noreferrer">
 						<Button type="basic" className="px-6 py-2">
 							{pageData.pepCheckSection.buttonText}
 						</Button>

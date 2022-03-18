@@ -45,12 +45,12 @@ const SecondarySection = () => {
 						'md:block md:space-y-6 md:w-full md:space-x-0'
 					)}
 				>
-					<Link href="/potrebuji-aml">
+					<a href="https://www.sanctionsmap.eu" target="_blank" rel="noreferrer">
 						<Button type="basic" className="px-3 py-2">
 							{pageData.secondarySection.firstButtonText}
 						</Button>
-					</Link>
-					<Link href="/nase-sluzby">
+					</a>
+					<Link href="/seznam-vysoce-rizikovych-zemi">
 						<Button type="light" className="px-10 py-2">
 							{pageData.secondarySection.secondButtonText}
 						</Button>
