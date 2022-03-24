@@ -84,12 +84,6 @@ const Footer = () => {
 						<Link href="/casto-kladene-dotazy">
 							<a className="hover:underline">{pageData.castokladenedotazy}</a>
 						</Link>
-						<Link href="/overovani-mezinarodnich-sankci">
-							<a className="hover:underline">{pageData.internationalSanctions}</a>
-						</Link>
-						<Link href="/seznam-rizikovych-zemi">
-							<a className="hover:underline">{pageData.riskyCountriesList}</a>
-						</Link>
 					</div>
 				</div>
 				<div className="space-y-10">
