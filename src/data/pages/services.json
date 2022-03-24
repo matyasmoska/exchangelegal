@@ -47,6 +47,14 @@
             "price": 5000,
             "link": "/zapis-do-evidence-skutecnych-majitelu",
             "icon": "/images/serviceIcons/aml_audit.svg"
+        },
+                {
+            "id": "aml-audit",
+            "name": "AML audit",
+            "description": "Evidence skutečných majitelů je informačním systémem veřejné správy, do kterého se zapisují zákonem vymezené údaje o skutečných majitelích. Zajistíme pro Vás zápis údajů do evidence skutečných majitelů dle zákonných požadavků.",
+            "price": 19000,
+            "link": "/",
+            "icon": "/images/serviceIcons/system_kontroly_klienta.svg"
         }
     ]
 }
