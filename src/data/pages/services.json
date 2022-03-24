@@ -18,9 +18,9 @@
         },
         {
             "id": "system-identifikace-a-kontroly-klienta",
-            "name": "Systém identifikace a kontroly klienta (AML dotazník)",
-            "description": "Postupy při získávání a vyhodnocování identifikačních údajů klienta, případně dalších osob zúčastněných na obchodu, a postupy pro zjišťování podrobnějších informací o klientovi a obchodu nebo obchodním vztahu Zahrnuje i identifikaci politicky exponovaných osob, osob dotčených mezinárodními sankcemi apod.",
-            "price": 15000,
+            "name": "AML dotazník",
+            "description": "Provádějte identifikaci a kontrolu klienta dle požadavků AML zákona 2022 s profesionálním AML dotazníkem.",
+            "price": 2400,
             "link": "/system-identifikace-a-kontroly-klienta",
             "icon": "/images/serviceIcons/system_identifikace_klienta.svg"
         },
