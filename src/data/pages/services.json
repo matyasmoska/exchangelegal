@@ -51,7 +51,7 @@
                 {
             "id": "aml-audit",
             "name": "AML audit",
-            "description": "Evidence skutečných majitelů je informačním systémem veřejné správy, do kterého se zapisují zákonem vymezené údaje o skutečných majitelích. Zajistíme pro Vás zápis údajů do evidence skutečných majitelů dle zákonných požadavků.",
+            "description": "V rámci AML auditu detailně prověříme nastavení Vašich vnitřních AML/CFT a KYC procesů a zásad, prověříme zavedení, řízení a hodnocení AML/CFT rizik, systém reportingu a v případě nalezení pochybení navrhneme řešení.",
             "price": 19000,
             "link": "/",
             "icon": "/images/serviceIcons/system_kontroly_klienta.svg"
