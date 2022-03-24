@@ -49,6 +49,22 @@
             "icon": "/images/serviceIcons/aml_audit.svg"
         },
                 {
+            "id": "zaklady-aml",
+            "name": "Základy AML – on-line kurz pro začátečníky",
+            "description": "Náš základní kurz v délce trvání 1,5 hodiny Vás srozumitelnou formou provede základy právní úpravy AML/CFT. Kurz je určen pro osoby, které se chtějí zorientovat v problematice AML/CFT a získat základní znalosti z tohoto oboru.",
+            "price": 1500,
+            "link": "/nase-sluzby/",
+            "icon": "/images/serviceIcons/skoleni_a_metodika.svg"
+        },
+                {
+            "id": "poradenstvi-a-konzultace",
+            "name": "Komplexní poradenství a konzultace",
+            "description": "Nevíte si s problematikou AML/CFT rady a potřebujete se poradit? Nabízíme jednorázové on-line i osobní konzultace, které účtujeme po 30 minutách; ",
+            "price": 1500,
+            "link": "/nase-sluzby/",
+            "icon": "/images/serviceIcons/dlouhodoba_spoluprace.svg"
+        },
+                {
             "id": "aml-audit",
             "name": "AML audit",
             "description": "V rámci AML auditu detailně prověříme nastavení Vašich vnitřních AML/CFT a KYC procesů a zásad, prověříme zavedení, řízení a hodnocení AML/CFT rizik, systém reportingu a v případě nalezení pochybení navrhneme řešení.",
