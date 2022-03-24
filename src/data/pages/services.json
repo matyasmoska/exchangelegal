@@ -17,12 +17,12 @@
             "icon": "/images/serviceIcons/hodnoceni_rizik.svg"
         },
         {
-            "id": "system-identifikace-a-kontroly-klienta",
+            "id": "aml-dotaznik",
             "name": "AML dotazník pro identifikaci a kontrolu klienta",
             "description": "Provádějte identifikaci a kontrolu klienta dle požadavků AML zákona 2022 s profesionálním AML dotazníkem, který Vám usnadní zachycování jednotlivých kroků a informací formou strukturovaného písemného záznamu.",
             "price": 2400,
-            "link": "/system-identifikace-a-kontroly-klienta",
-            "icon": "/images/serviceIcons/system_identifikace_klienta.svg"
+            "link": "/aml-dotaznik",
+            "icon": "/images/serviceIcons/aml_dotaznik.svg"
         },
         {
             "id": "aml-skoleni-a-metodika",
