@@ -1,5 +1,5 @@
 {
-    "header": "Systém identifikace a kontroly klienta (tzv. AML dotazník / AML formulář)",
+    "header": "AML dotazník – identifikace a kontrola klienta (AML formulář)",
     "shortText": "",
     "topText": [
         ""      
@@ -15,5 +15,5 @@
         " "
     ],
     
-    "buttonText": "Objednat systém identifikace a kontroly klienta"
+    "buttonText": "Objednat AML dotazník"
 }
