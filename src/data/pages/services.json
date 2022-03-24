@@ -53,7 +53,6 @@
             "name": "AML audit",
             "description": "V rámci AML auditu detailně prověříme nastavení Vašich vnitřních AML/CFT a KYC procesů a zásad, prověříme zavedení, řízení a hodnocení AML/CFT rizik, systém reportingu a v případě nalezení pochybení navrhneme řešení.",
             "price": 19000,
-            "link": "/",
             "icon": "/images/serviceIcons/system_kontroly_klienta.svg"
         }
     ]
