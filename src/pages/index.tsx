@@ -1,6 +1,7 @@
 import React from 'react'
 import HeroSection from '../components/Pages/index/HeroSection'
 import DefaultLayout from '../layouts/DefaultLayout'
+import SEO from '../components/Layout/SEO'
 import ContactSection from '../components/Pages/index/ContactSection'
 import { GetStaticProps, NextPage } from 'next'
 import { fetchEntries } from '../services/contentful'
@@ -17,6 +18,11 @@ import MainCarousel from '../components/Pages/index/MainCarousel'
 const Home: NextPage<{ news: NewsItem[] }> = ({ news }) => {
 	return (
 		<DefaultLayout>
+			<SEO
+				title="Systémová řešení pro Vaše AML povinnosti na míru | AML solutions"
+				description="Jsme předními odborníky v oblasti AML compliance, poskytujeme komplexní řešení a služby ✅ Úvodní konzultace zdarma ⭐"
+				keywords="AML, AML solutions, AML compliance, AML povinnosti, AML systém vnitřních zásad, AML školení, AML hodnocení rizik, AML dotazník, AML zákon, AML směrnice"
+			/>
 			<div className="relative">
 				<MainCarousel news={news} />
 				<NewsSection news={news} />

@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 import React from 'react'
 import { c } from '../../services/misc'
 import { LogoWhite } from '../Layout/Logo'
@@ -7,6 +8,8 @@ import pageData from '../../data/navigation.json'
 import contactPageData from '../../data/footer.json'
 
 const Footer = () => {
+	const router = useRouter()
+
 	return (
 		<div
 			className={c(
@@ -39,14 +42,14 @@ const Footer = () => {
 						<Link href="/hodnoceni-rizik">
 							<a className="hover:underline">{pageData.hodnocenirizik}</a>
 						</Link>
-						<Link href="/system-identifikace-a-kontroly-klienta">
-							<a className="hover:underline">{pageData.systemidentifikaceakontrolyklienta}</a>
+						<Link href="/aml-dotaznik">
+							<a className="hover:underline">{pageData.amldotaznik}</a>
 						</Link>
 						<Link href="/aml-skoleni-a-metodika">
 							<a className="hover:underline">{pageData.amlskoleniametodika}</a>
 						</Link>
-						<Link href="/urceni-kontaktni-osoby-fau-a-dalsi">
-							<a className="hover:underline">{pageData.urcenikontaktniosobyfauadalsi}</a>
+						<Link href="/urceni-kontaktni-osoby-fau-a-poverene-osoby">
+							<a className="hover:underline">{pageData.urcenikontaktniosobyfauapovereneosoby}</a>
 						</Link>
 						<Link href="/zapis-do-evidence-skutecnych-majitelu">
 							<a className="hover:underline">{pageData.zapisdoevidenceskutecnychmajitelu}</a>
@@ -63,6 +66,15 @@ const Footer = () => {
 						<Link href="/co-je-to-aml">
 							<a className="hover:underline">{pageData.whatisaml}</a>
 						</Link>
+						
+						<Link href="/politicky-exponovana-osoba">
+							<a className="hover:underline">{pageData.politickyexponovanaosoba}</a>
+						</Link>
+						
+						<Link href="/seznam-vysoce-rizikovych-zemi">
+							<a className="hover:underline">{pageData.seznamrizikovychzemi}</a>
+						</Link>
+						
 						<Link href="/nase-sluzby">
 							<a className="hover:underline">{pageData.services}</a>
 						</Link>
@@ -97,9 +109,15 @@ const Footer = () => {
 							<a href={`mailto:${contactPageData.contact.email}`} className="hover:underline">
 								{contactPageData.contact.email}
 							</a>
-							<a className="hover:underline" href="/docs/Obchodní podmínky AML Solutions.pdf" target="_blank">{pageData.tos}</a>
+							<a className="hover:underline" href="/docs/obchodni_podminky_AML_solutions.pdf" target="_blank">{pageData.tos}</a>
 							<Link href="/zasady-zpracovani-osobnich-udaju">
 								<a className="hover:underline">{pageData.privacypolicy}</a>
+							</Link>
+							<Link href="/pravidla-pouzivani-cookies">
+								<a className="hover:underline">{pageData.cookierules}</a>
+							</Link>
+							<Link href={{ pathname: router.pathname, query: { ...router.query, consent: 'setup' } }} scroll={false}>
+								<a className="hover:underline">{pageData.cookiesettings}</a>
 							</Link>
 						</div>
 						
@@ -107,7 +125,7 @@ const Footer = () => {
 				</div>
 				<div className="space-y-10">
 					<h3 className="text-xl font-bold">Sledujte nás</h3>
-					<div className={c('flex space-x-4 text-white', 'md:text-center md:justify-center')}>
+					<div className={c('flex space-x-4 text-white', 'md:text-center md:justify-center md:pb-52')}>
 						<a href={contactPageData.contact.links.facebook} target="_blank" rel="noopener" aria-label="Facebook Link">
 							<FacebookIcon className="fill-current w-7 h-7" />
 						</a>

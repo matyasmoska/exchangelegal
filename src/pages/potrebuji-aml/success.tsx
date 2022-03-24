@@ -3,13 +3,14 @@ import Link from 'next/link'
 import React, { useEffect, useMemo, useState } from 'react'
 import Button from '../../components/Layout/Button'
 import DefaultLayout from '../../layouts/DefaultLayout'
+import SEO from '../../components/Layout/SEO'
 import { c } from '../../services/misc'
 
 const ObligationsSuccessPage = () => {
 	const router = useRouter()
 
 	// Seconds before redirect
-	const [count, setCount] = useState(5)
+	const [count, setCount] = useState(15)
 	
 	useEffect(() => {
         const interval = setInterval(() => {
@@ -38,6 +39,11 @@ const ObligationsSuccessPage = () => {
 
 	return (
 		<DefaultLayout>
+			<SEO
+				title="AML solutions | Systémová řešení pro Vaše AML povinnosti na míru"
+				description="Jsme předními odborníky v oblasti AML compliance"
+				keywords="AML, AML solutions, AML compliance"
+			/>
 			<main className={c("flex items-center justify-center w-full", "md:py-16")}>
 				<div
 					className={c('flex flex-col items-center justify-center max-w-lg space-y-10', 'md:space-y-10 md:text-center md:px-4')}

@@ -6,10 +6,25 @@ import { c, numberWithSpaces as ns } from '../../../services/misc'
 import Button from '../../Layout/Button'
 import { CheckmarkIcon, CloseIcon } from '../../Layout/Icons'
 
+interface MoreInfoProps {
+	href: string
+	type: 'secondary' | 'light'
+}
+
+const MoreInfo: FC<MoreInfoProps> = ({ href, type }) => (
+	<a href={href} target="_blank" onClick={(e) => e.stopPropagation()}>
+		<Button type={type} className="px-8 py-2.5">
+			Více informací
+		</Button>
+	</a>
+)
+
 export interface ServiceItemType {
+	id: string
 	name: string
 	description: string
 	price: number
+	link: string
 	icon: string
 }
 
@@ -65,6 +80,7 @@ export const ServiceItem: FC<ServiceItemProps> = ({ serviceItem, selectedItems, 
 				{isMd && <Button type="basic" className="px-8 py-2.5">
 					Přidat
 				</Button>}
+				{isMd && <MoreInfo href={serviceItem.link} type="secondary" />}
 			</div>
 			<AnimatePresence>
 				{isSelected && (
@@ -102,6 +118,7 @@ export const ServiceItem: FC<ServiceItemProps> = ({ serviceItem, selectedItems, 
 						>
 							Přidat
 						</Button>
+						<MoreInfo href={serviceItem.link} type="light" />
 					</m.div>
 				)}
 			</AnimatePresence>

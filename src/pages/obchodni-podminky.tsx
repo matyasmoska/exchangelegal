@@ -1,4 +1,5 @@
 import DefaultLayout from '../layouts/DefaultLayout'
+import SEO from '../components/Layout/SEO'
 import { c } from '../services/misc'
 import React from 'react'
 import ParagraphOrMultiple from '../components/Layout/ParagraphOrMultiple'
@@ -6,6 +7,11 @@ import ParagraphOrMultiple from '../components/Layout/ParagraphOrMultiple'
 export default function TOSPage () {
 	return (
 		<DefaultLayout>
+			<SEO
+				title="Obchodní podmínky – AML solutions"
+				description="Systémová řešení pro Vaše AML povinnosti na míru. Jsme předními odborníky v oblasti AML compliance"
+				keywords="AML, AML solutions, AML compliance, AML povinnosti, AML systém vnitřních zásad, AML školení, AML hodnocení rizik, AML dotazník, AML zákon, AML směrnice"
+			/>
 			<div className="flex justify-center w-full">
 				<div
 					className={c(

@@ -2,7 +2,7 @@ import React, { FC, MouseEventHandler } from 'react'
 import { c } from '../../services/misc'
 
 interface ButtonProps {
-	type: 'basic' | 'light'
+	type: 'basic' | 'secondary' | 'light'
 	className: string,
 	disabled?: boolean,
 	onClick?: MouseEventHandler<HTMLDivElement>
@@ -13,6 +13,8 @@ const Button: FC<ButtonProps> = ({ type, className, onClick, disabled = false, c
 		switch (type) {
 			case 'basic':
 				return 'bg-orange-primary text-white hover:bg-orange-primary-hover border-orange-primary hover:border-orange-primary-hover'
+			case 'secondary':
+				return 'bg-transparent text-orange-primary hover:text-white hover:bg-orange-primary-hover border-orange-primary hover:border-orange-primary-hover'
 			case  'light':
 				return 'bg-transparent border border-white text-white hover:bg-white hover:text-dark-blue'
 		}

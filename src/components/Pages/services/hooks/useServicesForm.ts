@@ -1,3 +1,4 @@
+import { useRouter } from 'next/dist/client/router'
 import { ContactFormValues } from './../../contact/hooks/useContactForm'
 import { ServiceItem, ServiceItemType } from './../ServiceItem'
 import { FormikErrors, useFormik } from 'formik'
@@ -9,6 +10,8 @@ export interface ServicesFormValues extends ContactFormValues {
 }
 
 function useServicesForm () {
+	const router = useRouter()
+
 	const validate = (values: ServicesFormValues): FormikErrors<ServicesFormValues> => {
 		const errors: FormikErrors<ServicesFormValues & { api: string }> = {}
 
@@ -44,11 +47,14 @@ function useServicesForm () {
 			const res = await axios.post('/api/servicesMessage', { ...values } as ContactFormValues)
 
 			if ( res.data.result ) {
+				/*
 				resetForm()
 				setStatus('submitted')
 				window.setTimeout(() => {
 					setStatus('default')
 				}, 5000)
+				*/
+				router.push('/dekujeme')
 			} else {
 				setFieldError('api', 'Odeslání nebylo úspěšné. Prosím, kontaktujte nás na výše uvedeném e-mailu.')
 			}

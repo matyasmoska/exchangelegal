@@ -1,19 +1,36 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ParagraphOrMultiple from "../components/Layout/ParagraphOrMultiple";
 import DefaultLayout from "../layouts/DefaultLayout";
+import SEO from "../components/Layout/SEO";
 import { c } from "../services/misc";
 import Image from 'next/image'
-import pageData from '../data/pages/system-identifikace-a-kontroly-klienta/system-identifikace-a-kontroly-klienta.json'
-import Button from "../components/Layout/Button";
-import Link from "next/link";
+import pageData from '../data/pages/aml-dotaznik/aml-dotaznik.json'
+import servicesData from '../data/pages/services.json'
+import useServicesForm from "../components/Pages/services/hooks/useServicesForm";
+import OrderButton from "../components/Pages/services/OrderButton";
+import ServicesForm from "../components/Pages/services/ServícesForm";
+import { useVisible } from "react-hooks-visible";
 // @ts-ignore
-import TopPartMdx from "../data/pages/system-identifikace-a-kontroly-klienta/topPart.mdx"
+import TopPartMdx from "../data/pages/aml-dotaznik/topPart.mdx"
 // @ts-ignore
-import BottomPartMdx from "../data/pages/system-identifikace-a-kontroly-klienta/bottomPart.mdx"
+import BottomPartMdx from "../data/pages/aml-dotaznik/bottomPart.mdx"
 
 const ObligationsPage = () => {
+	const [targetRef, visible] = useVisible()
+
+	const servicesForm = useServicesForm()
+
+	useEffect(() => {
+		servicesForm.setFieldValue('checked', servicesData.services.filter(({ id }) => id === 'system-identifikace-a-kontroly-klienta'))
+	}, [])
+
     return (
         <DefaultLayout>
+			<SEO
+				title="AML dotazník – nezbytný pro AML/KYC – připravíme na míru | AML solutions"
+				description="✅ Kvalitní AML dotazník a systém vnitřních zásad dle požadavků AML zákona 2022. Jsme předními odborníky v oblasti AML compliance ⭐"
+				keywords="AML, AML solutions, AML compliance, AML povinnosti, AML systém vnitřních zásad, AML školení, AML hodnocení rizik, AML dotazník, AML zákon, AML směrnice"
+			/>
 			<div className={c('relative items-center')}>
 				<div className="relative w-full">
 					<div className="h-[385px]">
@@ -22,7 +39,7 @@ const ObligationsPage = () => {
 							objectFit="cover"
 							className="absolute"
 							priority
-							src={'/images/system-identifikace-a-kontroly-klienta.jpg'}
+							src={'/images/aml-dotaznik.jpg'}
 						/>
 						<div
 							className={c(
@@ -40,23 +57,18 @@ const ObligationsPage = () => {
 				</div>
 				<div
 					className={c(
-						'flex flex-col items-center text-justify leading-relaxed pb-16',
-						'md:py-6 md:pb-16'
+						'flex flex-col items-center text-justify leading-relaxed pb-4',
+						'md:py-6 md:pb-0'
 					)}
 				>
 
 					<section className={c('py-8 pb-12 space-y-4 max-w-[802px] leading-relaxed prose', 'md:px-6 md:py-6')}>
 						<BottomPartMdx />
 					</section>
-					<div className={c('flex')}>
-						<Link href="/nase-sluzby">
-							<Button type="basic" className="px-14 py-2.5">
-								{ pageData.buttonText }
-							</Button>
-						</Link>
-					</div>
 				</div>
+				<OrderButton show={!visible} text={pageData.buttonText} />
 			</div>
+			<ServicesForm visibleRef={targetRef} form={servicesForm} />
 		</DefaultLayout>
     );
 }

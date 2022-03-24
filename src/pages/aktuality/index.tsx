@@ -1,4 +1,5 @@
 import DefaultLayout from '../../layouts/DefaultLayout';
+import SEO from '../../components/Layout/SEO';
 import { GetStaticProps } from 'next';
 import { fetchEntries } from '../../services/contentful';
 import { NewsItem } from '../../typings';
@@ -10,6 +11,11 @@ import { c } from '../../services/misc';
 export default function NewsPage({ news }: { news: NewsItem[] }) {
   return (
     <DefaultLayout>
+      <SEO
+        title="AML solutions | Systémová řešení pro Vaše AML povinnosti na míru"
+        description="Jsme předními odborníky v oblasti AML compliance"
+        keywords="AML, AML solutions, AML compliance"
+      />
       <div className={c("p-36 py-16 space-y-28", "md:px-4 md:space-y-10 md:py-4")}>
         <MainNewsItem newsItem={news[0]} />
 

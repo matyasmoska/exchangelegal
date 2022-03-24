@@ -1,5 +1,5 @@
 {
-    "header": "Určení kontaktní osoby FAÚ a další",
+    "header": "Určení kontaktní osoby FAÚ a pověřené osoby",
     "shortText": "",
     "topText": [
         ""      
@@ -15,5 +15,5 @@
         " "
     ],
     
-    "buttonText": "Objednat určení kontaktní osoby FAÚ a další úkony"
+    "buttonText": "Objednat určení kontaktní a pověřené osoby"
 }

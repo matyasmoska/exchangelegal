@@ -1,6 +1,71 @@
 {
-    "header": "Ochrana osobních údajů a cookies",
-    "subheader": "Pro lepší výkon používají tyto stránky cookies. Dalším procházením webu vyjadřujete souhlas s jejich používáním.",
-    "confirmButtonText": "Přijmout a zavřít",
-    "moreInfoText": "Více informací"
+  "header": "Používáme soubory cookies",
+  "headerModal": "Nastavení souborů cookies",
+  "description": "Používáme soubory cookies, abychom Vám umožnili uživatelsky příjemnější prohlížení webu. Udělíte-li nám souhlas s umístěním volitelných souborů cookies do vašeho zařízení, budeme moci sbírat anonymizovaná analytická data za účelem zlepšení našeho webu.",
+  "detail": "Kliknutím na spínač vedle názvu jednotlivého druhu cookies udělíte souhlas s používáním tohoto druhu cookies webovou stránkou, a to do doby, než souhlas odvoláte či než uplyne doba 6 měsíců a cookie banner automaticky vyskočí znovu.",
+  "moreInfo": {
+    "text": "Více informací o používání souborů cookies tímto webem naleznete v",
+    "link": "/pravidla-pouzivani-cookies",
+    "linkText": "Pravidlech používání cookies"
+  },
+  "settings": "Nastavení",
+  "acceptTechnical": "Povolit jen nutné",
+  "acceptAll": "Přijmout vše",
+  "saveSettings": "Uložit nastavení",
+  "headers": [
+    {
+      "key": "name",
+      "value": "Název"
+    },
+    {
+      "key": "domain",
+      "value": "Doména"
+    },
+    {
+      "key": "expiration",
+      "value": "Trvanlivost"
+    },
+    {
+      "key": "description",
+      "value": "Popis"
+    }
+  ],
+  "cookies": {
+    "technical": {
+      "header": "Technické cookies",
+      "description": "Tyto cookies soubory jsou nutné pro správné fungování webu. Bez těchto cookies by web nefungoval správně, proto u nich nevyžadujeme Váš souhlas.",
+      "rows": [
+        {
+          "name": "cookie_consent",
+          "domain": "amlsolutions.cz",
+          "expiration": "6 měsíců",
+          "description": "Cookie soubor nutný pro uchování informace o souhlasu s používáním cookies."
+        }
+      ]
+    },
+    "analytics": {
+      "header": "Analytické cookies",
+      "description": "Umožňují měřit návštěvnost webových stránek, kolik uživatelů kliklo na odkaz na webových stránkách nebo využilo některou z jejich funkcí.",
+      "rows": [
+        {
+          "name": "_ga",
+          "domain": "google.com",
+          "expiration": "2 roky",
+          "description": "Google Analytics nám pomáhají měřit, jak se uživatelé chovají na našem webu, co je zajímá a co bychom mohli zlepšit. Tato cookie ukládá anonymizovaná data a každému uživateli nastavuje náhodný identifikátor."
+        },
+        {
+          "name": "_gid",
+          "domain": "google.com",
+          "expiration": "1 den",
+          "description": "Další cookie pro Google Analytics, která ukládá anonymizovaná data o chování uživatelů a výkonu webu pro účely reportingu."
+        },
+        {
+          "name": "_gat_gtag_*",
+          "domain": "google.com",
+          "expiration": "1 minuta",
+          "description": "Cookie soubor Google Analytics pro rozlišování mezi uživateli."
+        }
+      ]
+    }
+  }
 }

@@ -2,10 +2,20 @@ import Head from 'next/head'
 import React, { FC, useEffect } from 'react'
 import Footer from '../components/Layout/Footer'
 import Navigation from '../components/Layout/Navigation'
-import SEO from '../components/Layout/SEO'
 import CookieBar from '../components/Layout/CookieBar'
-import { AnimatePresence } from 'framer-motion'
 import { useCookies } from 'react-cookie'
+
+const GA_DATA_LAYER = `
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}`
+
+const GA_SCRIPT_DEFAULT = `
+${GA_DATA_LAYER}
+
+gtag('consent', 'default', {
+  'analytics_storage': 'denied'
+});
+`
 
 const DefaultLayout: FC = ({ children }) => {
 	const [cookies, setCookie, removeCookie] = useCookies(['cookie-consent'])
@@ -17,6 +27,7 @@ const DefaultLayout: FC = ({ children }) => {
 			<Head>		
 				<title>AML solutions</title>
 				<link rel="icon" href="/favicon.ico" />
+				{ process.env.NODE_ENV === 'production' && <script dangerouslySetInnerHTML={{ __html: GA_SCRIPT_DEFAULT }} />}
 				<script async src="https://www.googletagmanager.com/gtag/js?id=UA-198544478-1" />
 
 				{ process.env.NODE_ENV === 'production' && <script dangerouslySetInnerHTML={{ __html: `
@@ -25,16 +36,23 @@ const DefaultLayout: FC = ({ children }) => {
 					gtag('js', new Date());
 				  
 					gtag('config', 'UA-198544478-1');
+
+					${cookies['cookie-consent']?.analytics ? `
+					gtag('consent', 'update', {
+					  'analytics_storage': 'granted'
+					});
+					` : ``}
                 `} }/>}
 				
-				
+				<script type="application/ld+json" dangerouslySetInnerHTML={{
+					__html: `{ "@context": "https://schema.org/", "@type": "CreativeWorkSeries", "name": "Post title", "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "bestRating": "5", "ratingCount": "42" } }`
+				}}/>
 				
 			</Head>
-			<SEO />
 			<Navigation />
 			{children}
 			<Footer />
-			<AnimatePresence>{!cookies['cookie-consent'] && <CookieBar />}</AnimatePresence>
+			<CookieBar />
 		</div>
 	)
 }

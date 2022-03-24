@@ -30,6 +30,7 @@ module.exports = {
           primary: '#FF872E',
           'primary-hover': '#CE6C24'
         },
+        'light-black': '#7B7B7B',
         'light-blue': '#E6E8F2',
         'dark-blue': '#021C62'
       },
@@ -43,6 +44,9 @@ module.exports = {
       borderWidth: {
         '10': '10px',
         '3': '3px'
+      },
+      maxWidth: {
+        '9xl': '96.5rem'
       },
       boxShadow: {
         'tile': '0 0 10px 0 rgba(0, 0, 0, 0.10)'

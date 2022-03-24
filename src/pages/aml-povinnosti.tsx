@@ -1,6 +1,7 @@
 import React from "react";
 import ParagraphOrMultiple from "../components/Layout/ParagraphOrMultiple";
 import DefaultLayout from "../layouts/DefaultLayout";
+import SEO from "../components/Layout/SEO";
 import { c } from "../services/misc";
 import Image from 'next/image'
 import pageData from '../data/pages/obligations/obligations.json'
@@ -14,6 +15,11 @@ import BottomPartMdx from "../data/pages/obligations/bottomPart.mdx"
 const ObligationsPage = () => {
     return (
         <DefaultLayout>
+			<SEO
+				title="AML povinnosti – neriskujte případnou pokutu | AML solutions"
+				description="Jsme předními odborníky v oblasti AML compliance, poskytujeme komplexní řešení a služby ✅ Úvodní konzultace zdarma ⭐"
+				keywords="AML, AML solutions, AML compliance, AML povinnosti, AML systém vnitřních zásad, AML školení, AML hodnocení rizik, AML dotazník, AML zákon, AML směrnice"
+			/>
 			<div className={c('relative items-center')}>
 				<div className="relative w-full">
 					<div className="h-[385px]">

@@ -1,11 +1,17 @@
 import { NextSeo } from 'next-seo';
 import pageData from '../../data/src.json'
 
-const SEO = ({ title = pageData.title }) => {
+const SEO = ({ title = pageData.title, description = pageData.description, keywords = pageData.keywords }) => {
     return (
         <NextSeo
             title={title}
-            description={pageData.description}
+            description={description}
+            additionalMetaTags={keywords ? [
+                {
+                    name: "keywords",
+                    content: keywords
+                }
+            ] : undefined}
             openGraph={{
                 url: 'https://amlsolutions.cz',
                 title: pageData.title,

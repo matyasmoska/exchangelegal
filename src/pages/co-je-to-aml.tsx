@@ -1,4 +1,5 @@
 import DefaultLayout from '../layouts/DefaultLayout'
+import SEO from '../components/Layout/SEO'
 import Image from 'next/image'
 import React from 'react'
 import { c } from '../services/misc'
@@ -10,6 +11,11 @@ import MDXText, {metadata} from '../data/pages/whatisaml/text.mdx'
 export default function WhatIsAMLPage () {
 	return (
 		<DefaultLayout>
+			<SEO
+				title="Co je to AML/CFT? Nechte si poradit od profesionálů | AML solutions"
+				description="Jsme předními odborníky v oblasti AML compliance, poskytujeme komplexní řešení a služby ✅ Úvodní konzultace zdarma ⭐"
+				keywords="AML, AML solutions, AML compliance, AML povinnosti, AML systém vnitřních zásad, AML školení, AML hodnocení rizik, AML dotazník, AML zákon, AML směrnice"
+			/>
 			<div className={c('relative items-center')}>
 				<div className="relative w-full">
 					<div className="h-[385px]">

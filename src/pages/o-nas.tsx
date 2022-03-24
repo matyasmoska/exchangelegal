@@ -1,4 +1,5 @@
 import DefaultLayout from '../layouts/DefaultLayout'
+import SEO from '../components/Layout/SEO'
 import Image from 'next/image'
 import pageData from '../data/pages/aboutus.json'
 import { FC } from 'react'
@@ -19,6 +20,11 @@ export interface Reference {
 export default function AboutPage () {
 	return (
 		<DefaultLayout>
+			<SEO
+				title="O nás – AML solutions"
+				description="✅ Jsme předními odborníky v oblasti AML compliance ⭐ Máme unikátní zkušenosti a know-how v AML/CFT"
+				keywords="AML, AML solutions, AML compliance, AML povinnosti, AML systém vnitřních zásad, AML školení, AML hodnocení rizik, AML dotazník, AML zákon, AML směrnice"
+			/>
 			<div className="text-center">
 				<div className="relative w-full bg-gray-50">
 					<Image
