@@ -4,16 +4,16 @@ import DefaultLayout from "../layouts/DefaultLayout";
 import SEO from "../components/Layout/SEO";
 import { c } from "../services/misc";
 import Image from 'next/image'
-import pageData from '../data/pages/system-identifikace-a-kontroly-klienta/system-identifikace-a-kontroly-klienta.json'
+import pageData from '../data/pages/aml-dotaznik/aml-dotaznik.json'
 import servicesData from '../data/pages/services.json'
 import useServicesForm from "../components/Pages/services/hooks/useServicesForm";
 import OrderButton from "../components/Pages/services/OrderButton";
 import ServicesForm from "../components/Pages/services/ServícesForm";
 import { useVisible } from "react-hooks-visible";
 // @ts-ignore
-import TopPartMdx from "../data/pages/system-identifikace-a-kontroly-klienta/topPart.mdx"
+import TopPartMdx from "../data/pages/aml-dotaznik/topPart.mdx"
 // @ts-ignore
-import BottomPartMdx from "../data/pages/system-identifikace-a-kontroly-klienta/bottomPart.mdx"
+import BottomPartMdx from "../data/pages/aml-dotaznik/bottomPart.mdx"
 
 const ObligationsPage = () => {
 	const [targetRef, visible] = useVisible()
@@ -39,7 +39,7 @@ const ObligationsPage = () => {
 							objectFit="cover"
 							className="absolute"
 							priority
-							src={'/images/system-identifikace-a-kontroly-klienta.jpg'}
+							src={'/images/aml-dotaznik.jpg'}
 						/>
 						<div
 							className={c(
