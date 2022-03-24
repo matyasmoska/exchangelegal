@@ -30,7 +30,7 @@ export default function Services () {
 				description="Jsme předními odborníky v oblasti AML compliance, poskytujeme komplexní řešení a služby ✅ Úvodní konzultace zdarma ⭐"
 				keywords="AML, AML solutions, AML compliance, AML povinnosti, AML systém vnitřních zásad, AML školení, AML hodnocení rizik, AML dotazník, AML zákon, AML směrnice"
 			/>
-			<div className={c('py-16 space-y-12 text-center px-36', 'md:px-4 md:py-8 md:relative')}>
+			<div className={c('py-12 space-y-12 text-center px-36', 'md:px-4 md:py-8 md:relative')}>
 				<h1 className="text-5xl font-bold leading-snug">Naše služby</h1>
 				<div className={c('grid grid-cols-3 gap-8 items-stretch', '2xl:grid-cols-3', 'md:grid-cols-1')}>
 					{pageData.services.map((service: ServiceItemType) => (
