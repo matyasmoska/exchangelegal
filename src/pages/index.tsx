@@ -12,6 +12,8 @@ import { c } from '../services/misc'
 import { Fade } from 'react-awesome-reveal'
 import NewsBar from '../components/Pages/index/NewsBar'
 import Image from 'next/image'
+import MainCarousel from '../components/Pages/index/MainCarousel'
+
 
 const Home: NextPage<{ news: NewsItem[] }> = ({ news }) => {
 	return (
@@ -22,24 +24,7 @@ const Home: NextPage<{ news: NewsItem[] }> = ({ news }) => {
 				keywords="AML, AML solutions, AML compliance, AML povinnosti, AML systém vnitřních zásad, AML školení, AML hodnocení rizik, AML dotazník, AML zákon, AML směrnice"
 			/>
 			<div className="relative">
-				<NewsBar news={news} />
-				<div className={c('relative w-full bg-cover px-36 py-36 pt-24', '3xl:px-28', 'md:px-5 md:pt-28')}>
-					<Image
-						layout="fill"
-						objectFit="cover"
-						priority
-						src={'/images/background.jpg'}
-						alt="Background Image"
-						className="top-0 left-0 z-0"
-					/>
-					<div
-						className={c(
-							'absolute top-0 left-0 z-10 w-full h-full from-dark-blue via-[#021C62A6] bg-gradient-to-r to-transparent',
-							'md:to-dark-blue md:opacity-80'
-						)}
-					/>
-					<HeroSection />
-				</div>
+				<MainCarousel news={news} />
 				<NewsSection news={news} />
 				<Fade direction={'up'} triggerOnce>
 					<ContactSection />

@@ -7,6 +7,19 @@
         "howManyArticles": 3,
         "betweenArticlesDelaySeconds": 5
     },
+    "secondarySection": {
+        "title": "Prověřujte své partnery na jednom místě",
+        "subtitle": "Zjednodušujeme pro Vás plnění AML povinností. Prověřte obchodní partnery na sankčních seznamech EU, ověřujte mezinárodní sankce podle zákona o provádění mezinárodních sankcích, aktualizovaný seznam rizikových zemí.",
+        "firstButtonText": "Ověřování mezinárodních sankcí",
+        "secondButtonText": "Seznam rizikových zemí"
+
+    },
+    "pepCheckSection": {
+        "title": "Ověřujte status politicky exponovaných osob prostřednictvím PEP check",
+        "subtitle": "Prověřte obchodní partnery v každodenně aktualizované databázi politicky exponovaných osob v ČR (tzv. PEP) v souladu s Metodickým pokynem FAÚ č. 7 ze dne 9. 10. 2020.",
+        "buttonText": "Vyzkoušet PEP check zdarma"
+
+    },
     "contact": {
         "header": "Rychlé kontakty",
         "description": "Řešíte problémy z oblasti AML compliance? Neváhejte se nám ozvat.",
@@ -24,5 +37,6 @@
             "twitter": "https://twitter.com/solutions_aml",
             "linkedIn": "https://www.linkedin.com/company/amlsolutions-cz/"
         }
-    }
+    },
+    "carouselChangeEveryHowManySeconds": 5
 }
