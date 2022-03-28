@@ -65,7 +65,7 @@ const CookieSection = ({ header, description, rows, className, ...toggleProps }:
                 {rows.map((row, i) => (
                   <tr key={`row-${i}`}>
                     {staticData.headers.map(({ key }) => (
-                      <td key={`row-${i}-${key}`} className="p-1 min-w-td">
+                      <td key={`row-${i}-${key}`} className="p-1">
                         {row[key as keyof CookieTableRow]}
                       </td>
                     ))}
