@@ -21,7 +21,7 @@ const ObligationsPage = () => {
 	const servicesForm = useServicesForm()
 
 	useEffect(() => {
-		servicesForm.setFieldValue('checked', servicesData.services.filter(({ id }) => id === 'system-identifikace-a-kontroly-klienta'))
+		servicesForm.setFieldValue('checked', servicesData.services.filter(({ id }) => id === 'aml-dotaznik'))
 	}, [])
 
     return (
