@@ -6,6 +6,7 @@ import { c } from "../services/misc";
 import Image from 'next/image'
 import pageData from '../data/pages/politicky-exponovana-osoba/politicky-exponovana-osoba.json'
 import Button from "../components/Layout/Button";
+import AnchorButton from "../components/Pages/services/AnchorButton";
 import Link from "next/link";
 // @ts-ignore
 import TopPartMdx from "../data/pages/politicky-exponovana-osoba/topPart.mdx";
@@ -75,6 +76,7 @@ const ObligationsPage = () => {
 							</Button>
 						</Link>
 					</div>
+					<AnchorButton show href="https://www.pepcheck.cz" text="Vyzkoušet PEP check zdarma" />
 				</div>
 			</div>
 		</DefaultLayout>
