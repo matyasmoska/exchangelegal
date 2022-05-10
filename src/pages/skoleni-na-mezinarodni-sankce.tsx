@@ -39,7 +39,7 @@ const ObligationsPage = () => {
 							objectFit="cover"
 							className="absolute"
 							priority
-							src={'/images/aml-skoleni-a-metodika.jpg'}
+							src={'/images/secondary-background.jpg'}
 						/>
 						<div
 							className={c(
