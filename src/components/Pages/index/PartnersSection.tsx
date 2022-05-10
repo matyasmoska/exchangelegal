@@ -11,7 +11,7 @@ const PartnersSection: FC = () => {
 				<Fade damping={0.5} duration={500} cascade triggerOnce>
 					
 					<a href="https://www.realitnikomora.cz/" target="_blank" rel="noreferrer">
-						<img alt="realitni-komora-logo" className="h-14" src={'/images/realitni-komora_logo.png'} />
+						<img alt="realitni-komora-logo" className="h-14" src={'/images/realitni-komora_logo.jpg'} />
 					</a>
 					
 					<a href="http://www.ondato.com/" target="_blank" rel="noreferrer">
