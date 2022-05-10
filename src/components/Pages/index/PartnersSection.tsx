@@ -11,7 +11,7 @@ const PartnersSection: FC = () => {
 				<Fade damping={0.5} duration={500} cascade triggerOnce>
 					
 					<a href="https://www.realitnikomora.cz/" target="_blank" rel="noreferrer">
-						<img alt="realitni-komora-logo" className="h-14" src={'/images/realitni-komora_logo.jpg'} />
+						<img alt="realitni-komora-logo" className="h-14" src={'/images/realitni-komora_logo.png'} />
 					</a>
 					
 					<a href="http://www.ondato.com/" target="_blank" rel="noreferrer">
@@ -23,6 +23,11 @@ const PartnersSection: FC = () => {
 					</a>
 					<a href="https://billsystems.co" target="_blank" rel="noreferrer">
 						<img alt="bill_logo" className="h-14" src={'/images/bill.png'} />
+					</a>
+					
+										</a>
+					<a href="https://safe-whistlers.cz/" target="_blank" rel="noreferrer">
+						<img alt="safe-whistlers_logo" className="h-14" src={'/images/safe-whistlers_logo.jpg'} />
 					</a>
 				</Fade>
 			</div>
