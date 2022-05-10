@@ -32,6 +32,14 @@
             "link": "/aml-skoleni-a-metodika",
             "icon": "/images/serviceIcons/skoleni_a_metodika.svg"
         },
+                {
+            "id": "skoleni-na-mezinarodni-sankce",
+            "name": "Školení na mezinárodní sankce a jejich uplatňování v praxi",
+            "description": "Prakticky orientované školení je určeno pro podnikatele a další osoby, které ve své každodenní praxi uzavírají, resp. plánují uzavírat obchody s partnery ze zemí stižených mezinárodními sankcemi. Cena je za 1 účastníka, přičemž minimální počet účastníků je 5 osob. Délka školení je 90 minut.",
+            "price": 1000,
+            "link": "/",
+            "icon": "/images/serviceIcons/skoleni_a_metodika.svg"
+        },
         {
             "id": "urceni-kontaktni-osoby-fau-a-poverene-osoby",
             "name": "Určení kontaktní osoby FAÚ a pověřené osoby",
