@@ -38,7 +38,7 @@
             "description": "Prakticky orientované školení je určeno pro podnikatele a další osoby, které ve své každodenní praxi uzavírají, resp. plánují uzavírat obchody s partnery ze zemí stižených mezinárodními sankcemi. Cena je za 1 účastníka, přičemž minimální počet účastníků je 5 osob. Délka školení je 90 minut.",
             "price": 1000,
             "link": "/",
-            "icon": "/images/serviceIcons/skoleni_a_metodika.svg"
+            "icon": "/images/serviceIcons/warning.svg"
         },
         {
             "id": "urceni-kontaktni-osoby-fau-a-poverene-osoby",
