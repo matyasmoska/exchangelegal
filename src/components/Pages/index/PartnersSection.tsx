@@ -25,9 +25,6 @@ const PartnersSection: FC = () => {
 						<img alt="bill_logo" className="h-14" src={'/images/bill.png'} />
 					</a>
 					
-					<a href="https://safe-whistlers.cz/" target="_blank" rel="noreferrer">
-						<img alt="safe-whistlers_logo" className="h-14" src={'/images/safe-whistlers_logo.jpg'} />
-					</a>
 				</Fade>
 			</div>
 		</div>
