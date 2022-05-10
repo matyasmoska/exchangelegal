@@ -4,16 +4,16 @@ import DefaultLayout from "../layouts/DefaultLayout";
 import SEO from "../components/Layout/SEO";
 import { c } from "../services/misc";
 import Image from 'next/image'
-import pageData from '../data/pages/aml-skoleni-a-metodika/aml-skoleni-a-metodika.json'
+import pageData from '../data/pages/skoleni-na-mezinarodni-sankce/skoleni-na-mezinarodni-sankce.json'
 import servicesData from '../data/pages/services.json'
 import useServicesForm from "../components/Pages/services/hooks/useServicesForm";
 import OrderButton from "../components/Pages/services/OrderButton";
 import ServicesForm from "../components/Pages/services/ServícesForm";
 import { useVisible } from "react-hooks-visible";
 // @ts-ignore
-import TopPartMdx from "../data/pages/aml-skoleni-a-metodika/topPart.mdx"
+import TopPartMdx from "../data/pages/skoleni-na-mezinarodni-sankce/topPart.mdx"
 // @ts-ignore
-import BottomPartMdx from "../data/pages/aml-skoleni-a-metodika/bottomPart.mdx"
+import BottomPartMdx from "../data/pages/skoleni-na-mezinarodni-sankce/bottomPart.mdx"
 
 const ObligationsPage = () => {
 	const [targetRef, visible] = useVisible()
@@ -21,14 +21,14 @@ const ObligationsPage = () => {
 	const servicesForm = useServicesForm()
 
 	useEffect(() => {
-		servicesForm.setFieldValue('checked', servicesData.services.filter(({ id }) => id === 'aml-skoleni-a-metodika'))
+		servicesForm.setFieldValue('checked', servicesData.services.filter(({ id }) => id === 'skoleni-na-mezinarodni-sankce'))
 	}, [])
 
     return (
         <DefaultLayout>
 			<SEO
-				title="AML školení – kurzy a metodika dle požadavků AML zákona 2022 | AML solutions"
-				description="✅ Pravidelně aktualizované AML školení dle AML zákona a směrnice 2022. Splňte své zákonné AML povinnosti. Příznivá cena ⭐"
+				title="Školení na mezinárodní sankce a jejich uplatňování v praxi | AML solutions"
+				description="✅ Pravidelně aktualizované školení dle zákona o mezinárodních sankcích 2022. Splňte své zákonné AML povinnosti. Příznivá cena ⭐"
 				keywords="AML školení, AML solutions, AML compliance, AML povinnosti, AML systém vnitřních zásad, AML hodnocení rizik, AML dotazník, AML formulář, AML zákon, AML směrnice"
 			/>
 			<div className={c('relative items-center')}>
