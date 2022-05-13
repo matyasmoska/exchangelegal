@@ -24,6 +24,9 @@ const PartnersSection: FC = () => {
 					<a href="https://billsystems.co" target="_blank" rel="noreferrer">
 						<img alt="bill_logo" className="h-14" src={'/images/bill.png'} />
 					</a>
+					<a href="https://www.realitniakademie.eu/" target="_blank" rel="noreferrer">
+						<img alt="realitni_akademie_logo" className="h-14" src={'/images/realitni-akademie_logo.jpg'} />
+					</a>
 					
 				</Fade>
 			</div>
