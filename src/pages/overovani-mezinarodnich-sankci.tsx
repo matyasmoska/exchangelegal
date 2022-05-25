@@ -5,11 +5,11 @@ import ParagraphOrMultiple from "../components/Layout/ParagraphOrMultiple";
 import DefaultLayout from "../layouts/DefaultLayout";
 import { c } from "../services/misc";
 import Image from "next/image"
-import pageData from '../data/pages/internationalSanctions/index.json'
+import pageData from '../data/pages/overovani-mezinarodnich-sankci/overovani-mezinarodnich-sankci.json'
 // @ts-ignore
-import TopPartMdx from "../data/pages/internationalSanctions/topPart.mdx"
+import TopPartMdx from "../data/pages/overovani-mezinarodnich-sankci/topPart.mdx"
 // @ts-ignore
-import BottomPartMdx from "../data/pages/internationalSanctions/bottomPart.mdx"
+import BottomPartMdx from "../data/pages/overovani-mezinarodnich-sankci/bottomPart.mdx"
 
 const InternationalSanctionsVerificationPage = () => {
     return (
@@ -22,7 +22,7 @@ const InternationalSanctionsVerificationPage = () => {
 							objectFit="cover"
 							className="absolute"
 							priority
-							src={'/images/obligations_background.jpg'}
+							src={'/images/secondary-background.jpg'}
 						/>
 						<div
 							className={c(
@@ -66,7 +66,7 @@ const InternationalSanctionsVerificationPage = () => {
 						<BottomPartMdx />
 					</section>
 					<div className={c('flex')}>
-						<Link href="/potrebuji-aml">
+						<Link href="https://www.pepcheck.cz/">
 							<Button type="basic" className="px-14 py-2.5">
 								{ pageData.buttonText }
 							</Button>
