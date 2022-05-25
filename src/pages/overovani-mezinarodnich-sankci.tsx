@@ -7,8 +7,6 @@ import { c } from "../services/misc";
 import Image from "next/image"
 import pageData from '../data/pages/overovani-mezinarodnich-sankci/overovani-mezinarodnich-sankci.json'
 // @ts-ignore
-import TopPartMdx from "../data/pages/overovani-mezinarodnich-sankci/topPart.mdx"
-// @ts-ignore
 import BottomPartMdx from "../data/pages/overovani-mezinarodnich-sankci/bottomPart.mdx"
 
 const InternationalSanctionsVerificationPage = () => {
