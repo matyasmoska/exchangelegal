@@ -21,3 +21,20 @@ export interface Author {
 	title: string,
 	photo: any
 }
+
+interface Sanction {
+	legal_acts: {
+		data: LegalAct[]
+	}
+}
+
+interface LegalAct {
+	url: string
+}
+
+export interface SanctionsResult {
+	data: Sanction[],
+	meta: {
+		version: string,
+	}
+}

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import ParagraphOrMultiple from "../components/Layout/ParagraphOrMultiple";
 import DefaultLayout from "../layouts/DefaultLayout";
 import SEO from "../components/Layout/SEO";
@@ -9,21 +9,50 @@ import servicesData from '../data/pages/services.json'
 import useServicesForm from "../components/Pages/services/hooks/useServicesForm";
 import OrderButton from "../components/Pages/services/OrderButton";
 import ServicesForm from "../components/Pages/services/ServícesForm";
+import SanctionsForm from "../components/Pages/obligations/SanctionsForm";
+import Sancions from "../components/Pages/obligations/Sanctions"
 import { useVisible } from "react-hooks-visible";
 // @ts-ignore
 import TopPartMdx from "../data/pages/overovani-mezinarodnich-sankci/topPart.mdx"
 // @ts-ignore
 import BottomPartMdx from "../data/pages/overovani-mezinarodnich-sankci/bottomPart.mdx"
+import { useRouter } from "next/router";
+import {fetchSearch} from "../services/sancions"
 
 const ObligationsPage = () => {
 	const [targetRef, visible] = useVisible()
+	const [sanctionData, setSanctionData] = useState<any>({})
+	const [person, setPerson] = useState<string>('')
+	const form = useRef(null)
 
+	const router = useRouter();
 	const servicesForm = useServicesForm()
+	
+	useEffect(async () => {
+		if (router.isReady) {
+		  const person = router.query.person?.toString()
+		  if (person) {
+			(async function doAsyncSearch() {
+				const data = await fetchSearch(person)
+				setSanctionData(data)
+				setPerson(person)
+			})();
+		  }
+		}
+	  }, [router.isReady]);
 
 	useEffect(() => {
 		servicesForm.setFieldValue('checked', servicesData.services.filter(({ id }) => id === 'skoleni-na-mezinarodni-sankce'))
 	}, [])
 
+	const handleSubmitSanctions = async (e: React.FormEvent<HTMLFormElement>) => {
+		e.preventDefault()
+
+		const data = await fetchSearch(person)
+		setSanctionData(data)
+		router.push(`/overovani-mezinarodnich-sankci?person=${person}`, undefined, { shallow: true })
+	}
+	
     return (
         <DefaultLayout>
 			<SEO
@@ -64,6 +93,14 @@ const ObligationsPage = () => {
 
 					<section className={c('py-8 pb-12 space-y-4 max-w-[802px] leading-relaxed prose', 'md:px-6 md:py-6')}>
 						<TopPartMdx />
+					</section>
+					<section className="w-full max-w-[802px] md:px-4">
+						<div className="shadow-tile p-6 space-y-6 w-full">
+								<SanctionsForm person={person} onPersonChange={p => setPerson(p)} onFormSubmit={handleSubmitSanctions} />
+								<Sancions data={sanctionData} />
+						</div>
+					</section>
+					<section className={c('py-8 pb-12 space-y-4 max-w-[802px] leading-relaxed prose', 'md:px-6 md:py-6')}>
 						<BottomPartMdx />
 					</section>
 				</div>
