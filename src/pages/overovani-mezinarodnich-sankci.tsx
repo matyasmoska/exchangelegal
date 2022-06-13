@@ -28,7 +28,7 @@ const ObligationsPage = () => {
 	const router = useRouter();
 	const servicesForm = useServicesForm()
 	
-	useEffect(async () => {
+	useEffect(() => {
 		if (router.isReady) {
 		  const person = router.query.person?.toString()
 		  if (person) {

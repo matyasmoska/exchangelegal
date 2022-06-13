@@ -19,20 +19,23 @@ const SanctionsForm: FC<SancionsFormProps> = ({ onPersonChange, onFormSubmit, pe
 			return onPersonChange(s)
 		},
 		handleSubmit: () => {
-			if (formRef.current) {
-				formRef?.current.dispatchEvent(new Event('submit', { cancelable: true, bubbles: true }))
-			}
+			setTimeout(() => {
+				if (formRef.current) {
+					formRef?.current.dispatchEvent(new Event('submit', { cancelable: true, bubbles: true }))
+				}
+			}, 100)
 		}
 	}
 
-	useEffect(async () => {
-		if (searchedPerson && searchedPerson.length > 2) {
-			const data = await fetchAutocomplete(searchedPerson)
-			setAutocompleteData(data.data)
-			console.log('autocomplete', data)
-		} else {
-			setAutocompleteData([])
-		}
+	useEffect(() => {
+		;(async () => {
+			if (searchedPerson && searchedPerson.length > 2) {
+				const data = await fetchAutocomplete(searchedPerson)
+				setAutocompleteData(data.data)
+			} else {
+				setAutocompleteData([])
+			}
+		})()
 	}, [searchedPerson])
 
 	return (
