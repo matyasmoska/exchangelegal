@@ -78,6 +78,10 @@ const Footer = () => {
 							<a className="hover:underline">{pageData.seznamrizikovychzemi}</a>
 						</Link>
 						
+						<Link href="https://www.amlsolutions.cz/overovani-mezinarodnich-sankci">
+							<a className="hover:underline">{pageData.internationalSanctions}</a>
+						</Link>
+						
 						<Link href="/nase-sluzby">
 							<a className="hover:underline">{pageData.services}</a>
 						</Link>
