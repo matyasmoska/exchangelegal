@@ -50,7 +50,7 @@ const SecondarySection = () => {
 							{pageData.secondarySection.firstButtonText}
 						</Button>
 					</a>
-					<Link href="/seznam-vysoce-rizikovych-zemi" target="_blank">
+					<Link href="/seznam-vysoce-rizikovych-zemi">
 						<Button type="light" className="px-10 py-2">
 							{pageData.secondarySection.secondButtonText}
 						</Button>
