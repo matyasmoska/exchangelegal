@@ -1,19 +1,19 @@
 {
     "contact": {
         "address": {
-            "firstLine": "AML solutions s.r.o.",
+            "firstLine": "15zisif.cz",
             "secondLine": "",
             "thirdLine": ""
         },
         "phoneNumber": "+420 605 006 807",
         "phoneNumberLink":"00420605006807",
-        "email": "info@amlsolutions.cz",
-        "emailLink": "info@amlsolutions.cz",
+        "email": "info@15zisif.cz",
+        "emailLink": "info@15zisif.cz",
         "links": {
-            "facebook": "https://www.facebook.com/amlsolutionscz",
-            "twitter": "https://twitter.com/solutions_aml",
-            "linkedIn": "https://www.linkedin.com/company/amlsolutions-cz/"
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/15zisif",
+            "linkedIn": "https://www.linkedin.com/company/15zisif/"
         }
     },
-    "allRightsReserved": "© 2022 by AML solutions s.r.o., všechna práva vyhrazena"
+    "allRightsReserved": "© 2022, všechna práva vyhrazena"
 }
