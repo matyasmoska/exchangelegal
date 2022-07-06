@@ -35,7 +35,7 @@ module.exports = {
         'dark-blue': '#021C62'
       },
       fontFamily: {
-        'header': ['"Roboto"', ...defaultTheme.fontFamily.sans],
+        'header': ['"Source Serif Pro Semibold"', ...defaultTheme.fontFamily.sans],
         'text': ['"Hanken Grotesk"', ...defaultTheme.fontFamily.sans]
       },
       height: {
