@@ -1,8 +1,8 @@
 {
-    "title": "Systémová řešení <br/>pro Vaše AML povinnosti",
-    "subtitle": "We make #compliance easy. Jsme předními odborníky na AML compliance, poskytujeme profesionální služby v oblasti AML/CFT na míru klientům.",
-    "checkAMLObligations": "Musím řešit AML?",
-    "seeAMLServices": "Chci řešit AML",
+    "title": "Založení fondu dle § 15 ZISIF<br/>na klíč",
+    "subtitle": "Již od 49 000,- Kč.",
+    "checkAMLObligations": "Chci založit minifond",
+    "seeAMLServices": "Chci pomoci se správou minifondu",
     "newsBar": {
         "howManyArticles": 3,
         "betweenArticlesDelaySeconds": 5
@@ -22,20 +22,20 @@
     },
     "contact": {
         "header": "Rychlé kontakty",
-        "description": "Řešíte problémy z oblasti AML compliance? Neváhejte se nám ozvat.",
+        "description": "Chcete založit vlastní fond dle § 15 ZISIF? Neváhejte se nám ozvat.",
         "address": {
-            "firstLine": "AML solutions s.r.o.",
+            "firstLine": "15zisif.cz",
             "secondLine": "City Empiria, Na Strži 1702/65, 140 00 Praha 4",
-            "thirdLine": "IČO: 10691766, DIČ: CZ10691766"
+            "thirdLine": "Mgr. Matyáš Moska, advokát & Mgr. Jakub Pártl, LL.M., advokát"
         },
         "phoneNumber": "+420 605 006 807",
         "phoneNumberLink":"00420605006807",
-        "email": "info@amlsolutions.cz",
-        "emailLink": "info@amlsolutions.cz",
+        "email": "info@15zisif.cz",
+        "emailLink": "info@15zisif.cz",
         "links": {
-            "facebook": "https://www.facebook.com/amlsolutionscz",
-            "twitter": "https://twitter.com/solutions_aml",
-            "linkedIn": "https://www.linkedin.com/company/amlsolutions-cz/"
+            "facebook": "https://www.facebook.com/15zisif",
+            "twitter": "https://twitter.com/15zisif",
+            "linkedIn": "https://www.linkedin.com/company/15zisif"
         }
     },
     "carouselChangeEveryHowManySeconds": 5
