@@ -27,7 +27,7 @@ const PEPSection = () => {
 				)}
 				style={{
 					background: !isMd
-						? 'transparent linear-gradient(90deg, #021C62 0%, #021C62D8 25%, #021C6279 42%, #021C620A 62%, #021C6200 100%) 0% 0% no-repeat padding-box'
+						? 'transparent linear-gradient(90deg, #223a7b 0%, #021C62D8 25%, #021C6279 42%, #021C620A 62%, #021C6200 100%) 0% 0% no-repeat padding-box'
 						: ''
 				}}
 			/>
