@@ -24,9 +24,9 @@
         "header": "Rychlé kontakty",
         "description": "Chcete založit vlastní fond dle § 15 ZISIF? Neváhejte se nám ozvat.",
         "address": {
-            "firstLine": "15zisif.cz",
+            "firstLine": "Mgr. Matyáš Moska, advokát & Mgr. Jakub Pártl, LL.M., advokát",
             "secondLine": "City Empiria, Na Strži 1702/65, 140 00 Praha 4",
-            "thirdLine": "Mgr. Matyáš Moska, advokát & Mgr. Jakub Pártl, LL.M., advokát"
+            "thirdLine": ""
         },
         "phoneNumber": "+420 605 006 807",
         "phoneNumberLink":"00420605006807",
