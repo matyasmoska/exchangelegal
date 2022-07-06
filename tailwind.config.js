@@ -27,8 +27,8 @@ module.exports = {
       },
       colors: {
         wine: {
-          primary: '6d0327',
-          'primary-hover': '4d001a'
+          primary: '#6d0327',
+          'primary-hover': '#4d001a'
         },
         'light-black': '#7B7B7B',
         'light-blue': '#E6E8F2',
