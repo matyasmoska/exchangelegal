@@ -9,18 +9,18 @@ module.exports = {
       typography: {
         DEFAULT: {
           css: {
-            strong: { color: '#021C62' },
+            strong: { color: '#223a7b' },
             h1: {
-              color: '#021C62'
+              color: '#223a7b'
             },
             h2: {
-              color: '#021C62'
+              color: '#223a7b'
             },
             h3: {
-              color: '#021C62'
+              color: '#223a7b'
             },
             h4: {
-              color: '#021C62'
+              color: '#223a7b'
             }
           }
         }
@@ -32,7 +32,7 @@ module.exports = {
         },
         'light-black': '#7B7B7B',
         'light-blue': '#E6E8F2',
-        'dark-blue': '#021C62'
+        'dark-blue': '#223a7b'
       },
       fontFamily: {
         'header': ['"Source Serif Pro Semibold"', ...defaultTheme.fontFamily.serif],
