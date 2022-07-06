@@ -12,9 +12,9 @@ const Button: FC<ButtonProps> = ({ type, className, onClick, disabled = false, c
 	const getButtonStyle = () => {
 		switch (type) {
 			case 'basic':
-				return 'bg-orange-primary text-white hover:bg-orange-primary-hover border-orange-primary hover:border-orange-primary-hover'
+				return 'bg-wine-primary text-white hover:bg-wine-primary-hover border-wine-primary hover:border-wine-primary-hover'
 			case 'secondary':
-				return 'bg-transparent text-orange-primary hover:text-white hover:bg-orange-primary-hover border-orange-primary hover:border-orange-primary-hover'
+				return 'bg-transparent text-wine-primary hover:text-white hover:bg-wine-primary-hover border-wine-primary hover:border-wine-primary-hover'
 			case  'light':
 				return 'bg-transparent border border-white text-white hover:bg-white hover:text-dark-blue'
 		}
