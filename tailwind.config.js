@@ -27,7 +27,7 @@ module.exports = {
       },
       colors: {
         orange: {
-          primary: '#FF872E',
+          primary: '6d0327',
           'primary-hover': '#CE6C24'
         },
         'light-black': '#7B7B7B',
