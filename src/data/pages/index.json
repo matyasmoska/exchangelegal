@@ -15,8 +15,8 @@
 
     },
     "pepCheckSection": {
-        "title": "Potřebujete pomoci s přípravou dokumentu KID dle nařízení PRIIPS?",
-        "subtitle": "Žádný problém, tzv. sdělení klíčových informací pro Vás připravíme na míru.",
+        "title": "Potřebujete pomoci s přípravou dokumentu KID dle nařízení PRIIPs?",
+        "subtitle": "Žádný problém, tzv. Sdělení klíčových informací (PRIIPs) pro Vás připravíme na míru.",
         "buttonText": "Chci pomoci s přípravou KID"
 
     },
@@ -38,5 +38,5 @@
             "linkedIn": "https://www.linkedin.com/company/15zisif"
         }
     },
-    "carouselChangeEveryHowManySeconds": 5
+    "carouselChangeEveryHowManySeconds": 6
 }
