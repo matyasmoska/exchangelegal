@@ -19,7 +19,7 @@ const Home: NextPage<{ news: NewsItem[] }> = ({ news }) => {
 	return (
 		<DefaultLayout>
 			<SEO
-				title="Založení minfondu na klíč | 15zisif.cz"
+				title="Založení minifondu na klíč | 15zisif.cz"
 				description="Jsme předními odborníky v oblasti AML compliance, poskytujeme komplexní řešení a služby ✅ Úvodní konzultace zdarma ⭐"
 				keywords="AML, AML solutions, AML compliance, AML povinnosti, AML systém vnitřních zásad, AML školení, AML hodnocení rizik, AML dotazník, AML zákon, AML směrnice"
 			/>
