@@ -1,7 +1,10 @@
 import React from 'react'
 import { c } from '../../../../services/misc'
-import Button from '../../../Layout/Button'
+import Image from 'next/image'
+import thumbnail from '../../../../../public/images/third-background.jpg'
 import pageData from '../../../../data/pages/index.json'
+import Link from 'next/link'
+import Button from '../../../Layout/Button'
 import { useMediaQueries } from '../../../../hooks/useMediaQueries'
 
 const PEPSection = () => {
