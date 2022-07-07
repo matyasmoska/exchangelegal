@@ -17,7 +17,8 @@
     "pepCheckSection": {
         "title": "Potřebujete pomoci s přípravou dokumentu KID dle nařízení PRIIPs?",
         "subtitle": "Žádný problém, tzv. Sdělení klíčových informací (PRIIPs) pro Vás připravíme na míru.",
-        "buttonText": "Chci pomoci s přípravou KID"
+        "firstButtonText": "Chci pomoci s přípravou KID",
+        "secondButtonText": "Chci bezplatnou konzultaci"
 
     },
     "contact": {
