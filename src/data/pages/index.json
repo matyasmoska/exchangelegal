@@ -22,11 +22,11 @@
     },
     "contact": {
         "header": "Kontakty",
-        "description": "Chcete založit vlastní fond dle § 15 ZISIF? Neváhejte se nám ozvat.",
+        "description": "Chcete založit vlastní minifond dle § 15 ZISIF? Neváhejte se nám ozvat.",
         "address": {
             "firstLine": "Mgr. Matyáš Moska, advokát & Mgr. Jakub Pártl, LL.M., advokát",
             "secondLine": "City Empiria, Na Strži 1702/65, 140 00 Praha 4",
-            "thirdLine": ""
+            "thirdLine": "Jsme specialisté na minifondy."
         },
         "phoneNumber": "+420 605 006 807",
         "phoneNumberLink":"00420605006807",
