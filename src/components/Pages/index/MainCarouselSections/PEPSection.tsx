@@ -37,10 +37,10 @@ const PEPSection = () => {
 			<div className={c('relative z-10 max-w-3xl space-y-20 text-white', 'md:max-w-none md:text-center')}>
 				<div className="flex flex-col space-y-8">
 					<h1
-						dangerouslySetInnerHTML={{ __html: pageData.secondarySection.title }}
+						dangerouslySetInnerHTML={{ __html: pageData.pepCheckSection.title }}
 						className={c('text-6xl font-bold leading-tight', 'md:text-4xl')}
 					/>
-					<p className="text-lg leading-relaxed text-justify">{pageData.secondarySection.subtitle}</p>
+					<p className="text-lg leading-relaxed text-justify">{pageData.pepCheckSection.subtitle}</p>
 				</div>
 				<div
 					className={c(
