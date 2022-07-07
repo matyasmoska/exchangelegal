@@ -17,7 +17,7 @@ const Logo = () => {
 export const LogoWhite = () => {
 	const { isMd } = useMediaQueries()
 
-	return <Image alt="15zisif.cz" src="/images/logo-white.svg" height={isMd ? 35 : 140} width={isMd ? 200 : 340} />
+	return <Image alt="15zisif.cz" src="/images/logo-white.svg" height={isMd ? 35 : 140} width={isMd ? 200 : 300} />
 }
 
 export default Logo
