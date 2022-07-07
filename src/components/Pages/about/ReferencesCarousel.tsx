@@ -33,7 +33,7 @@ const ReferencesCarousel: FC<ReferenceCarouselProps> = ({ references }) => {
 			<m.div
 				layout
 				className={c(
-					"p-12 w-[612px] h-[612px] text-dark-blue flex flex-col items-center justify-center space-y-16 rounded-full bg-orange-primary bg-opacity-20",
+					"p-12 w-[612px] h-[612px] text-dark-blue flex flex-col items-center justify-center space-y-16 rounded-full bg-wine-primary bg-opacity-20",
 					"md:w-[300px] md:h-[300px]"
 				)}
 			>
