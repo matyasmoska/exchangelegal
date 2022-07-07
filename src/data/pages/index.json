@@ -8,16 +8,16 @@
         "betweenArticlesDelaySeconds": 5
     },
     "secondarySection": {
-        "title": "Prověřujte své partnery na jednom místě",
-        "subtitle": "Zjednodušujeme pro Vás plnění AML povinností. Prověřte obchodní partnery na sankčních seznamech EU, ověřujte mezinárodní sankce podle zákona o provádění mezinárodních sankcích, aktualizovaný seznam rizikových zemí.",
-        "firstButtonText": "Ověřování mezinárodních sankcí",
-        "secondButtonText": "Seznam rizikových zemí"
+        "title": "Reporting ČNB nechte na nás",
+        "subtitle": "Zjednodušujeme pro Vás plnění Vašich reportingových povinností. Výkaznictví ČNB vyřešíme za Vás; nastavíme pravidelné reporty dle aktuálních legislativních požadavků.",
+        "firstButtonText": "Chci nastavit reporting",
+        "secondButtonText": "Chci bezplatnou konzultaci"
 
     },
     "pepCheckSection": {
-        "title": "Ověřujte status politicky exponovaných osob prostřednictvím PEP check",
-        "subtitle": "Prověřte obchodní partnery v každodenně aktualizované databázi politicky exponovaných osob v ČR (tzv. PEP) v souladu s Metodickým pokynem FAÚ č. 7 ze dne 9. 10. 2020.",
-        "buttonText": "Vyzkoušet PEP check zdarma"
+        "title": "Potřebujete pomoci s přípravou dokumentu KID dle nařízení PRIIPS?",
+        "subtitle": "Žádný problém, tzv. sdělení klíčových informací pro Vás připravíme na míru.",
+        "buttonText": "Chci pomoci s přípravou KID"
 
     },
     "contact": {
