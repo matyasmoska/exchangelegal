@@ -9,18 +9,18 @@ module.exports = {
       typography: {
         DEFAULT: {
           css: {
-            strong: { color: '#223a7b' },
+            strong: { color: '#000000' },
             h1: {
-              color: '#223a7b'
+              color: '#000000'
             },
             h2: {
-              color: '#223a7b'
+              color: '#000000'
             },
             h3: {
-              color: '#223a7b'
+              color: '#000000'
             },
             h4: {
-              color: '#223a7b'
+              color: '#000000'
             }
           }
         }
