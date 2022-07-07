@@ -36,26 +36,26 @@ const Footer = () => {
 				<div className="space-y-10">
 					<h3 className="text-xl font-bold">Naše služby</h3>
 					<div className="flex flex-col space-y-4">
-						<Link href="/system-vnitrnich-zasad">
-							<a className="hover:underline">{pageData.systemvnitrnichzasad}</a>
+						<Link href="/zalozeni-fondu-na-klic">
+							<a className="hover:underline">{pageData.zalozeni}</a>
 						</Link>
-						<Link href="/hodnoceni-rizik">
-							<a className="hover:underline">{pageData.hodnocenirizik}</a>
+						<Link href="/reporting-cnb">
+							<a className="hover:underline">{pageData.reportingcnb}</a>
 						</Link>
-						<Link href="/aml-dotaznik">
-							<a className="hover:underline">{pageData.amldotaznik}</a>
+						<Link href="/priprava-kid-dle-narizeni-priips">
+							<a className="hover:underline">{pageData.pripravakiddlenarizenipriips}</a>
 						</Link>
-						<Link href="/aml-skoleni-a-metodika">
-							<a className="hover:underline">{pageData.amlskoleniametodika}</a>
+						<Link href="/povinnosti-dle-sfdr">
+							<a className="hover:underline">{pageData.povinnostidlesfdr}</a>
 						</Link>
-						<Link href="/skoleni-na-mezinarodni-sankce">
-							<a className="hover:underline">{pageData.skoleninamezinarodnisankce}</a>
+						<Link href="/aml-povinnosti">
+							<a className="hover:underline">{pageData.amlpovinnosti}</a>
 						</Link>
-						<Link href="/urceni-kontaktni-osoby-fau-a-poverene-osoby">
-							<a className="hover:underline">{pageData.urcenikontaktniosobyfauapovereneosoby}</a>
+						<Link href="/investicni-strategie">
+							<a className="hover:underline">{pageData.investicnistrategie}</a>
 						</Link>
-						<Link href="/zapis-do-evidence-skutecnych-majitelu">
-							<a className="hover:underline">{pageData.zapisdoevidenceskutecnychmajitelu}</a>
+						<Link href="/investicni-smlouva">
+							<a className="hover:underline">{pageData.investicnismlouva}</a>
 						</Link>
 					</div>
 				</div>
@@ -63,23 +63,8 @@ const Footer = () => {
 				<div className="space-y-10">
 					<h3 className="text-xl font-bold">Menu</h3>
 					<div className="flex flex-col space-y-4">
-						<Link href="/zalozeni-fondu-na-klic">
-							<a className="hover:underline">{pageData.zalozeni}</a>
-						</Link>
-						<Link href="/co-je-to-aml">
-							<a className="hover:underline">{pageData.whatisaml}</a>
-						</Link>
-						
-						<Link href="/politicky-exponovana-osoba">
-							<a className="hover:underline">{pageData.politickyexponovanaosoba}</a>
-						</Link>
-						
-						<Link href="/seznam-vysoce-rizikovych-zemi">
-							<a className="hover:underline">{pageData.seznamrizikovychzemi}</a>
-						</Link>
-						
-						<Link href="https://www.amlsolutions.cz/overovani-mezinarodnich-sankci">
-							<a className="hover:underline">{pageData.internationalSanctions}</a>
+						<Link href="/povinnosti-spravce-fondu">
+							<a className="hover:underline">{pageData.povinnostispravcefondu}</a>
 						</Link>
 						
 						<Link href="/nase-sluzby">
