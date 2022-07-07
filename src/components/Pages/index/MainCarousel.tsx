@@ -15,7 +15,7 @@ import NewsBar from './NewsBar'
 const Dot: FC<{ isSelected: boolean; onClick: any }> = ({ isSelected, onClick }) => (
 	<div
 		onClick={onClick}
-		className={c('w-2 h-2 rounded-full cursor-pointer', isSelected ? 'bg-orange-primary' : 'bg-white')}
+		className={c('w-2 h-2 rounded-full cursor-pointer', isSelected ? 'bg-wine-primary' : 'bg-white')}
 	/>
 )
 
