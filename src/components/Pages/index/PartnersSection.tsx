@@ -6,7 +6,7 @@ import Image from 'next/image'
 const PartnersSection: FC = () => {
 	return (
 		<div className={c('w-full space-y-12 mb-24 mt-24 px-36', 'md:px-8 md:py-16')}>
-			<h2 className="text-4xl font-bold text-center">Hlavní Partneři</h2>
+			<h2 className="text-4xl font-bold text-center">Partneři</h2>
 			<div className={c('flex justify-center space-x-32', 'md:flex-col md:items-center md:space-x-0 md:space-y-16')}>
 				<Fade damping={0.5} duration={500} cascade triggerOnce>
 					
