@@ -16,7 +16,7 @@ const PEPSection = () => {
 			)}
 		>
 			<img
-				src={'/images/pep-background.svg'}
+				src={'/images/third-background.jpg'}
 				alt="Background Image"
 				className={c('absolute max-w-xl pt-24 top-10 right-52', '3xl:right-24', '2xl:right-6 2xl:max-w-lg 2xl:pt-28')}
 			/>
