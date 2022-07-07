@@ -66,6 +66,10 @@ const Footer = () => {
 						<Link href="/povinnosti-spravce-fondu">
 							<a className="hover:underline">{pageData.povinnostispravcefondu}</a>
 						</Link>
+
+						<Link href="/aktuality">
+							<a className="hover:underline">{pageData.news}</a>
+						</Link>
 						
 						<Link href="/nase-sluzby">
 							<a className="hover:underline">{pageData.services}</a>
