@@ -1,49 +1,9 @@
 {
 	"header": "Kdo jsme",
-	"headerDescription": "V naší praxi se dlouhodobě zabýváme problematikou povinností spojených s AML/CFT. Své znalosti a zkušenosti jsme se rozhodli věnovat službám tohoto projektu. Naším cílem je zvýšit všeobecnou informovanost o problematice AML, pomoci povinným osobám se řádně vypořádat s jejich povinnostmi a ulehčit jim od nezbytné administrativy. Kromě toho, že nás naše práce baví, tvoříme taktéž sehraný tým, na který se můžete spolehnout.",
+	"headerDescription": "Jsme advokáti specializující se na finanční právo a s tímto spojené obory.",
 	"people": [
 		{
-			"name": "Mgr. Vít Šilhavý, partner",
-			"description": [
-				"Vít je zakládajícím partnerem AML solutions a právníkem zabývajícím se problematikou AML/CFT. V této oblasti působí rovněž jako odborný lektor.",
-				
-				"V rámci své advokátní praxe se dále věnuje právnímu poradenství úvěrovým a finančním institucím, obchodním korporacím a projektovému financování. Vedle práva se taktéž zabývá informačními technologiemi a je zakladatelem IT společnosti Bill Systems s.r.o. Během své právní praxe působil v řadě předních pražských advokátních kanceláří a radil korporátní i privátní klientele, mj. fondům, investičním společnostem apod.",
-				
-				"Vít pravidelně publikuje odborné články z různých oblastí práva."				
-			],
-			"readMore": [
-				"Ve svém volném čase hraje na kytaru, věnuje se fotbalu a vymýšlí, jak pomocí technologií řešit nejrůznější problémy všedního i podnikatelského života.",
-
-				"Vít hovoří plynně anglicky a francouzsky."
-			],
-			"photo": "/images/team/vitek.png",
-			"linkedIn": "https://www.linkedin.com/in/vít-šilhavý-5697b6181/",
-			"tags": [ "#AML", "#IT", "#Finance" ]
-		},
-		{
-			"name": "Mgr. Hana Erbsová, partnerka",
-			"description": [
-				"Hana je zakládající partnerkou AML solutions a oboru AML/CFT se dlouhodobě věnuje.",
-				
-				"Hana je zároveň praktikující advokátkou, která se dlouhodobě vedle AML/CFT zabývá i daňovou a regulatorní problematikou (finanční a investiční otázky, dotace), včetně právních a daňových otázek spojených s virtuálními aktivy (kryptoměny apod.).",
-				
-				"Své cenné zkušenosti nasbírala v poradenských společnostech tzv. „velké čtyřky“ a v přední mezinárodní advokátní kanceláři. Dále mnoho let působila ve finanční správě, a to jak na Generálním finančním ředitelství, tak na úrovni odvolacího orgánu a v rámci tamějšího působení absolvovala i zahraniční stáže (např. Německo, Švédsko, Belgie a další)."
-				
-				
-			],
-			"readMore": [
-				"Je rovněž autorkou několika odborných publikací, mj. např. spolupracovala na komentářích k insolvenčnímu zákonu, daňovému řádu, exekučnímu řádu a zákonu o správní službě; pravidelně publikuje články a jiné příspěvky ze svého oboru.",
-				
-				"Když zrovna nepíše komentáře k zákonům, věnuje se undergroundové hudbě, absurdnímu humoru a poezii.",
-				
-				"Hana hovoří plynně anglicky, dorozumí se polsky a rusky a učí se francouzsky."
-			],
-			"photo": "/images/team/hanka.png",
-			"linkedIn": "https://www.linkedin.com/in/hanaerbsova/",
-			"tags": [ "#AML", "#Tax", "#Assets" ]
-		},
-		{
-			"name": "Mgr. Matyáš Moska, partner",
+			"name": "Mgr. Matyáš Moska, advokát",
 			"description": [
 				"Matyáš je zakládajícím partnerem AML solutions a odborníkem na AML/CFT.",
 				"Ve své právní praxi se mj. věnuje AML/CFT a v této oblasti taktéž působí jako odborný lektor.",
@@ -51,7 +11,6 @@
 				"Pravidelně publikuje odborné články z mnoha oblastí práva, a to nejen v českém jazyce."
 			],
 			"readMore": [
-				"Je fanouškem moderních technologií, astronomie a hraje na kytaru.",
 				"Matyáš plynně hovoří anglicky, německy a polsky.",
 				"Své zkušenosti nasbíral v průběhu mnoha let v renomované pražské advokátní kanceláři, na přední bavorské Bayreuth Universität a advokátní kanceláři v Německu."	
 			],
@@ -59,32 +18,23 @@
 			"linkedIn": "https://www.linkedin.com/in/matyas-moska/",
 			"tags": [ "#AML", "#FinTech", "#Blockchain", "#DeFi" ]
 		},
-		{
-			"name": "Ondřej Beck, compliance consultant",
+		
+				{
+			"name": "Mgr. Jakub Pártl, LL.M., advokát",
 			"description": [
-				"Ondřej je konzultantem v oblasti AML/CFT a jeho hlavní náplň práce spočívá v agendě AML compliance.",
-				
-				"Ve společnosti AML solutions je mj. odpovědný za projektový managment a softwarová řešení compliance programů.",
-				
-				"Ve svém volném čase se s oblibou věnuje hře strategických her a je vášnivým motorkářem.",
-				
-				"Ondřej hovoří plynně anglicky."
+				"Jakub se v rámci své advokátní praxe věnuje právnímu poradenství v oblasti M&A, právu obchodních korporací, právu IT a projektovému financování. ",
+				"Dále má rozsáhlé zkušenosti v přípravě obchodních kontraktů, poradenství investorům či start-upům a souvisejících vyjednáváních.",
+				"Během své právní praxe působil v předních pražských či mezinárodních advokátních kanceláří, a to včetně manažerských pozic, a radil korporátní i privátní klientele."
 			],
-			"photo": "/images/team/ondrej.png",
-			"tags": [ "#AML", "#Compliance", "#Software" ]
-		},
-		{
-			"name": "Veronika Hurtová, back office manager",
-			"description": [
-				"Veronika se stará o zpracování došlých objednávek, jejich zadávání do interních firemních systémů a následné zpracování. Připravuje podklady pro fakturaci a zajišťuje veškeré činnosti včetně podpory a evidence všech provedených operací.",
-				
-				"Ve volném čase se jako členka hudební skupiny aktivně věnuje elektronické hudbě a divadlu.",
-
-				"Veronika hovoří plynně anglicky."
+			"readMore": [
+				"Hovoří plynně anglicky a francouzsky."
 			],
-			"photo": "/images/team/verca.png",
-			"tags": [ "#BackOffice", "#Support", "#CustomerCare" ]
+			"photo": "/images/team/jakub.jpg",
+			"linkedIn": "https://www.linkedin.com/in/jakub-partl/",
+			"tags": [ "#M&A", "#FinTech", "#Projektové financování", "#IT/IP" ]
 		}
+
+		
 		
 	],
 	"references": [
