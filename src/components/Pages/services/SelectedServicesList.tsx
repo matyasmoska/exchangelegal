@@ -24,7 +24,7 @@ const SelectedServicesList: FC<{ form: FormikProps<ServicesFormValues> }> = ({ f
 						<hr />
 						<m.div layout className="flex items-center justify-between">
 							<p>Celkem</p>
-							<p className={c('text-2xl font-bold text-orange-primary', 'text-xl')}>{`${ns(
+							<p className={c('text-2xl font-bold text-wine-primary', 'text-xl')}>{`${ns(
 								price
 							)},- Kč`}</p>
 						</m.div>
