@@ -53,13 +53,13 @@ const SanctionsForm: FC<SancionsFormProps> = ({ onPersonChange, onFormSubmit, pe
 					data={autocompleteData}
 					form={form}
 					value={person}
-					className="text-medium block px-3 py-2 text-base placeholder-gray-400 focus:ring-0 focus:border-orange-primary focus:shadow-none md:py-2.5 md:px-2.5"
+					className="text-medium block px-3 py-2 text-base placeholder-gray-400 focus:ring-0 focus:border-wine-primary focus:shadow-none md:py-2.5 md:px-2.5"
 					autoComplete="off"
 					name="person"
 					required
 					id="sanctions-input"
 				/>
-				<button className="px-4 bg-orange-primary text-white hover:bg-orange-primary-hover border-orange-primary hover:border-orange-primary-hover flex items-center justify-center transform-gpu transition cursor-pointer border">
+				<button className="px-4 bg-wine-primary text-white hover:bg-wine-primary-hover border-wine-primary hover:border-wine-primary-hover flex items-center justify-center transform-gpu transition cursor-pointer border">
 					Vyhledat
 				</button>
 			</div>
