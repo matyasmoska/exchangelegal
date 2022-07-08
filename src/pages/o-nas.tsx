@@ -21,7 +21,7 @@ export default function AboutPage () {
 	return (
 		<DefaultLayout>
 			<SEO
-				title="O nás – AML solutions"
+				title="O nás – 15zisif.cz"
 				description="✅ Jsme předními odborníky v oblasti AML compliance ⭐ Máme unikátní zkušenosti a know-how v AML/CFT"
 				keywords="AML, AML solutions, AML compliance, AML povinnosti, AML systém vnitřních zásad, AML školení, AML hodnocení rizik, AML dotazník, AML zákon, AML směrnice"
 			/>
