@@ -83,7 +83,7 @@ const CookieSection = ({ header, description, rows, className, ...toggleProps }:
 const MoreInfo = () => (
   <>
     {staticData.moreInfo.text}{' '}
-    <a href={staticData.moreInfo.link} className="underline hover:text-orange-primary" target="_blank" rel="noreferrer">
+    <a href={staticData.moreInfo.link} className="underline hover:text-wine-primary" target="_blank" rel="noreferrer">
       {staticData.moreInfo.linkText}
     </a>
     .
