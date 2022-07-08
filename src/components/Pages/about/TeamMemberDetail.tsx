@@ -45,7 +45,7 @@ const TeamMemberDetail: FC<{ member: TeamMember }> = ({ member }) => {
 				)}
 				<div
 					className={c(
-						'absolute w-full h-full bg-orange-primary -bottom-5 -left-5',
+						'absolute w-full h-full bg-wine-primary -bottom-5 -left-5',
 						'md:-bottom-2.5 md:-left-2.5'
 					)}
 				/>
