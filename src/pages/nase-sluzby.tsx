@@ -26,7 +26,7 @@ export default function Services () {
 	return (
 		<DefaultLayout>
 			<SEO
-				title="Systémová řešení pro Vaše AML povinnosti na míru | AML solutions"
+				title="Naše služby | 15zisif.cz"
 				description="Jsme předními odborníky v oblasti AML compliance, poskytujeme komplexní řešení a služby ✅ Úvodní konzultace zdarma ⭐"
 				keywords="AML, AML solutions, AML compliance, AML povinnosti, AML systém vnitřních zásad, AML školení, AML hodnocení rizik, AML dotazník, AML zákon, AML směrnice"
 			/>
