@@ -44,7 +44,7 @@ export default function Contact () {
 							<p className="font-bold">{contactPageData.address.firstLine}</p>
 							<p>{contactPageData.address.secondLine}</p>
 							<p>{contactPageData.address.thirdLine}</p>
-							<p>Společnost je zapsána v obchodním rejstříku vedeném Městským soudem v Praze, sp. zn. C 346730</p>
+							<p>Webová stránka je společnou prezentací advokátů Mgr. Matyáše Mosky a Mgr. Jakuba Pártla, LL.M., poskytujících právní služby samostatně, z nichž každý je pojištěn pro případ vzniku odpovědnosti za újmu způsobenou při výkonu advokacie.</p>
 						</div>
 						<div className={c('space-y-2.5 w-4/6', 'md:w-full')}>
 							<WrappedIconRow Icon={PhoneIcon} href={`tel:${contactPageData.phoneNumber}`}>
