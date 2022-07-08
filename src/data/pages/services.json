@@ -57,6 +57,15 @@
             "price": 9000,
             "link": "/investicni-strategie",
             "icon": "/images/serviceIcons/investicni-strategie.png"
+        },
+        
+                        {
+            "id": "bezplatna-konzultace",
+            "name": "Bezplatná konzultace",
+            "description": "Máte dotazy? Nejste si jisti svou volbou? Rádi Vám poradíme.",
+            "price": 0,
+            "link": "/",
+            "icon": "/images/serviceIcons/bezplatna-konzultace.png"
         }
 
     ]
