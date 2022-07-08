@@ -6,7 +6,7 @@
             "description": "Připravíme pro Vás kompletní dokumentaci pro registraci minifondu dle § 15 ZISIF u České národní banky na klíč.",
             "price": 49000,
             "link": "/zalozeni-minifondu-na-klic",
-            "icon": "/images/serviceIcons/zasady.svg"
+            "icon": "/images/serviceIcons/zalozeni-minifondu-na-klic.png"
         },
         {
             "id": "reporting-cnb",
@@ -14,7 +14,7 @@
             "description": "Zjednodušujeme pro Vás plnění Vašich reportingových povinností. Výkaznictví ČNB vyřešíme za Vás; nastavíme pravidelné reporty ROFOS 36 a ROFOS 37 dle aktuálních legislativních požadavků.",
             "price": 9000,
             "link": "/reporting-cnb",
-            "icon": "/images/serviceIcons/hodnoceni_rizik.svg"
+            "icon": "/images/serviceIcons/reporting-cnb.png"
         },
         {
             "id": "priprava-kid-dle-narizeni-priips",
@@ -22,7 +22,7 @@
             "description": "Potřebujete pomoci s přípravou dokumentu KID? Žádný problém, tzv. Sdělení klíčových informací (PRIIPs) pro Vás připravíme na míru.",
             "price": 39000,
             "link": "/priprava-kid-dle-narizeni-priips",
-            "icon": "/images/serviceIcons/aml_dotaznik.svg"
+            "icon": "/images/serviceIcons/priprava-kid-dle-narizeni-priips.png"
         },
         {
             "id": "povinnosti-dle-narizeni-sfdr",
@@ -30,7 +30,7 @@
             "description": "Pomůžeme Vám s efektivním splněním Vašich povinností dle nařízení SFDR",
             "price": 9000,
             "link": "/povinnosti-dle-narizeni-sfdr",
-            "icon": "/images/serviceIcons/skoleni_a_metodika.svg"
+            "icon": "/images/serviceIcons/povinnosti-dle-narizeni-sfdr.png"
         },
                 {
             "id": "aml-povinnosti",
@@ -38,7 +38,7 @@
             "description": "Potřebujete vyřešit AML povinnosti? Neváhejte se na nás obrátit.Připravíme pro Vás nezbytné dokumenty související s plněním AML veškerých povinností dle AML zákona.",
             "price": 40000,
             "link": "/aml-povinnosti",
-            "icon": "/images/serviceIcons/skoleni-na-mezinarodni-sankce.svg"
+            "icon": "/images/serviceIcons/aml-povinnosti.png"
         },
 
         {
@@ -47,7 +47,7 @@
             "description": "Připravíme pro Vás investiční smlouvu na míru dle zákonných požadavků, případně Vám pomůžeme s úpravou Vaší strávající investiční smlouvy.",
             "price": 19000,
             "link": "/investicni-smlouva",
-            "icon": "/images/serviceIcons/aml_audit.svg"
+            "icon": "/images/serviceIcons/investicni-smlouva.png"
         },
         
                 {
@@ -56,7 +56,7 @@
             "description": "Připravíme pro Vás investiční strategii na míru, případně Vám pomůžeme s úpravou Vaší strávající investiční strategie.",
             "price": 9000,
             "link": "/investicni-strategie",
-            "icon": "/images/serviceIcons/komunikace_s_fau.svg"
+            "icon": "/images/serviceIcons/investicni-strategie.png"
         }
 
     ]
