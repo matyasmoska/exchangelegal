@@ -72,7 +72,7 @@ export const ServiceItem: FC<ServiceItemProps> = ({ serviceItem, selectedItems, 
 					<div className="flex items-end justify-between">
 						<p className="mb-[2px] text-lg">Cena od:</p>
 						<p
-							className={c('text-3xl font-bold text-orange-primary', '3xl:text-2xl')}
+							className={c('text-3xl font-bold text-wine-primary', '3xl:text-2xl')}
 						>{`${ns(serviceItem.price)},- Kč`}</p>
 					</div>
 					<div className="flex justify-end text-lg text-gray-400">bez DPH</div>
@@ -96,7 +96,7 @@ export const ServiceItem: FC<ServiceItemProps> = ({ serviceItem, selectedItems, 
 						</m.div>
 						<CheckmarkIcon className="w-12 h-12" />
 						<h3 className={c('text-3xl font-bold max-w-[90%] text-center', '3xl:text-xl')}>{serviceItem.name}</h3>
-						<p className="text-[32px] font-bold text-orange-primary">Přidáno</p>
+						<p className="text-[32px] font-bold text-wine-primary">Přidáno</p>
 					</m.div>
 				)}
 				{hover && !isSelected && !isMd && (
