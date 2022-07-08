@@ -28,7 +28,7 @@ const TextArea: FC<AuthTextAreaFields> = ({ form, value, className, id, rows = 3
 				className={c(
 					form.errors[id] ? 'border-red-500' : 'border-dark-blue',
 					'text-gray-900 text-medium block w-full p-2 px-3 mt-1 resize-none placeholder-gray-400',
-					'focus:ring-0 focus:border-orange-primary focus:shadow-none',
+					'focus:ring-0 focus:border-wine-primary focus:shadow-none',
 					'md:py-2.5 md:px-2.5',
 					className
 				)}
