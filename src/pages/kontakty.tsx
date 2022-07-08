@@ -12,7 +12,7 @@ export default function Contact () {
 	return (
 		<DefaultLayout>
 			<SEO
-				title="Kontakty – AML solutions"
+				title="Kontakty – 15zisif.cz"
 				description="✅ Jsme předními odborníky v oblasti AML compliance ⭐ Máme unikátní zkušenosti a know-how v AML/CFT"
 				keywords="AML, AML solutions, AML compliance, AML povinnosti, AML systém vnitřních zásad, AML školení, AML hodnocení rizik, AML dotazník, AML zákon, AML směrnice"
 			/>
@@ -55,15 +55,7 @@ export default function Contact () {
 							</WrappedIconRow>
 						</div>
 						<div className="flex flex-col space-y-2.5 w-4/6 text-dark-blue">
-							<a
-								href={contactPageData.links.facebook}
-								className="flex items-center space-x-3"
-								aria-label="Facebook Link"
-								target="_blank"
-							>
-								<FacebookIcon className="fill-current w-7 h-7" />
-								<span>Facebook</span>
-							</a>
+
 							<a
 								href={contactPageData.links.twitter}
 								className="flex items-center space-x-3"
