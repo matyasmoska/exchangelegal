@@ -1,84 +1,61 @@
 {
     "services": [
         {
-            "id": "system-vnitrnich-zasad",
-            "name": "AML systém vnitřních zásad",
-            "description": "Písemný dokument, který musí mít zpracován některé povinné osoby. U ostatních povinných osob musí existovat alespoň v podobě “nepsaných pravidel”, která se dodržují.",
-            "price": 19000,
-            "link": "/system-vnitrnich-zasad",
+            "id": "zalozeni-minifondu-na-klic",
+            "name": "Založení minifondu na klíč",
+            "description": "Připravíme pro Vás kompletní dokumentaci pro registraci minifondu dle § 15 ZISIF u České národní banky na klíč.",
+            "price": 49000,
+            "link": "/zalozeni-minifondu-na-klic",
             "icon": "/images/serviceIcons/zasady.svg"
         },
         {
-            "id": "hodnoceni-rizik",
-            "name": "AML hodnocení rizik",
-            "description": "Je součástí systému vnitřních zásad. Správné nastavení hodnocení rizik \"na míru\" je nezbytným předpokladem k tomu, aby AML povinnosti byly řádně plněny a případná kontrola skončila bez nálezu.",
+            "id": "reporting-cnb",
+            "name": "Reporting ČNB",
+            "description": "Zjednodušujeme pro Vás plnění Vašich reportingových povinností. Výkaznictví ČNB vyřešíme za Vás; nastavíme pravidelné reporty ROFOS 36 a ROFOS 37 dle aktuálních legislativních požadavků.",
             "price": 9000,
-            "link": "/hodnoceni-rizik",
+            "link": "/reporting-cnb",
             "icon": "/images/serviceIcons/hodnoceni_rizik.svg"
         },
         {
-            "id": "aml-dotaznik",
-            "name": "AML dotazník pro identifikaci a kontrolu klienta 2022",
-            "description": "Provádějte identifikaci a kontrolu klienta dle požadavků AML zákona 2022 s profesionálním AML dotazníkem, který Vám usnadní zachycování jednotlivých kroků a informací formou strukturovaného písemného záznamu.",
-            "price": 2400,
-            "link": "/aml-dotaznik",
+            "id": "priprava-kid-dle-narizeni-priips",
+            "name": "Příprava KID dle nařízení PRIIPs",
+            "description": "Potřebujete pomoci s přípravou dokumentu KID? Žádný problém, tzv. Sdělení klíčových informací (PRIIPs) pro Vás připravíme na míru.",
+            "price": 39000,
+            "link": "/priprava-kid-dle-narizeni-priips",
             "icon": "/images/serviceIcons/aml_dotaznik.svg"
         },
         {
-            "id": "aml-skoleni-a-metodika",
-            "name": "AML školení a metodika",
-            "description": "Pravidelné AML školení zaměstnanců a dalších osob, které provádějí identifikaci a kontrolu klienta, nejméně jednou za 12 měsíců je povinností, za jejíž porušení hrozí sankce. Cena je za 1 účastníka, přičemž minimální počet účastníků je 5 osob.",
-            "price": 1700,
-            "link": "/aml-skoleni-a-metodika",
+            "id": "povinnosti-dle-narizeni-sfdr",
+            "name": "Povinnosti dle nařízení SFDR",
+            "description": "Pomůžeme Vám s efektivním splněním Vašich povinností dle nařízení SFDR",
+            "price": 9000,
+            "link": "/povinnosti-dle-narizeni-sfdr",
             "icon": "/images/serviceIcons/skoleni_a_metodika.svg"
         },
                 {
-            "id": "skoleni-na-mezinarodni-sankce",
-            "name": "Školení na mezinárodní sankce a jejich uplatňování v praxi",
-            "description": "Prakticky orientované školení je určeno pro podnikatele a další osoby, které ve své každodenní praxi uzavírají, resp. plánují uzavírat obchody s partnery ze zemí stižených mezinárodními sankcemi. Cena je za 1 účastníka, přičemž minimální počet účastníků je 2 osoby. Délka školení je 60 - 90 minut.",
-            "price": 1500,
-            "link": "/skoleni-na-mezinarodni-sankce",
+            "id": "aml-povinnosti",
+            "name": "AML povinnosti",
+            "description": "Potřebujete vyřešit AML povinnosti? Neváhejte se na nás obrátit.Připravíme pro Vás nezbytné dokumenty související s plněním AML veškerých povinností dle AML zákona.",
+            "price": 40000,
+            "link": "/aml-povinnosti",
             "icon": "/images/serviceIcons/skoleni-na-mezinarodni-sankce.svg"
         },
         {
-            "id": "urceni-kontaktni-osoby-fau-a-poverene-osoby",
-            "name": "Určení kontaktní osoby FAÚ a pověřené osoby",
-            "description": "Připravíme pro Vás nezbytné dokumenty související s plněním AML povinností za účelem určení kontaktní osoby FAÚ a písemného pověření člena statutárního orgánu.",
-            "price": 2000,
-            "link": "/urceni-kontaktni-osoby-fau-a-poverene-osoby",
+            "id": "investicni-strategie",
+            "name": "Investiční strategie",
+            "description": "Připravíme pro Vás investiční strategii na míru, případně Vám pomůžeme s úpravou Vaší strávající investiční strategie.",
+            "price": 9000,
+            "link": "/investicni-strategie",
             "icon": "/images/serviceIcons/komunikace_s_fau.svg"
         },
         {
-            "id": "zapis-do-evidence-skutecnych-majitelu",
-            "name": "Zápis do evidence skutečných majitelů",
-            "description": "Evidence skutečných majitelů je informačním systémem veřejné správy, do kterého se zapisují zákonem vymezené údaje o skutečných majitelích. Zajistíme pro Vás zápis údajů do evidence skutečných majitelů dle zákonných požadavků.",
-            "price": 5000,
+            "id": "investicni-smlouva",
+            "name": "Investiční smlouva",
+            "description": "Připravíme pro Vás investiční smlouvu na míru dle zákonných požadavků, případně Vám pomůžeme s úpravou Vaší strávající investiční smlouvy.",
+            "price": 19000,
             "link": "/zapis-do-evidence-skutecnych-majitelu",
             "icon": "/images/serviceIcons/aml_audit.svg"
-        },
-                {
-            "id": "zaklady-aml",
-            "name": "Základy AML – on-line kurz pro začátečníky",
-            "description": "Náš základní kurz v délce trvání 1 hodiny Vás srozumitelnou formou provede základy právní úpravy AML/CFT. Kurz je určen pro osoby, které se chtějí zorientovat v problematice AML/CFT a získat základní znalosti z tohoto oboru.",
-            "price": 1500,
-            "link": "/nase-sluzby/",
-            "icon": "/images/serviceIcons/skoleni_a_metodika.svg"
-        },
-                {
-            "id": "poradenstvi-a-konzultace",
-            "name": "Komplexní poradenství a konzultace",
-            "description": "Nevíte si s problematikou AML/CFT rady a potřebujete se poradit? Nabízíme jednorázové on-line i osobní konzultace, které účtujeme po 30 minutách.",
-            "price": 1500,
-            "link": "/nase-sluzby/",
-            "icon": "/images/serviceIcons/dlouhodoba_spoluprace.svg"
-        },
-                {
-            "id": "aml-audit",
-            "name": "AML audit",
-            "description": "V rámci AML auditu detailně prověříme nastavení Vašich vnitřních AML/CFT a KYC procesů a zásad, prověříme zavedení, řízení a hodnocení AML/CFT rizik, systém reportingu a v případě nalezení pochybení navrhneme řešení.",
-            "price": 19000,
-            "link": "/nase-sluzby/",
-            "icon": "/images/serviceIcons/system_kontroly_klienta.svg"
         }
+
     ]
 }
