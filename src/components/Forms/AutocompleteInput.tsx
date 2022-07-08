@@ -50,7 +50,7 @@ const AutocompleteInput: FC<AuthTextInputFields> = ({
 					className={c(
 						'border-dark-blue',
 						'text-medium block w-full px-3 py-2 text-base placeholder-gray-400',
-						'focus:ring-0 focus:border-orange-primary focus:shadow-none',
+						'focus:ring-0 focus:border-wine-primary focus:shadow-none',
 						'md:py-2.5 md:px-2.5'
 					)}
 					value={value}
@@ -77,7 +77,7 @@ const AutocompleteInput: FC<AuthTextInputFields> = ({
 								<motion.li
 									layout="position"
 									key={`person-autocomplete-${item}`}
-									className="px-4 py-2 text-xs text-left hover:bg-orange-primary-hover hover:text-white cursor-pointer"
+									className="px-4 py-2 text-xs text-left hover:bg-wine-primary-hover hover:text-white cursor-pointer"
 									onClick={e => handleClick(item)}
 								>
 									{item}
