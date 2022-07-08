@@ -24,9 +24,9 @@ export const QuestionDetail: FC<{ question: FAQuestion }> = ({ question }) => {
 		>
 			<m.div layout className="flex items-center space-x-2">
 				{isOpen ? (
-					<MinusIcon className={c("self-start flex-shrink-0 w-8 text-orange-primary mt-0.5", "md:mt-1")} />
+					<MinusIcon className={c("self-start flex-shrink-0 w-8 text-wine-primary mt-0.5", "md:mt-1")} />
 				) : (
-					<PlusIcon className={c("self-start flex-shrink-0 w-8 text-orange-primary mt-0.5", "md:mt-1")} />
+					<PlusIcon className={c("self-start flex-shrink-0 w-8 text-wine-primary mt-0.5", "md:mt-1")} />
 				)}
 				<m.h2 layout className="text-xl font-bold">
 					{question.question}
@@ -37,7 +37,7 @@ export const QuestionDetail: FC<{ question: FAQuestion }> = ({ question }) => {
 					<m.div
 						{ ...opacityAnimation }
 						layout
-						className={c("px-3 ml-10 prose text-justify max-w-none border-l-3 border-orange-primary", "md:ml-0")}
+						className={c("px-3 ml-10 prose text-justify max-w-none border-l-3 border-wine-primary", "md:ml-0")}
 					>
 						{question.answer}
 					</m.div>
@@ -51,8 +51,8 @@ export default function FAQPage () {
 	return (
 		<DefaultLayout>
 			<SEO
-				title="Často kladené dotazy – AML solutions"
-				description="✅ Vy se ptáte, my odpovídáme, nejčastější otázky, které nám pokládáte v souvislosti s AML problematikou ⭐"
+				title="Často kladené dotazy – 15zisif.cz"
+				description="✅ Vy se ptáte, my odpovídáme, nejčastější otázky, které nám pokládáte v souvislosti s minifondem dle § 15 ZISIF⭐"
 				keywords="AML, AML solutions, AML compliance, AML povinnosti, AML systém vnitřních zásad, AML školení, AML hodnocení rizik, AML dotazník, AML zákon, AML směrnice"
 			/>
 			<div className={c("py-16 text-justify px-36 mb-52 space-y-14", 'md:px-4 md:py-8')}>
