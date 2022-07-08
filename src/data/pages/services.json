@@ -11,7 +11,7 @@
         {
             "id": "reporting-cnb",
             "name": "Reporting ČNB",
-            "description": "Zjednodušujeme pro Vás plnění Vašich reportingových povinností. Výkaznictví ČNB vyřešíme za Vás; nastavíme pravidelné reporty ROFOS 36 a ROFOS 37 dle aktuálních legislativních požadavků.",
+            "description": "Zjednodušujeme pro Vás plnění Vašich reportingových povinností. Výkaznictví ČNB vyřešíme za Vás, nastavíme pravidelné reporty ROFOS 36 a ROFOS 37 dle aktuálních legislativních požadavků.",
             "price": 9000,
             "link": "/reporting-cnb",
             "icon": "/images/serviceIcons/reporting-cnb.png"
@@ -35,7 +35,7 @@
                 {
             "id": "aml-povinnosti",
             "name": "AML povinnosti",
-            "description": "Potřebujete vyřešit AML povinnosti? Neváhejte se na nás obrátit.Připravíme pro Vás nezbytné dokumenty související s plněním AML veškerých povinností dle AML zákona.",
+            "description": "Potřebujete vyřešit AML povinnosti? Neváhejte se na nás obrátit. Připravíme pro Vás nezbytné dokumenty související s plněním AML veškerých povinností dle AML zákona.",
             "price": 40000,
             "link": "/aml-povinnosti",
             "icon": "/images/serviceIcons/aml-povinnosti.png"
