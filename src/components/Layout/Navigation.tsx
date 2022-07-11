@@ -19,10 +19,8 @@ const NavItems = () => {
 		<Fragment>
 			<NavItem href={'/aktuality'}>{pageData.news}</NavItem>
 			<NavItem href={'/nase-sluzby'}><span className="font-bold">{pageData.services}</span></NavItem>
-			{/*<NavItem href={'/co-je-to-aml'}>{pageData.whatisaml}</NavItem>*/}
-			<NavItem href={'/zalozeni-fondu-na-klic'}>{pageData.zalozeni}</NavItem>
+			<NavItem href={'/zalozeni-minifondu-na-klic'}>{pageData.zalozeni}</NavItem>
 			<NavItem href={'/casto-kladene-dotazy'}>{pageData.castokladenedotazy}</NavItem>
-			{/* <NavItem href={'/calculator'}>Cenový kalkulátor</NavItem> */}
 			<NavItem href={'/o-nas'}>{pageData.about}</NavItem>
 			<NavItem href={'/kontakty'}>{pageData.contact}</NavItem>
 	
