@@ -13,23 +13,23 @@ const SEO = ({ title = pageData.title, description = pageData.description, keywo
                 }
             ] : undefined}
             openGraph={{
-                url: 'https://amlsolutions.cz',
+                url: 'https://15zisif.cz',
                 title: pageData.title,
                 description: pageData.description,
                 site_name: pageData.site_name,
                 locale: 'cs_CS',
                 images: [
                     {
-                        url: 'https://www.amlsolutions.cz/_next/image?url=%2Fimages%2Fbackground2.png&w=3840&q=75',
-                        alt: 'AML solutions',
+                        url: 'https://www.15zisif.cz/images/background.jpg',
+                        alt: '15zisif.cz',
                         width: 1352,
                         height: 602
                     }
                 ]
               }}
               twitter={{
-                handle: '@solutions_aml',
-                site: '@solutions_aml',
+                handle: '@15zisif',
+                site: '@15zisif',
                 cardType: 'summary_large_image'
               }}
         />
