@@ -22,8 +22,8 @@ export default function AboutPage () {
 		<DefaultLayout>
 			<SEO
 				title="O nás – 15zisif.cz"
-				description="✅ Jsme předními odborníky v oblasti AML compliance ⭐ Máme unikátní zkušenosti a know-how v AML/CFT"
-				keywords="AML, AML solutions, AML compliance, AML povinnosti, AML systém vnitřních zásad, AML školení, AML hodnocení rizik, AML dotazník, AML zákon, AML směrnice"
+				description="✅ Jsme odborníky v oblasti zakládání fondů ⭐ Máme unikátní zkušenosti a know-how v oblasti minifondů dle § 15 ZISIF"
+				keywords="minifond, alternativní fond, § 15 ZISIF, 15zisif"
 			/>
 			<div className="text-center">
 				<div className="relative w-full bg-gray-50">
