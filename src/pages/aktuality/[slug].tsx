@@ -57,13 +57,13 @@ const PostDetailPage: NextPage<PostDetailPageProps> = ({ news, newsItem, author 
 	return (
 		<DefaultLayout>
 			<NextSeo
-				title={newsItem.name + ' | AML solutions'}
+				title={newsItem.name + ' | 15zisif.cz'}
 				description={newsItem.previewText}
 				openGraph={{
-					url: 'https://amlsolutions.cz/aktuality/' + newsItem.slug,
-					title: newsItem.name + ' | AML solutions',
+					url: 'https://15zisif.cz/aktuality/' + newsItem.slug,
+					title: newsItem.name + ' | 15zisif.cz',
 					description: newsItem.previewText,
-					site_name: 'AML solutions',
+					site_name: '15zisif.cz',
 					type: 'article',
 					article: {
 						publishedTime: newsItem.date
@@ -77,8 +77,8 @@ const PostDetailPage: NextPage<PostDetailPageProps> = ({ news, newsItem, author 
 					]
 				}}
 				twitter={{
-					handle: '@solutions_aml',
-					site: '@solutions_aml',
+					handle: '@15zisif',
+					site: '@15zisif',
 					cardType: 'summary_large_image'
 				}}
 			/>
