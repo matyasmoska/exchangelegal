@@ -9,8 +9,8 @@ export default function PrivacyPolicyPage () {
 		<DefaultLayout>
 			<SEO
 				title="Zásady zpracování osobních údajů – 15zisif.cz"
-				description="Systémová řešení pro Vaše AML povinnosti na míru. Jsme předními odborníky v oblasti AML compliance"
-				keywords="AML, AML solutions, AML compliance, AML povinnosti, AML systém vnitřních zásad, AML školení, AML hodnocení rizik, AML dotazník, AML zákon, AML směrnice"
+				description="✅ Jsme odborníky v oblasti zakládání fondů ⭐ Máme unikátní zkušenosti a know-how v oblasti minifondů dle § 15 ZISIF"
+				keywords="minifond, alternativní fond, § 15 ZISIF, 15zisif"
 			/>
 			<div className="flex justify-center w-full">
 				<div
