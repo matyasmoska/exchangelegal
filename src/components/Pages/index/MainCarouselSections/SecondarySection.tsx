@@ -45,12 +45,12 @@ const SecondarySection = () => {
 						'md:block md:space-y-6 md:w-full md:space-x-0'
 					)}
 				>
-					<a href="https://www.amlsolutions.cz/overovani-mezinarodnich-sankci" target="_blank" rel="noreferrer">
+					<a href="/reporting-cnb" target="_blank" rel="noreferrer">
 						<Button type="basic" className="px-3 py-2">
 							{pageData.secondarySection.firstButtonText}
 						</Button>
 					</a>
-					<Link href="/seznam-vysoce-rizikovych-zemi">
+					<Link href="/nase-sluzby">
 						<Button type="light" className="px-10 py-2">
 							{pageData.secondarySection.secondButtonText}
 						</Button>
