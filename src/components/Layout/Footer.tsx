@@ -99,7 +99,7 @@ const Footer = () => {
 							<a href={`mailto:${contactPageData.contact.email}`} className="hover:underline">
 								{contactPageData.contact.email}
 							</a>
-							<a className="hover:underline" href="/docs/obchodni_podminky_AML_solutions.pdf" target="_blank">{pageData.tos}</a>
+							<a className="hover:underline" href="/pravni-informace-a-podminky-uziti" target="_blank">{pageData.tos}</a>
 							<Link href="/zasady-zpracovani-osobnich-udaju">
 								<a className="hover:underline">{pageData.privacypolicy}</a>
 							</Link>
