@@ -31,20 +31,7 @@ const ObligationsPage = () => {
 					<section className={c('py-8 space-y-4 prose max-w-[802px] leading-relaxed', 'md:px-6 md:py-6')}>
 						<TopPartMdx />
 					</section>
-					<section className={c('flex justify-center w-full bg-light-blue py-14', 'md:py-8')}>
-						<div
-							className={c(
-								'flex space-x-14 max-w-[802px]',
-								'md:flex md:flex-col md:items-center md:px-6 md:space-x-0 md:space-y-8'
-							)}
-						>
-							<div className="space-y-6 text-dark-blue">
-								<h3 className="text-3xl font-bold">{pageData.highlightSection.header}</h3>
-								<ParagraphOrMultiple text={pageData.highlightSection.text} className="text-justify" />
-							</div>
-							<img src="/images/obligations_graphic.svg" alt="thumbnail-graphic" className="relative" />
-						</div>
-					</section>
+					
 
 					<section className={c('py-8 pb-12 space-y-4 max-w-[802px] leading-relaxed prose', 'md:px-6 md:py-6')}>
 						<BottomPartMdx />
