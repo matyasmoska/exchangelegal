@@ -93,18 +93,7 @@ const ServicesForm: FC<{ form: any; visibleRef: any }> = ({ form, visibleRef }) 
 						</span>
 					}
 				/>
-				<Checkbox
-					id={'marketingAgreement'}
-					form={form}
-					isChecked={form.values.marketingAgreement}
-					value={'Souhlasím se zasíláním obchodních sdělení'}
-					label={
-						<span>
-							Souhlasím se{' '}
-							<a className="underline" href="/docs/obchodni_podminky_AML_solutions.pdf" target="_blank">zasíláním obchodních sdělení</a>
-						</span>
-					}
-				/>
+
 			</div>
 			<div className="flex flex-col items-end justify-end w-full space-y-4">
 				<Button
