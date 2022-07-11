@@ -21,29 +21,7 @@ const ObligationsPage = () => {
 				keywords="minifond, alternativní fond, § 15 ZISIF, 15zisif"
 			/>
 			<div className={c('relative items-center')}>
-				<div className="relative w-full">
-					<div className="h-[385px]">
-						<Image
-							layout="fill"
-							objectFit="cover"
-							className="absolute"
-							priority
-							src={'/images/obligations_background.jpg'}
-						/>
-						<div
-							className={c(
-								'absolute top-0 left-0 z-10 w-full h-full from-dark-blue via-[#021C62A6] bg-gradient-to-r to-transparent',
-								'md:to-dark-blue md:opacity-80'
-							)}
-						/>
-						<div className="relative z-20 flex flex-col items-center justify-center w-full h-full text-center text-white">
-							<div className="flex flex-col max-w-2xl space-y-6">
-								<h1 className="text-[40px] font-bold">{pageData.header}</h1>
-								<p className={c('text-xl font-medium', 'md:text-lg md:px-6')}>{pageData.shortText}</p>
-							</div>
-						</div>
-					</div>
-				</div>
+
 				<div
 					className={c(
 						'flex flex-col items-center text-justify leading-relaxed pb-16',
