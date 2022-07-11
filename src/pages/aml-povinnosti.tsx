@@ -16,9 +16,9 @@ const ObligationsPage = () => {
     return (
         <DefaultLayout>
 			<SEO
-				title="AML povinnosti – neriskujte případnou pokutu | AML solutions"
-				description="Jsme předními odborníky v oblasti AML compliance, poskytujeme komplexní řešení a služby ✅ Úvodní konzultace zdarma ⭐"
-				keywords="AML, AML solutions, AML compliance, AML povinnosti, AML systém vnitřních zásad, AML školení, AML hodnocení rizik, AML dotazník, AML zákon, AML směrnice"
+				title="AML povinnosti | 15zisif.cz"
+				description="✅ Jsme odborníky v oblasti zakládání fondů ⭐ Máme unikátní zkušenosti a know-how v oblasti minifondů dle § 15 ZISIF"
+				keywords="minifond, alternativní fond, § 15 ZISIF, 15zisif"
 			/>
 			<div className={c('relative items-center')}>
 				<div className="relative w-full">
