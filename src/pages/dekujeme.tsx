@@ -8,9 +8,9 @@ const ServiceFormSuccessPage = () => {
 	return (
 		<DefaultLayout>
 			<SEO
-				title="Děkujeme za Vaši objednávku! AML solutions"
-				description="✅ Jsme předními odborníky v oblasti AML compliance ⭐ Máme unikátní zkušenosti a know-how v AML/CFT"
-				keywords="AML, AML solutions, AML compliance"
+				title="Děkujeme za Vaši objednávku! 15zisif.cz"
+				description="✅  Jsme odborníky v oblasti zakládání fondů ⭐ Máme unikátní zkušenosti a know-how v oblasti minifondů dle § 15 ZISIF"
+				keywords="minifond, alternativní fond, § 15 ZISIF, 15zisif"
 			/>
 			<main className="flex items-center justify-center w-full">
 				<div
