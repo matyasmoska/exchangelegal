@@ -16,7 +16,7 @@ const ShareArticleLinks: FC<{ article: NewsItem }> = ({ article }) => {
 		<div className="flex items-center space-x-4">
 			<span className="text-sm">Sdílejte článek:</span>
 			<div className="flex items-center space-x-2">
-				<FacebookShareButton url={encodeURI('https://www.amlsolutions.cz/aktuality/' + article.slug)}>
+				<FacebookShareButton url={encodeURI('https://www.15zisif.cz/aktuality/' + article.slug)}>
 					<FacebookIcon className="fill-current w-7 h-7" />
 				</FacebookShareButton>
 				<a href={twitterLink} aria-label="Twitter Link" target="_blank">
@@ -24,8 +24,8 @@ const ShareArticleLinks: FC<{ article: NewsItem }> = ({ article }) => {
 				</a>
 				<LinkedinShareButton
 					title={article.name}
-					source="AML Solutions"
-					url={encodeURI('https://www.amlsolutions.cz/aktuality/' + article.slug)}
+					source="15zisif.cz"
+					url={encodeURI('https://www.15zisif.cz/aktuality/' + article.slug)}
 				>
 					<LinkedInIcon className="fill-current w-7 h-7" />
 				</LinkedinShareButton>
