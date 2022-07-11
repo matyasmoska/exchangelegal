@@ -1,4 +1,4 @@
-Toto je repozitář pro stránky AML solutions.
+Toto je repozitář pro stránky 15zisif.cz.
 
 ## Vývoj
 
