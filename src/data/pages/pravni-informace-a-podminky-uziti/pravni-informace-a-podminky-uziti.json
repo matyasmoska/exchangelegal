@@ -1,10 +1,18 @@
 {
-    "header": "AML povinnosti",
+    "header": "Právní informace a podmínky užití",
     "shortText": "",
     "topText": [
         ""      
-    ]
-   
-    
-
+    ],
+    "highlightSection": {
+        "header": "",
+        "text": [
+            "",
+            ""
+        ]
+    },
+    "bottomText": [
+        ""
+    ],
+    "buttonText": ""
 }
