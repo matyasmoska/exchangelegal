@@ -76,18 +76,7 @@ const ContactForm = () => {
 							</span>
 						}
 					/>
-					<Checkbox
-						id={'marketingAgreement'}
-						form={form}
-						isChecked={form.values.marketingAgreement}
-						value={'Souhlasím se zasíláním obchodních sdělení'}
-						label={
-							<span>
-								Souhlasím se{' '}
-								<a className="underline" href="/docs/obchodni_podminky_AML_solutions.pdf" target="_blank">zasíláním obchodních sdělení</a>
-							</span>
-						}
-					/>
+					
 				</div>
 				<div className="flex flex-col items-end self-end space-y-4">
 					<Button
