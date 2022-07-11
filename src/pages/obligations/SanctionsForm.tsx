@@ -1,6 +1,6 @@
 import { ChangeEvent, FC, useEffect, useRef, useState } from 'react'
 import Input from '../../Forms/AutocompleteInput'
-import { fetchAutocomplete } from '../../../services/sancions'
+
 
 interface SancionsFormProps {
 	onFormSubmit: (e: React.FormEvent<HTMLFormElement>) => void
