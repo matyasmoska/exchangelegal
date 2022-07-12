@@ -65,7 +65,7 @@ const Footer = () => {
 					<div className="flex flex-col space-y-4">
 						
 						<Link href="/co-je-to-minifond">
-							<a className="hover:underline">{pageData.cojetominifond}</a>
+							<a className="hover:underline">{pageData.cojeto}</a>
 						</Link>
 						
 						
