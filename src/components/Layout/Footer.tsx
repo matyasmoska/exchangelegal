@@ -63,6 +63,12 @@ const Footer = () => {
 				<div className="space-y-10">
 					<h3 className="text-xl font-bold">Menu</h3>
 					<div className="flex flex-col space-y-4">
+						
+						<Link href="/co-je-to-minifond">
+							<a className="hover:underline">{pageData.cojetominifond}</a>
+						</Link>
+						
+						
 						<Link href="/povinnosti-spravce-fondu">
 							<a className="hover:underline">{pageData.povinnostispravcefondu}</a>
 						</Link>
