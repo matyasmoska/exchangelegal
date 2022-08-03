@@ -15,8 +15,8 @@ const TeamMemberDetail: FC<{ member: TeamMember }> = ({ member }) => {
 
 	return (
 		<div
-			style={{ gridTemplateColumns: isMd ? '1fr' : '0.6fr 1fr' }}
-			className={c('grid max-w-[900px] space-x-8 team-member items-start', 'md:space-x-0 md:space-y-8 md:max-w-none')}
+			style={{ gridTemplateColumns: isMd ? '1fr' : '0.4fr 1fr' }}
+			className={c('grid max-w-[788px] space-x-8 team-member items-start', 'md:space-x-0 md:space-y-8 md:max-w-none')}
 		>
 			<div className="relative flex-shrink-0">
 				<div>
