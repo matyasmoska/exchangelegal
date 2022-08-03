@@ -20,7 +20,6 @@ const NavItems = () => {
 			<NavItem href={'/aktuality'}>{pageData.news}</NavItem>
 			<NavItem href={'/nase-sluzby'}><span className="font-bold">{pageData.services}</span></NavItem>
 			<NavItem href={'/co-je-to-minifond'}>{pageData.cojeto}</NavItem>
-			<NavItem href={'/zalozeni-minifondu-na-klic'}>{pageData.zalozeni}</NavItem>
 			<NavItem href={'/povinnosti-spravce-fondu'}>{pageData.povinnostispravcefondu}</NavItem>
 			<NavItem href={'/casto-kladene-dotazy'}>{pageData.castokladenedotazy}</NavItem>
 			<NavItem href={'/o-nas'}>{pageData.about}</NavItem>
