@@ -11,7 +11,12 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="cs">
-        <Head />
+        <Head>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=optional"
+            rel="stylesheet"
+          />
+        </Head>
         <body>
           <Main />
           <NextScript />

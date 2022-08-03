@@ -14,6 +14,7 @@ const Footer = () => {
 		<div
 			className={c(
 				'flex items-center justify-between w-full py-20 text-white px-32 bg-dark-blue',
+				'font-header',
 				'3xl:px-24',
 				'2xl:px-20',
 				'md:py-10 md:px-10 md:block md:space-y-16 md:text-center md:text-lg'

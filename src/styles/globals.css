@@ -9,3 +9,7 @@
 .prose a {
     word-break: break-word;
 }
+
+h1, h2, h3, h4 {
+    @apply font-header;
+}

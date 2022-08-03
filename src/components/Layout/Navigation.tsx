@@ -42,6 +42,7 @@ const Navigation = () => {
 		<div
 			className={c(
 				'flex items-center bg-white justify-between w-full py-7 text-black px-36',
+				'font-header',
 				'2xl:px-24',
                 'xl:space-x-12 xl:px-16',
 				'md:px-8 md:py-5 md:space-x-0'

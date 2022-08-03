@@ -35,8 +35,8 @@ module.exports = {
         'dark-blue': '#223a7b'
       },
       fontFamily: {
-        'header': ['Source Serif Pro Semibold', ...defaultTheme.fontFamily.serif],
-        'text': ['Source Serif Pro Semibold', ...defaultTheme.fontFamily.serif]
+        'header': ['"Source Serif Pro"', ...defaultTheme.fontFamily.serif],
+        'text': ['"Source Serif Pro"', ...defaultTheme.fontFamily.serif]
       },
       height: {
         'fill-available': 'calc(var(--vh, 1vh) * 100)'
