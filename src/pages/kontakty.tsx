@@ -36,17 +36,18 @@ export default function Contact () {
 				</div>
 				<div className={c('w-5/6 px-4 py-0 space-y-8', '2xl:p-10 2xl:px-8', 'md:p-8 md:w-full')}>
 					<div className="space-y-8">
-						<div className={c('space-y-2.5 w-4/6', 'md:w-full')}>
+						<div className={c('space-y-2.5')}>
 							<h1 className="text-3xl font-bold">{pageData.header}</h1>
 							<p className="text-justify">{pageData.description}</p>
 						</div>
-						<div className={c('space-y-2.5 w-4/6', 'md:w-full')}>
-							<p className="font-bold">{contactPageData.address.firstLine}</p>
+						<div className={c('space-y-2.5')}>
+							<p className="font-bold">{contactPageData.address.firstLine1}</p>
+							<p className="font-bold">{contactPageData.address.firstLine2}</p>
 							<p>{contactPageData.address.secondLine}</p>
 							<p>{contactPageData.address.thirdLine}</p>
 							<p>Webová stránka je společnou prezentací advokátů Mgr. Matyáše Mosky a Mgr. Jakuba Pártla, LL.M., poskytujících právní služby samostatně, z nichž každý je pojištěn pro případ vzniku odpovědnosti za újmu způsobenou při výkonu advokacie.</p>
 						</div>
-						<div className={c('space-y-2.5 w-4/6', 'md:w-full')}>
+						<div className={c('space-y-2.5')}>
 							<WrappedIconRow Icon={PhoneIcon} href={`tel:${contactPageData.phoneNumber}`}>
 								{contactPageData.phoneNumber}
 							</WrappedIconRow>
@@ -54,7 +55,7 @@ export default function Contact () {
 								{contactPageData.email}
 							</WrappedIconRow>
 						</div>
-						<div className="flex flex-col space-y-2.5 w-4/6 text-dark-blue">
+						<div className="flex flex-col space-y-2.5 text-dark-blue">
 
 							<a
 								href={contactPageData.links.twitter}

@@ -1,6 +1,7 @@
 {
     "address": {
-        "firstLine": "15zisif.cz, Mgr. Matyáš Moska, advokát & Mgr. Jakub Pártl, LL.M., advokát",
+        "firstLine1": "Mgr. Matyáš Moska, advokát",
+        "firstLine2": "Mgr. Jakub Pártl, LL.M., advokát",
         "secondLine": "City Empiria, Na Strži 1702/65, 140 00 Praha 4, 15. patro",
         "thirdLine": "IČO: 06292062, DIČ: CZ8912280432, IČO: 07326548, DIČ: CZ8712194447,"
     },
