@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import React, { FC, useEffect } from 'react'
 import Footer from '../components/Layout/Footer'
+import TopBar from '../components/Pages/index/TopBar'
 import Navigation from '../components/Layout/Navigation'
 import CookieBar from '../components/Layout/CookieBar'
 import { useCookies } from 'react-cookie'
@@ -49,6 +50,7 @@ const DefaultLayout: FC = ({ children }) => {
 				}}/>
 				
 			</Head>
+			<TopBar />
 			<Navigation />
 			{children}
 			<Footer />
