@@ -24,7 +24,9 @@ export default function Contact () {
 					'md:block md:space-x-0 md:px-0 md:pb-32'
 				)}
 			>
-				<div className={c('w-full relative shadow-inner', 'md:h-72')}>
+				<div className="flex flex-col w-full">
+				  <div className="mb-6 h-4/5 max-h-[31.5rem] bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url("/images/cityempiria.jpg")` }} />
+				  <div className={c('w-full relative shadow-inner flex-grow', 'md:h-72')}>
 					<iframe
 						width="100%"
 						height="100%"
@@ -33,8 +35,9 @@ export default function Contact () {
 						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2561.9223858112055!2d14.437017615885283!3d50.05028522399825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b94759b1f6d5b%3A0x588df01abda2d398!2sNa%20Str%C5%BEi%201702%2F65%2C%20140%2000%20Praha%204-Nusle!5e0!3m2!1scs!2scz!4v1646906243995!5m2!1scs!2scz"
 					/>
 					<div className="absolute top-0 left-0 z-0 w-full h-full transition transform bg-gray-300 animate-pulse" />
+				  </div>
 				</div>
-				<div className={c('w-5/6 px-4 py-0 space-y-8', '2xl:p-10 2xl:px-8', 'md:p-8 md:w-full')}>
+				<div className={c('w-5/6 px-4 py-0 space-y-8', 'md:p-8 md:w-full')}>
 					<div className="space-y-8">
 						<div className={c('space-y-2.5')}>
 							<h1 className="text-3xl font-bold">{pageData.header}</h1>

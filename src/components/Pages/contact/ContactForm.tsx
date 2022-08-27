@@ -62,7 +62,7 @@ const ContactForm = () => {
 					/>
 				</div>
 			</div>
-			<div className="flex justify-between">
+			<div className="flex justify-between items-center gap-y-6 lg:flex-wrap md:flex-nowrap xs:flex-wrap">
 				<div className="space-y-4">
 					<Checkbox
 						id={'personalDataAgreement'}
@@ -78,7 +78,7 @@ const ContactForm = () => {
 					/>
 					
 				</div>
-				<div className="flex flex-col items-end self-end space-y-4">
+				<div className="flex flex-col items-end self-end space-y-4 ml-auto">
 					<Button
 						onClick={form.handleSubmit as any}
 						type="basic"
