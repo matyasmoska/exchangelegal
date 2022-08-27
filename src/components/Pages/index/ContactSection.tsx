@@ -13,7 +13,7 @@ const ContactSection = () => {
 				'md:flex-col md:space-x-0 md:space-y-12 md:my-16'
 			)}
 		>
-			<div className={c('pl-36 flex-shrink-0 space-y-8', '3xl:pl-28', '2xl:pl-20', 'md:px-8')}>
+			<div className={c('pl-36 min-w-max space-y-8', '3xl:pl-28', '2xl:pl-20', 'xl:min-w-[48%]', 'md:px-8')}>
 				<div className={c('space-y-2.5 w-4/6', '2xl:w-5/6', 'md:w-full')}>
 					<h2 className="text-3xl font-bold">{ contactPageData.contact.header }</h2>
 					<p className="text-justify">
@@ -44,7 +44,7 @@ const ContactSection = () => {
 					</IconRow>
 				</div>
 			</div>
-			<div className={c('w-full pr-32', 'md:h-56 md:pr-0')}>
+			<div className={c('w-full pr-36', '3xl:pr-28', '2xl:pr-20', 'md:h-56 md:pr-0')}>
 				<iframe
 					width="100%"
 					height="100%"
