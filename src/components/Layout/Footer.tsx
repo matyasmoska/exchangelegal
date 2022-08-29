@@ -37,7 +37,7 @@ const Footer = () => {
 				<div className="space-y-10">
 					<h3 className="text-xl font-bold">Naše služby</h3>
 					<div className="flex flex-col space-y-4">
-						<Link href="/zalozeni-fondu-na-klic">
+						<Link href="/zalozeni-minifondu-na-klic">
 							<a className="hover:underline">{pageData.zalozeni}</a>
 						</Link>
 						<Link href="/reporting-cnb">
@@ -46,9 +46,9 @@ const Footer = () => {
 						<Link href="/priprava-kid-dle-narizeni-priips">
 							<a className="hover:underline">{pageData.pripravakiddlenarizenipriips}</a>
 						</Link>
-						<Link href="/povinnosti-dle-sfdr">
-							<a className="hover:underline">{pageData.povinnostidlesfdr}</a>
-						</Link>
+						// tohle je komentář <Link href="/povinnosti-dle-sfdr">
+						// tohle je komentář <a className="hover:underline">{pageData.povinnostidlesfdr}</a>
+						// tohle je komentář  </Link>
 						<Link href="/aml-povinnosti">
 							<a className="hover:underline">{pageData.amlpovinnosti}</a>
 						</Link>
