@@ -14,9 +14,11 @@ const Footer = () => {
 		<div
 			className={c(
 				'flex items-center justify-between w-full py-20 text-white px-32 bg-dark-blue',
-				'font-header',
+				'font-header gap-x-20',
 				'3xl:px-24',
 				'2xl:px-20',
+				'xl:px-16 xl:gap-x-12',
+				'xl:px-12 lg:gap-x-8',
 				'md:py-10 md:px-10 md:block md:space-y-16 md:text-center md:text-lg'
 			)}
 		>
@@ -30,7 +32,9 @@ const Footer = () => {
 			<div
 				className={c(
 					'flex space-x-32',
-					'2xl:space-x-24',
+					'2xl:space-x-16',
+					'xl:space-x-12',
+					'lg:space-x-8',
 					'md:flex-col md:space-x-0 md:space-y-16 md:text-center'
 				)}
 			>
