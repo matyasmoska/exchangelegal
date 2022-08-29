@@ -24,15 +24,8 @@
             "link": "/priprava-kid-dle-narizeni-priips",
             "icon": "/images/serviceIcons/priprava-kid-dle-narizeni-priips.png"
         },
+
         {
-            "id": "povinnosti-dle-narizeni-sfdr",
-            "name": "Povinnosti dle nařízení SFDR",
-            "description": "Pomůžeme Vám s efektivním splněním Vašich povinností dle nařízení SFDR",
-            "price": 9000,
-            "link": "/povinnosti-dle-narizeni-sfdr",
-            "icon": "/images/serviceIcons/povinnosti-dle-narizeni-sfdr.png"
-        },
-                {
             "id": "aml-povinnosti",
             "name": "AML povinnosti",
             "description": "Potřebujete vyřešit AML povinnosti? Neváhejte se na nás obrátit. Připravíme pro Vás nezbytné dokumenty související s plněním veškerých AML povinností dle AML zákona.",
