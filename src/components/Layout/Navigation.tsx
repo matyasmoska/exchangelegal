@@ -66,9 +66,15 @@ const Navigation = () => {
 				{sidebarOpen && (
 					<m.div
 						{...opacityAnimation}
-						className="fixed top-0 left-0 z-40 w-screen h-screen overflow-hidden font-bold bg-white text-dark-blue"
+						className="fixed top-0 left-0 z-[51] w-screen h-screen overflow-hidden font-bold bg-white text-dark-blue flex flex-col"
 					>
-						<div className="flex flex-col items-center justify-center h-screen space-y-6 text-2xl text-dark-blue">
+						<div className="flex items-center justify-between px-8 py-5">
+							<Logo />
+							<span onClick={() => setSidebarOpen(prev => !prev)}>
+								<HamburgerIcon sidebarOpen={sidebarOpen} />
+							</span>
+						</div>
+						<div className="flex flex-col items-center justify-center flex-grow space-y-6 text-2xl text-dark-blue overflow-auto">
 							<NavItems />
 						</div>
 					</m.div>
