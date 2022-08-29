@@ -46,9 +46,7 @@ const Footer = () => {
 						<Link href="/priprava-kid-dle-narizeni-priips">
 							<a className="hover:underline">{pageData.pripravakiddlenarizenipriips}</a>
 						</Link>
-						// tohle je komentář <Link href="/povinnosti-dle-sfdr">
-						// tohle je komentář <a className="hover:underline">{pageData.povinnostidlesfdr}</a>
-						// tohle je komentář  </Link>
+
 						<Link href="/aml-povinnosti">
 							<a className="hover:underline">{pageData.amlpovinnosti}</a>
 						</Link>
