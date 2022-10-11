@@ -33,7 +33,7 @@ export default function AboutPage () {
 						width={1920}
 						height={485}
 						className="z-10 w-full"
-						src={'/images/team.jpg'}
+						src={'/images/background-moska-partl.jpg'}
 					/>
 				</div>
 				<div className="flex flex-col items-center justify-center text-center my-14">
