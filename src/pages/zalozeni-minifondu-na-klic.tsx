@@ -4,7 +4,7 @@ import DefaultLayout from "../layouts/DefaultLayout";
 import SEO from "../components/Layout/SEO";
 import { c } from "../services/misc";
 import Image from 'next/image'
-import pageData from '../data/pages/zalozeni-minifondu-na-klic.json'
+import pageData from '../data/pages/zalozeni-minifondu-na-klic/zalozeni-minifondu-na-klic.json'
 import Button from "../components/Layout/Button";
 import Link from "next/link";
 // @ts-ignore
