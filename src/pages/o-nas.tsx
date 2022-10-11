@@ -30,7 +30,7 @@ export default function AboutPage () {
 					<Image
 						layout="responsive"
 						priority
-						width={1920}
+						
 						height={485}
 						className="z-10 w-full"
 						src={'/images/background-moska-partl.jpg'}
