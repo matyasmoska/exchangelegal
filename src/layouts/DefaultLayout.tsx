@@ -29,14 +29,14 @@ const DefaultLayout: FC = ({ children }) => {
 				<title>15zisif.cz</title>
 				<link rel="icon" href="/favicon.ico" />
 				{ process.env.NODE_ENV === 'production' && <script dangerouslySetInnerHTML={{ __html: GA_SCRIPT_DEFAULT }} />}
-				<script async src="https://www.googletagmanager.com/gtag/js?id=UA-198544478-1" />
+				<script async src="https://www.googletagmanager.com/gtag/js?id=G-SYD55YGBDL" />
 
 				{ process.env.NODE_ENV === 'production' && <script dangerouslySetInnerHTML={{ __html: `
                     window.dataLayer = window.dataLayer || [];
 					function gtag(){dataLayer.push(arguments);}
 					gtag('js', new Date());
 				  
-					gtag('config', 'UA-198544478-1');
+					gtag('config', 'G-SYD55YGBDL');
 
 					${cookies['cookie-consent']?.analytics ? `
 					gtag('consent', 'update', {
@@ -46,7 +46,7 @@ const DefaultLayout: FC = ({ children }) => {
                 `} }/>}
 				
 				<script type="application/ld+json" dangerouslySetInnerHTML={{
-					__html: `{ "@context": "https://schema.org/", "@type": "CreativeWorkSeries", "name": "Post title", "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "bestRating": "5", "ratingCount": "14" } }`
+					__html: `{ "@context": "https://schema.org/", "@type": "CreativeWorkSeries", "name": "Post title", "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "bestRating": "5", "ratingCount": "19" } }`
 				}}/>
 				
 			</Head>
