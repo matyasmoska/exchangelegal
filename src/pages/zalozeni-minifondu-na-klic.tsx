@@ -1,4 +1,3 @@
-import React from "react";
 import React, { useEffect } from "react";
 import ParagraphOrMultiple from "../components/Layout/ParagraphOrMultiple";
 import DefaultLayout from "../layouts/DefaultLayout";
