@@ -74,7 +74,11 @@ const ObligationsPage = () => {
 
 					</div>
 				</div>
+						<OrderButton show={!visible} text={pageData.buttonText} />
 			</div>
+		    <ServicesForm visibleRef={targetRef} form={servicesForm} />
+		    
+		    
 		</DefaultLayout>
     );
 }
