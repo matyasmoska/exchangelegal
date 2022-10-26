@@ -19,7 +19,17 @@ import TopPartMdx from "../data/pages/zalozeni-minifondu-na-klic/topPart.mdx"
 import BottomPartMdx from "../data/pages/zalozeni-minifondu-na-klic/bottomPart.mdx"
 
 const ObligationsPage = () => {
-    return (
+    
+	const [targetRef, visible] = useVisible()
+
+	const servicesForm = useServicesForm()
+
+	useEffect(() => {
+		servicesForm.setFieldValue('checked', servicesData.services.filter(({ id }) => id === 'zalozeni-minifondu-na-klic'))
+	}, [])
+	
+	return (
+	   
         <DefaultLayout>
 			<SEO
 				title="Založení minifondu na klíč – 15zisif.cz"
