@@ -1,6 +1,6 @@
 {
     "header": "Příprava KID dle nařízení PRIIPs",
-    "shortText": "",
+    "shortText": "Sdělení klíčových informací",
     "topText": [
         ""      
     ],
@@ -15,5 +15,5 @@
         " "
     ],
    
-    "buttonText": ""
+    "buttonText": "Chci pomoci s přípravou KID"
 }
