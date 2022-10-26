@@ -12,6 +12,25 @@
             "answer": "Pokud je žadatelem český subjekt, zápis fondu do evidence České národní banky (registrace) aktuálně zpoplatněn není. U zahraničních subjektů je zápis zpoplatněn částkou 10 000 Kč. Za zápis zahraničního AIF fondu či podfondu do seznamu vedeného Českou národní bankou podle § 597 ZISIF se hradí správní poplatek ve výši 10 000,- Kč (sazebník zákona č. 634/2004 Sb., o správních poplatcích, ve znění pozdějších předpisů, položka 65, odst. 9, písm. u). Roční obnovovací poplatek pro zahraniční  fondy činí 10 000 Kč (položka č. 66 bod 10. sazebníku správních poplatků zákona č. 634/2004 Sb.)."
         },
       
+                          {
+            "question": "Kolik finančních prostředků mohou minifondy spravovat?",
+            "answer": "Minifondy nesmí spravovat majetek přesahující 500 000 000 euro (pět set milionů eur) anebo 100 000 000 euro (sto milionů eur), jestliže minifond užívá k obhospodařování majetku pákový efekt."
+        },
+      
+      
+                                {
+            "question": "Jak probíhá řízení o zápisu minifondu u ČNB?",
+            "answer": "Řízení je zahajováno na návrh budoucího minifondu. Návrh se podává výhradně v elektronické podobě v českém jazyce, lze jej podat i na základě plné moci. Zápisem dochází ze strany ČNB k evidenci minifondu; nejedná se o povolovací řízení, jehož výsledkem je udělení licence."
+        },
+      
+      
+      
+                                {
+            "question": "Jak dlouho trvá než ČNB minifond zaregistruje?",
+            "answer": "Jestliže žádost obsahuje veškeré požadované informace a splňuje požadavky, ČNB zapíše alternativní fond do seznamu do pěti pracovních dnů ode dne, kdy ji byla žádost doručena. Náš aktuální rekord nejrychlejší registrace do seznamu ČNB jsou 2 dny od podání žádosti."
+        },
+      
+    
         {
             "question": "Zjistili jsme, že minifond je povinnou osobou dle AML zákona. Musíme vypracovat písemná pravidla (systém vnitřních zásad a hodnocení rizik) pro AML/CFT prevenci? A v jaké lhůtě?",
             "answer": "Všechny povinné osoby musí mít zavedené vnitřní strategie a postupy k předcházení rizika, že budou v rámci obchodu nebo obchodního vztahu zneužity k praní špinavých peněz nebo financování terorismu. Jen některé typy povinných osob musí mít tyto strategie zpracovány i písemně (a pokud je taková povinnost stanovena, musí být splněna do 60 dnů od vzniku statusu povinné osoby). Všechny povinné osoby však musí  tyto postupy mít zavedeny a dodržovat je, což také musí být schopné prokázat při případné kontrole ze strany FAÚ nebo jiného oprávněného orgánu (jinak hrozí citelná pokuta nebo i zákaz činnosti). Proto většina povinných osob postupuje tak, že tato pravidla a postupy (systém vnitřních zásad a hodnocení rizik) zpracuje v písemné podobě formou vnitřního předpisu, i když patří k těm, jimž zákon takovou povinnost právě neukládá. V některých případech zákon ovšem požaduje, aby byl systém vnitřních zásad a hodnocení rizik nejen zpracován písemně, ale také předložen FAÚ, případně ČNB (dle typu povinné osoby)."
