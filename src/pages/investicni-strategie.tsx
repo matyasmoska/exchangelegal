@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ParagraphOrMultiple from "../components/Layout/ParagraphOrMultiple";
 import DefaultLayout from "../layouts/DefaultLayout";
 import SEO from "../components/Layout/SEO";
 import { c } from "../services/misc";
 import Image from 'next/image'
 import pageData from '../data/pages/investicni-strategie/investicni-strategie.json'
+
+import servicesData from '../data/pages/services.json'
+import useServicesForm from "../components/Pages/services/hooks/useServicesForm";
+import OrderButton from "../components/Pages/services/OrderButton";
+import ServicesForm from "../components/Pages/services/ServícesForm";
+import { useVisible } from "react-hooks-visible";
+
 import Button from "../components/Layout/Button";
 import Link from "next/link";
 // @ts-ignore
@@ -13,6 +20,16 @@ import TopPartMdx from "../data/pages/investicni-strategie/topPart.mdx"
 import BottomPartMdx from "../data/pages/investicni-strategie/bottomPart.mdx"
 
 const ObligationsPage = () => {
+	
+		const [targetRef, visible] = useVisible()
+
+	const servicesForm = useServicesForm()
+
+	useEffect(() => {
+		servicesForm.setFieldValue('checked', servicesData.services.filter(({ id }) => id === 'investicni-strategie'))
+	}, [])
+	
+	
     return (
         <DefaultLayout>
 			<SEO
@@ -58,7 +75,9 @@ const ObligationsPage = () => {
 
 					</div>
 				</div>
+						<OrderButton show={!visible} text={pageData.buttonText} />
 			</div>
+		    <ServicesForm visibleRef={targetRef} form={servicesForm} />
 		</DefaultLayout>
     );
 }
