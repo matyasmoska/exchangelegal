@@ -5,6 +5,12 @@ import SEO from "../components/Layout/SEO";
 import { c } from "../services/misc";
 import Image from 'next/image'
 import pageData from '../data/pages/zalozeni-minifondu-na-klic/zalozeni-minifondu-na-klic.json'
+
+import servicesData from '../data/pages/services.json'
+import useServicesForm from "../components/Pages/services/hooks/useServicesForm";
+import OrderButton from "../components/Pages/services/OrderButton";
+import ServicesForm from "../components/Pages/services/ServícesForm";
+
 import Button from "../components/Layout/Button";
 import Link from "next/link";
 // @ts-ignore
