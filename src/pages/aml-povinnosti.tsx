@@ -88,13 +88,7 @@ const ObligationsPage = () => {
 					<section className={c('py-8 pb-12 space-y-4 max-w-[802px] leading-relaxed prose', 'md:px-6 md:py-6')}>
 						<BottomPartMdx />
 					</section>
-					<div className={c('flex')}>
-						<Link href="/potrebuji-aml">
-							<Button type="basic" className="px-14 py-2.5">
-								{ pageData.buttonText }
-							</Button>
-						</Link>
-					</div>
+
 				</div>
 									<OrderButton show={!visible} text={pageData.buttonText} />
 			</div>
