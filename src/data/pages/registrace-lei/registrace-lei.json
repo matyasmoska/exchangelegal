@@ -1,1 +1,19 @@
-
+{
+    "header": "Registrace LEI",
+    "shortText": "Legal Entity Identifier – připravíme žádost na míru",
+    "topText": [
+        ""      
+    ],
+    "highlightSection": {
+        "header": "",
+        "text": [
+            "",
+            ""
+        ]
+    },
+    "bottomText": [
+        " "
+    ],
+   
+    "buttonText": "Chci zaregistrovat LEI"
+}
