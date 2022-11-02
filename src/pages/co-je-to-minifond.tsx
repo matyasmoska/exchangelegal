@@ -55,7 +55,7 @@ const ObligationsPage = () => {
 						<BottomPartMdx />
 						
 						
-<div><iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe></div>
+<div><iframe src="https://www.youtube.com/watch?v=qIkjdL8-f9o"></iframe></div>
 
 					</section>
 					<div className={c('flex')}>
