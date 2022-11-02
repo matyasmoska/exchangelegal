@@ -54,8 +54,7 @@ const ObligationsPage = () => {
 					<section className={c('py-8 pb-12 space-y-4 max-w-[802px] leading-relaxed prose', 'md:px-6 md:py-6')}>
 						<BottomPartMdx />
 						
-						
-<div><iframe src="https://www.youtube.com/watch?v=qIkjdL8-f9o"></iframe></div>
+
 
 					</section>
 					<div className={c('flex')}>
