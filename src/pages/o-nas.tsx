@@ -7,7 +7,7 @@ import { TeamMember } from '../typings'
 import React from 'react'
 import TeamMemberDetail from '../components/Pages/about/TeamMemberDetail'
 import { c } from '../services/misc'
-import ParagraphOrMultiple from '../components/Layout/ParagraphOrMultiple'
+import ParagraphOrMultipleHtml from "../components/Layout/ParagraphOrMultipleHtml";
 import { Fade } from 'react-awesome-reveal'
 import ReferencesCarousel from '../components/Pages/about/ReferencesCarousel'
 
@@ -38,7 +38,7 @@ export default function AboutPage () {
 				<div className="flex flex-col items-center justify-center text-center my-14">
 					<div className={c('flex flex-col max-w-6xl space-y-8', 'md:px-8 md:text-left')}>
 						<h2 className="text-3xl font-bold">{pageData.header}</h2>
-						<ParagraphOrMultiple text={pageData.headerDescription} className="text-justify max-w-[900px]" />
+						<ParagraphOrMultipleHtml text={pageData.headerDescription} className="text-justify max-w-[900px]" />
 					</div>
 					<div
 						className={c(
