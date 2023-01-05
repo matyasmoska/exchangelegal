@@ -13,7 +13,7 @@ export default function NewsPage({ news }: { news: NewsItem[] }) {
     <DefaultLayout>
       <SEO
         title="15zisif.cz"
-        description="Minifondy na klíč"
+        description="Zakládáme alternativní investiční fondy v nejvyšším standardu za férové ceny, Minifondy na klíč"
         keywords="Minifondy, alternativní fondy, 15 zisif"
       />
       <div className={c("p-36 py-16 space-y-28", "md:px-4 md:space-y-10 md:py-4")}>
