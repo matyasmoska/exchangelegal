@@ -26,7 +26,7 @@ const ObligationsPage = () => {
 	const servicesForm = useServicesForm()
 
 	useEffect(() => {
-		servicesForm.setFieldValue('checked', servicesData.services.filter(({ id }) => id === 'zalozeni-minifondu-na-klic'))
+		servicesForm.setFieldValue('checked', servicesData.services.filter(({ id }) => id === 'zalozeni-alternativniho-fondu-na-klic'))
 	}, [])
 	
 	return (
