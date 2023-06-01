@@ -3,37 +3,37 @@
     "questions": [
       
               {
-            "question": "Co je to minifond?",
+            "question": "Co je to alternativní investiční fond?",
             "answer": "Jedná se o zařízení a zároveň jednoduchý způsob správy majetku investorů, který, oproti klasickým investičním fondům, nepodléhá regulaci a dozoru České národní banky (ČNB), jako jiné investiční fondy, a je pouze u ČNB registrován. Oproti klasickým investičním fondům se alternativní fond (minfond) vyznačuje nízkými požadavky na administraci, jednoduchostí založení a rychlostí při procesu registrace u ČNB."
         },
       
                     {
-            "question": "Existuje nějaký poplatek za zápis fondu u České národní banky?",
+            "question": "Existuje nějaký poplatek za zápis alternativního fondu u České národní banky?",
             "answer": "Zápis fondu do evidence České národní banky (registrace) aktuálně zpoplatněn není."
         },
       
                           {
-            "question": "Kolik finančních prostředků mohou minifondy spravovat?",
-            "answer": "Minifondy nesmí spravovat majetek přesahující 500 000 000 euro (pět set milionů eur) anebo 100 000 000 euro (sto milionů eur), jestliže minifond užívá k obhospodařování majetku pákový efekt."
+            "question": "Kolik finančních prostředků mohou alternativní fondy spravovat?",
+            "answer": "Alternativní fondy nesmí spravovat majetek přesahující 500 000 000 euro (pět set milionů eur) anebo 100 000 000 euro (sto milionů eur), jestliže alternativní investiční fond užívá k obhospodařování majetku pákový efekt."
         },
       
       
                                 {
-            "question": "Jak probíhá řízení o zápisu minifondu u ČNB?",
-            "answer": "Řízení je zahajováno na návrh budoucího minifondu. Návrh se podává výhradně v elektronické podobě v českém jazyce, lze jej podat i na základě plné moci. Zápisem dochází ze strany ČNB k evidenci minifondu; nejedná se o povolovací řízení, jehož výsledkem je udělení licence."
+            "question": "Jak probíhá řízení o zápisu alternativního fondu u ČNB?",
+            "answer": "Řízení je zahajováno na návrh budoucího alternativního fondu. Návrh se podává výhradně v elektronické podobě v českém jazyce, lze jej podat i na základě plné moci. Zápisem dochází ze strany ČNB k evidenci alternativního fondu; nejedná se o povolovací řízení, jehož výsledkem je udělení licence."
         },
       
      
       
                                 {
-            "question": "Jak dlouho trvá než ČNB minifond zaregistruje?",
+            "question": "Jak dlouho trvá než ČNB alternativní fond zaregistruje?",
             "answer": "Jestliže žádost obsahuje veškeré požadované informace a splňuje požadavky, ČNB zapíše alternativní fond do seznamu do pěti pracovních dnů ode dne, kdy jí byla žádost doručena. Naše aktuálně nejrychlejší registrace do seznamu ČNB čítala 2 dny od podání žádosti."
         },
       
     
         {
-            "question": "Zjistili jsme, že minifond je povinnou osobou dle AML zákona. Musíme vypracovat písemná pravidla (systém vnitřních zásad a hodnocení rizik) pro AML/CFT prevenci? A v jaké lhůtě?",
-            "answer": "Všechny povinné osoby (tj. i minifondy) musí mít zavedené vnitřní strategie a postupy k předcházení rizika, že budou v rámci obchodu nebo obchodního vztahu zneužity k praní špinavých peněz nebo financování terorismu. Za určitých podmínek musí být tyto strategie zpracovány i písemně (a pokud je taková povinnost stanovena, musí být splněna do 60 dnů od vzniku statusu povinné osoby). Všechny povinné osoby však musí tyto postupy mít zavedeny a dodržovat je, což také musí být schopné prokázat při případné kontrole ze strany FAÚ (jinak hrozí citelná pokuta nebo i zákaz činnosti). Proto většina minifondů postupuje tak, že tato pravidla a postupy (systém vnitřních zásad a hodnocení rizik) zpracuje v písemné podobě formou vnitřního předpisu, i když patří k těm, jimž zákon takovou povinnost právě neukládá. Za splnění určitých podmínek AML zákon ovšem požaduje, aby byl systém vnitřních zásad a hodnocení rizik nejen zpracován písemně, ale také odeslán datovou schránkou ČNB."
+            "question": "Zjistili jsme, že alternativní fond je povinnou osobou dle AML zákona. Musíme vypracovat písemná pravidla (systém vnitřních zásad a hodnocení rizik) pro AML/CFT prevenci? A v jaké lhůtě?",
+            "answer": "Všechny povinné osoby (tj. i alternativní fondy) musí mít zavedené vnitřní strategie a postupy k předcházení rizika, že budou v rámci obchodu nebo obchodního vztahu zneužity k praní špinavých peněz nebo financování terorismu. Za určitých podmínek musí být tyto strategie zpracovány i písemně (a pokud je taková povinnost stanovena, musí být splněna do 60 dnů od vzniku statusu povinné osoby). Všechny povinné osoby však musí tyto postupy mít zavedeny a dodržovat je, což také musí být schopné prokázat při případné kontrole ze strany FAÚ (jinak hrozí citelná pokuta nebo i zákaz činnosti). Proto většina alternativních fondů postupuje tak, že tato pravidla a postupy (systém vnitřních zásad a hodnocení rizik) zpracuje v písemné podobě formou vnitřního předpisu, i když patří k těm, jimž zákon takovou povinnost právě neukládá. Za splnění určitých podmínek AML zákon ovšem požaduje, aby byl systém vnitřních zásad a hodnocení rizik nejen zpracován písemně, ale také odeslán datovou schránkou ČNB."
         },
         {
             "question": "AML povinnosti jsme bohužel zanedbali, nicméně chceme to co nejdříve napravit. Hrozí nám nějaká sankce nebo pokuta?",
