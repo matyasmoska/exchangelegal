@@ -13,3 +13,10 @@
 h1, h2, h3, h4 {
     @apply font-header;
 }
+
+.prose > iframe,
+.embed-video {
+    aspect-ratio: 16 / 9;
+    max-width: 100%;
+    width: 560px;
+}
