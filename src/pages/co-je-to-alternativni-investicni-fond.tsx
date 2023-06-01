@@ -4,7 +4,7 @@ import DefaultLayout from "../layouts/DefaultLayout";
 import SEO from "../components/Layout/SEO";
 import { c } from "../services/misc";
 import Image from 'next/image'
-import pageData from '../data/pages/co-je-to-minifond/co-je-to-alternativni-investicni-fond.json'
+import pageData from '../data/pages/co-je-to-alternativni-investicni-fond/co-je-to-alternativni-investicni-fond.json'
 import Button from "../components/Layout/Button";
 import Link from "next/link";
 // @ts-ignore
