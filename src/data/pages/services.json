@@ -1,12 +1,12 @@
 {
     "services": [
         {
-            "id": "zalozeni-minifondu-na-klic",
+            "id": "zalozeni-alternativniho-fondu-na-klic",
             "name": "Založení alternativního fondu na klíč",
             "description": "Připravíme pro Vás kompletní dokumentaci pro registraci alternativního investičního fondu dle § 15 ZISIF u České národní banky na klíč.",
             "price": 59000,
-            "link": "/zalozeni-minifondu-na-klic",
-            "icon": "/images/serviceIcons/zalozeni-minifondu-na-klic.png"
+            "link": "//zalozeni-alternativniho-fondu-na-klic",
+            "icon": "/images/serviceIcons/zalozeni-alternativniho-fondu-na-klic.png"
         },
         {
             "id": "reporting-cnb",
