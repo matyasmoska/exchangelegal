@@ -2,15 +2,15 @@
     "services": [
         {
             "id": "zalozeni-minifondu-na-klic",
-            "name": "Založení minifondu na klíč",
-            "description": "Připravíme pro Vás kompletní dokumentaci pro registraci minifondu dle § 15 ZISIF u České národní banky na klíč.",
+            "name": "Založení alternativního fondu na klíč",
+            "description": "Připravíme pro Vás kompletní dokumentaci pro registraci alternativního investičního fondu dle § 15 ZISIF u České národní banky na klíč.",
             "price": 59000,
             "link": "/zalozeni-minifondu-na-klic",
             "icon": "/images/serviceIcons/zalozeni-minifondu-na-klic.png"
         },
         {
             "id": "reporting-cnb",
-            "name": "Reporting ČNB",
+            "name": "Reporting ČNB (ROFOS 36 a 37)",
             "description": "Zjednodušujeme pro Vás plnění Vašich reportingových povinností. Výkaznictví ČNB vyřešíme za Vás, nastavíme pravidelné reporty ROFOS 36 a ROFOS 37 dle aktuálních legislativních požadavků.",
             "price": 5000,
             "link": "/reporting-cnb",
