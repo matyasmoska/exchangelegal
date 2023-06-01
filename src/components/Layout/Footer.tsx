@@ -41,7 +41,7 @@ const Footer = () => {
 				<div className="space-y-10">
 					<h3 className="text-xl font-bold">Naše služby</h3>
 					<div className="flex flex-col space-y-4">
-						<Link href="/zalozeni-minifondu-na-klic">
+						<Link href="/zalozeni-alternativniho-fondu-na-klic">
 							<a className="hover:underline">{pageData.zalozeni}</a>
 						</Link>
 						<Link href="/reporting-cnb">
@@ -67,7 +67,7 @@ const Footer = () => {
 					<h3 className="text-xl font-bold">Menu</h3>
 					<div className="flex flex-col space-y-4">
 						
-						<Link href="/co-je-to-minifond">
+						<Link href="/co-je-to-alternativni-investicni-fond">
 							<a className="hover:underline">{pageData.cojeto}</a>
 						</Link>
 						
