@@ -19,7 +19,7 @@ const NavItems = () => {
 		<Fragment>
 			<NavItem href={'/aktuality'}>{pageData.news}</NavItem>
 			<NavItem href={'/nase-sluzby'}><span className="font-bold">{pageData.services}</span></NavItem>
-			<NavItem href={'/zalozeni-minifondu-na-klic'}><span className="font-bold">{pageData.zalozeni}</span></NavItem>
+			<NavItem href={'/zalozeni-alternativniho-fondu-na-klic'}><span className="font-bold">{pageData.zalozeni}</span></NavItem>
 			<NavItem href={'/o-nas'}>{pageData.about}</NavItem>
 			<NavItem href={'/kontakty'}>{pageData.contact}</NavItem>
 	
