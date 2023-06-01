@@ -51,9 +51,10 @@ export default function FAQPage () {
 	return (
 		<DefaultLayout>
 			<SEO
-				title="Často kladené dotazy – 15zisif.cz"
-				description="✅ Vy se ptáte, my odpovídáme, nejčastější otázky, které nám pokládáte v souvislosti s minifondem dle § 15 ZISIF⭐"
-				keywords="minifond, alternativní fond, § 15 ZISIF, 15zisif"
+				title="15 ZISIF – často kladené dotazy – 15zisif.cz"
+				description="✅ Vy se ptáte, my odpovídáme, nejčastější otázky, které nám pokládáte v souvislosti s alternativním fondem dle § 15 ZISIF⭐"
+				keywords="alternativní investiční fond, minifond, alternativní fond, § 15 ZISIF, 15zisif"
+				
 			/>
 			<div className={c("py-16 text-justify px-36 mb-52 space-y-14", 'md:px-4 md:py-8')}>
 				<h1 className={c("text-5xl font-bold leading-snug text-center", "md:text-2xl")}>Často kladené dotazy</h1>
