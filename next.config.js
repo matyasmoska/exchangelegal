@@ -14,9 +14,9 @@ module.exports = withMDX({
 
       {
 
-        source: '/co-je-to-minifond/',
+        source: 'https://www.15zisif.cz/co-je-to-minifond/',
 
-        destination: '/co-je-to-alternativni-investicni-fond',
+        destination: 'https://www.15zisif.cz/co-je-to-alternativni-investicni-fond',
 
         permanent: true,
 
