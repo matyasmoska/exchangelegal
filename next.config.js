@@ -6,3 +6,24 @@ module.exports = withMDX({
     }
 })
 
+{
+
+  async redirects() {
+
+    return [
+
+      {
+
+        source: '/co-je-to-minifond/',
+
+        destination: '/co-je-to-alternativni-investicni-fond',
+
+        permanent: true,
+
+      }
+
+    ]
+
+  }
+
+}
