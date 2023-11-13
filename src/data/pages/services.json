@@ -26,6 +26,15 @@
         },
 
         {
+            "id": "registrace-lei",
+            "name": "Registrace LEI",
+            "description": "Účelem kódů LEI je usnadnit identifikaci protistrany při finančních transakcích. Vydávání kódů je regulováno globální zastřešující organizací GLEIF - Global Legal Entity Identifier Foundation",
+            "price": 1230,
+            "link": "/registrace-lei",
+            "icon": "/images/serviceIcons/lei.png"
+        },
+        
+        {
             "id": "aml-povinnosti",
             "name": "AML povinnosti",
             "description": "Potřebujete vyřešit AML povinnosti? Neváhejte se na nás obrátit. Připravíme pro Vás nezbytné dokumenty související s plněním veškerých AML povinností dle AML zákona.",
