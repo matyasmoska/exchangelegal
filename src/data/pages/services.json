@@ -30,7 +30,7 @@
             "name": "Registrace LEI",
             "description": "Účelem kódů LEI je usnadnit identifikaci protistrany při finančních transakcích. Vydávání kódů je regulováno globální zastřešující organizací GLEIF - Global Legal Entity Identifier Foundation",
             "price": 1230,
-            "link": "/registrace-lei",
+            "link": "https://lei-ceska.cz/?affiliate_code=15zisif",
             "icon": "/images/serviceIcons/lei.png"
         },
         
