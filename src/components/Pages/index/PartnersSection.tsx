@@ -15,7 +15,7 @@ const PartnersSection: FC = () => {
 					</a>
 
 					<a href="http://www.sphr.cz" target="_blank" rel="noreferrer">
-						<img alt="sphere-logo" className="max-h-14" src={'/images/SPHERE_logo_Primary_transparent.svg'} />
+						<img alt="sphere-logo" className="max-h-14" src={'/images/Primary_transparent_ořez.svg'} />
 					</a>
 					
 					<a href="http://www.moskamurad.legal" target="_blank" rel="noreferrer">
