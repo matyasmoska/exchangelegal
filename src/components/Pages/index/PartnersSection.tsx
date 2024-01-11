@@ -25,9 +25,7 @@ const PartnersSection: FC = () => {
 					<a href="https://www.pepcheck.cz/" target="_blank" rel="noreferrer">
 						<img alt="pep-check-logo" className="max-h-14" src={'/images/pep-check.png'} />
 					</a>
-					<a href="https://www.safe-whistlers.cz" target="_blank" rel="noreferrer">
-						<img alt="safe-whistlers-logo" className="max-h-14" src={'/images/logo-safe-whistlers.png'} />
-					</a>
+			
 					
 				</Fade>
 			</div>
