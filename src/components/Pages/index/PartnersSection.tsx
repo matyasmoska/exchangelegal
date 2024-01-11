@@ -13,6 +13,10 @@ const PartnersSection: FC = () => {
 					<a href="https://www.amlsolutions.cz/" target="_blank" rel="noreferrer">
 						<img alt="aml-solutions-logo" className="max-h-14" src={'/images/aml-solutions.png'} />
 					</a>
+
+					<a href="http://www.sphr.cz" target="_blank" rel="noreferrer">
+						<img alt="sphere-logo" className="max-h-14" src={'/images/SPHERE_logo_Primary_transparent.svg'} />
+					</a>
 					
 					<a href="http://www.moskamurad.legal" target="_blank" rel="noreferrer">
 						<img alt="moskamurad-logo" className="max-h-14" src={'/images/moska-murad.png'} />
