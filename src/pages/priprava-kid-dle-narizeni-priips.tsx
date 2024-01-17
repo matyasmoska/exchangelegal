@@ -33,7 +33,7 @@ const ObligationsPage = () => {
     return (
         <DefaultLayout>
 			<SEO
-				title="15 ZISIF – příprava KID dle nařízení PRIIPs – 15zisif.cz"
+				title="15 ZISIF – Příprava KID dle nařízení PRIIPs – 15zisif.cz"
 description="✅ Jsme odborníky v oblasti zakládání fondů ⭐ Máme unikátní zkušenosti a know-how v oblasti alternativních fondů dle § 15 ZISIF"
 keywords="alternativní investiční fond, minifond, alternativní fond, § 15 ZISIF, 15zisif"
 			/>
