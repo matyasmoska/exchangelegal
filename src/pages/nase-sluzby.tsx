@@ -26,7 +26,7 @@ export default function Services () {
 	return (
 		<DefaultLayout>
 			<SEO
-				title="15 ZISIF – naše služby | 15zisif.cz"
+				title="15 ZISIF – Naše služby | 15zisif.cz"
 description="✅ Jsme odborníky v oblasti zakládání fondů ⭐ Máme unikátní zkušenosti a know-how v oblasti alternativních fondů dle § 15 ZISIF"
 keywords="alternativní investiční fond, minifond, alternativní fond, § 15 ZISIF, 15zisif"
 			/>
