@@ -32,7 +32,7 @@ const ObligationsPage = () => {
     return (
         <DefaultLayout>
 			<SEO
-				title="15 ZISIF – reporting ČNB (výkaznictví SDAT – ROFOS 36 a 37) – 15zisif.cz"
+				title="15 ZISIF – Reporting ČNB (výkaznictví SDAT – ROFOS 36 a 37) – 15zisif.cz"
 description="✅ Jsme odborníky v oblasti zakládání fondů ⭐ Máme unikátní zkušenosti a know-how v oblasti alternativních fondů dle § 15 ZISIF"
 keywords="alternativní investiční fond, minifond, alternativní fond, § 15 ZISIF, 15zisif"
 			/>
