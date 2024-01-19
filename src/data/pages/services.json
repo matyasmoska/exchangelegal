@@ -20,7 +20,7 @@
             "id": "priprava-kid-dle-narizeni-priips",
             "name": "Příprava KID dle nařízení PRIIPs",
             "description": "Potřebujete pomoci s přípravou dokumentu KID? Žádný problém, tzv. Sdělení klíčových informací (PRIIPs) pro Vás připravíme na míru.",
-            "price": 39000,
+            "price": 29000,
             "link": "/priprava-kid-dle-narizeni-priips",
             "icon": "/images/serviceIcons/priprava-kid-dle-narizeni-priips.png"
         },
@@ -38,7 +38,7 @@
             "id": "aml-povinnosti",
             "name": "AML povinnosti",
             "description": "Potřebujete vyřešit AML povinnosti? Neváhejte se na nás obrátit. Připravíme pro Vás nezbytné dokumenty související s plněním veškerých AML povinností dle AML zákona.",
-            "price": 35000,
+            "price": 30000,
             "link": "/aml-povinnosti",
             "icon": "/images/serviceIcons/aml-povinnosti.png"
         },
@@ -73,7 +73,7 @@
                                 {
             "id": "software",
             "name": "Komplexní softwarové řešení",
-            "description": "Kompletní CRM systém pro vedení fondu od Tech for Fund.",
+            "description": "Kompletní CRM systém pro vedení alternativního fondu od Tech for Fund.",
             "price": 4499,
             "link": "/",
             "icon": "/images/serviceIcons/zalozeni-alternativniho-fondu-na-klic.png"
