@@ -68,7 +68,16 @@
             "price": 0,
             "link": "/",
             "icon": "/images/serviceIcons/bezplatna-konzultace.png"
-        }
+        },
+
+                                {
+            "id": "software",
+            "name": "Komplexní softwarové řešení",
+            "description": "Kompletní CRM systém pro vedení fondu od Tech for Fund.",
+            "price": 4499,
+            "link": "/",
+            "icon": "/images/serviceIcons/zalozeni-alternativniho-fondu-na-klic.png"
+        },
 
     ]
 }
