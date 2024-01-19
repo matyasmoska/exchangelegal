@@ -73,7 +73,7 @@
                                 {
             "id": "software",
             "name": "Komplexní softwarové řešení",
-            "description": "Kompletní CRM systém pro vedení alternativního fondu od Tech for Fund.",
+            "description": "Kompletní CRM systém pro vedení alternativního fondu dle § 15 ZISIF. Jednoduše vyřídíte veškeré náležitosti, které s vedením fondu souvisí, od on-boarding klientů a investic, automatického párování a zadávání plateb až po reportování a komunikaci s klienty.",
             "price": 4499,
             "link": "/",
             "icon": "/images/serviceIcons/zalozeni-alternativniho-fondu-na-klic.png"
