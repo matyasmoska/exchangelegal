@@ -25,7 +25,10 @@ const PartnersSection: FC = () => {
 					<a href="https://www.pepcheck.cz/" target="_blank" rel="noreferrer">
 						<img alt="pep-check-logo" className="max-h-14" src={'/images/pep-check.png'} />
 					</a>
-			
+
+					<a href="https://www.advokatniuschova.cz/" target="_blank" rel="noreferrer">
+						<img alt="advokatni-uschova-logo" className="max-h-14" src={'/images/logo-advokatni-uschova-mm.svg'} />
+					</a>
 					
 				</Fade>
 			</div>
