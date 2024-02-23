@@ -19,7 +19,7 @@ const PartnersSection: FC = () => {
 					</a>
 
 					<a href="https://www.advokatniuschova.cz/" target="_blank" rel="noreferrer">
-						<img alt="advokatni-uschova-logo" className="max-h-18" src={'/images/logo-advokatni-uschova-mm.svg'} />
+						<img alt="advokatni-uschova-logo" className="max-h-15" src={'/images/logo-advokatni-uschova-mm.svg'} />
 					</a>
 					
 					<a href="http://www.moskamurad.legal" target="_blank" rel="noreferrer">
