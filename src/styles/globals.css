@@ -20,3 +20,8 @@ h1, h2, h3, h4 {
     max-width: 100%;
     width: 560px;
 }
+
+.borderGradient {
+    border-image-slice: 1;
+    border-image-source: conic-gradient(from 180deg at 50% 50%, #21397B 0deg, rgba(8, 24, 89, 0) 360deg);
+}

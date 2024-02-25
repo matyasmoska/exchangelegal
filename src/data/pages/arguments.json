@@ -1,0 +1,35 @@
+{
+    "title": "Proč si vybrat právě nás",
+    "arguments": [
+        {
+            "icon": "/images/argumentIcons/regulation.svg",
+            "title": "Profesionální tým",
+            "text": "Jsme zkušení advokáti se sídlem v Praze, naší experzitou je finanční právo, mj. zakládání alternativních fondů."
+        },
+        {
+            "icon": "/images/argumentIcons/protest.svg",
+            "title": "Maximální snaha",
+            "text": "Věnujeme se Vám NAPLNO! Pracujeme rychle a efektivně."
+        },
+        {
+            "icon": "/images/argumentIcons/license.svg",
+            "title": "Zkušenost v oboru",
+            "text": "Založili jsme již přes 30 alternativních fondů. Víme, jaké jsou standardy trhu."
+        },
+        {
+            "icon": "/images/argumentIcons/protection.svg",
+            "title": "Kompletní zajištění",
+            "text": "Vše zařídíme. Od A až po ZISIF. Založíme pro vás společnost, zajistíme registraci u ČNB."
+        },
+        {
+            "icon": "/images/argumentIcons/safebox.svg",
+            "title": "AML & PEP check",
+            "text": "Proškolíme vás na AML/CFT, připravíme kompletní dokumentaci, zajistíme reporting ČNB i software PEP check pro AML/CFT a vedení fondu."
+        },
+        {
+            "icon": "/images/argumentIcons/consultation.svg",
+            "title": "Konzultace zdarma",
+            "text": "Probereme s vámi vaše potřeby a pomůžeme vám se rozhodnout, zda je pro vás tento druh fondu ta pravá volba."
+        }
+    ]
+}

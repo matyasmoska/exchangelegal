@@ -49,7 +49,8 @@ module.exports = {
         '9xl': '96.5rem'
       },
       boxShadow: {
-        'tile': '0 0 10px 0 rgba(0, 0, 0, 0.10)'
+        'tile': '0 0 10px 0 rgba(0, 0, 0, 0.10)',
+        'tilearg': '0 0 32px 0 rgba(33, 57, 123, 0.1)'
       },
       spacing: {
         '1/8': '12.5%',

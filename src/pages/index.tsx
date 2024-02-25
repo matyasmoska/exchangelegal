@@ -6,6 +6,7 @@ import ContactSection from '../components/Pages/index/ContactSection'
 import { GetStaticProps, NextPage } from 'next'
 import { fetchEntries } from '../services/contentful'
 import NewsSection from '../components/Pages/index/NewsSection'
+import ArgumentsSection from '../components/Pages/index/ArgumentsSection'
 import { NewsItem } from '../typings'
 import PartnersSection from '../components/Pages/index/PartnersSection'
 import { c } from '../services/misc'
@@ -29,6 +30,7 @@ const Home: NextPage<{ news: NewsItem[] }> = ({ news }) => {
 			
 			<div className="relative">
 				<MainCarousel news={news} />
+				<ArgumentsSection />
 				<NewsSection news={news} />
 				<Fade direction={'up'} triggerOnce>
 					<ContactSection />
