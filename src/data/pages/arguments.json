@@ -14,22 +14,22 @@
         {
             "icon": "/images/argumentIcons/license.svg",
             "title": "Zkušenost v oboru",
-            "text": "Založili jsme již přes 30 alternativních fondů. Víme, jaké jsou standardy trhu."
+            "text": "Založili jsme již přes 30 alternativních fondů. Víme, jaké jsou best practice a standardy trhu."
         },
         {
             "icon": "/images/argumentIcons/protection.svg",
             "title": "Kompletní zajištění",
-            "text": "Vše zařídíme. Od A až po ZISIF. Založíme pro vás společnost, zajistíme registraci u ČNB."
+            "text": "Vše zařídíme. Od A až po ZISIF. Založíme pro vás společnost, připravíme kompletní dokumentaci, zajistíme registraci fondu a pravidelný reporting u ČNB."
         },
         {
             "icon": "/images/argumentIcons/safebox.svg",
             "title": "AML & PEP check",
-            "text": "Proškolíme vás na AML/CFT, připravíme kompletní dokumentaci, zajistíme reporting ČNB i software PEP check pro AML/CFT a vedení fondu."
+            "text": "Proškolíme vás na AML/CFT, přípravíme AML dokumentace i software PEP check pro AML/CFT."
         },
         {
             "icon": "/images/argumentIcons/consultation.svg",
             "title": "Konzultace zdarma",
-            "text": "Probereme s vámi vaše potřeby a pomůžeme vám se rozhodnout, zda je pro vás tento druh fondu ta pravá volba."
+            "text": "Probereme s vámi vaše potřeby a pomůžeme vám se rozhodnout, zda je pro vás tento druh správy investic pravá volba."
         }
     ]
 }
