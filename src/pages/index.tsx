@@ -21,9 +21,9 @@ const Home: NextPage<{ news: NewsItem[] }> = ({ news }) => {
 		<DefaultLayout>
 			
 			<SEO
-				title="ZISIF 15 – alternativní fondy na klíč | 15zisif.cz"
-				description="✅ Jsme odborníky na ZISIF 15, věnujeme se zakládání alternativních fondů ⭐ Máme unikátní zkušenosti a know-how v oblasti alternativních fondů dle ZISIF 15"
-				keywords="ZISIF 15, alternativní investiční fond, minifond, alternativní fond, § 15 ZISIF, 15zisif"
+				title="15 ZISIF – alternativní fondy na klíč | 15zisif.cz"
+				description="✅ Jsme odborníky na 15 ZISIF, věnujeme se zakládání alternativních fondů ⭐ Máme unikátní zkušenosti a know-how v oblasti alternativních fondů dle ZISIF 15"
+				keywords="15 ZISIF, alternativní investiční fond, minifond, alternativní fond, § 15 ZISIF, 15zisif"
 			/>
 			
 			<meta name="seznam-wmt" content="dvWBun9gVdKXbODiGWoQ7fhRwJ0xE2Ni" />
