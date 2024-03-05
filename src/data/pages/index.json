@@ -23,12 +23,12 @@
     },
     "contact": {
         "header": "Kontakty",
-        "description": "Chcete založit vlastní alternativní fond dle ZISIF 15? Neváhejte se na nás obrátit.",
+        "description": "Chcete založit vlastní alternativní fond dle 15 ZISIF? Neváhejte se na nás obrátit.",
         "address": {
             "firstLine1": "Mgr. Matyáš Moska, advokát",
             "firstLine2": "Mgr. Jakub Pártl, LL.M., advokát",
             "secondLine": "City Empiria, Na Strži 1702/65, 140 00 Praha 4",
-            "thirdLine": "Jsme specialisté na alternativní investiční fondy (ZISIF 15)."
+            "thirdLine": "Jsme specialisté na alternativní fondy – 15 ZISIF."
         },
         "phoneNumber": "+420 605 006 807",
         "phoneNumberLink":"00420605006807",
