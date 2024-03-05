@@ -46,7 +46,7 @@ const DefaultLayout: FC = ({ children }) => {
                 `} }/>}
 				
 				<script type="application/ld+json" dangerouslySetInnerHTML={{
-					__html: `{ "@context": "https://schema.org/", "@type": "CreativeWorkSeries", "name": "Post title", "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "bestRating": "5", "ratingCount": "19" } }`
+					__html: `{ "@context": "https://schema.org/", "@type": "CreativeWorkSeries", "name": "Post title", "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "bestRating": "5", "ratingCount": "43" } }`
 				}}/>
 				
 			</Head>
