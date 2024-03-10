@@ -11,11 +11,11 @@ const PartnersSection: FC = () => {
 				<Fade damping={0.5} duration={500} cascade triggerOnce>
 					
 					<a href="https://www.cak.cz/" target="_blank" rel="noreferrer">
-						<img alt="ceska-advokatni-komora-logo" className="max-h-14" src={'/images/cak-logo.png'} />
+						<img alt="ceska-advokatni-komora-logo" className="max-h-14" src={'/images/cak-logo-fin.jpg'} />
 					</a>
 
-					<a href="https://lei-ceska.cz/" target="_blank" rel="noreferrer">
-						<img alt="lei-ceska-logo" className="max-h-14" src={'/images/le-ceska-logo.svg'} />
+					<a href="https://lei-ceska.cz/?affiliate_code=15zisif" target="_blank" rel="noreferrer">
+						<img alt="lei-ceska-logo" className="max-h-14" src={'/images/lei-ceska-fin.png'} />
 					</a>
 					
 					<a href="https://www.pepcheck.cz/" target="_blank" rel="noreferrer">
