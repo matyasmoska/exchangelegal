@@ -21,7 +21,7 @@ const PartnersSection: FC = () => {
 					</a>
 
 					<a href="https://www.cak.cz/" target="_blank" rel="noreferrer">
-						<img alt="ceska-advokatni-komora-logo" className="max-h-14.5" src={'/images/517-cak-logo.svg'} />
+						<img alt="ceska-advokatni-komora-logo" className="max-h-14.1" src={'/images/517-cak-logo.svg'} />
 					</a>
 
 					<a href="http://www.sphr.cz" target="_blank" rel="noreferrer">
