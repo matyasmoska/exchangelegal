@@ -20,7 +20,7 @@
             "id": "priprava-kid-dle-narizeni-priips",
             "name": "Příprava KID dle nařízení PRIIPs",
             "description": "Potřebujete pomoci s přípravou dokumentu KID? Žádný problém, tzv. Sdělení klíčových informací (PRIIPs) pro Vás připravíme na míru.",
-            "price": 29000,
+            "price": 19000,
             "link": "/priprava-kid-dle-narizeni-priips",
             "icon": "/images/serviceIcons/priprava-kid-dle-narizeni-priips.png"
         },
@@ -38,7 +38,7 @@
             "id": "aml-povinnosti",
             "name": "AML povinnosti",
             "description": "Potřebujete vyřešit AML povinnosti? Neváhejte se na nás obrátit. Připravíme pro Vás nezbytné dokumenty související s plněním veškerých AML povinností dle AML zákona.",
-            "price": 30000,
+            "price": 29000,
             "link": "/aml-povinnosti",
             "icon": "/images/serviceIcons/aml-povinnosti.png"
         },
