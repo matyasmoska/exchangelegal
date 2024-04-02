@@ -2,7 +2,7 @@ import React, { FC } from 'react'
 import Image from 'next/image'
 import { NewsItem } from '../../../../typings'
 import HeroSection from '../HeroSection'
-import thumbnail from '../../../../../public/images/background.jpg'
+import thumbnail from '../../../../../public/images/graf15zisif.jpg'
 import { c } from '../../../../services/misc'
 
 const MainSection: FC<{ news: NewsItem[] }> = ({ news }) => {
