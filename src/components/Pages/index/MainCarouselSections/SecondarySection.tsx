@@ -10,7 +10,7 @@ const SecondarySection = () => {
 	return (
 		<div
 			className={c(
-				'relative w-full bg-cover px-36 py-36 pt-24 h-[602px]',
+				'relative w-full bg-cover px-36 py-36 pt-28 h-[602px]',
 				'3xl:px-28',
 				'md:px-5 md:pt-28 md:h-[724px]'
 			)}
@@ -51,7 +51,7 @@ const SecondarySection = () => {
 						</Button>
 					</a>
 					<Link href="/nase-sluzby">
-						<Button type="light" className="px-10 py-2">
+						<Button type="light" className="px-3 py-2">
 							{pageData.secondarySection.secondButtonText}
 						</Button>
 					</Link>

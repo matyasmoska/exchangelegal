@@ -8,7 +8,7 @@ import { c } from '../../../../services/misc'
 const MainSection: FC<{ news: NewsItem[] }> = ({ news }) => {
 	return (
 		<>
-			<div className={c('relative w-full bg-cover px-36 py-36 pt-24 h-[602px]', '3xl:px-28', 'md:px-5 md:pt-36 md:h-[724px]')}>
+			<div className={c('relative w-full bg-cover px-36 py-36 pt-28 h-[602px]', '3xl:px-28', 'md:px-5 md:pt-36 md:h-[724px]')}>
 				<Image
 					layout="fill"
 					objectFit="cover"

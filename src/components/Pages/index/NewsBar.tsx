@@ -3,6 +3,7 @@ import Link from 'next/link'
 import React, { FC, useEffect, useMemo, useState } from 'react'
 import { c, dateStringToDateFormat } from '../../../services/misc'
 import { NewsItem } from '../../../typings'
+import Reviews from './Reviews'
 import config from '../../../data/pages/index.json'
 
 /*
@@ -33,7 +34,8 @@ const NewsBar: FC<{ news: NewsItem[] }> = ({ news }) => {
 
 	return (
 		<AnimateSharedLayout>
-		    <m.div layout className={c("absolute top-0 z-20 w-full py-3 text-center bg-white text-dark-blue bg-opacity-70", 'md:px-3')}>
+		  <m.div layout className="absolute top-0 z-20 w-full">
+		    <m.div layout className={c("py-3 text-center bg-white text-dark-blue bg-opacity-70", 'md:px-3')}>
     			<AnimatePresence initial={false} exitBeforeEnter>
     			    <m.div
                         layout 
@@ -51,6 +53,8 @@ const NewsBar: FC<{ news: NewsItem[] }> = ({ news }) => {
         			</m.div>
     			</AnimatePresence>
     		</m.div>
+            <Reviews />
+    	  </m.div>
 		</AnimateSharedLayout>
 	)
 }

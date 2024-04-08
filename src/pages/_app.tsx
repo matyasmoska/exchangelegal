@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import '../styles/hamburger.css'
+import '../styles/reviews.css'
 
 // import App from "next/app";
 import type { AppProps } from 'next/app'
