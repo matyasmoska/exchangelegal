@@ -1,5 +1,4 @@
 import React from 'react'
-import HeroSection from '../components/Pages/index/HeroSection'
 import DefaultLayout from '../layouts/DefaultLayout'
 import SEO from '../components/Layout/SEO'
 import ContactSection from '../components/Pages/index/ContactSection'

@@ -1,29 +1,28 @@
 import React from 'react'
-import { c } from '../../../../services/misc'
+import { c } from '../../../services/misc'
 import Image from 'next/image'
-import thumbnail from '../../../../../public/images/third-background.jpg'
-import pageData from '../../../../data/pages/index.json'
+import pageData from '../../../data/pages/index.json'
 import Link from 'next/link'
-import Button from '../../../Layout/Button'
-import { useMediaQueries } from '../../../../hooks/useMediaQueries'
+import Button from '../../Layout/Button'
 
-const PEPSection = () => {
-	const { isMd } = useMediaQueries()
+export const components = ["firstSection", "secondSection", "thirdSection"] as const
+
+const CarouselSection = ({ sectionKey }: { sectionKey: typeof components[number] }) => {
+	const { image, title, subtitle, primaryButton, secondaryButton } = pageData[sectionKey]
 
 	return (
-				<div
+		<div
 			className={c(
 				'relative w-full bg-cover px-36 py-36 pt-28 h-[602px]',
 				'3xl:px-28',
-				'md:px-5 md:pt-28 md:h-[724px]'
+				'md:px-5 md:pt-28'
 			)}
 		>
 			<Image
 				layout="fill"
 				objectFit="cover"
 				priority
-				placeholder="blur"
-				src={thumbnail}
+				src={image}
 				alt="Background Image"
 				className="absolute top-0 left-0 z-0"
 			/>
@@ -37,10 +36,12 @@ const PEPSection = () => {
 			<div className={c('relative z-10 max-w-3xl space-y-20 text-white', 'md:max-w-none md:text-center')}>
 				<div className="flex flex-col space-y-8">
 					<h1
-						dangerouslySetInnerHTML={{ __html: pageData.pepCheckSection.title }}
+						dangerouslySetInnerHTML={{ __html: title }}
 						className={c('text-6xl font-bold leading-tight', 'md:text-4xl')}
 					/>
-					<p className="text-lg leading-relaxed text-justify">{pageData.pepCheckSection.subtitle}</p>
+					<p className="text-lg leading-relaxed text-justify">
+						{subtitle}
+					</p>
 				</div>
 				<div
 					className={c(
@@ -48,14 +49,14 @@ const PEPSection = () => {
 						'md:block md:space-y-6 md:w-full md:space-x-0'
 					)}
 				>
-					<a href="/priprava-kid-dle-narizeni-priips" target="_blank" rel="noreferrer">
+					<Link href={primaryButton.link}>
 						<Button type="basic" className="px-3 py-2">
-							{pageData.pepCheckSection.firstButtonText}
+							{primaryButton.text}
 						</Button>
-					</a>
-					<Link href="/nase-sluzby">
+					</Link>
+					<Link href={secondaryButton.link}>
 						<Button type="light" className="px-3 py-2">
-							{pageData.pepCheckSection.secondButtonText}
+							{secondaryButton.text}
 						</Button>
 					</Link>
 				</div>
@@ -64,4 +65,4 @@ const PEPSection = () => {
 	)
 }
 
-export default PEPSection
+export default CarouselSection

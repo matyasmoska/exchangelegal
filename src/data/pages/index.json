@@ -1,25 +1,46 @@
 {
-    "title": "Založení alternativního fondu 15 ZISIF od 69 000 Kč",
-    "subtitle": "Zakládáme alternativní investiční fondy dle § 15 ZISIF v nejvyšším standardu za férové ceny. Připravíme pro Vás kompletní dokumentaci pro registraci alternativního fondu dle § 15 ZISIF u České národní banky na klíč.",
-    "checkAMLObligations": "Chci založit alternativní fond",
-    "seeAMLServices": "Chci bezplatnou konzultaci",
     "newsBar": {
         "howManyArticles": 3,
         "betweenArticlesDelaySeconds": 5
     },
-    "secondarySection": {
+    "firstSection": {
+        "title": "Založení alternativního fondu 15 ZISIF od 69 000 Kč",
+        "subtitle": "Zakládáme alternativní investiční fondy dle § 15 ZISIF v nejvyšším standardu za férové ceny. Připravíme pro Vás kompletní dokumentaci pro registraci alternativního fondu dle § 15 ZISIF u České národní banky na klíč.",
+        "image": "/images/graf15zisif.jpg",
+        "primaryButton": {
+            "link": "/zalozeni-alternativniho-fondu-na-klic",
+            "text": "Založit alternativní fond"
+        },
+        "secondaryButton": {
+            "link": "/nase-sluzby",
+            "text": "Bezplatná konzultace"
+        }
+    },
+    "secondSection": {
         "title": "Reporting SDAT ČNB pro Váš 15 ZISIF nechte na nás",
         "subtitle": "Zjednodušujeme pro Vás plnění Vašich reportingových povinností. Výkaznictví ČNB pro 15 ZISIF vyřešíme za Vás; nastavíme pravidelné reporty ROFOS 36 a ROFOS 37 dle aktuálních legislativních požadavků.",
-        "firstButtonText": "Chci nastavit reporting",
-        "secondButtonText": "Chci bezplatnou konzultaci"
-
+        "image": "/images/secondary-background.jpg",
+        "primaryButton": {
+            "link": "/reporting-cnb",
+            "text": "Chci nastavit reporting"
+        },
+        "secondaryButton": {
+            "link": "/nase-sluzby",
+            "text": "Bezplatná konzultace"
+        }
     },
-    "pepCheckSection": {
+    "thirdSection": {
         "title": "Potřebujete připravit dokument KID dle nařízení PRIIPs?",
         "subtitle": "Žádný problém, tzv. Sdělení klíčových informací (PRIIPs) pro Váš 15 ZISIF připravíme na míru.",
-        "firstButtonText": "Chci pomoci s přípravou KID",
-        "secondButtonText": "Chci bezplatnou konzultaci"
-
+        "image": "/images/third-background.jpg",
+        "primaryButton": {
+            "link": "/priprava-kid-dle-narizeni-priips",
+            "text": "Chci pomoci s přípravou KID"
+        },
+        "secondaryButton": {
+            "link": "/nase-sluzby",
+            "text": "Bezplatná konzultace"
+        }
     },
     "contact": {
         "header": "Kontakty",

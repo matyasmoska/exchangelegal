@@ -16,7 +16,7 @@ const ArgumentsSection: FC = () => {
 						<div
 							key={title}
 							className={c(
-								'h-full min-h-[250px] p-5 space-y-4 text-center shadow-tilearg border borderGradient',
+								'h-full min-h-argument p-5 space-y-4 text-center shadow-tilearg border borderGradient',
 								'md:max-w-md md:mx-auto'
 							)}
 						>

@@ -48,6 +48,11 @@ module.exports = {
       maxWidth: {
         '9xl': '96.5rem'
       },
+      minHeight: {
+        'carousel': 'calc(100vh - 100px)',
+        'header': '100px',
+        'argument': '250px'
+      },
       boxShadow: {
         'tile': '0 0 10px 0 rgba(0, 0, 0, 0.10)',
         'tilearg': '0 0 32px 0 rgba(33, 57, 123, 0.1)'
