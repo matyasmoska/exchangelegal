@@ -28,7 +28,7 @@ keywords="alternativní investiční fond, minifond, alternativní fond, § 15 Z
 			<div className="text-center">
 				<div className="relative w-full bg-gray-50">
 					<Image
-						layout="responsive"
+						layout="fill"
 						priority
 
 						className="z-10 w-full"

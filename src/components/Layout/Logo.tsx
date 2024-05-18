@@ -3,12 +3,10 @@ import Link from 'next/link'
 import { useMediaQueries } from '../../hooks/useMediaQueries'
 
 const Logo = () => {
-	const { isMd } = useMediaQueries()
-
 	return (
 		<Link href="/">
 			<a className="z-50">
-				<img alt="15zisif.cz" src="/images/logo.svg" height={isMd ? 35 : 40} width={isMd ? 200 : 240} />
+				<img alt="15zisif.cz" src="/images/logo.svg" height={40} width={148} />
 			</a>
 		</Link>
 	)

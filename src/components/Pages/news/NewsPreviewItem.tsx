@@ -24,7 +24,7 @@ export const NewsPreviewItem: FC<{ newsItem: NewsItem }> = ({ newsItem }) => {
 				<p className="text-justify md:hidden">{newsItem.previewText}</p>
 			<div className="md:hidden">
 				<Link href={ '/aktuality/' + newsItem.slug }>
-					<Button type="basic" className="float-left px-16 py-2 text-white">
+					<Button type="secondary" className="float-left px-16 py-2">
 						Více
 					</Button>
 				</Link>

@@ -23,7 +23,7 @@ const Button: FC<ButtonProps> = ({ type, className, onClick, disabled = false, c
 	return (
 		<div
 			onClick={onClick}
-			className={c(getButtonStyle(), 'flex items-center justify-center rounded-full transform-gpu transition cursor-pointer border', className, disabled && '!bg-gray-400 !border-gray-400 !text-gray-100 pointer-events-none')}
+			className={c(getButtonStyle(), 'flex items-center justify-center rounded-lg transform-gpu transition cursor-pointer border', className, disabled && '!bg-gray-400 !border-gray-400 !text-gray-100 pointer-events-none')}
 		>
 			{children}
 		</div>

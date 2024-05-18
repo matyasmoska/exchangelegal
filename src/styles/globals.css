@@ -25,3 +25,7 @@ h1, h2, h3, h4 {
     border-image-slice: 1;
     border-image-source: conic-gradient(from 180deg at 50% 50%, #21397B 0deg, rgba(8, 24, 89, 0) 360deg);
 }
+
+.underlineOffset {
+    text-underline-offset: 6px;
+}
