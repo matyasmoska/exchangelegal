@@ -63,9 +63,9 @@ const ArgumentsSection: FC = () => {
 			</div>
 		</div>
 
-		<div className={c('font-header w-full space-y-16 py-24 px-36 bg-light-grey', '3xl:px-28', '2xl:px-20', 'md:px-8')}>
+		<div className={c('font-header w-full space-y-16 bg-light-grey py-24 px-36', '3xl:px-28', '2xl:px-20', 'md:px-8')}>
 			<Fade direction={'up'} triggerOnce>
-				<h2 dangerouslySetInnerHTML={{ __html: data.fundsTitle }} className="text-4xl font-bold text-center mx-auto max-w-3xl" />
+				<h2 dangerouslySetInnerHTML={{ __html: data.fundsTitle }} className="text-4xl leading-tight font-bold text-center mx-auto max-w-3xl" />
 			</Fade>
 			<div className={c('flex flex-wrap gap-8 justify-evenly max-w-6xl mx-auto text-center')}>
 				<Fade damping={0.5} duration={500} cascade triggerOnce>

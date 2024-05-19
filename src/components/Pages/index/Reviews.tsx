@@ -1,9 +1,9 @@
-import { motion as m } from 'framer-motion'
 import React, { FC, useEffect, useMemo, useState } from 'react'
 import { c } from '../../../services/misc'
 
 type ReviewInfo = {
     rating?: number | string
+    reviews_number?: number
     uri?: string
 }
 
@@ -20,7 +20,7 @@ const getStars = (rating: ReviewInfo["rating"]): Star[] => {
 }
 
 const Reviews: FC = () => {
-    const [{ rating, uri }, setReviews] = useState<ReviewInfo>({})
+    const [{ rating, reviews_number, uri }, setReviews] = useState<ReviewInfo>({})
 
 	useEffect(() => {
 		fetch("/api/reviews")
@@ -33,8 +33,8 @@ const Reviews: FC = () => {
 
 	return (
 		<>
-            {typeof rating === "number" && (
-                <div className="ti-widget ti-goog">
+            <div className="ti-widget ti-goog">
+                {typeof rating === "number" && (
                     <div className="ti-widget-container">
                         <a href={`http://search.google.com/local/reviews?placeid=${uri}`} target="_blank" rel="noopener" className="ti-header source-Google">
                             <span className="ti-icon" />
@@ -49,8 +49,8 @@ const Reviews: FC = () => {
                             </div>
                         </a>
                     </div>
-                </div>
-            )}
+                )}
+            </div>
 		</>
 	)
 }

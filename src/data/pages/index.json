@@ -4,8 +4,8 @@
         "betweenArticlesDelaySeconds": 5
     },
     "firstSection": {
-        "title": "Založení alternativního fondu 15 ZISIF od 69 000 Kč",
-        "subtitle": "Zakládáme alternativní investiční fondy dle § 15 ZISIF v nejvyšším standardu za férové ceny. Připravíme pro Vás kompletní dokumentaci pro registraci alternativního fondu dle § 15 ZISIF u České národní banky na klíč.",
+        "title": "Založení alternativního fondu 15 ZISIF již <em>od 69 000 Kč</em>",
+        "subtitle": "Zakládáme alternativní investiční fondy dle § 15 ZISIF v nejvyšším standardu za férové ceny. Připravíme pro Vás kompletní dokumentaci pro registraci alternativního fondu dle § 15 ZISIF u České národní banky na klíč.",
         "image": "/images/graf15zisif.jpg",
         "primaryButton": {
             "link": "/zalozeni-alternativniho-fondu-na-klic",
@@ -14,10 +14,18 @@
         "secondaryButton": {
             "link": "/nase-sluzby",
             "text": "Bezplatná konzultace"
+        },
+        "firstNumber": {
+            "number": "12,4 mil. Kč",
+            "text": "Proinvestováno našimi klienty"
+        },
+        "secondNumber": {
+            "number": "345",
+            "text": "Spokojených klientů"
         }
     },
     "secondSection": {
-        "title": "Reporting SDAT ČNB pro Váš 15 ZISIF nechte na nás",
+        "title": "Reporting SDAT ČNB pro Váš 15 ZISIF nechte na nás",
         "subtitle": "Zjednodušujeme pro Vás plnění Vašich reportingových povinností. Výkaznictví ČNB pro 15 ZISIF vyřešíme za Vás; nastavíme pravidelné reporty ROFOS 36 a ROFOS 37 dle aktuálních legislativních požadavků.",
         "image": "/images/secondary-background.jpg",
         "primaryButton": {
@@ -27,6 +35,14 @@
         "secondaryButton": {
             "link": "/nase-sluzby",
             "text": "Bezplatná konzultace"
+        },
+        "firstNumber": {
+            "number": "12,4 mil. Kč",
+            "text": "Proinvestováno našimi klienty"
+        },
+        "secondNumber": {
+            "number": "345",
+            "text": "Spokojených klientů"
         }
     },
     "thirdSection": {
@@ -40,6 +56,14 @@
         "secondaryButton": {
             "link": "/nase-sluzby",
             "text": "Bezplatná konzultace"
+        },
+        "firstNumber": {
+            "number": "12,4 mil. Kč",
+            "text": "Proinvestováno našimi klienty"
+        },
+        "secondNumber": {
+            "number": "345",
+            "text": "Spokojených klientů"
         }
     },
     "contact": {

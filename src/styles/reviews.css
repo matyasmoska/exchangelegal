@@ -1,5 +1,4 @@
 .ti-widget.ti-goog {
-    width: 100%;
     display: block;
     overflow: hidden;
     text-align: left;
@@ -478,18 +477,18 @@
 }
 
 .ti-widget.ti-goog .ti-widget-container {
-    text-align: right
+    text-align: left
 }
 
 .ti-widget.ti-goog .ti-header {
     display: inline-flex;
+    align-items: center;
     text-align: left;
     background-color: #f4f4f4;
     border-style: solid;
     border-color: #f4f4f4;
-    border-radius: 12px;
-    padding: 8px 10px;
-    margin: 12px 12px 0px 0px;
+    border-radius: 16px;
+    padding: 9px 16px;
     transition: all .3s ease-out
 }
 
@@ -503,36 +502,36 @@
 }
 
 .ti-widget.ti-goog .ti-text {
-    line-height: 1em;
-    font-size: 15px;
+    line-height: 20px;
+    font-size: 16px;
     font-weight: 700
 }
 
 .ti-widget.ti-goog .ti-icon {
     display: inline-block;
     position: relative;
-    width: 40px;
-    height: 40px;
-    margin-right: 8px
+    width: 48px;
+    height: 48px;
+    margin-right: 16px
 }
 
 .ti-widget.ti-goog .ti-icon:after {
     content: "";
     display: block;
-    width: 40px;
-    height: 40px;
+    width: 48px;
+    height: 48px;
     position: absolute;
     background-repeat: no-repeat;
     background-position: center center
 }
 
 .ti-widget.ti-goog .ti-rating {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 700;
     position: relative;
     top: -2px;
     margin-right: 4px;
-    line-height: 1em
+    line-height: 32px
 }
 
 .ti-widget.ti-goog .ti-profile-details {

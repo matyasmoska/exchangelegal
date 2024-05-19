@@ -9,6 +9,7 @@ import CarouselSection, { components } from './CarouselSection'
 import pageData from '../../../data/pages/index.json'
 import { useBoolean, useInterval } from 'react-use'
 import NewsBar from './NewsBar'
+import Reviews from './Reviews'
 
 const Dot: FC<{ isSelected: boolean; onClick: any }> = ({ isSelected, onClick }) => (
 	<div
@@ -56,7 +57,9 @@ const MainCarousel: FC<{ news: NewsItem[] }> = ({ news }) => {
 				<NewsBar news={news} />
 				<AnimatePresence exitBeforeEnter>
 					<motion.div key={components[currentItemIndex]} {...opacityAnimation}>
-						<CarouselSection sectionKey={components[currentItemIndex]} />
+						<CarouselSection sectionKey={components[currentItemIndex]}>
+							<Reviews />
+						</CarouselSection>
 					</motion.div>
 				</AnimatePresence>
 			</div>

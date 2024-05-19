@@ -14,10 +14,18 @@ h1, h2, h3, h4 {
     @apply font-header;
 }
 
+h1 > em,
 h2 > em {
     @apply not-italic;
     @apply text-wine-primary;
     @apply whitespace-nowrap;
+}
+
+h1 > em {
+    @apply bg-white;
+    @apply px-3;
+    @apply py-2;
+    @apply md:py-1.5;
 }
 
 .prose > iframe,

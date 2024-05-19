@@ -3,7 +3,6 @@ import Link from 'next/link'
 import React, { FC, useEffect, useMemo, useState } from 'react'
 import { c, dateStringToDateFormat } from '../../../services/misc'
 import { NewsItem } from '../../../typings'
-import Reviews from './Reviews'
 import config from '../../../data/pages/index.json'
 
 /*
@@ -53,7 +52,6 @@ const NewsBar: FC<{ news: NewsItem[] }> = ({ news }) => {
         			</m.div>
     			</AnimatePresence>
     		</m.div>
-            <Reviews />
     	  </m.div>
 		</AnimateSharedLayout>
 	)
