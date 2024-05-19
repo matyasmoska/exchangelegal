@@ -65,7 +65,7 @@ const CarouselSection: FC<{ sectionKey: typeof components[number] }> = ({ sectio
 				</div>
 				<div
 					className={c(
-						'flex flex-wrap gap-x-8 gap-y-6',
+						'flex flex-wrap gap-x-12 gap-y-6',
 						'md:hidden'
 					)}
 				>
