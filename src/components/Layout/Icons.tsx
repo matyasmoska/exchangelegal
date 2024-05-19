@@ -35,6 +35,12 @@ export const ArrowLeft: Icon = ({ className = '' }) => (
     </svg>
 )
 
+export const ArrowDown: Icon = ({ className = '' }) => (
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16" stroke="currentColor" className={className}>
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7.9987 3.3335V12.0002M3.33203 8.00016L7.9987 12.6668L12.6654 8.00016" />
+    </svg>
+)
+
 export const SearchIcon: Icon = ({ className = '' }) => (
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className={className}>
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />

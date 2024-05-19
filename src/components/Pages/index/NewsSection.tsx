@@ -6,7 +6,7 @@ import NewsPreviewItem from '../news/NewsPreviewItem'
 
 const NewsSection: FC<{ news: NewsItem[] }> = ({ news }) => {
 	return (
-		<div className={c('w-full space-y-12 mt-16 px-36', '3xl:px-28', '2xl:px-20', 'md:px-8')}>
+		<div className={c('w-full space-y-16 mt-24 px-36', '3xl:px-28', '2xl:px-20', 'md:px-8')}>
 			<Fade direction={'up'} triggerOnce>
 				<h2 className="text-4xl font-bold text-center">Aktuality</h2>
 			</Fade>

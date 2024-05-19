@@ -1,5 +1,64 @@
 {
-    "title": "Proč si vybrat právě nás",
+    "findOutMore": "Zjistěte více",
+    "questionsTitle": "Je fond dle <em>§ 15 ZISIF</em> to pravé pro Vás?",
+    "questions": [
+        {
+            "text": "Máte zájem spravovat cizí prostředky bez náročné regulatorní zátěže?"
+        },
+        {
+            "text": "Chcete podnikat 100 % legálně a transparentně v České republice?"
+        },
+        {
+            "text": "Chcete se vyhnout složitým off-shore strukturám?"
+        },
+        {
+            "text": "Máte obavu z vysokých provozních nákladů fondů kvalifikovaných investorů?"
+        },
+        {
+            "text": "Nechcete anebo nemůžete začít ihned \"ve velkém\"?"
+        }
+    ],
+    "questionsResult": "...pak jste tu správně. Alternativní fond dle <em>§ 15 ZISIF</em> je přesně pro Vás.",
+    "optionsTitle": "S alternativním fondem dle <em>§ 15 ZISIF</em> můžete:",
+    "options": [
+        {
+            "icon": "/images/argumentIcons/calendar.svg",
+            "text": "Spravovat majetek investorů legálně a s maximální svobodou."
+        },
+        {
+            "icon": "/images/argumentIcons/growth.svg",
+            "text": "Velmi efektivně provozovat fond – s minimálními počátečními a průběžnými náklady."
+        },
+        {
+            "icon": "/images/argumentIcons/ethereum.svg",
+            "text": "Investovat do libovolných tříd aktiv, jako jsou například kryptoměny, zcela bez omezení."
+        },
+        {
+            "icon": "/images/argumentIcons/test.svg",
+            "text": "Vyhnout se vysokým regulatorním nárokům (odpovědné osoby, fondový kapitál, compliance, reporting apod.)"
+        }
+    ],
+    "optionsResult": "<em>Využijte těchto výhod</em> a rozvíjejte svůj fond dle Vašich představ!",
+    "fundsTitle": "S alternativním fondem dle <em>§ 15 ZISIF</em> můžete spravovat prostředky:",
+    "funds": [
+        {
+            "title": "<em>20 osob</em>",
+            "text": "Pro maximálně <strong>20 osob</strong> s úzkou vazbou (rodinnou, přátelskou, obchodní)."
+        },
+        {
+            "title": "<em>125 tis. EUR</em>",
+            "text": "Pro <strong>libovolný počet</strong> kvalifikovaných investorů s investicí nad 125 000 EUR."
+        },
+        {
+            "title": "<em>100 mil. EUR</em>",
+            "text": "V maximální výši <strong>100 000 000 EUR</strong> (nebo ekvivalent v jiné měně)."
+        }
+    ],
+    "foundFundButton": {
+        "link": "/zalozeni-alternativniho-fondu-na-klic",
+        "text": "Chci založit fond"
+    },
+    "argumentsTitle": "Proč si vybrat právě nás",
     "arguments": [
         {
             "icon": "/images/argumentIcons/regulation.svg",

@@ -31,6 +31,7 @@ module.exports = {
           'primary-hover': '#4d001a'
         },
         'light-black': '#7B7B7B',
+        'light-grey': '#F8F8F8',
         'light-blue': '#E6E8F2',
         'dark-blue': '#223a7b'
       },
@@ -51,6 +52,7 @@ module.exports = {
       minHeight: {
         'carousel': 'calc(100vh - 100px)',
         'header': '100px',
+        'question': '50px',
         'argument': '250px'
       },
       boxShadow: {

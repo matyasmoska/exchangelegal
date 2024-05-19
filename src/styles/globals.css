@@ -14,6 +14,12 @@ h1, h2, h3, h4 {
     @apply font-header;
 }
 
+h2 > em {
+    @apply not-italic;
+    @apply text-wine-primary;
+    @apply whitespace-nowrap;
+}
+
 .prose > iframe,
 .embed-video {
     aspect-ratio: 16 / 9;
