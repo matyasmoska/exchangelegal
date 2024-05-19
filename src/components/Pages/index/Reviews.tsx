@@ -1,7 +1,7 @@
-import React, { FC, useEffect, useMemo, useState } from 'react'
+import React, { FC, useMemo } from 'react'
 import { StarIcon, StarType } from '../../Layout/Icons'
 
-type ReviewInfo = {
+export type ReviewInfo = {
     rating?: number | string
     reviews_number?: number
     uri?: string
@@ -17,16 +17,7 @@ const getStars = (rating: ReviewInfo["rating"]): StarType[] => {
     return stars
 }
 
-const Reviews: FC = () => {
-    const [{ rating, reviews_number, uri }, setReviews] = useState<ReviewInfo>({})
-
-	useEffect(() => {
-		fetch("/api/reviews")
-			.then(res => res.json())
-			.then(res => res?.result?.data?.[0])
-			.then(setReviews)
-	}, [])
-
+const Reviews: FC<ReviewInfo> = ({ rating, reviews_number, uri }) => {
     const stars = useMemo(() => getStars(rating), [rating])
 
 	return (
