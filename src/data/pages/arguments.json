@@ -90,5 +90,162 @@
             "title": "Vše promýšlíme do posledního detailu",
             "text": "Fondy dle § 15 ZISIF strukturujeme na základě provedených právních analýz. Na sporná výkladová místa máme zodpovězené odborné dotazy ze strany ČNB. Vězte, že právní analýzy jsou výrazně levnější než případná pokuta."
         }
+    ],
+    "recommending": "Doporučujeme",
+    "pricingTitle": "Naše cenové balíčky",
+    "pricingText": "Vyberte si balíček, který je pro Vás ten pravý",
+    "pricingVariants": [
+        {
+            "title": "Základní",
+            "text": "Ideální pro zkušené správce, kteří si vědí rady s compliance a budou mít pouze kvalifikované investory",
+            "price": "69 000 Kč",
+            "priceNote": "+ DPH",
+            "buttonText": "Vybrat balíček",
+            "buttonLink": "/nase-sluzby",
+            "recommended": false,
+            "items": [
+                {
+                    "text": "Registrace fondu u ČNB",
+                    "checked": true
+                },
+                {
+                    "text": "Smluvní dokumentace a investiční strategie",
+                    "checked": true
+                },
+                {
+                    "text": "Prohlášení kvalifikovaného investora",
+                    "checked": true
+                },
+                {
+                    "text": "AML dotazníky pro investory (identifikace, kontrola a hodnocení rizik)",
+                    "checked": false
+                },
+                {
+                    "text": "Dokument KID (sdělení klíčových informací)",
+                    "checked": false
+                },
+                {
+                    "text": "Systém vnitřních zásad a hodnocení rizik AML + nahlášení kontaktní osoby FAÚ",
+                    "checked": false
+                },
+                {
+                    "text": "Dokumenty dle nařízení SFDR pro subjekt, který se nařízením neřídí",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "title": "Retail-ready",
+            "text": "Ideální pro začínající správce, kteří nemají zkušenosti s compliance a budou mít i nekvalifikované investory",
+            "price": "89 000 Kč",
+            "priceNote": "+ DPH",
+            "buttonText": "Vybrat balíček",
+            "buttonLink": "/nase-sluzby",
+            "recommended": false,
+            "items": [
+                {
+                    "text": "Registrace fondu u ČNB",
+                    "checked": true
+                },
+                {
+                    "text": "Smluvní dokumentace a investiční strategie",
+                    "checked": true
+                },
+                {
+                    "text": "Prohlášení kvalifikovaného investora",
+                    "checked": true
+                },
+                {
+                    "text": "AML dotazníky pro investory (identifikace, kontrola a hodnocení rizik)",
+                    "checked": true
+                },
+                {
+                    "text": "Dokument KID (sdělení klíčových informací)",
+                    "checked": true
+                },
+                {
+                    "text": "Systém vnitřních zásad a hodnocení rizik AML + nahlášení kontaktní osoby FAÚ",
+                    "checked": true
+                },
+                {
+                    "text": "Dokumenty dle nařízení SFDR pro subjekt, který se nařízením neřídí",
+                    "checked": true
+                }
+            ]
+        },
+        {
+            "title": "All-in-one",
+            "text": "Ideální pro začínající správce, kteří nemají zkušenosti a chtějí řešení na klíč včetně proškolení",
+            "price": "99 000 Kč",
+            "priceNote": "+ DPH",
+            "buttonText": "Vybrat balíček",
+            "buttonLink": "/nase-sluzby",
+            "recommended": true,
+            "items": [
+                {
+                    "text": "<strong>Vše z balíčku \"Retail-ready\"</strong>",
+                    "checked": true
+                },
+                {
+                    "text": "AML/CFT školení pro členy orgánů fondu a zaměstnance",
+                    "checked": true
+                },
+                {
+                    "text": "Školení statutárního orgánu ohledně povinností správce fondu",
+                    "checked": true
+                },
+                {
+                    "text": "100 kreditů do systému PEP check",
+                    "checked": true
+                },
+                {
+                    "text": "Nadstandardní rychlost zpracování",
+                    "checked": true
+                }
+            ]
+        },
+        {
+            "title": "Custom",
+            "text": "Nevyhovuje Vám žádný z balíčků? Máte individuální potřeby?",
+            "price": "Kontaktujte nás",
+            "priceNote": "",
+            "buttonText": "Kontaktujte nás",
+            "buttonLink": "/kontakty",
+            "recommended": false,
+            "items": [
+                {
+                    "text": "Založení entity (s.r.o., a.s., k.s.)",
+                    "checked": true
+                },
+                {
+                    "text": "Speciální požadavky na strukturu fondu",
+                    "checked": true
+                },
+                {
+                    "text": "Více investičních strategií",
+                    "checked": true
+                },
+                {
+                    "text": "Institucionalizovaná správa",
+                    "checked": true
+                },
+                {
+                    "text": "Více typů emitovaných akcií",
+                    "checked": true
+                },
+                {
+                    "text": "Příprava tipařské smlouvy",
+                    "checked": true
+                },
+                {
+                    "text": "Doporučení na prověřeného poskytovatele daňových a účetních služeb",
+                    "checked": true
+                },
+                {
+                    "text": "Doporučení na prověřeného auditora",
+                    "checked": true
+                }
+            ]
+        }
     ]
 }

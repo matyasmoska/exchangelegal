@@ -3,7 +3,7 @@ import { Fade } from 'react-awesome-reveal'
 import Link from 'next/link'
 import { c } from '../../../services/misc'
 import Button from '../../Layout/Button'
-import { ArrowDown, ArrowRight } from '../../Layout/Icons'
+import { ArrowDown, ArrowRight, CloseIcon, LonelyCheckmarkIcon } from '../../Layout/Icons'
 
 import data from '../../../data/pages/arguments.json'
 
@@ -104,6 +104,57 @@ const ArgumentsSection: FC = () => {
 							<img className="w-12 h-12 mx-auto" src={icon} />
 							<h3 className="text-xl font-bold py-0.5">{title}</h3>
 							<p className="max-w-xs mx-auto">{text}</p>
+						</div>
+					))}
+				</Fade>
+			</div>
+		</div>
+
+		<div className={c('font-header w-full space-y-8 mt-24 px-36', '3xl:px-28', '2xl:px-20', 'md:px-8')}>
+			<Fade direction={'up'} triggerOnce>
+				<h2 dangerouslySetInnerHTML={{ __html: data.pricingTitle }} className="text-4xl font-bold text-center" />
+				<p className="text-center">{data.pricingText}</p>
+			</Fade>
+			<div className={c('grid grid-cols-4 gap-8', '2xl:grid-cols-3', 'lg:grid-cols-2', 'md:grid-cols-1')}>
+				<Fade damping={0.5} duration={500} cascade triggerOnce className="2xl:last:col-start-2 md:last:col-start-auto">
+					{data.pricingVariants.map(({ title, text, price, priceNote, buttonText, buttonLink, recommended, items }, i, arr) => (
+						<div
+							key={title}
+							className={c(
+								'h-full space-y-6 p-6 shadow-tilearg border borderGradient',
+								'md:max-w-md md:mx-auto',
+								recommended && 'bg-dark-blue text-white'
+							)}
+						>
+							<div className="flex flex-wrap gap-4 items-center md:justify-center">
+								<h3 className="text-xl font-semibold">{title}</h3>
+								{recommended && <div className="bg-[#FFFFFFB2] text-dark-blue text-sm rounded-3xl px-2 py-1">{data.recommending}</div>}
+							</div>
+							<p className="min-h-header-mobile md:min-h-0 md:text-center">{text}</p>
+							<p className="text-4xl md:text-center">
+								{price}
+								<span className={c('text-xl', !recommended && 'text-warm-grey')}> {priceNote}</span>
+							</p>
+							<Link href={buttonLink}>
+								<Button
+									type={i === arr.length - 1 ? 'basic' : recommended ? 'light' : 'secondary'}
+									className="font-semibold px-6 py-2"
+								>
+									{buttonText}
+								</Button>
+							</Link>
+							<>
+								{items.map(({ checked, text }) => (
+									<div key={text} className="flex items-center">
+										{checked ? (
+											<LonelyCheckmarkIcon className="w-8 h-8 mr-6 p-1.5 rounded-full flex-shrink-0 bg-[#E8EAF2] text-dark-blue" />
+										) : (
+											<CloseIcon className="w-8 h-8 mr-6 p-2 rounded-full flex-shrink-0 bg-[#F5F5F5] text-black" />
+										)}
+										<p dangerouslySetInnerHTML={{ __html: text }} />
+									</div>
+								))}
+							</>
 						</div>
 					))}
 				</Fade>
