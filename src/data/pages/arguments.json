@@ -58,39 +58,8 @@
         "link": "/zalozeni-alternativniho-fondu-na-klic",
         "text": "Chci založit fond"
     },
-    "argumentsTitle": "Proč si vybrat právě nás",
-    "arguments": [
-        {
-            "icon": "/images/argumentIcons/regulation.svg",
-            "title": "Profesionální tým",
-            "text": "Jsme zkušení advokáti se sídlem v Praze, naší experzitou je finanční právo, mj. zakládání alternativních fondů dle § 15 ZISIF. Založili jsme již přes 30 alternativních fondů. Víme, jaké jsou best practice a standardy trhu."
-        },
-        {
-            "icon": "/images/argumentIcons/protest.svg",
-            "title": "Věnujeme se Vám naplno",
-            "text": "Pracujeme rychle a efektivně. Samozřejmostí spolupráce s námi je i doporučení na spolehlivé účetní a daňové poradenství."
-        },
-        {
-            "icon": "/images/argumentIcons/license.svg",
-            "title": "Všechny služby pod jednou střechou",
-            "text": "Vše zařídíme, od A až po ZISIF. Založíme společnost, připravíme dokumentaci, zajistíme registraci fondu a pravidelný reporting u ČNB – vše u nás vyřešíte na jednom místě."
-        },
-        {
-            "icon": "/images/argumentIcons/protection.svg",
-            "title": "Férová cena",
-            "text": "Ještě než projekt zahájíme, přesně spočítáme cenu realizace, která je neměnná. Jelikož máme na mnoho typů fondů vytvořené systematické postupy, dokážeme zajistit férové ceny."
-        },
-        {
-            "icon": "/images/argumentIcons/safebox.svg",
-            "title": "AML/CFT & PEP check",
-            "text": "Proškolíme vás na AML/CFT a přípravíme AML dokumentaci. Taktéž doporučíme ověřené poskytovatele specializovaných softwarů pro alternativní fondy."
-        },
-        {
-            "icon": "/images/argumentIcons/consultation.svg",
-            "title": "Vše promýšlíme do posledního detailu",
-            "text": "Fondy dle § 15 ZISIF strukturujeme na základě provedených právních analýz. Na sporná výkladová místa máme zodpovězené odborné dotazy ze strany ČNB. Vězte, že právní analýzy jsou výrazně levnější než případná pokuta."
-        }
-    ],
+
+
     "recommending": "Doporučujeme",
     "pricingTitle": "Naše cenové balíčky",
     "pricingText": "Vyberte si balíček, který je pro Vás ten pravý",
@@ -247,5 +216,40 @@
                 }
             ]
         }
+    ],
+    
+    "argumentsTitle": "Proč si vybrat právě nás",
+    "arguments": [
+        {
+            "icon": "/images/argumentIcons/regulation.svg",
+            "title": "Profesionální tým",
+            "text": "Jsme zkušení advokáti se sídlem v Praze, naší experzitou je finanční právo, mj. zakládání alternativních fondů dle § 15 ZISIF. Založili jsme již přes 30 alternativních fondů. Víme, jaké jsou best practice a standardy trhu."
+        },
+        {
+            "icon": "/images/argumentIcons/protest.svg",
+            "title": "Věnujeme se Vám naplno",
+            "text": "Pracujeme rychle a efektivně. Samozřejmostí spolupráce s námi je i doporučení na spolehlivé účetní a daňové poradenství."
+        },
+        {
+            "icon": "/images/argumentIcons/license.svg",
+            "title": "Všechny služby pod jednou střechou",
+            "text": "Vše zařídíme, od A až po ZISIF. Založíme společnost, připravíme dokumentaci, zajistíme registraci fondu a pravidelný reporting u ČNB – vše u nás vyřešíte na jednom místě."
+        },
+        {
+            "icon": "/images/argumentIcons/protection.svg",
+            "title": "Férová cena",
+            "text": "Ještě než projekt zahájíme, přesně spočítáme cenu realizace, která je neměnná. Jelikož máme na mnoho typů fondů vytvořené systematické postupy, dokážeme zajistit férové ceny."
+        },
+        {
+            "icon": "/images/argumentIcons/safebox.svg",
+            "title": "AML/CFT & PEP check",
+            "text": "Proškolíme vás na AML/CFT a přípravíme AML dokumentaci. Taktéž doporučíme ověřené poskytovatele specializovaných softwarů pro alternativní fondy."
+        },
+        {
+            "icon": "/images/argumentIcons/consultation.svg",
+            "title": "Vše promýšlíme do posledního detailu",
+            "text": "Fondy dle § 15 ZISIF strukturujeme na základě provedených právních analýz. Na sporná výkladová místa máme zodpovězené odborné dotazy ze strany ČNB. Vězte, že právní analýzy jsou výrazně levnější než případná pokuta."
+        }
     ]
+
 }
