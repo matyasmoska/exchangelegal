@@ -108,7 +108,7 @@ export const ServiceItem: FC<ServiceItemProps> = ({ serviceItem, selectedItems, 
 						)}
 					>
 						<h3 className={c('text-2xl font-bold', '3xl:text-xl')}>{serviceItem.name}</h3>
-						<p className={c('text-2xl font-bold', '3xl:text-xl')}>Cena od {`${ns(serviceItem.price)},- Kč`}</p>
+						<p className={c('text-2xl font-bold', '3xl:text-xl')}>Cena od {`${ns(serviceItem.price)},- EUR`}</p>
 						<Button
 							onClick={() => {
 								if (!isSelected) setSelectedItems([ ...selectedItems, serviceItem ])
