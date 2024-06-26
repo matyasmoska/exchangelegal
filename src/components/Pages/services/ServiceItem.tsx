@@ -73,7 +73,7 @@ export const ServiceItem: FC<ServiceItemProps> = ({ serviceItem, selectedItems, 
 						<p className="mb-[2px] text-lg">Cena od:</p>
 						<p
 							className={c('text-3xl font-bold text-wine-primary', '3xl:text-2xl')}
-						>{`${ns(serviceItem.price)},- Kč`}</p>
+						>{`${ns(serviceItem.price)},- EUR`}</p>
 					</div>
 					<div className="flex justify-end text-lg text-gray-400">bez DPH</div>
 				</div>
