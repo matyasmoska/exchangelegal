@@ -26,7 +26,7 @@ const SelectedServicesList: FC<{ form: FormikProps<ServicesFormValues> }> = ({ f
 							<p>Celkem</p>
 							<p className={c('text-2xl font-bold text-wine-primary', 'text-xl')}>{`${ns(
 								price
-							)},- Kč`}</p>
+							)},- EUR`}</p>
 						</m.div>
 					</React.Fragment>
 				) : (
