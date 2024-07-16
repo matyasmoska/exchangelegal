@@ -73,7 +73,7 @@ export const ServiceItem: FC<ServiceItemProps> = ({ serviceItem, selectedItems, 
 						<p className="mb-[2px] text-lg">Cena od:</p>
 						<p
 							className={c('text-3xl font-bold text-wine-primary', '3xl:text-2xl')}
-						>{`${ns(serviceItem.price)},- EUR`}</p>
+						>{`${ns(serviceItem.price)},- Kč`}</p>
 					</div>
 					<div className="flex justify-end text-lg text-gray-400">bez DPH</div>
 				</div>
@@ -108,7 +108,7 @@ export const ServiceItem: FC<ServiceItemProps> = ({ serviceItem, selectedItems, 
 						)}
 					>
 						<h3 className={c('text-2xl font-bold', '3xl:text-xl')}>{serviceItem.name}</h3>
-						<p className={c('text-2xl font-bold', '3xl:text-xl')}>Cena od {`${ns(serviceItem.price)},- EUR`}</p>
+						<p className={c('text-2xl font-bold', '3xl:text-xl')}>Cena od {`${ns(serviceItem.price)},- Kč`}</p>
 						<Button
 							onClick={() => {
 								if (!isSelected) setSelectedItems([ ...selectedItems, serviceItem ])
