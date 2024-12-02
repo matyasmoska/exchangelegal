@@ -48,7 +48,7 @@ keywords="alternativní investiční fond, minifond, alternativní fond, § 15 Z
 							<p className="font-bold">{contactPageData.address.firstLine2}</p>
 							<p>{contactPageData.address.secondLine}</p>
 							<p>{contactPageData.address.thirdLine}</p>
-							<p>Webová stránka je společnou prezentací advokátů Mgr. Matyáše Mosky a Mgr. Jakuba Pártla, LL.M., poskytujících právní služby samostatně, z nichž každý je pojištěn pro případ vzniku odpovědnosti za újmu způsobenou při výkonu advokacie.</p>
+							<p>Orgánem mimosoudního řešení sporů pro klienty – spotřebitele je Česká advokátní komora se sídlem v Praze www.cak.cz / e-mail: epodatelna@cak.cz</p>
 						</div>
 						<div className={c('space-y-2.5')}>
 							<WrappedIconRow Icon={PhoneIcon} href={`tel:${contactPageData.phoneNumber}`}>
