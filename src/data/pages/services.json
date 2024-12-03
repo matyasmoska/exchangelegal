@@ -17,11 +17,11 @@
             "icon": "/images/serviceIcons/reporting-cnb.png"
         },
         {
-            "id": "priprava-kid-dle-narizeni-priips",
-            "name": "Příprava KID dle nařízení PRIIPs",
-            "description": "Potřebujete pomoci s přípravou dokumentu KID? Žádný problém, tzv. Sdělení klíčových informací (PRIIPs) pro Vás připravíme na míru.",
-            "price": 19000,
-            "link": "/priprava-kid-dle-narizeni-priips",
+            "id": "investicni-dotaznik",
+            "name": "Investiční dotazník",
+            "description": "Potřebujete pomoci s přípravou investičního dotazníku pro posouzení vhodnosti dle § 15 odst. 4 písm. c) ZISIF?",
+            "price": 9000,
+            "link": "/investicni-dotaznik",
             "icon": "/images/serviceIcons/priprava-kid-dle-narizeni-priips.png"
         },
 
@@ -77,6 +77,14 @@
             "price": 4499,
             "link": "/",
             "icon": "/images/serviceIcons/zalozeni-alternativniho-fondu-na-klic.png"
+        },
+                {
+            "id": "priprava-kid-dle-narizeni-priips",
+            "name": "Příprava KID dle nařízení PRIIPs",
+            "description": "Potřebujete pomoci s přípravou dokumentu KID? Žádný problém, tzv. Sdělení klíčových informací (PRIIPs) pro Vás připravíme na míru.",
+            "price": 19000,
+            "link": "/priprava-kid-dle-narizeni-priips",
+            "icon": "/images/serviceIcons/priprava-kid-dle-narizeni-priips.png"
         }
 
     ]
