@@ -166,10 +166,6 @@
                 {
                     "text": "20 kreditů do systému PEP check",
                     "checked": true
-                },
-                {
-                    "text": "Nadstandardní rychlost zpracování",
-                    "checked": true
                 }
             ]
         },
@@ -182,10 +178,17 @@
             "buttonLink": "/nase-sluzby",
             "recommended": false,
             "items": [
+
+                {
+                    "text": "<strong>Vše z balíčku \"Retail-ready\"</strong>",
+                    "checked": true
+                },
+                
                 {
                     "text": "Založení entity (a.s.)",
                     "checked": true
                 },
+                
                 {
                     "text": "Speciální požadavky na strukturu fondu",
                     "checked": true
@@ -208,10 +211,6 @@
                 },
                 {
                     "text": "Doporučení na prověřeného poskytovatele daňových a účetních služeb",
-                    "checked": true
-                },
-                {
-                    "text": "Doporučení na prověřeného auditora",
                     "checked": true
                 }
             ]
