@@ -10,8 +10,8 @@
         },
         {
             "id": "reporting-cnb",
-            "name": "Reporting ČNB (ROFOS 36 a 37)",
-            "description": "Zjednodušujeme pro Vás plnění Vašich reportingových povinností. Výkaznictví ČNB vyřešíme za Vás, nastavíme pravidelné reporty ROFOS 36 a ROFOS 37 dle aktuálních legislativních požadavků.",
+            "name": "Reporting ČNB (ROFOS 36, ROFOS 37 a DOFOS 15)",
+            "description": "Zjednodušujeme pro Vás plnění Vašich reportingových povinností. Výkaznictví ČNB vyřešíme za Vás, nastavíme pravidelné reporty ROFOS 36, ROFOS 37 a DOFOS 15 dle aktuálních legislativních požadavků.",
             "price": 10000,
             "link": "/reporting-cnb",
             "icon": "/images/serviceIcons/reporting-cnb.png"
