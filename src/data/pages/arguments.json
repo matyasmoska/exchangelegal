@@ -166,6 +166,10 @@
                 {
                     "text": "20 kreditů do systému PEP check",
                     "checked": true
+                },
+                                {
+                    "text": "Nadstandarní rychlost zpracování",
+                    "checked": true
                 }
             ]
         },
