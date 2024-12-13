@@ -171,7 +171,7 @@
         },
         {
             "title": "SICAV-ready",
-            "text": "Plánujete v budoucnu přechod na strukturu SICAV?",
+            "text": "Plánujete v budoucnu přechod na strukturu SICAV? Založte Váš 15 ZISIF tak, abyste měli přechod na SICAV co nejjednodušší",
             "price": "199 000 Kč + DPH",
             "priceNote": "",
             "buttonText": "Vybrat balíček",
@@ -198,7 +198,7 @@
                     "checked": true
                 },
                 {
-                    "text": "kompletní příprava vzorečků výpočtu High Watermark, Performance Fee a dalších",
+                    "text": "kompletní příprava vzorečků výpočtu High Watermark, Performance Fee, Management Fee a dalších",
                     "checked": true
                 },
                 {
