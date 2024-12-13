@@ -86,6 +86,10 @@
                     "checked": true
                 },
                 {
+                    "text": "Založení entity",
+                    "checked": false
+                },
+                {
                     "text": "AML dotazníky pro investory (identifikace, kontrola a hodnocení rizik)",
                     "checked": false
                 },
@@ -139,6 +143,10 @@
                 {
                     "text": "Dokumenty dle nařízení SFDR pro subjekt, který se nařízením neřídí",
                     "checked": true
+                },
+                                {
+                    "text": "Založení entity",
+                    "checked": false
                 }
             ]
         },
