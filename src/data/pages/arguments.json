@@ -145,7 +145,7 @@
         {
             "title": "All-in-one",
             "text": "Ideální pro začínající správce, kteří nemají zkušenosti a chtějí řešení na klíč včetně proškolení",
-            "price": "99 000 Kč",
+            "price": "109 000 Kč",
             "priceNote": "+ DPH",
             "buttonText": "Vybrat balíček",
             "buttonLink": "/nase-sluzby",
@@ -174,20 +174,28 @@
             ]
         },
         {
-            "title": "Custom",
-            "text": "Nevyhovuje Vám žádný z balíčků? Máte individuální potřeby?",
-            "price": "Kontaktujte nás",
+            "title": "SICAV-ready",
+            "text": "Plánujete v budoucnu přechod na strukturu SICAV?",
+            "price": "199 000 Kč + DPH",
             "priceNote": "",
-            "buttonText": "Kontaktujte nás",
-            "buttonLink": "/kontakty",
+            "buttonText": "Vybrat balíček",
+            "buttonLink": "/nase-sluzby",
             "recommended": false,
             "items": [
                 {
-                    "text": "Založení entity (s.r.o., a.s., k.s.)",
+                    "text": "Založení entity (a.s.)",
                     "checked": true
                 },
                 {
                     "text": "Speciální požadavky na strukturu fondu",
+                    "checked": true
+                },
+                {
+                    "text": "kompletní příprava vzorečků výpočtu NAV",
+                    "checked": true
+                },
+                {
+                    "text": "kompletní příprava vzorečků výpočtu High Watermark, Performance Fee a dalších",
                     "checked": true
                 },
                 {
