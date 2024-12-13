@@ -184,6 +184,11 @@
             "items": [
 
                 {
+                    "text": "<strong>Zařízení dle § 15 ZISIF provozované na "engine" SICAVu</strong>",
+                    "checked": true
+                },
+                
+                {
                     "text": "<strong>Vše z balíčku \"All-in-one\"</strong>",
                     "checked": true
                 },
