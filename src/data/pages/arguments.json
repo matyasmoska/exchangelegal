@@ -168,16 +168,16 @@
                     "checked": true
                 },
                 {
-                    "text": "Založení entity (a.s.) dle požadavků § 15 a § 15a ZISIF",
+                    "text": "Založení entity",
                     "checked": false
                 },
                 
                 {
-                    "text": "Příprava vzorečků výpočtu NAV, High Watermark, Performance Fee, Management Fee a dalších",
+                    "text": "Příprava vzorečků výpočtu NAV, High Watermark apod.",
                     "checked": false
                 },
                 {
-                    "text": "Automatizované řešení výpočtu NAV, alokačních poměrů investorů a dalších",
+                    "text": "Automatizované řešení výpočtu NAV, alokačních poměrů investorů",
                     "checked": false
                 }
             ]
