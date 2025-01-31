@@ -14,7 +14,7 @@ export default function Contact () {
 			<SEO
 				title="15 ZISIF – kontakty – 15zisif.cz"
 description="✅ Jsme odborníky v oblasti zakládání fondů ⭐ Máme unikátní zkušenosti a know-how v oblasti alternativních fondů dle § 15 ZISIF"
-keywords="alternativní investiční fond, minifond, alternativní fond, § 15 ZISIF, 15zisif"
+keywords="alternativní investiční fond, minifond, alternativní fond, § 15 ZISIF, 15zisif, osoba rizikového kapitálu"
 			/>
 			<div
 				className={c(
