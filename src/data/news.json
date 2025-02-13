@@ -1,0 +1,29 @@
+{
+  "minutesReading": {
+    "one": {
+      "cs": "minuta čtení",
+      "en": "minute reading",
+      "pl": ""
+    },
+    "few": {
+      "cs": "minuty čtení",
+      "en": "minutes reading",
+      "pl": ""
+    },
+    "many": {
+      "cs": "minuty čtení",
+      "en": "minutes reading",
+      "pl": ""
+    },
+    "other": {
+      "cs": "minut čtení",
+      "en": "minutes reading",
+      "pl": ""
+    }
+  },
+  "more": {
+    "cs": "Více",
+    "en": "More",
+    "pl": ""
+  }
+}

@@ -14,6 +14,7 @@ import { useMediaQueries } from '../../hooks/useMediaQueries'
 import { INLINES } from '@contentful/rich-text-types'
 import ShareArticleLinks from '../../components/Pages/news/ShareArticleLinks'
 import { NextSeo } from 'next-seo'
+import { useRouter } from 'next/router'
 
 interface PostDetailPageProps {
 	news: NewsItem[]
@@ -50,6 +51,7 @@ let options = {
 }
 
 const PostDetailPage: NextPage<PostDetailPageProps> = ({ news, newsItem, author }) => {
+	const { locale } = useRouter()
 	const { isMd, isLg } = useMediaQueries()
 
 	const stats = useMemo(() => readingTime(documentToPlainTextString(newsItem.text)), [newsItem])
@@ -101,7 +103,7 @@ const PostDetailPage: NextPage<PostDetailPageProps> = ({ news, newsItem, author 
 						<div className="space-y-5">
 							<h1 className={c('text-3xl font-bold', 'md:text-center')}>{newsItem.name}</h1>
 							<div className="flex items-center space-x-12">
-								<span>{dateStringToDateFormat(newsItem.date)}</span>
+								<span>{dateStringToDateFormat(newsItem.date, locale)}</span>
 								<ReadingTime stats={stats} />
 							</div>
 							<article className="space-y-8 prose text-justify max-w-none">
@@ -161,7 +163,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 	}
 }
 
-export const getStaticPaths: GetStaticPaths = async () => {
+export const getStaticPaths: GetStaticPaths = async ({ locales = [] }) => {
 	const res = await fetchEntries()
 
 	const news = res
@@ -172,8 +174,8 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 	return {
 		paths: [
-			...news.map((item: NewsItem) => {
-				return { params: { slug: item.slug } }
+			...news.flatMap((item: NewsItem) => {
+				return locales.map((locale) => ({ params: { slug: item.slug }, locale }))
 			})
 		],
 		fallback: false

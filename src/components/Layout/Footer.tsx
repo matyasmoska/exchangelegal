@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import React from 'react'
+import { useTranslations } from '../../hooks/useTranslations'
 import { c } from '../../services/misc'
 import { LogoWhite } from '../Layout/Logo'
 import { FacebookIcon, LinkedInIcon, TwitterIcon } from './Icons'
@@ -8,6 +9,7 @@ import pageData from '../../data/navigation.json'
 import contactPageData from '../../data/footer.json'
 
 const Footer = () => {
+	const t = useTranslations()
 	const router = useRouter()
 
 	return (
@@ -27,7 +29,7 @@ const Footer = () => {
 				<a href="/prijimame-kryptomeny" target="_blank">
 				<img src="/images/crypto_white.svg" alt="Přijímáme kryptoměny!" className={c('w-4/5 rounded-lg flex', 'md:mx-auto')} />
 				</a>		
-				<p className="pt-2">{contactPageData.allRightsReserved}</p>
+				<p className="pt-2">{t(contactPageData.allRightsReserved)}</p>
 			</div>
 			<div
 				className={c(
@@ -39,60 +41,60 @@ const Footer = () => {
 				)}
 			>
 				<div className="space-y-10">
-					<h3 className="text-xl font-bold">Naše služby</h3>
+					<h3 className="text-xl font-bold">{t(pageData.services)}</h3>
 					<div className="flex flex-col space-y-4">
 						<Link href="/zalozeni-alternativniho-fondu-na-klic">
-							<a className="hover:underline">{pageData.zalozeni}</a>
+							<a className="hover:underline">{t(pageData.zalozeni)}</a>
 						</Link>
 						<Link href="/reporting-cnb">
-							<a className="hover:underline">{pageData.reportingcnb}</a>
+							<a className="hover:underline">{t(pageData.reportingcnb)}</a>
 						</Link>
 						<Link href="/priprava-kid-dle-narizeni-priips">
-							<a className="hover:underline">{pageData.pripravakiddlenarizenipriips}</a>
+							<a className="hover:underline">{t(pageData.pripravakiddlenarizenipriips)}</a>
 						</Link>
 
 						<Link href="/aml-povinnosti">
-							<a className="hover:underline">{pageData.amlpovinnosti}</a>
+							<a className="hover:underline">{t(pageData.amlpovinnosti)}</a>
 						</Link>
 						<Link href="/investicni-strategie">
-							<a className="hover:underline">{pageData.investicnistrategie}</a>
+							<a className="hover:underline">{t(pageData.investicnistrategie)}</a>
 						</Link>
 						<Link href="/investicni-smlouva">
-							<a className="hover:underline">{pageData.investicnismlouva}</a>
+							<a className="hover:underline">{t(pageData.investicnismlouva)}</a>
 						</Link>
 					</div>
 				</div>
 				
 				<div className="space-y-10">
-					<h3 className="text-xl font-bold">Menu</h3>
+					<h3 className="text-xl font-bold">{t(pageData.menu)}</h3>
 					<div className="flex flex-col space-y-4">
 						
 						<Link href="/alternativni-investicni-fond">
-							<a className="hover:underline">{pageData.cojeto}</a>
+							<a className="hover:underline">{t(pageData.cojeto)}</a>
 						</Link>
 						
 						
 						<Link href="/povinnosti-spravce-fondu">
-							<a className="hover:underline">{pageData.povinnostispravcefondu}</a>
+							<a className="hover:underline">{t(pageData.povinnostispravcefondu)}</a>
 						</Link>
 
 						<Link href="/aktuality">
-							<a className="hover:underline">{pageData.news}</a>
+							<a className="hover:underline">{t(pageData.news)}</a>
 						</Link>
 						
 						<Link href="/nase-sluzby">
-							<a className="hover:underline">{pageData.services}</a>
+							<a className="hover:underline">{t(pageData.services)}</a>
 						</Link>
 						<Link href="/o-nas">
-							<a className="hover:underline">{pageData.about}</a>
+							<a className="hover:underline">{t(pageData.about)}</a>
 						</Link>
 						<Link href="/casto-kladene-dotazy">
-							<a className="hover:underline">{pageData.castokladenedotazy}</a>
+							<a className="hover:underline">{t(pageData.castokladenedotazy)}</a>
 						</Link>
 					</div>
 				</div>
 				<div className="space-y-10">
-					<h3 className="text-xl font-bold">Kontakty</h3>
+					<h3 className="text-xl font-bold">{t(pageData.contact)}</h3>
 					<div className="flex flex-col space-y-8">
 						<div className="flex flex-col space-y-4">
 							<p className="font-bold">{contactPageData.contact.address.firstLine}</p>
@@ -108,22 +110,22 @@ const Footer = () => {
 							<a href={`mailto:${contactPageData.contact.email}`} className="hover:underline">
 								{contactPageData.contact.email}
 							</a>
-							<a className="hover:underline" href="/pravni-informace-a-podminky-uziti" target="_blank">{pageData.tos}</a>
+							<a className="hover:underline" href="/pravni-informace-a-podminky-uziti" target="_blank">{t(pageData.tos)}</a>
 							<Link href="/zasady-zpracovani-osobnich-udaju">
-								<a className="hover:underline">{pageData.privacypolicy}</a>
+								<a className="hover:underline">{t(pageData.privacypolicy)}</a>
 							</Link>
 							<Link href="/pravidla-pouzivani-cookies">
-								<a className="hover:underline">{pageData.cookierules}</a>
+								<a className="hover:underline">{t(pageData.cookierules)}</a>
 							</Link>
 							<Link href={{ pathname: router.pathname, query: { ...router.query, consent: 'setup' } }} scroll={false}>
-								<a className="hover:underline">{pageData.cookiesettings}</a>
+								<a className="hover:underline">{t(pageData.cookiesettings)}</a>
 							</Link>
 						</div>
 						
 					</div>
 				</div>
 				<div className="space-y-10">
-					<h3 className="text-xl font-bold">Sledujte nás</h3>
+					<h3 className="text-xl font-bold">{t(pageData.sledujtenas)}</h3>
 					<div className={c('flex space-x-4 text-white', 'md:text-center md:justify-center md:pb-52')}>
 						
 						

@@ -4,11 +4,17 @@ import readingTime from 'reading-time'
 import { c, dateStringToDateFormat } from '../../../services/misc'
 import { NewsItem } from '../../../typings'
 import Image from 'next/image'
+import { useRouter } from 'next/router'
 import Link from 'next/link'
 import Button from '../../Layout/Button'
 import ReadingTime from './ReadingTime'
+import { useTranslations } from '../../../hooks/useTranslations'
+import pageData from '../../../data/news.json'
 
 const MainNewsItem: FC<{ newsItem: NewsItem }> = ({ newsItem }) => {
+	const { locale } = useRouter()
+	const t = useTranslations()
+
 	const stats = useMemo(() => readingTime(documentToPlainTextString(newsItem.text)), [ newsItem ])
 
 	return (
@@ -30,7 +36,7 @@ const MainNewsItem: FC<{ newsItem: NewsItem }> = ({ newsItem }) => {
 						<h1 className={c('text-[40px] leading-tight font-bold', 'xl:text-3xl', 'md:text-2xl md:text-center')}>{newsItem.name}</h1>
 					</Link>
 					<div className={c('flex items-center space-x-12', 'md:justify-center')}>
-						<span className={c('md:text-lg')}>{dateStringToDateFormat(newsItem.date)}</span>
+						<span className={c('md:text-lg')}>{dateStringToDateFormat(newsItem.date, locale)}</span>
 						<ReadingTime stats={stats} />
 					</div>
 					<p className="text-justify">{newsItem.previewText}</p>
@@ -38,7 +44,7 @@ const MainNewsItem: FC<{ newsItem: NewsItem }> = ({ newsItem }) => {
 				<div className={c('flex', 'md:justify-center')}>
 					<Link href={'/aktuality/' + newsItem.slug}>
 						<Button type="basic" className="float-left px-20 py-2.5 text-white">
-							Více
+							{t(pageData.more)}
 						</Button>
 					</Link>
 				</div>

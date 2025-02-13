@@ -1,5 +1,6 @@
 import { AnimatePresence, AnimateSharedLayout, motion as m } from 'framer-motion'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 import React, { FC, useEffect, useMemo, useState } from 'react'
 import { c, dateStringToDateFormat } from '../../../services/misc'
 import { NewsItem } from '../../../typings'
@@ -11,6 +12,8 @@ import config from '../../../data/pages/index.json'
 */
 
 const NewsBar: FC<{ news: NewsItem[] }> = ({ news }) => {
+    const { locale } = useRouter()
+
     const [currentItemIndex, setCurrentItemIndex] = useState(0)
 
     // Take only first five articles
@@ -46,7 +49,7 @@ const NewsBar: FC<{ news: NewsItem[] }> = ({ news }) => {
                     >
         			    <Link href={'/aktuality/' + currNewsItem.slug}>
             				<a>
-            					<span className="font-bold">{`${dateStringToDateFormat(currNewsItem.date)} – ${currNewsItem.name}`}</span>
+            					<span className="font-bold">{`${dateStringToDateFormat(currNewsItem.date, locale)} – ${currNewsItem.name}`}</span>
             				</a>
             			</Link>
         			</m.div>

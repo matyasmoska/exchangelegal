@@ -4,10 +4,13 @@ import Image from 'next/image'
 import pageData from '../../../data/pages/index.json'
 import Link from 'next/link'
 import Button from '../../Layout/Button'
+import { useTranslations } from '../../../hooks/useTranslations'
 
 export const components = ["firstSection", "secondSection", "thirdSection"] as const
 
 const CarouselSection: FC<{ sectionKey: typeof components[number] }> = ({ sectionKey, children }) => {
+	const t = useTranslations<string>()
+	
 	const { image, title, subtitle, primaryButton, secondaryButton, firstNumber, secondNumber } = pageData[sectionKey]
 
 	return (
@@ -39,11 +42,11 @@ const CarouselSection: FC<{ sectionKey: typeof components[number] }> = ({ sectio
 						{children}
 					</div>
 					<h1
-						dangerouslySetInnerHTML={{ __html: title }}
+						dangerouslySetInnerHTML={{ __html: t(title) }}
 						className={c('text-[54px] font-bold leading-normal max-w-4xl', 'md:text-[40px]')}
 					/>
 					<p className="max-w-xl min-h-header-mobile md:mx-auto md:text-center">
-						{subtitle}
+						{t(subtitle)}
 					</p>
 				</div>
 				<div
@@ -54,12 +57,12 @@ const CarouselSection: FC<{ sectionKey: typeof components[number] }> = ({ sectio
 				>
 					<Link href={secondaryButton.link}>
 						<Button type="light" className="px-8 py-3">
-							{secondaryButton.text}
+							{t(secondaryButton.text)}
 						</Button>
 					</Link>
 					<Link href={primaryButton.link}>
 						<Button type="basic" className="px-8 py-3">
-							{primaryButton.text}
+							{t(primaryButton.text)}
 						</Button>
 					</Link>
 				</div>
@@ -71,11 +74,11 @@ const CarouselSection: FC<{ sectionKey: typeof components[number] }> = ({ sectio
 				>
 					<div>
 						<h3 className="text-5xl leading-tight font-bold mb-3">{firstNumber.number}</h3>
-						<p>{firstNumber.text}</p>
+						<p>{t(firstNumber.text)}</p>
 					</div>
 					<div>
 						<h3 className="text-5xl leading-tight font-bold mb-3">{secondNumber.number}</h3>
-						<p>{secondNumber.text}</p>
+						<p>{t(secondNumber.text)}</p>
 					</div>
 				</div>
 			</div>

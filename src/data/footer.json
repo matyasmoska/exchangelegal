@@ -15,5 +15,8 @@
             "linkedIn": "https://www.linkedin.com/company/15zisif-cz/"
         }
     },
-    "allRightsReserved": "© 2025 všechna práva vyhrazena"
+    "allRightsReserved": {
+        "cs": "© 2025 všechna práva vyhrazena",
+        "en": ""
+    }
 }

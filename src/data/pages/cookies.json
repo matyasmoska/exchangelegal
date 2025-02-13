@@ -1,69 +1,144 @@
 {
-  "header": "Používáme soubory cookies",
-  "headerModal": "Nastavení souborů cookies",
-  "description": "Používáme soubory cookies, abychom Vám umožnili uživatelsky příjemnější prohlížení webu. Udělíte-li nám souhlas s umístěním volitelných souborů cookies do vašeho zařízení, budeme moci sbírat anonymizovaná analytická data za účelem zlepšení našeho webu.",
-  "detail": "Kliknutím na spínač vedle názvu jednotlivého druhu cookies udělíte souhlas s používáním tohoto druhu cookies webovou stránkou, a to do doby, než souhlas odvoláte či než uplyne doba 6 měsíců a cookie banner automaticky vyskočí znovu.",
-  "moreInfo": {
-    "text": "Více informací o používání souborů cookies tímto webem naleznete v",
-    "link": "/pravidla-pouzivani-cookies",
-    "linkText": "Pravidlech používání cookies"
+  "header": {
+    "cs": "Používáme soubory cookies",
+    "en": "We use cookies"
   },
-  "settings": "Nastavení",
-  "acceptTechnical": "Povolit jen nutné",
-  "acceptAll": "Přijmout vše",
-  "saveSettings": "Uložit nastavení",
+  "headerModal": {
+    "cs": "Nastavení souborů cookies",
+    "en": "Cookies settings"
+  },
+  "description": {
+    "cs": "Používáme soubory cookies, abychom Vám umožnili uživatelsky příjemnější prohlížení webu. Udělíte-li nám souhlas s umístěním volitelných souborů cookies do vašeho zařízení, budeme moci sbírat anonymizovaná analytická data za účelem zlepšení našeho webu.",
+    "en": "We use cookies to make your browsing experience more user-friendly. If you give us your consent to place optional cookies on your device, we will be able to collect anonymised analytical data to improve our website."
+  },
+  "detail": {
+    "cs": "Kliknutím na spínač vedle názvu jednotlivého druhu cookies udělíte souhlas s používáním tohoto druhu cookies webovou stránkou, a to do doby, než souhlas odvoláte či než uplyne doba 6 měsíců a cookie banner automaticky vyskočí znovu.",
+    "en": "By clicking on the switch next to the name of each type of cookie, you consent to the use of this type of cookie by the website until you withdraw your consent or until a period of 6 months has elapsed and the cookie banner automatically pops up again."
+  },
+  "moreInfo": {
+    "cs": "Více informací o používání souborů cookies tímto webem naleznete v",
+    "en": "For more information about the use of cookies by this website, please see"
+  },
+  "moreInfoLinkText": {
+    "cs": "Pravidlech používání cookies",
+    "en": "Cookie policy"
+  },
+  "settings": {
+    "cs": "Nastavení",
+    "en": "Settings"
+  },
+  "acceptTechnical": {
+    "cs": "Povolit jen nutné",
+    "en": "Allow only necessary"
+  },
+  "acceptAll": {
+    "cs": "Přijmout vše",
+    "en": "Accept all"
+  },
+  "saveSettings": {
+    "cs": "Uložit nastavení",
+    "en": "Save settings"
+  },
   "headers": [
     {
       "key": "name",
-      "value": "Název"
+      "value": {
+        "cs": "Název",
+        "en": "Name"
+      }
     },
     {
       "key": "domain",
-      "value": "Doména"
+      "value": {
+        "cs": "Doména",
+        "en": "Domain"
+      }
     },
     {
       "key": "expiration",
-      "value": "Trvanlivost"
+      "value": {
+        "cs": "Trvanlivost",
+        "en": "Expiration"
+      }
     },
     {
       "key": "description",
-      "value": "Popis"
+      "value": {
+        "cs": "Popis",
+        "en": "Description"
+      }
     }
   ],
   "cookies": {
     "technical": {
-      "header": "Technické cookies",
-      "description": "Tyto cookies soubory jsou nutné pro správné fungování webu. Bez těchto cookies by web nefungoval správně, proto u nich nevyžadujeme Váš souhlas.",
+      "header": {
+        "cs": "Technické cookies",
+        "en": "Technical cookies"
+      },
+      "description": {
+        "cs": "Tyto cookies soubory jsou nutné pro správné fungování webu. Bez těchto cookies by web nefungoval správně, proto u nich nevyžadujeme Váš souhlas.",
+        "en": "These cookies are necessary for the proper functioning of the website. Without these cookies, the website would not function properly, so we do not require your consent for them."
+      },
       "rows": [
         {
           "name": "cookie_consent",
           "domain": "15zisif.cz",
-          "expiration": "6 měsíců",
-          "description": "Cookie soubor nutný pro uchování informace o souhlasu s používáním cookies."
+          "expiration": {
+            "cs": "6 měsíců",
+            "en": "6 months"
+          },
+          "description": {
+            "cs": "Cookie soubor nutný pro uchování informace o souhlasu s používáním cookies.",
+            "en": "Cookie file required to store information about consent to the use of cookies."
+          }
         }
       ]
     },
     "analytics": {
-      "header": "Analytické cookies",
-      "description": "Umožňují měřit návštěvnost webových stránek, kolik uživatelů kliklo na odkaz na webových stránkách nebo využilo některou z jejich funkcí.",
+      "header": {
+        "cs": "Analytické cookies",
+        "en": "Analytical cookies"
+      },
+      "description": {
+        "cs": "Umožňují měřit návštěvnost webových stránek, kolik uživatelů kliklo na odkaz na webových stránkách nebo využilo některou z jejich funkcí.",
+        "en": "They allow to measure website traffic, how many users clicked on a link on a website or used one of its features."
+      },
       "rows": [
         {
           "name": "_ga",
           "domain": "google.com",
-          "expiration": "2 roky",
-          "description": "Google Analytics nám pomáhají měřit, jak se uživatelé chovají na našem webu, co je zajímá a co bychom mohli zlepšit. Tato cookie ukládá anonymizovaná data a každému uživateli nastavuje náhodný identifikátor."
+          "expiration": {
+            "cs": "2 roky",
+            "en": "2 years"
+          },
+          "description": {
+            "cs": "Google Analytics nám pomáhají měřit, jak se uživatelé chovají na našem webu, co je zajímá a co bychom mohli zlepšit. Tato cookie ukládá anonymizovaná data a každému uživateli nastavuje náhodný identifikátor.",
+            "en": "Google Analytics helps us measure how users behave on our website, what interests them and what we could improve. This cookie stores anonymised data and sets a random identifier for each user."
+          }
         },
         {
           "name": "_gid",
           "domain": "google.com",
-          "expiration": "1 den",
-          "description": "Další cookie pro Google Analytics, která ukládá anonymizovaná data o chování uživatelů a výkonu webu pro účely reportingu."
+          "expiration": {
+            "cs": "1 den",
+            "en": "1 day"
+          },
+          "description": {
+            "cs": "Další cookie pro Google Analytics, která ukládá anonymizovaná data o chování uživatelů a výkonu webu pro účely reportingu.",
+            "en": "Another cookie for Google Analytics that stores anonymised data about user behaviour and site performance for reporting purposes."
+          }
         },
         {
           "name": "_gat_gtag_*",
           "domain": "google.com",
-          "expiration": "1 minuta",
-          "description": "Cookie soubor Google Analytics pro rozlišování mezi uživateli."
+          "expiration": {
+            "cs": "1 minuta",
+            "en": "1 minute"
+          },
+          "description": {
+            "cs": "Cookie soubor Google Analytics pro rozlišování mezi uživateli.",
+            "en": "Google Analytics cookie to distinguish between users."
+          }
         }
       ]
     }

@@ -1,5 +1,6 @@
 import React, { FC, Fragment, useEffect, useState } from 'react'
 import Link from 'next/link'
+import { useTranslations } from '../../hooks/useTranslations'
 import { c } from '../../services/misc'
 import Logo from './Logo'
 import NavItem from './NavItem'
@@ -18,18 +19,22 @@ const HamburgerIcon: FC<{ sidebarOpen: boolean }> = ({ sidebarOpen }) => {
 }
 
 const NavItems = () => {
+	const t = useTranslations()
+
 	return (
 		<Fragment>
-			<NavItem href={'/aktuality'}>{pageData.news}</NavItem>
-			<NavItem href={'/nase-sluzby'}>{pageData.services}</NavItem>
-			<NavItem href={'/zalozeni-alternativniho-fondu-na-klic'}>{pageData.zalozeni}</NavItem>
-			<NavItem href={'/o-nas'}>{pageData.about}</NavItem>
-			<NavItem href={'/kontakty'}>{pageData.contact}</NavItem>
+			<NavItem href={'/aktuality'}>{t(pageData.news)}</NavItem>
+			<NavItem href={'/nase-sluzby'}>{t(pageData.services)}</NavItem>
+			<NavItem href={'/zalozeni-alternativniho-fondu-na-klic'}>{t(pageData.zalozeni)}</NavItem>
+			<NavItem href={'/o-nas'}>{t(pageData.about)}</NavItem>
+			<NavItem href={'/kontakty'}>{t(pageData.contact)}</NavItem>
 		</Fragment>
 	)
 }
 
 const Navigation = () => {
+	const t = useTranslations()
+	
 	const [ sidebarOpen, setSidebarOpen ] = useState<boolean>(false)
 
 	useEffect(() => {
@@ -55,7 +60,7 @@ const Navigation = () => {
 				<TopBar />
 				<Link href="/nase-sluzby">
 					<Button type="secondary" className="px-4 py-2 flex-grow max-w-[216px] xl:hidden">
-						{pageData.konzultace}
+						{t(pageData.konzultace)}
 					</Button>
 				</Link>
 			</div>

@@ -1,5 +1,7 @@
 import React, { FC, useMemo } from 'react'
 import { StarIcon, StarType } from '../../Layout/Icons'
+import { useTranslations } from '../../../hooks/useTranslations'
+import pageData from '../../../data/pages/index.json'
 
 export type ReviewInfo = {
     rating?: number | string
@@ -18,6 +20,8 @@ const getStars = (rating: ReviewInfo["rating"]): StarType[] => {
 }
 
 const Reviews: FC<ReviewInfo> = ({ rating, reviews_number, uri }) => {
+    const t = useTranslations()
+    
     const stars = useMemo(() => getStars(rating), [rating])
 
 	return (
@@ -31,7 +35,7 @@ const Reviews: FC<ReviewInfo> = ({ rating, reviews_number, uri }) => {
                 >
                     <img src="/images/google-icon.svg" className="w-12 h-12 mr-4" />
                     <div>
-                        <p className="font-semibold">Google hodnocení</p>
+                        <p className="font-semibold">Google {t(pageData.reviews)}</p>
                         <div className="flex items-start">
                             <p className="font-semibold text-[32px] leading-none mr-2">{(Math.floor(rating * 10) / 10).toFixed(1)}</p>
                             <div>
@@ -40,7 +44,7 @@ const Reviews: FC<ReviewInfo> = ({ rating, reviews_number, uri }) => {
                                         <StarIcon key={i} type={star} className="w-5" />
                                     ))}
                                 </div>
-                                <p className="text-sm">{reviews_number} hodnocení</p>
+                                <p className="text-sm">{reviews_number} {t(pageData.reviews)}</p>
                             </div>
                         </div>
                     </div>

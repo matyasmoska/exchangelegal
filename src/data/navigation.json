@@ -1,21 +1,86 @@
 {
-    "news": "Aktuality",
-    "services": "Naše služby",
-    "about": "O nás",
-    "contact": "Kontakty",
-    "cojeto": "Co je to alternativní fond?",
-    "zalozeni": "Fond na klíč 15 ZISIF",
-    "konzultace": "Bezplatná konzultace",
-    "reportingcnb": "Reporting ČNB pro 15 ZISIF",
-    "pripravakiddlenarizenipriips": "Příprava KID dle nařízení PRIIPs",
-    "castokladenedotazy": "Často kladené dotazy",
-    "tos": "Právní informace a podmínky užití",
-    "privacypolicy": "Zásady zpracování osobních údajů",
-    "cookierules": "Pravidla používání cookies",
-    "cookiesettings": "Nastavení cookies",
-    "povinnostidlesfdr": "Povinnosti dle nařízení SFDR",
-    "amlpovinnosti": "AML povinnosti pro 15 ZISIF",
-    "investicnistrategie": "Investiční strategie",
-    "investicnismlouva": "Investiční smlouva",
-    "povinnostispravcefondu": "Povinnosti správce fondu 15 ZISIF"
+  "news": {
+    "cs": "Aktuality",
+    "en": ""
+  },
+  "services": {
+    "cs": "Naše služby",
+    "en": ""
+  },
+  "about": {
+    "cs": "O nás",
+    "en": ""
+  },
+  "contact": {
+    "cs": "Kontakty",
+    "en": ""
+  },
+  "menu": {
+    "cs": "Menu",
+    "en": ""
+  },
+  "sledujtenas": {
+    "cs": "Sledujte nás",
+    "en": ""
+  },
+  "cojeto": {
+    "cs": "Co je to alternativní fond?",
+    "en": ""
+  },
+  "zalozeni": {
+    "cs": "Fond na klíč 15 ZISIF",
+    "en": ""
+  },
+  "konzultace": {
+    "cs": "Bezplatná konzultace",
+    "en": ""
+  },
+  "reportingcnb": {
+    "cs": "Reporting ČNB pro 15 ZISIF",
+    "en": ""
+  },
+  "pripravakiddlenarizenipriips": {
+    "cs": "Příprava KID dle nařízení PRIIPs",
+    "en": ""
+  },
+  "castokladenedotazy": {
+    "cs": "Často kladené dotazy",
+    "en": ""
+  },
+  "tos": {
+    "cs": "Právní informace a podmínky užití",
+    "en": ""
+  },
+  "privacypolicy": {
+    "cs": "Zásady zpracování osobních údajů",
+    "en": ""
+  },
+  "cookierules": {
+    "cs": "Pravidla používání cookies",
+    "en": ""
+  },
+  "cookiesettings": {
+    "cs": "Nastavení cookies",
+    "en": ""
+  },
+  "povinnostidlesfdr": {
+    "cs": "Povinnosti dle nařízení SFDR",
+    "en": ""
+  },
+  "amlpovinnosti": {
+    "cs": "AML povinnosti pro 15 ZISIF",
+    "en": ""
+  },
+  "investicnistrategie": {
+    "cs": "Investiční strategie",
+    "en": ""
+  },
+  "investicnismlouva": {
+    "cs": "Investiční smlouva",
+    "en": ""
+  },
+  "povinnostispravcefondu": {
+    "cs": "Povinnosti správce fondu 15 ZISIF",
+    "en": ""
+  }
 }

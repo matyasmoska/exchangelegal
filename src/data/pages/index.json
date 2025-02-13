@@ -4,24 +4,42 @@
         "betweenArticlesDelaySeconds": 5
     },
     "firstSection": {
-        "title": "Založení alternativního fondu 15 ZISIF již <em>od 69 000 Kč</em>",
-        "subtitle": "Zakládáme alternativní investiční fondy dle § 15 ZISIF v nejvyšším standardu za férové ceny. Připravíme pro Vás kompletní dokumentaci pro registraci alternativního fondu dle § 15 ZISIF u České národní banky na klíč.",
+        "title": {
+            "cs": "Založení alternativního fondu 15 ZISIF již <em>od 69 000 Kč</em>",
+            "en": ""
+        },
+        "subtitle": {
+            "cs": "Zakládáme alternativní investiční fondy dle § 15 ZISIF v nejvyšším standardu za férové ceny. Připravíme pro Vás kompletní dokumentaci pro registraci alternativního fondu dle § 15 ZISIF u České národní banky na klíč.",
+            "en": ""
+        },
         "image": "/images/graf15zisif.jpg",
         "primaryButton": {
             "link": "/zalozeni-alternativniho-fondu-na-klic",
-            "text": "Založit alternativní fond"
+            "text": {
+                "cs": "Založit alternativní fond",
+                "en": ""
+            }
         },
         "secondaryButton": {
             "link": "/nase-sluzby",
-            "text": "Bezplatná konzultace"
+            "text": {
+                "cs": "Bezplatná konzultace",
+                "en": ""
+            }
         },
         "firstNumber": {
             "number": "1 mld+ Kč",
-            "text": "Proinvestováno našimi klienty"
+            "text": {
+                "cs": "Proinvestováno našimi klienty",
+                "en": ""
+            }
         },
         "secondNumber": {
             "number": "50+",
-            "text": "Spokojených klientů"
+            "text": {
+                "cs": "Spokojených klientů",
+                "en": ""
+            }
         }
     },
     "secondSection": {
@@ -30,19 +48,31 @@
         "image": "/images/secondary-background.jpg",
         "primaryButton": {
             "link": "/reporting-cnb",
-            "text": "Chci nastavit reporting"
+            "text": {
+                "cs": "Chci nastavit reporting",
+                "en": ""
+            }
         },
         "secondaryButton": {
             "link": "/nase-sluzby",
-            "text": "Bezplatná konzultace"
+            "text": {
+                "cs": "Bezplatná konzultace",
+                "en": ""
+            }
         },
         "firstNumber": {
             "number": "1 mld+ Kč",
-            "text": "Proinvestováno našimi klienty"
+            "text": {
+                "cs": "Proinvestováno našimi klienty",
+                "en": ""
+            }
         },
         "secondNumber": {
             "number": "50+",
-            "text": "Spokojených klientů"
+            "text": {
+                "cs": "Spokojených klientů",
+                "en": ""
+            }
         }
     },
     "thirdSection": {
@@ -51,29 +81,50 @@
         "image": "/images/third-background.jpg",
         "primaryButton": {
             "link": "/priprava-kid-dle-narizeni-priips",
-            "text": "Chci pomoci s přípravou KID"
+            "text": {
+                "cs": "Chci pomoci s přípravou KID",
+                "en": ""
+            }
         },
         "secondaryButton": {
             "link": "/nase-sluzby",
-            "text": "Bezplatná konzultace"
+            "text": {
+                "cs": "Bezplatná konzultace",
+                "en": ""
+            }
         },
         "firstNumber": {
             "number": "1 mld+ Kč",
-            "text": "Proinvestováno našimi klienty"
+            "text": {
+                "cs": "Proinvestováno našimi klienty",
+                "en": ""
+            }
         },
         "secondNumber": {
             "number": "50+",
-            "text": "Spokojených klientů"
+            "text": {
+                "cs": "Spokojených klientů",
+                "en": ""
+            }
         }
     },
     "contact": {
-        "header": "Kontakty",
-        "description": "Chcete založit vlastní alternativní fond dle 15 ZISIF? Neváhejte se na nás obrátit.",
+        "header": {
+            "cs": "Kontakty",
+            "en": ""
+        },
+        "description": {
+            "cs": "Chcete založit vlastní alternativní fond dle 15 ZISIF? Neváhejte se na nás obrátit.",
+            "en": ""
+        },
         "address": {
             "firstLine1": "MOSKA MURAD advokátní kancelář, s.r.o.",
             "firstLine2": "Mgr. Matyáš Moska, advokát, č. ev. ČAK 19149",
-            "secondLine": "City Empiria, Na Strži 1702/65, 140 00 Praha 4, 5. patro",
-            "thirdLine": "Jsme specialisté na alternativní fondy – 15 ZISIF."
+            "secondLine": "City Empiria, Na Strži 1702/65, 140 00 Praha 4, 5. patro"
+        },
+        "secondDescription": {
+            "cs": "Jsme specialisté na alternativní fondy – 15 ZISIF.",
+            "en": ""
         },
         "phoneNumber": "+420 605 006 807",
         "phoneNumberLink":"00420605006807",
@@ -84,6 +135,14 @@
             "twitter": "https://twitter.com/15zisif",
             "linkedIn": "https://www.linkedin.com/company/15zisif-cz"
         }
+    },
+    "reviews": {
+        "cs": "hodnocení",
+        "en": ""
+    },
+    "partners": {
+        "cs": "Členství & Partneři",
+        "en": ""
     },
     "carouselChangeEveryHowManySeconds": 11
 }

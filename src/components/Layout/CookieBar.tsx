@@ -1,10 +1,12 @@
 import { AnimatePresence, motion } from 'framer-motion'
 import { useRouter } from 'next/router'
+import Link from 'next/link'
 import React, { useState, useEffect } from 'react'
 import { useCookies } from 'react-cookie'
 import staticData from '../../data/pages/cookies.json'
 import { c } from '../../services/misc'
 import { useFetcher } from '../../hooks/useFetcher'
+import { useTranslations, Translations } from '../../hooks/useTranslations'
 import Button from './Button'
 import Modal from './Modal'
 import Toggle, { ToggleProps } from '../Forms/Toggle'
@@ -20,17 +22,18 @@ type CookieConsent = {
 type CookieTableRow = {
   name: string
   domain: string
-  expiration: string
-  description: string
+  expiration: Translations | string
+  description: Translations | string
 }
 
 type CookieSectionProps = ToggleProps & {
-  header: string
-  description: string
+  header: Translations | string
+  description: Translations | string
   rows: CookieTableRow[]
 }
 
 const CookieSection = ({ header, description, rows, className, ...toggleProps }: CookieSectionProps) => {
+  const t = useTranslations()
   const [expanded, setExpanded] = useState(false)
 
   return (
@@ -43,20 +46,20 @@ const CookieSection = ({ header, description, rows, className, ...toggleProps }:
           <ChevronDown
             className={c('w-5 h-5 mr-2 xs:mr-1 flex-shrink-0 transition-transform', expanded && 'rotate-180')}
           />
-          {header}
+          {t(header)}
         </div>
         <Toggle {...toggleProps} className="m-2 xs:mx-1" />
       </div>
       {expanded && (
         <>
-          <p className="text-sm text-light-black px-2">{description}</p>
+          <p className="text-sm text-light-black px-2">{t(description)}</p>
           <div className="overflow-auto p-1">
             <table className="w-full text-sm text-light-black">
               <thead>
                 <tr>
-                  {staticData.headers.map(({ value }) => (
-                    <th key={value} className="p-1 font-normal">
-                      {value}
+                  {staticData.headers.map(({ key, value }) => (
+                    <th key={key} className="p-1 font-normal">
+                      {t(value)}
                     </th>
                   ))}
                 </tr>
@@ -66,7 +69,9 @@ const CookieSection = ({ header, description, rows, className, ...toggleProps }:
                   <tr key={`row-${i}`}>
                     {staticData.headers.map(({ key }) => (
                       <td key={`row-${i}-${key}`} className="p-1">
-                        {row[key as keyof CookieTableRow]}
+                        {typeof row[key as keyof CookieTableRow] === 'string'
+                          ? row[key as keyof CookieTableRow]
+                          : t(row[key as keyof CookieTableRow] as Translations)}
                       </td>
                     ))}
                   </tr>
@@ -80,19 +85,26 @@ const CookieSection = ({ header, description, rows, className, ...toggleProps }:
   )
 }
 
-const MoreInfo = () => (
-  <>
-    {staticData.moreInfo.text}{' '}
-    <a href={staticData.moreInfo.link} className="underline hover:text-wine-primary" target="_blank" rel="noreferrer">
-      {staticData.moreInfo.linkText}
-    </a>
-    .
-  </>
-)
+const MoreInfo = () => {
+  const t = useTranslations()
+
+  return (
+    <>
+      {t(staticData.moreInfo)}{' '}
+      <Link href="/pravidla-pouzivani-cookies">
+        <a className="underline hover:text-wine-primary" target="_blank" rel="noreferrer">
+          {t(staticData.moreInfoLinkText)}
+        </a>
+      </Link>
+      .
+    </>
+  )
+}
 
 const CookieBar = () => {
   const router = useRouter()
   const showCookieModal = router.query.consent === 'setup'
+  const t = useTranslations()
 
   const [cookies, setCookie] = useCookies([consentName])
   const [getIp] = useFetcher<{ ip: string }>()
@@ -130,11 +142,11 @@ const CookieBar = () => {
   }
 
   return showCookieModal ? (
-    <Modal open={!!showCookieModal} onClose={handleBack} title={staticData.headerModal} className="sm:w-full sm:!mx-0">
+    <Modal open={!!showCookieModal} onClose={handleBack} title={t(staticData.headerModal)} className="sm:w-full sm:!mx-0">
       <p className="text-light-black">
-        {staticData.description}
+        {t(staticData.description)}
         <br />
-        {staticData.detail} <MoreInfo />
+        {t(staticData.detail)} <MoreInfo />
       </p>
       <CookieSection {...staticData.cookies.technical} className="mt-4" checked />
       <CookieSection
@@ -145,10 +157,10 @@ const CookieBar = () => {
       />
       <div className="flex flex-wrap gap-x-28 justify-between sm:justify-around">
         <Button type="basic" className="w-40 sm:w-full max-w-2.5xs mt-4 p-2" onClick={() => setConsent(true)}>
-          {staticData.acceptAll}
+          {t(staticData.acceptAll)}
         </Button>
         <Button type="secondary" className="w-40 sm:w-full max-w-2.5xs mt-4 p-2" onClick={() => setConsent(allowAnalytics)}>
-          {staticData.saveSettings}
+          {t(staticData.saveSettings)}
         </Button>
       </div>
     </Modal>
@@ -164,19 +176,19 @@ const CookieBar = () => {
         >
           <div className="flex items-center justify-center lg:flex-wrap max-w-9xl">
             <div className="m-2 xs:mx-0">
-              <p className="mb-2 font-bold">{staticData.header}</p>
+              <p className="mb-2 font-bold">{t(staticData.header)}</p>
               <p className="text-sm">
-                {staticData.description} <MoreInfo />
+                {t(staticData.description)} <MoreInfo />
               </p>
             </div>
             <Button type="light" className="w-40 xs:w-full flex-shrink-0 m-2 p-2" onClick={handleModalOpen}>
-              {staticData.settings}
+              {t(staticData.settings)}
             </Button>
             <Button type="light" className="w-40 xs:w-full flex-shrink-0 m-2 p-2" onClick={() => setConsent(false)}>
-              {staticData.acceptTechnical}
+              {t(staticData.acceptTechnical)}
             </Button>
             <Button type="basic" className="w-40 xs:w-full flex-shrink-0 m-2 p-2" onClick={() => setConsent(true)}>
-              {staticData.acceptAll}
+              {t(staticData.acceptAll)}
             </Button>
           </div>
           <div className="m-1 xs:-mr-1 cursor-pointer" onClick={() => setHideBar(true)}>

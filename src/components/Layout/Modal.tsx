@@ -7,7 +7,7 @@ import { CloseIcon } from './Icons'
 type ModalProps = {
   open: boolean
   onClose: () => void
-  title: string
+  title: string | JSX.Element
   image?: string
   preventCloseOnClickOutside?: boolean
   className?: string
