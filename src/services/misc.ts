@@ -4,9 +4,9 @@ export const getDateFormat = function (date: Date) {
 	return `${date.getDate()}. ${date.getMonth() + 1}. ${date.getFullYear()}`
 }
 
-export const dateStringToDateFormat = function (dateString: string) {
+export const dateStringToDateFormat = function (dateString: string, locale: string | undefined) {
 	let date = new Date( dateString )
-	return `${date.getDate()}. ${date.getMonth() + 1}. ${date.getFullYear()}`
+	return date.toLocaleDateString(locale)
 }
 
 export function emailIsValid (email: string) {
