@@ -1,12 +1,17 @@
 import React, { FC } from 'react'
+import { Translations, useTranslations } from '../../hooks/useTranslations'
 
-const ParagraphOrMultiple: FC<{ text: string | string[]; className?: string }> = ({ text, className = '' }) => {
+type ParOrMultipleText = Translations | Translations[] | string | string[]
+
+const ParagraphOrMultiple: FC<{ text: ParOrMultipleText; className?: string }> = ({ text, className = '' }) => {
+	const t = useTranslations<string>()
+
 	return (
 		<>
 			{Array.isArray(text) ? (
-				text.map((desc: string) => <p key={desc} className={className}>{desc}</p>)
+				text.map((desc) => <p key={t(desc)} className={className}>{t(desc)}</p>)
 			) : (
-				<p className={className}>{text}</p>
+				<p className={className}>{t(text)}</p>
 			)}
 		</>
 	)

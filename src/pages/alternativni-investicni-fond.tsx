@@ -7,12 +7,20 @@ import Image from 'next/image'
 import pageData from '../data/pages/alternativni-investicni-fond/alternativni-investicni-fond.json'
 import Button from "../components/Layout/Button";
 import Link from "next/link";
+import { useTranslations } from "../hooks/useTranslations"
 // @ts-ignore
-import TopPartMdx from "../data/pages/alternativni-investicni-fond/topPart.mdx"
+import BottomPartCsMdx from "../data/pages/alternativni-investicni-fond/bottomPartCs.mdx"
 // @ts-ignore
-import BottomPartMdx from "../data/pages/alternativni-investicni-fond/bottomPart.mdx"
+import BottomPartEnMdx from "../data/pages/alternativni-investicni-fond/bottomPartEn.mdx"
+
+const bottomPart = {
+	cs: <BottomPartCsMdx />,
+	en: <BottomPartEnMdx />,
+}
 
 const ObligationsPage = () => {
+	const t = useTranslations()
+
     return (
         <DefaultLayout>
 			<SEO
@@ -38,8 +46,8 @@ const ObligationsPage = () => {
 						/>
 						<div className="relative z-20 flex flex-col items-center justify-center w-full h-full text-center text-white">
 							<div className="flex flex-col max-w-2xl space-y-6">
-								<h1 className="text-[40px] font-bold">{pageData.header}</h1>
-								<p className={c('text-xl font-medium', 'md:text-lg md:px-6')}>{pageData.shortText}</p>
+								<h1 className="text-[40px] font-bold">{t(pageData.header)}</h1>
+								<p className={c('text-xl font-medium', 'md:text-lg md:px-6')}>{t(pageData.shortText)}</p>
 							</div>
 						</div>
 					</div>
@@ -52,10 +60,7 @@ const ObligationsPage = () => {
 				>
 
 					<section className={c('py-8 pb-12 space-y-4 max-w-[802px] leading-relaxed prose', 'md:px-6 md:py-6')}>
-						<BottomPartMdx />
-						
-
-
+						{t(bottomPart)}
 					</section>
 					<div className={c('flex')}>
 

@@ -1,6 +1,12 @@
 {
-    "header": "",
-    "shortText": "",
+    "header": {
+        "cs": "",
+        "en": ""
+    },
+    "shortText": {
+        "cs": "",
+        "en": ""
+    },
     "topText": [
         ""      
     ],

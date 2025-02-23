@@ -1,6 +1,12 @@
 {
-    "header": "Příprava KID dle nařízení PRIIPs",
-    "shortText": "Sdělení klíčových informací",
+    "header": {
+        "cs": "Příprava KID dle nařízení PRIIPs",
+        "en": ""
+    },
+    "shortText": {
+        "cs": "Sdělení klíčových informací",
+        "en": ""
+    },
     "topText": [
         ""      
     ],
@@ -15,5 +21,8 @@
         " "
     ],
    
-    "buttonText": "Chci pomoci s přípravou KID"
+    "buttonText": {
+        "cs": "Chci pomoci s přípravou KID",
+        "en": ""
+    }
 }

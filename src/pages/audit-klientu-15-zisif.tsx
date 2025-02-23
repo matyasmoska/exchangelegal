@@ -14,13 +14,28 @@ import { useVisible } from "react-hooks-visible";
 
 import Button from "../components/Layout/Button";
 import Link from "next/link";
+import { useTranslations } from "../hooks/useTranslations"
 // @ts-ignore
-import TopPartMdx from "../data/pages/audit-klientu-15-zisif/topPart.mdx"
+import TopPartCsMdx from "../data/pages/audit-klientu-15-zisif/topPartCs.mdx"
 // @ts-ignore
-import BottomPartMdx from "../data/pages/audit-klientu-15-zisif/bottomPart.mdx"
+import TopPartEnMdx from "../data/pages/audit-klientu-15-zisif/topPartEn.mdx"
+// @ts-ignore
+import BottomPartCsMdx from "../data/pages/audit-klientu-15-zisif/bottomPartCs.mdx"
+// @ts-ignore
+import BottomPartEnMdx from "../data/pages/audit-klientu-15-zisif/bottomPartEn.mdx"
+
+const topPart = {
+	cs: <TopPartCsMdx />,
+	en: <TopPartEnMdx />,
+}
+
+const bottomPart = {
+	cs: <BottomPartCsMdx />,
+	en: <BottomPartEnMdx />,
+}
 
 const ObligationsPage = () => {
-	
+	const t = useTranslations()
 	
 				const [targetRef, visible] = useVisible()
 
@@ -55,8 +70,8 @@ const ObligationsPage = () => {
 						/>
 						<div className="relative z-20 flex flex-col items-center justify-center w-full h-full text-center text-white">
 							<div className="flex flex-col max-w-2xl space-y-6">
-								<h1 className="text-[40px] font-bold">{pageData.header}</h1>
-								<p className={c('text-xl font-medium', 'md:text-lg md:px-6')}>{pageData.shortText}</p>
+								<h1 className="text-[40px] font-bold">{t(pageData.header)}</h1>
+								<p className={c('text-xl font-medium', 'md:text-lg md:px-6')}>{t(pageData.shortText)}</p>
 							</div>
 						</div>
 					</div>
@@ -68,7 +83,7 @@ const ObligationsPage = () => {
 					)}
 				>
 					<section className={c('py-8 space-y-4 prose max-w-[802px] leading-relaxed', 'md:px-6 md:py-6')}>
-						<TopPartMdx />
+						{t(topPart)}
 					</section>
 					<section className={c('flex justify-center w-full bg-light-blue py-14', 'md:py-8')}>
 						<div
@@ -78,7 +93,7 @@ const ObligationsPage = () => {
 							)}
 						>
 							<div className="space-y-6 text-dark-blue">
-								<h3 className="text-3xl font-bold">{pageData.highlightSection.header}</h3>
+								<h3 className="text-3xl font-bold">{t(pageData.highlightSection.header)}</h3>
 								<ParagraphOrMultiple text={pageData.highlightSection.text} className="text-justify" />
 							</div>
 							
@@ -86,7 +101,7 @@ const ObligationsPage = () => {
 					</section>
 
 					<section className={c('py-8 pb-12 space-y-4 max-w-[802px] leading-relaxed prose', 'md:px-6 md:py-6')}>
-						<BottomPartMdx />
+						{t(bottomPart)}
 					</section>
 
 				</div>

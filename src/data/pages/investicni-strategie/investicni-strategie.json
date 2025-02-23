@@ -1,8 +1,14 @@
 {
-    "header": "Investiční strategie",
-    "shortText": "Jakou zvolit investiční strategii? Do jakých tříd aktiv investovat? Jaký přístup ke správě portfolia zvolit?",
+    "header": {
+        "cs": "Investiční strategie",
+        "en": ""
+    },
+    "shortText": {
+        "cs": "Jakou zvolit investiční strategii? Do jakých tříd aktiv investovat? Jaký přístup ke správě portfolia zvolit?",
+        "en": ""
+    },
     "topText": [
-        "Poradíme vám!"      
+        ""      
     ],
     "highlightSection": {
         "header": "",
@@ -15,5 +21,8 @@
         " "
     ],
    
-    "buttonText": "Chci pomoci s přípravou strategie"
+    "buttonText": {
+        "cs": "Chci pomoci s přípravou strategie",
+        "en": ""
+    }
 }

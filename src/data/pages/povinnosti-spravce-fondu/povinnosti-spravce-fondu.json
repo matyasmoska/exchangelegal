@@ -1,6 +1,12 @@
 {
-    "header": "Povinnosti správce alternativního fondu 15 ZISIF",
-    "shortText": "Jaké povinnosti musí správce alternativního fondu dodržovat?",
+    "header": {
+        "cs": "Povinnosti správce alternativního fondu 15 ZISIF",
+        "en": ""
+    },
+    "shortText": {
+        "cs": "Jaké povinnosti musí správce alternativního fondu dodržovat?",
+        "en": ""
+    },
     "topText": [
         ""      
     ],
@@ -15,5 +21,8 @@
         " "
     ],
    
-    "buttonText": "Potřebujete poradit s Vašimi povinnostmi?"
+    "buttonText": {
+        "cs": "Potřebujete poradit s Vašimi povinnostmi?",
+        "en": ""
+    }
 }

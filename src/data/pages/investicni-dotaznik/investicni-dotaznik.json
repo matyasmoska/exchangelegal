@@ -1,6 +1,12 @@
 {
-    "header": "Investiční dotazník",
-    "shortText": "Posouzení vhodnosti dle § 15 odst. 4 písm. c) ZISIF",
+    "header": {
+        "cs": "Investiční dotazník",
+        "en": ""
+    },
+    "shortText": {
+        "cs": "Posouzení vhodnosti dle § 15 odst. 4 písm. c) ZISIF",
+        "en": ""
+    },
     "topText": [
         ""      
     ],
@@ -15,5 +21,8 @@
         " "
     ],
    
-    "buttonText": "Chci pomoci s přípravou investičního dotazníku"
+    "buttonText":{
+        "cs": "Chci pomoci s přípravou investičního dotazníku",
+        "en": ""
+    }
 }

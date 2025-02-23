@@ -1,6 +1,12 @@
 {
-    "header": "Alternativní investiční fond",
-    "shortText": "aneb 15 ZISIF pohledem práva",
+    "header": {
+        "cs": "Alternativní investiční fond",
+        "en": ""
+    },
+    "shortText": {
+        "cs": "aneb 15 ZISIF pohledem práva",
+        "en": ""
+    },
     "topText": [
         ""      
     ],

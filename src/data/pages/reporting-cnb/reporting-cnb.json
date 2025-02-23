@@ -1,6 +1,12 @@
 {
-    "header": "Reporting ČNB pro 15 ZISIF",
-    "shortText": "Výkaznictví a sběr dat pro Českou národní banku (ROFOS 36, ROFOS 37 a DOFOS 15) ze strany alternativního fondu",
+    "header": {
+        "cs": "Reporting ČNB pro 15 ZISIF",
+        "en": ""
+    },
+    "shortText": {
+        "cs": "Výkaznictví a sběr dat pro Českou národní banku (ROFOS 36, ROFOS 37 a DOFOS 15) ze strany alternativního fondu",
+        "en": ""
+    },
     "topText": [
         ""      
     ],
@@ -15,5 +21,8 @@
         " "
     ],
    
-    "buttonText": "Chci pomoci s reportingem ČNB"
+    "buttonText": {
+        "cs": "Chci pomoci s reportingem ČNB",
+        "en": ""
+    }
 }

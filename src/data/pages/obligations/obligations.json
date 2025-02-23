@@ -1,18 +1,32 @@
 {
-    "header": "AML povinnosti",
-    "shortText": "Jaké AML/CFT procesy musí alternativní fondy dodržovat?",
+    "header": {
+        "cs": "AML povinnosti",
+        "en": ""
+    },
+    "shortText": {
+        "cs": "Jaké AML/CFT procesy musí alternativní fondy dodržovat?",
+        "en": ""
+    },
     "topText": [
         ""      
     ],
     "highlightSection": {
-        "header": "Na co si dát pozor?",
+        "header": {
+            "cs": "Na co si dát pozor?",
+            "en": ""
+        },
         "text": [
-            "",
-            "Pozor, zákon č. 40/2009 Sb., trestní zákoník, v účinném znění, zná nejen úmyslný trestný čin \"legalizace výnosů z trestné činnosti\", ale i jeho nedbalostní formu \"legalizace výnosů z trestné činnosti z nedbalosti\". V praxi to znamená, že tento trestný čin můžete spáchat, aniž byste si toho byli vědomi (!)."
+            {
+                "cs": "Pozor, zákon č. 40/2009 Sb., trestní zákoník, v účinném znění, zná nejen úmyslný trestný čin \"legalizace výnosů z trestné činnosti\", ale i jeho nedbalostní formu \"legalizace výnosů z trestné činnosti z nedbalosti\". V praxi to znamená, že tento trestný čin můžete spáchat, aniž byste si toho byli vědomi (!).",
+                "en": ""
+            }
         ]
     },
     "bottomText": [
         ""
     ],
-    "buttonText": "Chci pomoci s plněním AML povinností"
+    "buttonText": {
+        "cs": "Chci pomoci s plněním AML povinností",
+        "en": ""
+    }
 }

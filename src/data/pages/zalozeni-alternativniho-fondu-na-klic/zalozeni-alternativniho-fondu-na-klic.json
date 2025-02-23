@@ -1,7 +1,13 @@
 
 {
-    "header": "Založení alternativního fondu na klíč",
-    "shortText": "Provedeme Vás celým procesem krok za krokem",
+    "header": {
+        "cs": "Založení alternativního fondu na klíč",
+        "en": ""
+    },
+    "shortText": {
+        "cs": "Provedeme Vás celým procesem krok za krokem",
+        "en": ""
+    },
     "topText": [
         ""      
     ],
@@ -16,5 +22,8 @@
         " "
     ],
    
-    "buttonText": "Chci založit alternativní fond"
+    "buttonText": {
+        "cs": "Chci založit alternativní fond",
+        "en": ""
+    }
 }

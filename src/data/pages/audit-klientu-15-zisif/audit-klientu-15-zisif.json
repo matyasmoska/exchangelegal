@@ -1,19 +1,33 @@
 {
-    "header": "Audit klientů 15 ZISIF",
-    "shortText": "ověření auditora o dodržení limitu 20 oslovených investorů",
+    "header": {
+        "cs": "Audit klientů 15 ZISIF",
+        "en": ""
+    },
+    "shortText": {
+        "cs": "ověření auditora o dodržení limitu 20 oslovených investorů",
+        "en": ""
+    },
     "topText": [
         ""      
     ],
     "highlightSection": {
-        "header": "",
+        "header": {
+            "cs": "",
+            "en": ""
+        },
         "text": [
-            "",
-            ""
+            {
+                "cs": "",
+                "en": ""
+            }
         ]
     },
     "bottomText": [
         " "
     ],
    
-    "buttonText": ""
+    "buttonText": {
+        "cs": "",
+        "en": ""
+    }
 }

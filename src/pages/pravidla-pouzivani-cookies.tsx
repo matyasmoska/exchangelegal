@@ -2,10 +2,20 @@ import React from "react";
 import DefaultLayout from "../layouts/DefaultLayout";
 import SEO from "../components/Layout/SEO";
 import { c } from "../services/misc";
+import { useTranslations } from "../hooks/useTranslations"
 // @ts-ignore
-import CookieRulesMdx from "../data/pages/pravidla-pouzivani-cookies/cookieRules.mdx";
+import CookieRulesCsMdx from "../data/pages/pravidla-pouzivani-cookies/cookieRulesCs.mdx"
+// @ts-ignore
+import CookieRulesEnMdx from "../data/pages/pravidla-pouzivani-cookies/cookieRulesEn.mdx"
+
+const cookieRules = {
+	cs: <CookieRulesCsMdx />,
+	en: <CookieRulesEnMdx />,
+}
 
 const CookieRulesPage = () => {
+	const t = useTranslations()
+
     return (
         <DefaultLayout>
 			<SEO
@@ -21,7 +31,7 @@ keywords="alternativní investiční fond, minifond, alternativní fond, § 15 Z
 					)}
 				>
 					<section className={c('py-8 space-y-4 prose max-w-[802px] leading-relaxed', 'md:px-6 md:py-6')}>
-						<CookieRulesMdx />	
+						{t(cookieRules)}
 					</section>
 				</div>
 			</>

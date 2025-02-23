@@ -4,15 +4,18 @@ import { opacityAnimation } from '../../../animations/navigation'
 import { c, doScrolling } from '../../../services/misc'
 import Button from '../../Layout/Button'
 import { ArrowRight } from '../../Layout/Icons'
+import { Translations, useTranslations } from '../../../hooks/useTranslations'
 
 interface OrderButtonProps {
 	show: boolean
-	text: string
+	text: Translations | string
 	disabled?: boolean
 	element?: string
 }
 
 const OrderButton: FC<OrderButtonProps> = ({ show, text, disabled, element = '#services-form' }) => {
+	const t = useTranslations()
+
 	return (
 		<AnimatePresence>
 			{show && <motion.div
@@ -29,7 +32,7 @@ const OrderButton: FC<OrderButtonProps> = ({ show, text, disabled, element = '#s
 					className={c('px-12 py-3.5', 'md:py-3 md:px-10')}
 				>
 					<div className="flex items-center space-x-8">
-						<span>{text}</span>
+						<span>{t(text)}</span>
 						<ArrowRight className="w-5 h-5 flex-shrink-0" />
 					</div>
 				</Button>
