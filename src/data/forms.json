@@ -1,0 +1,110 @@
+{
+    "servicesFormTitle": {
+        "cs": "Nezávazná poptávka",
+        "en": ""
+    },
+    "servicesFormDescription": {
+        "cs": "Vyplněním údajů a kliknutím tlačítka \"Nezávazně poptat\" nezávazně poptáte nabídku služeb.",
+        "en": ""
+    },
+    "servicesFormSend": {
+        "cs": "Nezávazně poptat",
+        "en": ""
+    },
+    "crypto": {
+        "cs": "Více informací k přijímání kryptoměn",
+        "en": ""
+    },
+    "here": {
+        "cs": "zde",
+        "en": ""
+    },
+    "firstName": {
+        "cs": "Jméno",
+        "en": ""
+    },
+    "lastName": {
+        "cs": "Příjmení",
+        "en": ""
+    },
+    "email": {
+        "cs": "E-mail",
+        "en": ""
+    },
+    "phone": {
+        "cs": "Telefon",
+        "en": ""
+    },
+    "ico": {
+        "cs": "IČO (nepovinné)",
+        "en": ""
+    },
+    "businessAddress": {
+        "cs": "Obchodní firma (nepovinné)",
+        "en": ""
+    },
+    "message": {
+        "cs": "Zde napište zprávu",
+        "en": ""
+    },
+    "agreeWith": {
+        "cs": "Souhlasím se",
+        "en": ""
+    },
+    "personalDataProcessing": {
+        "cs": "zpracováním osobních údajů",
+        "en": ""
+    },
+    "send": {
+        "cs": "Odeslat",
+        "en": ""
+    },
+    "emailNotValid": {
+        "cs": "E-mail je v nesprávném formátu",
+        "en": ""
+    },
+    "missingEmail": {
+        "cs": "Je třeba zadat e-mail",
+        "en": ""
+    },
+    "missingFirstName": {
+        "cs": "Je třeba zadat jméno",
+        "en": ""
+    },
+    "missingLastName": {
+        "cs": "Je třeba zadat příjmení",
+        "en": ""
+    },
+    "missingPhone": {
+        "cs": "Je třeba zadat telefon",
+        "en": ""
+    },
+    "missingPersonalDataAgreement": {
+        "cs": "Musíte souhlasit se zpracováním osobních údajů.",
+        "en": ""
+    },
+    "missingServiceFormError": {
+        "cs": "Musíte zaškrtnout alespoň jeden předmět.",
+        "en": ""
+    },
+    "formSuccess": {
+        "cs": "Odeslání proběhlo úspěšně. Děkujeme!",
+        "en": ""
+    },
+    "formError": {
+        "cs": "Odeslání nebylo úspěšné. Prosím, kontaktujte nás na výše uvedeném e-mailu.",
+        "en": ""
+    },
+    "thanks": {
+        "cs": "Děkujeme!",
+        "en": ""
+    },
+    "thanksSuccess": {
+        "cs": "Odeslání poptávky proběhlo úspěšně. Brzy Vás budeme kontaktovat.",
+        "en": ""
+    },
+    "backToHomePage": {
+        "cs": "Zpět na úvodní stránku",
+        "en": ""
+    }
+}

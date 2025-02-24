@@ -8,8 +8,12 @@ import TextArea from '../../Forms/TextArea'
 import TextInput from '../../Forms/TextInput'
 import Button from '../../Layout/Button'
 import useContactForm from './hooks/useContactForm'
+import { useTranslations } from '../../../hooks/useTranslations'
+import pageData from '../../../data/forms.json'
 
 const ContactForm = () => {
+	const t = useTranslations<string>()
+
 	const form = useContactForm()
 
 	return (
@@ -19,41 +23,41 @@ const ContactForm = () => {
 					form={form}
 					value={form.values.firstName}
 					id={'firstName'}
-					placeholder={'Jméno'}
+					placeholder={t(pageData.firstName)}
 					autoComplete="given-name"
 				/>
 				<TextInput
 					form={form}
 					value={form.values.lastName}
 					id={'lastName'}
-					placeholder={'Příjmení'}
+					placeholder={t(pageData.lastName)}
 					autoComplete="family-name"
 				/>
 				<TextInput
 					form={form}
 					value={form.values.email}
 					id={'email'}
-					placeholder={'E-mail'}
+					placeholder={t(pageData.email)}
 					autoComplete="email"
 				/>
 				<PhoneTextInput
 					form={form}
 					value={form.values.phone}
 					id={'phone'}
-					placeholder={'Telefon'}
+					placeholder={t(pageData.phone)}
 					autoComplete="tel"
 				/>
-				<TextInput form={form} value={form.values.ico} id={'ico'} placeholder={'IČO (nepovinné)'} />
+				<TextInput form={form} value={form.values.ico} id={'ico'} placeholder={t(pageData.ico)} />
 				<TextInput
 					form={form}
 					value={form.values.businessAddress}
 					id={'businessAddress'}
-					placeholder={'Obchodní firma (nepovinné)'}
+					placeholder={t(pageData.businessAddress)}
 					autoComplete="street-address"
 				/>
 				<div className="col-span-2">
 					<TextArea
-						placeholder={'Zde napište zprávu'}
+						placeholder={t(pageData.message)}
 						className={c('md:h-40')}
 						form={form}
 						rows={3}
@@ -68,11 +72,13 @@ const ContactForm = () => {
 						id={'personalDataAgreement'}
 						form={form}
 						isChecked={form.values.personalDataAgreement}
-						value={'Souhlasím se zpracováním osobních údajů'}
+						value={`${t(pageData.agreeWith)} ${t(pageData.personalDataProcessing)}`}
 						label={
 							<span>
-								Souhlasím se{' '}
-								<a target="_blank" href="/zasady-zpracovani-osobnich-udaju" className="underline">zpracováním osobních údajů</a>
+								{t(pageData.agreeWith)}{' '}
+								<Link href="/zasady-zpracovani-osobnich-udaju">
+									<a target="_blank" className="underline">{t(pageData.personalDataProcessing)}</a>
+								</Link>
 							</span>
 						}
 					/>
@@ -84,11 +90,11 @@ const ContactForm = () => {
 						type="basic"
 						className={c('px-16 py-2', 'md:w-full md:text-center md:py-3.5')}
 					>
-						Odeslat
+						{t(pageData.send)}
 					</Button>
 					{(form.errors as any).api && <ErrorMessage id="api">{(form.errors as any).api}</ErrorMessage>}
 					{form.status === 'submitted' && (
-						<span className="text-green-600">Odeslání proběhlo úspěšně. Děkujeme!</span>
+						<span className="text-green-600">{t(pageData.formSuccess)}</span>
 					)}
 				</div>
 			</div>

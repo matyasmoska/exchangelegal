@@ -33,7 +33,7 @@ async function sendMail( { firstName, lastName, message, email, phone, checked, 
           </div>
           <h3>Vybrané služby:</h3>
           <ul>
-            ${ checked.map((item) => `<li>${item.name}</li>`).join(' ') }
+            ${checked.map((item) => `<li>${typeof item.name === "string" ? item.name : item.name?.cs}</li>`).join(' ')}
           </ul>
           <h3>Zpráva:</h3>
           <p>

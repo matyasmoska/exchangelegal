@@ -6,7 +6,7 @@ import { c } from '../../services/misc'
 import { LogoWhite } from '../Layout/Logo'
 import { FacebookIcon, LinkedInIcon, TwitterIcon } from './Icons'
 import pageData from '../../data/navigation.json'
-import contactPageData from '../../data/footer.json'
+import contactPageData from '../../data/contact.json'
 
 const Footer = () => {
 	const t = useTranslations()
@@ -26,9 +26,11 @@ const Footer = () => {
 		>
 			<div className="self-start space-y-4">
 				<LogoWhite />			
-				<a href="/prijimame-kryptomeny" target="_blank">
+				<Link href="/prijimame-kryptomeny">
+				<a target="_blank">
 				<img src="/images/crypto_white.svg" alt="Přijímáme kryptoměny!" className={c('w-4/5 rounded-lg flex', 'md:mx-auto')} />
-				</a>		
+				</a>
+				</Link>
 				<p className="pt-2">{t(contactPageData.allRightsReserved)}</p>
 			</div>
 			<div
@@ -97,20 +99,16 @@ const Footer = () => {
 					<h3 className="text-xl font-bold">{t(pageData.contact)}</h3>
 					<div className="flex flex-col space-y-8">
 						<div className="flex flex-col space-y-4">
-							<p className="font-bold">{contactPageData.contact.address.firstLine}</p>
-							{contactPageData.contact.address.secondLine.length > 0 && (
-								<p className="italic">{contactPageData.contact.address.secondLine}</p>
-							)}
-							{contactPageData.contact.address.thirdLine.trim().length > 0 && (
-								<p>{contactPageData.contact.address.thirdLine}</p>
-							)}
-							<a href={`tel:${contactPageData.contact.phoneNumber}`} className="hover:underline">
+							<p className="font-bold">{contactPageData.contact.url}</p>
+							<a href={`tel:${contactPageData.contact.phoneNumberLink}`} className="hover:underline">
 								{contactPageData.contact.phoneNumber}
 							</a>
-							<a href={`mailto:${contactPageData.contact.email}`} className="hover:underline">
+							<a href={`mailto:${contactPageData.contact.emailLink}`} className="hover:underline">
 								{contactPageData.contact.email}
 							</a>
-							<a className="hover:underline" href="/pravni-informace-a-podminky-uziti" target="_blank">{t(pageData.tos)}</a>
+							<Link href="/pravni-informace-a-podminky-uziti">
+								<a className="hover:underline" target="_blank">{t(pageData.tos)}</a>
+							</Link>
 							<Link href="/zasady-zpracovani-osobnich-udaju">
 								<a className="hover:underline">{t(pageData.privacypolicy)}</a>
 							</Link>

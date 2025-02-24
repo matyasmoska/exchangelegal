@@ -1,14 +1,26 @@
 import React, { FC, Fragment, useState } from 'react'
-import { TeamMember } from '../../../typings'
 import Image from 'next/image'
 import { c } from '../../../services/misc'
-import ParagraphOrMultiple from '../../Layout/ParagraphOrMultiple'
+import ParagraphOrMultiple, { ParOrMultipleText } from '../../Layout/ParagraphOrMultiple'
 import { Fade } from 'react-awesome-reveal'
 import { useMediaQueries } from '../../../hooks/useMediaQueries'
 import { LinkedInIcon } from '../../Layout/Icons'
 import Button from '../../Layout/Button'
+import { Translations, useTranslations } from '../../../hooks/useTranslations'
+import pageData from '../../../data/pages/aboutus.json'
+
+interface TeamMember {
+	name: Translations | string
+	tags: Translations[] | string[]
+	description: ParOrMultipleText
+	readMore?: ParOrMultipleText
+	photo: string
+	linkedIn?: string
+}
 
 const TeamMemberDetail: FC<{ member: TeamMember }> = ({ member }) => {
+	const t = useTranslations()
+
 	const [readMore, setReadMore] = useState(false)
 
 	const { isMd } = useMediaQueries()
@@ -40,7 +52,7 @@ const TeamMemberDetail: FC<{ member: TeamMember }> = ({ member }) => {
 						target="_blank"
 					>
 						<LinkedInIcon className="fill-current w-7 h-7" />
-						<span>LinkedIn Profil</span>
+						<span>{t(pageData.linkedInProfile)}</span>
 					</a>
 				)}
 				<div
@@ -52,11 +64,11 @@ const TeamMemberDetail: FC<{ member: TeamMember }> = ({ member }) => {
 			</div>
 			<div className="space-y-6">
 				<div className="space-y-4">
-					<h3 className="text-3xl font-bold">{member.name}</h3>
+					<h3 className="text-3xl font-bold">{t(member.name)}</h3>
 					<div className={c("flex items-center space-x-2", "md:w-full flex-wrap md:space-x-0")}>
 						{ member.tags.map(tag => (
 							<div className={c("px-4 py-1 text-sm rounded-full bg-light-blue text-dark-blue", "md:mr-2 md:mb-2 md:flex-shrink-0")}>
-								{ tag }
+								{t(tag)}
 							</div>
 						))}
 					</div>
@@ -75,7 +87,7 @@ const TeamMemberDetail: FC<{ member: TeamMember }> = ({ member }) => {
 								type="basic"
 								className="px-16 py-2"
 							>
-								{ readMore ? 'Méně' : 'Více' }
+								{readMore ? t(pageData.less) : t(pageData.more)}
 							</Button>
 						</div>
 					)}

@@ -1,10 +1,9 @@
 import { AnimateSharedLayout, motion as m } from 'framer-motion'
 import React, { FC } from 'react'
-import contactPageData from '../../../data/pages/index.json'
+import contactPageData from '../../../data/contact.json'
 
 /*
     Top contact bar on all pages.
-    Config can be found on pages/index.json
 */
 
 const TopBar: FC = () => {
@@ -19,7 +18,7 @@ const TopBar: FC = () => {
                     </div>
                     <div className="flex gap-2">
                         <img src="/images/mail-icon.svg" className="w-6 h-6" />
-                        <a href={`mailto:${contactPageData.contact.email}`} className="hover:underline">
+                        <a href={`mailto:${contactPageData.contact.emailLink}`} className="hover:underline">
                             {contactPageData.contact.email}
                         </a>
                     </div>
@@ -32,7 +31,7 @@ const TopBar: FC = () => {
                     </div>
                     <div className="flex gap-2">
                         <img src="/images/phone-icon.svg" className="w-6 h-6" />
-                        <a href={`tel:${contactPageData.contact.phoneNumber}`} className="hover:underline">
+                        <a href={`tel:${contactPageData.contact.phoneNumberLink}`} className="hover:underline">
                             {contactPageData.contact.phoneNumber}
                         </a>
                     </div>

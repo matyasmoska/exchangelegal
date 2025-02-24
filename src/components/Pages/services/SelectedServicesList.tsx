@@ -4,8 +4,12 @@ import React from 'react'
 import { FC } from 'react'
 import { c, numberWithSpaces as ns } from '../../../services/misc'
 import { ServicesFormValues } from './hooks/useServicesForm'
+import { useTranslations } from '../../../hooks/useTranslations'
+import pageData from '../../../data/pages/services.json'
 
 const SelectedServicesList: FC<{ form: FormikProps<ServicesFormValues> }> = ({ form }) => {
+	const t = useTranslations()
+
 	const price = form.values.checked.reduce((acc, curr) => acc + curr.price, 0)
 
 	return (
@@ -15,15 +19,15 @@ const SelectedServicesList: FC<{ form: FormikProps<ServicesFormValues> }> = ({ f
 					<React.Fragment>
 						<div className="flex flex-col space-y-3">
 							{form.values.checked.map((item) => (
-								<m.div key={item.name} layout className={c("flex items-center justify-between", "md:space-x-1")}>
-									<span className={c("font-bold", "md:text-left")}>{item.name}</span>
+								<m.div key={item.id} layout className={c("flex items-center justify-between", "md:space-x-1")}>
+									<span className={c("font-bold", "md:text-left")}>{t(item.name)}</span>
 									<span className={c("md:text-right md:w-1/2")}>{`${ns(item.price)},- Kč`}</span>
 								</m.div>
 							))}
 						</div>
 						<hr />
 						<m.div layout className="flex items-center justify-between">
-							<p>Celkem</p>
+							<p>{t(pageData.total)}</p>
 							<p className={c('text-2xl font-bold text-wine-primary', 'text-xl')}>{`${ns(
 								price
 							)},- Kč`}</p>
@@ -31,7 +35,7 @@ const SelectedServicesList: FC<{ form: FormikProps<ServicesFormValues> }> = ({ f
 					</React.Fragment>
 				) : (
 					<m.p layout className="text-red-500">
-						Prosím, vyberte alespoň jednu službu.
+						{t(pageData.emptyService)}
 					</m.p>
 				)}
 			</m.div>

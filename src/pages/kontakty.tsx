@@ -5,10 +5,12 @@ import { PhoneIcon, MessageIcon, FacebookIcon, TwitterIcon, LinkedInIcon } from 
 import { WrappedIconRow, IconRow } from '../components/Layout/Icon'
 import ContactForm from '../components/Pages/contact/ContactForm'
 import { c } from '../services/misc'
+import { useTranslations } from '../hooks/useTranslations'
 import contactPageData from '../data/contact.json'
-import pageData from '../data/pages/contact.json'
 
 export default function Contact () {
+	const t = useTranslations()
+
 	return (
 		<DefaultLayout>
 			<SEO
@@ -40,28 +42,28 @@ keywords="alternativní investiční fond, minifond, alternativní fond, § 15 Z
 				<div className={c('w-5/6 px-4 py-0 space-y-8', 'md:p-8 md:w-full')}>
 					<div className="space-y-8">
 						<div className={c('space-y-2.5')}>
-							<h1 className="text-3xl font-bold">{pageData.header}</h1>
-							<p className="text-justify">{pageData.description}</p>
+							<h1 className="text-3xl font-bold">{t(contactPageData.contact.header)}</h1>
+							<p className="text-justify">{t(contactPageData.contact.description)}</p>
 						</div>
 						<div className={c('space-y-2.5')}>
-							<p className="font-bold">{contactPageData.address.firstLine1}</p>
-							<p className="font-bold">{contactPageData.address.firstLine2}</p>
-							<p>{contactPageData.address.secondLine}</p>
-							<p>{contactPageData.address.thirdLine}</p>
-							<p>Orgánem mimosoudního řešení sporů pro klienty – spotřebitele je Česká advokátní komora se sídlem v Praze www.cak.cz / e-mail: epodatelna@cak.cz</p>
+							<p className="font-bold">{contactPageData.contact.address.firstLine1}</p>
+							<p className="font-bold">{contactPageData.contact.address.firstLine2}</p>
+							<p>{contactPageData.contact.address.secondLine}</p>
+							<p>{t(contactPageData.contact.secondDescription)}</p>
+							<p>{t(contactPageData.contact.thirdDescription)}</p>
 						</div>
 						<div className={c('space-y-2.5')}>
-							<WrappedIconRow Icon={PhoneIcon} href={`tel:${contactPageData.phoneNumber}`}>
-								{contactPageData.phoneNumber}
+							<WrappedIconRow Icon={PhoneIcon} href={`tel:${contactPageData.contact.phoneNumberLink}`}>
+								{contactPageData.contact.phoneNumber}
 							</WrappedIconRow>
-							<WrappedIconRow Icon={MessageIcon} href={`mailto:${contactPageData.email}`}>
-								{contactPageData.email}
+							<WrappedIconRow Icon={MessageIcon} href={`mailto:${contactPageData.contact.emailLink}`}>
+								{contactPageData.contact.email}
 							</WrappedIconRow>
 						</div>
 						<div className="flex flex-col space-y-2.5 text-dark-blue">
 
 							<a
-								href={contactPageData.links.twitter}
+								href={contactPageData.contact.links.twitter}
 								className="flex items-center space-x-3"
 								aria-label="Twitter Link"
 								target="_blank"
@@ -70,7 +72,7 @@ keywords="alternativní investiční fond, minifond, alternativní fond, § 15 Z
 								<span>Twitter</span>
 							</a>
 							<a
-								href={contactPageData.links.linkedIn}
+								href={contactPageData.contact.links.linkedIn}
 								className="flex items-center space-x-3"
 								aria-label="Linked In Link"
 								target="_blank"

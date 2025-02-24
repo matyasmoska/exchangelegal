@@ -3,7 +3,7 @@ import { c } from '../../../services/misc'
 import { WrappedIconRow, IconRow } from '../../Layout/Icon'
 import { PhoneIcon, MessageIcon, FacebookIcon, TwitterIcon, LinkedInIcon } from '../../Layout/Icons'
 import { useTranslations } from '../../../hooks/useTranslations'
-import contactPageData from '../../../data/pages/index.json'
+import contactPageData from '../../../data/contact.json'
 
 const ContactSection = () => {
 	const t = useTranslations()
@@ -20,14 +20,14 @@ const ContactSection = () => {
 				<div className={c('space-y-2.5 w-4/6', '2xl:w-5/6', 'md:w-full')}>
 					<h2 className="text-3xl font-bold">{t(contactPageData.contact.header)}</h2>
 					<p className="text-justify">
-						{t(contactPageData.contact.description)}
+						{t(contactPageData.contact.descriptionForHomePage)}
 					</p>
 				</div>
 				<div className={c('space-y-2.5 w-5/6', 'md:w-full')}>
 					<p className="font-bold">{contactPageData.contact.address.firstLine1}</p>
 					<p className="font-bold">{contactPageData.contact.address.firstLine2}</p>
 					<p>{contactPageData.contact.address.secondLine}</p>
-					<p>{t(contactPageData.contact.secondDescription)}</p>
+					<p>{t(contactPageData.contact.secondDescriptionForHomePage)}</p>
 				</div>
 				<div className={c('space-y-2.5 w-4/6', 'md:w-full')}>
 					<WrappedIconRow Icon={PhoneIcon} href={`tel:${contactPageData.contact.phoneNumberLink}`}>

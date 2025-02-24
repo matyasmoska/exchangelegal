@@ -3,8 +3,12 @@ import Button from '../components/Layout/Button'
 import DefaultLayout from '../layouts/DefaultLayout'
 import SEO from '../components/Layout/SEO'
 import { c } from '../services/misc'
+import { useTranslations } from '../hooks/useTranslations'
+import pageData from '../data/forms.json'
 
 const ServiceFormSuccessPage = () => {
+	const t = useTranslations()
+
 	return (
 		<DefaultLayout>
 			<SEO
@@ -21,14 +25,14 @@ const ServiceFormSuccessPage = () => {
 						<div>
 							<img src="/images/thumb-up.png" className={c("w-16 h-16", 'md:w-20 md:h-20')} />
 						</div>
-						<h1 className="text-3xl font-bold">Děkujeme!</h1>
+						<h1 className="text-3xl font-bold">{t(pageData.thanks)}</h1>
 						<p className="px-6 mx-auto text-center">
-							Odeslání poptávky proběhlo úspěšně. Brzy Vás budeme kontaktovat.
+							{t(pageData.thanksSuccess)}
 						</p>
 					</div>
 					<Link href="/">
 						<Button type="basic" className="px-12 py-3">
-							Zpět na úvodní stránku
+							{t(pageData.backToHomePage)}
 						</Button>
 					</Link>
 				</div>

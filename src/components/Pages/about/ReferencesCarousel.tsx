@@ -1,16 +1,23 @@
 import { AnimatePresence, AnimateSharedLayout, motion as m } from 'framer-motion'
-import { config } from 'process'
 import { FC, useEffect, useMemo, useState } from 'react'
 import { opacityAnimation } from '../../../animations/navigation'
-import { Reference } from '../../../pages/o-nas'
-import news from '../../../pages/aktuality'
 import { c } from '../../../services/misc'
+import { Translations, useTranslations } from '../../../hooks/useTranslations'
+import pageData from '../../../data/pages/aboutus.json'
+
+interface Reference {
+	photo: string
+	reference: Translations | string
+	who: Translations | string
+}
 
 interface ReferenceCarouselProps {
 	references: Reference[]
 }
 
 const ReferencesCarousel: FC<ReferenceCarouselProps> = ({ references }) => {
+	const t = useTranslations()
+
 	const [ currentItemIndex, setCurrentItemIndex ] = useState(0)
 
 	useEffect(() => {
@@ -38,19 +45,19 @@ const ReferencesCarousel: FC<ReferenceCarouselProps> = ({ references }) => {
 				)}
 			>
 				<m.h1 layout className={c("font-bold text-[40px]", "md:text-2xl")}>
-					Řekli o nás
+					{t(pageData.referenceTitle)}
 				</m.h1>
 				<AnimatePresence initial={false} exitBeforeEnter>
 					<m.div
 						{...opacityAnimation}
-						key={currReference.reference + currReference.who}
+						key={`${t(currReference.reference)} ${t(currReference.who)}`}
 						layout
 						className="flex flex-col items-center justify-center space-y-8 h-2/4 "
 					>
-						<m.p layout className={c("text-3xl font-bold", "md:text-base md:leading-snug")}>{`“${currReference.reference}”`}</m.p>
+						<m.p layout className={c("text-3xl font-bold", "md:text-base md:leading-snug")}>{`“${t(currReference.reference)}”`}</m.p>
 						<m.p layout className={c("max-w-sm text-sm")}>
 							{' '}
-							{currReference.who}{' '}
+							{t(currReference.who)}{' '}
 						</m.p>
 					</m.div>
 				</AnimatePresence>

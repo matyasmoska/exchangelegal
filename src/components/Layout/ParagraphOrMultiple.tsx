@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 import { Translations, useTranslations } from '../../hooks/useTranslations'
 
-type ParOrMultipleText = Translations | Translations[] | string | string[]
+export type ParOrMultipleText = Translations | Translations[] | string | string[]
 
 const ParagraphOrMultiple: FC<{ text: ParOrMultipleText; className?: string }> = ({ text, className = '' }) => {
 	const t = useTranslations<string>()
@@ -9,9 +9,9 @@ const ParagraphOrMultiple: FC<{ text: ParOrMultipleText; className?: string }> =
 	return (
 		<>
 			{Array.isArray(text) ? (
-				text.map((desc) => <p key={t(desc)} className={className}>{t(desc)}</p>)
+				text.map((desc) => <p key={t(desc)} className={className} dangerouslySetInnerHTML={{ __html: t(desc) }} />)
 			) : (
-				<p className={className}>{t(text)}</p>
+				<p className={className} dangerouslySetInnerHTML={{ __html: t(text) }} />
 			)}
 		</>
 	)

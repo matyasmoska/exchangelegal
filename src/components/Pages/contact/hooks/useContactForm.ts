@@ -1,6 +1,8 @@
 import { FormikErrors, useFormik } from 'formik'
 import { emailIsValid } from '../../../../services/misc'
 import axios from 'redaxios'
+import { useTranslations } from '../../../../hooks/useTranslations'
+import pageData from '../../../../data/forms.json'
 
 export interface ContactFormValues {
 	firstName: string
@@ -15,17 +17,18 @@ export interface ContactFormValues {
 }
 
 function useContactForm () {
+	const t = useTranslations<string>()
+
 	const validate = (values: ContactFormValues): FormikErrors<ContactFormValues> => {
 		const errors: FormikErrors<ContactFormValues> = {}
 
-		if (!emailIsValid(values.email)) errors.email = 'E-mail je v nesprávném formátu'
-		if (!values.email) errors.email = 'Je třeba zadat e-mail'
-		if (!values.firstName) errors.firstName = 'Je třeba zadat jméno'
-		if (!values.lastName) errors.lastName = 'Je třeba zadat příjmení'
-		// if (!values.message) errors.message = 'Zpráva nemůže být prázdná'
-		if (!values.phone) errors.phone = 'Je třeba zadat telefon'
+		if (!emailIsValid(values.email)) errors.email = t(pageData.emailNotValid)
+		if (!values.email) errors.email = t(pageData.missingEmail)
+		if (!values.firstName) errors.firstName = t(pageData.missingFirstName)
+		if (!values.lastName) errors.lastName = t(pageData.missingLastName)
+		if (!values.phone) errors.phone = t(pageData.missingPhone)
 		if (!values.personalDataAgreement)
-			errors.personalDataAgreement = 'Musíte souhlasit se zpracováním osobních údajů.'
+			errors.personalDataAgreement = t(pageData.missingPersonalDataAgreement)
 
 		return errors
 	}
@@ -54,7 +57,7 @@ function useContactForm () {
 					setStatus('default')
 				}, 5000)
 			} else {
-				setFieldError('api', 'Odeslání nebylo úspěšné. Prosím, kontaktujte nás na výše uvedeném e-mailu.')
+				setFieldError('api', t(pageData.formError))
 			}
 		}
 	})

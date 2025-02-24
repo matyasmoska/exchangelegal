@@ -7,13 +7,16 @@ import pageData from '../data/pages/casto-kladene-dotazy.json'
 import { AnimatePresence, AnimateSharedLayout, motion as m } from 'framer-motion'
 import { opacityAnimation } from '../animations/navigation'
 import { c } from '../services/misc'
+import { Translations, useTranslations } from '../hooks/useTranslations'
 
 interface FAQuestion {
-	question: string
-	answer: string
+	question: Translations | string
+	answer: Translations | string
 }
 
 export const QuestionDetail: FC<{ question: FAQuestion }> = ({ question }) => {
+	const t = useTranslations()
+
 	const [ isOpen, setIsOpen ] = useState<boolean>(false)
 
 	return (
@@ -29,7 +32,7 @@ export const QuestionDetail: FC<{ question: FAQuestion }> = ({ question }) => {
 					<PlusIcon className={c("self-start flex-shrink-0 w-8 text-wine-primary mt-0.5", "md:mt-1")} />
 				)}
 				<m.h2 layout className="text-xl font-bold">
-					{question.question}
+					{t(question.question)}
 				</m.h2>
 			</m.div>
 			<AnimatePresence>
@@ -39,7 +42,7 @@ export const QuestionDetail: FC<{ question: FAQuestion }> = ({ question }) => {
 						layout
 						className={c("px-3 ml-10 prose text-justify max-w-none border-l-3 border-wine-primary", "md:ml-0")}
 					>
-						{question.answer}
+						{t(question.answer)}
 					</m.div>
 				)}
 			</AnimatePresence>
@@ -48,6 +51,8 @@ export const QuestionDetail: FC<{ question: FAQuestion }> = ({ question }) => {
 }
 
 export default function FAQPage () {
+	const t = useTranslations()
+
 	return (
 		<DefaultLayout>
 			<SEO
@@ -57,7 +62,7 @@ export default function FAQPage () {
 				
 			/>
 			<div className={c("py-16 text-justify px-36 mb-52 space-y-14", 'md:px-4 md:py-8')}>
-				<h1 className={c("text-5xl font-bold leading-snug text-center", "md:text-2xl")}>Často kladené dotazy</h1>
+				<h1 className={c("text-5xl font-bold leading-snug text-center", "md:text-2xl")}>{t(pageData.castokladenedotazy)}</h1>
 				
 				
 				<AnimateSharedLayout>

@@ -7,15 +7,6 @@ export interface NewsItem {
 	thumbnail: any
 }
 
-export interface TeamMember {
-	name: string
-	tags: string[]
-	description: string | string[]
-	readMore?: string | string[]
-	photo: string,
-	linkedIn?: string,
-}
-
 export interface Author {
 	name: string,
 	title: string,

@@ -108,34 +108,6 @@
             }
         }
     },
-    "contact": {
-        "header": {
-            "cs": "Kontakty",
-            "en": ""
-        },
-        "description": {
-            "cs": "Chcete založit vlastní alternativní fond dle 15 ZISIF? Neváhejte se na nás obrátit.",
-            "en": ""
-        },
-        "address": {
-            "firstLine1": "MOSKA MURAD advokátní kancelář, s.r.o.",
-            "firstLine2": "Mgr. Matyáš Moska, advokát, č. ev. ČAK 19149",
-            "secondLine": "City Empiria, Na Strži 1702/65, 140 00 Praha 4, 5. patro"
-        },
-        "secondDescription": {
-            "cs": "Jsme specialisté na alternativní fondy – 15 ZISIF.",
-            "en": ""
-        },
-        "phoneNumber": "+420 605 006 807",
-        "phoneNumberLink":"00420605006807",
-        "email": "office@15zisif.cz",
-        "emailLink": "office@15zisif.cz",
-        "links": {
-            "facebook": "https://www.facebook.com/15zisif",
-            "twitter": "https://twitter.com/15zisif",
-            "linkedIn": "https://www.linkedin.com/company/15zisif-cz"
-        }
-    },
     "reviews": {
         "cs": "hodnocení",
         "en": ""

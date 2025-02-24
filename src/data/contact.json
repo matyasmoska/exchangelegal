@@ -1,16 +1,47 @@
 {
-    "address": {
-        "firstLine1": "MOSKA MURAD advokátní kancelář, s.r.o.",
-        "firstLine2": "Mgr. Matyáš Moska, advokát, č. ev. ČAK 19149",
-        "secondLine": "City Empiria, Na Strži 1702/65, 140 00 Praha 4, 5. patro",
-        "thirdLine": "Jsme specialisté na alternativní investiční fondy a finanční právo."
+    "contact": {
+        "header": {
+            "cs": "Kontakty",
+            "en": ""
+        },
+        "descriptionForHomePage": {
+            "cs": "Chcete založit vlastní alternativní fond dle 15 ZISIF? Neváhejte se na nás obrátit.",
+            "en": ""
+        },
+        "description": {
+            "cs": "",
+            "en": ""
+        },
+        "address": {
+            "firstLine1": "MOSKA MURAD advokátní kancelář, s.r.o.",
+            "firstLine2": "Mgr. Matyáš Moska, advokát, č. ev. ČAK 19149",
+            "secondLine": "City Empiria, Na Strži 1702/65, 140 00 Praha 4, 5. patro"
+        },
+        "secondDescriptionForHomePage": {
+            "cs": "Jsme specialisté na alternativní fondy – 15 ZISIF.",
+            "en": ""
+        },
+        "secondDescription": {
+            "cs": "Jsme specialisté na alternativní investiční fondy a finanční právo.",
+            "en": ""
+        },
+        "thirdDescription": {
+            "cs": "Orgánem mimosoudního řešení sporů pro klienty – spotřebitele je Česká advokátní komora se sídlem v Praze www.cak.cz / e-mail: epodatelna@cak.cz",
+            "en": ""
+        },
+        "url": "15zisif.cz",
+        "phoneNumber": "+420 605 006 807",
+        "phoneNumberLink":"00420605006807",
+        "email": "office@15zisif.cz",
+        "emailLink": "office@15zisif.cz",
+        "links": {
+            "facebook": "https://www.facebook.com/15zisif",
+            "twitter": "https://twitter.com/15zisif",
+            "linkedIn": "https://www.linkedin.com/company/15zisif-cz/"
+        }
     },
-    "phoneNumber": "+420 605 006 807",
-    "email": "office@15zisif.cz",
-    "links": {
-        "facebook": "https://www.facebook.com/",
-        "twitter": "https://twitter.com/15zisif",
-        "linkedIn": "https://www.linkedin.com/company/15zisif-cz/"
-    },
-    "allRightsReserved": "© 2025 všechna práva vyhrazena"
+    "allRightsReserved": {
+        "cs": "© 2025 všechna práva vyhrazena",
+        "en": ""
+    }
 }

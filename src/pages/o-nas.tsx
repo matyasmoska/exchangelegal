@@ -3,21 +3,17 @@ import SEO from '../components/Layout/SEO'
 import Image from 'next/image'
 import pageData from '../data/pages/aboutus.json'
 import { FC } from 'react'
-import { TeamMember } from '../typings'
 import React from 'react'
 import TeamMemberDetail from '../components/Pages/about/TeamMemberDetail'
 import { c } from '../services/misc'
-import ParagraphOrMultipleHtml from "../components/Layout/ParagraphOrMultipleHtml";
+import ParagraphOrMultiple from "../components/Layout/ParagraphOrMultiple";
 import { Fade } from 'react-awesome-reveal'
 import ReferencesCarousel from '../components/Pages/about/ReferencesCarousel'
-
-export interface Reference {
-	photo: string
-	reference: string
-	who: string
-}
+import { useTranslations } from '../hooks/useTranslations'
 
 export default function AboutPage () {
+	const t = useTranslations<string>()
+
 	return (
 		<DefaultLayout>
 			<SEO
@@ -37,8 +33,8 @@ keywords="alternativní investiční fond, minifond, alternativní fond, § 15 Z
 				</div>
 				<div className="flex flex-col items-center justify-center text-center my-14">
 					<div className={c('flex flex-col max-w-6xl space-y-8', 'md:px-8 md:text-left')}>
-						<h2 className="text-3xl font-bold">{pageData.header}</h2>
-						<ParagraphOrMultipleHtml text={pageData.headerDescription} className="text-justify max-w-[900px]" />
+						<h2 className="text-3xl font-bold">{t(pageData.header)}</h2>
+						<ParagraphOrMultiple text={pageData.headerDescription} className="text-justify max-w-[900px]" />
 					</div>
 					<div
 						className={c(
@@ -46,8 +42,8 @@ keywords="alternativní investiční fond, minifond, alternativní fond, § 15 Z
 							'md:px-8'
 						)}
 					>
-						{pageData.people.map((member: TeamMember) => (
-							<Fade key={member.name} direction={'up'} triggerOnce duration={800}>
+						{pageData.people.map((member) => (
+							<Fade key={t(member.name)} direction={'up'} triggerOnce duration={800}>
 								<TeamMemberDetail member={member} />
 							</Fade>
 						))}

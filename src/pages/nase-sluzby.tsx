@@ -8,8 +8,11 @@ import { c } from '../services/misc'
 import OrderButton from '../components/Pages/services/OrderButton'
 import ServicesForm from '../components/Pages/services/ServícesForm'
 import { useVisible } from 'react-hooks-visible'
+import { useTranslations } from '../hooks/useTranslations'
 
 export default function Services () {
+	const t = useTranslations()
+
 	const [ selectedServices, setSelectedServices ] = useState<ServiceItemType[]>([])
 	const [targetRef, visible] = useVisible()
 
@@ -31,11 +34,11 @@ description="✅ Jsme odborníky v oblasti zakládání fondů ⭐ Máme unikát
 keywords="alternativní investiční fond, minifond, alternativní fond, § 15 ZISIF, 15zisif"
 			/>
 			<div className={c('py-16 space-y-12 text-center px-36', 'md:px-4 md:py-8 md:relative')}>
-				<h1 className="text-5xl font-bold leading-snug">Naše služby</h1>
+				<h1 className="text-5xl font-bold leading-snug">{t(pageData.ourServices)}</h1>
 				<div className={c('grid grid-cols-3 gap-8 items-stretch', '2xl:grid-cols-3', 'md:grid-cols-1')}>
 					{pageData.services.map((service: ServiceItemType) => (
 						<ServiceItem
-							key={service.name}
+							key={service.id}
 							serviceItem={service}
 							selectedItems={selectedServices}
 							setSelectedItems={setSelectedServices}
