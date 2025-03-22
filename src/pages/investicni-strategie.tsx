@@ -8,6 +8,7 @@ import pageData from '../data/pages/investicni-strategie/investicni-strategie.js
 
 import servicesData from '../data/pages/services.json'
 import useServicesForm from "../components/Pages/services/hooks/useServicesForm";
+import { trackViewItems } from "../components/Pages/services/serviceHelpers";
 import OrderButton from "../components/Pages/services/OrderButton";
 import ServicesForm from "../components/Pages/services/ServícesForm";
 import { useVisible } from "react-hooks-visible";
@@ -33,7 +34,9 @@ const ObligationsPage = () => {
 	const servicesForm = useServicesForm()
 
 	useEffect(() => {
-		servicesForm.setFieldValue('checked', servicesData.services.filter(({ id }) => id === 'investicni-strategie'))
+		const selectedServices = servicesData.services.filter(({ id }) => id === 'investicni-strategie')
+		servicesForm.setFieldValue('checked', selectedServices)
+		trackViewItems(selectedServices)
 	}, [])
 	
 	

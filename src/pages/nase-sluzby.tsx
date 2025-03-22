@@ -9,6 +9,7 @@ import OrderButton from '../components/Pages/services/OrderButton'
 import ServicesForm from '../components/Pages/services/ServícesForm'
 import { useVisible } from 'react-hooks-visible'
 import { useTranslations } from '../hooks/useTranslations'
+import { trackAddToCart } from '../components/Pages/services/serviceHelpers'
 
 export default function Services () {
 	const t = useTranslations()
@@ -22,6 +23,9 @@ export default function Services () {
 	useEffect(
 		() => {
 			servicesForm.setFieldValue('checked', selectedServices)
+			if (selectedServices.length) {
+				trackAddToCart(selectedServices)
+			}
 		},
 		[ selectedServices ]
 	)

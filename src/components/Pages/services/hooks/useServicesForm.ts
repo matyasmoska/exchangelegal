@@ -1,6 +1,7 @@
 import { useRouter } from 'next/dist/client/router'
 import { ContactFormValues } from './../../contact/hooks/useContactForm'
 import { ServiceItem, ServiceItemType } from './../ServiceItem'
+import { trackConversion, trackPurchase } from '../serviceHelpers'
 import { FormikErrors, useFormik } from 'formik'
 import { emailIsValid } from '../../../../services/misc'
 import axios from 'redaxios'
@@ -9,6 +10,14 @@ import pageData from '../../../../data/forms.json'
 
 export interface ServicesFormValues extends ContactFormValues {
 	checked: ServiceItemType[]
+}
+
+export interface ServicesFormValuesResponse extends ServicesFormValues {
+	result: string,
+	transactionId: string
+	totalValue: number
+	hashedEmail: string
+	hashedPhone: string
 }
 
 function useServicesForm () {
@@ -47,16 +56,12 @@ function useServicesForm () {
 		validate,
 		validateOnChange: false,
 		onSubmit: async (values, { resetForm, setStatus, setFieldError }) => {
-			const res = await axios.post('/api/servicesMessage', { ...values } as ContactFormValues)
+			const res = await axios.post<ServicesFormValuesResponse>('/api/servicesMessage', { ...values })
 
 			if ( res.data.result ) {
-				/*
-				resetForm()
-				setStatus('submitted')
-				window.setTimeout(() => {
-					setStatus('default')
-				}, 5000)
-				*/
+				trackPurchase(res.data.transactionId, res.data.checked, res.data.totalValue, res.data.hashedEmail, res.data.hashedPhone)
+				trackConversion(res.data.transactionId, res.data.totalValue, res.data.hashedEmail, res.data.hashedPhone)
+
 				router.push('/dekujeme')
 			} else {
 				setFieldError('api', t(pageData.formError))

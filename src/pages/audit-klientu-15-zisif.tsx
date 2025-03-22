@@ -8,6 +8,7 @@ import pageData from '../data/pages/audit-klientu-15-zisif/audit-klientu-15-zisi
 
 import servicesData from '../data/pages/services.json'
 import useServicesForm from "../components/Pages/services/hooks/useServicesForm";
+import { trackViewItems } from "../components/Pages/services/serviceHelpers";
 import OrderButton from "../components/Pages/services/OrderButton";
 import ServicesForm from "../components/Pages/services/ServícesForm";
 import { useVisible } from "react-hooks-visible";
@@ -42,7 +43,9 @@ const ObligationsPage = () => {
 	const servicesForm = useServicesForm()
 
 	useEffect(() => {
-		servicesForm.setFieldValue('checked', servicesData.services.filter(({ id }) => id === 'aml-povinnosti'))
+		const selectedServices = servicesData.services.filter(({ id }) => id === 'aml-povinnosti')
+		servicesForm.setFieldValue('checked', selectedServices)
+		trackViewItems(selectedServices)
 	}, [])
 	
     return (

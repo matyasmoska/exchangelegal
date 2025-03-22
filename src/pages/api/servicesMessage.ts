@@ -1,7 +1,9 @@
-import { ServicesFormValues } from './../../components/Pages/services/hooks/useServicesForm';
+import { ServicesFormValues, ServicesFormValuesResponse } from './../../components/Pages/services/hooks/useServicesForm';
 import { ContactFormValues } from './../../components/Pages/contact/hooks/useContactForm';
 import { NextApiRequest, NextApiResponse } from "next"
 import nodemailer from "nodemailer";
+import { v4 as uuidv4 } from 'uuid';
+import { createHash } from 'crypto';
 
 async function sendMail( { firstName, lastName, message, email, phone, checked, ico, businessAddress }: ServicesFormValues ) {
     let transporter = nodemailer.createTransport({
@@ -45,9 +47,20 @@ async function sendMail( { firstName, lastName, message, email, phone, checked, 
 }
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
-  const mail = await sendMail( req.body );
+  const formValues: ServicesFormValues = req.body
 
-  console.log( 'MAIL', mail )
-    
-	res.status(200).send( { result: 'Success!' } )
+  const mail = await sendMail(formValues)
+
+  const responseValues: ServicesFormValuesResponse = {
+    ...formValues,
+    result: 'Success!',
+    transactionId: uuidv4(),
+    totalValue: formValues.checked.reduce((sum, { price }) => sum + price, 0),
+    hashedEmail: createHash('sha256').update(formValues.email).digest('hex'),
+    hashedPhone: createHash('sha256').update(formValues.phone).digest('hex')
+  }
+
+  console.log('MAIL: ', mail, responseValues)
+
+  res.status(200).send(responseValues)
 }
