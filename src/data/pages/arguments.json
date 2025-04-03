@@ -229,7 +229,7 @@
                 "en": ""
             },
             "price": {
-                "cs": "89 000 Kč",
+                "cs": "109 000 Kč",
                 "en": ""
             },
             "priceNote": {
@@ -298,6 +298,20 @@
                         "en": ""
                     },
                     "checked": false
+                },
+                {
+                    "text": {
+                        "cs": "Příprava vzorečků výpočtu NAV, High Watermark apod.",
+                        "en": ""
+                    },
+                    "checked": false
+                },
+                {
+                    "text": {
+                        "cs": "Automatizované řešení výpočtu NAV, alokačních poměrů investorů",
+                        "en": ""
+                    },
+                    "checked": false
                 }
             ]
         },
@@ -311,7 +325,7 @@
                 "en": ""
             },
             "price": {
-                "cs": "109 000 Kč",
+                "cs": "149 000 Kč",
                 "en": ""
             },
             "priceNote": {
@@ -353,23 +367,24 @@
                     },
                     "checked": true
                 },
-                {
-                    "text": {
-                        "cs": "Založení entity",
-                        "en": ""
-                    },
-                    "checked": false
-                },
+
                 {
                     "text": {
                         "cs": "Příprava vzorečků výpočtu NAV, High Watermark apod.",
                         "en": ""
                     },
-                    "checked": false
+                    "checked": true
                 },
                 {
                     "text": {
                         "cs": "Automatizované řešení výpočtu NAV, alokačních poměrů investorů",
+                        "en": ""
+                    },
+                    "checked": true
+                },
+                {
+                    "text": {
+                        "cs": "Založení entity",
                         "en": ""
                     },
                     "checked": false
