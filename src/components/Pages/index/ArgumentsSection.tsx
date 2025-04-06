@@ -95,8 +95,8 @@ const ArgumentsSection: FC = () => {
 				<h2 dangerouslySetInnerHTML={{ __html: t(data.pricingTitle) }} className="text-4xl font-bold text-center" />
 				<p className="text-center">{t(data.pricingText)}</p>
 			</Fade>
-			<div className={c('grid grid-cols-4 gap-8', '2xl:grid-cols-3', 'lg:grid-cols-2', 'md:grid-cols-1')}>
-				<Fade damping={0.5} duration={500} cascade triggerOnce className="2xl:last:col-start-2 md:last:col-start-auto">
+			<div className={c('grid grid-cols-3 gap-16', 'lg:grid-cols-1 lg:gap-8')}>
+				<Fade damping={0.5} duration={500} cascade triggerOnce>
 					{data.pricingVariants.map(({ title, text, price, priceNote, buttonText, buttonLink, recommended, items }, i, arr) => (
 						<div
 							key={t(title)}

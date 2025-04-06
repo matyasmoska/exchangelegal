@@ -56,7 +56,7 @@ const Navigation = () => {
 					<NavItems />
 				</div>
 			</div>
-			<div className={c('flex items-center justify-between gap-6 flex-grow xl:flex-grow-0 max-w-md md:hidden')}>
+			<div className={c('flex items-center justify-between gap-6 flex-grow xl:flex-grow-0 max-w-lg md:hidden')}>
 				<TopBar />
 				<Link href="/nase-sluzby">
 					<Button type="secondary" className="px-4 py-2 flex-grow max-w-[216px] xl:hidden">
