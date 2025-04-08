@@ -2,11 +2,11 @@
 {
     "header": {
         "cs": "Založení alternativního fondu na klíč",
-        "en": ""
+        "en": "Turnkey Setup of an Alternative Investment Fund"
     },
     "shortText": {
         "cs": "Provedeme Vás celým procesem krok za krokem",
-        "en": ""
+        "en": "We will guide you through the entire process step by step"
     },
     "topText": [
         ""      
@@ -24,6 +24,6 @@
    
     "buttonText": {
         "cs": "Chci založit alternativní fond",
-        "en": ""
+        "en": "I want to set up an alternative fund"
     }
 }
