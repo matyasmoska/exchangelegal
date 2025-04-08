@@ -1,11 +1,11 @@
 {
     "header": {
         "cs": "AML povinnosti",
-        "en": ""
+        "en": "AML Obligations"
     },
     "shortText": {
         "cs": "Jaké AML/CFT procesy musí alternativní fondy dodržovat?",
-        "en": ""
+        "en": "What AML/CFT processes must alternative investment funds follow?"
     },
     "topText": [
         ""      
@@ -13,12 +13,12 @@
     "highlightSection": {
         "header": {
             "cs": "Na co si dát pozor?",
-            "en": ""
+            "en": "What to Watch Out For?"
         },
         "text": [
             {
                 "cs": "Pozor, zákon č. 40/2009 Sb., trestní zákoník, v účinném znění, zná nejen úmyslný trestný čin \"legalizace výnosů z trestné činnosti\", ale i jeho nedbalostní formu \"legalizace výnosů z trestné činnosti z nedbalosti\". V praxi to znamená, že tento trestný čin můžete spáchat, aniž byste si toho byli vědomi (!).",
-                "en": ""
+                "en": "Act No.40/2009 Coll., the Criminal Code, as amended, knows not only the intentional crime of \"laundering the proceeds of crime\" but also its negligent form \"laundering the proceeds of crime through negligence\". In practice, this means that you can commit this offence without being aware of it (!)."
             }
         ]
     },
@@ -27,6 +27,6 @@
     ],
     "buttonText": {
         "cs": "Chci pomoci s plněním AML povinností",
-        "en": ""
+        "en": "I want help with my AML obligations"
     }
 }
