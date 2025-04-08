@@ -1,11 +1,11 @@
 {
     "header": {
         "cs": "Reporting ČNB pro 15 ZISIF",
-        "en": ""
+        "en": "CNB Reporting for § 15 ZISIF"
     },
     "shortText": {
         "cs": "Výkaznictví a sběr dat pro Českou národní banku (ROFOS 36, ROFOS 37 a DOFOS 15) ze strany alternativního fondu",
-        "en": ""
+        "en": "Reporting and data submission to the Czech National Bank (ROFOS 36, ROFOS 37, and DOFOS 15) by the Alternative Investment Fund"
     },
     "topText": [
         ""      
@@ -23,6 +23,6 @@
    
     "buttonText": {
         "cs": "Chci pomoci s reportingem ČNB",
-        "en": ""
+        "en": "I want help with CNB reporting"
     }
 }
