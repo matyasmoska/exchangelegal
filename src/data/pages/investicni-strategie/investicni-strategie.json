@@ -1,11 +1,11 @@
 {
     "header": {
         "cs": "Investiční strategie",
-        "en": ""
+        "en": "Investment strategy"
     },
     "shortText": {
         "cs": "Jakou zvolit investiční strategii? Do jakých tříd aktiv investovat? Jaký přístup ke správě portfolia zvolit?",
-        "en": ""
+        "en": "Which investment strategy to choose? What asset classes to invest in? What portfolio management approach to adopt?"
     },
     "topText": [
         ""      
@@ -23,6 +23,6 @@
    
     "buttonText": {
         "cs": "Chci pomoci s přípravou strategie",
-        "en": ""
+        "en": "I want help with preparing a strategy"
     }
 }
