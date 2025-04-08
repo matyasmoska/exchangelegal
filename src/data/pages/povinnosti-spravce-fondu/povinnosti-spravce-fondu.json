@@ -1,11 +1,11 @@
 {
     "header": {
         "cs": "Povinnosti správce alternativního fondu 15 ZISIF",
-        "en": ""
+        "en": "Obligations of the alternative fund manager under § 15 of the ZISIF"
     },
     "shortText": {
         "cs": "Jaké povinnosti musí správce alternativního fondu dodržovat?",
-        "en": ""
+        "en": "What obligations must an alternative fund manager comply with?"
     },
     "topText": [
         ""      
@@ -23,6 +23,6 @@
    
     "buttonText": {
         "cs": "Potřebujete poradit s Vašimi povinnostmi?",
-        "en": ""
+        "en": "Do you need help with your obligations?"
     }
 }
