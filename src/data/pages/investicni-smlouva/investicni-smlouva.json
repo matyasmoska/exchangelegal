@@ -1,10 +1,10 @@
 {
     "header": {
         "cs": "Investiční smlouva",
-        "en": ""
+        "en": "Investment agreement"
     },
     "shortText": {
-        "cs": "Připravíme smlouvu na míru vašemu investičnímu modelu",
+        "cs": "We prepare tailored agreements based on your investment model",
         "en": ""
     },
     "topText": [
@@ -23,6 +23,6 @@
    
     "buttonText": {
         "cs": "Chci pomoci s přípravou investiční smlouvy",
-        "en": ""
+        "en": "I want help preparing an investment agreement"
     }
 }
