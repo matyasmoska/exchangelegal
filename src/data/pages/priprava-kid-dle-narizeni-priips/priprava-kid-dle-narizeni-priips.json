@@ -1,11 +1,11 @@
 {
     "header": {
         "cs": "Příprava KID dle nařízení PRIIPs",
-        "en": ""
+        "en": "Preparation of the KID under the PRIIPs Regulation"
     },
     "shortText": {
         "cs": "Sdělení klíčových informací",
-        "en": ""
+        "en": "Key Information Document (KID)"
     },
     "topText": [
         ""      
@@ -23,6 +23,6 @@
    
     "buttonText": {
         "cs": "Chci pomoci s přípravou KID",
-        "en": ""
+        "en": "I want help with KID preparation"
     }
 }
