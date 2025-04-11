@@ -1,46 +1,46 @@
 {
     "ourServices": {
         "cs": "Naše služby",
-        "en": ""
+        "en": "Our services"
     },
     "emptyService": {
         "cs": "Prosím, vyberte alespoň jednu službu.",
-        "en": ""
+        "en": "Please select at least one service."
     },
     "total": {
         "cs": "Celkem",
-        "en": ""
+        "en": "Total"
     },
     "priceFrom": {
         "cs": "Cena od",
-        "en": ""
+        "en": "Price from"
     },
     "withoutVAT": {
         "cs": "bez DPH",
-        "en": ""
+        "en": "excl. VAT"
     },
     "add": {
         "cs": "Přidat",
-        "en": ""
+        "en": "Add"
     },
     "added": {
         "cs": "Přidáno",
-        "en": ""
+        "en": "Added"
     },
     "moreInfo": {
         "cs": "Více informací",
-        "en": ""
+        "en": "More information"
     },
     "services": [
         {
             "id": "zalozeni-alternativniho-fondu-na-klic",
             "name": {
                 "cs": "Založení alternativního fondu na klíč",
-                "en": ""
+                "en": "Turnkey Establishment of an Alternative Fund"
             },
             "description": {
                 "cs": "Připravíme pro Vás kompletní dokumentaci pro registraci alternativního investičního fondu dle § 15 ZISIF u České národní banky na klíč. Cena je od 109 000 Kč (+ DPH) až po 199 000 Kč (+ DPH) u balíčků Entry a All-in-one a SICAV-ready",
-                "en": ""
+                "en": "We will prepare complete documentation for the registration of an alternative investment fund under § 15 of the ZISIF with the Czech National Bank. Price from CZK 109,000 (+ VAT), or from CZK 199,000 (+ VAT) in the All-in-one or SICAV-ready package."
             },
             "price": 109000,
             "link": "/zalozeni-alternativniho-fondu-na-klic",
@@ -50,11 +50,11 @@
             "id": "reporting-cnb",
             "name": {
                 "cs": "Reporting ČNB (ROFOS 36, ROFOS 37 a DOFOS 15)",
-                "en": ""
+                "en": "CNB Reporting (ROFOS 36, ROFOS 37 and DOFOS 15)"
             },
             "description": {
                 "cs": "Zjednodušujeme pro Vás plnění Vašich reportingových povinností. Výkaznictví ČNB vyřešíme za Vás, nastavíme pravidelné reporty ROFOS 36, ROFOS 37 a DOFOS 15 dle aktuálních legislativních požadavků.",
-                "en": ""
+                "en": "We simplify your reporting obligations. We’ll handle CNB reporting for you, set up regular reports (ROFOS 36, ROFOS 37 and DOFOS 15) in line with current legislative requirements."
             },
             "price": 10000,
             "link": "/reporting-cnb",
@@ -64,11 +64,11 @@
             "id": "investicni-dotaznik",
             "name": {
                 "cs": "Investiční dotazník",
-                "en": ""
+                "en": "Investment Questionnaire"
             },
             "description": {
                 "cs": "Potřebujete pomoci s přípravou investičního dotazníku pro posouzení vhodnosti dle § 15 odst. 4 písm. c) ZISIF?",
-                "en": ""
+                "en": "Need help preparing an investment questionnaire to assess suitability under § 15(4)(c) of ZISIF?"
             },
             "price": 9900,
             "link": "/investicni-dotaznik",
@@ -78,11 +78,11 @@
             "id": "registrace-lei",
             "name": {
                 "cs": "Registrace LEI",
-                "en": ""
+                "en": "LEI Registration"
             },
             "description": {
                 "cs": "Účelem kódů LEI je usnadnit identifikaci protistrany při finančních transakcích. Vydávání kódů je regulováno globální zastřešující organizací GLEIF - Global Legal Entity Identifier Foundation",
-                "en": ""
+                "en": "The purpose of the LEI code is to simplify identification of counterparties in financial transactions. Code issuance is regulated globally by GLEIF – Global Legal Entity Identifier Foundation."
             },
             "price": 1230,
             "link": "https://lei-ceska.cz/?affiliate_code=15zisif",
@@ -92,11 +92,11 @@
             "id": "aml-povinnosti",
             "name": {
                 "cs": "AML povinnosti",
-                "en": ""
+                "en": "AML Obligations"
             },
             "description": {
                 "cs": "Potřebujete vyřešit AML povinnosti? Neváhejte se na nás obrátit. Připravíme pro Vás nezbytné dokumenty související s plněním veškerých AML povinností dle AML zákona.",
-                "en": ""
+                "en": "Need help with AML obligations? Don’t hesitate to contact us. We’ll prepare the necessary documents to comply with all AML obligations under the AML Act."
             },
             "price": 29000,
             "link": "/aml-povinnosti",
@@ -106,11 +106,11 @@
             "id": "investicni-smlouva",
             "name": {
                 "cs": "Investiční smlouva",
-                "en": ""
+                "en": "Investment Agreement"
             },
             "description": {
-                "cs": "Připravíme pro Vás investiční smlouvu na míru dle zákonných požadavků, případně Vám pomůžeme s úpravou Vaší strávající investiční smlouvy.",
-                "en": ""
+                "cs": "Připravíme pro Vás investiční smlouvu na míru dle zákonných požadavků, případně Vám pomůžeme s úpravou Vaší stávající investiční smlouvy.",
+                "en": "We will prepare a tailor-made investment agreement for you in compliance with legal requirements, or assist with modifications to your current investment agreement."
             },
             "price": 19000,
             "link": "/investicni-smlouva",
@@ -120,11 +120,11 @@
             "id": "investicni-strategie",
             "name": {
                 "cs": "Investiční strategie",
-                "en": ""
+                "en": "Investment Strategy"
             },
             "description": {
                 "cs": "Připravíme pro Vás investiční strategii na míru, případně Vám pomůžeme s úpravou Vaší strávající investiční strategie.",
-                "en": ""
+                "en": "We will create a tailor-made investment strategy for you, or help you revise your current one."
             },
             "price": 9000,
             "link": "/investicni-strategie",
@@ -134,11 +134,11 @@
             "id": "bezplatna-konzultace",
             "name": {
                 "cs": "Bezplatná konzultace",
-                "en": ""
+                "en": "Free Consultation"
             },
             "description": {
                 "cs": "Máte dotazy? Nejste si jisti svou volbou? Rádi Vám poradíme.",
-                "en": ""
+                "en": "Have questions? Not sure about your choice? We will be happy to help."
             },
             "price": 0,
             "link": "/",
@@ -148,11 +148,11 @@
             "id": "software",
             "name": {
                 "cs": "Komplexní softwarové řešení",
-                "en": ""
+                "en": "Comprehensive Software Solution"
             },
             "description": {
                 "cs": "Kompletní CRM systém pro vedení alternativního fondu dle § 15 ZISIF. Jednoduše vyřídíte veškeré náležitosti, které s vedením fondu souvisí, od on-boardingu klientů a investic, automatického párování a zadávání plateb až po reportování a komunikaci s klienty.",
-                "en": ""
+                "en": "A complete CRM system for managing an alternative fund under Section 15 ZISIF. It simplifies all fund management processes, including client onboarding, investment tracking, automated payment matching, reporting, and client communication."
             },
             "price": 4499,
             "link": "/",
@@ -162,11 +162,11 @@
             "id": "priprava-kid-dle-narizeni-priips",
             "name": {
                 "cs": "Příprava KID dle nařízení PRIIPs",
-                "en": ""
+                "en": "Preparation of the KID under the PRIIPs Regulation"
             },
             "description": {
                 "cs": "Potřebujete pomoci s přípravou dokumentu KID? Žádný problém, tzv. Sdělení klíčových informací (PRIIPs) pro Vás připravíme na míru.",
-                "en": ""
+                "en": "Need help preparing a KID document? No problem – we will tailor the Key Information Document (KID) for you in accordance with the PRIIPs Regulation."
             },
             "price": 19000,
             "link": "/priprava-kid-dle-narizeni-priips",
