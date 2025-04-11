@@ -1,4 +1,4 @@
-{
+    {
     "castokladenedotazy": {
         "cs": "Často kladené dotazy",
         "en": ""
@@ -7,71 +7,71 @@
         {
             "question": {
                 "cs": "Co je to alternativní investiční fond?",
-                "en": ""
+                "en": "What is an Alternative Investment Fund"
             },
             "answer": {
                 "cs": "Jedná se o zařízení a zároveň jednoduchý způsob správy majetku investorů, který, oproti klasickým investičním fondům, nepodléhá regulaci a dozoru České národní banky (ČNB), jako jiné investiční fondy, a je pouze u ČNB registrován. Oproti klasickým investičním fondům se alternativní fond (minfond) vyznačuje nízkými požadavky na administraci, jednoduchostí založení a rychlostí při procesu registrace u ČNB.",
-                "en": ""
+                "en": "It is a vehicle and a simple method of managing investors' assets that, unlike traditional investment funds, is not subject to regulation and supervision by the Czech National Bank (CNB), but is merely registered with the CNB. Compared to traditional investment funds, an alternative fund (also known as a “mini-fund”) features low administrative requirements, ease of establishment, and speed in the registration process with the CNB."
             }
         },
         {
             "question": {
                 "cs": "Existuje nějaký poplatek za zápis alternativního fondu u České národní banky?",
-                "en": ""
+                "en": "Is there a fee for registering an alternative fund with the Czech National Bank?"
             },
             "answer": {
                 "cs": "Zápis fondu do evidence České národní banky (registrace) aktuálně zpoplatněn není.",
-                "en": ""
+                "en": "Currently, there is no fee for the registration (entry into the CNB register) of an alternative fund."
             }
         },
         {
             "question": {
                 "cs": "Kolik finančních prostředků mohou alternativní fondy spravovat?",
-                "en": ""
+                "en": "How much capital can an alternative investment fund manage?"
             },
             "answer": {
                 "cs": "Alternativní fondy nesmí spravovat majetek přesahující 500 000 000 euro (pět set milionů eur) anebo 100 000 000 euro (sto milionů eur), jestliže alternativní investiční fond užívá k obhospodařování majetku pákový efekt.",
-                "en": ""
+                "en": "Alternative investment funds must not manage assets exceeding EUR 500,000,000 (five hundred million euros), or EUR 100,000,000 (one hundred million euros) if the fund uses leverage for asset management."
             }
         },
         {
             "question": {
                 "cs": "Jak probíhá řízení o zápisu alternativního fondu u ČNB?",
-                "en": ""
+                "en": "How does the registration process with the CNB work?"
             },
             "answer": {
                 "cs": "Řízení je zahajováno na návrh budoucího alternativního fondu. Návrh se podává výhradně v elektronické podobě v českém jazyce, lze jej podat i na základě plné moci. Zápisem dochází ze strany ČNB k evidenci alternativního fondu; nejedná se o povolovací řízení, jehož výsledkem je udělení licence.",
-                "en": ""
+                "en": "The registration process is initiated by a proposal submitted by the future alternative fund. The proposal must be submitted electronically and in the Czech language, and it may be submitted under power of attorney. Upon registration, the CNB enters the fund into the register; this is not a licensing process and does not result in the issuance of a license."
             }
         },
         {
             "question": {
                 "cs": "Jak dlouho trvá než ČNB alternativní fond zaregistruje?",
-                "en": ""
+                "en": "How long does it take for the CNB to register an alternative fund?"
             },
             "answer": {
                 "cs": "Jestliže žádost obsahuje veškeré požadované informace a splňuje požadavky, ČNB zapíše alternativní fond do seznamu do pěti pracovních dnů ode dne, kdy jí byla žádost doručena. Naše aktuálně nejrychlejší registrace do seznamu ČNB čítala 2 dny od podání žádosti.",
-                "en": ""
+                "en": "If the application contains all required information and meets the necessary conditions, the CNB will register the alternative fund within five business days from the date the application is delivered. Our fastest registration to date took only 2 days from submission."
             }
         },
         {
             "question": {
                 "cs": "Zjistili jsme, že alternativní fond je povinnou osobou dle AML zákona. Musíme vypracovat písemná pravidla (systém vnitřních zásad a hodnocení rizik) pro AML/CFT prevenci? A v jaké lhůtě?",
-                "en": ""
+                "en": "We have found that the alternative investment fund is an obliged entity under the AML Act. Are we required to develop written policies (a system of internal principles and risk assessment) for AML/CFT prevention? And within what timeframe?"
             },
             "answer": {
                 "cs": "Všechny povinné osoby (tj. i alternativní fondy) musí mít zavedené vnitřní strategie a postupy k předcházení rizika, že budou v rámci obchodu nebo obchodního vztahu zneužity k praní špinavých peněz nebo financování terorismu. Za určitých podmínek musí být tyto strategie zpracovány i písemně (a pokud je taková povinnost stanovena, musí být splněna do 60 dnů od vzniku statusu povinné osoby). Všechny povinné osoby však musí tyto postupy mít zavedeny a dodržovat je, což také musí být schopné prokázat při případné kontrole ze strany FAÚ (jinak hrozí citelná pokuta nebo i zákaz činnosti). Proto většina alternativních fondů postupuje tak, že tato pravidla a postupy (systém vnitřních zásad a hodnocení rizik) zpracuje v písemné podobě formou vnitřního předpisu, i když patří k těm, jimž zákon takovou povinnost právě neukládá. Za splnění určitých podmínek AML zákon ovšem požaduje, aby byl systém vnitřních zásad a hodnocení rizik nejen zpracován písemně, ale také odeslán datovou schránkou ČNB.",
-                "en": ""
+                "en": "All obliged entities (including alternative funds) must implement internal strategies and procedures to prevent the risk of being used for money laundering or terrorist financing. Under certain conditions, these strategies must also be documented in writing (and if such obligation applies, they must be completed within 60 days of acquiring obliged entity status). Regardless, these procedures must be in place and followed, and the fund must be able to prove this in case of an inspection by the FAU (Financial Analytical Unit); failure to do so can result in significant fines or even a ban on operations. Therefore, most alternative funds choose to document these policies and procedures in writing, even if they are not strictly required to do so, via internal regulations. If certain AML Act conditions are met, the internal rules and risk assessment must also be sent to the CNB via the official data box."
             }
         },
         {
             "question": {
                 "cs": "AML povinnosti jsme bohužel zanedbali, nicméně chceme to co nejdříve napravit. Hrozí nám nějaká sankce nebo pokuta?",
-                "en": ""
+                "en": "We’ve unfortunately neglected our AML obligations, but we want to fix the situation as soon as possible. Are we facing any penalties or fines?"
             },
             "answer": {
                 "cs": "V této situaci Vám důrazně doporučujeme urychleně pořídit systém vnitřních zásad a hodnocení rizik a vyškolit zaměstnance ohledně AML povinností a začít je uplatňovat v praxi. Dozorové orgány obvykle takové kroky k nápravě vítají, nicméně nelze vyloučit, že Vám v případě kontroly bude uložena pokuta za opožděné splnění AML povinností. Obecně ale platí, že na opožděné splnění AML povinností je pohlíženo mírněji než na jejich úplné zanedbání.",
-                "en": ""
+                "en": "In this case, we strongly recommend promptly preparing your internal rules and risk assessment, training your staff on AML obligations, and starting to apply the procedures in practice. Supervisory authorities generally welcome corrective action. However, it is still possible that a fine could be imposed for the delayed compliance. In general, delayed compliance is viewed more leniently than complete neglect."
             }
         }
     ]
