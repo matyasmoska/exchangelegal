@@ -46,6 +46,7 @@
         "title": {
             "cs": "Reporting SDAT ČNB pro Váš 15 ZISIF nechte na nás",
             "en": "Leave the CNB SDAT reporting for your 15 ZISIF to us"
+         },
         "subtitle": {
             "cs": "Zjednodušujeme pro Vás plnění Vašich reportingových povinností. Výkaznictví ČNB pro 15 ZISIF vyřešíme za Vás; nastavíme pravidelné reporty ROFOS 36, ROFOS 37 a DOFOS 15 dle aktuálních legislativních požadavků."
             "en": "We simplify the fulfilment of your reporting obligations for you. We will handle the CNB reporting for 15 ZISIF for you; we will set up regular reports ROFOS 36, ROFOS 37 and DOFOS 15 according to the current legislative requirements."
@@ -84,7 +85,7 @@
         "title": {
             "cs": "Potřebujete připravit dokument KID dle nařízení PRIIPs?",
             "en": "Do you need to prepare a KID according to the PRIIPs Regulation?"
-          },
+        },
         "subtitle": {
             "cs": "Žádný problém, tzv. Sdělení klíčových informací (PRIIPs) pro Váš 15 ZISIF připravíme na míru."
             "en": "No problem, we will prepare tailor-made key information notices (PRIIPs) for your 15 ZISIF."
