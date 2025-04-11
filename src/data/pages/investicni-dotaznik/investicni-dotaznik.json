@@ -1,11 +1,11 @@
 {
     "header": {
         "cs": "Investiční dotazník",
-        "en": ""
+        "en": "Investment questionnaire"
     },
     "shortText": {
         "cs": "Posouzení vhodnosti dle § 15 odst. 4 písm. c) ZISIF",
-        "en": ""
+        "en": "Suitability assessment pursuant to § 15(4)(c) of the ZISIF"
     },
     "topText": [
         ""      
@@ -23,6 +23,6 @@
    
     "buttonText":{
         "cs": "Chci pomoci s přípravou investičního dotazníku",
-        "en": ""
+        "en": "I want help preparing an investment questionnaire"
     }
 }
