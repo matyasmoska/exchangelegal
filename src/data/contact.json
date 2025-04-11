@@ -2,11 +2,11 @@
     "contact": {
         "header": {
             "cs": "Kontakty",
-            "en": ""
+            "en": "Contact"
         },
         "descriptionForHomePage": {
             "cs": "Chcete založit vlastní alternativní fond dle 15 ZISIF? Neváhejte se na nás obrátit.",
-            "en": ""
+            "en": "Do you want to establish your own alternative investment fund under § 15 of the ZISIF? Don’t hesitate to contact us."
         },
         "description": {
             "cs": "",
@@ -19,15 +19,15 @@
         },
         "secondDescriptionForHomePage": {
             "cs": "Jsme specialisté na alternativní fondy – 15 ZISIF.",
-            "en": ""
+            "en": "We are specialists in alternative investment funds – 15 ZISIF."
         },
         "secondDescription": {
             "cs": "Jsme specialisté na alternativní investiční fondy a finanční právo.",
-            "en": ""
+            "en": "We are specialists in alternative investment funds and financial law."
         },
         "thirdDescription": {
             "cs": "Orgánem mimosoudního řešení sporů pro klienty – spotřebitele je Česká advokátní komora se sídlem v Praze www.cak.cz / e-mail: epodatelna@cak.cz",
-            "en": ""
+            "en": "The body for out-of-court dispute resolution for clients – consumers is the Czech Bar Association, based in Prague (www.cak.cz / e-mail: epodatelna@cak.cz)"
         },
         "url": "15zisif.cz",
         "phoneNumber": "+420 605 006 807",
@@ -42,6 +42,6 @@
     },
     "allRightsReserved": {
         "cs": "© 2025 všechna práva vyhrazena",
-        "en": ""
+        "en": "© 2025 all rights reserved"
     }
 }
