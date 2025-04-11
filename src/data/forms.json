@@ -1,83 +1,83 @@
 {
     "servicesFormTitle": {
         "cs": "Nezávazná poptávka",
-        "en": ""
+        "en": "Non-binding inquiry"
     },
     "servicesFormDescription": {
         "cs": "Vyplněním údajů a kliknutím tlačítka \"Nezávazně poptat\" nezávazně poptáte nabídku služeb.",
-        "en": ""
+        "en": "Fill in your details and click the button \"Inquire without obligation\" to make a non-binding inquiry."
     },
     "servicesFormSend": {
         "cs": "Nezávazně poptat",
-        "en": ""
+        "en": "Inquire without obligation"
     },
     "crypto": {
         "cs": "Více informací k přijímání kryptoměn",
-        "en": ""
+        "en": "More information on accepting cryptocurrencies"
     },
     "here": {
         "cs": "zde",
-        "en": ""
+        "en": "here"
     },
     "firstName": {
         "cs": "Jméno",
-        "en": ""
+        "en": "Name"
     },
     "lastName": {
         "cs": "Příjmení",
-        "en": ""
+        "en": "Surname"
     },
     "email": {
         "cs": "E-mail",
-        "en": ""
+        "en": "E-mail"
     },
     "phone": {
         "cs": "Telefon",
-        "en": ""
+        "en": "Telephone"
     },
     "ico": {
         "cs": "IČO (nepovinné)",
-        "en": ""
+        "en": "CIN (optional)"
     },
     "businessAddress": {
         "cs": "Obchodní firma (nepovinné)",
-        "en": ""
+        "en": "Company name (optional)"
     },
     "message": {
         "cs": "Zde napište zprávu",
-        "en": ""
+        "en": "Write a message here"
     },
     "agreeWith": {
         "cs": "Souhlasím se",
-        "en": ""
+        "en": "I agree with"
     },
     "personalDataProcessing": {
         "cs": "zpracováním osobních údajů",
-        "en": ""
+        "en": "the processing of personal data"
     },
     "send": {
         "cs": "Odeslat",
-        "en": ""
+        "en": "Send"
     },
     "emailNotValid": {
         "cs": "E-mail je v nesprávném formátu",
-        "en": ""
+        "en": "E-mail is in incorrect format"
     },
     "missingEmail": {
         "cs": "Je třeba zadat e-mail",
-        "en": ""
+        "en": "It is necessary to enter your e-mail"
     },
     "missingFirstName": {
         "cs": "Je třeba zadat jméno",
-        "en": ""
+        "en": "It is necessary to enter a name"
     },
     "missingLastName": {
         "cs": "Je třeba zadat příjmení",
-        "en": ""
+        "en": "It is necessary to enter a surname"
     },
     "missingPhone": {
         "cs": "Je třeba zadat telefon",
-        "en": ""
+        "en": "It is necessary to enter a telephone"
     },
     "missingPersonalDataAgreement": {
         "cs": "Musíte souhlasit se zpracováním osobních údajů.",
@@ -85,26 +85,26 @@
     },
     "missingServiceFormError": {
         "cs": "Musíte zaškrtnout alespoň jeden předmět.",
-        "en": ""
+        "en": "You must consent to the processing of personal data."
     },
     "formSuccess": {
         "cs": "Odeslání proběhlo úspěšně. Děkujeme!",
-        "en": ""
+        "en": "Submission was successful. Thank you!"
     },
     "formError": {
         "cs": "Odeslání nebylo úspěšné. Prosím, kontaktujte nás na výše uvedeném e-mailu.",
-        "en": ""
+        "en": "Submission was not successful. Please contact us at the email address provided above."
     },
     "thanks": {
         "cs": "Děkujeme!",
-        "en": ""
+        "en": "Thank you!"
     },
     "thanksSuccess": {
         "cs": "Odeslání poptávky proběhlo úspěšně. Brzy Vás budeme kontaktovat.",
-        "en": ""
+        "en": "Inquiry sent successfully. Expect to hear from us shortly."
     },
     "backToHomePage": {
         "cs": "Zpět na úvodní stránku",
-        "en": ""
+        "en": "Back to the homepage"
     }
 }
