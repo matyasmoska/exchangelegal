@@ -1,86 +1,86 @@
 {
   "news": {
     "cs": "Aktuality",
-    "en": ""
+    "en": "News"
   },
   "services": {
     "cs": "Naše služby",
-    "en": ""
+    "en": "Our Services"
   },
   "about": {
     "cs": "O nás",
-    "en": ""
+    "en": "About Us"
   },
   "contact": {
     "cs": "Kontakty",
-    "en": ""
+    "en": "Contact"
   },
   "menu": {
     "cs": "Menu",
-    "en": ""
+    "en": "Menu"
   },
   "sledujtenas": {
     "cs": "Sledujte nás",
-    "en": ""
+    "en": "Follow us"
   },
   "cojeto": {
     "cs": "Co je to alternativní fond?",
-    "en": ""
+    "en": "What is an alternative investment fund?"
   },
   "zalozeni": {
     "cs": "Fond na klíč 15 ZISIF",
-    "en": ""
+    "en": "Turnkey establishment of an alternative fund"
   },
   "konzultace": {
     "cs": "Bezplatná konzultace",
-    "en": ""
+    "en": "Free consultation"
   },
   "reportingcnb": {
     "cs": "Reporting ČNB pro 15 ZISIF",
-    "en": ""
+    "en": "CNB reporting"
   },
   "pripravakiddlenarizenipriips": {
     "cs": "Příprava KID dle nařízení PRIIPs",
-    "en": ""
+    "en": "Preparation of the KID under the PRIIPs Regulation"
   },
   "castokladenedotazy": {
     "cs": "Často kladené dotazy",
-    "en": ""
+    "en": "Frequently asked questions"
   },
   "tos": {
     "cs": "Právní informace a podmínky užití",
-    "en": ""
+    "en": "Legal information and terms of use"
   },
   "privacypolicy": {
     "cs": "Zásady zpracování osobních údajů",
-    "en": ""
+    "en": "Principles of personal data processing"
   },
   "cookierules": {
     "cs": "Pravidla používání cookies",
-    "en": ""
+    "en": "Cookies policy"
   },
   "cookiesettings": {
     "cs": "Nastavení cookies",
-    "en": ""
+    "en": "Cookies settings"
   },
   "povinnostidlesfdr": {
     "cs": "Povinnosti dle nařízení SFDR",
-    "en": ""
+    "en": "Obligations under the SFDR"
   },
   "amlpovinnosti": {
     "cs": "AML povinnosti pro 15 ZISIF",
-    "en": ""
+    "en": "AML obligations"
   },
   "investicnistrategie": {
     "cs": "Investiční strategie",
-    "en": ""
+    "en": "Investment strategy"
   },
   "investicnismlouva": {
     "cs": "Investiční smlouva",
-    "en": ""
+    "en": "Investment agreement"
   },
   "povinnostispravcefondu": {
     "cs": "Povinnosti správce fondu 15 ZISIF",
-    "en": ""
+    "en": "Obligations of the fund manager"
   }
 }
