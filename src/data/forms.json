@@ -81,11 +81,11 @@
     },
     "missingPersonalDataAgreement": {
         "cs": "Musíte souhlasit se zpracováním osobních údajů.",
-        "en": ""
+        "en": "You must consent to the processing of personal data."
     },
     "missingServiceFormError": {
         "cs": "Musíte zaškrtnout alespoň jeden předmět.",
-        "en": "You must consent to the processing of personal data."
+        "en": "You must choose at least one item."
     },
     "formSuccess": {
         "cs": "Odeslání proběhlo úspěšně. Děkujeme!",
