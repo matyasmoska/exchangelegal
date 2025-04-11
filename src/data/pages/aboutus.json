@@ -1,60 +1,60 @@
 {
 	"header": {
 		"cs": "Kdo jsme",
-		"en": ""
+		"en": "Who We Are"
     },
 	"headerDescription": {
 		"cs": "Jsme advokáti specializující se zejména na finanční právo, zakládání fondů, kolektivní investování, AML/CFT a s tímto spojené právní a daňové otázky. <b>Vzhledem k tomu, že sami spravujeme vlastní alternativní investiční fond dle § 15 ZISIF, máme s touto problematikou bohaté praktické zkušenosti.</b>",
-		"en": ""
+		"en": "We are attorneys specializing primarily in financial law, fund formation, collective investment, AML/CFT, and related legal and tax matters. <b>Since we also manage our own alternative investment fund under § 15 of the ZISIF, we have extensive practical experience in this area.<b>"
     },
 	"linkedInProfile": {
 		"cs": "LinkedIn Profil",
-		"en": ""
+		"en": "LinkedIn Profile"
     },
 	"less": {
 		"cs": "Méně",
-		"en": ""
+		"en": "Less"
     },
 	"more": {
 		"cs": "Více",
-		"en": ""
+		"en": "More"
     },
 	"people": [
 		{
 			"name": {
 				"cs": "Mgr. Matyáš Moska, advokát",
-				"en": ""
+				"en": "Mgr. Matyáš Moska, Attorney-at-Law"
 			},
 			"description": [
 				{
 					"cs": "Matyáš se ve své právní praxi zaměřuje na poradenství finančním institucím, FinTech a RegTech projektům, a to i v kontextu regulace finančních trhů a investičních služeb.",
-					"en": ""
+					"en": "In his legal practice, Matyáš focuses on advising financial institutions, FinTech and RegTech projects, particularly in the context of financial markets regulation and investment services."
 				},
 				{
 					"cs": "Specializuje se na regulaci finančních trhů, krypto-aktiva a související otázky.",
-					"en": ""
+					"en": "He specializes in financial markets regulation, crypto-assets, and related issues."
 				},
 				{
 					"cs": "Matyáš se taktéž věnuje soudním litigacím a zastupuje klienty ve sporech před soudy a v řízeních před regulatorními orgány, zejména před Českou národní bankou (ČNB) a Finančním analytickým úřadem (FAÚ).",
-					"en": ""
+					"en": "Matyáš is also active in litigation, representing clients in court disputes and proceedings before regulatory authorities, especially the Czech National Bank (CNB) and the Financial Analytical Unit (FAU)."
 				},
 				{
 					"cs": "Kromě práva se věnuje rovněž informačním technologiím a je spoluzakladatelem RegTech společnosti AML solutions s.r.o., zabývající se compliance v oblasti AML/CFT. V této oblasti práva působí taktéž jako odborný lektor a pravidelně přednáší a školí.",
-					"en": ""
+					"en": "Beyond the legal field, he is involved in information technologies and is a co-founder of the RegTech company AML solutions s.r.o., which deals with AML/CFT compliance. In this area, he also works as a professional lecturer and regularly gives lectures and training sessions."
 				},
 				{
 					"cs": "Je rovněž spoluautorem projektu www.advokatniuschova.cz",
-					"en": ""
+					"en": "He is also a co-author of the project www.advokatniuschova.cz."
 				}
 			],
 			"readMore": [
 				{
 					"cs": "Matyáš plynně hovoří anglicky, německy a polsky.",
-					"en": ""
+					"en": "Matyáš is fluent in English, German and Polish."
 				},
 				{
 					"cs": "Své zkušenosti nasbíral v průběhu mnoha let v renomované pražské advokátní kanceláři, na bavorské Bayreuth Universität a advokátní kanceláři v Německu.",
-					"en": ""
+					"en": "He gained his experience over many years at a renowned Prague law firm, at Bayreuth University in Bavaria and at a law firm in Germany."
 				}
 			],
 			"photo": "/images/team/moska-profile3.png",
@@ -62,41 +62,41 @@
 			"tags": [
 				{
 					"cs": "#AML/CFT",
-					"en": ""
+					"en": "#AML/CFT"
 				},
 				{
 					"cs": "#FinTech",
-					"en": ""
+					"en": "#FinTech"
 				},
 				{
 					"cs": "#Finanční trhy",
-					"en": ""
+					"en": "#Financial markets"
 				}
 			]
 		},
 		{
 			"name": {
 				"cs": "Mgr. Jakub Pártl, LL.M., advokát",
-				"en": ""
+				"en": "Mgr. Jakub Pártl, LL.M., Attorney-at-Law"
 			},
 			"description": [
 				{
 					"cs": "Jakub se v rámci své advokátní praxe věnuje právnímu poradenství v oblasti M&A, právu obchodních korporací, právu IT a projektovému financování.",
-					"en": ""
+					"en": "In his legal practice, Jakub provides legal advice in the areas of M&A, corporate law, IT law, and project financing."
 				},
 				{
 					"cs": "Dále má rozsáhlé zkušenosti v přípravě obchodních kontraktů, poradenství investorům či start-upům a souvisejících vyjednáváních.",
-					"en": ""
+					"en": "He has extensive experience in drafting commercial contracts, advising investors and start-ups, and conducting related negotiations."
 				},
 				{
 					"cs": "Během své právní praxe působil v předních pražských či mezinárodních advokátních kanceláří, a to včetně manažerských pozic, a radil korporátní i privátní klientele.",
-					"en": ""
+					"en": "Throughout his career, Jakub has worked in leading Prague-based and international law firms, including holding managerial positions, advising both corporate and private clients."
 				}
 			],
 			"readMore": [
 				{
 					"cs": "Hovoří plynně anglicky a francouzsky.",
-					"en": ""
+					"en": "He is fluent in English and French."
 				}
 			],
 			"photo": "/images/team/jakub.jpg",
@@ -104,59 +104,59 @@
 			"tags": [
 				{
 					"cs": "#M&A",
-					"en": ""
+					"en": "#M&A"
 				},
 				{
 					"cs": "#FinTech",
-					"en": ""
+					"en": "#FinTech"
 				},
 				{
 					"cs": "#Projektové financování",
-					"en": ""
+					"en": "#Project financing"
 				},
 				{
 					"cs": "#IT/IP",
-					"en": ""
+					"en": "#IT/IP"
 				}
 			]
 		}
 	],
 	"referenceTitle": {
 		"cs": "Řekli o nás",
-		"en": ""
+		"en": "They said about us"
     },
 	"references": [
 		{
 			"photo": "/images/reference.png",
 			"reference": {
 				"cs": "Spolupráce s advokáty Matyášem Moskou a Jakubem Pártlem byla na skvělé úrovni. Rychlá a profesionální komunikace!",
-				"en": ""
+				"en": "Cooperation with attorneys Matyáš Moska and Jakub Pártl was at a great level. Fast and professional communication!"
 			},
 			"who": {
 				"cs": "Alexandra Hurtová, ředitelka Pozemkového Kompenzačního Fondu",
-				"en": ""
+				"en": "Alexandra Hurtová, Director of the Land Compensation Fund"
 			}
 		},
 		{
 			"photo": "/images/reference.png",
 			"reference": {
 				"cs": "Tým advokátů z 15zisif.cz nám během svého školení jasně a výstižně objasnil veškeré naše povinnosti v oblasti podnikání alternativních fondů.",
-				"en": ""
+				"en": "The team of attorneys from 15zisif.cz clearly and concisely explained all our obligations in the area of alternative funds during their training."
 			},
 			"who": {
 				"cs": "Ondřej Procházka, jednatel Safe Whistlers s.r.o.",
-				"en": ""
+				"en": "Ondřej Procházka, Managing Partner at Safe Whistlers s.r.o."
 			}
 		},
 		{
 			"photo": "/images/reference.png",
 			"reference": {
 				"cs": "Služby týmu advokátů z 15zisif.cz mohu vřele doporučit!",
-				"en": ""
+				"en": "I can highly recommend the services of the team of attorneys from 15zisif.cz!"
 			},
 			"who": {
 				"cs": "Josef Stejskal, CEO ve společnosti ApeironChain s.r.o.",
-				"en": ""
+				"en": "Josef Stejskal, CEO of ApeironChain s.r.o."
 			}
 		}
 	]
