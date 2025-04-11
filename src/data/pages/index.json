@@ -6,39 +6,39 @@
     "firstSection": {
         "title": {
             "cs": "Založení alternativního fondu 15 ZISIF již <em>od 109 000 Kč</em>",
-            "en": ""
+            "en": "Setting up an alternative fund 15 ZISIF <em>from 109 000 Kč</em>"
         },
         "subtitle": {
             "cs": "Zakládáme alternativní investiční fondy dle § 15 ZISIF v nejvyšším standardu za férové ceny. Připravíme pro Vás kompletní dokumentaci pro registraci alternativního fondu dle § 15 ZISIF u České národní banky na klíč.",
-            "en": ""
+            "en": "We establish alternative investment funds under § 15 of ZISIF at the highest standard and at fair prices. We will prepare complete turnkey documentation for the registration of an alternative fund under § 15 ZISIF with the Czech National Bank."
         },
         "image": "/images/graf15zisif.jpg",
         "primaryButton": {
             "link": "/zalozeni-alternativniho-fondu-na-klic",
             "text": {
                 "cs": "Založit alternativní fond",
-                "en": ""
+                "en": "Set up an alternative fund"
             }
         },
         "secondaryButton": {
             "link": "/nase-sluzby",
             "text": {
                 "cs": "Bezplatná konzultace",
-                "en": ""
+                "en": "Free consultation"
             }
         },
         "firstNumber": {
             "number": "1 mld+ Kč",
             "text": {
                 "cs": "Proinvestováno našimi klienty",
-                "en": ""
+                "en": "Invested by our clients"
             }
         },
         "secondNumber": {
             "number": "50+",
             "text": {
                 "cs": "Spokojených klientů",
-                "en": ""
+                "en": "Satisfied clients"
             }
         }
     },
@@ -50,28 +50,28 @@
             "link": "/reporting-cnb",
             "text": {
                 "cs": "Chci nastavit reporting",
-                "en": ""
+                "en": "I want to set up reporting"
             }
         },
         "secondaryButton": {
             "link": "/nase-sluzby",
             "text": {
                 "cs": "Bezplatná konzultace",
-                "en": ""
+                "en": "Free consultation"
             }
         },
         "firstNumber": {
             "number": "1 mld+ Kč",
             "text": {
                 "cs": "Proinvestováno našimi klienty",
-                "en": ""
+                "en": "Invested by our clients"
             }
         },
         "secondNumber": {
             "number": "50+",
             "text": {
                 "cs": "Spokojených klientů",
-                "en": ""
+                "en": "Satisfied clients"
             }
         }
     },
@@ -83,38 +83,38 @@
             "link": "/priprava-kid-dle-narizeni-priips",
             "text": {
                 "cs": "Chci pomoci s přípravou KID",
-                "en": ""
+                "en": "I want help with KID preparation"
             }
         },
         "secondaryButton": {
             "link": "/nase-sluzby",
             "text": {
                 "cs": "Bezplatná konzultace",
-                "en": ""
+                "en": "Free consultation"
             }
         },
         "firstNumber": {
             "number": "1 mld+ Kč",
             "text": {
                 "cs": "Proinvestováno našimi klienty",
-                "en": ""
+                "en": "Invested by our clients"
             }
         },
         "secondNumber": {
             "number": "50+",
             "text": {
                 "cs": "Spokojených klientů",
-                "en": ""
+                "en": "Satisfied clients"
             }
         }
     },
     "reviews": {
         "cs": "hodnocení",
-        "en": ""
+        "en": "reviews"
     },
     "partners": {
         "cs": "Členství & Partneři",
-        "en": ""
+        "en": "Membership & Partners"
     },
     "carouselChangeEveryHowManySeconds": 11
 }
