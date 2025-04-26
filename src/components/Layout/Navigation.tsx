@@ -6,6 +6,7 @@ import Logo from './Logo'
 import NavItem from './NavItem'
 import Button from './Button'
 import TopBar from '../Pages/index/TopBar'
+import LangSelect from './LangSelect'
 import { AnimatePresence, motion as m } from 'framer-motion'
 import { opacityAnimation } from '../../animations/navigation'
 import pageData from '../../data/navigation.json'
@@ -45,24 +46,25 @@ const Navigation = () => {
 	return (
 		<div
 			className={c(
-				'flex items-center bg-white justify-between w-full gap-12 xl:gap-11 lg:gap-3 min-h-header md:min-h-header-mobile',
+				'flex items-center bg-white justify-between w-full gap-12 2xl:gap-4 lg:gap-3 min-h-header md:min-h-header-mobile',
 				'font-header',
 				'px-36', '3xl:px-28', '2xl:px-20', 'lg:px-6'
 			)}
 		>
-			<div className={c('flex items-center justify-between gap-12 xl:gap-4 lg:gap-3 flex-grow max-w-4xl')}>
+			<div className={c('flex items-center justify-between gap-12 2xl:gap-4 lg:gap-3 flex-grow max-w-4xl')}>
 				<Logo />
 				<div className={c('flex items-center justify-between flex-grow max-w-2xl text-center font-semibold md:hidden')}>
 					<NavItems />
 				</div>
 			</div>
-			<div className={c('flex items-center justify-between gap-6 flex-grow xl:flex-grow-0 max-w-lg md:hidden')}>
+			<div className={c('flex items-center justify-between gap-4 lg:gap-3 flex-grow 2xl:flex-grow-0 max-w-2xl md:hidden')}>
 				<TopBar />
 				<Link href="/nase-sluzby">
-					<Button type="secondary" className="px-4 py-2 flex-grow max-w-[216px] xl:hidden">
+					<Button type="secondary" className="px-4 py-2 text-center flex-grow max-w-[216px] xl:hidden">
 						{t(pageData.konzultace)}
 					</Button>
 				</Link>
+				<LangSelect />
 			</div>
 			<span className={c('hidden z-50', 'md:block')} onClick={() => setSidebarOpen(!sidebarOpen)}>
 				<HamburgerIcon sidebarOpen={sidebarOpen} />
@@ -81,6 +83,7 @@ const Navigation = () => {
 						</div>
 						<div className="flex flex-col items-center justify-center flex-grow space-y-6 text-2xl text-dark-blue overflow-auto">
 							<NavItems />
+							<LangSelect isMobile onSelectionChange={() => setSidebarOpen(false)} />
 						</div>
 					</m.div>
 				)}

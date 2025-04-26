@@ -26,6 +26,24 @@ export const StarIcon: FC<StarIconProps> = ({ type, className = '' }) => (
     </svg>
 )
 
+export const CzechFlag: FC<Partial<IconProps>> = ({ className = '' }) => (
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 10" className={className}>
+        <rect width="16" height="10" fill="#d7141a" />
+        <rect width="16" height="5" fill="#fff" />
+        <polygon points="0,0 7,5 0,10" fill="#11457e" />
+    </svg>
+)
+
+export const EnglishFlag: FC<Partial<IconProps>> = ({ className = '' }) => (
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 10" className={className}>
+        <rect width="16" height="10" fill="#012169" />
+        <path d="M0 0l16 10M16 0L0 10" stroke="#fff" strokeWidth="2" />
+        <path d="M0 0l16 10M16 0L0 10" stroke="#C8102E" strokeWidth="1.4" />
+        <path d="M8 0v10M0 5h16" stroke="#fff" strokeWidth="3" />
+        <path d="M8 0v10M0 5h16" stroke="#C8102E" strokeWidth="2" />
+    </svg>
+)
+
 export const ChevronDown: Icon = ({ className = '' }) => (
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className={className} stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
