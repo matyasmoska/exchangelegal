@@ -1,119 +1,119 @@
 {
     "findOutMore": {
         "cs": "Zjistěte více",
-        "en": ""
+        "en": "Find out more"
     },
     "questionsTitle": {
         "cs": "Je fond dle <em>§ 15 ZISIF</em> právě pro Vás?",
-        "en": ""
+        "en": "Is a fund under <em>§ 15 ZISIF</em> right for you?"
     },
     "questions": [
         {
             "text": {
                 "cs": "Máte zájem spravovat cizí prostředky bez náročné regulatorní zátěže?",
-                "en": ""
+                "en": "Are you interested in managing third-party assets without heavy regulatory burdens?"
             }
         },
         {
             "text": {
                 "cs": "Chcete podnikat 100 % legálně a transparentně v České republice?",
-                "en": ""
+                "en": "Do you want to do business 100 % legally and transparently in the Czech Republic?"
             }
         },
         {
             "text": {
                 "cs": "Chcete se vyhnout složitým off-shore strukturám?",
-                "en": ""
+                "en": "Do you want to avoid complex offshore structures?"
             }
         },
         {
             "text": {
                 "cs": "Máte obavu z vysokých provozních nákladů fondů kvalifikovaných investorů?",
-                "en": ""
+                "en": "Are you concerned about the high operating costs of qualified-investor funds?"
             }
         },
         {
             "text": {
                 "cs": "Nechcete anebo nemůžete začít ihned \"ve velkém\"?",
-                "en": ""
+                "en": "Do you not want to—or cannot—start \"big\" right away?"
             }
         }
     ],
     "questionsResult": {
         "cs": "...pak jste tu správně. Alternativní fond dle <em>§ 15 ZISIF</em> je přesně pro Vás.",
-        "en": ""
+        "en": "...then you’re in the right place. An alternative fund under <em>§ 15 ZISIF</em> is exactly what you need."
     },
     "optionsTitle": {
         "cs": "S alternativním fondem dle <em>§ 15 ZISIF</em> můžete:",
-        "en": ""
+        "en": "With an alternative fund under <em>§ 15 ZISIF</em> you can:"
     },
     "options": [
         {
             "icon": "/images/argumentIcons/calendar.svg",
             "text": {
                 "cs": "Spravovat majetek investorů legálně a s maximální svobodou.",
-                "en": ""
+                "en": "Manage investors’ assets legally and with maximum freedom."
             }
         },
         {
             "icon": "/images/argumentIcons/growth.svg",
             "text": {
                 "cs": "Velmi efektivně provozovat fond – s minimálními počátečními a průběžnými náklady.",
-                "en": ""
+                "en": "Run a fund very efficiently—with minimal initial and ongoing costs."
             }
         },
         {
             "icon": "/images/argumentIcons/ethereum.svg",
             "text": {
                 "cs": "Investovat do libovolných tříd aktiv, jako jsou například kryptoměny, zcela bez omezení.",
-                "en": ""
+                "en": "Invest in any asset class, such as cryptocurrencies, completely without restrictions."
             }
         },
         {
             "icon": "/images/argumentIcons/test.svg",
             "text": {
                 "cs": "Vyhnout se vysokým regulatorním nárokům (odpovědné osoby, fondový kapitál, compliance, reporting apod.)",
-                "en": ""
+                "en": "Avoid high regulatory requirements (responsible persons, fund capital, compliance, reporting, etc.)"
             }
         }
     ],
     "optionsResult": {
         "cs": "<em>Využijte těchto výhod</em> a rozvíjejte svůj fond dle Vašich představ!",
-        "en": ""
+        "en": "<em>Take advantage of these benefits</em> and develop your fund according to your vision!"
     },
     "fundsTitle": {
         "cs": "S alternativním fondem dle <em>§ 15 ZISIF</em> můžete spravovat prostředky:",
-        "en": ""
+        "en": "With an alternative fund under <em>§ 15 ZISIF</em> you can manage funds of:"
     },
     "funds": [
         {
             "title": {
                 "cs": "<em>20 osob</em>",
-                "en": ""
+                "en": "<em>20 persons</em>"
             },
             "text": {
                 "cs": "Pro maximálně <strong>20 osob</strong> s úzkou vazbou (rodinnou, přátelskou, obchodní).",
-                "en": ""
+                "en": "For up to <strong>20 persons</strong> with a close bond (family, friends, business)."
             }
         },
         {
             "title": {
                 "cs": "<em>125 tis. EUR</em>",
-                "en": ""
+                "en": "<em>125 k EUR</em>"
             },
             "text": {
                 "cs": "Pro <strong>libovolný počet</strong> kvalifikovaných investorů s investicí nad 125 000 EUR.",
-                "en": ""
+                "en": "For <strong>any number</strong> of qualified investors with an investment above 125,000 EUR."
             }
         },
         {
             "title": {
                 "cs": "<em>100 mil. EUR</em>",
-                "en": ""
+                "en": "<em>100 million EUR</em>"
             },
             "text": {
                 "cs": "V maximální výši <strong>100 000 000 EUR</strong> (nebo ekvivalent v jiné měně).",
-                "en": ""
+                "en": "Up to a maximum of <strong>100,000,000 EUR</strong> (or the equivalent in another currency)."
             }
         }
     ],
@@ -121,42 +121,42 @@
         "link": "/zalozeni-alternativniho-fondu-na-klic",
         "text": {
             "cs": "Chci založit fond",
-            "en": ""
+            "en": "I want to set up a fund"
         }
     },
     "recommending": {
         "cs": "Doporučujeme",
-        "en": ""
+        "en": "Recommended"
     },
     "pricingTitle": {
         "cs": "Naše cenové balíčky",
-        "en": ""
+        "en": "Our pricing packages"
     },
     "pricingText": {
         "cs": "Vyberte si balíček, který je pro Vás ten pravý",
-        "en": ""
+        "en": "Choose the package that’s right for you"
     },
     "pricingVariants": [
         {
             "title": {
                 "cs": "Entry",
-                "en": ""
+                "en": "Entry"
             },
             "text": {
                 "cs": "Ideální pro správce, kteří nemají zkušenosti s compliance a budou mít i nekvalifikované investory",
-                "en": ""
+                "en": "Ideal for managers with no compliance experience who will also have non-qualified investors"
             },
             "price": {
                 "cs": "109 000 Kč",
-                "en": ""
+                "en": "CZK 109 000"
             },
             "priceNote": {
                 "cs": "+ DPH",
-                "en": ""
+                "en": "+ VAT"
             },
             "buttonText": {
                 "cs": "Vybrat balíček",
-                "en": ""
+                "en": "Select package"
             },
             "buttonLink": "/nase-sluzby",
             "recommended": false,
@@ -164,56 +164,56 @@
                 {
                     "text": {
                         "cs": "Registrace fondu u ČNB",
-                        "en": ""
+                        "en": "Fund registration with the CNB"
                     },
                     "checked": true
                 },
                 {
                     "text": {
                         "cs": "Smluvní dokumentace a investiční strategie",
-                        "en": ""
+                        "en": "Contractual documentation and investment strategy"
                     },
                     "checked": true
                 },
                 {
                     "text": {
                         "cs": "Investiční dotazník a prohlášení kvalifikovaného investora",
-                        "en": ""
+                        "en": "Investor questionnaire and qualified investor statement"
                     },
                     "checked": true
                 },
                 {
                     "text": {
                         "cs": "AML dotazníky pro investory (identifikace, kontrola a hodnocení rizik)",
-                        "en": ""
+                        "en": "AML questionnaires for investors (identification, screening and risk assessment)"
                     },
                     "checked": true
                 },
                 {
                     "text": {
                         "cs": "Dokument KID (sdělení klíčových informací)",
-                        "en": ""
+                        "en": "KID document (Key Information Document)"
                     },
                     "checked": true
                 },
                 {
                     "text": {
                         "cs": "Systém vnitřních zásad a hodnocení rizik AML + nahlášení kontaktní osoby FAÚ",
-                        "en": ""
+                        "en": "Internal AML policy and risk assessment system + notification of contact person to the FAU"
                     },
                     "checked": true
                 },
                 {
                     "text": {
                         "cs": "Dokumenty dle nařízení SFDR pro subjekt, který se nařízením neřídí",
-                        "en": ""
+                        "en": "SFDR-compliant documents for an entity that is not subject to the regulation"
                     },
                     "checked": true
                 },
                 {
                     "text": {
                         "cs": "Založení entity",
-                        "en": ""
+                        "en": "Entity incorporation"
                     },
                     "checked": false
                 }
@@ -222,23 +222,23 @@
         {
             "title": {
                 "cs": "All-in-one",
-                "en": ""
+                "en": "All-in-one"
             },
             "text": {
                 "cs": "Ideální pro začínající správce, kteří nemají zkušenosti a chtějí řešení na klíč včetně proškolení",
-                "en": ""
+                "en": "Ideal for new managers with no experience who want a turnkey solution including training"
             },
             "price": {
                 "cs": "149 000 Kč",
-                "en": ""
+                "en": "CZK 149 000"
             },
             "priceNote": {
                 "cs": "+ DPH",
-                "en": ""
+                "en": "+ VAT"
             },
             "buttonText": {
                 "cs": "Vybrat balíček",
-                "en": ""
+                "en": "Select package"
             },
             "buttonLink": "/nase-sluzby",
             "recommended": true,
@@ -246,50 +246,49 @@
                 {
                     "text": {
                         "cs": "<strong>Vše z balíčku \"Entry\"</strong>",
-                        "en": ""
+                        "en": "<strong>Everything from the \\\"Entry\\\" package</strong>"
                     },
                     "checked": true
                 },
                 {
                     "text": {
                         "cs": "AML/CFT školení pro členy orgánů fondu, zaměstnance a spolupracující osoby",
-                        "en": ""
+                        "en": "AML/CFT training for fund officers, employees and associates"
                     },
                     "checked": true
                 },
                 {
                     "text": {
                         "cs": "Školení statutárního orgánu ohledně povinností správce fondu",
-                        "en": ""
+                        "en": "Training of the statutory body on fund manager obligations"
                     },
                     "checked": true
                 },
                 {
                     "text": {
                         "cs": "20 kreditů do systému PEP check",
-                        "en": ""
+                        "en": "20 credits for the PEP check system"
                     },
                     "checked": true
                 },
-
                 {
                     "text": {
                         "cs": "Příprava vzorečků výpočtu NAV, High Watermark apod.",
-                        "en": ""
+                        "en": "Preparation of sample calculations for NAV, High Watermark, etc."
                     },
                     "checked": true
                 },
                 {
                     "text": {
                         "cs": "Automatizované řešení výpočtu NAV, alokačních poměrů investorů",
-                        "en": ""
+                        "en": "Automated solution for calculating NAV and investors’ allocation ratios"
                     },
                     "checked": true
                 },
                 {
                     "text": {
                         "cs": "Založení entity",
-                        "en": ""
+                        "en": "Entity incorporation"
                     },
                     "checked": false
                 }
@@ -298,23 +297,23 @@
         {
             "title": {
                 "cs": "SICAV-ready",
-                "en": ""
+                "en": "SICAV-ready"
             },
             "text": {
                 "cs": "Plánujete v budoucnu přechod na strukturu SICAV? Založte Váš 15 ZISIF tak, abyste měli přechod na SICAV co nejjednodušší",
-                "en": ""
+                "en": "Planning to move to a SICAV structure in the future? Set up your § 15 ZISIF so that the transition to SICAV is as easy as possible."
             },
             "price": {
                 "cs": "199 000 Kč",
-                "en": ""
+                "en": "CZK 199 000"
             },
             "priceNote": {
                 "cs": "+ DPH",
-                "en": ""
+                "en": "+ VAT"
             },
             "buttonText": {
                 "cs": "Vybrat balíček",
-                "en": ""
+                "en": "Select package"
             },
             "buttonLink": "/nase-sluzby",
             "recommended": false,
@@ -322,42 +321,42 @@
                 {
                     "text": {
                         "cs": "<strong>Zařízení dle § 15 ZISIF provozované v režimu struktury SICAV</strong>",
-                        "en": ""
+                        "en": "<strong>A § 15 ZISIF vehicle operated in a SICAV structure regime</strong>"
                     },
                     "checked": true
                 },
                 {
                     "text": {
                         "cs": "<strong>Vše z balíčku \"All-in-one\"</strong>",
-                        "en": ""
+                        "en": "<strong>Everything from the \\\"All-in-one\\\" package</strong>"
                     },
                     "checked": true
                 },
                 {
                     "text": {
                         "cs": "Založení entity (a.s.) dle požadavků § 15 a § 15a ZISIF",
-                        "en": ""
+                        "en": "Incorporation of an entity (joint-stock company) under the requirements of § 15 and § 15a ZISIF"
                     },
                     "checked": true
                 },
                 {
                     "text": {
                         "cs": "kompletní příprava vzorečků výpočtu NAV",
-                        "en": ""
+                        "en": "Complete preparation of NAV calculation templates"
                     },
                     "checked": true
                 },
                 {
                     "text": {
                         "cs": "kompletní příprava vzorečků výpočtu High Watermark, Performance Fee, Management Fee a dalších",
-                        "en": ""
+                        "en": "Complete preparation of templates for calculating High Watermark, Performance Fee, Management Fee and others"
                     },
                     "checked": true
                 },
                 {
                     "text": {
                         "cs": "Automatizované řešení výpočtu NAV, alokačních poměrů investorů a dalších",
-                        "en": ""
+                        "en": "Automated solution for calculating NAV, investors’ allocation ratios and more"
                     },
                     "checked": true
                 }
@@ -366,73 +365,73 @@
     ],
     "argumentsTitle": {
         "cs": "Proč si vybrat právě nás",
-        "en": ""
+        "en": "Why choose us"
     },
     "arguments": [
         {
             "icon": "/images/argumentIcons/regulation.svg",
             "title": {
                 "cs": "Profesionální tým",
-                "en": ""
+                "en": "Professional team"
             },
             "text": {
                 "cs": "Jsme zkušení advokáti se sídlem v Praze, naší experzitou je finanční právo, mj. zakládání alternativních fondů dle § 15 ZISIF. Založili jsme již přes 40 alternativních fondů. Víme, jaké jsou best practice a standardy trhu.",
-                "en": ""
+                "en": "We are experienced attorneys based in Prague specialising in financial law, including the formation of alternative funds under § 15 ZISIF. We have set up more than 40 alternative funds and know the market best practices and standards."
             }
         },
         {
             "icon": "/images/argumentIcons/protest.svg",
             "title": {
                 "cs": "Věnujeme se Vám naplno",
-                "en": ""
+                "en": "We are fully dedicated to you"
             },
             "text": {
                 "cs": "Pracujeme rychle a efektivně. Samozřejmostí spolupráce s námi je i doporučení na spolehlivé účetní a daňové poradenství.",
-                "en": ""
+                "en": "We work quickly and efficiently. Cooperation with us naturally includes referrals to reliable accounting and tax advisers."
             }
         },
         {
             "icon": "/images/argumentIcons/license.svg",
             "title": {
                 "cs": "Všechny služby pod jednou střechou",
-                "en": ""
+                "en": "All services under one roof"
             },
             "text": {
                 "cs": "Vše zařídíme, od A až po ZISIF. Založíme společnost, připravíme dokumentaci, zajistíme registraci fondu a pravidelný reporting u ČNB včetně vzorečků výpočtu NAV, Highwater Mark apod. – vše u nás vyřešíte na jednom místě.",
-                "en": ""
+                "en": "We handle everything from A to ZISIF. We set up the company, prepare all documentation, arrange fund registration and regular reporting to the CNB including NAV, High-Water Mark, etc. calculations—you can solve everything with us in one place."
             }
         },
         {
             "icon": "/images/argumentIcons/protection.svg",
             "title": {
                 "cs": "Férová cena",
-                "en": ""
+                "en": "Fair price"
             },
             "text": {
                 "cs": "Ještě než projekt zahájíme, přesně spočítáme cenu realizace, která je neměnná. Jelikož máme na mnoho typů fondů vytvořené systematické postupy, dokážeme zajistit férové ceny.",
-                "en": ""
+                "en": "Before we start the project, we calculate the exact implementation cost, which is fixed. Because we have systematic procedures for many fund types, we can offer fair prices."
             }
         },
         {
             "icon": "/images/argumentIcons/safebox.svg",
             "title": {
                 "cs": "AML/CFT & PEP check",
-                "en": ""
+                "en": "AML/CFT & PEP check"
             },
             "text": {
                 "cs": "Proškolíme vás na AML/CFT a přípravíme AML dokumentaci. Taktéž doporučíme ověřené poskytovatele specializovaných softwarů pro alternativní fondy.",
-                "en": ""
+                "en": "We will train you in AML/CFT and prepare your AML documentation. We will also recommend proven providers of specialised software for alternative funds."
             }
         },
         {
             "icon": "/images/argumentIcons/consultation.svg",
             "title": {
                 "cs": "Vše promýšlíme do posledního detailu",
-                "en": ""
+                "en": "We think through every detail"
             },
             "text": {
                 "cs": "Fondy dle § 15 ZISIF strukturujeme na základě provedených právních analýz. Na sporná výkladová místa máme zodpovězené odborné dotazy ze strany ČNB. Vězte, že právní analýzy jsou výrazně levnější než případná pokuta.",
-                "en": ""
+                "en": "We structure § 15 ZISIF funds on the basis of detailed legal analyses. For contentious interpretative issues we have formal expert replies from the CNB. Remember: legal analyses are far cheaper than a potential fine."
             }
         }
     ]
