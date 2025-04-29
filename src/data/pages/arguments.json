@@ -246,7 +246,7 @@
                 {
                     "text": {
                         "cs": "<strong>Vše z balíčku \"Entry\"</strong>",
-                        "en": "<strong>Everything from the \\\"Entry\\\" package</strong>"
+                        "en": "<strong>Everything from the \"Entry\" package</strong>"
                     },
                     "checked": true
                 },
@@ -328,7 +328,7 @@
                 {
                     "text": {
                         "cs": "<strong>Vše z balíčku \"All-in-one\"</strong>",
-                        "en": "<strong>Everything from the \\\"All-in-one\\\" package</strong>"
+                        "en": "<strong>Everything from the \"All-in-one\" package</strong>"
                     },
                     "checked": true
                 },
