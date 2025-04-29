@@ -147,8 +147,8 @@
         {
             "id": "software",
             "name": {
-                "cs": "Komplexní softwarové řešení",
-                "en": "Comprehensive Software Solution"
+                "cs": "Komplexní excelové řešení pro výpočet NAV, poplatků a dalších",
+                "en": "Comprehensive Excel solution for calculating NAV, fees, and more."
             },
             "description": {
                 "cs": "Kompletní excelové řešení pro vedení alternativního fondu dle § 15 ZISIF. Automatizované řešení výpočtu NAV, poplatků Management Fee, Performance Fee, alokačních poměrů investorů, sledování High Watermark a dalších.",
