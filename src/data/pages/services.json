@@ -151,10 +151,10 @@
                 "en": "Comprehensive Software Solution"
             },
             "description": {
-                "cs": "Kompletní CRM systém pro vedení alternativního fondu dle § 15 ZISIF. Jednoduše vyřídíte veškeré náležitosti, které s vedením fondu souvisí, od on-boardingu klientů a investic, automatického párování a zadávání plateb až po reportování a komunikaci s klienty.",
-                "en": "A complete CRM system for managing an alternative fund under Section 15 ZISIF. It simplifies all fund management processes, including client onboarding, investment tracking, automated payment matching, reporting, and client communication."
+                "cs": "Kompletní excelové řešení pro vedení alternativního fondu dle § 15 ZISIF. Automatizované řešení výpočtu NAV, poplatků Management Fee, Performance Fee, alokačních poměrů investorů, sledování High Watermark a dalších.",
+                "en": "A complete Excel solution for managing an alternative fund under § 15 ZISIF. It automates the calculation of NAV, Management and Performance Fees, investor allocation ratios, High Watermark tracking, and more."
             },
-            "price": 4499,
+            "price": 35000,
             "link": "/",
             "icon": "/images/serviceIcons/zalozeni-alternativniho-fondu-na-klic.png"
         },
