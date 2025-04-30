@@ -191,8 +191,8 @@
                 },
                 {
                     "text": {
-                        "cs": "Dokument KID (sdělení klíčových informací) včetně finančně-analytických modelů (výpočet scénářů výkonnosti dle přílohy IV nařízení PRIIPS)",
-                        "en": "KID (Key Information Document) including financial analytical models (calculation of performance scenarios according to Annex IV of the PRIIPS Regulation)"
+                        "cs": "Dokument KID (sdělení klíčových informací) včetně finančně-analytických modelů (výpočet scénářů výkonnosti dle přílohy IV k prováděcímu nařízení PRIIPs)",
+                        "en": "KID (Key Information Document) including financial analytical models (calculation of performance scenarios according to Annex IV of the PRIIPs Implementing Regulation))"
                     },
                     "checked": true
                 },
