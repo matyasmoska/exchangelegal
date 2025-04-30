@@ -26,8 +26,8 @@ const PartnersSection: FC = () => {
 						<img alt="ceska-advokatni-komora-logo" className="max-h-14" src={'/images/cak-logo-15.jpg'} />
 					</a>
 
-					<a href="http://www.sphr.cz" target="_blank" rel="noreferrer">
-						<img alt="sphere-logo" className="max-h-14" src={'/images/Primary_transparent_orez.svg'} />
+					<a href="http://www.moskamurad.legal" target="_blank" rel="noreferrer">
+						<img alt="moskamurad-logo" className="max-h-14" src={'/images/moska-murad.png'} />
 					</a>
 
 					<a href="https://www.advokatniuschova.cz/" target="_blank" rel="noreferrer">
