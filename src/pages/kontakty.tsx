@@ -62,15 +62,11 @@ keywords="alternativní investiční fond, minifond, alternativní fond, § 15 Z
 						</div>
 						<div className="flex flex-col space-y-2.5 text-dark-blue">
 
-							<a
-								href={contactPageData.contact.links.twitter}
-								className="flex items-center space-x-3"
-								aria-label="Twitter Link"
-								target="_blank"
-							>
-								<TwitterIcon className="fill-current w-7 h-7" />
-								<span>Twitter</span>
-							</a>
+
+
+
+
+							
 							<a
 								href={contactPageData.contact.links.linkedIn}
 								className="flex items-center space-x-3"
