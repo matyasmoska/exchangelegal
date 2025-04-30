@@ -127,9 +127,7 @@ const Footer = () => {
 					<div className={c('flex space-x-4 text-white', 'md:text-center md:justify-center md:pb-52')}>
 						
 						
-						<a href={contactPageData.contact.links.twitter} target="_blank" rel="noopener" aria-label="Twitter Link">
-							<TwitterIcon className="fill-current w-7 h-7" />
-						</a>
+					
 						<a href={contactPageData.contact.links.linkedIn} target="_blank" rel="noopener" aria-label="Linked In Link">
 							<LinkedInIcon className="fill-current w-7 h-7" />
 						</a>
