@@ -38,9 +38,7 @@ const ContactSection = () => {
 					</WrappedIconRow>
 				</div>
 				<div className={c('space-y-2.5 w-4/6 flex flex-col', 'md:w-full')}>
-					<IconRow href={contactPageData.contact.links.twitter} Icon={TwitterIcon}>
-						Twitter
-					</IconRow>
+
 					<IconRow href={contactPageData.contact.links.linkedIn} Icon={LinkedInIcon}>
 						Linked In
 					</IconRow>
