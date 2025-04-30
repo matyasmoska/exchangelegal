@@ -271,6 +271,15 @@
                     },
                     "checked": true
                 },
+
+                {
+                    "text": {
+                        "cs": "Matematický model fondu",
+                        "en": "Mathematical model of the fund"
+                    },
+                    "checked": true
+                },
+                
                 {
                     "text": {
                         "cs": "Příprava vzorečků výpočtu NAV, High Watermark apod.",
@@ -280,8 +289,8 @@
                 },
                 {
                     "text": {
-                        "cs": "Automatizované řešení výpočtu NAV, alokačních poměrů investorů",
-                        "en": "Automated solution for calculating NAV and investors’ allocation ratios"
+                        "cs": "Automatizované excelové řešení výpočtu NAV, alokačních poměrů investorů",
+                        "en": "Automated excel solution for calculating NAV and investors’ allocation ratios"
                     },
                     "checked": true
                 },
@@ -339,6 +348,15 @@
                     },
                     "checked": true
                 },
+
+                {
+                    "text": {
+                        "cs": "Matematický model fondu",
+                        "en": "Mathematical model of the fund"
+                    },
+                    "checked": true
+                },
+                
                 {
                     "text": {
                         "cs": "kompletní příprava vzorečků výpočtu NAV",
@@ -355,8 +373,8 @@
                 },
                 {
                     "text": {
-                        "cs": "Automatizované řešení výpočtu NAV, alokačních poměrů investorů a dalších",
-                        "en": "Automated solution for calculating NAV, investors’ allocation ratios and more"
+                        "cs": "Automatizované excelové řešení výpočtu NAV, alokačních poměrů investorů a dalších",
+                        "en": "Automated excel solution for calculating NAV, investors’ allocation ratios and more"
                     },
                     "checked": true
                 }
