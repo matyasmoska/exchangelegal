@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { AnimatePresence, motion as m } from 'framer-motion'
 import { Dispatch, FC, MouseEventHandler, useMemo, useState } from 'react'
 import { heightAnimation } from '../../../animations/navigation'
@@ -14,11 +15,13 @@ interface MoreInfoProps {
 }
 
 const MoreInfo: FC<MoreInfoProps> = ({ href, type, children }) => (
-	<a href={href} target="_blank" onClick={(e) => e.stopPropagation()}>
+	<Link href={href}>
+	<a target="_blank" onClick={(e) => e.stopPropagation()}>
 		<Button type={type} className="px-8 py-2.5">
 			{children}
 		</Button>
 	</a>
+	</Link>
 )
 
 export interface ServiceItemType {
