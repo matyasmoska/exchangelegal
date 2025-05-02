@@ -74,6 +74,63 @@
 				}
 			]
 		},
+
+
+		{
+			"name": {
+				"cs": "Mgr. Martin Murad, advokát",
+				"en": "Maartin Murad, Attorney-at-Law"
+			},
+			"description": [
+				{
+					"cs": "Martin působí v advokacii více než 15 let.",
+					"en": ""
+				},
+				{
+					"cs": "Během nich stál u zrodu polské pobočky renomované české advokátní kanceláře ve Varšavě, kterou následně 5 let vedl. Poté v této kanceláři nadále působil jako partner odpovědný za mezinárodní vztahy.",
+					"en": ""
+				},
+				{
+					"cs": "V další pracovní etapě Martin vedl pracovněprávní tým renomované české advokátní kanceláře.",
+					"en": ""
+				},
+				{
+					"cs": "Martin se zaměřuje se na pracovní a pobytové právo, nemovitostní právo a poradenství s mezinárodním přesahem, tj. poradenství pro české klienty v zahraničí a poradenství zahraničním investorům v České republice. S Matyášem tvoří jádro Polish desk, skupiny dedikované polským klientům v České republice.",
+					"en": ""
+				},
+				{
+					"cs": "Je členem EELA (European Employment Lawyers association), evropské organizace sdružující pracovněprávní experty.",
+					"en": ""
+				}
+			],
+			"readMore": [
+				{
+					"cs": "S advokacií procestoval napříč kontinenty od Seattlu až po Sydney a potkal se se stovkami advokátů. Má pracovní vztahy se specialisty v mnoha oblastech práva v několika desítkách zemí.",
+					"en": ""
+				},
+				{
+					"cs": "Kromě češtiny a slovenštiny, mluví plynně anglicky, polsky a francouzsky.",
+					"en": ""
+				}
+			],
+			"photo": "/images/team/moska-profile3.png",
+			"linkedIn": "https://www.linkedin.com/in/martinmurad/",
+			"tags": [
+				{
+					"cs": "#Pracovní právo",
+					"en": "#"
+				},
+				{
+					"cs": "#Právo nemovitostí",
+					"en": "#"
+				},
+				{
+					"cs": "#International",
+					"en": "#International"
+				}
+			]
+		},
+		
 		{
 			"name": {
 				"cs": "Mgr. Jakub Pártl, LL.M., advokát",
