@@ -176,7 +176,56 @@
 					"en": "#IT/IP"
 				}
 			]
+		},
+
+
+		{
+			"name": {
+				"cs": "Mgr. Petra Čichoňová, advokátka",
+				"en": "Petra Čichoňová, Attorney-at-Law"
+			},
+			"description": [
+				{
+					"cs": "Petra se v rámci své advokátní praxe věnuje generální praxi, zejména obchodnímu a korporátnímu právu a občanskému právu",
+					"en": ""
+				},
+				{
+					"cs": "Dále má rozsáhlé zkušenosti v přípravě obchodních kontraktů, poradenství investorům či start-upům a souvisejících vyjednáváních.",
+					"en": ""
+				},
+				{
+					"cs": "Během své právní praxe působil v předních pražských či mezinárodních advokátních kanceláří, a to včetně manažerských pozic, a radil korporátní i privátní klientele.",
+					"en": ""
+				}
+			],
+			"readMore": [
+				{
+					"cs": "Hovoří plynně anglicky.",
+					"en": "She is fluent in English."
+				}
+			],
+			"photo": "/images/team/petra_cichonova.jpg",
+			"linkedIn": "https://www.linkedin.com/in/petra-%C4%8Dicho%C5%88ov%C3%A1-a7896167/",
+			"tags": [
+				{
+					"cs": "#Obchodní právo",
+					"en": ""
+				},
+				{
+					"cs": "#Korporátní právo",
+					"en": ""
+				},
+				{
+					"cs": "#Občanské právo",
+					"en": ""
+				},
+				{
+					"cs": "#IT/IP",
+					"en": "#IT/IP"
+				}
+			]
 		}
+		
 	],
 	"referenceTitle": {
 		"cs": "Řekli o nás",
