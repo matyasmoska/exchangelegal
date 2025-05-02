@@ -47,6 +47,10 @@
         "cs": "S alternativním fondem dle <em>§ 15 ZISIF</em> můžete:",
         "en": "With an alternative fund under <em>§ 15 ZISIF</em> you can:"
     },
+    "optionsImage": {
+        "cs": "/images/investor-diagram.svg",
+        "en": "/images/investor-diagram_eng.svg"
+    },
     "options": [
         {
             "icon": "/images/argumentIcons/calendar.svg",

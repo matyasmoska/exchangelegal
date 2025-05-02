@@ -40,6 +40,10 @@
             "linkedIn": "https://www.linkedin.com/company/moska-murad/"
         }
     },
+    "cryptoImage": {
+        "cs": "/images/crypto_white.svg",
+        "en": "/images/crypto_white_eng.svg"
+    },
     "allRightsReserved": {
         "cs": "© 2025 všechna práva vyhrazena",
         "en": "© 2025 all rights reserved"

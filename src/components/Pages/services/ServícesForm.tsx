@@ -32,7 +32,7 @@ const ServicesForm: FC<{ form: any; visibleRef: any }> = ({ form, visibleRef }) 
 			</p>
 			
 			
-			<img src="/images/crypto_blue.svg" className={c('w-1/2 rounded-lg', 'md:w-3/4')} />
+			<img src={t(pageData.cryptoImage)} className={c('w-1/2 rounded-lg', 'md:w-3/4')} />
 			<p className={c('md:text-sm')}>
 				{t(pageData.crypto)}{' '}
 				<Link href="/prijimame-kryptomeny">

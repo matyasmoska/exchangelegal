@@ -11,6 +11,10 @@
         "cs": "Nezávazně poptat",
         "en": "Inquire without obligation"
     },
+    "cryptoImage": {
+        "cs": "/images/crypto_blue.svg",
+        "en": "/images/crypto_blue_eng.svg"
+    },
     "crypto": {
         "cs": "Více informací k přijímání kryptoměn",
         "en": "More information on accepting cryptocurrencies"

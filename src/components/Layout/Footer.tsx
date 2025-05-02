@@ -9,7 +9,7 @@ import pageData from '../../data/navigation.json'
 import contactPageData from '../../data/contact.json'
 
 const Footer = () => {
-	const t = useTranslations()
+	const t = useTranslations<string>()
 	const router = useRouter()
 
 	return (
@@ -28,7 +28,7 @@ const Footer = () => {
 				<LogoWhite />			
 				<Link href="/prijimame-kryptomeny">
 				<a target="_blank">
-				<img src="/images/crypto_white.svg" alt="Přijímáme kryptoměny!" className={c('w-4/5 rounded-lg flex', 'md:mx-auto')} />
+				<img src={t(contactPageData.cryptoImage)} alt="Přijímáme kryptoměny!" className={c('w-4/5 rounded-lg flex', 'md:mx-auto')} />
 				</a>
 				</Link>
 				<p className="pt-2">{t(contactPageData.allRightsReserved)}</p>

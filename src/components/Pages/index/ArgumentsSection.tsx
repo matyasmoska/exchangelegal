@@ -48,7 +48,7 @@ const ArgumentsSection: FC = () => {
 			<div className={c('grid grid-cols-2 gap-x-16 gap-y-8 max-w-6xl pb-12 mx-auto', 'lg:gap-x-12', 'md:grid-cols-1')}>
 				<Fade damping={0.5} duration={500} cascade triggerOnce>
 					<div>
-						<img src="/images/investor-diagram.svg" className="md:max-w-lg mx-auto" />
+						<img src={t(data.optionsImage)} className="md:max-w-lg mx-auto" />
 					</div>
 					<div className="space-y-7">
 						<div className="grid grid-cols-2 gap-x-10 gap-y-8 mt-10 lg:mt-0 md:grid-cols-1 md:text-center">
