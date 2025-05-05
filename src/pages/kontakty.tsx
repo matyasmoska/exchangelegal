@@ -27,7 +27,7 @@ keywords="alternativní investiční fond, minifond, alternativní fond, § 15 Z
 				)}
 			>
 				<div className="flex flex-col w-full">
-				  <div className="mb-6 h-4/5 max-h-[31.5rem] bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url("/images/cityempiria.jpg")` }} />
+				  <div className="mb-6 h-4/5 max-h-[31.5rem] bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url("/images/moskamurad1.jpg")` }} />
 				  <div className={c('w-full relative shadow-inner flex-grow', 'md:h-72')}>
 					<iframe
 						width="100%"
