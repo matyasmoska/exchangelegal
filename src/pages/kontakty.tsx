@@ -103,7 +103,7 @@ export default function Contact () {
      style={{ aspectRatio: '3 / 2', border: 0 }}
             src="https://maps.google.com/maps?width=533&amp;height=400&amp;hl=cs&amp;q=Na%20Dolinách%20153/22,%20Podol%C3%AD,%20147%2000%20Praha%204&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
           />
-          <div className="absolute inset-0 bg-gray-300 animate-pulse" />
+
         </div>
       </div>
     </DefaultLayout>
