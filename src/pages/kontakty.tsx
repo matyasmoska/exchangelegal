@@ -1,4 +1,3 @@
-/* src/pages/kontakty.tsx */
 import DefaultLayout from '../layouts/DefaultLayout'
 import SEO from '../components/Layout/SEO'
 import React from 'react'
@@ -46,12 +45,12 @@ export default function Contact () {
           <ContactForm />
         </section>
 
-        {/* 2) FOTKA – PRAVÝ HORNÍ (zmenšená na 50 % šířky) */}
+        {/* 2) FOTKA – PRAVÝ HORNÍ (66 % šířky) */}
         <figure className="flex items-center justify-center w-full h-full overflow-hidden">
           <img
             src="/images/moskamurad1.jpg"
             alt="Zakladatelé 15 ZISIF"
-            className="w-1/2 h-auto object-cover"   /* 50 % šířky rodiče */
+            className="w-2/3 h-auto object-cover"  {/* 66 % šířky buňky */}
           />
         </figure>
 
