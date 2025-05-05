@@ -94,12 +94,13 @@ export default function Contact () {
           </div>
         </aside>
 
+        
         {/* 4) MAPA – PRAVÝ DOLNÍ */}
-        <div className="w-full h-96 md:h-72 relative shadow-inner">
+<div className="flex items-center justify-center w-full h-96 md:h-72">
           <iframe
             title="Mapa"
-            className="absolute inset-0 w-full h-full z-10"
-            frameBorder={0}
+     className="w-2/3 h-auto rounded-md shadow-inner"
+     style={{ aspectRatio: '3 / 2', border: 0 }}
             src="https://maps.google.com/maps?width=533&amp;height=400&amp;hl=cs&amp;q=Na%20Dolinách%20153/22,%20Podol%C3%AD,%20147%2000%20Praha%204&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
           />
           <div className="absolute inset-0 bg-gray-300 animate-pulse" />
