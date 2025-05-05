@@ -32,8 +32,8 @@ export default function Contact () {
           'md:block md:space-x-0 md:px-0 md:pb-32'
         )}
       >
-        {/* ▲▲▲ Změna: w-1/2 (50 %) místo w-2/3 ▲▲▲ */}
-        <div className="flex flex-col w-1/2 md:w-full">
+        {/* levý sloupec – 25 % (1/4) */}
+        <div className="flex flex-col w-1/4 md:w-full">
           <div
             className="mb-6 h-4/5 max-h-[31.5rem] bg-cover bg-center bg-no-repeat"
             style={{ backgroundImage: `url("/images/moskamurad1.jpg")` }}
@@ -50,8 +50,8 @@ export default function Contact () {
           </div>
         </div>
 
-        {/* pravý sloupec necháme flexibilní, aby vyplnil zbytek */}
-        <div className={c('flex-1 px-4 py-0 space-y-8', 'md:p-8 md:w-full')}>
+        {/* pravý „bílý“ sloupec – 75 % (3× levý) */}
+        <div className={c('w-3/4 px-4 py-0 space-y-8', 'md:p-8 md:w-full')}>
           <div className="space-y-8">
             <div className={c('space-y-2.5')}>
               <h1 className="text-3xl font-bold">
