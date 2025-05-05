@@ -1,10 +1,11 @@
+/* src/pages/kontakty.tsx */
 import DefaultLayout from '../layouts/DefaultLayout'
 import SEO from '../components/Layout/SEO'
 import React from 'react'
 import {
   PhoneIcon,
   MessageIcon,
-  LinkedInIcon
+  LinkedInIcon,
 } from '../components/Layout/Icons'
 import { WrappedIconRow } from '../components/Layout/Icon'
 import ContactForm from '../components/Pages/contact/ContactForm'
@@ -18,20 +19,20 @@ export default function Contact () {
   return (
     <DefaultLayout>
       <SEO
-        title="15 ZISIF – kontakty – 15zisif.cz"
-        description="✅ Jsme odborníky v oblasti zakládání fondů ⭐ Máme unikátní zkušenosti a know‑how v oblasti alternativních fondů dle § 15 ZISIF"
-        keywords="alternativní investiční fond, minifond, alternativní fond, § 15 ZISIF, 15zisif, osoba rizikového kapitálu"
+        title="15 ZISIF – kontakty – 15zisif.cz"
+        description="✅ Jsme odborníky v oblasti zakládání fondů ⭐ Máme unikátní zkušenosti a know‑how v oblasti alternativních fondů dle § 15 ZISIF"
+        keywords="alternativní investiční fond, minifond, alternativní fond, § 15 ZISIF, 15zisif, osoba rizikového kapitálu"
       />
 
-      {/* ►►► GRID 2×2 ◄◄◄ */}
+      {/* ---------- 2 × 2 grid layout ---------- */}
       <div
         className={c(
           'grid grid-cols-2 grid-rows-2 gap-6 px-24 py-12',
-          // na tabletu/mobilu přepneme na sloupec
+          // na tabletu / mobilu jedna kolona pod sebe
           'lg:px-12 md:grid-cols-1 md:grid-rows-none md:gap-8 md:px-0 md:py-8'
         )}
       >
-        {/* ───────── levý horní: FOTO ───────── */}
+        {/* ─────────────────── levý horní: FOTKA ─────────────────── */}
         <figure className="row-span-1 col-span-1 w-full h-full overflow-hidden">
           <img
             src="/images/moskamurad1.jpg"
@@ -40,8 +41,9 @@ export default function Contact () {
           />
         </figure>
 
-        {/* ───────── pravý horní: ADRESA + KONTAKTY ───────── */}
+        {/* ─────────────────── pravý horní: ADRESA + KONTAKTY ─────────────────── */}
         <section className="flex flex-col justify-center space-y-6">
+          {/* nadpis + popis */}
           <div className="space-y-2.5">
             <h1 className="text-3xl font-bold">
               {t(contactPageData.contact.header)}
@@ -51,14 +53,20 @@ export default function Contact () {
             </p>
           </div>
 
+          {/* adresa */}
           <address className="not-italic space-y-1.5 leading-relaxed">
-            <p className="font-bold">{contactPageData.contact.address.firstLine1}</p>
-            <p className="font-bold">{contactPageData.contact.address.firstLine2}</p>
+            <p className="font-bold">
+              {contactPageData.contact.address.firstLine1}
+            </p>
+            <p className="font-bold">
+              {contactPageData.contact.address.firstLine2}
+            </p>
             <p>{contactPageData.contact.address.secondLine}</p>
             <p>{t(contactPageData.contact.secondDescription)}</p>
             <p>{t(contactPageData.contact.thirdDescription)}</p>
           </address>
 
+          {/* kontaktní řádky */}
           <div className="space-y-2.5">
             <WrappedIconRow
               Icon={PhoneIcon}
@@ -72,6 +80,7 @@ export default function Contact () {
             >
               {contactPageData.contact.email}
             </WrappedIconRow>
+
             <a
               href={contactPageData.contact.links.linkedIn}
               className="flex items-center space-x-3 text-dark-blue"
@@ -79,26 +88,27 @@ export default function Contact () {
               rel="noreferrer"
             >
               <LinkedInIcon className="w-7 h-7 fill-current" />
-              <span>Linked&nbsp;In</span>
+              <span>Linked In</span>
             </a>
           </div>
         </section>
 
-        {/* ───────── levý dolní: MAPA ───────── */}
-        <div className="row-span-1 col-span-1 w-full h-80 md:h-72 shadow-inner relative">
+        {/* ─────────────────── levý dolní: MAPA ─────────────────── */}
+        <div className="row-span-1 col-span-1 w-full h-80 md:h-72 relative shadow-inner">
           <iframe
             title="Mapa"
             className="absolute inset-0 w-full h-full z-10"
-            frameBorder="0"
-            src="https://maps.google.com/maps?width=533&amp;height=400&amp;hl=en&amp;q=Na Dolinách 153/22, Podolí, 147 00 Praha 4&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            frameBorder={0}
+            src="https://maps.google.com/maps?width=533&amp;height=400&amp;hl=cs&amp;q=Na%20Dolinách%20153/22,%20Podol%C3%AD,%20147%2000%20Praha%204&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
           />
-          {/* skeleton načtení */}
+          {/* skeleton během načítání */}
           <div className="absolute inset-0 bg-gray-300 animate-pulse" />
         </div>
 
-        {/* ───────── pravý dolní: FORMULÁŘ ───────── */}
-        <div className="flex items-start">
-          <ContactForm className="w-full" />
+        {/* ─────────────────── pravý dolní: FORMULÁŘ ─────────────────── */}
+        <div className="flex items-start w-full">
+          {/* ⚠️ bez prop className → neporušujeme typ ContactForm */}
+          <ContactForm />
         </div>
       </div>
     </DefaultLayout>
