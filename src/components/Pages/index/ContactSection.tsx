@@ -48,7 +48,7 @@ const ContactSection = () => {
 				<iframe
 					width="100%"
 					height="100%"
-					title="City Empiria, Na Strži 1702/65, 140 00 Praha 4"
+					title="Na Dolinách 153/22, Podolí, 147 00 Praha 4"
 					style={{ border: 0 }}
 					loading="lazy"
 					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2561.9223858112055!2d14.437017615885283!3d50.05028522399825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b94759b1f6d5b%3A0x588df01abda2d398!2sNa%20Str%C5%BEi%201702%2F65%2C%20140%2000%20Praha%204-Nusle!5e0!3m2!1scs!2scz!4v1646906243995!5m2!1scs!2scz"
