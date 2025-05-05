@@ -34,4 +34,76 @@ export default function Contact () {
         <figure className="row-span-1 col-span-1 flex items-center justify-center w-full h-full overflow-hidden">
           <img
             src="/images/moskamurad1.jpg"
-            alt="Zakladatelé 15 ZISI
+            alt="Zakladatelé 15 ZISIF"
+            className="w-1/2 h-auto object-cover"
+          />
+        </figure>
+
+        {/* ───── pravý horní: ADRESA + KONTAKTY ───── */}
+        <section className="flex flex-col justify-center space-y-6">
+          <div className="space-y-2.5">
+            <h1 className="text-3xl font-bold">
+              {t(contactPageData.contact.header)}
+            </h1>
+            <p className="text-justify">
+              {t(contactPageData.contact.description)}
+            </p>
+          </div>
+
+          <address className="not-italic space-y-1.5 leading-relaxed">
+            <p className="font-bold">
+              {contactPageData.contact.address.firstLine1}
+            </p>
+            <p className="font-bold">
+              {contactPageData.contact.address.firstLine2}
+            </p>
+            <p>{contactPageData.contact.address.secondLine}</p>
+            <p>{t(contactPageData.contact.secondDescription)}</p>
+            <p>{t(contactPageData.contact.thirdDescription)}</p>
+          </address>
+
+          <div className="space-y-2.5">
+            <WrappedIconRow
+              Icon={PhoneIcon}
+              href={`tel:${contactPageData.contact.phoneNumberLink}`}
+            >
+              {contactPageData.contact.phoneNumber}
+            </WrappedIconRow>
+            <WrappedIconRow
+              Icon={MessageIcon}
+              href={`mailto:${contactPageData.contact.emailLink}`}
+            >
+              {contactPageData.contact.email}
+            </WrappedIconRow>
+
+            <a
+              href={contactPageData.contact.links.linkedIn}
+              className="flex items-center space-x-3 text-dark-blue"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <LinkedInIcon className="w-7 h-7 fill-current" />
+              <span>Linked In</span>
+            </a>
+          </div>
+        </section>
+
+        {/* ───── levý dolní: MAPA ───── */}
+        <div className="row-span-1 col-span-1 w-full h-80 md:h-72 relative shadow-inner">
+          <iframe
+            title="Mapa"
+            className="absolute inset-0 w-full h-full z-10"
+            frameBorder={0}
+            src="https://maps.google.com/maps?width=533&amp;height=400&amp;hl=cs&amp;q=Na%20Dolinách%20153/22,%20Podol%C3%AD,%20147%2000%20Praha%204&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          />
+          <div className="absolute inset-0 bg-gray-300 animate-pulse" />
+        </div>
+
+        {/* ───── pravý dolní: FORMULÁŘ ───── */}
+        <div className="flex items-start w-full">
+          <ContactForm />
+        </div>
+      </div>
+    </DefaultLayout>
+  )
+}
