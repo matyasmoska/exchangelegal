@@ -4,8 +4,6 @@ import React from 'react'
 import {
   PhoneIcon,
   MessageIcon,
-  FacebookIcon,
-  TwitterIcon,
   LinkedInIcon
 } from '../components/Layout/Icons'
 import { WrappedIconRow } from '../components/Layout/Icon'
@@ -24,86 +22,83 @@ export default function Contact () {
         description="✅ Jsme odborníky v oblasti zakládání fondů ⭐ Máme unikátní zkušenosti a know‑how v oblasti alternativních fondů dle § 15 ZISIF"
         keywords="alternativní investiční fond, minifond, alternativní fond, § 15 ZISIF, 15zisif, osoba rizikového kapitálu"
       />
+
+      {/* ►►► GRID 2×2 ◄◄◄ */}
       <div
         className={c(
-          'flex space-x-4 px-36 py-8 pb-52',
-          '2xl:px-24',
-          'xl:px-24',
-          'md:block md:space-x-0 md:px-0 md:pb-32'
+          'grid grid-cols-2 grid-rows-2 gap-6 px-24 py-12',
+          // na tabletu/mobilu přepneme na sloupec
+          'lg:px-12 md:grid-cols-1 md:grid-rows-none md:gap-8 md:px-0 md:py-8'
         )}
       >
-        {/* levý sloupec – 25 % (1/4) */}
-        <div className="flex flex-col w-1/4 md:w-full">
-          <div
-            className="mb-6 h-4/5 max-h-[31.5rem] bg-cover bg-center bg-no-repeat"
-            style={{ backgroundImage: `url("/images/moskamurad1.jpg")` }}
+        {/* ───────── levý horní: FOTO ───────── */}
+        <figure className="row-span-1 col-span-1 w-full h-full overflow-hidden">
+          <img
+            src="/images/moskamurad1.jpg"
+            alt="Zakladatelé 15 ZISIF"
+            className="object-cover w-full h-full"
           />
-          <div className={c('w-full relative shadow-inner flex-grow', 'md:h-72')}>
-            <iframe
-              width="100%"
-              height="100%"
-              className="relative z-20"
-              style={{ border: 0 }}
-              src="https://maps.google.com/maps?width=533&amp;height=400&amp;hl=en&amp;q=Na Dolinách 153/22, Podolí, 147 00 Praha 4&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-            />
-            <div className="absolute top-0 left-0 z-0 w-full h-full transition transform bg-gray-300 animate-pulse" />
+        </figure>
+
+        {/* ───────── pravý horní: ADRESA + KONTAKTY ───────── */}
+        <section className="flex flex-col justify-center space-y-6">
+          <div className="space-y-2.5">
+            <h1 className="text-3xl font-bold">
+              {t(contactPageData.contact.header)}
+            </h1>
+            <p className="text-justify">
+              {t(contactPageData.contact.description)}
+            </p>
           </div>
+
+          <address className="not-italic space-y-1.5 leading-relaxed">
+            <p className="font-bold">{contactPageData.contact.address.firstLine1}</p>
+            <p className="font-bold">{contactPageData.contact.address.firstLine2}</p>
+            <p>{contactPageData.contact.address.secondLine}</p>
+            <p>{t(contactPageData.contact.secondDescription)}</p>
+            <p>{t(contactPageData.contact.thirdDescription)}</p>
+          </address>
+
+          <div className="space-y-2.5">
+            <WrappedIconRow
+              Icon={PhoneIcon}
+              href={`tel:${contactPageData.contact.phoneNumberLink}`}
+            >
+              {contactPageData.contact.phoneNumber}
+            </WrappedIconRow>
+            <WrappedIconRow
+              Icon={MessageIcon}
+              href={`mailto:${contactPageData.contact.emailLink}`}
+            >
+              {contactPageData.contact.email}
+            </WrappedIconRow>
+            <a
+              href={contactPageData.contact.links.linkedIn}
+              className="flex items-center space-x-3 text-dark-blue"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <LinkedInIcon className="w-7 h-7 fill-current" />
+              <span>Linked&nbsp;In</span>
+            </a>
+          </div>
+        </section>
+
+        {/* ───────── levý dolní: MAPA ───────── */}
+        <div className="row-span-1 col-span-1 w-full h-80 md:h-72 shadow-inner relative">
+          <iframe
+            title="Mapa"
+            className="absolute inset-0 w-full h-full z-10"
+            frameBorder="0"
+            src="https://maps.google.com/maps?width=533&amp;height=400&amp;hl=en&amp;q=Na Dolinách 153/22, Podolí, 147 00 Praha 4&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          />
+          {/* skeleton načtení */}
+          <div className="absolute inset-0 bg-gray-300 animate-pulse" />
         </div>
 
-        {/* pravý „bílý“ sloupec – 75 % (3× levý) */}
-        <div className={c('w-3/4 px-4 py-0 space-y-8', 'md:p-8 md:w-full')}>
-          <div className="space-y-8">
-            <div className={c('space-y-2.5')}>
-              <h1 className="text-3xl font-bold">
-                {t(contactPageData.contact.header)}
-              </h1>
-              <p className="text-justify">
-                {t(contactPageData.contact.description)}
-              </p>
-            </div>
-
-            <div className={c('space-y-2.5')}>
-              <p className="font-bold">
-                {contactPageData.contact.address.firstLine1}
-              </p>
-              <p className="font-bold">
-                {contactPageData.contact.address.firstLine2}
-              </p>
-              <p>{contactPageData.contact.address.secondLine}</p>
-              <p>{t(contactPageData.contact.secondDescription)}</p>
-              <p>{t(contactPageData.contact.thirdDescription)}</p>
-            </div>
-
-            <div className={c('space-y-2.5')}>
-              <WrappedIconRow
-                Icon={PhoneIcon}
-                href={`tel:${contactPageData.contact.phoneNumberLink}`}
-              >
-                {contactPageData.contact.phoneNumber}
-              </WrappedIconRow>
-              <WrappedIconRow
-                Icon={MessageIcon}
-                href={`mailto:${contactPageData.contact.emailLink}`}
-              >
-                {contactPageData.contact.email}
-              </WrappedIconRow>
-            </div>
-
-            <div className="flex flex-col space-y-2.5 text-dark-blue">
-              <a
-                href={contactPageData.contact.links.linkedIn}
-                className="flex items-center space-x-3"
-                aria-label="Linked In Link"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <LinkedInIcon className="fill-current w-7 h-7" />
-                <span>Linked In</span>
-              </a>
-            </div>
-          </div>
-
-          <ContactForm />
+        {/* ───────── pravý dolní: FORMULÁŘ ───────── */}
+        <div className="flex items-start">
+          <ContactForm className="w-full" />
         </div>
       </div>
     </DefaultLayout>
