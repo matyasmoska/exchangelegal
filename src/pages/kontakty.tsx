@@ -34,7 +34,7 @@ keywords="alternativní investiční fond, minifond, alternativní fond, § 15 Z
 						height="100%"
 						className="relative z-20"
 						style={{ border: 0 }}
-						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2561.9223858112055!2d14.437017615885283!3d50.05028522399825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b94759b1f6d5b%3A0x588df01abda2d398!2sNa%20Str%C5%BEi%201702%2F65%2C%20140%2000%20Praha%204-Nusle!5e0!3m2!1scs!2scz!4v1646906243995!5m2!1scs!2scz"
+						src="https://maps.google.com/maps?width=533&amp;height=400&amp;hl=en&amp;q=Na Dolinách 153/22, Podolí, 147 00 Praha 4&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
 					/>
 					<div className="absolute top-0 left-0 z-0 w-full h-full transition transform bg-gray-300 animate-pulse" />
 				  </div>
