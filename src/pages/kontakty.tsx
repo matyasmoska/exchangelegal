@@ -1,4 +1,3 @@
-/* src/pages/kontakty.tsx */
 import DefaultLayout from '../layouts/DefaultLayout'
 import SEO from '../components/Layout/SEO'
 import React from 'react'
@@ -31,4 +30,8 @@ export default function Contact () {
           'lg:px-12 md:grid-cols-1 md:grid-rows-none md:gap-8 md:px-0 md:py-8'
         )}
       >
-        {/* ─────────────────── levý horní: FOTKA (50 %) ──────────────*
+        {/* ───── levý horní: FOTKA (50 %) ───── */}
+        <figure className="row-span-1 col-span-1 flex items-center justify-center w-full h-full overflow-hidden">
+          <img
+            src="/images/moskamurad1.jpg"
+            alt="Zakladatelé 15 ZISI
