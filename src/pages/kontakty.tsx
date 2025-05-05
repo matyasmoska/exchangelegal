@@ -23,12 +23,12 @@ export default function Contact () {
         keywords="alternativní investiční fond, minifond, alternativní fond, § 15 ZISIF, 15zisif, osoba rizikového kapitálu"
       />
 
-      {/* ───── HERO FOTKA přes celou šířku ───── */}
-      <div className="w-full h-[28rem] lg:h-96 md:h-64 overflow-hidden">
+      {/* ───── HERO FOTKA (50 % šířky, vycentrovaná) ───── */}
+      <div className="w-full py-8 flex justify-center items-center overflow-hidden">
         <img
-          src="/images/moskamurad1.jpg"      /* originál */
+          src="/images/moskamurad1.jpg"
           alt="Zakladatelé 15 ZISIF"
-          className="w-full h-full object-cover"
+          className="w-1/2 h-auto object-cover"
         />
       </div>
 
