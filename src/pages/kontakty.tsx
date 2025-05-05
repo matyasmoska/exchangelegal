@@ -46,12 +46,12 @@ export default function Contact () {
           <ContactForm />
         </section>
 
-        {/* 2) FOTKA – PRAVÝ HORNÍ */}
+        {/* 2) FOTKA – PRAVÝ HORNÍ (zmenšená na 50 % šířky) */}
         <figure className="flex items-center justify-center w-full h-full overflow-hidden">
           <img
             src="/images/moskamurad1.jpg"
             alt="Zakladatelé 15 ZISIF"
-            className="object-cover w-full h-full"
+            className="w-1/2 h-auto object-cover"   /* 50 % šířky rodiče */
           />
         </figure>
 
