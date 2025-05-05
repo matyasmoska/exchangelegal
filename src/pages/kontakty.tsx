@@ -1,3 +1,4 @@
+/* src/pages/kontakty.tsx */
 import DefaultLayout from '../layouts/DefaultLayout'
 import SEO from '../components/Layout/SEO'
 import React from 'react'
@@ -23,24 +24,15 @@ export default function Contact () {
         keywords="alternativní investiční fond, minifond, alternativní fond, § 15 ZISIF, 15zisif, osoba rizikového kapitálu"
       />
 
-      {/* ───── HERO FOTKA (50 % šířky, vycentrovaná) ───── */}
-      <div className="w-full py-8 flex justify-center items-center overflow-hidden">
-        <img
-          src="/images/moskamurad1.jpg"
-          alt="Zakladatelé 15 ZISIF"
-          className="w-1/2 h-auto object-cover"
-        />
-      </div>
-
-      {/* ───── 2‑sloupcový pás: FORM + KONTAKTY ───── */}
+      {/* ───── 2 × 2 GRID ───── */}
       <div
         className={c(
-          'grid grid-cols-2 gap-12 px-24 py-16',
+          'grid grid-cols-2 grid-rows-2 gap-12 px-24 py-16',
           'lg:px-12 lg:gap-8',
-          'md:grid-cols-1 md:px-6 md:py-10'
+          'md:grid-cols-1 md:grid-rows-none md:px-6 md:py-10'
         )}
       >
-        {/* ▼▼ LEVÝ SLOUPEC – FORMULÁŘ ▼▼ */}
+        {/* 1) FORMULÁŘ – LEVÝ HORNÍ */}
         <section className="space-y-8">
           <header className="space-y-2.5">
             <h1 className="text-4xl font-extrabold">
@@ -54,7 +46,16 @@ export default function Contact () {
           <ContactForm />
         </section>
 
-        {/* ▼▼ PRAVÝ SLOUPEC – KONTAKTY ▼▼ */}
+        {/* 2) FOTKA – PRAVÝ HORNÍ */}
+        <figure className="flex items-center justify-center w-full h-full overflow-hidden">
+          <img
+            src="/images/moskamurad1.jpg"
+            alt="Zakladatelé 15 ZISIF"
+            className="object-cover w-full h-full"
+          />
+        </figure>
+
+        {/* 3) KONTAKTY – LEVÝ DOLNÍ */}
         <aside className="space-y-8">
           <address className="not-italic space-y-1.5 leading-relaxed text-lg">
             <p className="font-bold">
@@ -93,17 +94,17 @@ export default function Contact () {
             </a>
           </div>
         </aside>
-      </div>
 
-      {/* ───── MAPA přes celou šířku ───── */}
-      <div className="w-full h-96 md:h-72 relative shadow-inner">
-        <iframe
-          title="Mapa"
-          className="absolute inset-0 w-full h-full z-10"
-          frameBorder={0}
-          src="https://maps.google.com/maps?width=533&amp;height=400&amp;hl=cs&amp;q=Na%20Dolinách%20153/22,%20Podol%C3%AD,%20147%2000%20Praha%204&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-        />
-        <div className="absolute inset-0 bg-gray-300 animate-pulse" />
+        {/* 4) MAPA – PRAVÝ DOLNÍ */}
+        <div className="w-full h-96 md:h-72 relative shadow-inner">
+          <iframe
+            title="Mapa"
+            className="absolute inset-0 w-full h-full z-10"
+            frameBorder={0}
+            src="https://maps.google.com/maps?width=533&amp;height=400&amp;hl=cs&amp;q=Na%20Dolinách%20153/22,%20Podol%C3%AD,%20147%2000%20Praha%204&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          />
+          <div className="absolute inset-0 bg-gray-300 animate-pulse" />
+        </div>
       </div>
     </DefaultLayout>
   )
