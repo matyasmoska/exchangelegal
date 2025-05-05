@@ -8,7 +8,7 @@ import {
   TwitterIcon,
   LinkedInIcon
 } from '../components/Layout/Icons'
-import { WrappedIconRow, IconRow } from '../components/Layout/Icon'
+import { WrappedIconRow } from '../components/Layout/Icon'
 import ContactForm from '../components/Pages/contact/ContactForm'
 import { c } from '../services/misc'
 import { useTranslations } from '../hooks/useTranslations'
@@ -32,8 +32,8 @@ export default function Contact () {
           'md:block md:space-x-0 md:px-0 md:pb-32'
         )}
       >
-        {/* ▼▼▼ upravený kontejner – z w-full na w-2/3 md:w-full ▼▼▼ */}
-        <div className="flex flex-col w-2/3 md:w-full">
+        {/* ▲▲▲ Změna: w-1/2 (50 %) místo w-2/3 ▲▲▲ */}
+        <div className="flex flex-col w-1/2 md:w-full">
           <div
             className="mb-6 h-4/5 max-h-[31.5rem] bg-cover bg-center bg-no-repeat"
             style={{ backgroundImage: `url("/images/moskamurad1.jpg")` }}
@@ -50,7 +50,8 @@ export default function Contact () {
           </div>
         </div>
 
-        <div className={c('w-5/6 px-4 py-0 space-y-8', 'md:p-8 md:w-full')}>
+        {/* pravý sloupec necháme flexibilní, aby vyplnil zbytek */}
+        <div className={c('flex-1 px-4 py-0 space-y-8', 'md:p-8 md:w-full')}>
           <div className="space-y-8">
             <div className={c('space-y-2.5')}>
               <h1 className="text-3xl font-bold">
@@ -94,6 +95,7 @@ export default function Contact () {
                 className="flex items-center space-x-3"
                 aria-label="Linked In Link"
                 target="_blank"
+                rel="noreferrer"
               >
                 <LinkedInIcon className="fill-current w-7 h-7" />
                 <span>Linked In</span>
