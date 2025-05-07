@@ -14,7 +14,7 @@ const ServiceFormSuccessPage = () => {
 			<SEO
 				title="Děkujeme za Vaši objednávku! 15zisif.cz"
 				description="✅ Jsme odborníky v oblasti zakládání fondů ⭐ Máme unikátní zkušenosti a know-how v oblasti alternativních fondů dle § 15 ZISIF"
-				keywords="alternativní investiční fond, minifond, alternativní fond, § 15 ZISIF, 15zisif"
+				keywords="alternativní investiční fond, minifond, alternativní fond, § 15 ZISIF, 15zisif, osoba rizikového kapitálu"
 			/>
 			<main className="flex items-center justify-center w-full">
 				<div
