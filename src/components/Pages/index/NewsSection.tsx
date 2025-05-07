@@ -7,7 +7,7 @@ import { useTranslations } from '../../../hooks/useTranslations'
 import pageData from '../../../data/navigation.json'
 
 const NewsSection: FC<{ news: NewsItem[] }> = ({ news }) => {
-	const t = useTranslations()
+	const t = useTranslations<string>()
 	
 	return (
 		<div className={c('w-full space-y-16 mt-24 px-36', '3xl:px-28', '2xl:px-20', 'md:px-8')}>
@@ -16,7 +16,7 @@ const NewsSection: FC<{ news: NewsItem[] }> = ({ news }) => {
 			</Fade>
 			<div className={c('grid grid-cols-3 gap-16', 'md:flex md:flex-col md:space-y-6 md:text-center')}>
 				<Fade damping={0.5} duration={500} cascade triggerOnce>
-					{news.slice(0, 3).map((newsItem) => <NewsPreviewItem key={newsItem.name} newsItem={newsItem} />)}
+					{news.slice(0, 3).map((newsItem) => <NewsPreviewItem key={t(newsItem.name)} newsItem={newsItem} />)}
 				</Fade>
 			</div>
 		</div>

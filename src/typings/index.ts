@@ -1,9 +1,11 @@
+import { Translations } from '../hooks/useTranslations'
+
 export interface NewsItem {
-	name: string
+	name: Translations
 	text: any
-	date: string
-	slug: string
-	previewText: string
+	date: Translations
+	slug: Translations
+	previewText: Translations
 	thumbnail: any
 }
 

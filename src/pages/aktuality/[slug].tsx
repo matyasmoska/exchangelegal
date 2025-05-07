@@ -15,6 +15,7 @@ import { INLINES } from '@contentful/rich-text-types'
 import ShareArticleLinks from '../../components/Pages/news/ShareArticleLinks'
 import { NextSeo } from 'next-seo'
 import { useRouter } from 'next/router'
+import { Locale, useTranslations } from '../../hooks/useTranslations'
 
 interface PostDetailPageProps {
 	news: NewsItem[]
@@ -51,28 +52,29 @@ let options = {
 }
 
 const PostDetailPage: NextPage<PostDetailPageProps> = ({ news, newsItem, author }) => {
-	const { locale } = useRouter()
+	const { locale, defaultLocale = "cs" } = useRouter()
 	const { isMd, isLg } = useMediaQueries()
+	const t = useTranslations<any>()
 
-	const stats = useMemo(() => readingTime(documentToPlainTextString(newsItem.text)), [newsItem])
+	const stats = useMemo(() => readingTime(documentToPlainTextString(t(newsItem.text))), [newsItem])
 
 	return (
 		<DefaultLayout>
 			<NextSeo
-				title={newsItem.name + ' | 15zisif.cz'}
-				description={newsItem.previewText}
+				title={t(newsItem.name) + ' | 15zisif.cz'}
+				description={t(newsItem.previewText)}
 				openGraph={{
-					url: 'https://15zisif.cz/aktuality/' + newsItem.slug,
-					title: newsItem.name + ' | 15zisif.cz',
-					description: newsItem.previewText,
+					url: 'https://15zisif.cz/aktuality/' + newsItem.slug[defaultLocale as Locale],
+					title: t(newsItem.name) + ' | 15zisif.cz',
+					description: t(newsItem.previewText),
 					site_name: '15zisif.cz',
 					type: 'article',
 					article: {
-						publishedTime: newsItem.date
+						publishedTime: t(newsItem.date)
 					},
 					images: [
 						{
-							url: 'https:' + newsItem.thumbnail.fields.file.url,
+							url: 'https:' + encodeURI(t(t(newsItem.thumbnail).fields.file).url),
 							width: 1920,
 							height: 439
 						}
@@ -93,7 +95,7 @@ const PostDetailPage: NextPage<PostDetailPageProps> = ({ news, newsItem, author 
 					objectFit="cover"
 					quality={90}
 					priority
-					src={'https:' + newsItem.thumbnail.fields.file.url}
+					src={'https:' + encodeURI(t(t(newsItem.thumbnail).fields.file).url)}
 				/>
 				<div className="absolute top-0 left-0 w-full h-full transition transform bg-gray-400 animate-pulse" />
 			</div>
@@ -101,13 +103,13 @@ const PostDetailPage: NextPage<PostDetailPageProps> = ({ news, newsItem, author 
 				<div className={c('flex justify-center space-x-20', 'md:flex-col md:space-x-0 md:space-y-20')}>
 					<div className="max-w-4xl space-y-10">
 						<div className="space-y-5">
-							<h1 className={c('text-3xl font-bold', 'md:text-center')}>{newsItem.name}</h1>
+							<h1 className={c('text-3xl font-bold', 'md:text-center')}>{t(newsItem.name)}</h1>
 							<div className="flex items-center space-x-12">
-								<span>{dateStringToDateFormat(newsItem.date, locale)}</span>
+								<span>{dateStringToDateFormat(newsItem.date[defaultLocale as Locale] as string, locale)}</span>
 								<ReadingTime stats={stats} />
 							</div>
 							<article className="space-y-8 prose text-justify max-w-none">
-								{documentToReactComponents(newsItem.text, options)}
+								{documentToReactComponents(t(newsItem.text), options)}
 							</article>
 							<div className="flex items-center justify-between">
 								{author && (
@@ -118,11 +120,11 @@ const PostDetailPage: NextPage<PostDetailPageProps> = ({ news, newsItem, author 
 											priority
 											className="z-10 rounded-full"
 											objectFit="cover"
-											src={'https:' + author.photo.fields.file.url}
+											src={'https:' + t(t(author.photo).fields.file).url}
 										/>
 										<div className="flex flex-col space-y-0.5">
-											<h4 className="text-lg font-bold">{author.name}</h4>
-											<p className="text-gray-400">{author.title}</p>
+											<h4 className="text-lg font-bold">{t(author.name)}</h4>
+											<p className="text-gray-400">{t(author.title)}</p>
 										</div>
 									</div>
 								)}
@@ -132,9 +134,9 @@ const PostDetailPage: NextPage<PostDetailPageProps> = ({ news, newsItem, author 
 					</div>
 					<div className={c('flex flex-col space-y-28 max-w-lg', 'md:space-y-8 md:text-center')}>
 						{news
-							.filter(item => item.slug !== newsItem.slug)
+							.filter(item => item.slug[defaultLocale as Locale] !== newsItem.slug[defaultLocale as Locale])
 							.map(item => (
-								<NewsPreviewItem key={item.slug} newsItem={item} />
+								<NewsPreviewItem key={item.slug[defaultLocale as Locale]} newsItem={item} />
 							))}
 					</div>
 				</div>
@@ -143,7 +145,7 @@ const PostDetailPage: NextPage<PostDetailPageProps> = ({ news, newsItem, author 
 	)
 }
 
-export const getStaticProps: GetStaticProps = async ({ params }) => {
+export const getStaticProps: GetStaticProps = async ({ params, locale, defaultLocale = "cs" }) => {
 	const res = await fetchEntries()
 
 	const news = res
@@ -152,18 +154,18 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 			return n.fields
 		})
 
-	const currentArticle = news.find((item: NewsItem) => item.slug === params?.slug)
+	const currentArticle = news.find((item: NewsItem) => item.slug[defaultLocale as Locale] === params?.slug)
 
 	return {
 		props: {
 			newsItem: currentArticle,
 			news,
-			author: currentArticle.author?.fields || null
+			author: currentArticle.author?.[locale ?? defaultLocale]?.fields || null
 		}
 	}
 }
 
-export const getStaticPaths: GetStaticPaths = async ({ locales = [] }) => {
+export const getStaticPaths: GetStaticPaths = async ({ locales = [], defaultLocale = "cs" }) => {
 	const res = await fetchEntries()
 
 	const news = res
@@ -175,7 +177,7 @@ export const getStaticPaths: GetStaticPaths = async ({ locales = [] }) => {
 	return {
 		paths: [
 			...news.flatMap((item: NewsItem) => {
-				return locales.map((locale) => ({ params: { slug: item.slug }, locale }))
+				return locales.map((locale) => ({ params: { slug: item.slug[defaultLocale as Locale] }, locale }))
 			})
 		],
 		fallback: false
