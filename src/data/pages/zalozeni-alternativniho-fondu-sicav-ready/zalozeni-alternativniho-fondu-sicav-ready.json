@@ -1,0 +1,476 @@
+{
+  "header": {
+    "title": {
+      "cs": "Založení vlastního alternativního fondu <em>SICAV-ready</em>? Snazší, než si myslíte",
+      "en": ""
+    },
+    "subtitle": {
+      "cs": "Vstupte do světa fondového investování s naším odborným vedením.",
+      "en": ""
+    },
+    "orderNow": {
+      "cs": "Objednat SICAV-ready nyní",
+      "en": ""
+    },
+    "moreInfo": {
+      "cs": "Více informací",
+      "en": ""
+    },
+    "checkmarkItems": [
+      {
+        "cs": "Zařízení dle § 15 ZISIF provozované na struktuře SICAV",
+        "en": ""
+      },
+      {
+        "cs": "Založení entity dle požadavků § 15 a § 15a ZISIF",
+        "en": ""
+      },
+      {
+        "cs": "Kompletní příprava vzorečků výpočtu NAV včetně High-Water Mark levelu a poplatků",
+        "en": ""
+      },
+      {
+        "cs": "Automatizované řešení výpočtu AUM, NAV, alokačních poměrů investorů a dalších",
+        "en": ""
+      }
+    ]
+  },
+  "description1": {
+    "title": {
+      "cs": "Nechte své vize růst, my zajistíme zbytek. <em>Založení fondu SICAV-ready</em>:",
+      "en": ""
+    },
+    "paragraphs": [
+      {
+        "cs": "Založení alternativního fondu SICAV-ready není jen právní služba - je to komplexní služba na klíč přizpůsobená Vašim potřebám a požadavkům. Díky našemu širokému záběru a vysoké míře komplexity poskytovaných služeb už nemusíte tápat v legislativních, daňových, administrativních nebo regulatorních požadavcích.",
+        "en": ""
+      },
+      {
+        "cs": "Postaráme se o <strong>každý detail</strong>, aby Vaše cesta od nápadu k realizaci byla hladká a efektivní.",
+        "en": ""
+      },
+      {
+        "cs": "S námi zvládnete založit alternativní fond, který bude připraven na budoucí transformaci na zařízení SICAV, rychle a bez zbytečných komplikací, a navíc získáte strategickou podporu, která Vám pomůže uspět.",
+        "en": ""
+      }
+    ]
+  },
+  "description2": {
+    "text1": {
+      "cs": "Za částku <em><strong>199 000 Kč + DPH</strong></em> (240 790 Kč včetně DPH) Vás kompletně provedeme procesem založení alternativního fondu ve formě balíčku SICAV-ready, tedy mj.:",
+      "en": ""
+    },
+    "checkmarkItems": [
+      {
+        "cs": "<strong>Založíme</strong> pro Vás <strong>společnost</strong>",
+        "en": ""
+      },
+      {
+        "cs": "Registrujeme Váš alternativní fond u České národní banky",
+        "en": ""
+      },
+      {
+        "cs": "<strong>Zajistíme veškerou</strong> doprovodnou nezbytnou právní a compliance <strong>dokumentaci</strong>",
+        "en": ""
+      },
+      {
+        "cs": "Vše <strong>nastavíme daňově efektivně</strong>",
+        "en": ""
+      },
+      {
+        "cs": "Zajistíme výpočty NAV, alokační poměry investorů a scénáře výkonnosti KID",
+        "en": ""
+      },
+      {
+        "cs": "<strong>Náležitě Vás proškolíme ohledně procesů</strong> ve fondu a z problematiky AML/CFT (praní špinavých peněz)",
+        "en": ""
+      },
+      {
+        "cs": "Pomůžeme Vám <strong>vybrat vhodné softwarové nástroje</strong>",
+        "en": ""
+      },
+      {
+        "cs": "Budeme Vám <strong>kdykoli k dispozici pro konzultace</strong> či poradenství",
+        "en": ""
+      }
+    ],
+    "text2": {
+      "cs": "<strong>Od prvního kroku až po zahájení správy prostředků - postavíme Váš fond na pevných základech.</strong>",
+      "en": ""
+    }
+  },
+  "content": {
+    "title": {
+      "cs": "Co vše obsahuje <em>unikátní</em> balíček <br/> pro založení fondu <em>SICAV-ready</em>:",
+      "en": ""
+    },
+    "steps": [
+      {
+        "title": {
+          "cs": "Poradenství před založením fondu",
+          "en": ""
+        },
+        "parts": [
+          {
+            "title": {
+              "cs": "Právní poradenství a dokumentace:",
+              "en": ""
+            },
+            "listItems": [
+              {
+                "text": {
+                  "cs": "Strukturování a založení společnosti",
+                  "en": ""
+                },
+                "subItems": []
+              },
+              {
+                "text": {
+                  "cs": "Příprava zakládacích dokumentů",
+                  "en": ""
+                },
+                "subItems": []
+              },
+              {
+                "text": {
+                  "cs": "Kompletní právní podpora v souladu s legislativou ČR a EU",
+                  "en": ""
+                },
+                "subItems": []
+              }
+            ]
+          },
+          {
+            "title": {
+              "cs": "Regulatorní poradenství a registrační proces:",
+              "en": ""
+            },
+            "listItems": [
+              {
+                "text": {
+                  "cs": "Zpracování žádosti pro ČNB",
+                  "en": ""
+                },
+                "subItems": []
+              },
+              {
+                "text": {
+                  "cs": "Zajištění souladu s požadavky regulátora",
+                  "en": ""
+                },
+                "subItems": []
+              }
+            ]
+          },
+          {
+            "title": {
+              "cs": "Daňová optimalizace:",
+              "en": ""
+            },
+            "listItems": [
+              {
+                "text": {
+                  "cs": "Analýza vhodného daňového režimu",
+                  "en": ""
+                },
+                "subItems": []
+              },
+              {
+                "text": {
+                  "cs": "Poradenství pro efektivní strukturu fondu a poplatkovou strukturu",
+                  "en": ""
+                },
+                "subItems": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "cs": "Založení fondu",
+          "en": ""
+        },
+        "parts": [
+          {
+            "title": {
+              "cs": "Investiční strategie na míru:",
+              "en": ""
+            },
+            "listItems": [
+              {
+                "text": {
+                  "cs": "Konzultace při sestavení investičních strategií",
+                  "en": ""
+                },
+                "subItems": []
+              },
+              {
+                "text": {
+                  "cs": "Nastavení správy aktiv a alokace kapitálu",
+                  "en": ""
+                },
+                "subItems": []
+              }
+            ]
+          },
+          {
+            "title": {
+              "cs": "Administrativní a technická podpora:",
+              "en": ""
+            },
+            "listItems": [
+              {
+                "text": {
+                  "cs": "Zajištění sídla fondu a administrativních služeb",
+                  "en": ""
+                },
+                "subItems": []
+              },
+              {
+                "text": {
+                  "cs": "Návrh IT a compliance nástrojů pro správu fondu",
+                  "en": ""
+                },
+                "subItems": []
+              }
+            ]
+          },
+          {
+            "title": {
+              "cs": "Kompletní příprava vzorečků výpočtu NAV:",
+              "en": ""
+            },
+            "listItems": [
+              {
+                "text": {
+                  "cs": "Možnost více měn (CZK, EUR, USD a další)",
+                  "en": ""
+                },
+                "subItems": []
+              },
+              {
+                "text": {
+                  "cs": "Evidence investorů včetně dodatečných investic a výběrů",
+                  "en": ""
+                },
+                "subItems": []
+              },
+              {
+                "text": {
+                  "cs": "Poplatková struktura na míru",
+                  "en": ""
+                },
+                "subItems": [
+                  {
+                    "text": {
+                      "cs": "vstupní, výstupní a penalizační poplatky",
+                      "en": ""
+                    }
+                  },
+                  {
+                    "text": {
+                      "cs": "poplatek za správu (Management Fee)",
+                      "en": ""
+                    }
+                  },
+                  {
+                    "text": {
+                      "cs": "výkonnostní poplatek (Performance Fee) – progresivní, hurdle rate, High Watermark, libovolná kombinace či zcela na míru",
+                      "en": ""
+                    }
+                  }
+                ]
+              },
+              {
+                "text": {
+                  "cs": "Výpočet NAV na úrovni celého fondu a jednotlivých investorů (alokační poměry)",
+                  "en": ""
+                },
+                "subItems": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": {
+          "cs": "Poradenství po založení fondu",
+          "en": ""
+        },
+        "parts": [
+          {
+            "title": {
+              "cs": "Automatizovaný export reportů pro investory:",
+              "en": ""
+            },
+            "listItems": [
+              {
+                "text": {
+                  "cs": "Transparentní komunikace s investory",
+                  "en": ""
+                },
+                "subItems": []
+              },
+              {
+                "text": {
+                  "cs": "Tabulky a grafická znázornění",
+                  "en": ""
+                },
+                "subItems": []
+              },
+              {
+                "text": {
+                  "cs": "Samozřejmostí je legenda s popisem prezentovaných dat",
+                  "en": ""
+                },
+                "subItems": []
+              },
+              {
+                "text": {
+                  "cs": "Branding - logo fondu, barvy fondu apod.",
+                  "en": ""
+                },
+                "subItems": []
+              }
+            ]
+          },
+          {
+            "title": {
+              "cs": "Výpočet hodnot (scénáře výkonnosti) do dokumentu KID:",
+              "en": ""
+            },
+            "listItems": [
+              {
+                "text": {
+                  "cs": "Na základě skutečné historické výkonnosti portfolio manažera",
+                  "en": ""
+                },
+                "subItems": []
+              },
+              {
+                "text": {
+                  "cs": "Na základě pro-forma (modelového) portfolia",
+                  "en": ""
+                },
+                "subItems": []
+              },
+              {
+                "text": {
+                  "cs": "Modelace výkonnosti a nákladovosti fondu",
+                  "en": ""
+                },
+                "subItems": []
+              },
+              {
+                "text": {
+                  "cs": "1x aktualizace vypočtených hodnot zdarma (regulace požaduje aktualizaci alespoň jedenkrát ročně)",
+                  "en": ""
+                },
+                "subItems": []
+              }
+            ]
+          },
+          {
+            "title": {
+              "cs": "Obligatorní i fakultativní školení:",
+              "en": ""
+            },
+            "listItems": [
+              {
+                "text": {
+                  "cs": "Proškolíme Vás z veškerých povinností správce fondu",
+                  "en": ""
+                },
+                "subItems": []
+              },
+              {
+                "text": {
+                  "cs": "Zajistíme pro Vás ze zákona povinné AML/CFT školení",
+                  "en": ""
+                },
+                "subItems": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "contactUs": {
+    "cs": "<em>Kontaktujte nás a my se Vám do 24 hodin ozveme s návrhem termínu</em> nezávazné konzultace.",
+    "en": ""
+  },
+  "consultations": {
+    "cs": "Rozumíme, že proces zakládání fondu může být náročný, a proto s námi máte dalších <br/> <em>5 hodin konzultací v ceně</em>.",
+    "en": ""
+  },
+  "ourTeam": {
+    "cs": "Náš profesionální a zkušený tým <br/> Vás dovede k cíli.",
+    "en": ""
+  },
+  "formulaTitle": {
+    "cs": "Založení vlastního alternativního fondu <br/> SICAV-ready? Snazší, než si myslíte",
+    "en": ""
+  },
+  "formulaButtonText": {
+    "cs": "Založit alternativní fond",
+    "en": ""
+  },
+  "questionsTitle": {
+    "cs": "Nejčastější dotazy <br/> ohledně balíčku <em>SICAV-ready</em>",
+    "en": ""
+  },
+  "questions": [
+    {
+      "question": {
+        "cs": "Co je SICAV a jaký je jeho hlavní účel?",
+        "en": ""
+      },
+      "answer": {
+        "cs": "SICAV (z francouzského \"Société d’Investissement à Capital Variable\") je investiční fond s proměnlivým základním kapitálem. Hlavním účelem SICAV fondu je shromažďování finančních prostředků od investorů, které jsou následně profesionálně spravovány a investovány podle předem stanovené strategie.",
+        "en": ""
+      }
+    },
+    {
+      "question": {
+        "cs": "Jaké jsou hlavní výhody investování do SICAV fondu?",
+        "en": ""
+      },
+      "answer": {
+        "cs": "SICAV (z francouzského \"Société d’Investissement à Capital Variable\") je investiční fond s proměnlivým základním kapitálem. Hlavním účelem SICAV fondu je shromažďování finančních prostředků od investorů, které jsou následně profesionálně spravovány a investovány podle předem stanovené strategie.",
+        "en": ""
+      }
+    },
+    {
+      "question": {
+        "cs": "Jaká jsou rizika spojená s investováním do SICAV fondu?",
+        "en": ""
+      },
+      "answer": {
+        "cs": "SICAV (z francouzského \"Société d’Investissement à Capital Variable\") je investiční fond s proměnlivým základním kapitálem. Hlavním účelem SICAV fondu je shromažďování finančních prostředků od investorů, které jsou následně profesionálně spravovány a investovány podle předem stanovené strategie.",
+        "en": ""
+      }
+    },
+    {
+      "question": {
+        "cs": "Jaký je minimální vklad pro vstup do SICAV fondu?",
+        "en": ""
+      },
+      "answer": {
+        "cs": "SICAV (z francouzského \"Société d’Investissement à Capital Variable\") je investiční fond s proměnlivým základním kapitálem. Hlavním účelem SICAV fondu je shromažďování finančních prostředků od investorů, které jsou následně profesionálně spravovány a investovány podle předem stanovené strategie.",
+        "en": ""
+      }
+    },
+    {
+      "question": {
+        "cs": "Jaké jsou poplatky spojené se správou a fungováním SICAV fondu?",
+        "en": ""
+      },
+      "answer": {
+        "cs": "SICAV (z francouzského \"Société d’Investissement à Capital Variable\") je investiční fond s proměnlivým základním kapitálem. Hlavním účelem SICAV fondu je shromažďování finančních prostředků od investorů, které jsou následně profesionálně spravovány a investovány podle předem stanovené strategie.",
+        "en": ""
+      }
+    }
+  ]
+}

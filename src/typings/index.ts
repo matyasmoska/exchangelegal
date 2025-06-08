@@ -1,5 +1,10 @@
 import { Translations } from '../hooks/useTranslations'
 
+export interface FAQuestion {
+	question: Translations | string
+	answer: Translations | string
+}
+
 export interface NewsItem {
 	name: Translations
 	text: any

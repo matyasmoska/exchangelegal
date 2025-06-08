@@ -1,9 +1,10 @@
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 import { AnimatePresence, motion as m } from 'framer-motion'
 import { Dispatch, FC, MouseEventHandler, useMemo, useState } from 'react'
 import { heightAnimation } from '../../../animations/navigation'
 import { useMediaQueries } from '../../../hooks/useMediaQueries'
-import { c, numberWithSpaces as ns } from '../../../services/misc'
+import { c, formatPrice as ns } from '../../../services/misc'
 import Button from '../../Layout/Button'
 import { CheckmarkIcon, CloseIcon } from '../../Layout/Icons'
 import { Translations, useTranslations } from '../../../hooks/useTranslations'
@@ -40,6 +41,7 @@ export interface ServiceItemProps {
 }
 
 export const ServiceItem: FC<ServiceItemProps> = ({ serviceItem, selectedItems, setSelectedItems }) => {
+	const { locale } = useRouter()
 	const t = useTranslations()
 
 	const { isMd } = useMediaQueries()
@@ -80,7 +82,7 @@ export const ServiceItem: FC<ServiceItemProps> = ({ serviceItem, selectedItems, 
 						<p className="mb-[2px] text-lg">{t(pageData.priceFrom)}:</p>
 						<p
 							className={c('text-3xl font-bold text-wine-primary', '3xl:text-2xl')}
-						>{`${ns(serviceItem.price)},- Kč`}</p>
+						>{ns(serviceItem.price, locale)}</p>
 					</div>
 					<div className="flex justify-end text-lg text-gray-400">{t(pageData.withoutVAT)}</div>
 				</div>
@@ -115,7 +117,7 @@ export const ServiceItem: FC<ServiceItemProps> = ({ serviceItem, selectedItems, 
 						)}
 					>
 						<h3 className={c('text-2xl font-bold', '3xl:text-xl')}>{t(serviceItem.name)}</h3>
-						<p className={c('text-2xl font-bold', '3xl:text-xl')}>{t(pageData.priceFrom)} {`${ns(serviceItem.price)},- Kč`}</p>
+						<p className={c('text-2xl font-bold', '3xl:text-xl')}>{t(pageData.priceFrom)} {ns(serviceItem.price, locale)}</p>
 						<Button
 							onClick={() => {
 								if (!isSelected) setSelectedItems([ ...selectedItems, serviceItem ])

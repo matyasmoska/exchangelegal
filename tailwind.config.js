@@ -33,8 +33,10 @@ module.exports = {
         'light-black': '#7B7B7B',
         'light-grey': '#F8F8F8',
         'warm-grey': '#868686',
+        'dark-grey': '#F1F2F4',
         'light-blue': '#E6E8F2',
-        'dark-blue': '#223a7b'
+        'dark-blue': '#223a7b',
+        'light-green': '#34C759'
       },
       fontFamily: {
         'header': ['"Source Serif Pro"', ...defaultTheme.fontFamily.serif],
@@ -48,6 +50,8 @@ module.exports = {
         '3': '3px'
       },
       maxWidth: {
+        'xxs': '13rem',
+        '8xl': '85rem',
         '9xl': '96.5rem'
       },
       minHeight: {

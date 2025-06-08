@@ -13,8 +13,17 @@ export function emailIsValid (email: string) {
 	return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
 }
 
-export function numberWithSpaces(x: number) {
-    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+function numberWithDelimiter(x: number, delimiter = ' ') {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, delimiter);
+}
+
+export function formatPrice(price: number, locale?: string) {
+	switch (locale) {
+		case 'en':
+			return `CZK ${numberWithDelimiter(price, ',')}`
+		default:
+			return `${numberWithDelimiter(price)},- Kč`
+	}
 }
 
 function getElementY(query: string) {

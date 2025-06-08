@@ -31,6 +31,10 @@
         "cs": "Více informací",
         "en": "More information"
     },
+    "finishInquiry": {
+        "cs": "Dokončit poptávku",
+        "en": "Finish inquiry"
+    },
     "services": [
         {
             "id": "zalozeni-alternativniho-fondu-na-klic",
@@ -44,6 +48,20 @@
             },
             "price": 109000,
             "link": "/zalozeni-alternativniho-fondu-na-klic",
+            "icon": "/images/serviceIcons/zalozeni-alternativniho-fondu-na-klic.png"
+        },
+        {
+            "id": "zalozeni-alternativniho-fondu-sicav-ready",
+            "name": {
+                "cs": "Založení alternativního fondu SICAV-ready na klíč",
+                "en": "Turnkey Establishment of an Alternative Fund SICAV-ready"
+            },
+            "description": {
+                "cs": "Plánujete v budoucnu přechod na strukturu SICAV? Založte Váš 15 ZISIF tak, abyste měli přechod na SICAV co nejjednodušší.",
+                "en": "Planning to move to a SICAV structure in the future? Set up your § 15 ZISIF so that the transition to SICAV is as easy as possible."
+            },
+            "price": 199000,
+            "link": "/zalozeni-alternativniho-fondu-sicav-ready",
             "icon": "/images/serviceIcons/zalozeni-alternativniho-fondu-na-klic.png"
         },
         {

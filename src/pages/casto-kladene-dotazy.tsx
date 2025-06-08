@@ -7,12 +7,8 @@ import pageData from '../data/pages/casto-kladene-dotazy.json'
 import { AnimatePresence, AnimateSharedLayout, motion as m } from 'framer-motion'
 import { opacityAnimation } from '../animations/navigation'
 import { c } from '../services/misc'
-import { Translations, useTranslations } from '../hooks/useTranslations'
-
-interface FAQuestion {
-	question: Translations | string
-	answer: Translations | string
-}
+import { useTranslations } from '../hooks/useTranslations'
+import { FAQuestion } from '../typings'
 
 export const QuestionDetail: FC<{ question: FAQuestion }> = ({ question }) => {
 	const t = useTranslations()

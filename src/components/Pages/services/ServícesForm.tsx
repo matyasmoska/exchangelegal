@@ -11,7 +11,7 @@ import SelectedServicesList from './SelectedServicesList'
 import { useTranslations } from '../../../hooks/useTranslations'
 import pageData from '../../../data/forms.json'
 
-const ServicesForm: FC<{ form: any; visibleRef: any }> = ({ form, visibleRef }) => {
+const ServicesForm: FC<{ form: any; visibleRef: any, className?: string }> = ({ form, visibleRef, className }) => {
 	const t = useTranslations<string>()
 
 	return (
@@ -19,7 +19,8 @@ const ServicesForm: FC<{ form: any; visibleRef: any }> = ({ form, visibleRef }) 
 			id="services-form"
 			className={c(
 				'flex flex-col items-center max-w-2xl mx-auto mb-24 space-y-6 text-center',
-				'md:max-w-none, md:px-4 md:py-16'
+				'md:max-w-none, md:px-4 md:py-16',
+				className
 			)}
 		>
 			

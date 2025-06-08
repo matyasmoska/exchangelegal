@@ -8,6 +8,46 @@ import { ArrowDown, ArrowRight, CloseIcon, LonelyCheckmarkIcon } from '../../Lay
 
 import data from '../../../data/pages/arguments.json'
 
+export const OptionsSection: FC<{ hideArrow?: boolean, className?: string }> = ({ hideArrow, className }) => {
+	const t = useTranslations<string>()
+
+	return (
+		<div className={c(
+			'font-header w-full space-y-16 mt-10 px-36', '3xl:px-28', '2xl:px-20', 'md:px-8',
+			className
+		)}>
+			<Fade direction={'up'} triggerOnce>
+				<h2 dangerouslySetInnerHTML={{ __html: t(data.optionsTitle) }} className="text-4xl font-bold text-center" />
+			</Fade>
+			<div className={c(
+				'grid grid-cols-2 gap-x-16 gap-y-8 max-w-6xl pb-12 mx-auto', 'lg:gap-x-12', 'md:grid-cols-1',
+				hideArrow && 'items-center'
+			)}>
+				<Fade damping={0.5} duration={500} cascade triggerOnce>
+					<div>
+						<img src={t(data.optionsImage)} className="md:max-w-lg mx-auto" />
+					</div>
+					<div className="space-y-7">
+						<div className={c(
+								'grid grid-cols-2 gap-x-10 gap-y-8', 'md:grid-cols-1 md:text-center',
+								!hideArrow && 'mt-10 lg:mt-0'
+							)}>
+							{data.options.map(({ icon, text }) => (
+								<div key={t(text)}>
+									<img className="w-12 h-12 md:mx-auto" src={icon} />
+									<p className="max-w-sm mx-auto mt-4">{t(text)}</p>
+								</div>
+							))}
+						</div>
+						<h2 dangerouslySetInnerHTML={{ __html: t(data.optionsResult) }} className="font-semibold text-2xl pt-10 md:text-center" />
+						{!hideArrow && <img src="/images/sipka4.svg" className="w-64 -ml-24 md:mx-auto" />}
+					</div>
+				</Fade>
+			</div>
+		</div>
+	)
+}
+
 const ArgumentsSection: FC = () => {
 	const t = useTranslations<string>()
 
@@ -32,7 +72,7 @@ const ArgumentsSection: FC = () => {
 							<div key={t(text)} className="flex items-center pl-4 border-l-4 border-wine-primary min-h-question">{t(text)}</div>
 						))}
 						<h2 dangerouslySetInnerHTML={{ __html: t(data.questionsResult) }} className="font-semibold text-2xl pt-5 md:text-center" />
-						<img src="/images/sipka1.svg" className="w-48 ml-auto md:mr-auto" />
+						<img src="/images/sipka2.svg" className="w-48 ml-auto md:mr-auto" />
 					</div>
 					<div className="md:hidden">
 						<img src="/images/otazniky.svg" className="max-w-md pl-4 mt-6" />
@@ -41,30 +81,7 @@ const ArgumentsSection: FC = () => {
 			</div>
 		</div>
 
-		<div className={c('font-header w-full space-y-16 mt-10 px-36', '3xl:px-28', '2xl:px-20', 'md:px-8')}>
-			<Fade direction={'up'} triggerOnce>
-				<h2 dangerouslySetInnerHTML={{ __html: t(data.optionsTitle) }} className="text-4xl font-bold text-center" />
-			</Fade>
-			<div className={c('grid grid-cols-2 gap-x-16 gap-y-8 max-w-6xl pb-12 mx-auto', 'lg:gap-x-12', 'md:grid-cols-1')}>
-				<Fade damping={0.5} duration={500} cascade triggerOnce>
-					<div>
-						<img src={t(data.optionsImage)} className="md:max-w-lg mx-auto" />
-					</div>
-					<div className="space-y-7">
-						<div className="grid grid-cols-2 gap-x-10 gap-y-8 mt-10 lg:mt-0 md:grid-cols-1 md:text-center">
-							{data.options.map(({ icon, text }) => (
-								<div key={t(text)}>
-									<img className="w-12 h-12 md:mx-auto" src={icon} />
-									<p className="max-w-sm mx-auto mt-4">{t(text)}</p>
-								</div>
-							))}
-						</div>
-						<h2 dangerouslySetInnerHTML={{ __html: t(data.optionsResult) }} className="font-semibold text-2xl pt-10 md:text-center" />
-						<img src="/images/sipka2.svg" className="w-64 -ml-24 md:mx-auto" />
-					</div>
-				</Fade>
-			</div>
-		</div>
+		<OptionsSection />
 
 		<div className={c('font-header w-full space-y-16 bg-light-grey py-24 px-36', '3xl:px-28', '2xl:px-20', 'md:px-8')}>
 			<Fade direction={'up'} triggerOnce>

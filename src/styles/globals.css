@@ -15,10 +15,10 @@ h1, h2, h3, h4 {
 }
 
 h1 > em,
-h2 > em {
+h2 > em,
+h3 > em {
     @apply not-italic;
     @apply text-wine-primary;
-    @apply whitespace-nowrap;
 }
 
 h1 > em {
@@ -26,6 +26,10 @@ h1 > em {
     @apply px-3;
     @apply py-2;
     @apply md:py-1.5;
+}
+
+h2 > em {
+    @apply whitespace-nowrap;
 }
 
 .prose > iframe,
@@ -38,6 +42,11 @@ h1 > em {
 .borderGradient {
     border-image-slice: 1;
     border-image-source: conic-gradient(from 180deg at 50% 50%, #21397B 0deg, rgba(8, 24, 89, 0) 360deg);
+}
+
+.borderGradientLinear {
+    border-image-slice: 1;
+    border-image-source: linear-gradient(90deg, #F2F2F7 0%, #21397B 100%);
 }
 
 .underlineOffset {

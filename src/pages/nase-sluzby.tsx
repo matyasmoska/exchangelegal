@@ -12,7 +12,7 @@ import { useTranslations } from '../hooks/useTranslations'
 import { trackAddToCart } from '../components/Pages/services/serviceHelpers'
 
 export default function Services () {
-	const t = useTranslations()
+	const t = useTranslations<string>()
 
 	const [ selectedServices, setSelectedServices ] = useState<ServiceItemType[]>([])
 	const [targetRef, visible] = useVisible()
@@ -51,7 +51,7 @@ keywords="alternativní investiční fond, minifond, alternativní fond, § 15 Z
 				</div>
 				<OrderButton
 					show={selectedServices.length !== 0 && !visible}
-					text="Dokončit poptávku"
+					text={t(pageData.finishInquiry)}
 					disabled={selectedServices.length === 0}
 				/>
 			</div>
