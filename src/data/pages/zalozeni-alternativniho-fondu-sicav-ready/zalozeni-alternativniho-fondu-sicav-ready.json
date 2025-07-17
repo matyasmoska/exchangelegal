@@ -16,6 +16,14 @@
       "cs": "Více informací",
       "en": ""
     },
+    "downloadTeaser": {
+      "cs": "Stáhnout ukázku",
+      "en": ""
+    },
+    "bookTeaserLink": {
+      "cs": "/docs/vypocet_nav.pdf",
+      "en": "/docs/vypocet_nav.pdf"
+    },
     "checkmarkItems": [
       {
         "cs": "Zařízení dle § 15 ZISIF provozované na struktuře SICAV",

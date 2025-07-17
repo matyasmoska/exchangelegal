@@ -11,7 +11,7 @@ import servicesData from '../data/pages/services.json'
 import useServicesForm from '../components/Pages/services/hooks/useServicesForm'
 import { trackViewItems } from '../components/Pages/services/serviceHelpers'
 import Button from '../components/Layout/Button'
-import { LonelyCheckmarkIcon } from '../components/Layout/Icons'
+import { DownloadIcon, LonelyCheckmarkIcon } from '../components/Layout/Icons'
 import { OptionsSection } from '../components/Pages/index/ArgumentsSection'
 import ServicesForm from '../components/Pages/services/ServícesForm'
 import { useVisible } from 'react-hooks-visible'
@@ -107,6 +107,17 @@ const ObligationsPage = () => {
       <div className="hidden lg:block">
         <img src="/images/sipka5.svg" className="w-40 mx-auto my-12" />
         <img src="/images/vzorecky_book.png" className="w-full max-w-lg mx-auto" />
+      </div>
+
+      <div className={c('font-header mt-14 px-16', 'md:px-8')}>
+		<div className="max-w-8xl mx-auto flex">
+          <a href={t(pageData.header.bookTeaserLink)} target="_blank" className="max-w-sm ml-auto lg:mr-auto sm:w-full">
+            <Button type="secondary" className="px-8 py-3 font-semibold">
+              <DownloadIcon className="w-6 h-6 mr-3 flex-shrink-0" />
+              {t(pageData.header.downloadTeaser)}
+            </Button>
+          </a>
+		</div>
       </div>
 
       <div className={c('font-header space-y-24 my-24 px-16', 'md:px-8')}>
