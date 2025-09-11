@@ -2,7 +2,6 @@ import Head from 'next/head'
 import React, { FC, useEffect } from 'react'
 import Footer from '../components/Layout/Footer'
 import Navigation from '../components/Layout/Navigation'
-import CookieBar from '../components/Layout/CookieBar'
 import { useCookies } from 'react-cookie'
 
 const GA_ID = 'G-S807KT9017'
@@ -29,8 +28,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 const DefaultLayout: FC = ({ children }) => {
 	const [cookies, setCookie, removeCookie] = useCookies(['cookie-consent'])
-
-	useEffect(() => { console.log(cookies['cookie-consent']) }, [ cookies ])
 
 	return (
 		<div className="text-dark-blue">
@@ -64,7 +61,6 @@ const DefaultLayout: FC = ({ children }) => {
 			<Navigation />
 			{children}
 			<Footer />
-			<CookieBar />
 			<noscript>
 				<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KZQQ7GWB" height="0" width="0" style={{ display: "none", visibility: "hidden" }} />
 			</noscript>

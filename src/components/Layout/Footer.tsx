@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import { useRouter } from 'next/router'
 import React from 'react'
 import { useTranslations } from '../../hooks/useTranslations'
 import { c } from '../../services/misc'
@@ -10,7 +9,6 @@ import contactPageData from '../../data/contact.json'
 
 const Footer = () => {
 	const t = useTranslations<string>()
-	const router = useRouter()
 
 	return (
 		<div
@@ -70,20 +68,15 @@ const Footer = () => {
 				<div className="space-y-10">
 					<h3 className="text-xl font-bold">{t(pageData.menu)}</h3>
 					<div className="flex flex-col space-y-4">
-						
 						<Link href="/alternativni-investicni-fond">
 							<a className="hover:underline">{t(pageData.cojeto)}</a>
 						</Link>
-						
-						
 						<Link href="/povinnosti-spravce-fondu">
 							<a className="hover:underline">{t(pageData.povinnostispravcefondu)}</a>
 						</Link>
-
 						<Link href="/aktuality">
 							<a className="hover:underline">{t(pageData.news)}</a>
 						</Link>
-						
 						<Link href="/nase-sluzby">
 							<a className="hover:underline">{t(pageData.services)}</a>
 						</Link>
@@ -115,9 +108,6 @@ const Footer = () => {
 							<Link href="/pravidla-pouzivani-cookies">
 								<a className="hover:underline">{t(pageData.cookierules)}</a>
 							</Link>
-							<Link href={{ pathname: router.pathname, query: { ...router.query, consent: 'setup' } }} scroll={false}>
-								<a className="hover:underline">{t(pageData.cookiesettings)}</a>
-							</Link>
 						</div>
 						
 					</div>
@@ -125,9 +115,6 @@ const Footer = () => {
 				<div className="space-y-10">
 					<h3 className="text-xl font-bold">{t(pageData.sledujtenas)}</h3>
 					<div className={c('flex space-x-4 text-white', 'md:text-center md:justify-center md:pb-52')}>
-						
-						
-					
 						<a href={contactPageData.contact.links.linkedIn} target="_blank" rel="noopener" aria-label="Linked In Link">
 							<LinkedInIcon className="fill-current w-7 h-7" />
 						</a>

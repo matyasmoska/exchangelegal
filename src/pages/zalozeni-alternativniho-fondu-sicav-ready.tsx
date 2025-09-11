@@ -110,14 +110,14 @@ const ObligationsPage = () => {
       </div>
 
       <div className={c('font-header mt-14 px-16', 'md:px-8')}>
-		<div className="max-w-8xl mx-auto flex">
+        <div className="max-w-8xl mx-auto flex">
           <a href={t(pageData.header.bookTeaserLink)} target="_blank" className="max-w-sm ml-auto lg:mr-auto sm:w-full">
             <Button type="secondary" className="px-8 py-3 font-semibold">
               <DownloadIcon className="w-6 h-6 mr-3 flex-shrink-0" />
               {t(pageData.header.downloadTeaser)}
             </Button>
           </a>
-		</div>
+        </div>
       </div>
 
       <div className={c('font-header space-y-24 my-24 px-16', 'md:px-8')}>
