@@ -37,24 +37,38 @@
     },
     "services": [
         {
-            "id": "zalozeni-alternativniho-fondu-na-klic",
+            "id": "zalozeni-alternativniho-fondu-na-klic-entry",
             "name": {
-                "cs": "Založení alternativního fondu na klíč",
-                "en": "Turnkey Establishment of an Alternative Fund"
+                "cs": "Založení alternativního fondu na klíč (Entry)",
+                "en": "Turnkey Establishment of an Alternative Fund (Entry)"
             },
             "description": {
-                "cs": "Připravíme pro Vás kompletní dokumentaci pro registraci alternativního investičního fondu dle § 15 ZISIF u České národní banky na klíč. Cena je od 79 000 Kč (+ DPH) až po 199 000 Kč (+ DPH) u balíčků Entry a All-in-one a SICAV-ready",
-                "en": "We will prepare complete documentation for the registration of an alternative investment fund under § 15 of the ZISIF with the Czech National Bank. Price from CZK 79,000 (+ VAT) to CZK 199,000 (+ VAT) for Entry, All-in-one or SICAV-ready package."
+                "cs": "Připravíme pro Vás kompletní dokumentaci pro registraci alternativního investičního fondu dle § 15 ZISIF u České národní banky na klíč. Ideální pro správce, kteří nemají zkušenosti s compliance a budou mít i nekvalifikované investory.",
+                "en": "We will prepare complete documentation for the registration of an alternative investment fund under § 15 of the ZISIF with the Czech National Bank. Ideal for managers with no compliance experience who will also have non-qualified investors."
             },
             "price": 79000,
             "link": "/zalozeni-alternativniho-fondu-na-klic",
             "icon": "/images/serviceIcons/zalozeni-alternativniho-fondu-na-klic.png"
         },
         {
+            "id": "zalozeni-alternativniho-fondu-na-klic-all-in-one",
+            "name": {
+                "cs": "Založení alternativního fondu na klíč (All-in-one)",
+                "en": "Turnkey Establishment of an Alternative Fund (All-in-one)"
+            },
+            "description": {
+                "cs": "Ideální pro správce, kteří nemají zkušenosti s compliance a budou mít i nekvalifikované investory.",
+                "en": "Ideal for new managers with no experience who want a turnkey solution including training."
+            },
+            "price": 99000,
+            "link": "/zalozeni-alternativniho-fondu-na-klic",
+            "icon": "/images/serviceIcons/zalozeni-alternativniho-fondu-na-klic.png"
+        },
+        {
             "id": "zalozeni-alternativniho-fondu-sicav-ready",
             "name": {
-                "cs": "Založení alternativního fondu SICAV-ready na klíč",
-                "en": "Turnkey Establishment of an Alternative Fund SICAV-ready"
+                "cs": "Založení alternativního fondu na klíč (SICAV-ready)",
+                "en": "Turnkey Establishment of an Alternative Fund (SICAV-ready)"
             },
             "description": {
                 "cs": "Plánujete v budoucnu přechod na strukturu SICAV? Založte Váš 15 ZISIF tak, abyste měli přechod na SICAV co nejjednodušší.",
