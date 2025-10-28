@@ -436,7 +436,7 @@
         "en": ""
       },
       "answer": {
-        "cs": "Založení uvedeného balíčku je určeno pro správce, kteří chtějí se svým alternativním fondem dle § 15 ZISIF přejít v dohledné době na strukturu fondu SICAV (z francouzského \"Société d’Investissement à Capital Variable\"), což je investiční fond s proměnlivým základním kapitálem. Hlavním účelem SICAV fondu je shromažďování finančních prostředků od investorů, které jsou následně profesionálně spravovány a investovány podle předem stanovené strategie, nicméně tento režim má některé výhody oproti režimu § 15 ZISIF (zejména daňová zátěž a možnost oficiální distribuce)",
+        "cs": "„SICAV-ready“ znamená, že fond dle § 15 ZISIF od začátku nastavíme tak, aby se později dal snadno převést na strukturu SICAV (investiční společnost s proměnným kapitálem). Prakticky jde o volbu a nastavení dokumentů, které už počítají s budoucím licencovaným režimem (např. jasná pravidla výpočtu NAV a poplatků, evidence investorů a interní procesy), a zároveň o zajištění souvisejících doplňkových služeb. SICAV (z francouzského \"Société d’Investissement à Capital Variable\") má totiž některé výhody oproti režimu § 15 ZISIF (zejména daňová zátěž a možnost oficiální distribuce)",
         "en": ""
       }
     },
@@ -447,6 +447,17 @@
       },
       "answer": {
         "cs": "Vše založíme na klíč, a to tak, aby byl pro Vás následný přechod na strukturu SICAV co nejhladší, proto je třeba mj. zvolit již na začátku jakožto právní formu podnikání akciovou společnost.",
+        "en": ""
+      }
+    },
+
+        {
+      "question": {
+        "cs": "Jaké jsou dnes limity pro získávání investorů a minimální vklad kvalifikovaného investora?",
+        "en": ""
+      },
+      "answer": {
+        "cs": "Po novele účinné od 1. 7. 2024 je minimální investice kvalifikovaného investora 125 000 EUR. Subjekty dle § 15 ZISIF nesmí své služby plošně nabízet veřejnosti (veřejná komunikace musí cílit výhradně na kvalifikované investory); pro nekvalifikované investory navíc přibyly informační povinnosti a zpřísnění pravidel transparentnosti. Přesné nastavení komunikace a dokumentace s vámi projdeme při přípravě projektu.",
         "en": ""
       }
     }
