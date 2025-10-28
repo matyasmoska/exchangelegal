@@ -451,6 +451,17 @@
       }
     },
 
+    {
+      "question": {
+        "cs": "V jakých měnách může být vedeno NAV a je možné přijímat investice i v kryptoměnách?",
+        "en": ""
+      },
+      "answer": {
+        "cs": "NAV umíme nastavit víceměnově (nejčastěji CZK, EUR, USD), včetně jasných pravidel pro poplatky a alokace na úrovni fondu i jednotlivých investorů. K investicím v kryptoměnách platí dvě roviny: (a) jako investiční třída — fond dle § 15 ZISIF může mít strategii zahrnující krypto aktiva; (b) jako forma investice — technicky lze nastavit přijetí vkladu i v kryptu, ale vyžaduje to robustnější AML/KYC a zejména bezpečnou custody, nicméně právně to možné je i bez (speciální) licence MiCA.",
+        "en": ""
+      }
+    },
+    
         {
       "question": {
         "cs": "Jaké jsou dnes limity pro získávání investorů a minimální vklad kvalifikovaného investora?",
