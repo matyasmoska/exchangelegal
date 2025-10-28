@@ -19,7 +19,7 @@ import { useTranslations } from '../hooks/useTranslations'
 import { FAQuestion } from '../typings'
 
 const QuestionDetail: FC<{ question: FAQuestion, open?: boolean }> = ({ question, open = false }) => {
-  const t = useTranslations()
+  const t = useTranslations<string>()
 
   const [isOpen, setIsOpen] = useState(open)
 
@@ -30,14 +30,10 @@ const QuestionDetail: FC<{ question: FAQuestion, open?: boolean }> = ({ question
       onClick={() => setIsOpen(prev => !prev)}
     >
       <m.div layout className="flex-grow">
-        <m.h2 layout className="max-w-3xl mt-1 text-xl font-semibold text-wine-primary">
-          {t(question.question)}
-        </m.h2>
+        <m.h2 layout className="max-w-3xl mt-1 text-xl font-semibold text-wine-primary" dangerouslySetInnerHTML={{ __html: t(question.question) }} />
         <AnimatePresence>
           {isOpen && (
-            <m.div layout {...opacityAnimation} className="max-w-2xl mt-4">
-              {t(question.answer)}
-            </m.div>
+            <m.div layout {...opacityAnimation} className="max-w-2xl mt-4" dangerouslySetInnerHTML={{ __html: t(question.answer) }} />
           )}
         </AnimatePresence>
       </m.div>

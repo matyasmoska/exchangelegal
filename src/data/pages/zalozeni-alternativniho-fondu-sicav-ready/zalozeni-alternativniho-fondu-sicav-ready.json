@@ -450,18 +450,16 @@
         "en": ""
       }
     },
-
     {
       "question": {
         "cs": "Jak probíhá případná transformace fondu založeného dle § 15 ZISIF na plnohodnotný SICAV a s jakými kroky a náklady je třeba počítat?",
         "en": ""
       },
       "answer": {
-        "cs": "Transformace typicky zahrnuje: (a) právní a strukturální přípravu (stanovy, investiční strategii, poplatkový model, NAV metodiku, vedení evidence investorů), (b) licenční řízení u ČNB včetně podání žádosti a reakce na dotazy regulátora, (c) sjednání spolupráce se „servisními“ partnery (obhospodařovatel, administrátor, depozitář, auditor) a (d) technickou migraci investorů/aktiv a komunikaci s investory. Výhodou balíčku „SICAV-ready“ je, že dokumentace, výpočty NAV (vč. High-Water Mark) a procesy jsou od začátku připravené na plně licencovaný režim, takže se omezují další náklady při transformaci. Počítejte však s externími náklady nad rámec tohoto balíčku (správní poplatky, poplatky za notáře, obhospodařovatel, depozitář, administrátor, audit a naše dodatečné práce při licenci); přesnou kalkulaci připravíme po rychlé vstupní konzultaci.",
+        "cs": "Transformace typicky zahrnuje: <b>(a)</b> právní a strukturální přípravu (stanovy, investiční strategii, poplatkový model, NAV metodiku, vedení evidence investorů), <b>(b)</b> licenční řízení u ČNB včetně podání žádosti a reakce na dotazy regulátora, <b>(c)</b> sjednání spolupráce se „servisními“ partnery (obhospodařovatel, administrátor, depozitář, auditor) a <b>(d)</b> technickou migraci investorů/aktiv a komunikaci s investory. Výhodou balíčku „SICAV-ready“ je, že dokumentace, výpočty NAV (vč. High-Water Mark) a procesy jsou od začátku připravené na plně licencovaný režim, takže se omezují další náklady při transformaci. Počítejte však s externími náklady nad rámec tohoto balíčku (správní poplatky, poplatky za notáře, obhospodařovatel, depozitář, administrátor, audit a naše dodatečné práce při licenci); přesnou kalkulaci připravíme po rychlé vstupní konzultaci.",
         "en": ""
       }
     },
-    
     {
       "question": {
         "cs": "V jakých měnách může být vedeno NAV a je možné přijímat investice i v kryptoměnách?",
@@ -472,8 +470,7 @@
         "en": ""
       }
     },
-    
-        {
+    {
       "question": {
         "cs": "Jaké jsou dnes limity pro získávání investorů a minimální vklad kvalifikovaného investora?",
         "en": ""
@@ -483,7 +480,5 @@
         "en": ""
       }
     }
-
-
   ]
 }
