@@ -24,10 +24,15 @@ module.exports = withMDX({
     ]
   },
   webpack: (config) => {
-    // Fix pro Node 17+ / OpenSSL 3: vyhneme se MD4 a použijeme xxhash64
+    // Fix pro Node 17+ / OpenSSL 3:
+    // 1) Přepnout hash z MD4 na xxhash64
     if (config.output) {
       config.output.hashFunction = 'xxhash64'
     }
+    // 2) Vypnout RealContentHash plugin (ten by jinak mohl MD4 stále použít)
+    if (!config.optimization) config.optimization = {}
+    config.optimization.realContentHash = false
+
     return config
   },
 })
