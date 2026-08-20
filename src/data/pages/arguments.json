@@ -62,8 +62,8 @@
         {
             "icon": "/images/argumentIcons/kurzove-rozpeti.svg",
             "text": {
-                "cs": "Vydělávat na kurzovém rozpětí a úplatě – s plnou kontrolou nad kurzovní politikou.",
-                "en": "Earn on the exchange spread and fees – with full control over your rate policy."
+                "cs": "Vydělávat na kurzovém rozdílu (tzv. spreadu) – s plnou kontrolou nad kurzovní politikou.",
+                "en": "Earn on the exchange rate difference (the spread) – with full control over your rate policy."
             }
         },
         {
@@ -92,8 +92,8 @@
     "funds": [
         {
             "title": {
-                "cs": "<em>Povolení ČNB</em>",
-                "en": "<em>CNB licence</em>"
+                "cs": "Povolení ČNB",
+                "en": "CNB licence"
             },
             "text": {
                 "cs": "Směnárenskou činnost lze provozovat pouze na základě <strong>povolení k činnosti směnárníka</strong> a zápisu do registru směnárníků vedeného ČNB.",
@@ -102,8 +102,8 @@
         },
         {
             "title": {
-                "cs": "<em>AML/CFT dokumentace<br/>a AML procesy</em>",
-                "en": "<em>AML/CFT documentation<br/>and AML processes</em>"
+                "cs": "AML/CFT dokumentace<br/>a AML procesy",
+                "en": "AML/CFT documentation<br/>and AML processes"
             },
             "text": {
                 "cs": "Směnárník je povinnou osobou – potřebuje <strong>SVZ, hodnocení rizik</strong>, identifikaci a kontrolu klienta, PEP a sankční screening i pravidelné školení personálu.",
@@ -112,8 +112,8 @@
         },
         {
             "title": {
-                "cs": "<em>Provozní dokumentace<br/>a procesy</em>",
-                "en": "<em>Operating documentation<br/>and processes</em>"
+                "cs": "Provozní dokumentace<br/>a procesy",
+                "en": "Operating documentation<br/>and processes"
             },
             "text": {
                 "cs": "Provozovna se neobejde bez <strong>kurzovního lístku, předsmluvních informací</strong> a dokladu o obchodu, postupu při odstoupení a řádné evidence obchodů.",
@@ -164,97 +164,129 @@
             },
             "buttonLink": "/nase-sluzby",
             "recommended": false,
-            "items": [
+            "itemGroups": [
                 {
-                    "text": {
-                        "cs": "Vstupní analýza a prověření podmínek pro udělení povolení",
-                        "en": "Initial analysis and review of the licensing conditions"
+                    "title": {
+                        "cs": "Povolení ČNB",
+                        "en": "CNB licence"
                     },
-                    "checked": true
+                    "items": [
+                        {
+                            "text": {
+                                "cs": "Vstupní analýza a prověření podmínek pro udělení povolení",
+                                "en": "Initial analysis and review of the licensing conditions"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Žádost o povolení k činnosti směnárníka u ČNB vč. příloh",
+                                "en": "Bureau-de-change licence application incl. annexes"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Komunikace s ČNB a odstranění vad žádosti (1–2 kola výzev)",
+                                "en": "Communication with the CNB and remedying application defects (1–2 rounds)"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Ohlášení provozovny ČNB a zápis do seznamu směnárníků",
+                                "en": "Notification of the premises to the CNB and registration"
+                            },
+                            "checked": true
+                        }
+                    ]
                 },
                 {
-                    "text": {
-                        "cs": "Žádost o povolení k činnosti směnárníka u ČNB vč. příloh",
-                        "en": "Bureau-de-change licence application incl. annexes"
+                    "title": {
+                        "cs": "AML/CFT",
+                        "en": "AML/CFT"
                     },
-                    "checked": true
+                    "items": [
+                        {
+                            "text": {
+                                "cs": "Kompletní AML/CFT dokumentace (SVZ, hodnocení rizik, formuláře)",
+                                "en": "Complete AML/CFT documentation (internal policy, risk assessment, forms)"
+                            },
+                            "checked": false
+                        },
+                        {
+                            "text": {
+                                "cs": "AML/CFT školení pracovníků vč. osvědčení a evidence (§ 23)",
+                                "en": "AML/CFT staff training incl. certificates and records (Section 23)"
+                            },
+                            "checked": false
+                        }
+                    ]
                 },
                 {
-                    "text": {
-                        "cs": "Komunikace s ČNB a odstranění vad žádosti (1–2 kola výzev)",
-                        "en": "Communication with the CNB and remedying application defects (1–2 rounds)"
+                    "title": {
+                        "cs": "Provozní dokumentace",
+                        "en": "Operating documentation"
                     },
-                    "checked": true
+                    "items": [
+                        {
+                            "text": {
+                                "cs": "Provozní dokumentace (§ 13, § 14, § 14a, kurzovní lístek, označení)",
+                                "en": "Operating documentation (Sections 13, 14, 14a, rate list, signage)"
+                            },
+                            "checked": false
+                        },
+                        {
+                            "text": {
+                                "cs": "Směrnice pro hotovost a oběživo vč. postupu u padělků",
+                                "en": "Cash and currency handling policy incl. counterfeit procedure"
+                            },
+                            "checked": false
+                        },
+                        {
+                            "text": {
+                                "cs": "Evidence směnárenských obchodů a pravidla archivace",
+                                "en": "Records of exchange transactions and archiving rules"
+                            },
+                            "checked": false
+                        },
+                        {
+                            "text": {
+                                "cs": "Reklamační řád, GDPR dokumentace a whistleblowing",
+                                "en": "Complaints rules, GDPR documentation and whistleblowing"
+                            },
+                            "checked": false
+                        }
+                    ]
                 },
                 {
-                    "text": {
-                        "cs": "Ohlášení provozovny ČNB a zápis do seznamu směnárníků",
-                        "en": "Notification of the premises to the CNB and registration"
+                    "title": {
+                        "cs": "Finální kontrola",
+                        "en": "Final inspection"
                     },
-                    "checked": true
-                },
-                {
-                    "text": {
-                        "cs": "Kontrolní check-list před spuštěním provozu",
-                        "en": "Pre-launch compliance check-list"
-                    },
-                    "checked": true
-                },
-                {
-                    "text": {
-                        "cs": "Kompletní AML/CFT dokumentace (SVZ, hodnocení rizik, formuláře)",
-                        "en": "Complete AML/CFT documentation (internal policy, risk assessment, forms)"
-                    },
-                    "checked": false
-                },
-                {
-                    "text": {
-                        "cs": "Provozní dokumentace (§ 13, § 14, § 14a, kurzovní lístek, označení)",
-                        "en": "Operating documentation (Sections 13, 14, 14a, rate list, signage)"
-                    },
-                    "checked": false
-                },
-                {
-                    "text": {
-                        "cs": "Směrnice pro hotovost a oběživo vč. postupu u padělků",
-                        "en": "Cash and currency handling policy incl. counterfeit procedure"
-                    },
-                    "checked": false
-                },
-                {
-                    "text": {
-                        "cs": "Evidence směnárenských obchodů a pravidla archivace",
-                        "en": "Records of exchange transactions and archiving rules"
-                    },
-                    "checked": false
-                },
-                {
-                    "text": {
-                        "cs": "Reklamační řád, GDPR dokumentace a whistleblowing",
-                        "en": "Complaints rules, GDPR documentation and whistleblowing"
-                    },
-                    "checked": false
-                },
-                {
-                    "text": {
-                        "cs": "AML/CFT školení pracovníků vč. osvědčení a evidence (§ 23)",
-                        "en": "AML/CFT staff training incl. certificates and records (Section 23)"
-                    },
-                    "checked": false
-                },
-                {
-                    "text": {
-                        "cs": "Fyzická kontrola provozovny před spuštěním vč. zkušební směny",
-                        "en": "Pre-launch on-site inspection incl. a test exchange"
-                    },
-                    "checked": false
-                },
-                {
-                    "text": {
-                        "cs": "Následná kontrola 1 měsíc po spuštění + protokol",
-                        "en": "Follow-up inspection 1 month after launch + report"
-                    },
-                    "checked": false
+                    "items": [
+                        {
+                            "text": {
+                                "cs": "Kontrolní check-list před spuštěním provozu",
+                                "en": "Pre-launch compliance check-list"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Fyzická kontrola provozovny před spuštěním vč. zkušební směny",
+                                "en": "Pre-launch on-site inspection incl. a test exchange"
+                            },
+                            "checked": false
+                        },
+                        {
+                            "text": {
+                                "cs": "Následná kontrola 1 měsíc po spuštění + protokol",
+                                "en": "Follow-up inspection 1 month after launch + report"
+                            },
+                            "checked": false
+                        }
+                    ]
                 }
             ]
         },
@@ -281,97 +313,129 @@
             },
             "buttonLink": "/nase-sluzby",
             "recommended": true,
-            "items": [
+            "itemGroups": [
                 {
-                    "text": {
-                        "cs": "Vstupní analýza a prověření podmínek pro udělení povolení",
-                        "en": "Initial analysis and review of the licensing conditions"
+                    "title": {
+                        "cs": "Povolení ČNB",
+                        "en": "CNB licence"
                     },
-                    "checked": true
+                    "items": [
+                        {
+                            "text": {
+                                "cs": "Vstupní analýza a prověření podmínek pro udělení povolení",
+                                "en": "Initial analysis and review of the licensing conditions"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Žádost o povolení k činnosti směnárníka u ČNB vč. příloh",
+                                "en": "Bureau-de-change licence application incl. annexes"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Komunikace s ČNB a odstranění vad žádosti (1–2 kola výzev)",
+                                "en": "Communication with the CNB and remedying application defects (1–2 rounds)"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Ohlášení provozovny ČNB a zápis do seznamu směnárníků",
+                                "en": "Notification of the premises to the CNB and registration"
+                            },
+                            "checked": true
+                        }
+                    ]
                 },
                 {
-                    "text": {
-                        "cs": "Žádost o povolení k činnosti směnárníka u ČNB vč. příloh",
-                        "en": "Bureau-de-change licence application incl. annexes"
+                    "title": {
+                        "cs": "AML/CFT",
+                        "en": "AML/CFT"
                     },
-                    "checked": true
+                    "items": [
+                        {
+                            "text": {
+                                "cs": "Kompletní AML/CFT dokumentace (SVZ, hodnocení rizik, formuláře)",
+                                "en": "Complete AML/CFT documentation (internal policy, risk assessment, forms)"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "AML/CFT školení pracovníků vč. osvědčení a evidence (§ 23)",
+                                "en": "AML/CFT staff training incl. certificates and records (Section 23)"
+                            },
+                            "checked": false
+                        }
+                    ]
                 },
                 {
-                    "text": {
-                        "cs": "Komunikace s ČNB a odstranění vad žádosti (1–2 kola výzev)",
-                        "en": "Communication with the CNB and remedying application defects (1–2 rounds)"
+                    "title": {
+                        "cs": "Provozní dokumentace",
+                        "en": "Operating documentation"
                     },
-                    "checked": true
+                    "items": [
+                        {
+                            "text": {
+                                "cs": "Provozní dokumentace (§ 13, § 14, § 14a, kurzovní lístek, označení)",
+                                "en": "Operating documentation (Sections 13, 14, 14a, rate list, signage)"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Směrnice pro hotovost a oběživo vč. postupu u padělků",
+                                "en": "Cash and currency handling policy incl. counterfeit procedure"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Evidence směnárenských obchodů a pravidla archivace",
+                                "en": "Records of exchange transactions and archiving rules"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Reklamační řád, GDPR dokumentace a whistleblowing",
+                                "en": "Complaints rules, GDPR documentation and whistleblowing"
+                            },
+                            "checked": true
+                        }
+                    ]
                 },
                 {
-                    "text": {
-                        "cs": "Ohlášení provozovny ČNB a zápis do seznamu směnárníků",
-                        "en": "Notification of the premises to the CNB and registration"
+                    "title": {
+                        "cs": "Finální kontrola",
+                        "en": "Final inspection"
                     },
-                    "checked": true
-                },
-                {
-                    "text": {
-                        "cs": "Kontrolní check-list před spuštěním provozu",
-                        "en": "Pre-launch compliance check-list"
-                    },
-                    "checked": true
-                },
-                {
-                    "text": {
-                        "cs": "Kompletní AML/CFT dokumentace (SVZ, hodnocení rizik, formuláře)",
-                        "en": "Complete AML/CFT documentation (internal policy, risk assessment, forms)"
-                    },
-                    "checked": true
-                },
-                {
-                    "text": {
-                        "cs": "Provozní dokumentace (§ 13, § 14, § 14a, kurzovní lístek, označení)",
-                        "en": "Operating documentation (Sections 13, 14, 14a, rate list, signage)"
-                    },
-                    "checked": true
-                },
-                {
-                    "text": {
-                        "cs": "Směrnice pro hotovost a oběživo vč. postupu u padělků",
-                        "en": "Cash and currency handling policy incl. counterfeit procedure"
-                    },
-                    "checked": true
-                },
-                {
-                    "text": {
-                        "cs": "Evidence směnárenských obchodů a pravidla archivace",
-                        "en": "Records of exchange transactions and archiving rules"
-                    },
-                    "checked": true
-                },
-                {
-                    "text": {
-                        "cs": "Reklamační řád, GDPR dokumentace a whistleblowing",
-                        "en": "Complaints rules, GDPR documentation and whistleblowing"
-                    },
-                    "checked": true
-                },
-                {
-                    "text": {
-                        "cs": "AML/CFT školení pracovníků vč. osvědčení a evidence (§ 23)",
-                        "en": "AML/CFT staff training incl. certificates and records (Section 23)"
-                    },
-                    "checked": false
-                },
-                {
-                    "text": {
-                        "cs": "Fyzická kontrola provozovny před spuštěním vč. zkušební směny",
-                        "en": "Pre-launch on-site inspection incl. a test exchange"
-                    },
-                    "checked": false
-                },
-                {
-                    "text": {
-                        "cs": "Následná kontrola 1 měsíc po spuštění + protokol",
-                        "en": "Follow-up inspection 1 month after launch + report"
-                    },
-                    "checked": false
+                    "items": [
+                        {
+                            "text": {
+                                "cs": "Kontrolní check-list před spuštěním provozu",
+                                "en": "Pre-launch compliance check-list"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Fyzická kontrola provozovny před spuštěním vč. zkušební směny",
+                                "en": "Pre-launch on-site inspection incl. a test exchange"
+                            },
+                            "checked": false
+                        },
+                        {
+                            "text": {
+                                "cs": "Následná kontrola 1 měsíc po spuštění + protokol",
+                                "en": "Follow-up inspection 1 month after launch + report"
+                            },
+                            "checked": false
+                        }
+                    ]
                 }
             ]
         },
@@ -398,97 +462,129 @@
             },
             "buttonLink": "/nase-sluzby",
             "recommended": false,
-            "items": [
+            "itemGroups": [
                 {
-                    "text": {
-                        "cs": "Vstupní analýza a prověření podmínek pro udělení povolení",
-                        "en": "Initial analysis and review of the licensing conditions"
+                    "title": {
+                        "cs": "Povolení ČNB",
+                        "en": "CNB licence"
                     },
-                    "checked": true
+                    "items": [
+                        {
+                            "text": {
+                                "cs": "Vstupní analýza a prověření podmínek pro udělení povolení",
+                                "en": "Initial analysis and review of the licensing conditions"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Žádost o povolení k činnosti směnárníka u ČNB vč. příloh",
+                                "en": "Bureau-de-change licence application incl. annexes"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Komunikace s ČNB a odstranění vad žádosti (1–2 kola výzev)",
+                                "en": "Communication with the CNB and remedying application defects (1–2 rounds)"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Ohlášení provozovny ČNB a zápis do seznamu směnárníků",
+                                "en": "Notification of the premises to the CNB and registration"
+                            },
+                            "checked": true
+                        }
+                    ]
                 },
                 {
-                    "text": {
-                        "cs": "Žádost o povolení k činnosti směnárníka u ČNB vč. příloh",
-                        "en": "Bureau-de-change licence application incl. annexes"
+                    "title": {
+                        "cs": "AML/CFT",
+                        "en": "AML/CFT"
                     },
-                    "checked": true
+                    "items": [
+                        {
+                            "text": {
+                                "cs": "Kompletní AML/CFT dokumentace (SVZ, hodnocení rizik, formuláře)",
+                                "en": "Complete AML/CFT documentation (internal policy, risk assessment, forms)"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "AML/CFT školení pracovníků vč. osvědčení a evidence (§ 23)",
+                                "en": "AML/CFT staff training incl. certificates and records (Section 23)"
+                            },
+                            "checked": true
+                        }
+                    ]
                 },
                 {
-                    "text": {
-                        "cs": "Komunikace s ČNB a odstranění vad žádosti (1–2 kola výzev)",
-                        "en": "Communication with the CNB and remedying application defects (1–2 rounds)"
+                    "title": {
+                        "cs": "Provozní dokumentace",
+                        "en": "Operating documentation"
                     },
-                    "checked": true
+                    "items": [
+                        {
+                            "text": {
+                                "cs": "Provozní dokumentace (§ 13, § 14, § 14a, kurzovní lístek, označení)",
+                                "en": "Operating documentation (Sections 13, 14, 14a, rate list, signage)"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Směrnice pro hotovost a oběživo vč. postupu u padělků",
+                                "en": "Cash and currency handling policy incl. counterfeit procedure"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Evidence směnárenských obchodů a pravidla archivace",
+                                "en": "Records of exchange transactions and archiving rules"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Reklamační řád, GDPR dokumentace a whistleblowing",
+                                "en": "Complaints rules, GDPR documentation and whistleblowing"
+                            },
+                            "checked": true
+                        }
+                    ]
                 },
                 {
-                    "text": {
-                        "cs": "Ohlášení provozovny ČNB a zápis do seznamu směnárníků",
-                        "en": "Notification of the premises to the CNB and registration"
+                    "title": {
+                        "cs": "Finální kontrola",
+                        "en": "Final inspection"
                     },
-                    "checked": true
-                },
-                {
-                    "text": {
-                        "cs": "Kontrolní check-list před spuštěním provozu",
-                        "en": "Pre-launch compliance check-list"
-                    },
-                    "checked": true
-                },
-                {
-                    "text": {
-                        "cs": "Kompletní AML/CFT dokumentace (SVZ, hodnocení rizik, formuláře)",
-                        "en": "Complete AML/CFT documentation (internal policy, risk assessment, forms)"
-                    },
-                    "checked": true
-                },
-                {
-                    "text": {
-                        "cs": "Provozní dokumentace (§ 13, § 14, § 14a, kurzovní lístek, označení)",
-                        "en": "Operating documentation (Sections 13, 14, 14a, rate list, signage)"
-                    },
-                    "checked": true
-                },
-                {
-                    "text": {
-                        "cs": "Směrnice pro hotovost a oběživo vč. postupu u padělků",
-                        "en": "Cash and currency handling policy incl. counterfeit procedure"
-                    },
-                    "checked": true
-                },
-                {
-                    "text": {
-                        "cs": "Evidence směnárenských obchodů a pravidla archivace",
-                        "en": "Records of exchange transactions and archiving rules"
-                    },
-                    "checked": true
-                },
-                {
-                    "text": {
-                        "cs": "Reklamační řád, GDPR dokumentace a whistleblowing",
-                        "en": "Complaints rules, GDPR documentation and whistleblowing"
-                    },
-                    "checked": true
-                },
-                {
-                    "text": {
-                        "cs": "AML/CFT školení pracovníků vč. osvědčení a evidence (§ 23)",
-                        "en": "AML/CFT staff training incl. certificates and records (Section 23)"
-                    },
-                    "checked": true
-                },
-                {
-                    "text": {
-                        "cs": "Fyzická kontrola provozovny před spuštěním vč. zkušební směny",
-                        "en": "Pre-launch on-site inspection incl. a test exchange"
-                    },
-                    "checked": true
-                },
-                {
-                    "text": {
-                        "cs": "Následná kontrola 1 měsíc po spuštění + protokol",
-                        "en": "Follow-up inspection 1 month after launch + report"
-                    },
-                    "checked": true
+                    "items": [
+                        {
+                            "text": {
+                                "cs": "Kontrolní check-list před spuštěním provozu",
+                                "en": "Pre-launch compliance check-list"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Fyzická kontrola provozovny před spuštěním vč. zkušební směny",
+                                "en": "Pre-launch on-site inspection incl. a test exchange"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Následná kontrola 1 měsíc po spuštění + protokol",
+                                "en": "Follow-up inspection 1 month after launch + report"
+                            },
+                            "checked": true
+                        }
+                    ]
                 }
             ]
         }
@@ -543,7 +639,7 @@
             }
         },
         {
-            "icon": "/images/argumentIcons/safebox.svg",
+            "icon": "/images/argumentIcons/pep-check.svg",
             "title": {
                 "cs": "AML/CFT & PEP check",
                 "en": "AML/CFT & PEP check"

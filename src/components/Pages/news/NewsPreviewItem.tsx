@@ -17,11 +17,11 @@ export const NewsPreviewItem: FC<{ newsItem: NewsItem }> = ({ newsItem }) => {
 	const stats = useMemo(() => readingTime(documentToPlainTextString(t(newsItem.text))), [newsItem]);
 
 	return (
-		<div className="flex flex-col justify-between h-full space-y-6">
+		<div className="flex flex-col justify-between h-full space-y-6 border-t-4 border-mint pt-6">
 				<Link href={ '/aktuality/' + newsItem.slug[defaultLocale as Locale] }>
 					<div className={c("space-y-4", "md:flex md:flex-col-reverse")}>
 						<div className={c("flex items-center space-x-12", "md:justify-center md:mt-5")}>
-							<span>{dateStringToDateFormat(newsItem.date[defaultLocale as Locale] as string, locale)}</span>
+							<span className="text-mint-dark font-semibold">{dateStringToDateFormat(newsItem.date[defaultLocale as Locale] as string, locale)}</span>
 							<ReadingTime stats={stats} />
 			        	</div>
 						<h3 className={c("text-3xl font-bold cursor-pointer", "md:text-2xl")}>{t(newsItem.name)}</h3>

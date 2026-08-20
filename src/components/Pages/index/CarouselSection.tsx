@@ -43,7 +43,7 @@ const CarouselSection: FC<{ sectionKey: typeof components[number] }> = ({ sectio
 					</div>
 					<h1
 						dangerouslySetInnerHTML={{ __html: t(title) }}
-						className={c('text-[54px] font-bold leading-normal max-w-4xl', 'md:text-[40px]')}
+						className={c('text-[54px] font-bold leading-normal whitespace-nowrap', '3xl:text-[46px]', '2xl:text-[40px]', 'xl:text-[34px]', 'lg:text-[36px] lg:whitespace-normal', 'md:text-[30px]')}
 					/>
 					<p className="max-w-xl min-h-header-mobile md:mx-auto md:text-center">
 						{t(subtitle)}

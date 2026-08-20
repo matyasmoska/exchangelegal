@@ -1,4 +1,4 @@
-import React, { FC, useRef } from 'react'
+import React, { FC, useRef, useState } from 'react'
 import { Fade } from 'react-awesome-reveal'
 import Link from 'next/link'
 import { c } from '../../../services/misc'
@@ -7,6 +7,97 @@ import { useTranslations } from '../../../hooks/useTranslations'
 import { ArrowDown, ArrowRight, CloseIcon, LonelyCheckmarkIcon } from '../../Layout/Icons'
 
 import data from '../../../data/pages/arguments.json'
+
+
+type PricingVariant = typeof data.pricingVariants[number]
+
+const PricingCard: FC<{ variant: PricingVariant, buttonType: 'basic' | 'secondary' | 'light' }> = ({ variant, buttonType }) => {
+	const t = useTranslations<string>()
+	const { title, text, price, priceNote, buttonText, buttonLink, recommended, itemGroups } = variant
+	const [openGroups, setOpenGroups] = useState<number[]>([0])
+
+	const toggle = (index: number) =>
+		setOpenGroups((prev) => (prev.includes(index) ? prev.filter((i) => i !== index) : [...prev, index]))
+
+	return (
+		<div
+			className={c(
+				'h-full flex flex-col space-y-6 p-6 shadow-tilearg border borderGradient',
+				'md:max-w-md md:mx-auto',
+				recommended && 'bg-dark-blue text-white'
+			)}
+		>
+			<div className="flex flex-wrap gap-4 items-center md:justify-center">
+				<h3 className="text-xl font-semibold">{t(title)}</h3>
+				{recommended && <div className="bg-mint text-dark-blue text-sm font-semibold rounded-3xl px-2 py-1">{t(data.recommending)}</div>}
+			</div>
+			<p className="min-h-header-mobile md:min-h-0 md:text-center">{t(text)}</p>
+			<p className="text-4xl md:text-center">
+				{t(price)}
+				<span className={c('text-xl', !recommended && 'text-warm-grey')}> {t(priceNote)}</span>
+			</p>
+			<Link href={buttonLink}>
+				<Button type={buttonType} className="font-semibold px-6 py-2">
+					{t(buttonText)}
+				</Button>
+			</Link>
+
+			<div className="space-y-2">
+				{itemGroups.map((group, groupIndex) => {
+					const isOpen = openGroups.includes(groupIndex)
+					const included = group.items.filter(({ checked }) => checked).length
+					const total = group.items.length
+					const none = included === 0
+
+					return (
+						<div key={t(group.title)} className={c('border rounded-lg overflow-hidden', recommended ? 'border-white/30' : 'border-dark-grey')}>
+							<button
+								type="button"
+								onClick={() => toggle(groupIndex)}
+								aria-expanded={isOpen}
+								className={c(
+									'w-full flex items-center gap-3 px-4 py-3 text-left transition',
+									recommended ? 'hover:bg-white/10' : 'hover:bg-light-blue'
+								)}
+							>
+								<span className={c('flex-grow font-semibold', none && (recommended ? 'opacity-60' : 'text-warm-grey'))}>
+									{t(group.title)}
+								</span>
+								<span
+									className={c(
+										'text-sm font-semibold rounded-full px-2 py-0.5 flex-shrink-0',
+										none ? 'bg-no-bg text-no' : 'bg-ok-bg text-ok'
+									)}
+								>
+									{included}/{total}
+								</span>
+								<ArrowDown className={c('w-4 h-4 flex-shrink-0 transform transition-transform', isOpen && 'rotate-180')} />
+							</button>
+
+							{isOpen && (
+								<div className={c('px-4 pb-4 pt-1 space-y-3', recommended ? 'border-t border-white/20' : 'border-t border-dark-grey')}>
+									{group.items.map(({ checked, text: itemText }) => (
+										<div key={t(itemText)} className="flex items-start">
+											{checked ? (
+												<LonelyCheckmarkIcon className="w-6 h-6 mr-3 mt-0.5 p-1 rounded-full flex-shrink-0 bg-ok-bg text-ok" />
+											) : (
+												<CloseIcon className="w-6 h-6 mr-3 mt-0.5 p-1.5 rounded-full flex-shrink-0 bg-no-bg text-no" />
+											)}
+											<p
+												className={c('text-sm leading-snug', !checked && (recommended ? 'opacity-60' : 'text-warm-grey'))}
+												dangerouslySetInnerHTML={{ __html: t(itemText) }}
+											/>
+										</div>
+									))}
+								</div>
+							)}
+						</div>
+					)
+				})}
+			</div>
+		</div>
+	)
+}
 
 export const OptionsSection: FC<{ hideArrow?: boolean, className?: string }> = ({ hideArrow, className }) => {
 	const t = useTranslations<string>()
@@ -91,7 +182,7 @@ const ArgumentsSection: FC = () => {
 				<Fade damping={0.5} duration={500} cascade triggerOnce>
 					{data.funds.map(({ text, title }) => (
 						<div key={t(title)} className="space-y-7">
-							<h2 dangerouslySetInnerHTML={{ __html: t(title) }} className="font-semibold text-3xl leading-tight" />
+							<h2 dangerouslySetInnerHTML={{ __html: t(title) }} className="font-semibold text-3xl leading-tight text-mint-dark" />
 							<p dangerouslySetInnerHTML={{ __html: t(text) }} className="max-w-[336px] mx-auto" />
 						</div>
 					))}
@@ -114,45 +205,12 @@ const ArgumentsSection: FC = () => {
 			</Fade>
 			<div className={c('grid grid-cols-3 gap-16', 'lg:grid-cols-1 lg:gap-8')}>
 				<Fade damping={0.5} duration={500} cascade triggerOnce>
-					{data.pricingVariants.map(({ title, text, price, priceNote, buttonText, buttonLink, recommended, items }, i, arr) => (
-						<div
-							key={t(title)}
-							className={c(
-								'h-full space-y-6 p-6 shadow-tilearg border borderGradient',
-								'md:max-w-md md:mx-auto',
-								recommended && 'bg-dark-blue text-white'
-							)}
-						>
-							<div className="flex flex-wrap gap-4 items-center md:justify-center">
-								<h3 className="text-xl font-semibold">{t(title)}</h3>
-								{recommended && <div className="bg-mint text-dark-blue text-sm font-semibold rounded-3xl px-2 py-1">{t(data.recommending)}</div>}
-							</div>
-							<p className="min-h-header-mobile md:min-h-0 md:text-center">{t(text)}</p>
-							<p className="text-4xl md:text-center">
-								{t(price)}
-								<span className={c('text-xl', !recommended && 'text-warm-grey')}> {t(priceNote)}</span>
-							</p>
-							<Link href={buttonLink}>
-								<Button
-									type={i === arr.length - 1 ? 'basic' : recommended ? 'light' : 'secondary'}
-									className="font-semibold px-6 py-2"
-								>
-									{t(buttonText)}
-								</Button>
-							</Link>
-							<>
-								{items.map(({ checked, text }) => (
-									<div key={t(text)} className="flex items-center">
-										{checked ? (
-											<LonelyCheckmarkIcon className="w-8 h-8 mr-6 p-1.5 rounded-full flex-shrink-0 bg-ok-bg text-ok" />
-										) : (
-											<CloseIcon className="w-8 h-8 mr-6 p-2 rounded-full flex-shrink-0 bg-no-bg text-no" />
-										)}
-										<p dangerouslySetInnerHTML={{ __html: t(text) }} />
-									</div>
-								))}
-							</>
-						</div>
+					{data.pricingVariants.map((variant, i, arr) => (
+						<PricingCard
+							key={t(variant.title)}
+							variant={variant}
+							buttonType={i === arr.length - 1 ? 'basic' : variant.recommended ? 'light' : 'secondary'}
+						/>
 					))}
 				</Fade>
 			</div>

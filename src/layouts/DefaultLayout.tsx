@@ -33,7 +33,9 @@ const DefaultLayout: FC = ({ children }) => {
 		<div className="text-dark-blue">
 			<Head>		
 				<title>smenarny.legal</title>
-				<link rel="icon" href="/favicon.ico" />
+				<link rel="icon" href="/favicon.ico?v=2" sizes="any" />
+				<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+				<meta name="theme-color" content="#110756" />
 				{ process.env.NODE_ENV === 'production' && <script dangerouslySetInnerHTML={{ __html: GA_SCRIPT_DEFAULT }} />}
 				<script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} />
 
