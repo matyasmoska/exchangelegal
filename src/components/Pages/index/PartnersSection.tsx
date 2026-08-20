@@ -14,7 +14,7 @@ const PartnersSection: FC = () => {
 			<div className={c('flex justify-between items-center gap-x-8', 'md:flex-col md:items-center md:space-y-16')}>
 				<Fade damping={0.5} duration={500} cascade triggerOnce>
 
-					<a href="https://lei-ceska.cz/?affiliate_code=15zisif" target="_blank" rel="noreferrer">
+					<a href="https://lei-ceska.cz/" target="_blank" rel="noreferrer">
 						<img alt="lei-ceska-logo" className="max-h-14" src={'/images/lei-ceska-fin.png'} />
 					</a>
 
@@ -26,12 +26,8 @@ const PartnersSection: FC = () => {
 						<img alt="ceska-advokatni-komora-logo" className="max-h-14" src={'/images/cak-logo-15.jpg'} />
 					</a>
 
-					<a href="http://www.moskamurad.legal" target="_blank" rel="noreferrer">
-						<img alt="moskamurad-logo" className="max-h-14" src={'/images/moska-murad.png'} />
-					</a>
-
-					<a href="https://www.advokatniuschova.cz/" target="_blank" rel="noreferrer">
-						<img alt="advokatni-uschova-logo" className="max-h-14" src={'/images/logo-advokatni-uschova.svg'} />
+					<a href="https://www.peers.law" target="_blank" rel="noreferrer">
+						<img alt="peers-logo" className="max-h-14" src={'/images/peers-logo.png'} />
 					</a>
 
 				</Fade>

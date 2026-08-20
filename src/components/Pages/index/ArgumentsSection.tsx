@@ -91,7 +91,7 @@ const ArgumentsSection: FC = () => {
 				<Fade damping={0.5} duration={500} cascade triggerOnce>
 					{data.funds.map(({ text, title }) => (
 						<div key={t(title)} className="space-y-7">
-							<h2 dangerouslySetInnerHTML={{ __html: t(title) }} className="font-semibold text-5xl leading-tight" />
+							<h2 dangerouslySetInnerHTML={{ __html: t(title) }} className="font-semibold text-3xl leading-tight" />
 							<p dangerouslySetInnerHTML={{ __html: t(text) }} className="max-w-[336px] mx-auto" />
 						</div>
 					))}
@@ -125,7 +125,7 @@ const ArgumentsSection: FC = () => {
 						>
 							<div className="flex flex-wrap gap-4 items-center md:justify-center">
 								<h3 className="text-xl font-semibold">{t(title)}</h3>
-								{recommended && <div className="bg-[#FFFFFFB2] text-dark-blue text-sm rounded-3xl px-2 py-1">{t(data.recommending)}</div>}
+								{recommended && <div className="bg-mint text-dark-blue text-sm font-semibold rounded-3xl px-2 py-1">{t(data.recommending)}</div>}
 							</div>
 							<p className="min-h-header-mobile md:min-h-0 md:text-center">{t(text)}</p>
 							<p className="text-4xl md:text-center">
@@ -144,9 +144,9 @@ const ArgumentsSection: FC = () => {
 								{items.map(({ checked, text }) => (
 									<div key={t(text)} className="flex items-center">
 										{checked ? (
-											<LonelyCheckmarkIcon className="w-8 h-8 mr-6 p-1.5 rounded-full flex-shrink-0 bg-[#E8EAF2] text-dark-blue" />
+											<LonelyCheckmarkIcon className="w-8 h-8 mr-6 p-1.5 rounded-full flex-shrink-0 bg-ok-bg text-ok" />
 										) : (
-											<CloseIcon className="w-8 h-8 mr-6 p-2 rounded-full flex-shrink-0 bg-[#F5F5F5] text-black" />
+											<CloseIcon className="w-8 h-8 mr-6 p-2 rounded-full flex-shrink-0 bg-no-bg text-no" />
 										)}
 										<p dangerouslySetInnerHTML={{ __html: t(text) }} />
 									</div>

@@ -19,13 +19,13 @@
   .hamburger .hamburger-inner,
   .hamburger .hamburger-inner::before,
   .hamburger .hamburger-inner::after {
-    background-color: #223a7b; 
+    background-color: #110756; 
 }
 
 .hamburger-inner {
   display: block;
   top: 50%; 
-  color: #223a7b;
+  color: #110756;
   position: relative;
   top: 8px;
 }

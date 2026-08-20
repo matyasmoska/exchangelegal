@@ -96,28 +96,28 @@
                 "en": "<em>CNB licence</em>"
             },
             "text": {
-                "cs": "Směnárenskou činnost lze provozovat jen s <strong>povolením k činnosti směnárníka</strong> a zápisem v registru směnárníků ČNB.",
-                "en": "Currency exchange may only be carried out with a <strong>bureau-de-change licence</strong> and an entry in the CNB register of operators."
+                "cs": "Směnárenskou činnost lze provozovat pouze na základě <strong>povolení k činnosti směnárníka</strong> a zápisu do registru směnárníků vedeného ČNB.",
+                "en": "Currency exchange may only be carried out on the basis of a <strong>bureau-de-change licence</strong> and an entry in the CNB register of operators."
             }
         },
         {
             "title": {
-                "cs": "<em>3 hodiny</em>",
-                "en": "<em>3 hours</em>"
+                "cs": "<em>AML/CFT dokumentace<br/>a AML procesy</em>",
+                "en": "<em>AML/CFT documentation<br/>and AML processes</em>"
             },
             "text": {
-                "cs": "Zákazník může od směny do částky 1 000 EUR <strong>odstoupit do 3 hodin</strong> – směnárna musí storno provést.",
-                "en": "The customer may <strong>withdraw within 3 hours</strong> from an exchange up to EUR 1,000 – the office must carry out the reversal."
+                "cs": "Směnárník je povinnou osobou – potřebuje <strong>SVZ, hodnocení rizik</strong>, identifikaci a kontrolu klienta, PEP a sankční screening i pravidelné školení personálu.",
+                "en": "The operator is an obliged entity – it needs an <strong>internal AML policy, risk assessment</strong>, customer identification and due diligence, PEP and sanctions screening and regular staff training."
             }
         },
         {
             "title": {
-                "cs": "<em>1 000 EUR</em>",
-                "en": "<em>EUR 1,000</em>"
+                "cs": "<em>Provozní dokumentace<br/>a procesy</em>",
+                "en": "<em>Operating documentation<br/>and processes</em>"
             },
             "text": {
-                "cs": "Od obchodu v hodnotě <strong>1 000 EUR</strong> musí směnárna provádět <strong>identifikaci klienta</strong> podle AML zákona.",
-                "en": "From a transaction worth <strong>EUR 1,000</strong>, the office must perform <strong>customer identification</strong> under the AML Act."
+                "cs": "Provozovna se neobejde bez <strong>kurzovního lístku, předsmluvních informací</strong> a dokladu o obchodu, postupu při odstoupení a řádné evidence obchodů.",
+                "en": "The premises cannot do without an <strong>exchange rate list, pre-contractual information</strong> and a transaction receipt, a withdrawal procedure and proper transaction records."
             }
         }
     ],

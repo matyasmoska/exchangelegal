@@ -62,7 +62,7 @@ const MainCarousel: FC<{ news: NewsItem[] }> = ({ news }) => {
 						onClick={() => setCurrentItemIndex(index)}
 						className={c(
 							'w-2.5 h-2.5 rounded-full',
-							currentItemIndex === index ? 'bg-wine-primary' : 'bg-white cursor-pointer'
+							currentItemIndex === index ? 'bg-mint' : 'bg-white cursor-pointer'
 						)}
 					/>
 				))}

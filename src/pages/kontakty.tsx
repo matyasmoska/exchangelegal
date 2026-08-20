@@ -101,7 +101,7 @@ export default function Contact () {
             title="Mapa"
      className="w-2/3 h-auto rounded-md shadow-inner"
      style={{ aspectRatio: '3 / 2', border: 0 }}
-            src="https://maps.google.com/maps?width=533&amp;height=400&amp;hl=cs&amp;q=Na%20Dolinách%20153/22,%20Podol%C3%AD,%20147%2000%20Praha%204&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            src="https://maps.google.com/maps?width=533&amp;height=400&amp;hl=cs&amp;q=City%20Tower%2C%20Hv%C4%9Bzdova%201716%2F2b%2C%20Nusle%2C%20140%2000%20Praha%204&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
           />
 
         </div>

@@ -41,12 +41,12 @@ h2 > em {
 
 .borderGradient {
     border-image-slice: 1;
-    border-image-source: conic-gradient(from 180deg at 50% 50%, #21397B 0deg, rgba(8, 24, 89, 0) 360deg);
+    border-image-source: conic-gradient(from 180deg at 50% 50%, #110756 0deg, rgba(8, 24, 89, 0) 360deg);
 }
 
 .borderGradientLinear {
     border-image-slice: 1;
-    border-image-source: linear-gradient(90deg, #F2F2F7 0%, #21397B 100%);
+    border-image-source: linear-gradient(90deg, #F2F2F7 0%, #110756 100%);
 }
 
 .underlineOffset {

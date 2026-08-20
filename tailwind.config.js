@@ -27,16 +27,23 @@ module.exports = {
       },
       colors: {
         wine: {
-          primary: '#a73933',
-          'primary-hover': '#4d001a'
+          primary: '#110756',
+          'primary-hover': '#2A1C86'
         },
         'light-black': '#7B7B7B',
         'light-grey': '#F8F8F8',
         'warm-grey': '#868686',
         'dark-grey': '#F1F2F4',
-        'light-blue': '#E6E8F2',
-        'dark-blue': '#223a7b',
-        'light-green': '#34C759'
+        'light-blue': '#E4FAF8',
+        'dark-blue': '#110756',
+        'light-green': '#34C759',
+        'mint': '#78E1DC',
+        'mint-dark': '#4FCFC8',
+        'slate-blue': '#487A9C',
+        'ok': '#12796A',
+        'ok-bg': '#D6F4F0',
+        'no': '#C2453F',
+        'no-bg': '#FAE7E5'
       },
       fontFamily: {
         'header': ['"Source Serif Pro"', ...defaultTheme.fontFamily.serif],

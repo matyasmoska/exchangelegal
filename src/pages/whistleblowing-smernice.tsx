@@ -59,7 +59,7 @@ keywords="směnárna, založení směnárny, povolení k činnosti směnárníka
 						/>
 						<div
 							className={c(
-								'absolute top-0 left-0 z-10 w-full h-full from-dark-blue via-[#021C62A6] bg-gradient-to-r to-transparent',
+								'absolute top-0 left-0 z-10 w-full h-full from-dark-blue via-[#11075699] bg-gradient-to-r to-transparent',
 								'md:to-dark-blue md:opacity-80'
 							)}
 						/>

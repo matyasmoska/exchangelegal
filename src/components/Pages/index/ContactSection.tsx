@@ -48,10 +48,10 @@ const ContactSection = () => {
 				<iframe
 					width="100%"
 					height="100%"
-					title="Na Dolinách 153/22, Podolí, 147 00 Praha 4"
+					title="Hvězdova 1716/2b, Nusle, 140 00 Praha 4"
 					style={{ border: 0 }}
 					loading="lazy"
-					src="https://maps.google.com/maps?width=533&amp;height=400&amp;hl=en&amp;q=Na Dolinách 153/22, Podolí, 147 00 Praha 4&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+					src="https://maps.google.com/maps?width=533&amp;height=400&amp;hl=en&amp;q=City%20Tower%2C%20Hv%C4%9Bzdova%201716%2F2b%2C%20Nusle%2C%20140%2000%20Praha%204&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
 				/>
 			</div>
 		</div>

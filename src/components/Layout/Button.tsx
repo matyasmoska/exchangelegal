@@ -16,7 +16,7 @@ const Button: FC<ButtonProps> = ({ type, className, onClick, disabled = false, c
 			case 'secondary':
 				return 'bg-transparent text-wine-primary hover:text-white hover:bg-wine-primary-hover border-wine-primary hover:border-wine-primary-hover'
 			case  'light':
-				return 'bg-transparent border border-white text-white hover:bg-white hover:text-dark-blue'
+				return 'bg-transparent border border-mint text-mint hover:bg-mint hover:text-dark-blue'
 		}
 	}
 

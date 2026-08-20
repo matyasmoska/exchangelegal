@@ -13,9 +13,9 @@
             "en": ""
         },
         "address": {
-            "firstLine1": "MOSKA MURAD advokátní kancelář, s.r.o.",
+            "firstLine1": "PEERS advokátní kancelář, s.r.o.",
             "firstLine2": "Mgr. Matyáš Moska, advokát, č. ev. ČAK 19149",
-            "secondLine": "Na Dolinách 153/22, 140 00 Praha 4"
+            "secondLine": "City Tower, Hvězdova 1716/2b, Nusle, 140 00 Praha 4, 23. patro"
         },
         "secondDescriptionForHomePage": {
             "cs": "Jsme specialisté na směnárny a AML compliance.",
@@ -32,12 +32,10 @@
         "url": "smenarny.legal",
         "phoneNumber": "+420 605 006 807",
         "phoneNumberLink": "00420605006807",
-        "email": "matyas@moskamurad.legal",
-        "emailLink": "matyas@moskamurad.legal",
+        "email": "matyas.moska@peers.law",
+        "emailLink": "matyas.moska@peers.law",
         "links": {
-            "facebook": "https://www.facebook.com/15zisif",
-            "twitter": "https://twitter.com/15zisif",
-            "linkedIn": "https://www.linkedin.com/company/moska-murad/"
+            "linkedIn": "https://www.linkedin.com/company/81336235/"
         }
     },
     "cryptoImage": {
@@ -45,7 +43,7 @@
         "en": "/images/crypto_white_eng.svg"
     },
     "allRightsReserved": {
-        "cs": "© 2025 všechna práva vyhrazena",
-        "en": "© 2025 all rights reserved"
+        "cs": "© 2026 všechna práva vyhrazena",
+        "en": "© 2026 all rights reserved"
     }
 }
