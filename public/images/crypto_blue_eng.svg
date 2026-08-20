@@ -7,8 +7,8 @@
 	.st0{fill:#FFFFFF;}
 	.st1{clip-path:url(#SVGID_2_);}
 	.st2{clip-path:url(#SVGID_4_);}
-	.st3{fill:#C8C8C8;}
-	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#C8C8C8;}
+	.st3{fill:#4FCFC8;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#4FCFC8;}
 	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
 	.st6{opacity:0.6;}
 	.st7{clip-path:url(#SVGID_6_);}
@@ -17,7 +17,7 @@
 	.st10{clip-path:url(#SVGID_10_);}
 	.st11{clip-path:url(#SVGID_12_);}
 	.st12{fill:#FFFFFF;}
-	.st13{fill:#223A7B;}
+	.st13{fill:#110756;}
 </style>
 <path class="st13" d="M24,0h817c13.3,0,24,10.7,24,24v97c0,13.3-10.7,24-24,24H24c-13.3,0-24-10.7-24-24V24C0,10.7,10.7,0,24,0z"/>
 <g>

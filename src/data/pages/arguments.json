@@ -53,28 +53,28 @@
     },
     "options": [
         {
-            "icon": "/images/argumentIcons/calendar.svg",
+            "icon": "/images/argumentIcons/licence-cnb.svg",
             "text": {
                 "cs": "Provozovat směnu valut legálně, s povolením ČNB a zápisem v registru směnárníků.",
                 "en": "Exchange currencies legally, with a CNB licence and an entry in the register of operators."
             }
         },
         {
-            "icon": "/images/argumentIcons/growth.svg",
+            "icon": "/images/argumentIcons/kurzove-rozpeti.svg",
             "text": {
                 "cs": "Vydělávat na kurzovém rozpětí a úplatě – s plnou kontrolou nad kurzovní politikou.",
                 "en": "Earn on the exchange spread and fees – with full control over your rate policy."
             }
         },
         {
-            "icon": "/images/argumentIcons/ethereum.svg",
+            "icon": "/images/argumentIcons/provozovna.svg",
             "text": {
                 "cs": "Nabídnout směnu jako doplňkovou službu k hotelu, e-shopu, obchodu či cestovní agentuře.",
                 "en": "Offer exchange as an ancillary service to your hotel, e-shop, store or travel agency."
             }
         },
         {
-            "icon": "/images/argumentIcons/test.svg",
+            "icon": "/images/argumentIcons/compliance.svg",
             "text": {
                 "cs": "Přenechat compliance, AML a reporting ČNB nám – a věnovat se podnikání.",
                 "en": "Leave compliance, AML and CNB reporting to us – and focus on your business."

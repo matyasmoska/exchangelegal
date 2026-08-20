@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none" stroke="#110756" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><title>Doplňková služba</title>
+<path d="M10 24h44v30a2 2 0 0 1-2 2H12a2 2 0 0 1-2-2V24Z"/>
+<path d="M8 24l4-12h40l4 12" fill="#4FCFC8" fill-opacity="0.25"/>
+<path d="M26 56V40h12v16"/>
+<path d="M18 32h6M40 32h6"/>
+</svg>
