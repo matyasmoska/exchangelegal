@@ -6,7 +6,7 @@ import { ServiceItem, ServiceItemType } from '../components/Pages/services/Servi
 import useServicesForm from '../components/Pages/services/hooks/useServicesForm'
 import { c } from '../services/misc'
 import OrderButton from '../components/Pages/services/OrderButton'
-import ServicesForm from '../components/Pages/services/ServícesForm'
+import ServicesForm from '../components/Pages/services/ServicesForm'
 import { useVisible } from 'react-hooks-visible'
 import { useTranslations } from '../hooks/useTranslations'
 import { trackAddToCart } from '../components/Pages/services/serviceHelpers'

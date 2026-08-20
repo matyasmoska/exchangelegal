@@ -10,7 +10,7 @@ import servicesData from '../data/pages/services.json'
 import useServicesForm from "../components/Pages/services/hooks/useServicesForm";
 import { trackViewItems } from "../components/Pages/services/serviceHelpers";
 import OrderButton from "../components/Pages/services/OrderButton";
-import ServicesForm from "../components/Pages/services/ServícesForm";
+import ServicesForm from "../components/Pages/services/ServicesForm";
 import { useVisible } from "react-hooks-visible";
 
 import Button from "../components/Layout/Button";
