@@ -4,48 +4,48 @@
         "en": "Find out more"
     },
     "questionsTitle": {
-        "cs": "Je fond dle <em>§ 15 ZISIF</em> právě pro Vás?",
-        "en": "Is a fund under <em>§ 15 ZISIF</em> right for you?"
+        "cs": "Je vlastní <em>směnárna</em> právě pro Vás?",
+        "en": "Is your own <em>exchange office</em> right for you?"
     },
     "questions": [
         {
             "text": {
-                "cs": "Máte zájem spravovat cizí prostředky bez náročné regulatorní zátěže?",
-                "en": "Are you interested in managing third-party assets without heavy regulatory burdens?"
+                "cs": "Chcete podnikat ve směně valut 100 % legálně a s povolením ČNB?",
+                "en": "Do you want to run a currency exchange business 100 % legally, with a CNB licence?"
             }
         },
         {
             "text": {
-                "cs": "Chcete podnikat 100 % legálně a transparentně v České republice?",
-                "en": "Do you want to do business 100 % legally and transparently in the Czech Republic?"
+                "cs": "Provozujete hotel, kemp, cestovní agenturu či obchod a chcete zákazníkům směňovat měny?",
+                "en": "Do you run a hotel, campsite, travel agency or shop and want to exchange currencies for your customers?"
             }
         },
         {
             "text": {
-                "cs": "Chcete se vyhnout složitým off-shore strukturám?",
-                "en": "Do you want to avoid complex offshore structures?"
+                "cs": "Chcete rozšířit stávající podnikání o výnosnou doplňkovou službu?",
+                "en": "Do you want to add a profitable ancillary service to your existing business?"
             }
         },
         {
             "text": {
-                "cs": "Máte obavu z vysokých provozních nákladů fondů kvalifikovaných investorů?",
-                "en": "Are you concerned about the high operating costs of qualified-investor funds?"
+                "cs": "Obáváte se složité administrativy, AML povinností a kontrol ČNB?",
+                "en": "Are you worried about the complex paperwork, AML duties and CNB inspections?"
             }
         },
         {
             "text": {
-                "cs": "Nechcete anebo nemůžete začít ihned \"ve velkém\"?",
-                "en": "Do you not want to—or cannot—start \"big\" right away?"
+                "cs": "Chcete mít jistotu, že Vaše směnárna obstojí při kontrolní směně?",
+                "en": "Do you want to be sure your exchange office passes a test purchase?"
             }
         }
     ],
     "questionsResult": {
-        "cs": "...pak jste tu správně. Alternativní fond dle <em>§ 15 ZISIF</em> je přesně pro Vás.",
-        "en": "...then you’re in the right place. An alternative fund under <em>§ 15 ZISIF</em> is exactly what you need."
+        "cs": "...pak jste tu správně. <em>Založení a provoz směnárny</em> s námi zvládnete bez starostí.",
+        "en": "...then you are in the right place. With us, you will <em>set up and run your exchange office</em> without worries."
     },
     "optionsTitle": {
-        "cs": "S alternativním fondem dle <em>§ 15 ZISIF</em> můžete:",
-        "en": "With an alternative fund under <em>§ 15 ZISIF</em> you can:"
+        "cs": "S vlastní <em>směnárnou</em> můžete:",
+        "en": "With your own <em>exchange office</em> you can:"
     },
     "optionsImage": {
         "cs": "/images/investor-diagram.svg",
@@ -55,77 +55,77 @@
         {
             "icon": "/images/argumentIcons/calendar.svg",
             "text": {
-                "cs": "Spravovat majetek investorů legálně a s maximální svobodou.",
-                "en": "Manage investors’ assets legally and with maximum freedom."
+                "cs": "Provozovat směnu valut legálně, s povolením ČNB a zápisem v registru směnárníků.",
+                "en": "Exchange currencies legally, with a CNB licence and an entry in the register of operators."
             }
         },
         {
             "icon": "/images/argumentIcons/growth.svg",
             "text": {
-                "cs": "Velmi efektivně provozovat fond – s minimálními počátečními a průběžnými náklady.",
-                "en": "Run a fund very efficiently—with minimal initial and ongoing costs."
+                "cs": "Vydělávat na kurzovém rozpětí a úplatě – s plnou kontrolou nad kurzovní politikou.",
+                "en": "Earn on the exchange spread and fees – with full control over your rate policy."
             }
         },
         {
             "icon": "/images/argumentIcons/ethereum.svg",
             "text": {
-                "cs": "Investovat do libovolných tříd aktiv, jako jsou například kryptoměny, zcela bez omezení.",
-                "en": "Invest in any asset class, such as cryptocurrencies, completely without restrictions."
+                "cs": "Nabídnout směnu jako doplňkovou službu k hotelu, e-shopu, obchodu či cestovní agentuře.",
+                "en": "Offer exchange as an ancillary service to your hotel, e-shop, store or travel agency."
             }
         },
         {
             "icon": "/images/argumentIcons/test.svg",
             "text": {
-                "cs": "Vyhnout se vysokým regulatorním nárokům (odpovědné osoby, fondový kapitál, compliance, reporting apod.)",
-                "en": "Avoid high regulatory requirements (responsible persons, fund capital, compliance, reporting, etc.)"
+                "cs": "Přenechat compliance, AML a reporting ČNB nám – a věnovat se podnikání.",
+                "en": "Leave compliance, AML and CNB reporting to us – and focus on your business."
             }
         }
     ],
     "optionsResult": {
-        "cs": "<em>Využijte těchto výhod</em> a rozvíjejte svůj fond dle Vašich představ!",
-        "en": "<em>Take advantage of these benefits</em> and develop your fund according to your vision!"
+        "cs": "<em>Využijte těchto výhod</em> a rozjeďte směnárnu podle svých představ!",
+        "en": "<em>Take advantage of these benefits</em> and launch the exchange office you envision!"
     },
     "fundsTitle": {
-        "cs": "S alternativním fondem dle <em>§ 15 ZISIF</em> můžete spravovat prostředky:",
-        "en": "With an alternative fund under <em>§ 15 ZISIF</em> you can manage funds of:"
+        "cs": "Co musí <em>směnárna</em> podle zákona splňovat:",
+        "en": "What an <em>exchange office</em> must comply with by law:"
     },
     "funds": [
         {
             "title": {
-                "cs": "<em>20 osob</em>",
-                "en": "<em>20 persons</em>"
+                "cs": "<em>Povolení ČNB</em>",
+                "en": "<em>CNB licence</em>"
             },
             "text": {
-                "cs": "Pro maximálně <strong>20 osob</strong> s úzkou vazbou (rodinnou, přátelskou, obchodní).",
-                "en": "For up to <strong>20 persons</strong> with a close bond (family, friends, business)."
+                "cs": "Směnárenskou činnost lze provozovat jen s <strong>povolením k činnosti směnárníka</strong> a zápisem v registru směnárníků ČNB.",
+                "en": "Currency exchange may only be carried out with a <strong>bureau-de-change licence</strong> and an entry in the CNB register of operators."
             }
         },
         {
             "title": {
-                "cs": "<em>125 tis. EUR</em>",
-                "en": "<em>125 k EUR</em>"
+                "cs": "<em>3 hodiny</em>",
+                "en": "<em>3 hours</em>"
             },
             "text": {
-                "cs": "Pro <strong>libovolný počet</strong> kvalifikovaných investorů s investicí nad 125 000 EUR.",
-                "en": "For <strong>any number</strong> of qualified investors with an investment above 125,000 EUR."
+                "cs": "Zákazník může od směny do částky 1 000 EUR <strong>odstoupit do 3 hodin</strong> – směnárna musí storno provést.",
+                "en": "The customer may <strong>withdraw within 3 hours</strong> from an exchange up to EUR 1,000 – the office must carry out the reversal."
             }
         },
         {
             "title": {
-                "cs": "<em>100 mil. EUR</em>",
-                "en": "<em>100 million EUR</em>"
+                "cs": "<em>1 000 EUR</em>",
+                "en": "<em>EUR 1,000</em>"
             },
             "text": {
-                "cs": "V maximální výši <strong>100 000 000 EUR</strong> (nebo ekvivalent v jiné měně).",
-                "en": "Up to a maximum of <strong>100,000,000 EUR</strong> (or the equivalent in another currency)."
+                "cs": "Od obchodu v hodnotě <strong>1 000 EUR</strong> musí směnárna provádět <strong>identifikaci klienta</strong> podle AML zákona.",
+                "en": "From a transaction worth <strong>EUR 1,000</strong>, the office must perform <strong>customer identification</strong> under the AML Act."
             }
         }
     ],
     "foundFundButton": {
-        "link": "/zalozeni-alternativniho-fondu-na-klic",
+        "link": "/zalozeni-smenarny-na-klic",
         "text": {
-            "cs": "Chci založit fond",
-            "en": "I want to set up a fund"
+            "cs": "Chci založit směnárnu",
+            "en": "I want to set up an exchange office"
         }
     },
     "recommending": {
@@ -143,12 +143,12 @@
     "pricingVariants": [
         {
             "title": {
-                "cs": "Entry",
-                "en": "Entry"
+                "cs": "Basic",
+                "en": "Basic"
             },
             "text": {
-                "cs": "Ideální pro správce, kteří nemají zkušenosti s compliance a budou mít i nekvalifikované investory",
-                "en": "Ideal for managers with no compliance experience who will also have non-qualified investors"
+                "cs": "Získání povolení ČNB a ohlášení provozovny.",
+                "en": "Obtaining the CNB licence and notifying the premises."
             },
             "price": {
                 "cs": "79 000 Kč",
@@ -167,57 +167,92 @@
             "items": [
                 {
                     "text": {
-                        "cs": "Registrace fondu u ČNB",
-                        "en": "Fund registration with the CNB"
+                        "cs": "Vstupní analýza a prověření podmínek pro udělení povolení",
+                        "en": "Initial analysis and review of the licensing conditions"
                     },
                     "checked": true
                 },
                 {
                     "text": {
-                        "cs": "Smluvní dokumentace a investiční strategie",
-                        "en": "Contractual documentation and investment strategy"
+                        "cs": "Žádost o povolení k činnosti směnárníka u ČNB vč. příloh",
+                        "en": "Bureau-de-change licence application incl. annexes"
                     },
                     "checked": true
                 },
                 {
                     "text": {
-                        "cs": "Investiční dotazník a prohlášení kvalifikovaného investora",
-                        "en": "Investor questionnaire and qualified investor statement"
+                        "cs": "Komunikace s ČNB a odstranění vad žádosti (1–2 kola výzev)",
+                        "en": "Communication with the CNB and remedying application defects (1–2 rounds)"
                     },
                     "checked": true
                 },
                 {
                     "text": {
-                        "cs": "AML dotazníky pro investory (identifikace, kontrola a hodnocení rizik)",
-                        "en": "AML questionnaires for investors (identification, screening and risk assessment)"
+                        "cs": "Ohlášení provozovny ČNB a zápis do seznamu směnárníků",
+                        "en": "Notification of the premises to the CNB and registration"
                     },
                     "checked": true
                 },
                 {
                     "text": {
-                        "cs": "Dokument KID (sdělení klíčových informací) včetně finančně-analytických modelů (výpočet scénářů výkonnosti dle přílohy IV k prováděcímu nařízení PRIIPs)",
-                        "en": "KID (Key Information Document) including financial analytical models (calculation of performance scenarios according to Annex IV of the PRIIPs Implementing Regulation))"
+                        "cs": "Kontrolní check-list před spuštěním provozu",
+                        "en": "Pre-launch compliance check-list"
                     },
                     "checked": true
                 },
                 {
                     "text": {
-                        "cs": "Systém vnitřních zásad a hodnocení rizik AML + nahlášení kontaktní osoby FAÚ",
-                        "en": "Internal AML policy and risk assessment system + notification of contact person to the FAU"
+                        "cs": "Kompletní AML/CFT dokumentace (SVZ, hodnocení rizik, formuláře)",
+                        "en": "Complete AML/CFT documentation (internal policy, risk assessment, forms)"
                     },
-                    "checked": true
+                    "checked": false
                 },
                 {
                     "text": {
-                        "cs": "Dokumenty dle nařízení SFDR pro subjekt, který se nařízením neřídí",
-                        "en": "SFDR-compliant documents for an entity that is not subject to the regulation"
+                        "cs": "Provozní dokumentace (§ 13, § 14, § 14a, kurzovní lístek, označení)",
+                        "en": "Operating documentation (Sections 13, 14, 14a, rate list, signage)"
                     },
-                    "checked": true
+                    "checked": false
                 },
                 {
                     "text": {
-                        "cs": "Založení entity",
-                        "en": "Entity incorporation"
+                        "cs": "Směrnice pro hotovost a oběživo vč. postupu u padělků",
+                        "en": "Cash and currency handling policy incl. counterfeit procedure"
+                    },
+                    "checked": false
+                },
+                {
+                    "text": {
+                        "cs": "Evidence směnárenských obchodů a pravidla archivace",
+                        "en": "Records of exchange transactions and archiving rules"
+                    },
+                    "checked": false
+                },
+                {
+                    "text": {
+                        "cs": "Reklamační řád, GDPR dokumentace a whistleblowing",
+                        "en": "Complaints rules, GDPR documentation and whistleblowing"
+                    },
+                    "checked": false
+                },
+                {
+                    "text": {
+                        "cs": "AML/CFT školení pracovníků vč. osvědčení a evidence (§ 23)",
+                        "en": "AML/CFT staff training incl. certificates and records (Section 23)"
+                    },
+                    "checked": false
+                },
+                {
+                    "text": {
+                        "cs": "Fyzická kontrola provozovny před spuštěním vč. zkušební směny",
+                        "en": "Pre-launch on-site inspection incl. a test exchange"
+                    },
+                    "checked": false
+                },
+                {
+                    "text": {
+                        "cs": "Následná kontrola 1 měsíc po spuštění + protokol",
+                        "en": "Follow-up inspection 1 month after launch + report"
                     },
                     "checked": false
                 }
@@ -225,16 +260,16 @@
         },
         {
             "title": {
-                "cs": "All-in-one",
-                "en": "All-in-one"
+                "cs": "Entry",
+                "en": "Entry"
             },
             "text": {
-                "cs": "Ideální pro začínající správce, kteří nemají zkušenosti a chtějí řešení na klíč včetně matematického modelu fondu a proškolení",
-                "en": "Ideal for new managers with no experience who want a turnkey solution including training"
+                "cs": "Vše z balíčku Basic + kompletní dokumentace pro provoz směnárny.",
+                "en": "Everything in Basic + complete documentation for running the exchange office."
             },
             "price": {
-                "cs": "99 000 Kč",
-                "en": "CZK 99 000"
+                "cs": "114 000 Kč",
+                "en": "CZK 114 000"
             },
             "priceNote": {
                 "cs": "+ DPH",
@@ -249,59 +284,92 @@
             "items": [
                 {
                     "text": {
-                        "cs": "<strong>Vše z balíčku \"Entry\"</strong>",
-                        "en": "<strong>Everything from the \"Entry\" package</strong>"
+                        "cs": "Vstupní analýza a prověření podmínek pro udělení povolení",
+                        "en": "Initial analysis and review of the licensing conditions"
                     },
                     "checked": true
                 },
                 {
                     "text": {
-                        "cs": "AML/CFT školení pro členy orgánů fondu, zaměstnance a spolupracující osoby",
-                        "en": "AML/CFT training for fund officers, employees and associates"
+                        "cs": "Žádost o povolení k činnosti směnárníka u ČNB vč. příloh",
+                        "en": "Bureau-de-change licence application incl. annexes"
                     },
                     "checked": true
                 },
                 {
                     "text": {
-                        "cs": "Školení statutárního orgánu ohledně povinností správce fondu",
-                        "en": "Training of the statutory body on fund manager obligations"
+                        "cs": "Komunikace s ČNB a odstranění vad žádosti (1–2 kola výzev)",
+                        "en": "Communication with the CNB and remedying application defects (1–2 rounds)"
                     },
                     "checked": true
                 },
                 {
                     "text": {
-                        "cs": "20 kreditů do systému PEP check",
-                        "en": "20 credits for the PEP check system"
-                    },
-                    "checked": true
-                },
-
-                {
-                    "text": {
-                        "cs": "Matematický model fondu",
-                        "en": "Mathematical model of the fund"
-                    },
-                    "checked": true
-                },
-                
-                {
-                    "text": {
-                        "cs": "Příprava vzorečků výpočtu NAV, High Watermark apod.",
-                        "en": "Preparation of sample calculations for NAV, High Watermark, etc."
+                        "cs": "Ohlášení provozovny ČNB a zápis do seznamu směnárníků",
+                        "en": "Notification of the premises to the CNB and registration"
                     },
                     "checked": true
                 },
                 {
                     "text": {
-                        "cs": "Automatizované excelové řešení výpočtu NAV, alokačních poměrů investorů",
-                        "en": "Automated excel solution for calculating NAV and investors’ allocation ratios"
+                        "cs": "Kontrolní check-list před spuštěním provozu",
+                        "en": "Pre-launch compliance check-list"
                     },
                     "checked": true
                 },
                 {
                     "text": {
-                        "cs": "Založení entity",
-                        "en": "Entity incorporation"
+                        "cs": "Kompletní AML/CFT dokumentace (SVZ, hodnocení rizik, formuláře)",
+                        "en": "Complete AML/CFT documentation (internal policy, risk assessment, forms)"
+                    },
+                    "checked": true
+                },
+                {
+                    "text": {
+                        "cs": "Provozní dokumentace (§ 13, § 14, § 14a, kurzovní lístek, označení)",
+                        "en": "Operating documentation (Sections 13, 14, 14a, rate list, signage)"
+                    },
+                    "checked": true
+                },
+                {
+                    "text": {
+                        "cs": "Směrnice pro hotovost a oběživo vč. postupu u padělků",
+                        "en": "Cash and currency handling policy incl. counterfeit procedure"
+                    },
+                    "checked": true
+                },
+                {
+                    "text": {
+                        "cs": "Evidence směnárenských obchodů a pravidla archivace",
+                        "en": "Records of exchange transactions and archiving rules"
+                    },
+                    "checked": true
+                },
+                {
+                    "text": {
+                        "cs": "Reklamační řád, GDPR dokumentace a whistleblowing",
+                        "en": "Complaints rules, GDPR documentation and whistleblowing"
+                    },
+                    "checked": true
+                },
+                {
+                    "text": {
+                        "cs": "AML/CFT školení pracovníků vč. osvědčení a evidence (§ 23)",
+                        "en": "AML/CFT staff training incl. certificates and records (Section 23)"
+                    },
+                    "checked": false
+                },
+                {
+                    "text": {
+                        "cs": "Fyzická kontrola provozovny před spuštěním vč. zkušební směny",
+                        "en": "Pre-launch on-site inspection incl. a test exchange"
+                    },
+                    "checked": false
+                },
+                {
+                    "text": {
+                        "cs": "Následná kontrola 1 měsíc po spuštění + protokol",
+                        "en": "Follow-up inspection 1 month after launch + report"
                     },
                     "checked": false
                 }
@@ -309,16 +377,16 @@
         },
         {
             "title": {
-                "cs": "SICAV-ready",
-                "en": "SICAV-ready"
+                "cs": "All-in-one",
+                "en": "All-in-one"
             },
             "text": {
-                "cs": "Plánujete v budoucnu přechod na strukturu SICAV? Založte Váš 15 ZISIF tak, abyste měli přechod na SICAV co nejjednodušší",
-                "en": "Planning to move to a SICAV structure in the future? Set up your § 15 ZISIF so that the transition to SICAV is as easy as possible."
+                "cs": "Vše z balíčku Entry + AML/CFT školení personálu a 2× kontrola provozovny.",
+                "en": "Everything in Entry + AML/CFT staff training and two on-site inspections."
             },
             "price": {
-                "cs": "199 000 Kč",
-                "en": "CZK 199 000"
+                "cs": "139 000 Kč",
+                "en": "CZK 139 000"
             },
             "priceNote": {
                 "cs": "+ DPH",
@@ -328,57 +396,97 @@
                 "cs": "Vybrat balíček",
                 "en": "Select package"
             },
-            "buttonLink": "/zalozeni-alternativniho-fondu-sicav-ready",
+            "buttonLink": "/nase-sluzby",
             "recommended": false,
             "items": [
                 {
                     "text": {
-                        "cs": "<strong>Zařízení dle § 15 ZISIF provozované v režimu struktury SICAV</strong>",
-                        "en": "<strong>A § 15 ZISIF vehicle operated in a SICAV structure regime</strong>"
+                        "cs": "Vstupní analýza a prověření podmínek pro udělení povolení",
+                        "en": "Initial analysis and review of the licensing conditions"
                     },
                     "checked": true
                 },
                 {
                     "text": {
-                        "cs": "<strong>Vše z balíčku \"All-in-one\"</strong>",
-                        "en": "<strong>Everything from the \"All-in-one\" package</strong>"
+                        "cs": "Žádost o povolení k činnosti směnárníka u ČNB vč. příloh",
+                        "en": "Bureau-de-change licence application incl. annexes"
                     },
                     "checked": true
                 },
                 {
                     "text": {
-                        "cs": "Založení entity (a.s.) dle požadavků § 15 a § 15a ZISIF",
-                        "en": "Incorporation of an entity (joint-stock company) under the requirements of § 15 and § 15a ZISIF"
-                    },
-                    "checked": true
-                },
-
-                {
-                    "text": {
-                        "cs": "Matematický model fondu",
-                        "en": "Mathematical model of the fund"
-                    },
-                    "checked": true
-                },
-                
-                {
-                    "text": {
-                        "cs": "kompletní příprava vzorečků výpočtu NAV",
-                        "en": "Complete preparation of NAV calculation templates"
+                        "cs": "Komunikace s ČNB a odstranění vad žádosti (1–2 kola výzev)",
+                        "en": "Communication with the CNB and remedying application defects (1–2 rounds)"
                     },
                     "checked": true
                 },
                 {
                     "text": {
-                        "cs": "kompletní příprava vzorečků výpočtu High Watermark, Performance Fee, Management Fee a dalších",
-                        "en": "Complete preparation of templates for calculating High Watermark, Performance Fee, Management Fee and others"
+                        "cs": "Ohlášení provozovny ČNB a zápis do seznamu směnárníků",
+                        "en": "Notification of the premises to the CNB and registration"
                     },
                     "checked": true
                 },
                 {
                     "text": {
-                        "cs": "Automatizované excelové řešení výpočtu NAV, alokačních poměrů investorů a dalších",
-                        "en": "Automated excel solution for calculating NAV, investors’ allocation ratios and more"
+                        "cs": "Kontrolní check-list před spuštěním provozu",
+                        "en": "Pre-launch compliance check-list"
+                    },
+                    "checked": true
+                },
+                {
+                    "text": {
+                        "cs": "Kompletní AML/CFT dokumentace (SVZ, hodnocení rizik, formuláře)",
+                        "en": "Complete AML/CFT documentation (internal policy, risk assessment, forms)"
+                    },
+                    "checked": true
+                },
+                {
+                    "text": {
+                        "cs": "Provozní dokumentace (§ 13, § 14, § 14a, kurzovní lístek, označení)",
+                        "en": "Operating documentation (Sections 13, 14, 14a, rate list, signage)"
+                    },
+                    "checked": true
+                },
+                {
+                    "text": {
+                        "cs": "Směrnice pro hotovost a oběživo vč. postupu u padělků",
+                        "en": "Cash and currency handling policy incl. counterfeit procedure"
+                    },
+                    "checked": true
+                },
+                {
+                    "text": {
+                        "cs": "Evidence směnárenských obchodů a pravidla archivace",
+                        "en": "Records of exchange transactions and archiving rules"
+                    },
+                    "checked": true
+                },
+                {
+                    "text": {
+                        "cs": "Reklamační řád, GDPR dokumentace a whistleblowing",
+                        "en": "Complaints rules, GDPR documentation and whistleblowing"
+                    },
+                    "checked": true
+                },
+                {
+                    "text": {
+                        "cs": "AML/CFT školení pracovníků vč. osvědčení a evidence (§ 23)",
+                        "en": "AML/CFT staff training incl. certificates and records (Section 23)"
+                    },
+                    "checked": true
+                },
+                {
+                    "text": {
+                        "cs": "Fyzická kontrola provozovny před spuštěním vč. zkušební směny",
+                        "en": "Pre-launch on-site inspection incl. a test exchange"
+                    },
+                    "checked": true
+                },
+                {
+                    "text": {
+                        "cs": "Následná kontrola 1 měsíc po spuštění + protokol",
+                        "en": "Follow-up inspection 1 month after launch + report"
                     },
                     "checked": true
                 }
@@ -397,8 +505,8 @@
                 "en": "Professional team"
             },
             "text": {
-                "cs": "Jsme zkušení advokáti se sídlem v Praze, naší experzitou je finanční právo, mj. zakládání alternativních fondů dle § 15 ZISIF. Založili jsme již přes 50 alternativních fondů. Víme, jaké jsou best practice a standardy trhu.",
-                "en": "We are experienced attorneys based in Prague specialising in financial law, including the formation of alternative funds under § 15 ZISIF. We have set up more than 50 alternative funds and know the market best practices and standards."
+                "cs": "Jsme zkušení advokáti se sídlem v Praze, naší expertizou je finanční právo a regulace finančního trhu – směnárny, AML/CFT a řízení před ČNB. Známe sankční praxi ČNB a víme, na co si dát pozor.",
+                "en": "We are experienced attorneys based in Prague specialising in financial law and financial market regulation – exchange offices, AML/CFT and proceedings before the CNB. We know the CNB's enforcement practice and what to watch out for."
             }
         },
         {
@@ -408,8 +516,8 @@
                 "en": "We are fully dedicated to you"
             },
             "text": {
-                "cs": "Pracujeme rychle a efektivně. V rámci přípravy matematického modelu fondu spolupracujeme se specialisty z největších investičních společností. Samozřejmostí spolupráce s námi je i doporučení na spolehlivé účetní a daňové poradenství.",
-                "en": "We work quickly and efficiently. As part of developing the fund’s mathematical model, we collaborate with specialists from the largest investment firms. Cooperation with us naturally includes referrals to reliable accounting and tax advisers."
+                "cs": "Pracujeme rychle a efektivně. Provedeme Vás celým řízením před ČNB, připravíme provozovnu i personál a zůstaneme Vám k dispozici i po zahájení provozu. Samozřejmostí je doporučení na spolehlivé účetní a daňové poradenství.",
+                "en": "We work quickly and efficiently. We will guide you through the entire CNB proceedings, prepare your premises and staff, and remain available after launch. Referrals to reliable accounting and tax advisers are a matter of course."
             }
         },
         {
@@ -419,8 +527,8 @@
                 "en": "All services under one roof"
             },
             "text": {
-                "cs": "Vše zařídíme, od A až po ZISIF. Založíme společnost, připravíme dokumentaci, zajistíme registraci fondu a pravidelný reporting u ČNB včetně vzorečků výpočtu NAV, Highwater Mark apod. – vše u nás vyřešíte na jednom místě.",
-                "en": "We handle everything from A to ZISIF. We set up the company, prepare all documentation, arrange fund registration and regular reporting to the CNB including NAV, High-Water Mark, etc. calculations—you can solve everything with us in one place."
+                "cs": "Vše zařídíme od A do Z. Založíme společnost, připravíme dokumentaci, zajistíme povolení ČNB, AML compliance, školení, screening i pravidelný reporting – vše u nás vyřešíte na jednom místě.",
+                "en": "We handle everything from A to Z. We set up the company, prepare the documentation, obtain the CNB licence, arrange AML compliance, training, screening and regular reporting – all in one place."
             }
         },
         {
@@ -430,8 +538,8 @@
                 "en": "Fair price"
             },
             "text": {
-                "cs": "Ještě než projekt zahájíme, přesně spočítáme cenu realizace, která je neměnná. Jelikož máme na mnoho typů fondů vytvořené systematické postupy, dokážeme zajistit férové ceny.",
-                "en": "Before we start the project, we calculate the exact implementation cost, which is fixed. Because we have systematic procedures for many fund types, we can offer fair prices."
+                "cs": "Ještě než projekt zahájíme, přesně spočítáme cenu realizace, která je neměnná. Díky systematickým postupům dokážeme zajistit férové ceny.",
+                "en": "Before we start the project, we calculate the exact implementation cost, which is fixed. Thanks to our systematic procedures, we can offer fair prices."
             }
         },
         {
@@ -441,8 +549,8 @@
                 "en": "AML/CFT & PEP check"
             },
             "text": {
-                "cs": "Proškolíme vás na AML/CFT a přípravíme AML dokumentaci. Taktéž doporučíme ověřeného poskytovatele specializovaného softwaru pro AML/CFT compliance.",
-                "en": "We will train you in AML/CFT and prepare your AML documentation. We will also recommend proven provider of specialised software for AML/CFT compliance."
+                "cs": "Proškolíme Vás i Vaše zaměstnance na AML/CFT, připravíme AML dokumentaci a zajistíme automatizovaný PEP a sankční screening klientů.",
+                "en": "We will train you and your staff in AML/CFT, prepare your AML documentation and provide automated PEP and sanctions screening of your customers."
             }
         },
         {
@@ -452,8 +560,8 @@
                 "en": "We think through every detail"
             },
             "text": {
-                "cs": "Fondy dle § 15 ZISIF strukturujeme na základě provedených právních analýz. Na sporná výkladová místa máme zodpovězené odborné dotazy ze strany ČNB. Vězte, že právní analýzy jsou výrazně levnější než případná pokuta.",
-                "en": "We structure § 15 ZISIF funds on the basis of detailed legal analyses. For contentious interpretative issues we have formal expert replies from the CNB. Remember: legal analyses are far cheaper than a potential fine."
+                "cs": "Dokumentaci směnáren stavíme na provedených právních analýzách a znalosti sankční praxe ČNB. Vězte, že právní analýza je výrazně levnější než případná pokuta.",
+                "en": "We build our exchange-office documentation on thorough legal analyses and knowledge of the CNB's enforcement practice. Remember: a legal analysis is far cheaper than a potential fine."
             }
         }
     ]

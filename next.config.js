@@ -9,20 +9,6 @@ module.exports = withMDX({
     locales: ['cs', 'en'],
     defaultLocale: 'cs',
   },
-  async redirects() {
-    return [
-      {
-        source: '/co-je-to-minifond',
-        destination: '/alternativni-investicni-fond',
-        permanent: true,
-      },
-      {
-        source: '/co-je-to-alternativni-investicni-fond',
-        destination: '/alternativni-investicni-fond',
-        permanent: true,
-      },
-    ]
-  },
   webpack: (config) => {
     // Fix pro Node 17+ / OpenSSL 3:
     // 1) Přepnout hash z MD4 na xxhash64

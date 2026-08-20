@@ -12,9 +12,9 @@ const ServiceFormSuccessPage = () => {
 	return (
 		<DefaultLayout>
 			<SEO
-				title="Děkujeme za Vaši objednávku! 15zisif.cz"
-				description="✅ Jsme odborníky v oblasti zakládání fondů ⭐ Máme unikátní zkušenosti a know-how v oblasti alternativních fondů dle § 15 ZISIF"
-				keywords="alternativní investiční fond, minifond, alternativní fond, § 15 ZISIF, 15zisif, osoba rizikového kapitálu"
+				title="Děkujeme za Vaši objednávku! smenarny.legal"
+				description="✅ Jsme odborníky na směnárenskou činnost ⭐ Založení směnárny, povolení ČNB, AML compliance, reporting a příprava na kontrolu ČNB"
+				keywords="směnárna, založení směnárny, povolení k činnosti směnárníka, ČNB, AML"
 			/>
 			<main className="flex items-center justify-center w-full">
 				<div

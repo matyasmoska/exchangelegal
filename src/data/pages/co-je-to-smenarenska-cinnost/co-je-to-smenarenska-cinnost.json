@@ -1,0 +1,27 @@
+{
+    "header": {
+        "cs": "Co je to směnárenská činnost?",
+        "en": "What Is Currency Exchange Activity?"
+    },
+    "shortText": {
+        "cs": "Kdo je směnárník, co je směnárenský obchod a kdo smí v ČR provozovat směnárnu",
+        "en": "Who is a bureau-de-change operator, what is an exchange transaction, and who may run an exchange office in the Czech Republic"
+    },
+    "topText": [
+        ""
+    ],
+    "highlightSection": {
+        "header": "",
+        "text": [
+            "",
+            ""
+        ]
+    },
+    "bottomText": [
+        " "
+    ],
+    "buttonText": {
+        "cs": "Chci založit směnárnu",
+        "en": "I want to set up an exchange office"
+    }
+}

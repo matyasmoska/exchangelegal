@@ -6,18 +6,18 @@
     "firstSection": {
         "title": {
             "cs": "Založení směnárny již <em>od 79 000 Kč</em>",
-            "en": "Setting up an alternative fund 15 ZISIF <em>from CZK 79 000</em>"
+            "en": "Exchange office setup <em>from CZK 79,000</em>"
         },
         "subtitle": {
-            "cs": "Zakládáme směnárny v nejvyšším standardu za férové ceny. Připravíme pro Vás kompletní dokumentaci pro registraci směnárny u České národní banky na klíč.",
-            "en": "We establish alternative investment funds under § 15 of ZISIF at the highest standard and at fair prices. We will prepare complete turnkey documentation for the registration of an alternative fund under § 15 ZISIF with the Czech National Bank."
+            "cs": "Zakládáme směnárny v nejvyšším standardu za férové ceny. Připravíme pro Vás kompletní dokumentaci pro udělení povolení k činnosti směnárníka u České národní banky na klíč.",
+            "en": "We set up exchange offices to the highest standard at fair prices. We will prepare complete turnkey documentation for obtaining the bureau-de-change operator licence from the Czech National Bank."
         },
         "image": "/images/background_exchange.jpg",
         "primaryButton": {
-            "link": "/zalozeni-alternativniho-fondu-na-klic",
+            "link": "/zalozeni-smenarny-na-klic",
             "text": {
                 "cs": "Založit směnárnu",
-                "en": "Set up an alternative fund"
+                "en": "Set up an exchange office"
             }
         },
         "secondaryButton": {
@@ -28,10 +28,10 @@
             }
         },
         "firstNumber": {
-            "number": "50+",
+            "number": "10+",
             "text": {
-                "cs": "Založeno směnáren",
-                "en": "Invested by our clients"
+                "cs": "Let zkušeností s regulací finančního trhu",
+                "en": "Years of financial regulation experience"
             }
         },
         "secondNumber": {
@@ -44,19 +44,19 @@
     },
     "secondSection": {
         "title": {
-            "cs": "Reporting SDAT ČNB pro Váš 15 ZISIF nechte na nás",
-            "en": "Leave the CNB SDAT reporting for your 15 ZISIF to us"
+            "cs": "AML dokumentaci a screening klientů nechte na nás",
+            "en": "Leave the AML documentation and customer screening to us"
         },
         "subtitle": {
-            "cs": "Zjednodušujeme pro Vás plnění Vašich reportingových povinností. Výkaznictví ČNB pro 15 ZISIF vyřešíme za Vás; nastavíme pravidelné reporty ROFOS 36, ROFOS 37 a DOFOS 15 dle aktuálních legislativních požadavků.",
-            "en": "We simplify the fulfilment of your reporting obligations for you. We will handle the CNB reporting for 15 ZISIF for you; we will set up regular reports ROFOS 36, ROFOS 37 and DOFOS 15 according to the current legislative requirements."
+            "cs": "Vypracujeme systém vnitřních zásad a hodnocení rizik na míru Vaší směnárně, doručíme je ČNB a nastavíme PEP a sankční screening klientů tak, aby obstál při každé kontrole.",
+            "en": "We will draft a tailor-made internal AML policy and risk assessment for your exchange office, deliver them to the CNB and set up PEP and sanctions screening that stands up to any inspection."
         },
         "image": "/images/background_exchange.jpg",
         "primaryButton": {
-            "link": "/reporting-cnb",
+            "link": "/aml-povinnosti-smenarny",
             "text": {
-                "cs": "Chci nastavit reporting",
-                "en": "I want to set up reporting"
+                "cs": "Chci vyřešit AML",
+                "en": "I want my AML sorted"
             }
         },
         "secondaryButton": {
@@ -67,10 +67,10 @@
             }
         },
         "firstNumber": {
-            "number": "CZK 1 mld+",
+            "number": "10+",
             "text": {
-                "cs": "Proinvestováno našimi klienty",
-                "en": "Invested by our clients"
+                "cs": "Let zkušeností s regulací finančního trhu",
+                "en": "Years of financial regulation experience"
             }
         },
         "secondNumber": {
@@ -83,19 +83,19 @@
     },
     "thirdSection": {
         "title": {
-            "cs": "Potřebujete připravit dokument KID dle nařízení PRIIPs?",
-            "en": "Do you need to prepare a KID according to the PRIIPs Regulation?"
+            "cs": "Přijde k Vám kontrola ČNB? Připravíme Vás",
+            "en": "Facing a CNB inspection? We will get you ready"
         },
         "subtitle": {
-            "cs": "Žádný problém, tzv. Sdělení klíčových informací (PRIIPs) pro Váš 15 ZISIF připravíme na míru.",
-            "en": "No problem, we will prepare tailor-made key information notices (PRIIPs) for your 15 ZISIF."
+            "cs": "Projdeme Vaši směnárnu očima kontrolora – od kurzovního lístku přes doklady až po AML. Nedostatky odstraníme dřív, než je najde Česká národní banka při kontrolní směně.",
+            "en": "We will review your exchange office through an inspector's eyes – from the rate list through receipts to AML. We will fix the deficiencies before the Czech National Bank finds them during a test purchase."
         },
         "image": "/images/third-background.jpg",
         "primaryButton": {
-            "link": "/priprava-kid-dle-narizeni-priips",
+            "link": "/priprava-na-kontrolu-cnb",
             "text": {
-                "cs": "Chci pomoci s přípravou KID",
-                "en": "I want help with KID preparation"
+                "cs": "Chci se připravit na kontrolu",
+                "en": "I want to prepare for an inspection"
             }
         },
         "secondaryButton": {
@@ -106,10 +106,10 @@
             }
         },
         "firstNumber": {
-            "number": "CZK 1 mld+",
+            "number": "10+",
             "text": {
-                "cs": "Proinvestováno našimi klienty",
-                "en": "Invested by our clients"
+                "cs": "Let zkušeností s regulací finančního trhu",
+                "en": "Years of financial regulation experience"
             }
         },
         "secondNumber": {

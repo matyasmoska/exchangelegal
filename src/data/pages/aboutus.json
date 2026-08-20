@@ -1,269 +1,263 @@
 {
-	"header": {
-		"cs": "Kdo jsme",
-		"en": "Who We Are"
+ "header": {
+  "cs": "Kdo jsme",
+  "en": "Who We Are"
+ },
+ "headerDescription": {
+  "cs": "<b>MOSKA MURAD advokátní kancelář, s.r.o. – jsme advokáti poskytující full-service právní poradenství v České republice a v regionu střední a východní Evropy, specializujeme se mj. na finanční právo, směnárenskou činnost, AML/CFT, regulaci finančního trhu a s tímto spojené právní a regulatorní otázky.</b>",
+  "en": "<b>MOSKA MURAD advokátní kancelář, s.r.o. – we are a full-service law firm providing legal advice in the Czech Republic and the CEE region, specializing in financial law, currency exchange (bureau-de-change) regulation, AML/CFT, financial market regulation and related legal and regulatory issues.</b>"
+ },
+ "linkedInProfile": {
+  "cs": "LinkedIn Profil",
+  "en": "LinkedIn Profile"
+ },
+ "less": {
+  "cs": "Méně",
+  "en": "Less"
+ },
+ "more": {
+  "cs": "Více",
+  "en": "More"
+ },
+ "people": [
+  {
+   "name": {
+    "cs": "Mgr. Matyáš Moska, advokát",
+    "en": "Matyáš Moska, Attorney-at-Law"
+   },
+   "description": [
+    {
+     "cs": "Matyáš se ve své právní praxi zaměřuje na poradenství alternativním fondům, menším finančním institucím, FinTech a dalším projektům založeným na technologii Blockchain, a to i v kontextu regulace finančních trhů, investičních služeb a investičních struktur.",
+     "en": ""
     },
-	"headerDescription": {
-		"cs": "<b>MOSKA MURAD advokátní kancelář, s.r.o. – jsme advokáti poskytující full-service právní poradenství v České republice a v regionu střední a východní Evropy, specializujeme se mj. na finanční právo, zakládání fondů, kolektivní investování, AML/CFT a s tímto spojené právní a regulatorní otázky.</b>",
-		"en": "<b>MOSKA MURAD advokátní kancelář, s.r.o. – we are a full-service law firm providing legal advice in the Czech Republic and the CEE region, specializing in financial law, fund establishment, collective investment, AML/CFT and related legal and regulatory issues.<b>"
+    {
+     "cs": "Specializuje se na regulaci finančních trhů, kolektivní investování, AML/CFT, kryptoaktiva a související právní a regulatorní otázky.",
+     "en": ""
     },
-	"linkedInProfile": {
-		"cs": "LinkedIn Profil",
-		"en": "LinkedIn Profile"
+    {
+     "cs": "V oblasti AML/CFT působí taktéž jako odborný lektor a pravidelně přednáší a školí, a to zejména finanční instituce, správce a administrátory fondů, developery, poskytovatele služeb spojených s virtuálními aktivy, daňové poradce, účetní a auditory.",
+     "en": ""
     },
-	"less": {
-		"cs": "Méně",
-		"en": "Less"
+    {
+     "cs": "Matyáš se taktéž věnuje soudním litigacím a zastupuje klienty ve sporech před soudy a v řízeních před regulatorními orgány, zejména před Českou národní bankou (ČNB) a Finančním analytickým úřadem (FAÚ).",
+     "en": ""
     },
-	"more": {
-		"cs": "Více",
-		"en": "More"
+    {
+     "cs": "Kromě práva se věnuje informačním technologiím a je spoluzakladatelem společnosti AML solutions s.r.o., zabývající se compliance v oblasti AML/CFT a provozující software PEP check.",
+     "en": ""
+    }
+   ],
+   "readMore": [
+    {
+     "cs": "Své zkušenosti nasbíral v průběhu mnoha let v renomované pražské advokátní kanceláři, na bavorské Bayreuth Universität a v rámci advokátní praxe ve Spolkové republice Německo.",
+     "en": ""
     },
-	"people": [
-		{
-			"name": {
-				"cs": "Mgr. Matyáš Moska, advokát",
-				"en": "Matyáš Moska, Attorney-at-Law"
-			},
-			"description": [
-				{
-					"cs": "Matyáš se ve své právní praxi zaměřuje na poradenství alternativním fondům, menším finančním institucím, FinTech a dalším projektům založeným na technologii Blockchain, a to i v kontextu regulace finančních trhů, investičních služeb a investičních struktur.",
-					"en": ""
-				},
-				{
-					"cs": "Specializuje se na regulaci finančních trhů, kolektivní investování, AML/CFT, kryptoaktiva a související právní a regulatorní otázky.",
-					"en": ""
-				},
-				{
-					"cs": "V oblasti AML/CFT působí taktéž jako odborný lektor a pravidelně přednáší a školí, a to zejména finanční instituce, správce a administrátory fondů, developery, poskytovatele služeb spojených s virtuálními aktivy, daňové poradce, účetní a auditory.",
-					"en": ""
-				},
-				{
-					"cs": "Matyáš se taktéž věnuje soudním litigacím a zastupuje klienty ve sporech před soudy a v řízeních před regulatorními orgány, zejména před Českou národní bankou (ČNB) a Finančním analytickým úřadem (FAÚ).",
-					"en": ""
-				},
-				{
-					"cs": "Kromě práva se věnuje informačním technologiím a je spoluzakladatelem společnosti AML solutions s.r.o., zabývající se compliance v oblasti AML/CFT a provozující software PEP check.",
-					"en": ""
-				}
-			],
-			"readMore": [
-				{
-					"cs": "Své zkušenosti nasbíral v průběhu mnoha let v renomované pražské advokátní kanceláři, na bavorské Bayreuth Universität a v rámci advokátní praxe ve Spolkové republice Německo.",
-					"en": ""
-				},
-				{
-					"cs": "Hovoří plynně anglicky, německy a polsky.",
-					"en": ""
-				}
-			],
-			"photo": "/images/team/moska-profile3.png",
-			"linkedIn": "https://www.linkedin.com/in/matyas-moska/",
-			"tags": [
-				{
-					"cs": "#AML/CFT",
-					"en": "#AML/CFT"
-				},
-				{
-					"cs": "#FinTech",
-					"en": "#FinTech"
-				},
-				{
-					"cs": "#Finanční trhy",
-					"en": "#Financial markets"
-				}
-			]
-		},
-
-
-		{
-			"name": {
-				"cs": "Mgr. Martin Murad, advokát",
-				"en": "Maartin Murad, Attorney-at-Law"
-			},
-			"description": [
-				{
-					"cs": "Martin působí v advokacii více než 15 let.",
-					"en": ""
-				},
-				{
-					"cs": "Během nich stál u zrodu polské pobočky renomované české advokátní kanceláře ve Varšavě, kterou následně 5 let vedl. Poté v této kanceláři nadále působil jako partner odpovědný za mezinárodní vztahy.",
-					"en": ""
-				},
-				{
-					"cs": "V další pracovní etapě Martin vedl pracovněprávní tým renomované české advokátní kanceláře.",
-					"en": ""
-				},
-				{
-					"cs": "Martin se zaměřuje se na pracovní a pobytové právo, nemovitostní právo a poradenství s mezinárodním přesahem, tj. poradenství pro české klienty v zahraničí a poradenství zahraničním investorům v České republice. S Matyášem tvoří jádro Polish desk, skupiny dedikované polským klientům v České republice.",
-					"en": ""
-				},
-				{
-					"cs": "Je členem EELA (European Employment Lawyers association), evropské organizace sdružující pracovněprávní experty.",
-					"en": ""
-				}
-			],
-			"readMore": [
-				{
-					"cs": "S advokacií procestoval napříč kontinenty od Seattlu až po Sydney a potkal se se stovkami advokátů. Má pracovní vztahy se specialisty v mnoha oblastech práva v několika desítkách zemí.",
-					"en": ""
-				},
-				{
-					"cs": "Kromě češtiny a slovenštiny, mluví plynně anglicky, polsky a francouzsky.",
-					"en": ""
-				}
-			],
-			"photo": "/images/team/martin_murad_profil_res.jpg",
-			"linkedIn": "https://www.linkedin.com/in/martinmurad/",
-			"tags": [
-				{
-					"cs": "#Pracovní právo",
-					"en": "#"
-				},
-				{
-					"cs": "#Právo nemovitostí",
-					"en": "#"
-				},
-				{
-					"cs": "#International",
-					"en": "#International"
-				}
-			]
-		},
-		
-		{
-			"name": {
-				"cs": "Mgr. Jakub Pártl, LL.M., advokát",
-				"en": "Jakub Pártl, LL.M., Attorney-at-Law"
-			},
-			"description": [
-				{
-					"cs": "Jakub se v rámci své advokátní praxe věnuje právnímu poradenství v oblasti M&A, právu obchodních korporací, právu IT a projektovému financování.",
-					"en": "In his legal practice, Jakub provides legal advice in the areas of M&A, corporate law, IT law, and project financing."
-				},
-				{
-					"cs": "Dále má rozsáhlé zkušenosti v přípravě obchodních kontraktů, poradenství investorům či start-upům a souvisejících vyjednáváních.",
-					"en": "He has extensive experience in drafting commercial contracts, advising investors and start-ups, and conducting related negotiations."
-				},
-				{
-					"cs": "Během své právní praxe působil v předních pražských či mezinárodních advokátních kanceláří, a to včetně manažerských pozic, a radil korporátní i privátní klientele.",
-					"en": "Throughout his career, Jakub has worked in leading Prague-based and international law firms, including holding managerial positions, advising both corporate and private clients."
-				}
-			],
-			"readMore": [
-				{
-					"cs": "Hovoří plynně anglicky a francouzsky.",
-					"en": "He is fluent in English and French."
-				}
-			],
-			"photo": "/images/team/jakub_partl_profil_nabidka3.jpg",
-			"linkedIn": "https://www.linkedin.com/in/jakub-partl/",
-			"tags": [
-				{
-					"cs": "#M&A",
-					"en": "#M&A"
-				},
-				{
-					"cs": "#FinTech",
-					"en": "#FinTech"
-				},
-				{
-					"cs": "#Projektové financování",
-					"en": "#Project financing"
-				},
-				{
-					"cs": "#IT/IP",
-					"en": "#IT/IP"
-				}
-			]
-		},
-
-
-		{
-			"name": {
-				"cs": "Mgr. Petra Čichoňová, advokátka",
-				"en": "Petra Čichoňová, Attorney-at-Law"
-			},
-			"description": [
-				{
-					"cs": "Petra se v rámci své advokátní praxe věnuje generální praxi, zejména obchodnímu a korporátnímu právu a občanskému právu",
-					"en": ""
-				},
-				{
-					"cs": "V rámci práva občanského se taktéž specializuje na oblast nemovitostí.",
-					"en": ""
-				},
-				{
-					"cs": "Dále má rozsáhlé zkušenosti v přípravě obchodních kontraktů, poradenství investorům či start-upům a souvisejících vyjednáváních.",
-					"en": ""
-				}
-			],
-			"readMore": [
-				{
-					"cs": "Hovoří plynně anglicky.",
-					"en": "She is fluent in English."
-				}
-			],
-			"photo": "/images/team/petra_cichonova.jpg",
-			"linkedIn": "https://www.linkedin.com/in/petra-%C4%8Dicho%C5%88ov%C3%A1-a7896167/",
-			"tags": [
-				{
-					"cs": "#Obchodní právo",
-					"en": ""
-				},
-				{
-					"cs": "#Korporátní právo",
-					"en": ""
-				},
-				{
-					"cs": "#Občanské právo",
-					"en": ""
-				},
-				{
-					"cs": "#IT/IP",
-					"en": "#IT/IP"
-				}
-			]
-		}
-		
-	],
-	"referenceTitle": {
-		"cs": "Řekli o nás",
-		"en": "They said about us"
+    {
+     "cs": "Hovoří plynně anglicky, německy a polsky.",
+     "en": ""
+    }
+   ],
+   "photo": "/images/team/moska-profile3.png",
+   "linkedIn": "https://www.linkedin.com/in/matyas-moska/",
+   "tags": [
+    {
+     "cs": "#AML/CFT",
+     "en": "#AML/CFT"
     },
-	"references": [
-		{
-			"photo": "/images/reference.png",
-			"reference": {
-				"cs": "Spolupráce s advokáty Matyášem Moskou a Jakubem Pártlem byla na skvělé úrovni. Rychlá a profesionální komunikace!",
-				"en": "Cooperation with attorneys Matyáš Moska and Jakub Pártl was at a great level. Fast and professional communication!"
-			},
-			"who": {
-				"cs": "Alexandra Hurtová, ředitelka Pozemkového Kompenzačního Fondu",
-				"en": "Alexandra Hurtová, Director of the Land Compensation Fund"
-			}
-		},
-		{
-			"photo": "/images/reference.png",
-			"reference": {
-				"cs": "Tým advokátů z 15zisif.cz nám během svého školení jasně a výstižně objasnil veškeré naše povinnosti v oblasti podnikání alternativních fondů.",
-				"en": "The team of attorneys from 15zisif.cz clearly and concisely explained all our obligations in the area of alternative funds during their training."
-			},
-			"who": {
-				"cs": "Ondřej Procházka, jednatel Safe Whistlers s.r.o.",
-				"en": "Ondřej Procházka, Managing Partner at Safe Whistlers s.r.o."
-			}
-		},
-		{
-			"photo": "/images/reference.png",
-			"reference": {
-				"cs": "Služby týmu advokátů z 15zisif.cz mohu vřele doporučit!",
-				"en": "I can highly recommend the services of the team of attorneys from 15zisif.cz!"
-			},
-			"who": {
-				"cs": "Josef Stejskal, CEO ve společnosti ApeironChain s.r.o.",
-				"en": "Josef Stejskal, CEO of ApeironChain s.r.o."
-			}
-		}
-	]
+    {
+     "cs": "#FinTech",
+     "en": "#FinTech"
+    },
+    {
+     "cs": "#Finanční trhy",
+     "en": "#Financial markets"
+    }
+   ]
+  },
+  {
+   "name": {
+    "cs": "Mgr. Martin Murad, advokát",
+    "en": "Maartin Murad, Attorney-at-Law"
+   },
+   "description": [
+    {
+     "cs": "Martin působí v advokacii více než 15 let.",
+     "en": ""
+    },
+    {
+     "cs": "Během nich stál u zrodu polské pobočky renomované české advokátní kanceláře ve Varšavě, kterou následně 5 let vedl. Poté v této kanceláři nadále působil jako partner odpovědný za mezinárodní vztahy.",
+     "en": ""
+    },
+    {
+     "cs": "V další pracovní etapě Martin vedl pracovněprávní tým renomované české advokátní kanceláře.",
+     "en": ""
+    },
+    {
+     "cs": "Martin se zaměřuje se na pracovní a pobytové právo, nemovitostní právo a poradenství s mezinárodním přesahem, tj. poradenství pro české klienty v zahraničí a poradenství zahraničním investorům v České republice. S Matyášem tvoří jádro Polish desk, skupiny dedikované polským klientům v České republice.",
+     "en": ""
+    },
+    {
+     "cs": "Je členem EELA (European Employment Lawyers association), evropské organizace sdružující pracovněprávní experty.",
+     "en": ""
+    }
+   ],
+   "readMore": [
+    {
+     "cs": "S advokacií procestoval napříč kontinenty od Seattlu až po Sydney a potkal se se stovkami advokátů. Má pracovní vztahy se specialisty v mnoha oblastech práva v několika desítkách zemí.",
+     "en": ""
+    },
+    {
+     "cs": "Kromě češtiny a slovenštiny, mluví plynně anglicky, polsky a francouzsky.",
+     "en": ""
+    }
+   ],
+   "photo": "/images/team/martin_murad_profil_res.jpg",
+   "linkedIn": "https://www.linkedin.com/in/martinmurad/",
+   "tags": [
+    {
+     "cs": "#Pracovní právo",
+     "en": "#"
+    },
+    {
+     "cs": "#Právo nemovitostí",
+     "en": "#"
+    },
+    {
+     "cs": "#International",
+     "en": "#International"
+    }
+   ]
+  },
+  {
+   "name": {
+    "cs": "Mgr. Jakub Pártl, LL.M., advokát",
+    "en": "Jakub Pártl, LL.M., Attorney-at-Law"
+   },
+   "description": [
+    {
+     "cs": "Jakub se v rámci své advokátní praxe věnuje právnímu poradenství v oblasti M&A, právu obchodních korporací, právu IT a projektovému financování.",
+     "en": "In his legal practice, Jakub provides legal advice in the areas of M&A, corporate law, IT law, and project financing."
+    },
+    {
+     "cs": "Dále má rozsáhlé zkušenosti v přípravě obchodních kontraktů, poradenství investorům či start-upům a souvisejících vyjednáváních.",
+     "en": "He has extensive experience in drafting commercial contracts, advising investors and start-ups, and conducting related negotiations."
+    },
+    {
+     "cs": "Během své právní praxe působil v předních pražských či mezinárodních advokátních kanceláří, a to včetně manažerských pozic, a radil korporátní i privátní klientele.",
+     "en": "Throughout his career, Jakub has worked in leading Prague-based and international law firms, including holding managerial positions, advising both corporate and private clients."
+    }
+   ],
+   "readMore": [
+    {
+     "cs": "Hovoří plynně anglicky a francouzsky.",
+     "en": "He is fluent in English and French."
+    }
+   ],
+   "photo": "/images/team/jakub_partl_profil_nabidka3.jpg",
+   "linkedIn": "https://www.linkedin.com/in/jakub-partl/",
+   "tags": [
+    {
+     "cs": "#M&A",
+     "en": "#M&A"
+    },
+    {
+     "cs": "#FinTech",
+     "en": "#FinTech"
+    },
+    {
+     "cs": "#Projektové financování",
+     "en": "#Project financing"
+    },
+    {
+     "cs": "#IT/IP",
+     "en": "#IT/IP"
+    }
+   ]
+  },
+  {
+   "name": {
+    "cs": "Mgr. Petra Čichoňová, advokátka",
+    "en": "Petra Čichoňová, Attorney-at-Law"
+   },
+   "description": [
+    {
+     "cs": "Petra se v rámci své advokátní praxe věnuje generální praxi, zejména obchodnímu a korporátnímu právu a občanskému právu",
+     "en": ""
+    },
+    {
+     "cs": "V rámci práva občanského se taktéž specializuje na oblast nemovitostí.",
+     "en": ""
+    },
+    {
+     "cs": "Dále má rozsáhlé zkušenosti v přípravě obchodních kontraktů, poradenství investorům či start-upům a souvisejících vyjednáváních.",
+     "en": ""
+    }
+   ],
+   "readMore": [
+    {
+     "cs": "Hovoří plynně anglicky.",
+     "en": "She is fluent in English."
+    }
+   ],
+   "photo": "/images/team/petra_cichonova.jpg",
+   "linkedIn": "https://www.linkedin.com/in/petra-%C4%8Dicho%C5%88ov%C3%A1-a7896167/",
+   "tags": [
+    {
+     "cs": "#Obchodní právo",
+     "en": ""
+    },
+    {
+     "cs": "#Korporátní právo",
+     "en": ""
+    },
+    {
+     "cs": "#Občanské právo",
+     "en": ""
+    },
+    {
+     "cs": "#IT/IP",
+     "en": "#IT/IP"
+    }
+   ]
+  }
+ ],
+ "referenceTitle": {
+  "cs": "Řekli o nás",
+  "en": "They said about us"
+ },
+ "references": [
+  {
+   "photo": "/images/reference.png",
+   "reference": {
+    "cs": "Spolupráce s advokáty Matyášem Moskou a Jakubem Pártlem byla na skvělé úrovni. Rychlá a profesionální komunikace!",
+    "en": "Cooperation with attorneys Matyáš Moska and Jakub Pártl was at a great level. Fast and professional communication!"
+   },
+   "who": {
+    "cs": "Alexandra Hurtová, ředitelka Pozemkového Kompenzačního Fondu",
+    "en": "Alexandra Hurtová, Director of the Land Compensation Fund"
+   }
+  },
+  {
+   "photo": "/images/reference.png",
+   "reference": {
+    "cs": "Tým advokátů nám během svého školení jasně a výstižně objasnil veškeré naše povinnosti v oblasti našeho podnikání.",
+    "en": "The team of attorneys clearly and concisely explained all our obligations in the area of our business during their training."
+   },
+   "who": {
+    "cs": "Ondřej Procházka, jednatel Safe Whistlers s.r.o.",
+    "en": "Ondřej Procházka, Managing Partner at Safe Whistlers s.r.o."
+   }
+  },
+  {
+   "photo": "/images/reference.png",
+   "reference": {
+    "cs": "Služby tohoto týmu advokátů mohu vřele doporučit!",
+    "en": "I can highly recommend the services of this team of attorneys!"
+   },
+   "who": {
+    "cs": "Josef Stejskal, CEO ve společnosti ApeironChain s.r.o.",
+    "en": "Josef Stejskal, CEO of ApeironChain s.r.o."
+   }
+  }
+ ]
 }

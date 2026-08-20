@@ -1,4 +1,4 @@
-    {
+{
     "castokladenedotazy": {
         "cs": "Často kladené dotazy",
         "en": "Frequently asked questions"
@@ -6,72 +6,122 @@
     "questions": [
         {
             "question": {
-                "cs": "Co je to alternativní investiční fond?",
-                "en": "What is an Alternative Investment Fund"
+                "cs": "Kdo může v ČR provozovat směnárnu?",
+                "en": "Who may operate an exchange office in the Czech Republic?"
             },
             "answer": {
-                "cs": "Jedná se o zařízení a zároveň jednoduchý způsob správy majetku investorů, který, oproti klasickým investičním fondům, nepodléhá regulaci a dozoru České národní banky (ČNB), jako jiné investiční fondy, a je pouze u ČNB registrován. Oproti klasickým investičním fondům se alternativní fond (minfond) vyznačuje nízkými požadavky na administraci, jednoduchostí založení a rychlostí při procesu registrace u ČNB.",
-                "en": "It is a vehicle and a simple method of managing investors' assets that, unlike traditional investment funds, is not subject to regulation and supervision by the Czech National Bank (CNB), but is merely registered with the CNB. Compared to traditional investment funds, an alternative fund (also known as a “mini-fund”) features low administrative requirements, ease of establishment, and speed in the registration process with the CNB."
+                "cs": "Směnárenskou činnost smí provozovat pouze banky, spořitelní a úvěrní družstva, Česká národní banka a směnárníci – tedy fyzické nebo právnické osoby, kterým Česká národní banka udělila povolení k činnosti směnárníka podle zákona č. 277/2013 Sb., o směnárenské činnosti, a které jsou zapsány v registru směnárníků.",
+                "en": "Currency exchange activity may only be carried out by banks, credit unions, the Czech National Bank and bureau-de-change operators – i.e. natural or legal persons who have been granted a licence by the Czech National Bank under Act No. 277/2013 Coll., on Bureau-de-Change Activity, and who are entered in the register of operators."
             }
         },
         {
             "question": {
-                "cs": "Existuje nějaký poplatek za zápis alternativního fondu u České národní banky?",
-                "en": "Is there a fee for registering an alternative fund with the Czech National Bank?"
+                "cs": "Jak dlouho trvá získání povolení k činnosti směnárníka?",
+                "en": "How long does it take to obtain the bureau-de-change licence?"
             },
             "answer": {
-                "cs": "Zápis fondu do evidence České národní banky (registrace) aktuálně zpoplatněn není.",
-                "en": "Currently, there is no fee for the registration (entry into the CNB register) of an alternative fund."
+                "cs": "O žádosti rozhoduje ČNB ve správním řízení. Příprava podkladů a žádosti trvá zpravidla 7–14 dní, samotné řízení u ČNB pak 4–10 týdnů podle úplnosti žádosti a počtu výzev k doplnění – celkem tedy obvykle 1,5 až 3 měsíce. Nekompletní žádosti ČNB vrací k doplnění, což řízení výrazně prodlužuje.",
+                "en": "The CNB decides on the application in administrative proceedings. Preparing the documents and the application usually takes 7–14 days, and the proceedings before the CNB then 4–10 weeks depending on the completeness of the application and the number of requests for supplementation – in total usually 1.5 to 3 months. Incomplete applications are returned for supplementation, which significantly prolongs the process."
             }
         },
         {
             "question": {
-                "cs": "Kolik finančních prostředků mohou alternativní fondy spravovat?",
-                "en": "How much capital can an alternative investment fund manage?"
+                "cs": "Kolik stojí povolení k činnosti směnárníka?",
+                "en": "How much does the bureau-de-change licence cost?"
             },
             "answer": {
-                "cs": "Alternativní fondy nesmí spravovat majetek přesahující 500 000 000 euro (pět set milionů eur) anebo 100 000 000 euro (sto milionů eur), jestliže alternativní investiční fond užívá k obhospodařování majetku pákový efekt.",
-                "en": "Alternative investment funds must not manage assets exceeding EUR 500,000,000 (five hundred million euros), or EUR 100,000,000 (one hundred million euros) if the fund uses leverage for asset management."
+                "cs": "Za přijetí žádosti o udělení povolení k činnosti směnárníka se hradí správní poplatek ČNB, aktuálně ve výši 10 000 Kč. Poplatek hradí žadatel přímo a jeho úhrada se dokládá jako příloha žádosti. Naše odměna za přípravu a vyřízení žádosti začíná na 79 000 Kč bez DPH (balíček Basic).",
+                "en": "The acceptance of the licence application is subject to a CNB administrative fee, currently CZK 10,000. The fee is paid directly by the applicant and proof of payment forms an annex to the application. Our fee for preparing and handling the application starts at CZK 79,000 excl. VAT (the Basic package)."
             }
         },
         {
             "question": {
-                "cs": "Jak probíhá řízení o zápisu alternativního fondu u ČNB?",
-                "en": "How does the registration process with the CNB work?"
+                "cs": "Jaký balíček si vybrat?",
+                "en": "Which package should I choose?"
             },
             "answer": {
-                "cs": "Řízení je zahajováno na návrh budoucího alternativního fondu. Návrh se podává výhradně v elektronické podobě v českém jazyce, lze jej podat i na základě plné moci. Zápisem dochází ze strany ČNB k evidenci alternativního fondu; nejedná se o povolovací řízení, jehož výsledkem je udělení licence.",
-                "en": "The registration process is initiated by a proposal submitted by the future alternative fund. The proposal must be submitted electronically and in the Czech language, and it may be submitted under power of attorney. Upon registration, the CNB enters the fund into the register; this is not a licensing process and does not result in the issuance of a license."
+                "cs": "Basic (79 000 Kč bez DPH) pokrývá získání povolení ČNB a ohlášení provozovny. Entry (114 000 Kč bez DPH) navíc obsahuje kompletní AML a provozní dokumentaci – kurzovní lístek, předsmluvní informace, doklad o obchodu, evidence, GDPR i whistleblowing. All-in-one (139 000 Kč bez DPH) přidává AML školení personálu s osvědčením, kontrolu provozovny se zkušební směnou před spuštěním a následnou kontrolu měsíc po zahájení provozu.",
+                "en": "Basic (CZK 79,000 excl. VAT) covers obtaining the CNB licence and notifying the premises. Entry (CZK 114,000 excl. VAT) adds the complete AML and operating documentation – rate list, pre-contractual information, transaction receipt, records, GDPR and whistleblowing. All-in-one (CZK 139,000 excl. VAT) adds certified AML staff training, a pre-launch inspection with a test exchange, and a follow-up inspection one month after launch."
             }
         },
         {
             "question": {
-                "cs": "Jak dlouho trvá než ČNB alternativní fond zaregistruje?",
-                "en": "How long does it take for the CNB to register an alternative fund?"
+                "cs": "Potřebuji pro směnárnu živnostenské oprávnění?",
+                "en": "Do I need a trade licence for an exchange office?"
             },
             "answer": {
-                "cs": "Jestliže žádost obsahuje veškeré požadované informace a splňuje požadavky, ČNB zapíše alternativní fond do seznamu do pěti pracovních dnů ode dne, kdy jí byla žádost doručena. Naše aktuálně nejrychlejší registrace do seznamu ČNB čítala 2 dny od podání žádosti.",
-                "en": "If the application contains all required information and meets the necessary conditions, the CNB will register the alternative fund within five business days from the date the application is delivered. Our fastest registration to date took only 2 days from submission."
+                "cs": "Ne. Směnárenská činnost není živností – oprávnění vzniká výhradně na základě povolení k činnosti směnárníka uděleného ČNB. Doporučujeme však mít směnárenskou činnost řádně zapsanou jako předmět podnikání v obchodním rejstříku.",
+                "en": "No. Currency exchange is not a trade under the Trade Licensing Act – the authorisation arises exclusively from the licence granted by the CNB. We nevertheless recommend having the exchange activity properly recorded as a scope of business in the Commercial Register."
             }
         },
         {
             "question": {
-                "cs": "Zjistili jsme, že alternativní fond je povinnou osobou dle AML zákona. Musíme vypracovat písemná pravidla (systém vnitřních zásad a hodnocení rizik) pro AML/CFT prevenci? A v jaké lhůtě?",
-                "en": "We have found that the alternative investment fund is an obliged entity under the AML Act. Are we required to develop written policies (a system of internal principles and risk assessment) for AML/CFT prevention? And within what timeframe?"
+                "cs": "Je směnárna povinnou osobou podle AML zákona?",
+                "en": "Is an exchange office an obliged entity under the AML Act?"
             },
             "answer": {
-                "cs": "Všechny povinné osoby (tj. i alternativní fondy) musí mít zavedené vnitřní strategie a postupy k předcházení rizika, že budou v rámci obchodu nebo obchodního vztahu zneužity k praní špinavých peněz nebo financování terorismu. Za určitých podmínek musí být tyto strategie zpracovány i písemně (a pokud je taková povinnost stanovena, musí být splněna do 60 dnů od vzniku statusu povinné osoby). Všechny povinné osoby však musí tyto postupy mít zavedeny a dodržovat je, což také musí být schopné prokázat při případné kontrole ze strany FAÚ (jinak hrozí citelná pokuta nebo i zákaz činnosti). Proto většina alternativních fondů postupuje tak, že tato pravidla a postupy (systém vnitřních zásad a hodnocení rizik) zpracuje v písemné podobě formou vnitřního předpisu, i když patří k těm, jimž zákon takovou povinnost právě neukládá. Za splnění určitých podmínek AML zákon ovšem požaduje, aby byl systém vnitřních zásad a hodnocení rizik nejen zpracován písemně, ale také odeslán datovou schránkou ČNB.",
-                "en": "All obliged entities (including alternative funds) must implement internal strategies and procedures to prevent the risk of being used for money laundering or terrorist financing. Under certain conditions, these strategies must also be documented in writing (and if such obligation applies, they must be completed within 60 days of acquiring obliged entity status). Regardless, these procedures must be in place and followed, and the fund must be able to prove this in case of an inspection by the FAU (Financial Analytical Unit); failure to do so can result in significant fines or even a ban on operations. Therefore, most alternative funds choose to document these policies and procedures in writing, even if they are not strictly required to do so, via internal regulations. If certain AML Act conditions are met, the internal rules and risk assessment must also be sent to the CNB via the official data box."
+                "cs": "Ano. Směnárník je finanční institucí a povinnou osobou podle zákona č. 253/2008 Sb. Musí mít písemný systém vnitřních zásad a hodnocení rizik (a doručit je ČNB), identifikovat klienty u obchodů od 1 000 EUR, prověřovat PEP a sankční seznamy, oznamovat podezřelé obchody FAÚ a školit zaměstnance nejméně jednou ročně.",
+                "en": "Yes. A bureau-de-change operator is a financial institution and an obliged entity under Act No. 253/2008 Coll. It must have a written internal AML policy and risk assessment (and deliver them to the CNB), identify customers for transactions from EUR 1,000, screen PEP and sanctions lists, report suspicious transactions to the FAÚ and train employees at least once a year."
             }
         },
         {
             "question": {
-                "cs": "AML povinnosti jsme bohužel zanedbali, nicméně chceme to co nejdříve napravit. Hrozí nám nějaká sankce nebo pokuta?",
-                "en": "We’ve unfortunately neglected our AML obligations, but we want to fix the situation as soon as possible. Are we facing any penalties or fines?"
+                "cs": "Co je to kontrolní směna?",
+                "en": "What is a test purchase (mystery shopping)?"
             },
             "answer": {
-                "cs": "V této situaci Vám důrazně doporučujeme urychleně pořídit systém vnitřních zásad a hodnocení rizik a vyškolit zaměstnance ohledně AML povinností a začít je uplatňovat v praxi. Dozorové orgány obvykle takové kroky k nápravě vítají, nicméně nelze vyloučit, že Vám v případě kontroly bude uložena pokuta za opožděné splnění AML povinností. Obecně ale platí, že na opožděné splnění AML povinností je pohlíženo mírněji než na jejich úplné zanedbání.",
-                "en": "In this case, we strongly recommend promptly preparing your internal rules and risk assessment, training your staff on AML obligations, and starting to apply the procedures in practice. Supervisory authorities generally welcome corrective action. However, it is still possible that a fine could be imposed for the delayed compliance. In general, delayed compliance is viewed more leniently than complete neglect."
+                "cs": "Kontrolní směna je forma dohledu ČNB, při které pracovník ČNB vystupuje jako běžný zákazník a provede směnu. Následně vyhodnotí, zda směnárna splnila zákonné povinnosti – kurzovní lístek, předsmluvní informace, doklad o obchodu, poučení o právu na odstoupení a vrácení prostředků při odstoupení. Neprovedení storna při oprávněném odstoupení považuje ČNB za závažné porušení zákona.",
+                "en": "A test purchase is a form of CNB supervision in which a CNB officer acts as an ordinary customer and performs an exchange. The officer then assesses whether the office fulfilled its statutory duties – the rate list, pre-contractual information, the receipt, the withdrawal notice and the refund upon withdrawal. Refusing a valid reversal is treated by the CNB as a serious breach of the law."
+            }
+        },
+        {
+            "question": {
+                "cs": "Může zákazník směnu stornovat?",
+                "en": "Can a customer cancel an exchange?"
+            },
+            "answer": {
+                "cs": "Ano. Zákazník může od smlouvy o směnárenském obchodu odstoupit do 3 hodin od jeho provedení v provozovně, kde obchod provedl, a to do částky odpovídající 1 000 EUR. U směnárenských automatů činí lhůta 3 pracovní dny; brání-li odstoupení překážka na straně provozovatele, prodlužuje se až na 6 měsíců. Směnárna je povinna storno provést.",
+                "en": "Yes. The customer may withdraw from the exchange contract within 3 hours of its execution at the premises where it took place, up to an amount equivalent to EUR 1,000. For exchange machines, the period is 3 business days; if an obstacle on the provider's side prevents withdrawal, it extends up to 6 months. The office is obliged to carry out the reversal."
+            }
+        },
+        {
+            "question": {
+                "cs": "Jaké výkazy musí směnárna podávat ČNB?",
+                "en": "What reports must an exchange office file with the CNB?"
+            },
+            "answer": {
+                "cs": "Provozovatel podává výkaz DEV (ČNB) 26-04 „Nákup a prodej cizí měny“. Provozovatelé s ročním objemem obchodů alespoň 20 mil. Kč jej podávají čtvrtletně (do 15 dnů po skončení čtvrtletí), menší provozovatelé zasílají údaje ročně. Výkaz se podává elektronicky.",
+                "en": "The provider files the DEV (ČNB) 26-04 report \"Purchase and Sale of Foreign Currency\". Providers with an annual transaction volume of at least CZK 20 million file quarterly (within 15 days after the end of the quarter); smaller providers submit data annually. The report is filed electronically."
+            }
+        },
+        {
+            "question": {
+                "cs": "Musí mít malá směnárna whistleblowing směrnici?",
+                "en": "Must a small exchange office have a whistleblowing policy?"
+            },
+            "answer": {
+                "cs": "Ano. Zákon č. 171/2023 Sb., o ochraně oznamovatelů, ukládá povinnost zavést vnitřní oznamovací systém povinným osobám podle AML zákona bez ohledu na počet zaměstnanců – tedy i směnárnám s několika zaměstnanci. Za nezavedení systému hrozí pokuta až 1 000 000 Kč.",
+                "en": "Yes. Act No. 171/2023 Coll., on Whistleblower Protection, requires obliged entities under the AML Act to establish an internal reporting system regardless of headcount – including exchange offices with just a few employees. Failure to do so is punishable by a fine of up to CZK 1,000,000."
+            }
+        },
+        {
+            "question": {
+                "cs": "Jaké pokuty hrozí směnárnám?",
+                "en": "What fines can exchange offices face?"
+            },
+            "answer": {
+                "cs": "ČNB ukládá za porušení zákona o směnárenské činnosti a AML zákona pokuty od desítek tisíc do milionů korun podle závažnosti a pravomocná rozhodnutí zveřejňuje na svém webu. V nejzávažnějších případech může povolení k činnosti směnárníka odejmout. Neoprávněné provozování směnárenské činnosti bez povolení je rovněž přestupkem s vysokou pokutou.",
+                "en": "For breaches of the Act on Bureau-de-Change Activity and the AML Act, the CNB imposes fines from tens of thousands to millions of Czech crowns depending on severity, and publishes final decisions on its website. In the most serious cases it may withdraw the licence. Operating without a licence is likewise an offence carrying a heavy fine."
+            }
+        },
+        {
+            "question": {
+                "cs": "Pomůžete i s již běžící směnárnou?",
+                "en": "Can you also help with an exchange office already in operation?"
+            },
+            "answer": {
+                "cs": "Ano. Vedle založení směnárny na klíč poskytujeme průběžný compliance servis – aktualizace SVZ a AML dokumentace, reporting ČNB, PEP a sankční screening, školení zaměstnanců, právní audit, přípravu na kontrolu ČNB i zastupování v řízeních před ČNB a FAÚ.",
+                "en": "Yes. In addition to turnkey setup, we provide ongoing compliance services – updates of the internal AML policy and documentation, CNB reporting, PEP and sanctions screening, staff training, legal audits, preparation for CNB inspections and representation in proceedings before the CNB and the FAÚ."
             }
         }
     ]

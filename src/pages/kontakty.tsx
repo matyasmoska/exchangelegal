@@ -18,9 +18,9 @@ export default function Contact () {
   return (
     <DefaultLayout>
       <SEO
-        title="15 ZISIF – kontakty – 15zisif.cz"
-        description="✅ Jsme odborníky v oblasti zakládání fondů ⭐ Máme unikátní zkušenosti a know‑how v oblasti alternativních fondů dle § 15 ZISIF"
-        keywords="alternativní investiční fond, minifond, alternativní fond, § 15 ZISIF, 15zisif, osoba rizikového kapitálu"
+        title="Kontakty – smenarny.legal"
+        description="✅ Jsme odborníky na směnárenskou činnost ⭐ Založení směnárny, povolení ČNB, AML compliance, reporting a příprava na kontrolu ČNB"
+        keywords="směnárna, založení směnárny, povolení k činnosti směnárníka, ČNB, AML"
       />
 
       {/* ───── 2 × 2 GRID ───── */}
@@ -49,7 +49,7 @@ export default function Contact () {
         <figure className="flex items-center justify-center w-full h-full overflow-hidden">
           <img
             src="/images/moskamurad1.jpg"
-            alt="Zakladatelé 15 ZISIF"
+            alt="Náš tým"
             className="w-2/3 h-auto object-cover"
           />
         </figure>

@@ -1,0 +1,27 @@
+{
+    "header": {
+        "cs": "Povinnosti směnárníka",
+        "en": "Duties of a Bureau-de-Change Operator"
+    },
+    "shortText": {
+        "cs": "Přehled průběžných povinností podle zákona č. 277/2013 Sb., o směnárenské činnosti",
+        "en": "An overview of the ongoing duties under Act No. 277/2013 Coll., on Bureau-de-Change Activity"
+    },
+    "topText": [
+        ""
+    ],
+    "highlightSection": {
+        "header": "",
+        "text": [
+            "",
+            ""
+        ]
+    },
+    "bottomText": [
+        " "
+    ],
+    "buttonText": {
+        "cs": "Chci pomoci s compliance",
+        "en": "I want help with compliance"
+    }
+}

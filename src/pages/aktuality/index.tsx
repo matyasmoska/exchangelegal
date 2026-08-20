@@ -15,9 +15,9 @@ export default function NewsPage({ news }: { news: NewsItem[] }) {
   return (
     <DefaultLayout>
       <SEO
-        title="15zisif.cz"
-        description="Zakládáme alternativní investiční fondy v nejvyšším standardu za férové ceny, Minifondy na klíč"
-        keywords="Minifondy, alternativní fondy, 15 zisif"
+        title="Aktuality | smenarny.legal"
+        description="Aktuality ze světa směnáren, AML a regulace finančního trhu od advokátů ze smenarny.legal"
+        keywords="směnárna, směnárny, AML, ČNB, aktuality"
       />
       <div className={c("p-36 py-16 space-y-28", "md:px-4 md:space-y-10 md:py-4")}>
         <MainNewsItem newsItem={news[0]} />

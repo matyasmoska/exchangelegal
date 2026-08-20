@@ -24,8 +24,8 @@
     "en": "Follow us"
   },
   "cojeto": {
-    "cs": "Co je to alternativní fond?",
-    "en": "What is an alternative investment fund?"
+    "cs": "Co je to směnárenská činnost?",
+    "en": "What is currency exchange activity?"
   },
   "zalozeni": {
     "cs": "Směnárna na klíč",
@@ -36,12 +36,12 @@
     "en": "Free consultation"
   },
   "reportingcnb": {
-    "cs": "Reporting ČNB pro 15 ZISIF",
-    "en": "CNB reporting"
+    "cs": "Reporting ČNB pro směnárny",
+    "en": "CNB reporting for exchange offices"
   },
   "pripravakiddlenarizenipriips": {
-    "cs": "Příprava KID dle nařízení PRIIPs",
-    "en": "Preparation of the KID under the PRIIPs Regulation"
+    "cs": "Příprava na kontrolu ČNB",
+    "en": "Preparing for a CNB inspection"
   },
   "castokladenedotazy": {
     "cs": "Často kladené dotazy",
@@ -68,19 +68,23 @@
     "en": "Obligations under the SFDR"
   },
   "amlpovinnosti": {
-    "cs": "AML povinnosti pro 15 ZISIF",
+    "cs": "AML povinnosti směnárny",
     "en": "AML obligations"
   },
   "investicnistrategie": {
-    "cs": "Investiční strategie",
-    "en": "Investment strategy"
+    "cs": "Whistleblowing směrnice",
+    "en": "Whistleblowing policy"
   },
   "investicnismlouva": {
-    "cs": "Investiční smlouva",
-    "en": "Investment agreement"
+    "cs": "Právní audit směnárny",
+    "en": "Legal audit of an exchange office"
   },
   "povinnostispravcefondu": {
-    "cs": "Povinnosti správce fondu 15 ZISIF",
-    "en": "Obligations of the fund manager"
+    "cs": "Povinnosti směnárníka",
+    "en": "Duties of a bureau-de-change operator"
+  },
+  "pepsankcniscreening": {
+    "cs": "PEP a sankční screening",
+    "en": "PEP and sanctions screening"
   }
 }

@@ -20,9 +20,9 @@ const Home: NextPage<{ news: NewsItem[] }> = ({ news }) => {
 		<DefaultLayout>
 			
 			<SEO
-				title="15 ZISIF – alternativní fondy na klíč | 15zisif.cz"
-				description="✅ Jsme odborníky na 15 ZISIF, věnujeme se zakládání alternativních fondů ⭐ Máme unikátní zkušenosti a know-how v oblasti alternativních fondů dle ZISIF 15"
-				keywords="15 ZISIF, alternativní investiční fond, minifond, alternativní fond, § 15 ZISIF, 15zisif"
+				title="Založení směnárny na klíč | smenarny.legal"
+				description="✅ Jsme odborníky na směnárny – založení směnárny na klíč, povolení ČNB, AML compliance, reporting a příprava na kontrolu ČNB ⭐"
+				keywords="směnárna, založení směnárny, povolení k činnosti směnárníka, ČNB, AML, směnárenská činnost"
 			/>
 			
 			<meta name="seznam-wmt" content="dvWBun9gVdKXbODiGWoQ7fhRwJ0xE2Ni" />

@@ -23,9 +23,9 @@ const ObligationsPage = () => {
     return (
         <DefaultLayout>
 			<SEO
-				title="15 ZISIF – zásady zpracování osobních údajů | 15zisif.cz"
-description="✅ Jsme odborníky v oblasti zakládání fondů ⭐ Máme unikátní zkušenosti a know-how v oblasti alternativních fondů dle § 15 ZISIF"
-keywords="alternativní investiční fond, minifond, alternativní fond, § 15 ZISIF, 15zisif"
+				title="Zásady zpracování osobních údajů | smenarny.legal"
+description="✅ Jsme odborníky na směnárenskou činnost ⭐ Založení směnárny, povolení ČNB, AML compliance, reporting a příprava na kontrolu ČNB"
+keywords="směnárna, založení směnárny, povolení k činnosti směnárníka, ČNB, AML, kontrolní směna, směnárenská činnost"
 			/>
 			<div className={c('relative items-center')}>
 

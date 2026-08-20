@@ -32,7 +32,7 @@ const DefaultLayout: FC = ({ children }) => {
 	return (
 		<div className="text-dark-blue">
 			<Head>		
-				<title>15zisif.cz</title>
+				<title>smenarny.legal</title>
 				<link rel="icon" href="/favicon.ico" />
 				{ process.env.NODE_ENV === 'production' && <script dangerouslySetInnerHTML={{ __html: GA_SCRIPT_DEFAULT }} />}
 				<script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} />

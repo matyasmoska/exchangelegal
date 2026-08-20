@@ -43,23 +43,23 @@ const Footer = () => {
 				<div className="space-y-10">
 					<h3 className="text-xl font-bold">{t(pageData.services)}</h3>
 					<div className="flex flex-col space-y-4">
-						<Link href="/zalozeni-alternativniho-fondu-na-klic">
+						<Link href="/zalozeni-smenarny-na-klic">
 							<a className="hover:underline">{t(pageData.zalozeni)}</a>
 						</Link>
-						<Link href="/reporting-cnb">
+						<Link href="/reporting-cnb-pro-smenarny">
 							<a className="hover:underline">{t(pageData.reportingcnb)}</a>
 						</Link>
-						<Link href="/priprava-kid-dle-narizeni-priips">
+						<Link href="/priprava-na-kontrolu-cnb">
 							<a className="hover:underline">{t(pageData.pripravakiddlenarizenipriips)}</a>
 						</Link>
 
-						<Link href="/aml-povinnosti">
+						<Link href="/aml-povinnosti-smenarny">
 							<a className="hover:underline">{t(pageData.amlpovinnosti)}</a>
 						</Link>
-						<Link href="/investicni-strategie">
+						<Link href="/whistleblowing-smernice">
 							<a className="hover:underline">{t(pageData.investicnistrategie)}</a>
 						</Link>
-						<Link href="/investicni-smlouva">
+						<Link href="/pravni-audit-smenarny">
 							<a className="hover:underline">{t(pageData.investicnismlouva)}</a>
 						</Link>
 					</div>
@@ -68,10 +68,10 @@ const Footer = () => {
 				<div className="space-y-10">
 					<h3 className="text-xl font-bold">{t(pageData.menu)}</h3>
 					<div className="flex flex-col space-y-4">
-						<Link href="/alternativni-investicni-fond">
+						<Link href="/co-je-to-smenarenska-cinnost">
 							<a className="hover:underline">{t(pageData.cojeto)}</a>
 						</Link>
-						<Link href="/povinnosti-spravce-fondu">
+						<Link href="/povinnosti-smenarnika">
 							<a className="hover:underline">{t(pageData.povinnostispravcefondu)}</a>
 						</Link>
 						<Link href="/aktuality">

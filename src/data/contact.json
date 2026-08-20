@@ -5,8 +5,8 @@
             "en": "Contact"
         },
         "descriptionForHomePage": {
-            "cs": "Chcete založit vlastní alternativní fond dle 15 ZISIF? Neváhejte se na nás obrátit.",
-            "en": "Do you want to establish your own alternative investment fund under § 15 of the ZISIF? Don’t hesitate to contact us."
+            "cs": "Chcete založit vlastní směnárnu nebo vyřešit její compliance? Neváhejte se na nás obrátit.",
+            "en": "Do you want to set up your own exchange office or sort out its compliance? Don't hesitate to contact us."
         },
         "description": {
             "cs": "",
@@ -18,20 +18,20 @@
             "secondLine": "Na Dolinách 153/22, 140 00 Praha 4"
         },
         "secondDescriptionForHomePage": {
-            "cs": "Jsme specialisté na alternativní fondy 15 ZISIF.",
-            "en": "We are specialists in alternative investment funds – 15 ZISIF."
+            "cs": "Jsme specialisté na směnárny a AML compliance.",
+            "en": "We are specialists in exchange offices and AML compliance."
         },
         "secondDescription": {
-            "cs": "Jsme specialisté na alternativní investiční fondy a finanční právo.",
-            "en": "We are specialists in alternative investment funds and financial law."
+            "cs": "Jsme specialisté na směnárenskou činnost, AML a regulaci finančního trhu.",
+            "en": "We are specialists in currency exchange regulation, AML and financial market law."
         },
         "thirdDescription": {
             "cs": "Orgánem mimosoudního řešení sporů pro klienty – spotřebitele je Česká advokátní komora se sídlem v Praze www.cak.cz / e-mail: epodatelna@cak.cz",
             "en": "The body for out-of-court dispute resolution for clients – consumers is the Czech Bar Association, based in Prague (www.cak.cz / e-mail: epodatelna@cak.cz)"
         },
-        "url": "15zisif.cz",
+        "url": "smenarny.legal",
         "phoneNumber": "+420 605 006 807",
-        "phoneNumberLink":"00420605006807",
+        "phoneNumberLink": "00420605006807",
         "email": "matyas@moskamurad.legal",
         "emailLink": "matyas@moskamurad.legal",
         "links": {

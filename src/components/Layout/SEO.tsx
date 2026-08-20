@@ -13,23 +13,23 @@ const SEO = ({ title = pageData.title, description = pageData.description, keywo
                 }
             ] : undefined}
             openGraph={{
-                url: 'https://15zisif.cz',
+                url: 'https://www.smenarny.legal',
                 title: pageData.title,
                 description: pageData.description,
                 site_name: pageData.site_name,
                 locale: 'cs_CS',
                 images: [
                     {
-                        url: 'https://www.15zisif.cz/images/background.jpg',
-                        alt: '15zisif.cz',
+                        url: 'https://www.smenarny.legal/images/background_exchange.jpg',
+                        alt: 'smenarny.legal',
                         width: 1352,
                         height: 602
                     }
                 ]
               }}
               twitter={{
-                handle: '@15zisif',
-                site: '@15zisif',
+                handle: '@smenarnylegal',
+                site: '@smenarnylegal',
                 cardType: 'summary_large_image'
               }}
         />

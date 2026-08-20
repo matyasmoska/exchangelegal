@@ -37,172 +37,158 @@
     },
     "services": [
         {
-            "id": "zalozeni-alternativniho-fondu-na-klic-entry",
+            "id": "zalozeni-smenarny-basic",
             "name": {
-                "cs": "Založení alternativního fondu na klíč (Entry)",
-                "en": "Turnkey Establishment of an Alternative Fund (Entry)"
+                "cs": "Založení směnárny – Basic",
+                "en": "Exchange Office Setup – Basic"
             },
             "description": {
-                "cs": "Připravíme pro Vás kompletní dokumentaci pro registraci alternativního investičního fondu dle § 15 ZISIF u České národní banky na klíč. Ideální pro správce, kteří nemají zkušenosti s compliance a budou mít i nekvalifikované investory.",
-                "en": "We will prepare complete documentation for the registration of an alternative investment fund under § 15 of the ZISIF with the Czech National Bank. Ideal for managers with no compliance experience who will also have non-qualified investors."
+                "cs": "Získání povolení ČNB a ohlášení provozovny: vstupní analýza podmínek, žádost vč. příloh, podání přes REGIS, zastupování v řízení a ohlášení provozovny.",
+                "en": "Obtaining the CNB licence and notifying the premises: initial review, application with annexes, REGIS filing, representation in the proceedings and premises notification."
             },
             "price": 79000,
-            "link": "/zalozeni-alternativniho-fondu-na-klic",
+            "link": "/zalozeni-smenarny-na-klic",
             "icon": "/images/serviceIcons/zalozeni-alternativniho-fondu-na-klic.png"
         },
         {
-            "id": "zalozeni-alternativniho-fondu-na-klic-all-in-one",
+            "id": "zalozeni-smenarny-entry",
             "name": {
-                "cs": "Založení alternativního fondu na klíč (All-in-one)",
-                "en": "Turnkey Establishment of an Alternative Fund (All-in-one)"
+                "cs": "Založení směnárny – Entry",
+                "en": "Exchange Office Setup – Entry"
             },
             "description": {
-                "cs": "Ideální pro správce, kteří nemají zkušenosti s compliance a budou mít i nekvalifikované investory.",
-                "en": "Ideal for new managers with no experience who want a turnkey solution including training."
+                "cs": "Vše z balíčku Basic a navíc kompletní AML/CFT dokumentace, provozní dokumentace (kurzovní lístek, předsmluvní informace, doklad), směrnice pro hotovost a oběživo, GDPR a whistleblowing.",
+                "en": "Everything in Basic plus complete AML/CFT documentation, operating documentation (rate list, pre-contractual information, receipt), cash handling policy, GDPR and whistleblowing."
             },
-            "price": 99000,
-            "link": "/zalozeni-alternativniho-fondu-na-klic",
+            "price": 114000,
+            "link": "/zalozeni-smenarny-na-klic",
             "icon": "/images/serviceIcons/zalozeni-alternativniho-fondu-na-klic.png"
         },
         {
-            "id": "zalozeni-alternativniho-fondu-sicav-ready",
+            "id": "zalozeni-smenarny-all-in-one",
             "name": {
-                "cs": "Založení alternativního fondu na klíč (SICAV-ready)",
-                "en": "Turnkey Establishment of an Alternative Fund (SICAV-ready)"
+                "cs": "Založení směnárny – All-in-one",
+                "en": "Exchange Office Setup – All-in-one"
             },
             "description": {
-                "cs": "Plánujete v budoucnu přechod na strukturu SICAV? Založte Váš 15 ZISIF tak, abyste měli přechod na SICAV co nejjednodušší.",
-                "en": "Planning to move to a SICAV structure in the future? Set up your § 15 ZISIF so that the transition to SICAV is as easy as possible."
+                "cs": "Vše z balíčku Entry a navíc AML/CFT školení pracovníků s osvědčením, fyzická kontrola provozovny před spuštěním se zkušební směnou a následná kontrola měsíc po spuštění.",
+                "en": "Everything in Entry plus certified AML/CFT staff training, a pre-launch on-site inspection with a test exchange and a follow-up inspection one month after launch."
             },
-            "price": 199000,
-            "link": "/zalozeni-alternativniho-fondu-sicav-ready",
+            "price": 139000,
+            "link": "/zalozeni-smenarny-na-klic",
             "icon": "/images/serviceIcons/zalozeni-alternativniho-fondu-na-klic.png"
-        },
-        {
-            "id": "reporting-cnb",
-            "name": {
-                "cs": "Reporting ČNB (ROFOS 36, ROFOS 37 a DOFOS 15)",
-                "en": "CNB Reporting (ROFOS 36, ROFOS 37 and DOFOS 15)"
-            },
-            "description": {
-                "cs": "Zjednodušujeme pro Vás plnění Vašich reportingových povinností. Výkaznictví ČNB vyřešíme za Vás, nastavíme pravidelné reporty ROFOS 36, ROFOS 37 a DOFOS 15 dle aktuálních legislativních požadavků.",
-                "en": "We simplify your reporting obligations. We’ll handle CNB reporting for you, set up regular reports (ROFOS 36, ROFOS 37 and DOFOS 15) in line with current legislative requirements."
-            },
-            "price": 10000,
-            "link": "/reporting-cnb",
-            "icon": "/images/serviceIcons/reporting-cnb.png"
-        },
-        {
-            "id": "investicni-dotaznik",
-            "name": {
-                "cs": "Investiční dotazník",
-                "en": "Investment Questionnaire"
-            },
-            "description": {
-                "cs": "Potřebujete pomoci s přípravou investičního dotazníku pro posouzení vhodnosti dle § 15 odst. 4 písm. c) ZISIF?",
-                "en": "Need help preparing an investment questionnaire to assess suitability under § 15(4)(c) of ZISIF?"
-            },
-            "price": 9900,
-            "link": "/investicni-dotaznik",
-            "icon": "/images/serviceIcons/priprava-kid-dle-narizeni-priips.png"
-        },
-        {
-            "id": "registrace-lei",
-            "name": {
-                "cs": "Registrace LEI",
-                "en": "LEI Registration"
-            },
-            "description": {
-                "cs": "Účelem kódů LEI je usnadnit identifikaci protistrany při finančních transakcích. Vydávání kódů je regulováno globální zastřešující organizací GLEIF - Global Legal Entity Identifier Foundation",
-                "en": "The purpose of the LEI code is to simplify identification of counterparties in financial transactions. Code issuance is regulated globally by GLEIF – Global Legal Entity Identifier Foundation."
-            },
-            "price": 1230,
-            "link": "https://lei-ceska.cz/?affiliate_code=15zisif",
-            "icon": "/images/serviceIcons/lei.png"
         },
         {
             "id": "aml-povinnosti",
             "name": {
-                "cs": "AML povinnosti",
-                "en": "AML Obligations"
+                "cs": "AML dokumentace směnárny (SVZ + hodnocení rizik)",
+                "en": "AML documentation (internal policy + risk assessment)"
             },
             "description": {
-                "cs": "Potřebujete vyřešit AML povinnosti? Neváhejte se na nás obrátit. Připravíme pro Vás nezbytné dokumenty související s plněním veškerých AML povinností dle AML zákona.",
-                "en": "Need help with AML obligations? Don’t hesitate to contact us. We’ll prepare the necessary documents to comply with all AML obligations under the AML Act."
+                "cs": "Vypracujeme systém vnitřních zásad a hodnocení rizik na míru Vaší směnárně a zajistíme jejich doručení ČNB, včetně nahlášení kontaktní osoby FAÚ.",
+                "en": "We will draft a tailor-made internal AML policy and risk assessment and deliver them to the CNB, incl. notifying the FAÚ contact person."
             },
             "price": 29000,
-            "link": "/aml-povinnosti",
+            "link": "/aml-povinnosti-smenarny",
             "icon": "/images/serviceIcons/aml-povinnosti.png"
         },
         {
-            "id": "investicni-smlouva",
+            "id": "reporting-cnb",
             "name": {
-                "cs": "Investiční smlouva",
-                "en": "Investment Agreement"
+                "cs": "Reporting ČNB (výkaz DEV 26-04)",
+                "en": "CNB reporting (DEV 26-04 report)"
             },
             "description": {
-                "cs": "Připravíme pro Vás investiční smlouvu na míru dle zákonných požadavků, případně Vám pomůžeme s úpravou Vaší stávající investiční smlouvy.",
-                "en": "We will prepare a tailor-made investment agreement for you in compliance with legal requirements, or assist with modifications to your current investment agreement."
+                "cs": "Kompletně převezmeme výkaznictví Vaší směnárny vůči ČNB – ohlídáme termíny, sestavíme a podáme výkaz Nákup a prodej cizí měny.",
+                "en": "We will fully take over your CNB reporting – watch the deadlines, compile and file the Purchase and Sale of Foreign Currency report."
             },
-            "price": 19000,
-            "link": "/investicni-smlouva",
-            "icon": "/images/serviceIcons/investicni-smlouva.png"
+            "price": 10000,
+            "link": "/reporting-cnb-pro-smenarny",
+            "icon": "/images/serviceIcons/reporting-cnb.png"
         },
         {
-            "id": "investicni-strategie",
+            "id": "pep-sankcni-screening",
             "name": {
-                "cs": "Investiční strategie",
-                "en": "Investment Strategy"
+                "cs": "PEP a sankční screening klientů",
+                "en": "PEP and sanctions screening"
             },
             "description": {
-                "cs": "Připravíme pro Vás investiční strategii na míru, případně Vám pomůžeme s úpravou Vaší strávající investiční strategie.",
-                "en": "We will create a tailor-made investment strategy for you, or help you revise your current one."
+                "cs": "Nastavíme proces prověřování klientů proti seznamům PEP a sankčním seznamům včetně automatizovaného nástroje a evidence lustrací.",
+                "en": "We will set up customer screening against PEP and sanctions lists, incl. an automated tool and screening records."
             },
-            "price": 9000,
-            "link": "/investicni-strategie",
-            "icon": "/images/serviceIcons/investicni-strategie.png"
+            "price": 9900,
+            "link": "/pep-a-sankcni-screening",
+            "icon": "/images/serviceIcons/skoleni-na-mezinarodni-sankce.svg"
+        },
+        {
+            "id": "priprava-na-kontrolu-cnb",
+            "name": {
+                "cs": "Příprava na kontrolu ČNB",
+                "en": "Preparation for a CNB inspection"
+            },
+            "description": {
+                "cs": "Projdeme Vaši směnárnu očima kontrolora, provedeme simulovanou kontrolní směnu a odstraníme nedostatky dřív, než je najde ČNB.",
+                "en": "We will review your office through an inspector's eyes, run a simulated test purchase and remedy deficiencies before the CNB finds them."
+            },
+            "price": 19000,
+            "link": "/priprava-na-kontrolu-cnb",
+            "icon": "/images/serviceIcons/aml_audit.svg"
+        },
+        {
+            "id": "pravni-audit-smenarny",
+            "name": {
+                "cs": "Právní audit směnárny",
+                "en": "Legal audit of an exchange office"
+            },
+            "description": {
+                "cs": "Komplexní prověrka souladu směnárny s právními předpisy – dokumentace, provozovna, AML, výkaznictví – s písemnou zprávou a návrhem nápravy.",
+                "en": "A comprehensive compliance review – documentation, premises, AML, reporting – with a written report and remediation plan."
+            },
+            "price": 29000,
+            "link": "/pravni-audit-smenarny",
+            "icon": "/images/serviceIcons/aml_audit.svg"
+        },
+        {
+            "id": "whistleblowing-smernice",
+            "name": {
+                "cs": "Whistleblowing směrnice",
+                "en": "Whistleblowing policy"
+            },
+            "description": {
+                "cs": "Vypracujeme vnitřní oznamovací systém dle zákona o ochraně oznamovatelů – povinnost i pro směnárny bez ohledu na počet zaměstnanců.",
+                "en": "We will draft an internal reporting system under the Whistleblower Protection Act – mandatory for exchange offices regardless of headcount."
+            },
+            "price": 15000,
+            "link": "/whistleblowing-smernice",
+            "icon": "/images/serviceIcons/zasady.svg"
+        },
+        {
+            "id": "skoleni-aml",
+            "name": {
+                "cs": "Školení AML pro zaměstnance",
+                "en": "AML staff training"
+            },
+            "description": {
+                "cs": "Proškolíme Vaše zaměstnance v AML/CFT povinnostech směnárny (povinnost min. 1× za 12 měsíců) a vystavíme certifikáty o školení.",
+                "en": "We will train your staff in the AML/CFT duties of an exchange office (mandatory at least once every 12 months) and issue training certificates."
+            },
+            "price": 5900,
+            "link": "/aml-povinnosti-smenarny",
+            "icon": "/images/serviceIcons/skoleni_a_metodika.svg"
         },
         {
             "id": "bezplatna-konzultace",
             "name": {
                 "cs": "Bezplatná konzultace",
-                "en": "Free Consultation"
+                "en": "Free consultation"
             },
             "description": {
-                "cs": "Máte dotazy? Nejste si jisti svou volbou? Rádi Vám poradíme.",
-                "en": "Have questions? Not sure about your choice? We will be happy to help."
+                "cs": "Nezávazná úvodní konzultace Vašeho záměru – posoudíme podmínky, strukturu i časový plán založení směnárny.",
+                "en": "A non-binding introductory consultation – we will assess the conditions, structure and timeline of your project."
             },
             "price": 0,
-            "link": "/",
+            "link": "/kontakty",
             "icon": "/images/serviceIcons/bezplatna-konzultace.png"
-        },
-        {
-            "id": "software",
-            "name": {
-                "cs": "Komplexní excelové řešení pro výpočet NAV, poplatků a dalších",
-                "en": "Comprehensive Excel solution for calculating NAV, fees, and more."
-            },
-            "description": {
-                "cs": "Kompletní excelové řešení pro vedení alternativního fondu dle § 15 ZISIF. Automatizované řešení výpočtu NAV, poplatků Management Fee, Performance Fee, alokačních poměrů investorů, sledování High Watermark a dalších.",
-                "en": "A complete Excel solution for managing an alternative fund under § 15 ZISIF. It automates the calculation of NAV, Management and Performance Fees, investor allocation ratios, High Watermark tracking, and more."
-            },
-            "price": 35000,
-            "link": "/",
-            "icon": "/images/serviceIcons/zalozeni-alternativniho-fondu-na-klic.png"
-        },
-        {
-            "id": "priprava-kid-dle-narizeni-priips",
-            "name": {
-                "cs": "Příprava KID dle nařízení PRIIPs",
-                "en": "Preparation of the KID under the PRIIPs Regulation"
-            },
-            "description": {
-                "cs": "Potřebujete pomoci s přípravou dokumentu KID? Žádný problém, tzv. Sdělení klíčových informací (PRIIPs) pro Vás připravíme na míru.",
-                "en": "Need help preparing a KID document? No problem – we will tailor the Key Information Document (KID) for you in accordance with the PRIIPs Regulation."
-            },
-            "price": 19000,
-            "link": "/priprava-kid-dle-narizeni-priips",
-            "icon": "/images/serviceIcons/priprava-kid-dle-narizeni-priips.png"
         }
     ]
 }

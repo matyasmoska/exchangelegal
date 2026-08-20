@@ -52,9 +52,9 @@ export default function FAQPage () {
 	return (
 		<DefaultLayout>
 			<SEO
-				title="15 ZISIF – často kladené dotazy – 15zisif.cz"
-				description="✅ Vy se ptáte, my odpovídáme, nejčastější otázky, které nám pokládáte v souvislosti s alternativním fondem dle § 15 ZISIF⭐"
-				keywords="alternativní investiční fond, minifond, alternativní fond, § 15 ZISIF, 15zisif"
+				title="Často kladené dotazy o směnárnách – smenarny.legal"
+				description="✅ Vy se ptáte, my odpovídáme – nejčastější otázky k založení a provozu směnárny, povolení ČNB a AML povinnostem ⭐"
+				keywords="směnárna, založení směnárny, povolení k činnosti směnárníka, ČNB, AML, kontrolní směna, směnárenská činnost"
 				
 			/>
 			<div className={c("py-16 text-justify px-36 mb-52 space-y-14", 'md:px-4 md:py-8')}>
