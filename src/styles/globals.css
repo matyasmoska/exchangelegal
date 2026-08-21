@@ -52,3 +52,16 @@ h2 > em {
 .underlineOffset {
     text-underline-offset: 6px;
 }
+
+/* Highlighted package blocks inside MDX content (e.g. turnkey setup page) */
+.package-box {
+    @apply my-8 px-8 py-2 rounded-xl bg-light-grey border-l-4 border-mint;
+}
+
+.package-box > h3:first-child {
+    @apply mt-6;
+}
+
+.package-box > *:last-child {
+    @apply mb-6;
+}

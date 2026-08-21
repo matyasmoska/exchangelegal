@@ -8,6 +8,7 @@ import { ArrowDown, ArrowRight, CloseIcon, LonelyCheckmarkIcon } from '../../Lay
 
 import data from '../../../data/pages/arguments.json'
 import PricingCard from '../services/PricingCard'
+import GoogleReviewCards from './GoogleReviewCards'
 
 
 export const OptionsSection: FC<{ hideArrow?: boolean, className?: string }> = ({ hideArrow, className }) => {
@@ -148,6 +149,7 @@ const ArgumentsSection: FC = () => {
 					))}
 				</Fade>
 			</div>
+			<GoogleReviewCards />
 		</div>
 	  </>
 	)

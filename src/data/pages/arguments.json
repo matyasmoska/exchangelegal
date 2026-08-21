@@ -675,5 +675,9 @@
     "packagePickerText": {
         "cs": "Vybraný balíček se propíše do nezávazné poptávky níže. Kdykoli jej můžete změnit.",
         "en": "The package you choose is carried over into the non-binding inquiry below. You can change it at any time."
+    },
+    "reviewsOnGoogle": {
+        "cs": "hodnocení na Googlu",
+        "en": "reviews on Google"
     }
 }
