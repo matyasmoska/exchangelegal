@@ -22,14 +22,14 @@ const Footer = () => {
 				'md:py-10 md:px-10 md:block md:space-y-16 md:text-center md:text-lg'
 			)}
 		>
-			<div className="self-start space-y-4">
+			<div className="self-start space-y-10">
 				<LogoWhite />			
 				<Link href="/prijimame-kryptomeny">
 				<a target="_blank">
-				<img src={t(contactPageData.cryptoImage)} alt="Přijímáme kryptoměny!" className={c('w-4/5 rounded-lg flex', 'md:mx-auto')} />
+				<img src={t(contactPageData.cryptoImage)} alt="Přijímáme kryptoměny!" className={c('w-3/5 rounded-lg flex', 'md:w-4/5 md:mx-auto')} />
 				</a>
 				</Link>
-				<p className="pt-2">{t(contactPageData.allRightsReserved)}</p>
+				<p className="pt-4">{t(contactPageData.allRightsReserved)}</p>
 			</div>
 			<div
 				className={c(
