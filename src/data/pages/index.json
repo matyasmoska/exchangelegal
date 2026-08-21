@@ -60,8 +60,8 @@
     },
     "secondSection": {
         "title": {
-            "cs": "AML a provozní dokumentaci nechte na nás",
-            "en": "Leave the AML and operating documentation to us"
+            "cs": "AML/CFT nechte na nás",
+            "en": "Leave AML/CFT to us"
         },
         "subtitle": {
             "cs": "Vypracujeme systém vnitřních zásad a hodnocení rizik na míru Vaší směnárně, doručíme je ČNB a nastavíme PEP a sankční screening klientů tak, aby obstál při každé kontrole.",
@@ -115,8 +115,8 @@
     },
     "thirdSection": {
         "title": {
-            "cs": "Přijde k Vám kontrola ČNB? Připravíme Vás",
-            "en": "Facing a CNB inspection? We will get you ready"
+            "cs": "Přijde k Vám kontrola ČNB?<br/>Připravíme Vás",
+            "en": "Facing a CNB inspection?<br/>We will get you ready"
         },
         "subtitle": {
             "cs": "Projdeme Vaši směnárnu očima kontrolora – od kurzovního lístku přes doklady až po AML. Nedostatky odstraníme dřív, než je najde Česká národní banka při kontrolní směně.",
