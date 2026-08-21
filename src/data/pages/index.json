@@ -28,17 +28,24 @@
             }
         },
         "firstNumber": {
-            "number": "10+",
+            "number": "1,5–3 měsíce",
             "text": {
-                "cs": "Let zkušeností s regulací finančního trhu",
-                "en": "Years of financial regulation experience"
+                "cs": "Obvyklá doba do rozhodnutí ČNB",
+                "en": "Typical time until the CNB decision"
             }
         },
         "secondNumber": {
-            "number": "50+",
+            "number": "70+",
             "text": {
-                "cs": "Spokojených klientů",
-                "en": "Satisfied clients"
+                "cs": "Subjektů, které jsme zapsali do registrů ČNB",
+                "en": "Entities we have registered with the Czech National Bank"
+            }
+        },
+        "thirdNumber": {
+            "number": "Pevná cena",
+            "text": {
+                "cs": "Žádné hodinové sazby ani dopočty",
+                "en": "No hourly rates, no surprise add-ons"
             }
         }
     },
@@ -67,17 +74,24 @@
             }
         },
         "firstNumber": {
-            "number": "10+",
+            "number": "1,5–3 měsíce",
             "text": {
-                "cs": "Let zkušeností s regulací finančního trhu",
-                "en": "Years of financial regulation experience"
+                "cs": "Obvyklá doba do rozhodnutí ČNB",
+                "en": "Typical time until the CNB decision"
             }
         },
         "secondNumber": {
-            "number": "50+",
+            "number": "70+",
             "text": {
-                "cs": "Spokojených klientů",
-                "en": "Satisfied clients"
+                "cs": "Subjektů, které jsme zapsali do registrů ČNB",
+                "en": "Entities we have registered with the Czech National Bank"
+            }
+        },
+        "thirdNumber": {
+            "number": "Pevná cena",
+            "text": {
+                "cs": "Žádné hodinové sazby ani dopočty",
+                "en": "No hourly rates, no surprise add-ons"
             }
         }
     },
@@ -106,17 +120,24 @@
             }
         },
         "firstNumber": {
-            "number": "10+",
+            "number": "1,5–3 měsíce",
             "text": {
-                "cs": "Let zkušeností s regulací finančního trhu",
-                "en": "Years of financial regulation experience"
+                "cs": "Obvyklá doba do rozhodnutí ČNB",
+                "en": "Typical time until the CNB decision"
             }
         },
         "secondNumber": {
-            "number": "50+",
+            "number": "70+",
             "text": {
-                "cs": "Spokojených klientů",
-                "en": "Satisfied clients"
+                "cs": "Subjektů, které jsme zapsali do registrů ČNB",
+                "en": "Entities we have registered with the Czech National Bank"
+            }
+        },
+        "thirdNumber": {
+            "number": "Pevná cena",
+            "text": {
+                "cs": "Žádné hodinové sazby ani dopočty",
+                "en": "No hourly rates, no surprise add-ons"
             }
         }
     },

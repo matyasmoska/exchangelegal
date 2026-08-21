@@ -11,7 +11,7 @@ export const components = ["firstSection", "secondSection", "thirdSection"] as c
 const CarouselSection: FC<{ sectionKey: typeof components[number] }> = ({ sectionKey, children }) => {
 	const t = useTranslations<string>()
 	
-	const { image, title, subtitle, primaryButton, secondaryButton, firstNumber, secondNumber } = pageData[sectionKey]
+	const { image, title, subtitle, primaryButton, secondaryButton, firstNumber, secondNumber, thirdNumber } = pageData[sectionKey]
 
 	return (
 		<div
@@ -68,18 +68,24 @@ const CarouselSection: FC<{ sectionKey: typeof components[number] }> = ({ sectio
 				</div>
 				<div
 					className={c(
-						'flex flex-wrap gap-x-12 gap-y-6',
+						'flex flex-wrap gap-x-10 gap-y-6 max-w-4xl',
 						'md:hidden'
 					)}
 				>
 					<div>
-						<h3 className="text-5xl leading-tight font-bold mb-3">{firstNumber.number}</h3>
+						<h3 className="text-4xl 2xl:text-3xl leading-tight font-bold mb-3">{firstNumber.number}</h3>
 						<p>{t(firstNumber.text)}</p>
 					</div>
 					<div>
-						<h3 className="text-5xl leading-tight font-bold mb-3">{secondNumber.number}</h3>
+						<h3 className="text-4xl 2xl:text-3xl leading-tight font-bold mb-3">{secondNumber.number}</h3>
 						<p>{t(secondNumber.text)}</p>
 					</div>
+					{thirdNumber && (
+						<div>
+							<h3 className="text-4xl 2xl:text-3xl leading-tight font-bold mb-3">{thirdNumber.number}</h3>
+							<p>{t(thirdNumber.text)}</p>
+						</div>
+					)}
 				</div>
 			</div>
 		</div>
