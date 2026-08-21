@@ -18,7 +18,7 @@ const ShareArticleLinks: FC<{ article: NewsItem }> = ({ article }) => {
 		setTwitterLink('https://twitter.com/intent/tweet?text=' + encodeURI(`${t(article.name)} ${window?.location.href}`))
 	}, [])
 
-	const url = encodeURI(`https://www.smenarny.legal/${locale && locale !== defaultLocale ? `${locale}/` : ''}aktuality/${article.slug[defaultLocale as Locale]}`)
+	const url = encodeURI(`https://www.pravoprosmenarny.cz/${locale && locale !== defaultLocale ? `${locale}/` : ''}aktuality/${article.slug[defaultLocale as Locale]}`)
 
 	return (
 		<div className="flex items-center space-x-4">
@@ -32,7 +32,7 @@ const ShareArticleLinks: FC<{ article: NewsItem }> = ({ article }) => {
 				</a>
 				<LinkedinShareButton
 					title={t(article.name)}
-					source="smenarny.legal"
+					source="pravoprosmenarny.cz"
 					url={url}
 				>
 					<LinkedInIcon className="fill-current w-7 h-7" />

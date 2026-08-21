@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import ParagraphOrMultiple from "../components/Layout/ParagraphOrMultiple";
 import DefaultLayout from "../layouts/DefaultLayout";
 import SEO from "../components/Layout/SEO";
@@ -11,6 +11,7 @@ import useServicesForm from "../components/Pages/services/hooks/useServicesForm"
 import { trackViewItems } from "../components/Pages/services/serviceHelpers";
 import OrderButton from "../components/Pages/services/OrderButton";
 import ServicesForm from "../components/Pages/services/ServicesForm";
+import PackagePicker from "../components/Pages/services/PackagePicker";
 import { useVisible } from "react-hooks-visible";
 
 import Button from "../components/Layout/Button";
@@ -33,17 +34,25 @@ const ObligationsPage = () => {
 
 	const servicesForm = useServicesForm()
 
+	const [selectedPackageId, setSelectedPackageId] = useState('zalozeni-smenarny-entry')
+
+	const selectPackage = (serviceId: string) => {
+		const service = servicesData.services.find(({ id }) => id === serviceId)
+		if (!service) return
+		setSelectedPackageId(serviceId)
+		servicesForm.setFieldValue('checked', [service])
+		trackViewItems([service])
+	}
+
 	useEffect(() => {
-		const selectedServices = servicesData.services.filter(({ id }) => id === 'zalozeni-smenarny-basic' || id === 'zalozeni-smenarny-entry' || id === 'zalozeni-smenarny-all-in-one')
-		servicesForm.setFieldValue('checked', selectedServices)
-		trackViewItems(selectedServices)
+		selectPackage(selectedPackageId)
 	}, [])
 	
 	return (
 	   
         <DefaultLayout>
 			<SEO
-				title="Založení směnárny na klíč – povolení ČNB – smenarny.legal"
+				title="Založení směnárny na klíč – povolení ČNB – pravoprosmenarny.cz"
 description="✅ Jsme odborníky na směnárenskou činnost ⭐ Založení směnárny, povolení ČNB, AML compliance, reporting a příprava na kontrolu ČNB"
 keywords="směnárna, založení směnárny, povolení k činnosti směnárníka, ČNB, AML, kontrolní směna, směnárenská činnost"
 			/>
@@ -87,6 +96,8 @@ keywords="směnárna, založení směnárny, povolení k činnosti směnárníka
 				</div>
 				<OrderButton show={!visible} text={pageData.buttonText} />
 			</div>
+				<PackagePicker selectedId={selectedPackageId} onSelect={selectPackage} />
+
 		    <ServicesForm visibleRef={targetRef} form={servicesForm} />
 		</DefaultLayout>
     );

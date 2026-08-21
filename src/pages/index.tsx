@@ -20,7 +20,7 @@ const Home: NextPage<{ news: NewsItem[] }> = ({ news }) => {
 		<DefaultLayout>
 			
 			<SEO
-				title="Založení směnárny na klíč | smenarny.legal"
+				title="Založení směnárny na klíč | pravoprosmenarny.cz"
 				description="✅ Jsme odborníky na směnárny – založení směnárny na klíč, povolení ČNB, AML compliance, reporting a příprava na kontrolu ČNB ⭐"
 				keywords="směnárna, založení směnárny, povolení k činnosti směnárníka, ČNB, AML, směnárenská činnost"
 			/>

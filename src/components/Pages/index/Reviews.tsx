@@ -7,6 +7,7 @@ export type ReviewInfo = {
     rating?: number | string
     reviews_number?: number
     uri?: string
+    placeId?: string
 }
 
 const getStars = (rating: ReviewInfo["rating"]): StarType[] => {
@@ -19,7 +20,7 @@ const getStars = (rating: ReviewInfo["rating"]): StarType[] => {
     return stars
 }
 
-const Reviews: FC<ReviewInfo> = ({ rating, reviews_number, uri }) => {
+const Reviews: FC<ReviewInfo> = ({ rating, reviews_number, uri, placeId }) => {
     const t = useTranslations()
     
     const stars = useMemo(() => getStars(rating), [rating])
@@ -28,7 +29,7 @@ const Reviews: FC<ReviewInfo> = ({ rating, reviews_number, uri }) => {
 		<>
             {typeof rating === "number" && (
                 <a
-                    href={`http://search.google.com/local/reviews?placeid=${uri}`}
+                    href={uri || `https://search.google.com/local/reviews?placeid=${placeId}`}
                     target="_blank"
                     rel="noopener"
                     className="flex items-center max-w-max px-6 py-1 text-dark-blue bg-white rounded-2xl"

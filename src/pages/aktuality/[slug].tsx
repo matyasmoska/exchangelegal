@@ -61,13 +61,13 @@ const PostDetailPage: NextPage<PostDetailPageProps> = ({ news, newsItem, author 
 	return (
 		<DefaultLayout>
 			<NextSeo
-				title={t(newsItem.name) + ' | smenarny.legal'}
+				title={t(newsItem.name) + ' | pravoprosmenarny.cz'}
 				description={t(newsItem.previewText)}
 				openGraph={{
-					url: 'https://www.smenarny.legal/aktuality/' + newsItem.slug[defaultLocale as Locale],
-					title: t(newsItem.name) + ' | smenarny.legal',
+					url: 'https://www.pravoprosmenarny.cz/aktuality/' + newsItem.slug[defaultLocale as Locale],
+					title: t(newsItem.name) + ' | pravoprosmenarny.cz',
 					description: t(newsItem.previewText),
-					site_name: 'smenarny.legal',
+					site_name: 'pravoprosmenarny.cz',
 					type: 'article',
 					article: {
 						publishedTime: t(newsItem.date)
@@ -81,8 +81,8 @@ const PostDetailPage: NextPage<PostDetailPageProps> = ({ news, newsItem, author 
 					]
 				}}
 				twitter={{
-					handle: '@smenarnylegal',
-					site: '@smenarnylegal',
+					handle: '@pravoprosmenarny',
+					site: '@pravoprosmenarny',
 					cardType: 'summary_large_image'
 				}}
 			/>

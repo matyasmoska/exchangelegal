@@ -73,16 +73,16 @@ const CarouselSection: FC<{ sectionKey: typeof components[number] }> = ({ sectio
 					)}
 				>
 					<div>
-						<h3 className="text-4xl 2xl:text-3xl leading-tight font-bold mb-3">{firstNumber.number}</h3>
+						<h3 className="text-4xl 2xl:text-3xl leading-tight font-bold mb-3">{t(firstNumber.number)}</h3>
 						<p>{t(firstNumber.text)}</p>
 					</div>
 					<div>
-						<h3 className="text-4xl 2xl:text-3xl leading-tight font-bold mb-3">{secondNumber.number}</h3>
+						<h3 className="text-4xl 2xl:text-3xl leading-tight font-bold mb-3">{t(secondNumber.number)}</h3>
 						<p>{t(secondNumber.text)}</p>
 					</div>
 					{thirdNumber && (
 						<div>
-							<h3 className="text-4xl 2xl:text-3xl leading-tight font-bold mb-3">{thirdNumber.number}</h3>
+							<h3 className="text-4xl 2xl:text-3xl leading-tight font-bold mb-3">{t(thirdNumber.number)}</h3>
 							<p>{t(thirdNumber.text)}</p>
 						</div>
 					)}

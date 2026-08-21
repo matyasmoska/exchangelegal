@@ -8,7 +8,7 @@ import TeamMemberDetail from '../components/Pages/about/TeamMemberDetail'
 import { c } from '../services/misc'
 import ParagraphOrMultiple from "../components/Layout/ParagraphOrMultiple";
 import { Fade } from 'react-awesome-reveal'
-import ReferencesCarousel from '../components/Pages/about/ReferencesCarousel'
+import GoogleReviews from "../components/Pages/about/GoogleReviews";
 import { useTranslations } from '../hooks/useTranslations'
 
 export default function AboutPage () {
@@ -17,7 +17,7 @@ export default function AboutPage () {
 	return (
 		<DefaultLayout>
 			<SEO
-				title="O nás – smenarny.legal"
+				title="O nás – pravoprosmenarny.cz"
 description="✅ Jsme odborníky na směnárenskou činnost ⭐ Založení směnárny, povolení ČNB, AML compliance, reporting a příprava na kontrolu ČNB"
 keywords="směnárna, založení směnárny, povolení k činnosti směnárníka, ČNB, AML, kontrolní směna, směnárenská činnost"
 			/>
@@ -49,7 +49,7 @@ keywords="směnárna, založení směnárny, povolení k činnosti směnárníka
 						))}
 					</div>
 					<div className={c('flex flex-col my-24 items-center space-y-20', 'md:px-8')}>
-						<ReferencesCarousel references={pageData.references} />
+						<GoogleReviews />
 					</div>
 				</div>
 			</div>

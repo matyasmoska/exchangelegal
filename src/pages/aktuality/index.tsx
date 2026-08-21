@@ -15,8 +15,8 @@ export default function NewsPage({ news }: { news: NewsItem[] }) {
   return (
     <DefaultLayout>
       <SEO
-        title="Aktuality | smenarny.legal"
-        description="Aktuality ze světa směnáren, AML a regulace finančního trhu od advokátů ze smenarny.legal"
+        title="Aktuality | pravoprosmenarny.cz"
+        description="Aktuality ze světa směnáren, AML a regulace finančního trhu od advokátů ze pravoprosmenarny.cz"
         keywords="směnárna, směnárny, AML, ČNB, aktuality"
       />
       <div className={c("p-36 py-16 space-y-28", "md:px-4 md:space-y-10 md:py-4")}>

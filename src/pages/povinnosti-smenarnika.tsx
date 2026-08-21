@@ -24,7 +24,7 @@ const ObligationsPage = () => {
     return (
         <DefaultLayout>
 			<SEO
-				title="Povinnosti směnárníka podle zákona č. 277/2013 Sb. – smenarny.legal"
+				title="Povinnosti směnárníka podle zákona č. 277/2013 Sb. – pravoprosmenarny.cz"
 description="✅ Jsme odborníky na směnárenskou činnost ⭐ Založení směnárny, povolení ČNB, AML compliance, reporting a příprava na kontrolu ČNB"
 keywords="směnárna, založení směnárny, povolení k činnosti směnárníka, ČNB, AML, kontrolní směna, směnárenská činnost"
 			/>

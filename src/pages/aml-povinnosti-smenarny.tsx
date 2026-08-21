@@ -51,7 +51,7 @@ const ObligationsPage = () => {
     return (
         <DefaultLayout>
 			<SEO
-				title="AML povinnosti směnárny – SVZ, identifikace, screening – smenarny.legal"
+				title="AML povinnosti směnárny – SVZ, identifikace, screening – pravoprosmenarny.cz"
 				description="✅ Jsme odborníky na směnárenskou činnost ⭐ Založení směnárny, povolení ČNB, AML compliance, reporting a příprava na kontrolu ČNB"
 				keywords="směnárna, založení směnárny, povolení k činnosti směnárníka, ČNB, AML, kontrolní směna, směnárenská činnost"
 			/>

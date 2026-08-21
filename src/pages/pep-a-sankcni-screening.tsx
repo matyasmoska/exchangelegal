@@ -51,7 +51,7 @@ const ObligationsPage = () => {
     return (
         <DefaultLayout>
 			<SEO
-				title="PEP a sankční screening klientů směnárny – smenarny.legal"
+				title="PEP a sankční screening klientů směnárny – pravoprosmenarny.cz"
 				description="✅ Jsme odborníky na směnárenskou činnost ⭐ Založení směnárny, povolení ČNB, AML compliance, reporting a příprava na kontrolu ČNB"
 				keywords="směnárna, založení směnárny, povolení k činnosti směnárníka, ČNB, AML, kontrolní směna, směnárenská činnost"
 			/>

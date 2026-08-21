@@ -32,7 +32,7 @@ const DefaultLayout: FC = ({ children }) => {
 	return (
 		<div className="text-dark-blue">
 			<Head>		
-				<title>smenarny.legal</title>
+				<title>pravoprosmenarny.cz</title>
 				<link rel="icon" href="/favicon.ico?v=2" sizes="any" />
 				<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 				<meta name="theme-color" content="#110756" />

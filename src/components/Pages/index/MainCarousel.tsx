@@ -19,8 +19,13 @@ const MainCarousel: FC<{ news: NewsItem[] }> = ({ news }) => {
 	useEffect(() => {
 		fetch("/api/reviews")
 			.then(res => res.json())
-			.then(res => res?.result?.data?.[0])
-			.then(setReviews)
+			.then(res => setReviews({
+				rating: res?.rating ?? undefined,
+				reviews_number: res?.totalCount ?? undefined,
+				uri: res?.mapsUri ?? undefined,
+				placeId: res?.placeId ?? undefined,
+			}))
+			.catch(() => undefined)
 	}, [])
 
 	const changeUp = () => setCurrentItemIndex(c => (c + 1) % components.length)

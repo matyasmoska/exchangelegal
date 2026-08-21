@@ -43,7 +43,7 @@ const ObligationsPage = () => {
     return (
         <DefaultLayout>
 			<SEO
-				title="Příprava na kontrolu ČNB – kontrolní směny – smenarny.legal"
+				title="Příprava na kontrolu ČNB – kontrolní směny – pravoprosmenarny.cz"
 description="✅ Jsme odborníky na směnárenskou činnost ⭐ Založení směnárny, povolení ČNB, AML compliance, reporting a příprava na kontrolu ČNB"
 keywords="směnárna, založení směnárny, povolení k činnosti směnárníka, ČNB, AML, kontrolní směna, směnárenská činnost"
 			/>

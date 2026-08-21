@@ -52,7 +52,7 @@ export default function FAQPage () {
 	return (
 		<DefaultLayout>
 			<SEO
-				title="Často kladené dotazy o směnárnách – smenarny.legal"
+				title="Často kladené dotazy o směnárnách – pravoprosmenarny.cz"
 				description="✅ Vy se ptáte, my odpovídáme – nejčastější otázky k založení a provozu směnárny, povolení ČNB a AML povinnostem ⭐"
 				keywords="směnárna, založení směnárny, povolení k činnosti směnárníka, ČNB, AML, kontrolní směna, směnárenská činnost"
 				

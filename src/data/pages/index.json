@@ -28,21 +28,30 @@
             }
         },
         "firstNumber": {
-            "number": "1,5–3 měsíce",
+            "number": {
+                "cs": "1,5–3 měsíce",
+                "en": "1.5–3 months"
+            },
             "text": {
                 "cs": "Obvyklá doba do rozhodnutí ČNB",
                 "en": "Typical time until the CNB decision"
             }
         },
         "secondNumber": {
-            "number": "70+",
+            "number": {
+                "cs": "70+",
+                "en": "70+"
+            },
             "text": {
                 "cs": "Subjektů, které jsme zapsali do registrů ČNB",
                 "en": "Entities we have registered with the Czech National Bank"
             }
         },
         "thirdNumber": {
-            "number": "Pevná cena",
+            "number": {
+                "cs": "Pevná cena",
+                "en": "Fixed fee"
+            },
             "text": {
                 "cs": "Žádné hodinové sazby ani dopočty",
                 "en": "No hourly rates, no surprise add-ons"
@@ -51,14 +60,14 @@
     },
     "secondSection": {
         "title": {
-            "cs": "AML dokumentaci a screening klientů nechte na nás",
-            "en": "Leave the AML documentation and customer screening to us"
+            "cs": "AML a provozní dokumentaci nechte na nás",
+            "en": "Leave the AML and operating documentation to us"
         },
         "subtitle": {
             "cs": "Vypracujeme systém vnitřních zásad a hodnocení rizik na míru Vaší směnárně, doručíme je ČNB a nastavíme PEP a sankční screening klientů tak, aby obstál při každé kontrole.",
             "en": "We will draft a tailor-made internal AML policy and risk assessment for your exchange office, deliver them to the CNB and set up PEP and sanctions screening that stands up to any inspection."
         },
-        "image": "/images/background_exchange.jpg",
+        "image": "/images/aml-dokumentace.jpg",
         "primaryButton": {
             "link": "/aml-povinnosti-smenarny",
             "text": {
@@ -74,21 +83,30 @@
             }
         },
         "firstNumber": {
-            "number": "1,5–3 měsíce",
+            "number": {
+                "cs": "1,5–3 měsíce",
+                "en": "1.5–3 months"
+            },
             "text": {
                 "cs": "Obvyklá doba do rozhodnutí ČNB",
                 "en": "Typical time until the CNB decision"
             }
         },
         "secondNumber": {
-            "number": "70+",
+            "number": {
+                "cs": "70+",
+                "en": "70+"
+            },
             "text": {
                 "cs": "Subjektů, které jsme zapsali do registrů ČNB",
                 "en": "Entities we have registered with the Czech National Bank"
             }
         },
         "thirdNumber": {
-            "number": "Pevná cena",
+            "number": {
+                "cs": "Pevná cena",
+                "en": "Fixed fee"
+            },
             "text": {
                 "cs": "Žádné hodinové sazby ani dopočty",
                 "en": "No hourly rates, no surprise add-ons"
@@ -104,7 +122,7 @@
             "cs": "Projdeme Vaši směnárnu očima kontrolora – od kurzovního lístku přes doklady až po AML. Nedostatky odstraníme dřív, než je najde Česká národní banka při kontrolní směně.",
             "en": "We will review your exchange office through an inspector's eyes – from the rate list through receipts to AML. We will fix the deficiencies before the Czech National Bank finds them during a test purchase."
         },
-        "image": "/images/third-background.jpg",
+        "image": "/images/cnb-kontrola.jpg",
         "primaryButton": {
             "link": "/priprava-na-kontrolu-cnb",
             "text": {
@@ -120,21 +138,30 @@
             }
         },
         "firstNumber": {
-            "number": "1,5–3 měsíce",
+            "number": {
+                "cs": "1,5–3 měsíce",
+                "en": "1.5–3 months"
+            },
             "text": {
                 "cs": "Obvyklá doba do rozhodnutí ČNB",
                 "en": "Typical time until the CNB decision"
             }
         },
         "secondNumber": {
-            "number": "70+",
+            "number": {
+                "cs": "70+",
+                "en": "70+"
+            },
             "text": {
                 "cs": "Subjektů, které jsme zapsali do registrů ČNB",
                 "en": "Entities we have registered with the Czech National Bank"
             }
         },
         "thirdNumber": {
-            "number": "Pevná cena",
+            "number": {
+                "cs": "Pevná cena",
+                "en": "Fixed fee"
+            },
             "text": {
                 "cs": "Žádné hodinové sazby ani dopočty",
                 "en": "No hourly rates, no surprise add-ons"

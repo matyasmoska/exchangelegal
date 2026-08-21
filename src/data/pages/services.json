@@ -130,7 +130,7 @@
                 "cs": "Projdeme Vaši směnárnu očima kontrolora, provedeme simulovanou kontrolní směnu a odstraníme nedostatky dřív, než je najde ČNB.",
                 "en": "We will review your office through an inspector's eyes, run a simulated test purchase and remedy deficiencies before the CNB finds them."
             },
-            "price": 19000,
+            "price": 29000,
             "link": "/priprava-na-kontrolu-cnb",
             "icon": "/images/serviceIcons/aml_audit.svg"
         },
@@ -158,7 +158,7 @@
                 "cs": "Vypracujeme vnitřní oznamovací systém dle zákona o ochraně oznamovatelů – povinnost i pro směnárny bez ohledu na počet zaměstnanců.",
                 "en": "We will draft an internal reporting system under the Whistleblower Protection Act – mandatory for exchange offices regardless of headcount."
             },
-            "price": 15000,
+            "price": 19000,
             "link": "/whistleblowing-smernice",
             "icon": "/images/serviceIcons/zasady.svg"
         },
@@ -172,7 +172,7 @@
                 "cs": "Proškolíme Vaše zaměstnance v AML/CFT povinnostech směnárny (povinnost min. 1× za 12 měsíců) a vystavíme certifikáty o školení.",
                 "en": "We will train your staff in the AML/CFT duties of an exchange office (mandatory at least once every 12 months) and issue training certificates."
             },
-            "price": 5900,
+            "price": 10500,
             "link": "/aml-povinnosti-smenarny",
             "icon": "/images/serviceIcons/skoleni_a_metodika.svg"
         },

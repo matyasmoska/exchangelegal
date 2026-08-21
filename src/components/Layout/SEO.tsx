@@ -13,23 +13,23 @@ const SEO = ({ title = pageData.title, description = pageData.description, keywo
                 }
             ] : undefined}
             openGraph={{
-                url: 'https://www.smenarny.legal',
+                url: 'https://www.pravoprosmenarny.cz',
                 title: pageData.title,
                 description: pageData.description,
                 site_name: pageData.site_name,
                 locale: 'cs_CS',
                 images: [
                     {
-                        url: 'https://www.smenarny.legal/images/background_exchange.jpg',
-                        alt: 'smenarny.legal',
+                        url: 'https://www.pravoprosmenarny.cz/images/background_exchange.jpg',
+                        alt: 'pravoprosmenarny.cz',
                         width: 1352,
                         height: 602
                     }
                 ]
               }}
               twitter={{
-                handle: '@smenarnylegal',
-                site: '@smenarnylegal',
+                handle: '@pravoprosmenarny',
+                site: '@pravoprosmenarny',
                 cardType: 'summary_large_image'
               }}
         />

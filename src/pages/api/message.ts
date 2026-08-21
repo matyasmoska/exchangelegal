@@ -17,7 +17,7 @@ async function sendMail( { firstName, lastName, message, email, phone, ico, busi
     await transporter.sendMail({
       from: process.env.SEND_FROM_EMAIL,
       to: process.env.SEND_TO_EMAIL,
-      subject: `[smenarny.legal Kontaktní formulář] Nová zpráva od ${firstName} ${lastName}`,
+      subject: `[pravoprosmenarny.cz Kontaktní formulář] Nová zpráva od ${firstName} ${lastName}`,
       html:
       `
         <div>

@@ -130,52 +130,6 @@
   },
   {
    "name": {
-    "cs": "Mgr. Jakub Pártl, LL.M., advokát",
-    "en": "Jakub Pártl, LL.M., Attorney-at-Law"
-   },
-   "description": [
-    {
-     "cs": "Jakub se v rámci své advokátní praxe věnuje právnímu poradenství v oblasti M&A, právu obchodních korporací, právu IT a projektovému financování.",
-     "en": "In his legal practice, Jakub provides legal advice in the areas of M&A, corporate law, IT law, and project financing."
-    },
-    {
-     "cs": "Dále má rozsáhlé zkušenosti v přípravě obchodních kontraktů, poradenství investorům či start-upům a souvisejících vyjednáváních.",
-     "en": "He has extensive experience in drafting commercial contracts, advising investors and start-ups, and conducting related negotiations."
-    },
-    {
-     "cs": "Během své právní praxe působil v předních pražských či mezinárodních advokátních kanceláří, a to včetně manažerských pozic, a radil korporátní i privátní klientele.",
-     "en": "Throughout his career, Jakub has worked in leading Prague-based and international law firms, including holding managerial positions, advising both corporate and private clients."
-    }
-   ],
-   "readMore": [
-    {
-     "cs": "Hovoří plynně anglicky a francouzsky.",
-     "en": "He is fluent in English and French."
-    }
-   ],
-   "photo": "/images/team/jakub_partl_profil_nabidka3.jpg",
-   "linkedIn": "https://www.linkedin.com/in/jakub-partl/",
-   "tags": [
-    {
-     "cs": "#M&A",
-     "en": "#M&A"
-    },
-    {
-     "cs": "#FinTech",
-     "en": "#FinTech"
-    },
-    {
-     "cs": "#Projektové financování",
-     "en": "#Project financing"
-    },
-    {
-     "cs": "#IT/IP",
-     "en": "#IT/IP"
-    }
-   ]
-  },
-  {
-   "name": {
     "cs": "Mgr. Petra Čichoňová, advokátka",
     "en": "Petra Čichoňová, Attorney-at-Law"
    },
@@ -229,8 +183,8 @@
   {
    "photo": "/images/reference.png",
    "reference": {
-    "cs": "Spolupráce s advokáty Matyášem Moskou a Jakubem Pártlem byla na skvělé úrovni. Rychlá a profesionální komunikace!",
-    "en": "Cooperation with attorneys Matyáš Moska and Jakub Pártl was at a great level. Fast and professional communication!"
+    "cs": "Spolupráce s advokátem Matyášem Moskou byla na skvělé úrovni. Rychlá a profesionální komunikace!",
+    "en": "Cooperation with attorney Matyáš Moska was at a great level. Fast and professional communication!"
    },
    "who": {
     "cs": "Alexandra Hurtová, ředitelka Pozemkového Kompenzačního Fondu",
@@ -259,5 +213,9 @@
     "en": "Josef Stejskal, CEO of ApeironChain s.r.o."
    }
   }
- ]
+ ],
+ "reviewsOnGoogle": {
+  "cs": "hodnocení na Googlu",
+  "en": "reviews on Google"
+ }
 }
