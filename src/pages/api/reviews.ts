@@ -47,13 +47,13 @@ const cache: Record<string, { fetchedAt: number; payload: ReviewsPayload }> = {}
  * GOOGLE_REVIEW_BLOCKLIST as a comma-separated list.
  */
 const DEFAULT_BLOCKLIST = [
-	'nemovitost', 'nemovitosti', 'převod bytu', 'prevod bytu', 'byt', 'byty', 'dům', 'domu', 'pozemek', 'pozemku',
-	'kupní smlouv', 'kupni smlouv', 'úschov', 'uschov', 'katastr', 'hypot', 'realit',
-	'fond', 'fondu', 'fondy', 'zisif', 'investiční společnost', 'investicni spolecnost',
-	'rozvod', 'dědic', 'dedic', 'trestní', 'trestni', 'soud', 'žalob', 'zalob', 'spor',
-	'pracovn', 'výpověď', 'vypoved', 'exekuc', 'insolven',
-	'real estate', 'property', 'conveyanc', 'apartment', 'mortgage', 'inheritance', 'divorce',
-	'criminal', 'litigation', 'lawsuit', 'employment',
+	'nemovitost', 'převod bytu', 'koupě bytu', 'prodej bytu', 'pozemek', 'pozemku',
+	'kupní smlouv', 'úschov', 'katastr', 'hypotéka', 'hypotéky', 'realitn',
+	'fond', 'fondu', 'fondy', 'zisif', 'investiční společnost',
+	'rozvod', 'dědic', 'dědick', 'trestní', 'trestního', 'žalob', 'soudní spor',
+	'pracovněprávní', 'pracovní právo', 'výpověď', 'exekuc', 'insolven',
+	'real estate', 'conveyanc', 'apartment', 'mortgage', 'inheritance', 'divorce',
+	'criminal', 'litigation', 'lawsuit', 'employment law',
 ]
 
 const blocklist = (process.env.GOOGLE_REVIEW_BLOCKLIST || '')
@@ -63,9 +63,17 @@ const blocklist = (process.env.GOOGLE_REVIEW_BLOCKLIST || '')
 
 const terms = blocklist.length ? blocklist : DEFAULT_BLOCKLIST
 
+// Czech letters count as word characters, so "spolupracovníci" must not trip up "pracovní"
+const WORD_CHARS = 'a-z0-9áčďéěíňóřšťúůýž'
+
 const isOffTopic = (text: string) => {
 	const haystack = text.toLowerCase()
-	return terms.some((term) => haystack.includes(term))
+
+	return terms.some((term) => {
+		const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+		// term must start a word - substrings inside longer words don't count
+		return new RegExp(`(^|[^${WORD_CHARS}])${escaped}`, 'i').test(haystack)
+	})
 }
 
 const buildPayload = (data: any): ReviewsPayload => ({
@@ -76,8 +84,11 @@ const buildPayload = (data: any): ReviewsPayload => ({
 	reviews: (data?.reviews || [])
 		// five stars, some actual text, and nothing tied to a different practice area
 		.filter((review: any) => {
-			const text = review?.text?.text || review?.originalText?.text || ''
-			return review?.rating === 5 && text.trim().length > 0 && !isOffTopic(text)
+			const shown = review?.text?.text || review?.originalText?.text || ''
+			// Google translates reviews into the requested language, so the wording differs
+			// between locales. Filtering on the original text keeps both versions identical.
+			const judged = review?.originalText?.text || review?.text?.text || ''
+			return review?.rating === 5 && shown.trim().length > 0 && !isOffTopic(judged)
 		})
 		.map((review: any) => ({
 			id: review.name,

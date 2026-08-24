@@ -22,14 +22,8 @@ export const OptionsSection: FC<{ hideArrow?: boolean, className?: string }> = (
 			<Fade direction={'up'} triggerOnce>
 				<h2 dangerouslySetInnerHTML={{ __html: t(data.optionsTitle) }} className="text-4xl font-bold text-center" />
 			</Fade>
-			<div className={c(
-				'grid grid-cols-2 gap-x-16 gap-y-8 max-w-6xl pb-12 mx-auto', 'lg:gap-x-12', 'md:grid-cols-1',
-				hideArrow && 'items-center'
-			)}>
+			<div className={c('max-w-4xl pb-12 mx-auto')}>
 				<Fade damping={0.5} duration={500} cascade triggerOnce>
-					<div>
-						<img src={t(data.optionsImage)} alt="" className="w-full h-auto max-w-[520px] mx-auto" />
-					</div>
 					<div className="space-y-7">
 						<div className={c(
 								'grid grid-cols-2 gap-x-10 gap-y-8', 'md:grid-cols-1 md:text-center',
@@ -43,7 +37,7 @@ export const OptionsSection: FC<{ hideArrow?: boolean, className?: string }> = (
 							))}
 						</div>
 						<h2 dangerouslySetInnerHTML={{ __html: t(data.optionsResult) }} className="font-semibold text-2xl pt-10 md:text-center" />
-						{!hideArrow && <img src="/images/sipka4.svg" className="w-64 -ml-24 md:mx-auto" />}
+						{!hideArrow && <img src="/images/sipka4.svg" className="w-64 mx-auto" />}
 					</div>
 				</Fade>
 			</div>

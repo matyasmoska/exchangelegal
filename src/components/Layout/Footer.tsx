@@ -29,7 +29,7 @@ const Footer = () => {
 				</div>
 				<Link href="/prijimame-kryptomeny">
 				<a target="_blank">
-				<img src={t(contactPageData.cryptoImage)} alt="Přijímáme kryptoměny!" className={c('w-4/5 rounded-lg flex', 'md:w-4/5 md:mx-auto')} />
+				<img src={t(contactPageData.cryptoImage)} alt="Přijímáme kryptoměny!" className={c('w-full max-w-[260px] rounded-lg', 'md:mx-auto')} />
 				</a>
 				</Link>
 				<div className="pt-4 space-y-2">
