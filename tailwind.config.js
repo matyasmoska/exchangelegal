@@ -63,8 +63,9 @@ module.exports = {
       },
       minHeight: {
         'carousel': 'calc(100vh - 100px)',
-        'header': '100px',
+        'header': '120px',
         'header-mobile': '72px',
+        'header-bar-mobile': '86px',
         'question': '50px',
         'argument': '250px'
       },

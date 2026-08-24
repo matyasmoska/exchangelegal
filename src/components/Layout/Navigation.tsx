@@ -47,7 +47,7 @@ const Navigation = () => {
 	return (
 		<div
 			className={c(
-				'flex items-center bg-white justify-between w-full gap-12 2xl:gap-4 lg:gap-3 min-h-header md:min-h-header-mobile',
+				'flex items-center bg-white justify-between w-full gap-12 2xl:gap-4 lg:gap-3 min-h-header md:min-h-header-bar-mobile',
 				'font-header',
 				'px-36', '3xl:px-28', '2xl:px-20', 'lg:px-6'
 			)}
@@ -76,7 +76,7 @@ const Navigation = () => {
 						{...opacityAnimation}
 						className="fixed top-0 left-0 z-[51] w-screen h-screen overflow-hidden font-bold bg-white text-dark-blue flex flex-col"
 					>
-						<div className="flex items-center justify-between px-6 min-h-header-mobile">
+						<div className="flex items-center justify-between px-6 min-h-header-bar-mobile">
 							<Logo />
 							<span onClick={() => setSidebarOpen(prev => !prev)}>
 								<HamburgerIcon sidebarOpen={sidebarOpen} />
