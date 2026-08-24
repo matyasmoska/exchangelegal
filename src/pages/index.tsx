@@ -13,6 +13,7 @@ import { Fade } from 'react-awesome-reveal'
 import NewsBar from '../components/Pages/index/NewsBar'
 import Image from 'next/image'
 import MainCarousel from '../components/Pages/index/MainCarousel'
+import PathChooser from '../components/Pages/index/PathChooser'
 
 
 const Home: NextPage<{ news: NewsItem[] }> = ({ news }) => {
@@ -29,6 +30,7 @@ const Home: NextPage<{ news: NewsItem[] }> = ({ news }) => {
 			
 			<div className="relative">
 				<MainCarousel news={news} />
+				<PathChooser />
 				<ArgumentsSection />
 				<NewsSection news={news} />
 				<Fade direction={'up'} triggerOnce>

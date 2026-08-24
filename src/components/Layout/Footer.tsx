@@ -22,8 +22,10 @@ const Footer = () => {
 				'md:py-10 md:px-10 md:block md:space-y-16 md:text-center md:text-lg'
 			)}
 		>
-			<div className="self-start space-y-10">
-				<LogoWhite />			
+			<div className={c('self-start space-y-12 pt-4 pr-12', 'md:pr-0 md:pt-0')}>
+				<div className="py-4">
+					<LogoWhite />
+				</div>
 				<Link href="/prijimame-kryptomeny">
 				<a target="_blank">
 				<img src={t(contactPageData.cryptoImage)} alt="Přijímáme kryptoměny!" className={c('w-3/5 rounded-lg flex', 'md:w-4/5 md:mx-auto')} />
@@ -45,6 +47,9 @@ const Footer = () => {
 					<div className="flex flex-col space-y-4">
 						<Link href="/zalozeni-smenarny-na-klic">
 							<a className="hover:underline">{t(pageData.zalozeni)}</a>
+						</Link>
+						<Link href="/uz-provozuji-smenarnu">
+							<a className="hover:underline">{t(pageData.uzprovozuji)}</a>
 						</Link>
 						<Link href="/reporting-cnb-pro-smenarny">
 							<a className="hover:underline">{t(pageData.reportingcnb)}</a>

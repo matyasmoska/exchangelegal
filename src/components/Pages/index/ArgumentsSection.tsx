@@ -28,7 +28,7 @@ export const OptionsSection: FC<{ hideArrow?: boolean, className?: string }> = (
 			)}>
 				<Fade damping={0.5} duration={500} cascade triggerOnce>
 					<div>
-						<img src={t(data.optionsImage)} className="md:max-w-lg mx-auto" />
+						<img src={t(data.optionsImage)} alt="" className="w-full h-auto max-w-[520px] mx-auto" />
 					</div>
 					<div className="space-y-7">
 						<div className={c(
@@ -60,7 +60,7 @@ const ArgumentsSection: FC = () => {
 
 	return (
 	  <>
-		<div className={c('font-header w-full mt-24 px-36', '3xl:px-28', '2xl:px-20', 'md:px-8')}>
+		<div id="je-to-pro-vas" className={c('font-header w-full mt-24 px-36 scroll-mt-28', '3xl:px-28', '2xl:px-20', 'md:px-8')}>
 			<Fade direction={'up'} triggerOnce>
 				<h2 dangerouslySetInnerHTML={{ __html: t(data.questionsTitle) }} className="text-4xl font-bold text-center" />
 				<Button type="secondary" className="font-semibold max-w-max mx-auto px-6 py-2 mt-16 mb-8" onClick={handleScroll}>

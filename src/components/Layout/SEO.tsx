@@ -20,7 +20,7 @@ const SEO = ({ title = pageData.title, description = pageData.description, keywo
                 locale: 'cs_CS',
                 images: [
                     {
-                        url: 'https://www.pravoprosmenarny.cz/images/background_exchange.jpg',
+                        url: 'https://www.pravoprosmenarny.cz/images/hero-smenarna.jpg',
                         alt: 'pravoprosmenarny.cz',
                         width: 1352,
                         height: 602

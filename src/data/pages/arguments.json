@@ -679,5 +679,49 @@
     "reviewsOnGoogle": {
         "cs": "hodnocení na Googlu",
         "en": "reviews on Google"
+    },
+    "pathChooserTitle": {
+        "cs": "Kde jste právě teď?",
+        "en": "Where are you right now?"
+    },
+    "pathFoundTitle": {
+        "cs": "Chci založit směnárnu",
+        "en": "I want to set up an exchange office"
+    },
+    "pathFoundText": {
+        "cs": "Zjistěte, jestli je vlastní směnárna pro Vás, co všechno musíte splnit a kolik to stojí.",
+        "en": "Find out whether running an exchange office suits you, what you must comply with and what it costs."
+    },
+    "pathFoundCta": {
+        "cs": "Projít si podmínky",
+        "en": "See the conditions"
+    },
+    "pathRunTitle": {
+        "cs": "Směnárnu už provozuji",
+        "en": "I already run an exchange office"
+    },
+    "pathRunText": {
+        "cs": "AML audit, revize dokumentace, screening klientů a příprava na kontrolu ČNB včetně zkušební kontrolní směny.",
+        "en": "AML audit, documentation review, customer screening and preparation for a CNB inspection, including a mock test purchase."
+    },
+    "pathRunCta": {
+        "cs": "Zobrazit služby",
+        "en": "See the services"
+    },
+    "servicePickerTitle": {
+        "cs": "Vyberte si služby",
+        "en": "Choose your services"
+    },
+    "servicePickerText": {
+        "cs": "Označte, co potřebujete – vybrané služby se propíší do nezávazné poptávky níže.",
+        "en": "Tick what you need – the selected services are carried over into the non-binding inquiry below."
+    },
+    "priceFrom": {
+        "cs": "od",
+        "en": "from"
+    },
+    "priceFree": {
+        "cs": "zdarma",
+        "en": "free of charge"
     }
 }

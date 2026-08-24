@@ -27,6 +27,7 @@ const NavItems = () => {
 			<NavItem href={'/aktuality'}>{t(pageData.news)}</NavItem>
 			<NavItem href={'/nase-sluzby'}>{t(pageData.services)}</NavItem>
 			<NavItem href={'/zalozeni-smenarny-na-klic'}>{t(pageData.zalozeni)}</NavItem>
+			<NavItem href={'/uz-provozuji-smenarnu'}>{t(pageData.uzprovozuji)}</NavItem>
 			<NavItem href={'/o-nas'}>{t(pageData.about)}</NavItem>
 			<NavItem href={'/kontakty'}>{t(pageData.contact)}</NavItem>
 		</Fragment>

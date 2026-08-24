@@ -12,7 +12,7 @@
             "cs": "Zakládáme směnárny v nejvyšším standardu za férové ceny. Připravíme pro Vás kompletní dokumentaci pro udělení povolení k činnosti směnárníka u České národní banky na klíč.",
             "en": "We set up exchange offices to the highest standard at fair prices. We will prepare complete turnkey documentation for obtaining the bureau-de-change operator licence from the Czech National Bank."
         },
-        "image": "/images/background_exchange.jpg",
+        "image": "/images/hero-smenarna.jpg",
         "primaryButton": {
             "link": "/zalozeni-smenarny-na-klic",
             "text": {
@@ -64,10 +64,10 @@
             "en": "Leave AML/CFT to us"
         },
         "subtitle": {
-            "cs": "Vypracujeme systém vnitřních zásad a hodnocení rizik na míru Vaší směnárně, doručíme je ČNB a nastavíme PEP a sankční screening klientů tak, aby obstál při každé kontrole.",
-            "en": "We will draft a tailor-made internal AML policy and risk assessment for your exchange office, deliver them to the CNB and set up PEP and sanctions screening that stands up to any inspection."
+            "cs": "Vypracujeme systém vnitřních zásad a hodnocení rizik na míru Vaší směnárně, připravíme provozní dokumentaci a nastavíme PEP a sankční screening klientů tak, aby vše obstálo při kontrole ČNB.",
+            "en": "We will draft a tailor-made internal AML policy and risk assessment, prepare your operating documentation and set up PEP and sanctions screening so that everything stands up to a CNB inspection."
         },
-        "image": "/images/aml-dokumentace.jpg",
+        "image": "/images/aml-compliance.jpg",
         "primaryButton": {
             "link": "/aml-povinnosti-smenarny",
             "text": {

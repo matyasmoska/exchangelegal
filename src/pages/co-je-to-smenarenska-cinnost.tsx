@@ -36,7 +36,7 @@ const ObligationsPage = () => {
 							objectFit="cover"
 							className="absolute"
 							priority
-							src={'/images/background_exchange.jpg'}
+							src={'/images/hero-smenarna.jpg'}
 						/>
 						<div
 							className={c(

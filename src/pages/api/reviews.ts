@@ -40,14 +40,45 @@ const emptyPayload = (): ReviewsPayload => ({
 
 const cache: Record<string, { fetchedAt: number; payload: ReviewsPayload }> = {}
 
+/**
+ * This site sells a single service line, so reviews that name a different agenda
+ * (conveyancing, funds, litigation...) would look out of place next to it.
+ * A review is skipped when it mentions any of these. Override with
+ * GOOGLE_REVIEW_BLOCKLIST as a comma-separated list.
+ */
+const DEFAULT_BLOCKLIST = [
+	'nemovitost', 'nemovitosti', 'převod bytu', 'prevod bytu', 'byt', 'byty', 'dům', 'domu', 'pozemek', 'pozemku',
+	'kupní smlouv', 'kupni smlouv', 'úschov', 'uschov', 'katastr', 'hypot', 'realit',
+	'fond', 'fondu', 'fondy', 'zisif', 'investiční společnost', 'investicni spolecnost',
+	'rozvod', 'dědic', 'dedic', 'trestní', 'trestni', 'soud', 'žalob', 'zalob', 'spor',
+	'pracovn', 'výpověď', 'vypoved', 'exekuc', 'insolven',
+	'real estate', 'property', 'conveyanc', 'apartment', 'mortgage', 'inheritance', 'divorce',
+	'criminal', 'litigation', 'lawsuit', 'employment',
+]
+
+const blocklist = (process.env.GOOGLE_REVIEW_BLOCKLIST || '')
+	.split(',')
+	.map((term) => term.trim().toLowerCase())
+	.filter(Boolean)
+
+const terms = blocklist.length ? blocklist : DEFAULT_BLOCKLIST
+
+const isOffTopic = (text: string) => {
+	const haystack = text.toLowerCase()
+	return terms.some((term) => haystack.includes(term))
+}
+
 const buildPayload = (data: any): ReviewsPayload => ({
 	rating: typeof data?.rating === 'number' ? data.rating : null,
 	totalCount: typeof data?.userRatingCount === 'number' ? data.userRatingCount : null,
 	mapsUri: data?.googleMapsUri || null,
 	placeId: PLACE_ID,
 	reviews: (data?.reviews || [])
-		// keep only five-star reviews that actually say something
-		.filter((review: any) => review?.rating === 5 && (review?.text?.text || review?.originalText?.text))
+		// five stars, some actual text, and nothing tied to a different practice area
+		.filter((review: any) => {
+			const text = review?.text?.text || review?.originalText?.text || ''
+			return review?.rating === 5 && text.trim().length > 0 && !isOffTopic(text)
+		})
 		.map((review: any) => ({
 			id: review.name,
 			text: (review.text?.text || review.originalText?.text || '').trim(),
