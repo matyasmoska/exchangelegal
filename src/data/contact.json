@@ -45,5 +45,51 @@
     "allRightsReserved": {
         "cs": "© 2026 všechna práva vyhrazena",
         "en": "© 2026 all rights reserved"
+    },
+    "newsletter": {
+        "title": {
+            "cs": "Regulatorní novinky pro směnárny",
+            "en": "Regulatory updates for exchange offices"
+        },
+        "description": {
+            "cs": "Přehled změn v regulaci směnárenské činnosti, AML povinností a sankční praxe ČNB. Zasíláme přibližně jednou za čtvrtletí, pouze když je o čem psát.",
+            "en": "A summary of changes in bureau-de-change regulation, AML duties and CNB enforcement practice. Sent roughly once a quarter, and only when there is something worth reporting."
+        },
+        "placeholder": {
+            "cs": "Váš e-mail",
+            "en": "Your e-mail"
+        },
+        "button": {
+            "cs": "Odebírat",
+            "en": "Subscribe"
+        },
+        "sending": {
+            "cs": "Odesílám…",
+            "en": "Sending…"
+        },
+        "consent": {
+            "cs": "Souhlasím se zasíláním regulatorních novinek na uvedený e-mail. Souhlas mohu kdykoli odvolat odkazem v každé zprávě nebo e-mailem. Více v dokumentu",
+            "en": "I agree to receive regulatory updates at the e-mail address provided. I may withdraw my consent at any time using the link in every message or by e-mail. More in our"
+        },
+        "privacyLink": {
+            "cs": "Zásady zpracování osobních údajů.",
+            "en": "Privacy Policy."
+        },
+        "success": {
+            "cs": "Hotovo. Potvrzení Vám dorazí e-mailem, další novinky přijdou v nejbližším čtvrtletním přehledu.",
+            "en": "Done. You will get a confirmation by e-mail and the next quarterly update in due course."
+        },
+        "errorEmail": {
+            "cs": "Zadejte prosím platnou e-mailovou adresu.",
+            "en": "Please enter a valid e-mail address."
+        },
+        "errorConsent": {
+            "cs": "Bez souhlasu se zasíláním Vás bohužel nemůžeme zapsat.",
+            "en": "We cannot sign you up without your consent."
+        },
+        "errorGeneric": {
+            "cs": "Přihlášení se nepodařilo. Zkuste to prosím znovu, nebo nám napište.",
+            "en": "The sign-up failed. Please try again or drop us an e-mail."
+        }
     }
 }

@@ -3,6 +3,7 @@ import React from 'react'
 import { useTranslations } from '../../hooks/useTranslations'
 import { c } from '../../services/misc'
 import { LogoWhite } from '../Layout/Logo'
+import NewsletterForm from './NewsletterForm'
 import { FacebookIcon, LinkedInIcon, TwitterIcon } from './Icons'
 import pageData from '../../data/navigation.json'
 import contactPageData from '../../data/contact.json'
@@ -28,9 +29,10 @@ const Footer = () => {
 				</div>
 				<Link href="/prijimame-kryptomeny">
 				<a target="_blank">
-				<img src={t(contactPageData.cryptoImage)} alt="Přijímáme kryptoměny!" className={c('w-3/5 rounded-lg flex', 'md:w-4/5 md:mx-auto')} />
+				<img src={t(contactPageData.cryptoImage)} alt="Přijímáme kryptoměny!" className={c('w-4/5 rounded-lg flex', 'md:w-4/5 md:mx-auto')} />
 				</a>
 				</Link>
+				<NewsletterForm />
 				<p className="pt-4">{t(contactPageData.allRightsReserved)}</p>
 			</div>
 			<div

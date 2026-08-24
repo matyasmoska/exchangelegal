@@ -217,5 +217,279 @@
  "reviewsOnGoogle": {
   "cs": "hodnocení na Googlu",
   "en": "reviews on Google"
- }
+ },
+ "teamTitle": {
+  "cs": "Celý tým PEERS advokátní kancelář",
+  "en": "The full team of PEERS advokátní kancelář"
+ },
+ "teamDescription": {
+  "cs": "Zkušení advokáti a poradci, kteří pravidelně spolupracují s mezinárodními klienty a partnery.",
+  "en": "Experienced attorneys and advisers who regularly work with international clients and partners."
+ },
+ "teamNote": {
+  "cs": "Podle potřeb konkrétního mandátu tým posilují další spolupracovníci.",
+  "en": "Depending on the needs of the individual mandate, further colleagues join the team."
+ },
+ "team": [
+  {
+   "name": "Mgr. Matyáš Moska",
+   "position": {
+    "cs": "Managing Partner · advokát",
+    "en": "Managing Partner · Attorney-at-Law"
+   },
+   "languages": {
+    "cs": "čeština · němčina · angličtina · polština",
+    "en": "Czech · German · English · Polish"
+   },
+   "tags": [
+    {
+     "cs": "Finanční regulace",
+     "en": "Financial regulation"
+    },
+    {
+     "cs": "AML/CFT",
+     "en": "AML/CFT"
+    },
+    {
+     "cs": "Trestní právo",
+     "en": "Criminal law"
+    }
+   ],
+   "photo": "https://peers.law/wp-content/uploads/2025/07/moska-matyas-1-1024x1024.png"
+  },
+  {
+   "name": "Mgr. Martin Murad",
+   "position": {
+    "cs": "Managing Partner · PEERS Czechia",
+    "en": "Managing Partner · PEERS Czechia"
+   },
+   "languages": {
+    "cs": "čeština · angličtina · francouzština · polština · slovenština",
+    "en": "Czech · English · French · Polish · Slovak"
+   },
+   "tags": [
+    {
+     "cs": "Mezinárodní obchodní právo",
+     "en": "International business law"
+    },
+    {
+     "cs": "Trestní právo",
+     "en": "Criminal law"
+    }
+   ],
+   "photo": "https://peers.law/wp-content/uploads/2025/07/murad-martin-1-1024x1024.png"
+  },
+  {
+   "name": "Pavla Kopečková Přikrylová",
+   "position": {
+    "cs": "advokátka · partnerka",
+    "en": "Attorney-at-Law · Partner"
+   },
+   "languages": {
+    "cs": "čeština · angličtina · francouzština",
+    "en": "Czech · English · French"
+   },
+   "tags": [
+    {
+     "cs": "M&A",
+     "en": "M&A"
+    },
+    {
+     "cs": "Nemovitostní právo",
+     "en": "Real estate law"
+    }
+   ],
+   "photo": "https://peers.law/wp-content/uploads/2025/10/Pavla-Kopeckova-Prikrylova-1024x1024.png"
+  },
+  {
+   "name": "Daniela Murad",
+   "position": {
+    "cs": "advokátka · specialistka na imigraci",
+    "en": "Attorney-at-Law · Immigration specialist"
+   },
+   "languages": {
+    "cs": "čeština · angličtina",
+    "en": "Czech · English"
+   },
+   "tags": [
+    {
+     "cs": "Imigrace a mobilita",
+     "en": "Immigration & mobility"
+    },
+    {
+     "cs": "Pobytová povolení",
+     "en": "Residence permits"
+    }
+   ],
+   "photo": "https://peers.law/wp-content/uploads/2026/01/Murad_Daniela-991x1024.png"
+  },
+  {
+   "name": "Mgr. Petra Čichoňová",
+   "position": {
+    "cs": "Senior Associate",
+    "en": "Senior Associate"
+   },
+   "languages": {
+    "cs": "čeština · angličtina",
+    "en": "Czech · English"
+   },
+   "tags": [
+    {
+     "cs": "Občanské právo",
+     "en": "Civil law"
+    },
+    {
+     "cs": "Pracovní právo",
+     "en": "Employment law"
+    }
+   ],
+   "photo": "https://peers.law/wp-content/uploads/2025/07/cichonova-petra-1-1-1024x1024.png"
+  },
+  {
+   "name": "Adéla Uhrinová",
+   "position": {
+    "cs": "advokátka · Of-Counsel",
+    "en": "Attorney-at-Law · Of-Counsel"
+   },
+   "languages": {
+    "cs": "čeština · angličtina",
+    "en": "Czech · English"
+   },
+   "tags": [
+    {
+     "cs": "Pracovní právo",
+     "en": "Employment law"
+    }
+   ],
+   "photo": "https://peers.law/wp-content/uploads/2026/01/Uhrinova_Adela-1024x1024.png"
+  },
+  {
+   "name": "Jaroslav Janoušek",
+   "position": {
+    "cs": "advokát · Of-Counsel",
+    "en": "Attorney-at-Law · Of-Counsel"
+   },
+   "languages": {
+    "cs": "čeština · angličtina",
+    "en": "Czech · English"
+   },
+   "tags": [
+    {
+     "cs": "Trestní právo",
+     "en": "Criminal law"
+    },
+    {
+     "cs": "Trestní řízení",
+     "en": "Criminal proceedings"
+    }
+   ],
+   "photo": "https://peers.law/wp-content/uploads/2025/07/janousek-jaroslav-1-1024x1024.png"
+  },
+  {
+   "name": "Karel Kotrba",
+   "position": {
+    "cs": "advokát · Of-Counsel",
+    "en": "Attorney-at-Law · Of-Counsel"
+   },
+   "languages": {
+    "cs": "čeština · angličtina",
+    "en": "Czech · English"
+   },
+   "tags": [
+    {
+     "cs": "Obchodní právo",
+     "en": "Commercial law"
+    },
+    {
+     "cs": "Spory",
+     "en": "Litigation"
+    }
+   ],
+   "photo": "https://peers.law/wp-content/uploads/2026/01/Kotrba_Karel-1024x1024.png"
+  },
+  {
+   "name": "Klára Hrdličková",
+   "position": {
+    "cs": "advokátka · Of-Counsel",
+    "en": "Attorney-at-Law · Of-Counsel"
+   },
+   "languages": {
+    "cs": "čeština · angličtina",
+    "en": "Czech · English"
+   },
+   "tags": [
+    {
+     "cs": "Duševní vlastnictví",
+     "en": "Intellectual property"
+    },
+    {
+     "cs": "Ochrana osobních údajů",
+     "en": "Data protection"
+    }
+   ],
+   "photo": "https://peers.law/wp-content/uploads/2026/01/Hrdlickova_Klara-1024x1024.png"
+  },
+  {
+   "name": "Silvia Rutland",
+   "position": {
+    "cs": "advokátka · Of-Counsel",
+    "en": "Attorney-at-Law · Of-Counsel"
+   },
+   "languages": {
+    "cs": "čeština · angličtina",
+    "en": "Czech · English"
+   },
+   "tags": [
+    {
+     "cs": "Rodinné právo",
+     "en": "Family law"
+    }
+   ],
+   "photo": "https://peers.law/wp-content/uploads/2026/01/Rutland_Sylvia-1024x1024.png"
+  },
+  {
+   "name": "Denisa Jiříková",
+   "position": {
+    "cs": "paralegal",
+    "en": "Paralegal"
+   },
+   "languages": {
+    "cs": "čeština · angličtina",
+    "en": "Czech · English"
+   },
+   "tags": [
+    {
+     "cs": "Správa případů",
+     "en": "Case management"
+    },
+    {
+     "cs": "Sledování řízení",
+     "en": "Proceedings monitoring"
+    }
+   ],
+   "photo": "https://peers.law/wp-content/uploads/2025/07/jirikova-denisa-1-1-1024x1024.png"
+  },
+  {
+   "name": "Ema Medveďová",
+   "position": {
+    "cs": "paralegal",
+    "en": "Paralegal"
+   },
+   "languages": {
+    "cs": "čeština · angličtina",
+    "en": "Czech · English"
+   },
+   "tags": [
+    {
+     "cs": "Správa případů",
+     "en": "Case management"
+    },
+    {
+     "cs": "Sledování řízení",
+     "en": "Proceedings monitoring"
+    }
+   ],
+   "photo": "https://peers.law/wp-content/uploads/2026/03/Medvedova_Ema-1-1024x1024.png"
+  }
+ ]
 }

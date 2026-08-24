@@ -21,7 +21,7 @@
             }
         },
         "secondaryButton": {
-            "link": "/nase-sluzby",
+            "link": "/nase-sluzby?sluzba=bezplatna-konzultace",
             "text": {
                 "cs": "Bezplatná konzultace",
                 "en": "Free consultation"
@@ -76,7 +76,7 @@
             }
         },
         "secondaryButton": {
-            "link": "/nase-sluzby",
+            "link": "/nase-sluzby?sluzba=bezplatna-konzultace",
             "text": {
                 "cs": "Bezplatná konzultace",
                 "en": "Free consultation"
@@ -131,7 +131,7 @@
             }
         },
         "secondaryButton": {
-            "link": "/nase-sluzby",
+            "link": "/nase-sluzby?sluzba=bezplatna-konzultace",
             "text": {
                 "cs": "Bezplatná konzultace",
                 "en": "Free consultation"

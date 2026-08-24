@@ -60,7 +60,7 @@ const Navigation = () => {
 			</div>
 			<div className={c('flex items-center justify-end gap-4 lg:gap-3 flex-shrink-0 md:hidden')}>
 				<TopBar />
-				<Link href="/nase-sluzby">
+				<Link href="/nase-sluzby?sluzba=bezplatna-konzultace">
 					<Button type="secondary" className="px-4 py-2 text-center flex-grow max-w-[216px] xl:hidden">
 						{t(pageData.konzultace)}
 					</Button>

@@ -1,4 +1,5 @@
 import React, { FC, useEffect, useRef, useState } from 'react'
+import { useRouter } from 'next/router'
 import DefaultLayout from '../layouts/DefaultLayout'
 import SEO from '../components/Layout/SEO'
 import pageData from '../data/pages/services.json'
@@ -14,8 +15,26 @@ import { trackAddToCart } from '../components/Pages/services/serviceHelpers'
 export default function Services () {
 	const t = useTranslations<string>()
 
+	const router = useRouter()
+
 	const [ selectedServices, setSelectedServices ] = useState<ServiceItemType[]>([])
 	const [targetRef, visible] = useVisible()
+	const formRef = useRef<HTMLDivElement>(null)
+
+	// ?sluzba=<id> preselects a service and takes the visitor straight to the inquiry
+	useEffect(() => {
+		if (!router.isReady) return
+
+		const requested = router.query.sluzba
+		if (!requested) return
+
+		const ids = (Array.isArray(requested) ? requested : [ requested ]).flatMap((value) => value.split(','))
+		const services = pageData.services.filter(({ id }) => ids.includes(id)) as ServiceItemType[]
+		if (!services.length) return
+
+		setSelectedServices(services)
+		window.setTimeout(() => formRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 150)
+	}, [ router.isReady, router.query.sluzba ])
 
 	const servicesForm = useServicesForm()
 	
@@ -55,7 +74,9 @@ keywords="směnárna, založení směnárny, povolení k činnosti směnárníka
 					disabled={selectedServices.length === 0}
 				/>
 			</div>
-			<ServicesForm visibleRef={targetRef} form={servicesForm} />
+			<div ref={formRef}>
+				<ServicesForm visibleRef={targetRef} form={servicesForm} />
+			</div>
 		</DefaultLayout>
 	)
 }

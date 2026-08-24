@@ -9,6 +9,7 @@ import { c } from '../services/misc'
 import ParagraphOrMultiple from "../components/Layout/ParagraphOrMultiple";
 import { Fade } from 'react-awesome-reveal'
 import GoogleReviews from "../components/Pages/about/GoogleReviews";
+import TeamGrid from "../components/Pages/about/TeamGrid";
 import { useTranslations } from '../hooks/useTranslations'
 
 export default function AboutPage () {
@@ -36,17 +37,22 @@ keywords="směnárna, založení směnárny, povolení k činnosti směnárníka
 						<h2 className="text-3xl font-bold">{t(pageData.header)}</h2>
 						<ParagraphOrMultiple text={pageData.headerDescription} className="text-justify max-w-[900px]" />
 					</div>
+					{/* lead contact keeps the long profile, the rest of the firm sits in a grid below */}
 					<div
 						className={c(
-							'flex flex-col items-center w-full my-24 space-y-40 text-left justify-self-start',
+							'flex flex-col items-center w-full mt-24 mb-20 text-left justify-self-start',
 							'md:px-8'
 						)}
 					>
-						{pageData.people.map((member) => (
+						{pageData.people.slice(0, 1).map((member) => (
 							<Fade key={t(member.name)} direction={'up'} triggerOnce duration={800}>
 								<TeamMemberDetail member={member} />
 							</Fade>
 						))}
+					</div>
+
+					<div className={c('w-full max-w-7xl mb-24 px-8', 'md:px-6')}>
+						<TeamGrid />
 					</div>
 					<div className={c('flex flex-col my-24 items-center space-y-20', 'md:px-8')}>
 						<GoogleReviews />
