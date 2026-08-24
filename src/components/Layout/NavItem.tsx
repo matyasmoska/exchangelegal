@@ -11,7 +11,7 @@ const NavItem: React.FunctionComponent<{ href: string }> = ({ href, children }) 
 		<Link href={href} locale={router.locale}>
 			<a
 				className={c(
-					`relative transition p-1.5 pb-1 text-dark-blue text-center`,
+					`relative transition p-1.5 pb-1 text-dark-blue text-center whitespace-nowrap`,
 					router.pathname === href ? 'cursor-auto' : ''
 				)}
 			>

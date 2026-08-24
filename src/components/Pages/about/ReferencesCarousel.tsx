@@ -20,20 +20,30 @@ const ReferencesCarousel: FC<ReferenceCarouselProps> = ({ references }) => {
 
 	const [ currentItemIndex, setCurrentItemIndex ] = useState(0)
 
+	// The list can change at runtime (hand-written fallback -> live Google reviews),
+	// so the rotation has to restart and stay inside the new bounds.
 	useEffect(() => {
+		setCurrentItemIndex(0)
+	}, [ references.length ])
+
+	useEffect(() => {
+		if (references.length < 2) return
+
 		const interval = setInterval(() => {
-			setCurrentItemIndex((c) => {
-				if (c < references.length - 1) return c + 1
-				else return 0
-			})
+			setCurrentItemIndex((c) => (c + 1) % references.length)
 		}, 5000)
 
 		// Clear interval after killing the component
 		return () => clearInterval(interval)
-	}, [])
+	}, [ references.length ])
 
 	// Memoize current reference
-	const currReference = useMemo(() => references[currentItemIndex], [ currentItemIndex ])
+	const currReference = useMemo(
+		() => references[currentItemIndex] ?? references[0],
+		[ currentItemIndex, references ]
+	)
+
+	if (!currReference) return null
 
 	return (
 		<AnimateSharedLayout>

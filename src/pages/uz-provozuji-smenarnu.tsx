@@ -76,7 +76,7 @@ keywords="směnárna, založení směnárny, povolení k činnosti směnárníka
 							objectFit="cover"
 							className="absolute"
 							priority
-							src={'/images/hodnoceni-rizik.jpg'}
+							src={'/images/hero-provozovatel.jpg'}
 						/>
 						<div
 							className={c(

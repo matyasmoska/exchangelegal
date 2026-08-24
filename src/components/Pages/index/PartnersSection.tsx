@@ -23,7 +23,7 @@ const PartnersSection: FC = () => {
 					</a>
 
 					<a href="https://www.peers.law" target="_blank" rel="noreferrer">
-						<img alt="peers-logo" className="max-h-14" src={'/images/peers-logo.svg'} />
+						<img alt="PEERS advokátní kancelář" className="h-14 w-auto" src={'/images/peers-logo.svg'} />
 					</a>
 
 				</Fade>

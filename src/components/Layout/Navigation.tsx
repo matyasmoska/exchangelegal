@@ -52,13 +52,13 @@ const Navigation = () => {
 				'px-36', '3xl:px-28', '2xl:px-20', 'lg:px-6'
 			)}
 		>
-			<div className={c('flex items-center justify-between gap-12 2xl:gap-4 lg:gap-3 flex-grow max-w-4xl')}>
+			<div className={c('flex items-center gap-10 2xl:gap-6 xl:gap-4 lg:gap-3 flex-grow min-w-0')}>
 				<Logo />
-				<div className={c('flex items-center justify-between flex-grow max-w-2xl text-center font-semibold md:hidden')}>
+				<div className={c('flex items-center gap-x-7 2xl:gap-x-4 xl:gap-x-3 flex-grow text-center font-semibold md:hidden')}>
 					<NavItems />
 				</div>
 			</div>
-			<div className={c('flex items-center justify-between gap-4 lg:gap-3 flex-grow 2xl:flex-grow-0 max-w-2xl md:hidden')}>
+			<div className={c('flex items-center justify-end gap-4 lg:gap-3 flex-shrink-0 md:hidden')}>
 				<TopBar />
 				<Link href="/nase-sluzby">
 					<Button type="secondary" className="px-4 py-2 text-center flex-grow max-w-[216px] xl:hidden">
