@@ -32,13 +32,12 @@ const Footer = () => {
 				<img src={t(contactPageData.cryptoImage)} alt="Přijímáme kryptoměny!" className={c('w-4/5 rounded-lg flex', 'md:w-4/5 md:mx-auto')} />
 				</a>
 				</Link>
-				<NewsletterForm />
 				<p className="pt-4">{t(contactPageData.allRightsReserved)}</p>
 			</div>
 			<div
 				className={c(
-					'flex space-x-32',
-					'2xl:space-x-16',
+					'flex space-x-20',
+					'2xl:space-x-12',
 					'xl:space-x-12',
 					'lg:space-x-8',
 					'md:flex-col md:space-x-0 md:space-y-16 md:text-center'
@@ -119,13 +118,14 @@ const Footer = () => {
 						
 					</div>
 				</div>
-				<div className="space-y-10">
+				<div className={c('space-y-10 flex-shrink-0 w-80', 'lg:w-72', 'md:w-auto')}>
 					<h3 className="text-xl font-bold">{t(pageData.sledujtenas)}</h3>
-					<div className={c('flex space-x-4 text-white', 'md:text-center md:justify-center md:pb-52')}>
+					<div className={c('flex space-x-4 text-white', 'md:text-center md:justify-center')}>
 						<a href={contactPageData.contact.links.linkedIn} target="_blank" rel="noopener" aria-label="Linked In Link">
 							<LinkedInIcon className="fill-current w-7 h-7" />
 						</a>
 					</div>
+					<NewsletterForm />
 				</div>
 			</div>
 		</div>

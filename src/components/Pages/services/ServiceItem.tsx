@@ -38,9 +38,10 @@ export interface ServiceItemProps {
 	serviceItem: ServiceItemType
 	selectedItems: ServiceItemType[]
 	setSelectedItems: Dispatch<ServiceItemType[]>
+	index?: number
 }
 
-export const ServiceItem: FC<ServiceItemProps> = ({ serviceItem, selectedItems, setSelectedItems }) => {
+export const ServiceItem: FC<ServiceItemProps> = ({ serviceItem, selectedItems, setSelectedItems, index = 0 }) => {
 	const { locale } = useRouter()
 	const t = useTranslations()
 
@@ -51,6 +52,10 @@ export const ServiceItem: FC<ServiceItemProps> = ({ serviceItem, selectedItems, 
 	])
 
 	const [ hover, setHover ] = useState(false)
+
+	// every other row gets a light grey background so the cards don't blur together
+	// (three columns on desktop, a single column on mobile)
+	const shadedRow = (isMd ? index : Math.floor(index / 3)) % 2 === 1
 
 	const deselectItem: MouseEventHandler = (e) => {
 		e.stopPropagation()
@@ -66,6 +71,8 @@ export const ServiceItem: FC<ServiceItemProps> = ({ serviceItem, selectedItems, 
 			}}
 			className={c(
 				'relative flex flex-col justify-between p-8 text-left cursor-pointer text-dark-blue shadow-tile',
+				'border border-dark-grey rounded-lg transition',
+				shadedRow ? 'bg-light-grey' : 'bg-white',
 				'3xl:p-6'
 			)}
 		>
