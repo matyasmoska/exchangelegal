@@ -23,13 +23,13 @@ const Footer = () => {
 				'md:py-10 md:px-10 md:block md:space-y-16 md:text-center md:text-lg'
 			)}
 		>
-			<div className={c('self-start space-y-12 pt-4 pr-12', 'md:pr-0 md:pt-0')}>
+			<div className={c('self-start flex-shrink-0 w-64 space-y-10 pt-4 pr-8', 'xl:w-56 xl:pr-4', 'md:w-auto md:pr-0 md:pt-0')}>
 				<div className="py-4">
 					<LogoWhite />
 				</div>
 				<Link href="/prijimame-kryptomeny">
 				<a target="_blank">
-				<img src={t(contactPageData.cryptoImage)} alt="Přijímáme kryptoměny!" className={c('w-full max-w-[260px] rounded-lg', 'md:mx-auto')} />
+				<img src={t(contactPageData.cryptoImage)} alt="Přijímáme kryptoměny!" className={c('w-full max-w-[220px] rounded-lg', 'md:max-w-[260px] md:mx-auto')} />
 				</a>
 				</Link>
 				<div className="pt-4 space-y-2">

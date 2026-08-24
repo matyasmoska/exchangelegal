@@ -26,13 +26,13 @@ export const OptionsSection: FC<{ hideArrow?: boolean, className?: string }> = (
 				<Fade damping={0.5} duration={500} cascade triggerOnce>
 					<div className="space-y-7">
 						<div className={c(
-								'grid grid-cols-2 gap-x-10 gap-y-8', 'md:grid-cols-1 md:text-center',
+								'grid grid-cols-2 gap-x-10 gap-y-8', 'md:grid-cols-1 md:text-left',
 								!hideArrow && 'mt-10 lg:mt-0'
 							)}>
 							{data.options.map(({ icon, text }) => (
-								<div key={t(text)}>
-									<img className="w-12 h-12 md:mx-auto" src={icon} />
-									<p className="max-w-sm mx-auto mt-4">{t(text)}</p>
+								<div key={t(text)} className={c('flex items-start gap-4', 'md:text-left')}>
+									<img className="flex-shrink-0 w-12 h-12" src={icon} />
+									<p className="max-w-sm">{t(text)}</p>
 								</div>
 							))}
 						</div>
