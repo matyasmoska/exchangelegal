@@ -32,7 +32,16 @@ const Footer = () => {
 				<img src={t(contactPageData.cryptoImage)} alt="Přijímáme kryptoměny!" className={c('w-4/5 rounded-lg flex', 'md:w-4/5 md:mx-auto')} />
 				</a>
 				</Link>
-				<p className="pt-4">{t(contactPageData.allRightsReserved)}</p>
+				<div className="pt-4 space-y-2">
+					<p>{t(contactPageData.allRightsReserved)}</p>
+					<p className="text-sm leading-relaxed opacity-80">
+						{t(contactPageData.productSiteNote)}{' '}
+						<a href="https://www.peers.law" target="_blank" rel="noopener noreferrer" className="underline">
+							www.peers.law
+						</a>
+						.
+					</p>
+				</div>
 			</div>
 			<div
 				className={c(

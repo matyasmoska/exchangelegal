@@ -110,5 +110,9 @@
     "backToHomePage": {
         "cs": "Zpět na úvodní stránku",
         "en": "Back to the homepage"
+    },
+    "noResult": {
+        "cs": "Žádný výsledek",
+        "en": "No results"
     }
 }

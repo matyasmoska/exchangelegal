@@ -9,8 +9,8 @@
             "en": "Do you want to set up your own exchange office or sort out its compliance? Don't hesitate to contact us."
         },
         "description": {
-            "cs": "",
-            "en": ""
+            "cs": "Chcete založit vlastní směnárnu nebo vyřešit její compliance? Neváhejte se na nás obrátit.",
+            "en": "Do you want to set up your own exchange office or sort out its compliance? Get in touch with us."
         },
         "address": {
             "firstLine1": "PEERS advokátní kancelář, s.r.o.",
@@ -91,5 +91,9 @@
             "cs": "Přihlášení se nepodařilo. Zkuste to prosím znovu, nebo nám napište.",
             "en": "The sign-up failed. Please try again or drop us an e-mail."
         }
+    },
+    "productSiteNote": {
+        "cs": "pravoprosmenarny.cz je produktový web PEERS advokátní kancelář, s.r.o., zaměřený na právní služby pro směnárny. Kompletní nabídku služeb kanceláře najdete na",
+        "en": "pravoprosmenarny.cz is a product website of PEERS advokátní kancelář, s.r.o., dedicated to legal services for bureaux de change. The firm's full range of services is available at"
     }
 }

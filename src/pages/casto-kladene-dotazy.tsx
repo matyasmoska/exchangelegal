@@ -52,9 +52,9 @@ export default function FAQPage () {
 	return (
 		<DefaultLayout>
 			<SEO
-				title="Často kladené dotazy o směnárnách – pravoprosmenarny.cz"
-				description="✅ Vy se ptáte, my odpovídáme – nejčastější otázky k založení a provozu směnárny, povolení ČNB a AML povinnostem ⭐"
-				keywords="směnárna, založení směnárny, povolení k činnosti směnárníka, ČNB, AML, kontrolní směna, směnárenská činnost"
+				title={{ cs: "Často kladené dotazy o směnárnách – pravoprosmenarny.cz", en: "Frequently asked questions about exchange offices – pravoprosmenarny.cz" }}
+				description={{ cs: "✅ Vy se ptáte, my odpovídáme – nejčastější otázky k založení a provozu směnárny, povolení ČNB a AML povinnostem ⭐", en: "✅ You ask, we answer – the most common questions on setting up and running an exchange office, the CNB licence and AML duties ⭐" }}
+				keywords={{ cs: "směnárna, založení směnárny, povolení k činnosti směnárníka, ČNB, AML, kontrolní směna, směnárenská činnost", en: "exchange office, bureau de change, CNB licence, AML, test purchase, currency exchange" }}
 				
 			/>
 			<div className={c("py-16 text-justify px-36 mb-52 space-y-14", 'md:px-4 md:py-8')}>

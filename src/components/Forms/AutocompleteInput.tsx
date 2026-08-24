@@ -4,6 +4,8 @@ import { ChangeEvent, ComponentPropsWithoutRef, FC } from 'react'
 import { c } from '../../services/misc'
 import ErrorMessage from './ErrorMessage'
 import { useClickOutside } from 'react-click-outside-hook'
+import { useTranslations } from '../../hooks/useTranslations'
+import formsData from '../../data/forms.json'
 
 export interface AuthTextInputFields extends ComponentPropsWithoutRef<'input'> {
 	form: any
@@ -22,6 +24,7 @@ const AutocompleteInput: FC<AuthTextInputFields> = ({
 	autoComplete,
 	data
 }) => {
+	const t = useTranslations<string>()
 	const [focused, setFocused] = React.useState(false)
 	const [wrapperRef, hasClickedOutside] = useClickOutside()
 
@@ -85,7 +88,7 @@ const AutocompleteInput: FC<AuthTextInputFields> = ({
 							))}
 						</>
 					) : (
-						<motion.li layout="position" className="px-4 py-2 text-xs text-left">Žádný výsledek</motion.li>
+						<motion.li layout="position" className="px-4 py-2 text-xs text-left">{t(formsData.noResult)}</motion.li>
 					)}
 				</motion.ul>
 			)}

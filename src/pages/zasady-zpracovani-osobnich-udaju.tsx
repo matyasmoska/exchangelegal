@@ -23,9 +23,9 @@ const ObligationsPage = () => {
     return (
         <DefaultLayout>
 			<SEO
-				title="Zásady zpracování osobních údajů | pravoprosmenarny.cz"
-description="✅ Jsme odborníky na směnárenskou činnost ⭐ Založení směnárny, povolení ČNB, AML compliance, reporting a příprava na kontrolu ČNB"
-keywords="směnárna, založení směnárny, povolení k činnosti směnárníka, ČNB, AML, kontrolní směna, směnárenská činnost"
+				title={{ cs: "Zásady zpracování osobních údajů | pravoprosmenarny.cz", en: "Privacy policy | pravoprosmenarny.cz" }}
+description={{ cs: "✅ Jsme odborníky na směnárenskou činnost ⭐ Založení směnárny, povolení ČNB, AML compliance, reporting a příprava na kontrolu ČNB", en: "✅ We are experts on currency exchange regulation ⭐ Setting up an exchange office, CNB licence, AML compliance, reporting and inspection readiness" }}
+keywords={{ cs: "směnárna, založení směnárny, povolení k činnosti směnárníka, ČNB, AML, kontrolní směna, směnárenská činnost", en: "exchange office, bureau de change, CNB licence, AML, test purchase, currency exchange" }}
 			/>
 			<div className={c('relative items-center')}>
 

@@ -21,9 +21,9 @@ const Home: NextPage<{ news: NewsItem[] }> = ({ news }) => {
 		<DefaultLayout>
 			
 			<SEO
-				title="Založení směnárny na klíč | pravoprosmenarny.cz"
-				description="✅ Jsme odborníky na směnárny – založení směnárny na klíč, povolení ČNB, AML compliance, reporting a příprava na kontrolu ČNB ⭐"
-				keywords="směnárna, založení směnárny, povolení k činnosti směnárníka, ČNB, AML, směnárenská činnost"
+				title={{ cs: "Založení směnárny na klíč | pravoprosmenarny.cz", en: "Turnkey Exchange Office Setup | pravoprosmenarny.cz" }}
+				description={{ cs: "✅ Jsme odborníky na směnárny – založení směnárny na klíč, povolení ČNB, AML compliance, reporting a příprava na kontrolu ČNB ⭐", en: "✅ We are experts on bureaux de change – turnkey setup, CNB licence, AML compliance, reporting and inspection readiness ⭐" }}
+				keywords={{ cs: "směnárna, založení směnárny, povolení k činnosti směnárníka, ČNB, AML, směnárenská činnost", en: "exchange office, bureau de change, CNB licence, AML, currency exchange, Czech Republic" }}
 			/>
 			
 			<meta name="seznam-wmt" content="dvWBun9gVdKXbODiGWoQ7fhRwJ0xE2Ni" />

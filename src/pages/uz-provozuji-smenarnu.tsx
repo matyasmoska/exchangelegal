@@ -11,7 +11,8 @@ import useServicesForm from "../components/Pages/services/hooks/useServicesForm"
 import { trackViewItems } from "../components/Pages/services/serviceHelpers";
 import OrderButton from "../components/Pages/services/OrderButton";
 import ServicesForm from "../components/Pages/services/ServicesForm";
-import ServicePicker from "../components/Pages/services/ServicePicker";
+import { ServiceItem, ServiceItemType } from "../components/Pages/services/ServiceItem";
+import argumentsData from "../data/pages/arguments.json";
 import { useVisible } from "react-hooks-visible";
 
 import Button from "../components/Layout/Button";
@@ -44,29 +45,26 @@ const ObligationsPage = () => {
 		'whistleblowing-smernice',
 	]
 
+	const offeredServices = offeredIds
+		.map((id) => servicesData.services.find((service) => service.id === id))
+		.filter(Boolean) as ServiceItemType[]
+
 	// the audit is the entry point, the rest is up to the client
-	const [selectedIds, setSelectedIds] = useState<string[]>(['pravni-audit-smenarny'])
-
-	const applySelection = (ids: string[]) => {
-		setSelectedIds(ids)
-		const services = servicesData.services.filter(({ id }) => ids.includes(id))
-		servicesForm.setFieldValue('checked', services)
-		trackViewItems(services)
-	}
-
-	const toggleService = (id: string) =>
-		applySelection(selectedIds.includes(id) ? selectedIds.filter((item) => item !== id) : [...selectedIds, id])
+	const [selectedServices, setSelectedServices] = useState<ServiceItemType[]>(
+		offeredServices.filter(({ id }) => id === 'pravni-audit-smenarny')
+	)
 
 	useEffect(() => {
-		applySelection(selectedIds)
-	}, [])
+		servicesForm.setFieldValue('checked', selectedServices)
+		trackViewItems(selectedServices)
+	}, [selectedServices])
 	
     return (
         <DefaultLayout>
 			<SEO
-				title="Už provozuji směnárnu – AML audit a kontrola ČNB | pravoprosmenarny.cz"
-description="✅ Jsme odborníky na směnárenskou činnost ⭐ Založení směnárny, povolení ČNB, AML compliance, reporting a příprava na kontrolu ČNB"
-keywords="směnárna, založení směnárny, povolení k činnosti směnárníka, ČNB, AML, kontrolní směna, směnárenská činnost"
+				title={{ cs: "Už provozuji směnárnu – AML audit a kontrola ČNB | pravoprosmenarny.cz", en: "I already run an exchange office – AML audit and CNB inspections | pravoprosmenarny.cz" }}
+description={{ cs: "✅ Jsme odborníky na směnárenskou činnost ⭐ Založení směnárny, povolení ČNB, AML compliance, reporting a příprava na kontrolu ČNB", en: "✅ We are experts on currency exchange regulation ⭐ Setting up an exchange office, CNB licence, AML compliance, reporting and inspection readiness" }}
+keywords={{ cs: "směnárna, založení směnárny, povolení k činnosti směnárníka, ČNB, AML, kontrolní směna, směnárenská činnost", en: "exchange office, bureau de change, CNB licence, AML, test purchase, currency exchange" }}
 			/>
 			<div className={c('relative items-center')}>
 				<div className="relative w-full">
@@ -108,7 +106,21 @@ keywords="směnárna, založení směnárny, povolení k činnosti směnárníka
 				</div>
 									<OrderButton show={!visible} text={pageData.buttonText} />
 			</div>
-				<ServicePicker ids={offeredIds} selectedIds={selectedIds} onToggle={toggleService} />
+				<div className={c('py-16 space-y-12 text-center px-36', 'md:px-4 md:py-8 md:relative')}>
+					<h2 className="text-4xl font-bold leading-snug">{t(argumentsData.servicePickerTitle)}</h2>
+					<p className="max-w-2xl mx-auto -mt-6">{t(argumentsData.servicePickerText)}</p>
+					<div className={c('grid grid-cols-3 gap-8 items-stretch', '2xl:grid-cols-3', 'md:grid-cols-1')}>
+						{offeredServices.map((service, index) => (
+							<ServiceItem
+								key={service.id}
+								index={index}
+								serviceItem={service}
+								selectedItems={selectedServices}
+								setSelectedItems={setSelectedServices}
+							/>
+						))}
+					</div>
+				</div>
 
 		    <ServicesForm visibleRef={targetRef} form={servicesForm} />
 		</DefaultLayout>
