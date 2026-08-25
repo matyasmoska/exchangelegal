@@ -132,11 +132,24 @@ const CookieBar = () => {
   const setConsent = async (analytics: boolean) => {
     const consent: CookieConsent = { technical: true, analytics }
     const date = new Date()
-    setCookie(consentName, consent, { expires: new Date(date.getFullYear(), date.getMonth() + 6, date.getDate()) })
+    // path '/' is essential - without it the consent is scoped to the current
+    // directory and the bar pops up again on article pages
+    setCookie(consentName, consent, {
+      expires: new Date(date.getFullYear(), date.getMonth() + 6, date.getDate()),
+      path: '/',
+      sameSite: 'lax',
+    })
     const { data } = await getIp('https://jsonip.com')
     await saveConsent('/api/consents', {
       method: 'POST',
-      body: JSON.stringify({ ip: data?.ip, date, ...consent }),
+      body: JSON.stringify({
+        ip: data?.ip,
+        date,
+        // several sites share one Firestore project, so record which one this came from
+        site: typeof window !== 'undefined' ? window.location.hostname : undefined,
+        locale: router.locale,
+        ...consent,
+      }),
     })
     if (showCookieModal) handleBack()
   }
