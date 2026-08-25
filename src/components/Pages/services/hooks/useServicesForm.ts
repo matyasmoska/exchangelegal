@@ -52,14 +52,20 @@ function useServicesForm () {
 		validate,
 		validateOnChange: false,
 		onSubmit: async (values, { resetForm, setStatus, setFieldError }) => {
-			const res = await axios.post<ServicesFormValuesResponse>('/api/servicesMessage', { ...values })
+			// without this the request throws on a 5xx response and the form silently does nothing
+			try {
+				const res = await axios.post<ServicesFormValuesResponse>('/api/servicesMessage', { ...values })
 
-			if ( res.data.result ) {
-				trackPurchase(res.data.transactionId, res.data.checked, res.data.totalValue)
-				trackConversion(res.data.transactionId, res.data.totalValue)
+				if ( res.data.result ) {
+					trackPurchase(res.data.transactionId, res.data.checked, res.data.totalValue)
+					trackConversion(res.data.transactionId, res.data.totalValue)
 
-				router.push('/dekujeme')
-			} else {
+					router.push('/dekujeme')
+				} else {
+					setFieldError('api', t(pageData.formError))
+				}
+			} catch (error) {
+				console.error('Order could not be submitted', error)
 				setFieldError('api', t(pageData.formError))
 			}
 		}

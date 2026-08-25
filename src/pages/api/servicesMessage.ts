@@ -16,8 +16,12 @@ async function sendMail( { firstName, lastName, message, email, phone, checked, 
     });
   
     await transporter.sendMail({
-      from: process.env.SEND_FROM_EMAIL,
-      to: process.env.SEND_TO_EMAIL,
+      // the sender must belong to the authenticated mailbox, otherwise the server
+      // rejects the MAIL FROM command with "550 invalid domain"
+      from: (process.env.SEND_FROM_EMAIL || process.env.SMTP_USER || '').trim(),
+      to: (process.env.SEND_TO_EMAIL || process.env.SMTP_USER || '').trim(),
+      // replies go straight to the person who filled in the form
+      replyTo: email,
       subject: `[pravoprosmenarny.cz Kontaktní formulář se službami] Nová zpráva od ${firstName} ${lastName}`,
       html:
       `

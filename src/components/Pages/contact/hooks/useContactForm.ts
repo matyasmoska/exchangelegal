@@ -46,15 +46,21 @@ function useContactForm () {
 		validate,
 		validateOnChange: false,
 		onSubmit: async (values, { resetForm, setStatus, setFieldError }) => {
-			const res = await axios.post('/api/message', { ...values } as ContactFormValues)
+			// without this the request throws on a 5xx response and the form silently does nothing
+			try {
+				const res = await axios.post('/api/message', { ...values } as ContactFormValues)
 
-			if (res.data.result) {
-				resetForm()
-				setStatus('submitted')
-				window.setTimeout(() => {
-					setStatus('default')
-				}, 5000)
-			} else {
+				if (res.data.result) {
+					resetForm()
+					setStatus('submitted')
+					window.setTimeout(() => {
+						setStatus('default')
+					}, 5000)
+				} else {
+					setFieldError('api', t(pageData.formError))
+				}
+			} catch (error) {
+				console.error('Message could not be sent', error)
 				setFieldError('api', t(pageData.formError))
 			}
 		}
