@@ -5,6 +5,19 @@ import nodemailer from "nodemailer";
 import { v4 as uuidv4 } from 'uuid';
 
 async function sendMail( { firstName, lastName, message, email, phone, checked, ico, businessAddress }: ServicesFormValues ) {
+    const from = (process.env.SEND_FROM_EMAIL || process.env.SMTP_USER || '').trim()
+    const to = (process.env.SEND_TO_EMAIL || process.env.SMTP_USER || '').trim()
+
+    // temporary diagnostics: shows exactly what is handed to the SMTP server (no password)
+    console.log('SMTP config', JSON.stringify({
+      host: process.env.SMTP_SERVER,
+      port: process.env.SMTP_PORT || '465 (default)',
+      user: process.env.SMTP_USER,
+      from,
+      to,
+      fromLength: from.length,
+    }))
+
     let transporter = nodemailer.createTransport({
       host: process.env.SMTP_SERVER,
       port: Number(process.env.SMTP_PORT || 465),
@@ -18,8 +31,8 @@ async function sendMail( { firstName, lastName, message, email, phone, checked, 
     await transporter.sendMail({
       // the sender must belong to the authenticated mailbox, otherwise the server
       // rejects the MAIL FROM command with "550 invalid domain"
-      from: (process.env.SEND_FROM_EMAIL || process.env.SMTP_USER || '').trim(),
-      to: (process.env.SEND_TO_EMAIL || process.env.SMTP_USER || '').trim(),
+      from,
+      to,
       // replies go straight to the person who filled in the form
       replyTo: email,
       subject: `[pravoprosmenarny.cz Kontaktní formulář se službami] Nová zpráva od ${firstName} ${lastName}`,
