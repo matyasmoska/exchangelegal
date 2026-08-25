@@ -5,7 +5,11 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   if (req.method === 'POST') {
     try {
       const { ip, date: dateString, site, ...consent } = JSON.parse(req.body)
-      const ipAddress = isIP(ip) ? ip : await fetch('https://api64.ipify.org').then((res) => res.text())
+      // The visitor's address comes from the proxy header. The previous fallback asked
+      // api64.ipify.org from the server, which returned the hosting IP - useless as evidence.
+      const forwarded = req.headers['x-forwarded-for']
+      const headerIp = (Array.isArray(forwarded) ? forwarded[0] : forwarded || '').split(',')[0].trim()
+      const ipAddress = isIP(headerIp) ? headerIp : isIP(ip) ? ip : 'unknown'
       const date = dateString ? new Date(dateString) : new Date()
       // one Firestore project serves several sites, so the record has to say which one
       const source = String(site || req.headers.host || 'unknown').replace(/^www\./, '')

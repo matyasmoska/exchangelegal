@@ -4,6 +4,7 @@ import { useTranslations } from '../../hooks/useTranslations'
 import { c } from '../../services/misc'
 import { LogoWhite } from '../Layout/Logo'
 import NewsletterForm from './NewsletterForm'
+import cookiesData from '../../data/pages/cookies.json'
 import { FacebookIcon, LinkedInIcon, TwitterIcon } from './Icons'
 import pageData from '../../data/navigation.json'
 import contactPageData from '../../data/contact.json'
@@ -122,6 +123,10 @@ const Footer = () => {
 							</Link>
 							<Link href="/pravidla-pouzivani-cookies">
 								<a className="hover:underline">{t(pageData.cookierules)}</a>
+							</Link>
+							{/* re-opens the consent modal; CookieBar listens for ?consent=setup */}
+							<Link href={{ query: { consent: 'setup' } }} scroll={false}>
+								<a className="hover:underline">{t(cookiesData.settingsLink)}</a>
 							</Link>
 						</div>
 						

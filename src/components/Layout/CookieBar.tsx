@@ -168,9 +168,14 @@ const CookieBar = () => {
         checked={allowAnalytics}
         onChange={(e) => setAllowAnalytics(e.target.checked)}
       />
-      <div className="flex flex-wrap gap-x-28 justify-between sm:justify-around">
+      {/* Accept and reject share identical styling - the Czech DPA requires the refusal
+          option to sit in the same layer and in comparable visual form. */}
+      <div className="flex flex-wrap gap-4 justify-between sm:justify-center">
         <Button type="basic" className="w-40 sm:w-full max-w-2.5xs mt-4 p-2" onClick={() => setConsent(true)}>
           {t(staticData.acceptAll)}
+        </Button>
+        <Button type="basic" className="w-40 sm:w-full max-w-2.5xs mt-4 p-2" onClick={() => setConsent(false)}>
+          {t(staticData.rejectAll)}
         </Button>
         <Button type="secondary" className="w-40 sm:w-full max-w-2.5xs mt-4 p-2" onClick={() => setConsent(allowAnalytics)}>
           {t(staticData.saveSettings)}
@@ -194,15 +199,20 @@ const CookieBar = () => {
                 {t(staticData.description)} <MoreInfo />
               </p>
             </div>
-            <Button type="light" className="w-40 xs:w-full flex-shrink-0 m-2 p-2" onClick={handleModalOpen}>
-              {t(staticData.settings)}
-            </Button>
-            <Button type="light" className="w-40 xs:w-full flex-shrink-0 m-2 p-2" onClick={() => setConsent(false)}>
-              {t(staticData.acceptTechnical)}
-            </Button>
-            <Button type="basic" className="w-40 xs:w-full flex-shrink-0 m-2 p-2" onClick={() => setConsent(true)}>
+            {/* Accept and reject are deliberately identical in size, colour and position;
+                only the detailed settings are visually subordinate. */}
+            <Button type="light" className="w-40 xs:w-full flex-shrink-0 m-2 p-2" onClick={() => setConsent(true)}>
               {t(staticData.acceptAll)}
             </Button>
+            <Button type="light" className="w-40 xs:w-full flex-shrink-0 m-2 p-2" onClick={() => setConsent(false)}>
+              {t(staticData.rejectAll)}
+            </Button>
+            <div
+              className="flex-shrink-0 m-2 p-2 text-sm underline cursor-pointer hover:text-mint"
+              onClick={handleModalOpen}
+            >
+              {t(staticData.settings)}
+            </div>
           </div>
           <div className="m-1 xs:-mr-1 cursor-pointer" onClick={() => setHideBar(true)}>
             <CloseIcon className="w-5 h-5 flex-shrink-0" />
