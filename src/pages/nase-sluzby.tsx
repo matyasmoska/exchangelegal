@@ -76,7 +76,7 @@ keywords={{ cs: "směnárna, založení směnárny, povolení k činnosti směn�
 					disabled={selectedServices.length === 0}
 				/>
 			</div>
-			<p className={c('max-w-5xl mx-auto mb-12 text-sm leading-relaxed text-warm-grey px-36', '2xl:px-20', 'md:px-6')}>
+			<p className={c('max-w-4xl mx-auto mb-12 text-sm leading-relaxed text-center text-warm-grey px-36', '2xl:px-20', 'md:px-6')}>
 				{t(argumentsData.pricingDisclaimer)}
 			</p>
 

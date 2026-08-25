@@ -122,7 +122,7 @@ const ArgumentsSection: FC = () => {
 			</div>
 
 			{/* Required legal note under every price list */}
-			<p className="max-w-5xl mx-auto text-sm leading-relaxed text-warm-grey">{t(data.pricingDisclaimer)}</p>
+			<p className="max-w-4xl mx-auto text-sm leading-relaxed text-center text-warm-grey">{t(data.pricingDisclaimer)}</p>
 		</div>
 
 		<div className={c('font-header w-full space-y-16 mt-24 px-36', '3xl:px-28', '2xl:px-20', 'md:px-8')}>
