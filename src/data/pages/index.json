@@ -64,8 +64,8 @@
             "en": "Leave AML/CFT to us"
         },
         "subtitle": {
-            "cs": "Vypracujeme systém vnitřních zásad a hodnocení rizik na míru Vaší směnárně, připravíme provozní dokumentaci a nastavíme PEP a sankční screening klientů tak, aby vše obstálo při kontrole ČNB.",
-            "en": "We will draft a tailor-made internal AML policy and risk assessment, prepare your operating documentation and set up PEP and sanctions screening so that everything stands up to a CNB inspection."
+            "cs": "Vypracujeme systém vnitřních zásad a hodnocení rizik na míru Vaší směnárně, připravíme provozní dokumentaci a nastavíme PEP a sankční screening klientů tak, aby dokumentace odpovídala skutečnému provozu a snížila regulatorní rizika při kontrole ČNB.",
+            "en": "We will draft a tailor-made internal AML policy and risk assessment, prepare your operating documentation and set up PEP and sanctions screening so that the documentation matches your actual operations and reduces regulatory risk in a CNB inspection."
         },
         "image": "/images/aml-compliance.jpg",
         "primaryButton": {

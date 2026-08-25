@@ -10,8 +10,8 @@
     "questions": [
         {
             "text": {
-                "cs": "Chcete podnikat ve směně valut 100 % legálně a s povolením ČNB?",
-                "en": "Do you want to run a currency exchange business 100 % legally, with a CNB licence?"
+                "cs": "Chcete směnárenskou činnost provozovat v souladu s právními požadavky a s povolením ČNB?",
+                "en": "Do you want to run a currency exchange business in line with the applicable legal requirements and with CNB authorisation?"
             }
         },
         {
@@ -40,8 +40,8 @@
         }
     ],
     "questionsResult": {
-        "cs": "...pak jste tu správně. <em>Založení a provoz směnárny</em> s námi zvládnete bez starostí.",
-        "en": "...then you are in the right place. With us, you will <em>set up and run your exchange office</em> without worries."
+        "cs": "...pak jste tu správně. <em>Založení a provoz směnárny</em> s námi zvládnete s praktickou právní podporou.",
+        "en": "...then you are in the right place. With us you will <em>set up and run your exchange office</em> with practical legal support."
     },
     "optionsTitle": {
         "cs": "S vlastní <em>směnárnou</em> můžete:",
@@ -147,8 +147,8 @@
                 "en": "Basic"
             },
             "text": {
-                "cs": "Získání povolení ČNB a ohlášení provozovny.",
-                "en": "Obtaining the CNB licence and notifying the premises."
+                "cs": "Získání povolení ČNB a oznámení provozovny.",
+                "en": "Obtaining the CNB licence and notifying the premises as a separate step."
             },
             "price": {
                 "cs": "79 000 Kč",
@@ -194,8 +194,8 @@
                         },
                         {
                             "text": {
-                                "cs": "Ohlášení provozovny ČNB a zápis do seznamu směnárníků",
-                                "en": "Notification of the premises to the CNB and registration"
+                                "cs": "Oznámení provozovny ČNB po udělení povolení",
+                                "en": "Notification of the premises to the CNB after the licence is granted"
                             },
                             "checked": true
                         }
@@ -217,7 +217,7 @@
                         {
                             "text": {
                                 "cs": "AML/CFT školení pracovníků vč. osvědčení a evidence (§ 23)",
-                                "en": "AML/CFT staff training incl. certificates and records (Section 23)"
+                                "en": "AML/CFT staff training incl. confirmations of attendance and records (Section 23)"
                             },
                             "checked": false
                         }
@@ -231,8 +231,8 @@
                     "items": [
                         {
                             "text": {
-                                "cs": "Provozní dokumentace (§ 13, § 14, § 14a, kurzovní lístek, označení)",
-                                "en": "Operating documentation (Sections 13, 14, 14a, rate list, signage)"
+                                "cs": "Provozní dokumentace (předsmluvní informace, doklad o obchodu, kurzovní lístek, označení provozovny)",
+                                "en": "Operating documentation (pre-contractual information, transaction receipt, rate list, premises signage)"
                             },
                             "checked": false
                         },
@@ -344,8 +344,8 @@
                         },
                         {
                             "text": {
-                                "cs": "Ohlášení provozovny ČNB a zápis do seznamu směnárníků",
-                                "en": "Notification of the premises to the CNB and registration"
+                                "cs": "Oznámení provozovny ČNB po udělení povolení",
+                                "en": "Notification of the premises to the CNB after the licence is granted"
                             },
                             "checked": true
                         }
@@ -367,7 +367,7 @@
                         {
                             "text": {
                                 "cs": "AML/CFT školení pracovníků vč. osvědčení a evidence (§ 23)",
-                                "en": "AML/CFT staff training incl. certificates and records (Section 23)"
+                                "en": "AML/CFT staff training incl. confirmations of attendance and records (Section 23)"
                             },
                             "checked": false
                         }
@@ -381,8 +381,8 @@
                     "items": [
                         {
                             "text": {
-                                "cs": "Provozní dokumentace (§ 13, § 14, § 14a, kurzovní lístek, označení)",
-                                "en": "Operating documentation (Sections 13, 14, 14a, rate list, signage)"
+                                "cs": "Provozní dokumentace (předsmluvní informace, doklad o obchodu, kurzovní lístek, označení provozovny)",
+                                "en": "Operating documentation (pre-contractual information, transaction receipt, rate list, premises signage)"
                             },
                             "checked": true
                         },
@@ -494,8 +494,8 @@
                         },
                         {
                             "text": {
-                                "cs": "Ohlášení provozovny ČNB a zápis do seznamu směnárníků",
-                                "en": "Notification of the premises to the CNB and registration"
+                                "cs": "Oznámení provozovny ČNB po udělení povolení",
+                                "en": "Notification of the premises to the CNB after the licence is granted"
                             },
                             "checked": true
                         }
@@ -517,7 +517,7 @@
                         {
                             "text": {
                                 "cs": "AML/CFT školení pracovníků vč. osvědčení a evidence (§ 23)",
-                                "en": "AML/CFT staff training incl. certificates and records (Section 23)"
+                                "en": "AML/CFT staff training incl. confirmations of attendance and records (Section 23)"
                             },
                             "checked": true
                         }
@@ -531,8 +531,8 @@
                     "items": [
                         {
                             "text": {
-                                "cs": "Provozní dokumentace (§ 13, § 14, § 14a, kurzovní lístek, označení)",
-                                "en": "Operating documentation (Sections 13, 14, 14a, rate list, signage)"
+                                "cs": "Provozní dokumentace (předsmluvní informace, doklad o obchodu, kurzovní lístek, označení provozovny)",
+                                "en": "Operating documentation (pre-contractual information, transaction receipt, rate list, premises signage)"
                             },
                             "checked": true
                         },

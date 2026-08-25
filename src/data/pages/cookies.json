@@ -1,15 +1,15 @@
 {
     "header": {
-        "cs": "Používáme soubory cookies",
-        "en": "We use cookies"
+        "cs": "Nastavení soukromí",
+        "en": "Privacy settings"
     },
     "headerModal": {
-        "cs": "Nastavení souborů cookies",
-        "en": "Cookies settings"
+        "cs": "Nastavení soukromí",
+        "en": "Privacy settings"
     },
     "description": {
-        "cs": "Používáme soubory cookies, abychom Vám umožnili uživatelsky příjemnější prohlížení webu. Udělíte-li nám souhlas s umístěním volitelných souborů cookies do vašeho zařízení, budeme moci sbírat anonymizovaná analytická data za účelem zlepšení našeho webu.",
-        "en": "We use cookies to make your browsing experience more user-friendly. If you give us your consent to place optional cookies on your device, we will be able to collect anonymised analytical data to improve our website."
+        "cs": "Používáme nezbytné technologie pro fungování a bezpečnost webu. Analytické a marketingové nástroje spustíme pouze s vaším souhlasem. Volbu můžete kdykoli změnit v patičce webu.",
+        "en": "We use technologies that are necessary for the website to function and to keep it secure. Analytical and marketing tools are only activated with your consent. You can change your choice at any time in the website footer."
     },
     "detail": {
         "cs": "Kliknutím na spínač vedle názvu jednotlivého druhu cookies udělíte souhlas s používáním tohoto druhu cookies webovou stránkou, a to do doby, než souhlas odvoláte či než uplyne doba 6 měsíců a cookie banner automaticky vyskočí znovu.",
@@ -20,12 +20,12 @@
         "en": "For more information about the use of cookies by this website, please see"
     },
     "moreInfoLinkText": {
-        "cs": "Pravidlech používání cookies",
+        "cs": "Zásady používání cookies",
         "en": "Cookie policy"
     },
     "settings": {
-        "cs": "Podrobné nastavení",
-        "en": "Detailed settings"
+        "cs": "Nastavit",
+        "en": "Configure"
     },
     "acceptTechnical": {
         "cs": "Povolit jen nutné",
@@ -72,12 +72,12 @@
     "cookies": {
         "technical": {
             "header": {
-                "cs": "Technické cookies",
-                "en": "Technical cookies"
+                "cs": "Nezbytné – vždy aktivní",
+                "en": "Necessary – always active"
             },
             "description": {
-                "cs": "Tyto cookies soubory jsou nutné pro správné fungování webu. Bez těchto cookies by web nefungoval správně, proto u nich nevyžadujeme Váš souhlas.",
-                "en": "These cookies are necessary for the proper functioning of the website. Without these cookies, the website would not function properly, so we do not require your consent for them."
+                "cs": "Zajišťují základní funkce, bezpečnost, odeslání formuláře a uložení vaší volby. Nepotřebují souhlas.",
+                "en": "They provide core functions, security, form submission and storage of your choice. They do not require consent."
             },
             "rows": [
                 {
@@ -96,12 +96,12 @@
         },
         "analytics": {
             "header": {
-                "cs": "Analytické cookies",
-                "en": "Analytical cookies"
+                "cs": "Analytické – výchozí stav vypnuto",
+                "en": "Analytical – off by default"
             },
             "description": {
-                "cs": "Umožňují měřit návštěvnost webových stránek, kolik uživatelů kliklo na odkaz na webových stránkách nebo využilo některou z jejich funkcí.",
-                "en": "They allow to measure website traffic, how many users clicked on a link on a website or used one of its features."
+                "cs": "Pomáhají nám měřit návštěvnost a zlepšovat web. Spustí se pouze po vašem souhlasu.",
+                "en": "They help us measure traffic and improve the website. They are only activated with your consent."
             },
             "rows": [
                 {
@@ -141,6 +141,17 @@
                     }
                 }
             ]
+        },
+        "marketing": {
+            "header": {
+                "cs": "Marketingové – výchozí stav vypnuto",
+                "en": "Marketing – off by default"
+            },
+            "description": {
+                "cs": "Slouží k měření reklamních kampaní. Spustí se pouze po vašem souhlasu. Údaje z kontaktního formuláře do reklamních systémů nepředáváme.",
+                "en": "They are used to measure advertising campaigns. They are only activated with your consent. We do not pass data from the contact form to advertising systems."
+            },
+            "rows": []
         }
     },
     "settingsLink": {
@@ -148,7 +159,7 @@
         "en": "Cookie settings"
     },
     "rejectAll": {
-        "cs": "Odmítnout vše",
-        "en": "Reject all"
+        "cs": "Odmítnout volitelné",
+        "en": "Reject optional"
     }
 }
