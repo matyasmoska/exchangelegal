@@ -9,6 +9,7 @@ import data from '../../../data/pages/arguments.json'
 
 type PricingVariant = typeof data.pricingVariants[number]
 
+// the package link carries ?sluzba=<id> so the order form on /nase-sluzby preselects it
 export const PricingCard: FC<{
 	variant: PricingVariant
 	buttonType: 'basic' | 'secondary' | 'light'
@@ -56,7 +57,7 @@ export const PricingCard: FC<{
 					{selected ? t(data.packageSelected) : t(buttonText)}
 				</Button>
 			) : (
-				<Link href={buttonLink}>
+				<Link href={variant.serviceId ? `${buttonLink}?sluzba=${variant.serviceId}` : buttonLink}>
 					<Button type={buttonType} className="font-semibold px-6 py-2">
 						{t(buttonText)}
 					</Button>
