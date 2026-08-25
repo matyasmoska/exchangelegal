@@ -14,9 +14,21 @@ import { ChevronDown, CloseIcon } from './Icons'
 
 export const consentName = 'cookie-consent'
 
+// Bump whenever the categories or the cookie policy change - an older version
+// is treated as no choice at all and the bar asks again.
+export const consentVersion = '2026-08-25'
+
+// Cookies to clear when the visitor withdraws a category.
+const COOKIES_BY_CATEGORY: Record<'analytics' | 'marketing', string[]> = {
+  analytics: ['_ga', '_gid', '_gat'],
+  marketing: ['_gcl_au', 'IDE'],
+}
+
 type CookieConsent = {
   technical: boolean
   analytics: boolean
+  marketing: boolean
+  version: string
 }
 
 type CookieTableRow = {
@@ -129,9 +141,27 @@ const CookieBar = () => {
     router.push({ pathname: router.pathname, query }, undefined, { scroll: false })
   }
 
-  const setConsent = async (analytics: boolean) => {
-    const consent: CookieConsent = { technical: true, analytics }
+  // Removes first-party cookies of a category the visitor just refused.
+  const clearCookies = (category: 'analytics' | 'marketing') => {
+    if (typeof document === 'undefined') return
+    const host = window.location.hostname.replace(/^www\./, '')
+    COOKIES_BY_CATEGORY[category].forEach((prefix) => {
+      document.cookie.split(';').forEach((entry) => {
+        const name = entry.split('=')[0].trim()
+        if (!name.startsWith(prefix)) return
+        ;[`.${host}`, host, ''].forEach((domain) => {
+          document.cookie = `${name}=; Max-Age=0; path=/${domain ? `; domain=${domain}` : ''}`
+        })
+      })
+    })
+  }
+
+  const setConsent = async (analytics: boolean, marketing = false) => {
+    const consent: CookieConsent = { technical: true, analytics, marketing, version: consentVersion }
     const date = new Date()
+
+    if (!analytics) clearCookies('analytics')
+    if (!marketing) clearCookies('marketing')
     // path '/' is essential - without it the consent is scoped to the current
     // directory and the bar pops up again on article pages
     setCookie(consentName, consent, {
@@ -184,7 +214,7 @@ const CookieBar = () => {
     </Modal>
   ) : (
     <AnimatePresence>
-      {(!cookies[consentName] || cookies[consentName] === "true") && !hideBar && (
+      {(!cookies[consentName] || cookies[consentName] === "true" || cookies[consentName]?.version !== consentVersion) && !hideBar && (
         <motion.div
           className="fixed bottom-0 flex items-center justify-center w-full z-50 p-4 border-t text-white bg-dark-blue bg-opacity-95"
           initial={{ y: 200 }}

@@ -56,8 +56,8 @@
         "en": "I agree with"
     },
     "personalDataProcessing": {
-        "cs": "zpracováním osobních údajů",
-        "en": "the processing of personal data"
+        "cs": "Zásadách ochrany osobních údajů",
+        "en": "Privacy Policy"
     },
     "send": {
         "cs": "Odeslat",
@@ -114,5 +114,9 @@
     "noResult": {
         "cs": "Žádný výsledek",
         "en": "No results"
+    },
+    "dataProcessingNotice": {
+        "cs": "Odesláním formuláře beru na vědomí, že PEERS advokátní kancelář, s.r.o. zpracuje uvedené údaje za účelem vyřízení mého dotazu a případného jednání o poskytnutí právních služeb. Podrobnosti jsou uvedeny v",
+        "en": "By submitting this form I acknowledge that PEERS advokátní kancelář, s.r.o. will process the data provided in order to handle my enquiry and to negotiate the provision of legal services. Details are set out in our"
     }
 }

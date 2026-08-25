@@ -91,20 +91,14 @@ const ServicesForm: FC<{ form: any; visibleRef: any, className?: string }> = ({ 
 				</div>
 			</div>
 			<div className="w-full space-y-4">
-				<Checkbox
-					id={'personalDataAgreement'}
-					form={form}
-					isChecked={form.values.personalDataAgreement}
-					value={`${t(pageData.agreeWith)} ${t(pageData.personalDataProcessing)}`}
-					label={
-						<span>
-							{t(pageData.agreeWith)}{' '}
-							<Link href="/zasady-zpracovani-osobnich-udaju">
-								<a target="_blank" className="underline">{t(pageData.personalDataProcessing)}</a>
-							</Link>
-						</span>
-					}
-				/>
+				{/* Handling an enquiry rests on pre-contractual steps, not consent,
+				    so this is an information notice rather than a required checkbox. */}
+				<p className="text-sm text-warm-grey max-w-xl">
+					{t(pageData.dataProcessingNotice)}{' '}
+					<Link href="/zasady-zpracovani-osobnich-udaju">
+						<a target="_blank" className="underline">{t(pageData.personalDataProcessing)}</a>
+					</Link>.
+				</p>
 
 			</div>
 			<div className="flex flex-col items-end justify-end w-full space-y-4">

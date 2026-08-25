@@ -3,6 +3,7 @@ import { useRouter } from 'next/router'
 import DefaultLayout from '../layouts/DefaultLayout'
 import SEO from '../components/Layout/SEO'
 import pageData from '../data/pages/services.json'
+import argumentsData from '../data/pages/arguments.json'
 import { ServiceItem, ServiceItemType } from '../components/Pages/services/ServiceItem'
 import useServicesForm from '../components/Pages/services/hooks/useServicesForm'
 import { c } from '../services/misc'
@@ -75,6 +76,10 @@ keywords={{ cs: "směnárna, založení směnárny, povolení k činnosti směn�
 					disabled={selectedServices.length === 0}
 				/>
 			</div>
+			<p className={c('max-w-5xl mx-auto mb-12 text-sm leading-relaxed text-warm-grey px-36', '2xl:px-20', 'md:px-6')}>
+				{t(argumentsData.pricingDisclaimer)}
+			</p>
+
 			<div ref={formRef}>
 				<ServicesForm visibleRef={targetRef} form={servicesForm} />
 			</div>

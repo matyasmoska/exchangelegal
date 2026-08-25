@@ -36,6 +36,14 @@
         "emailLink": "matyas.moska@peers.law",
         "links": {
             "linkedIn": "https://www.linkedin.com/company/81336235/"
+        },
+        "dataBox": {
+            "cs": "ID datové schránky: 4ruhwvp",
+            "en": "Data box ID: 4ruhwvp"
+        },
+        "identification": {
+            "cs": "PEERS advokátní kancelář, s.r.o., IČO 220 96 973, se sídlem Hvězdova 1716/2b, Nusle, 140 00 Praha 4, zapsaná v obchodním rejstříku vedeném Městským soudem v Praze pod sp. zn. C 410891.",
+            "en": "PEERS advokátní kancelář, s.r.o., Company ID 220 96 973, registered office at Hvězdova 1716/2b, Nusle, 140 00 Prague 4, registered in the Commercial Register maintained by the Municipal Court in Prague under file no. C 410891."
         }
     },
     "cryptoImage": {

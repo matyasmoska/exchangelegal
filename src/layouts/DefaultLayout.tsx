@@ -17,12 +17,17 @@ const GA_SCRIPT_DEFAULT = `
 ${GA_DATA_LAYER}
 
 gtag('consent', 'default', {
-  'analytics_storage': 'denied'
+  'analytics_storage': 'denied',
+  'ad_storage': 'denied',
+  'ad_user_data': 'denied',
+  'ad_personalization': 'denied'
 });
 `
 
 const DefaultLayout: FC = ({ children }) => {
 	const [cookies, setCookie, removeCookie] = useCookies(['cookie-consent'])
+
+	const analyticsAllowed = Boolean(GA_ID) && process.env.NODE_ENV === 'production' && Boolean(cookies['cookie-consent']?.analytics)
 
 	return (
 		<div className="text-dark-blue">
@@ -32,9 +37,11 @@ const DefaultLayout: FC = ({ children }) => {
 				<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 				<meta name="theme-color" content="#110756" />
 				{ GA_ID && process.env.NODE_ENV === 'production' && <script dangerouslySetInnerHTML={{ __html: GA_SCRIPT_DEFAULT }} />}
-				{ GA_ID && process.env.NODE_ENV === 'production' && <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} />}
+				{/* The analytics library is fetched only once the visitor allows analytics,
+				    so no third-party script loads before a choice is made. */}
+				{ analyticsAllowed && <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} />}
 
-				{ GA_ID && process.env.NODE_ENV === 'production' && <script dangerouslySetInnerHTML={{ __html: `
+				{ analyticsAllowed && <script dangerouslySetInnerHTML={{ __html: `
                     window.dataLayer = window.dataLayer || [];
 					function gtag(){dataLayer.push(arguments);}
 					gtag('js', new Date());

@@ -68,20 +68,14 @@ const ContactForm = () => {
 			</div>
 			<div className="flex justify-between items-center gap-y-6 lg:flex-wrap md:flex-nowrap xs:flex-wrap">
 				<div className="space-y-4">
-					<Checkbox
-						id={'personalDataAgreement'}
-						form={form}
-						isChecked={form.values.personalDataAgreement}
-						value={`${t(pageData.agreeWith)} ${t(pageData.personalDataProcessing)}`}
-						label={
-							<span>
-								{t(pageData.agreeWith)}{' '}
-								<Link href="/zasady-zpracovani-osobnich-udaju">
-									<a target="_blank" className="underline">{t(pageData.personalDataProcessing)}</a>
-								</Link>
-							</span>
-						}
-					/>
+					{/* Handling an enquiry rests on pre-contractual steps, not consent,
+					    so this is an information notice rather than a required checkbox. */}
+					<p className="text-sm text-warm-grey max-w-xl">
+						{t(pageData.dataProcessingNotice)}{' '}
+						<Link href="/zasady-zpracovani-osobnich-udaju">
+							<a target="_blank" className="underline">{t(pageData.personalDataProcessing)}</a>
+						</Link>.
+					</p>
 					
 				</div>
 				<div className="flex flex-col items-end self-end space-y-4 ml-auto">

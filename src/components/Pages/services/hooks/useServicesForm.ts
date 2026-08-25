@@ -33,8 +33,6 @@ function useServicesForm () {
 		if (!values.firstName) errors.firstName = t(pageData.missingFirstName)
 		if (!values.lastName) errors.lastName = t(pageData.missingLastName)
 		if (!values.phone) errors.phone = t(pageData.missingPhone)
-		if (!values.personalDataAgreement)
-			errors.personalDataAgreement = t(pageData.missingPersonalDataAgreement)
 		if (!values.checked.length) errors.api = t(pageData.missingServiceFormError)
 
 		return errors

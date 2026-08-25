@@ -723,5 +723,13 @@
     "priceFree": {
         "cs": "zdarma",
         "en": "free of charge"
+    },
+    "pricingDisclaimer": {
+        "cs": "Konkrétní rozsah služby se řídí objednávkou nebo smlouvou o poskytování právních služeb. Udělení povolení, průběh správního řízení ani výsledek kontroly nelze zaručit; rozhodují o nich příslušné orgány podle individuálních okolností případu. Klient odpovídá za úplnost a pravdivost poskytnutých informací a za skutečné dodržování nastavených postupů v provozu. Správní poplatky, úřední překlady, notářské služby, technické systémy a služby třetích osob nejsou součástí ceny, není-li výslovně uvedeno jinak.",
+        "en": "The exact scope of the service is governed by the order or the legal services agreement. Neither the granting of an authorisation, nor the course of administrative proceedings, nor the outcome of an inspection can be guaranteed; these are decided by the competent authorities according to the individual circumstances of the case. The client is responsible for the completeness and accuracy of the information provided and for actually following the procedures put in place. Administrative fees, certified translations, notarial services, technical systems and third-party services are not included in the price unless expressly stated otherwise."
+    },
+    "legalReviewNote": {
+        "cs": "Text byl naposledy právně revidován dne 25. 8. 2026. Informace mají obecnou povahu a nenahrazují posouzení konkrétního případu.",
+        "en": "This page was last legally reviewed on 25 August 2026. The information is general and does not replace advice on an individual matter."
     }
 }

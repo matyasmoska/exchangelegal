@@ -9,7 +9,14 @@ const SEO = ({ title = pageData.title, description = pageData.description, keywo
     description?: MaybeTranslated
     keywords?: MaybeTranslated
 }) => {
-    const { locale, defaultLocale } = useRouter()
+    const { locale, defaultLocale, asPath } = useRouter()
+
+    // Canonical and hreflang were missing entirely; without them the Czech and
+    // English versions compete with each other in search results.
+    const site = 'https://www.pravoprosmenarny.cz'
+    const path = (asPath || '/').split('?')[0].split('#')[0]
+    const cleanPath = path === '/' ? '' : path
+    const canonical = `${site}${locale === 'en' ? '/en' : ''}${cleanPath}`
 
     // page metadata may be passed either as a plain string or as { cs, en }
     const pick = (value?: MaybeTranslated) =>
@@ -23,6 +30,12 @@ const SEO = ({ title = pageData.title, description = pageData.description, keywo
 
     return (
         <NextSeo
+            canonical={canonical}
+            languageAlternates={[
+                { hrefLang: 'cs', href: `${site}${cleanPath}` },
+                { hrefLang: 'en', href: `${site}/en${cleanPath}` },
+                { hrefLang: 'x-default', href: `${site}${cleanPath}` },
+            ]}
             title={title}
             description={description}
             additionalMetaTags={keywords ? [
@@ -32,7 +45,7 @@ const SEO = ({ title = pageData.title, description = pageData.description, keywo
                 }
             ] : undefined}
             openGraph={{
-                url: 'https://www.pravoprosmenarny.cz',
+                url: canonical,
                 title: pageData.title,
                 description: pageData.description,
                 site_name: pageData.site_name,
