@@ -3,13 +3,12 @@ import { ContactFormValues } from './../../components/Pages/contact/hooks/useCon
 import { NextApiRequest, NextApiResponse } from "next"
 import nodemailer from "nodemailer";
 import { v4 as uuidv4 } from 'uuid';
-import { createHash } from 'crypto';
 
 async function sendMail( { firstName, lastName, message, email, phone, checked, ico, businessAddress }: ServicesFormValues ) {
     let transporter = nodemailer.createTransport({
       host: process.env.SMTP_SERVER,
-      port: 465,
-      secure: true,
+      port: Number(process.env.SMTP_PORT || 465),
+      secure: Number(process.env.SMTP_PORT || 465) === 465,
       auth: {
           user: process.env.SMTP_USER,
           pass: process.env.SMTP_PASSWORD
@@ -47,20 +46,27 @@ async function sendMail( { firstName, lastName, message, email, phone, checked, 
 }
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
+  if (!process.env.SMTP_SERVER || !process.env.SMTP_USER || !process.env.SMTP_PASSWORD) {
+    console.error('SMTP is not configured - the order could not be sent')
+    return res.status(500).send({ error: { code: 'smtp_not_configured' } })
+  }
+
   const formValues: ServicesFormValues = req.body
 
-  const mail = await sendMail(formValues)
+  try {
+    await sendMail(formValues)
+  } catch (error) {
+    console.error('Services form could not be sent', error)
+    return res.status(500).send({ error: { code: 'send_failed' } })
+  }
 
+  // no personal data here - the conversion is measured anonymously
   const responseValues: ServicesFormValuesResponse = {
     ...formValues,
     result: 'Success!',
     transactionId: uuidv4(),
-    totalValue: formValues.checked.reduce((sum, { price }) => sum + price, 0),
-    hashedEmail: createHash('sha256').update(formValues.email).digest('hex'),
-    hashedPhone: createHash('sha256').update(formValues.phone).digest('hex')
+    totalValue: formValues.checked.reduce((sum, { price }) => sum + price, 0)
   }
 
-  console.log('MAIL: ', mail, responseValues)
-
-  res.status(200).send(responseValues)
+  return res.status(200).send(responseValues)
 }

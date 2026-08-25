@@ -3,11 +3,13 @@ import { NextApiRequest, NextApiResponse } from "next"
 import nodemailer from "nodemailer";
 
 async function sendMail( { firstName, lastName, message, email, phone, ico, businessAddress }: ContactFormValues ) {
-    console.log(process.env.SMTP_SERVER)
+    const port = Number(process.env.SMTP_PORT || 465)
+
     let transporter = nodemailer.createTransport({
       host: process.env.SMTP_SERVER,
-      port: 465,
-      secure: true,
+      port,
+      // port 587 uses STARTTLS, 465 an implicit TLS connection
+      secure: port === 465,
       auth: {
           user: process.env.SMTP_USER,
           pass: process.env.SMTP_PASSWORD
@@ -41,9 +43,17 @@ async function sendMail( { firstName, lastName, message, email, phone, ico, busi
 }
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
-  const mail = await sendMail( req.body );
+  if (!process.env.SMTP_SERVER || !process.env.SMTP_USER || !process.env.SMTP_PASSWORD) {
+    console.error('SMTP is not configured - the enquiry could not be sent')
+    return res.status(500).send({ error: { code: 'smtp_not_configured' } })
+  }
 
-  console.log( 'MAIL', mail )
-    
-	res.status(200).send( { result: 'Success!' } )
+  try {
+    // the form must never report success when the message did not actually go out
+    await sendMail(req.body)
+    return res.status(200).send({ result: 'Success!' })
+  } catch (error) {
+    console.error('Contact form could not be sent', error)
+    return res.status(500).send({ error: { code: 'send_failed' } })
+  }
 }

@@ -16,8 +16,6 @@ export interface ServicesFormValuesResponse extends ServicesFormValues {
 	result: string,
 	transactionId: string
 	totalValue: number
-	hashedEmail: string
-	hashedPhone: string
 }
 
 function useServicesForm () {
@@ -57,8 +55,8 @@ function useServicesForm () {
 			const res = await axios.post<ServicesFormValuesResponse>('/api/servicesMessage', { ...values })
 
 			if ( res.data.result ) {
-				trackPurchase(res.data.transactionId, res.data.checked, res.data.totalValue, res.data.hashedEmail, res.data.hashedPhone)
-				trackConversion(res.data.transactionId, res.data.totalValue, res.data.hashedEmail, res.data.hashedPhone)
+				trackPurchase(res.data.transactionId, res.data.checked, res.data.totalValue)
+				trackConversion(res.data.transactionId, res.data.totalValue)
 
 				router.push('/dekujeme')
 			} else {
