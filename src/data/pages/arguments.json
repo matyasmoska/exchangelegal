@@ -34,8 +34,8 @@
         },
         {
             "text": {
-                "cs": "Chcete mít jistotu, že Vaše směnárna obstojí při kontrolní směně?",
-                "en": "Do you want to be sure your exchange office passes a test purchase?"
+                "cs": "Chcete být na kontrolní směnu ČNB připraveni a snížit regulatorní rizika?",
+                "en": "Do you want to be ready for a CNB test purchase and reduce your regulatory risk?"
             }
         }
     ],
@@ -102,8 +102,8 @@
         },
         {
             "title": {
-                "cs": "AML/CFT dokumentace<br/>a AML procesy",
-                "en": "AML/CFT documentation<br/>and AML processes"
+                "cs": "AML/CFT dokumentace a&nbsp;AML procesy",
+                "en": "AML/CFT documentation and AML processes"
             },
             "text": {
                 "cs": "Směnárník je povinnou osobou – potřebuje <strong>SVZ, hodnocení rizik</strong>, identifikaci a kontrolu klienta, PEP a sankční screening i pravidelné školení personálu.",
@@ -112,8 +112,8 @@
         },
         {
             "title": {
-                "cs": "Provozní dokumentace<br/>a procesy",
-                "en": "Operating documentation<br/>and processes"
+                "cs": "Provozní dokumentace a&nbsp;procesy",
+                "en": "Operating documentation and processes"
             },
             "text": {
                 "cs": "Provozovna se neobejde bez <strong>kurzovního lístku, předsmluvních informací</strong> a dokladu o obchodu, postupu při odstoupení a řádné evidence obchodů.",
@@ -626,8 +626,8 @@
                 "en": "All services under one roof"
             },
             "text": {
-                "cs": "Vše zařídíme od A do Z. Založíme společnost, připravíme dokumentaci, zajistíme povolení ČNB, AML compliance, školení, screening i pravidelný reporting – vše u nás vyřešíte na jednom místě.",
-                "en": "We handle everything from A to Z. We set up the company, prepare the documentation, obtain the CNB licence, arrange AML compliance, training, screening and regular reporting – all in one place."
+                "cs": "Vše zařídíme od A do Z. Založíme společnost, připravíme žádost a zastoupíme Vás v řízení před ČNB, nastavíme AML compliance, školení, screening i pravidelný reporting – vše u nás vyřešíte na jednom místě.",
+                "en": "We handle everything from A to Z. We set up the company, prepare the application and represent you before the CNB, arrange AML compliance, training, screening and regular reporting – all in one place."
             }
         },
         {
