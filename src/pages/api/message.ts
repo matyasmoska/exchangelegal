@@ -16,6 +16,7 @@ async function sendMail( { firstName, lastName, message, email, phone, ico, busi
       from,
       to,
       fromLength: from.length,
+      region: process.env.VERCEL_REGION || 'unknown',
     }))
 
     let transporter = nodemailer.createTransport({
