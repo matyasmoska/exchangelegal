@@ -1,0 +1,122 @@
+{
+    "servicesFormTitle": {
+        "cs": "Nezávazná poptávka",
+        "en": "Non-binding inquiry"
+    },
+    "servicesFormDescription": {
+        "cs": "Vyplněním údajů a kliknutím tlačítka \"Nezávazně poptat\" nezávazně poptáte nabídku služeb.",
+        "en": "Fill in your details and click the button \"Inquire without obligation\" to make a non-binding inquiry."
+    },
+    "servicesFormSend": {
+        "cs": "Nezávazně poptat",
+        "en": "Inquire without obligation"
+    },
+    "cryptoImage": {
+        "cs": "/images/crypto_blue.svg",
+        "en": "/images/crypto_blue_eng.svg"
+    },
+    "crypto": {
+        "cs": "Více informací k přijímání kryptoměn",
+        "en": "More information on accepting cryptocurrencies"
+    },
+    "here": {
+        "cs": "zde",
+        "en": "here"
+    },
+    "firstName": {
+        "cs": "Jméno",
+        "en": "Name"
+    },
+    "lastName": {
+        "cs": "Příjmení",
+        "en": "Surname"
+    },
+    "email": {
+        "cs": "E-mail",
+        "en": "E-mail"
+    },
+    "phone": {
+        "cs": "Telefon",
+        "en": "Telephone"
+    },
+    "ico": {
+        "cs": "IČO (nepovinné)",
+        "en": "CIN (optional)"
+    },
+    "businessAddress": {
+        "cs": "Obchodní firma (nepovinné)",
+        "en": "Company name (optional)"
+    },
+    "message": {
+        "cs": "Zde napište zprávu",
+        "en": "Write a message here"
+    },
+    "agreeWith": {
+        "cs": "Souhlasím se",
+        "en": "I agree with"
+    },
+    "personalDataProcessing": {
+        "cs": "Zásadách ochrany osobních údajů",
+        "en": "Privacy Policy"
+    },
+    "send": {
+        "cs": "Odeslat",
+        "en": "Send"
+    },
+    "emailNotValid": {
+        "cs": "E-mail je v nesprávném formátu",
+        "en": "E-mail is in incorrect format"
+    },
+    "missingEmail": {
+        "cs": "Je třeba zadat e-mail",
+        "en": "It is necessary to enter your e-mail"
+    },
+    "missingFirstName": {
+        "cs": "Je třeba zadat jméno",
+        "en": "It is necessary to enter a name"
+    },
+    "missingLastName": {
+        "cs": "Je třeba zadat příjmení",
+        "en": "It is necessary to enter a surname"
+    },
+    "missingPhone": {
+        "cs": "Je třeba zadat telefon",
+        "en": "It is necessary to enter a telephone"
+    },
+    "missingPersonalDataAgreement": {
+        "cs": "Musíte souhlasit se zpracováním osobních údajů.",
+        "en": "You must consent to the processing of personal data."
+    },
+    "missingServiceFormError": {
+        "cs": "Musíte zaškrtnout alespoň jeden předmět.",
+        "en": "You must choose at least one item."
+    },
+    "formSuccess": {
+        "cs": "Odeslání proběhlo úspěšně. Děkujeme!",
+        "en": "Submission was successful. Thank you!"
+    },
+    "formError": {
+        "cs": "Odeslání nebylo úspěšné. Prosím, kontaktujte nás na výše uvedeném e-mailu.",
+        "en": "Submission was not successful. Please contact us at the email address provided above."
+    },
+    "thanks": {
+        "cs": "Děkujeme!",
+        "en": "Thank you!"
+    },
+    "thanksSuccess": {
+        "cs": "Odeslání poptávky proběhlo úspěšně. Brzy Vás budeme kontaktovat.",
+        "en": "Inquiry sent successfully. Expect to hear from us shortly."
+    },
+    "backToHomePage": {
+        "cs": "Zpět na úvodní stránku",
+        "en": "Back to the homepage"
+    },
+    "noResult": {
+        "cs": "Žádný výsledek",
+        "en": "No results"
+    },
+    "dataProcessingNotice": {
+        "cs": "Odesláním formuláře beru na vědomí, že PEERS advokátní kancelář, s.r.o. zpracuje uvedené údaje za účelem vyřízení mého dotazu a případného jednání o poskytnutí právních služeb. Podrobnosti jsou uvedeny v",
+        "en": "By submitting this form I acknowledge that PEERS advokátní kancelář, s.r.o. will process the data provided in order to handle my enquiry and to negotiate the provision of legal services. Details are set out in our"
+    }
+}

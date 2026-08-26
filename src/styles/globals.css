@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.team-member:nth-child(even) {
+    @apply self-end
+}
+
+.prose a {
+    word-break: break-word;
+}
+
+h1, h2, h3, h4 {
+    @apply font-header;
+}
+
+h1 > em,
+h2 > em,
+h3 > em {
+    @apply not-italic;
+    @apply text-wine-primary;
+}
+
+h1 > em {
+    @apply bg-white;
+    @apply px-3;
+    @apply py-2;
+    @apply md:py-1.5;
+}
+
+h2 > em {
+    @apply whitespace-nowrap;
+}
+
+.prose > iframe,
+.embed-video {
+    aspect-ratio: 16 / 9;
+    max-width: 100%;
+    width: 560px;
+}
+
+.borderGradient {
+    border-image-slice: 1;
+    border-image-source: conic-gradient(from 180deg at 50% 50%, #110756 0deg, rgba(8, 24, 89, 0) 360deg);
+}
+
+.borderGradientLinear {
+    border-image-slice: 1;
+    border-image-source: linear-gradient(90deg, #F2F2F7 0%, #110756 100%);
+}
+
+.underlineOffset {
+    text-underline-offset: 6px;
+}
+
+/* Highlighted package blocks inside MDX content (e.g. turnkey setup page) */
+.package-box {
+    @apply my-8 px-8 py-2 rounded-xl bg-light-grey border-l-4 border-mint;
+}
+
+.package-box > h3:first-child {
+    @apply mt-6;
+}
+
+.package-box > *:last-child {
+    @apply mb-6;
+}

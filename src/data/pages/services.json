@@ -1,0 +1,194 @@
+{
+    "ourServices": {
+        "cs": "Naše služby",
+        "en": "Our services"
+    },
+    "emptyService": {
+        "cs": "Prosím, vyberte alespoň jednu službu.",
+        "en": "Please select at least one service."
+    },
+    "total": {
+        "cs": "Celkem",
+        "en": "Total"
+    },
+    "priceFrom": {
+        "cs": "Cena od",
+        "en": "Price from"
+    },
+    "withoutVAT": {
+        "cs": "bez DPH",
+        "en": "excl. VAT"
+    },
+    "add": {
+        "cs": "Přidat",
+        "en": "Add"
+    },
+    "added": {
+        "cs": "Přidáno",
+        "en": "Added"
+    },
+    "moreInfo": {
+        "cs": "Více informací",
+        "en": "More information"
+    },
+    "finishInquiry": {
+        "cs": "Dokončit poptávku",
+        "en": "Finish inquiry"
+    },
+    "services": [
+        {
+            "id": "zalozeni-smenarny-basic",
+            "name": {
+                "cs": "Založení směnárny – Basic",
+                "en": "Exchange Office Setup – Basic"
+            },
+            "description": {
+                "cs": "Získání povolení ČNB a oznámení provozovny: vstupní analýza podmínek, žádost vč. příloh, podání přes REGIS, zastupování v řízení a oznámení provozovny.",
+                "en": "Obtaining the CNB licence and notifying the premises as a separate step: initial review, application with annexes, REGIS filing, representation in the proceedings and premises notification."
+            },
+            "price": 79000,
+            "link": "/zalozeni-smenarny-na-klic",
+            "icon": "/images/serviceIcons/zalozeni-alternativniho-fondu-na-klic.png"
+        },
+        {
+            "id": "zalozeni-smenarny-entry",
+            "name": {
+                "cs": "Založení směnárny – Entry",
+                "en": "Exchange Office Setup – Entry"
+            },
+            "description": {
+                "cs": "Vše z balíčku Basic a navíc kompletní AML/CFT dokumentace, provozní dokumentace (kurzovní lístek, předsmluvní informace, doklad), směrnice pro hotovost a oběživo, GDPR a whistleblowing.",
+                "en": "Everything in Basic plus complete AML/CFT documentation, operating documentation (rate list, pre-contractual information, receipt), cash handling policy, GDPR and whistleblowing."
+            },
+            "price": 114000,
+            "link": "/zalozeni-smenarny-na-klic",
+            "icon": "/images/serviceIcons/zalozeni-alternativniho-fondu-na-klic.png"
+        },
+        {
+            "id": "zalozeni-smenarny-all-in-one",
+            "name": {
+                "cs": "Založení směnárny – All-in-one",
+                "en": "Exchange Office Setup – All-in-one"
+            },
+            "description": {
+                "cs": "Vše z balíčku Entry a navíc AML/CFT školení pracovníků s osvědčením, fyzická kontrola provozovny před spuštěním se zkušební směnou a následná kontrola měsíc po spuštění.",
+                "en": "Everything in Entry plus certified AML/CFT staff training, a pre-launch on-site inspection with a test exchange and a follow-up inspection one month after launch."
+            },
+            "price": 139000,
+            "link": "/zalozeni-smenarny-na-klic",
+            "icon": "/images/serviceIcons/zalozeni-alternativniho-fondu-na-klic.png"
+        },
+        {
+            "id": "aml-povinnosti",
+            "name": {
+                "cs": "AML dokumentace směnárny (SVZ + hodnocení rizik)",
+                "en": "AML documentation (internal policy + risk assessment)"
+            },
+            "description": {
+                "cs": "Vypracujeme systém vnitřních zásad a hodnocení rizik na míru Vaší směnárně tak, aby odpovídaly skutečnému provozu a obstály při posouzení ČNB, včetně nahlášení kontaktní osoby FAÚ.",
+                "en": "We will draft a tailor-made internal AML policy and risk assessment that reflects your actual operations and withstands CNB scrutiny, incl. notifying the FAÚ contact person."
+            },
+            "price": 29000,
+            "link": "/aml-povinnosti-smenarny",
+            "icon": "/images/serviceIcons/aml-povinnosti.png"
+        },
+        {
+            "id": "reporting-cnb",
+            "name": {
+                "cs": "Reporting ČNB (výkaz DEV (ČNB) 26-04)",
+                "en": "CNB reporting (DEV 26-04 report)"
+            },
+            "description": {
+                "cs": "Kompletně převezmeme výkaznictví Vaší směnárny vůči ČNB – ohlídáme termíny, sestavíme a podáme výkaz Nákup a prodej cizí měny.",
+                "en": "We will fully take over your CNB reporting – watch the deadlines, compile and file the Purchase and Sale of Foreign Currency report."
+            },
+            "price": 10000,
+            "link": "/reporting-cnb-pro-smenarny",
+            "icon": "/images/serviceIcons/reporting-cnb.png"
+        },
+        {
+            "id": "pep-sankcni-screening",
+            "name": {
+                "cs": "PEP a sankční screening klientů",
+                "en": "PEP and sanctions screening"
+            },
+            "description": {
+                "cs": "Nastavíme proces prověřování klientů proti seznamům PEP a sankčním seznamům včetně automatizovaného nástroje a evidence lustrací.",
+                "en": "We will set up customer screening against PEP and sanctions lists, incl. an automated tool and screening records."
+            },
+            "price": 9900,
+            "link": "/pep-a-sankcni-screening",
+            "icon": "/images/serviceIcons/skoleni-na-mezinarodni-sankce.svg"
+        },
+        {
+            "id": "priprava-na-kontrolu-cnb",
+            "name": {
+                "cs": "Příprava na kontrolu ČNB",
+                "en": "Preparation for a CNB inspection"
+            },
+            "description": {
+                "cs": "Projdeme Vaši směnárnu očima kontrolora, provedeme simulovanou kontrolní směnu a odstraníme nedostatky dřív, než je najde ČNB.",
+                "en": "We will review your office through an inspector's eyes, run a simulated test purchase and remedy deficiencies before the CNB finds them."
+            },
+            "price": 29000,
+            "link": "/priprava-na-kontrolu-cnb",
+            "icon": "/images/serviceIcons/aml_audit.svg"
+        },
+        {
+            "id": "pravni-audit-smenarny",
+            "name": {
+                "cs": "Právní audit směnárny",
+                "en": "Legal audit of an exchange office"
+            },
+            "description": {
+                "cs": "Komplexní prověrka souladu směnárny s právními předpisy – dokumentace, provozovna, AML, výkaznictví – s písemnou zprávou a návrhem nápravy.",
+                "en": "A comprehensive compliance review – documentation, premises, AML, reporting – with a written report and remediation plan."
+            },
+            "price": 29000,
+            "link": "/pravni-audit-smenarny",
+            "icon": "/images/serviceIcons/aml_audit.svg"
+        },
+        {
+            "id": "whistleblowing-smernice",
+            "name": {
+                "cs": "Whistleblowing směrnice",
+                "en": "Whistleblowing policy"
+            },
+            "description": {
+                "cs": "Vypracujeme vnitřní oznamovací systém dle zákona o ochraně oznamovatelů – povinnost i pro směnárny bez ohledu na počet zaměstnanců.",
+                "en": "We will draft an internal reporting system under the Whistleblower Protection Act – mandatory for exchange offices regardless of headcount."
+            },
+            "price": 19000,
+            "link": "/whistleblowing-smernice",
+            "icon": "/images/serviceIcons/zasady.svg"
+        },
+        {
+            "id": "skoleni-aml",
+            "name": {
+                "cs": "Školení AML pro zaměstnance",
+                "en": "AML staff training"
+            },
+            "description": {
+                "cs": "Proškolíme Vaše zaměstnance v AML/CFT povinnostech směnárny (povinnost min. 1× za 12 měsíců) a vystavíme potvrzení o absolvování školení.",
+                "en": "We will train your staff in the AML/CFT duties of an exchange office (mandatory at least once every 12 months) and issue training certificates."
+            },
+            "price": 10500,
+            "link": "/aml-povinnosti-smenarny",
+            "icon": "/images/serviceIcons/skoleni_a_metodika.svg"
+        },
+        {
+            "id": "bezplatna-konzultace",
+            "name": {
+                "cs": "Bezplatná konzultace",
+                "en": "Free consultation"
+            },
+            "description": {
+                "cs": "Nezávazná úvodní konzultace Vašeho záměru – posoudíme podmínky, strukturu i časový plán založení směnárny.",
+                "en": "A non-binding introductory consultation – we will assess the conditions, structure and timeline of your project."
+            },
+            "price": 0,
+            "link": "/nase-sluzby?sluzba=bezplatna-konzultace",
+            "icon": "/images/serviceIcons/bezplatna-konzultace.png"
+        }
+    ]
+}

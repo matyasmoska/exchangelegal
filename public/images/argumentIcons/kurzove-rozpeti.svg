@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none" stroke="#110756" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><title>Kurzový spread</title>
+<rect x="6" y="12" width="40" height="22" rx="3" fill="#FFFFFF"/>
+<circle cx="26" cy="23" r="5.5"/>
+<rect x="18" y="34" width="40" height="22" rx="3" fill="#4FCFC8" fill-opacity="0.35"/>
+<circle cx="38" cy="45" r="5.5"/>
+</svg>

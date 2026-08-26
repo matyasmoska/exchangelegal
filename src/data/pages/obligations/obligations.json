@@ -1,0 +1,32 @@
+{
+    "header": {
+        "cs": "AML povinnosti směnárny",
+        "en": "AML Obligations of an Exchange Office"
+    },
+    "shortText": {
+        "cs": "Jaké AML/CFT povinnosti musí směnárník podle zákona č. 253/2008 Sb. plnit?",
+        "en": "What AML/CFT duties must a bureau-de-change operator fulfil under Act No. 253/2008 Coll.?"
+    },
+    "topText": [
+        ""
+    ],
+    "highlightSection": {
+        "header": {
+            "cs": "Na co si dát pozor?",
+            "en": "What to Watch Out For?"
+        },
+        "text": [
+            {
+                "cs": "Pozor, zákon č. 40/2009 Sb., trestní zákoník, v účinném znění, zná nejen úmyslný trestný čin \"legalizace výnosů z trestné činnosti\", ale i jeho nedbalostní formu \"legalizace výnosů z trestné činnosti z nedbalosti\". V praxi to znamená, že tento trestný čin můžete spáchat, aniž byste si toho byli vědomi (!).",
+                "en": "Act No. 40/2009 Coll., the Criminal Code, as amended, knows not only the intentional crime of \"laundering the proceeds of crime\" but also its negligent form \"laundering the proceeds of crime through negligence\". In practice, this means that you can commit this offence without being aware of it (!)."
+            }
+        ]
+    },
+    "bottomText": [
+        " "
+    ],
+    "buttonText": {
+        "cs": "Chci pomoci s AML",
+        "en": "I want help with AML"
+    }
+}
