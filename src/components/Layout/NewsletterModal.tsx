@@ -14,6 +14,9 @@ const STATE_COOKIE = 'newsletter-modal'
 const DELAY_MS = 30000
 const SCROLL_RATIO = 0.5
 
+// pause after the visitor passes a marked section
+const AFTER_GATE_MS = 1500
+
 // How long we stay quiet after the visitor closes it or signs up.
 const DISMISS_DAYS = 30
 const SUBSCRIBED_DAYS = 365
@@ -62,6 +65,8 @@ const NewsletterModal: FC = () => {
 		if (!consentGiven) return
 
 		let done = false
+		let timer = 0
+
 		const show = () => {
 			if (done) return
 			done = true
@@ -69,13 +74,30 @@ const NewsletterModal: FC = () => {
 			window.removeEventListener('scroll', onScroll)
 		}
 
+		// A page may mark a section the visitor should reach first - typically the
+		// price list, which interests them far more than a newsletter.
+		const gate = document.querySelector('[data-newsletter-gate]')
+
 		const onScroll = () => {
+			if (gate) {
+				// only once the whole section has scrolled above the viewport
+				const passed = gate.getBoundingClientRect().bottom < 0
+				if (passed) {
+					// short pause so it does not pop up mid-scroll
+					timer = window.setTimeout(show, AFTER_GATE_MS)
+					window.removeEventListener('scroll', onScroll)
+				}
+				return
+			}
+
 			const scrolled = window.scrollY / Math.max(document.body.scrollHeight - window.innerHeight, 1)
 			if (scrolled > SCROLL_RATIO) show()
 		}
 
-		const timer = window.setTimeout(show, DELAY_MS)
+		// without a gate the plain delay applies; with one, reaching it is the condition
+		if (!gate) timer = window.setTimeout(show, DELAY_MS)
 		window.addEventListener('scroll', onScroll, { passive: true })
+		onScroll()
 
 		return () => {
 			window.clearTimeout(timer)

@@ -104,7 +104,8 @@ const ArgumentsSection: FC = () => {
 			</Fade>
 		</div>
 
-		<div className={c('font-header w-full space-y-8 mt-24 px-36', '3xl:px-28', '2xl:px-20', 'md:px-8')}>
+		{/* data-newsletter-gate: the newsletter offer waits until the visitor has passed the price list */}
+		<div data-newsletter-gate className={c('font-header w-full space-y-8 mt-24 px-36', '3xl:px-28', '2xl:px-20', 'md:px-8')}>
 			<Fade direction={'up'} triggerOnce>
 				<h2 dangerouslySetInnerHTML={{ __html: t(data.pricingTitle) }} className="text-4xl font-bold text-center" />
 				<p className="text-center">{t(data.pricingText)}</p>
