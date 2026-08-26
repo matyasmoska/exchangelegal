@@ -8,17 +8,6 @@ async function sendMail( { firstName, lastName, message, email, phone, checked, 
     const from = (process.env.SEND_FROM_EMAIL || process.env.SMTP_USER || '').trim()
     const to = (process.env.SEND_TO_EMAIL || process.env.SMTP_USER || '').trim()
 
-    // temporary diagnostics: shows exactly what is handed to the SMTP server (no password)
-    console.log('SMTP config', JSON.stringify({
-      host: process.env.SMTP_SERVER,
-      port: process.env.SMTP_PORT || '465 (default)',
-      user: process.env.SMTP_USER,
-      from,
-      to,
-      fromLength: from.length,
-      region: process.env.VERCEL_REGION || 'unknown',
-    }))
-
     let transporter = nodemailer.createTransport({
       host: process.env.SMTP_SERVER,
       port: Number(process.env.SMTP_PORT || 465),

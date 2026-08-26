@@ -118,6 +118,14 @@
         "confirmErrorTitle": {
             "cs": "Potvrzení se nezdařilo",
             "en": "Confirmation failed"
+        },
+        "alreadyConfirmed": {
+            "cs": "Tato adresa už novinky odebírá, takže není potřeba nic dělat.",
+            "en": "This address is already subscribed, so there is nothing more to do."
+        },
+        "pendingRecent": {
+            "cs": "Potvrzovací e-mail už jsme Vám poslali. Zkontrolujte prosím schránku včetně složky s nevyžádanou poštou – odkaz z něj je stále platný.",
+            "en": "We have already sent you the confirmation e-mail. Please check your inbox, including the spam folder – the link in it is still valid."
         }
     },
     "productSiteNote": {

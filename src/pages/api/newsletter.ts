@@ -16,6 +16,10 @@ const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/
 
 const CONSENT_VERSION = '2026-08'
 
+// How long a confirmation link stays valid, and how long we wait before sending another one.
+const TOKEN_TTL_MS = 14 * 24 * 60 * 60 * 1000
+const RESEND_COOLDOWN_MS = 10 * 60 * 1000
+
 const siteUrl = (process.env.SITE_URL || 'https://www.pravoprosmenarny.cz').replace(/\/$/, '')
 
 // Double opt-in: the address is only activated once the owner clicks the link,
@@ -34,13 +38,6 @@ const sendConfirmation = async (email: string, token: string, locale: 'cs' | 'en
 			pass: process.env.NEWSLETTER_SMTP_PASSWORD || process.env.SMTP_PASSWORD,
 		},
 	})
-
-	console.log('Newsletter SMTP', JSON.stringify({
-		host: process.env.SMTP_SERVER,
-		port,
-		user: process.env.NEWSLETTER_SMTP_USER || process.env.SMTP_USER,
-		from,
-	}))
 
 	const link = `${siteUrl}/api/newsletter/confirm?token=${token}&email=${encodeURIComponent(email)}`
 
@@ -154,16 +151,39 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
 		const ip = (Array.isArray(forwarded) ? forwarded[0] : forwarded || '').split(',')[0].trim() || null
 
 		const now = new Date()
-		const token = randomUUID()
+
+		// imported lazily so that validation errors are returned as JSON even if
+		// the Firebase credentials are missing or malformed
+		const db = (await import('../../services/firebase')).default
+		const ref = db.collection('newsletter').doc(email)
+		const existing = await ref.get()
+		const previous = existing.exists ? existing.data() || {} : null
+
+		// Already confirmed: never reset the record, that would silently
+		// unsubscribe someone who simply signed up twice.
+		if (previous?.confirmed) {
+			await ref.set({ updatedAt: now, lastSignupAt: now }, { merge: true })
+			return res.status(200).json({ ok: true, status: 'already_confirmed' })
+		}
+
+		// A pending sign-up keeps its token, so links from earlier e-mails
+		// stay valid and cannot invalidate one another.
+		const pendingSince = previous?.tokenIssuedAt?.toDate?.() ?? null
+		const tokenStillValid =
+			previous?.token && pendingSince && now.getTime() - pendingSince.getTime() < TOKEN_TTL_MS
+
+		const token = tokenStillValid ? previous.token : randomUUID()
+
 		const document = {
 			email,
 			locale,
-			source: 'footer',
+			source: String(body?.source || 'footer'),
 			// the subscription only becomes active after the address is confirmed
 			active: false,
 			confirmed: false,
 			token,
-			subscribedAt: now,
+			tokenIssuedAt: tokenStillValid ? previous.tokenIssuedAt : now,
+			subscribedAt: previous?.subscribedAt ?? now,
 			updatedAt: now,
 			consent: {
 				given: true,
@@ -174,20 +194,24 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
 			},
 		}
 
-		// imported lazily so that validation errors are returned as JSON even if
-		// the Firebase credentials are missing or malformed
-		const db = (await import('../../services/firebase')).default
-		await db.collection('newsletter').doc(email).set(document, { merge: true })
+		await ref.set(document, { merge: true })
+
+		// Do not spam the inbox when someone submits the form twice in a row.
+		const lastMailedAt = previous?.mailedAt?.toDate?.() ?? null
+		if (lastMailedAt && now.getTime() - lastMailedAt.getTime() < RESEND_COOLDOWN_MS) {
+			return res.status(200).json({ ok: true, status: 'pending_recent' })
+		}
 
 		try {
 			await sendConfirmation(email, token, locale)
+			await ref.set({ mailedAt: now }, { merge: true })
 		} catch (error) {
 			// the address is stored either way; only the confirmation failed
 			console.error('Confirmation e-mail could not be sent', error)
-			return res.status(200).json({ ok: true, mailed: false })
+			return res.status(200).json({ ok: true, status: 'not_mailed', mailed: false })
 		}
 
-		return res.status(200).json({ ok: true, mailed: true })
+		return res.status(200).json({ ok: true, status: 'sent', mailed: true })
 	} catch (error) {
 		console.error('Newsletter subscription failed', error)
 		return res.status(500).json({ error: { code: 'server_error' } })

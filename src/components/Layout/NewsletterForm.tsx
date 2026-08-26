@@ -63,8 +63,13 @@ const NewsletterForm: FC<{ variant?: 'footer' | 'modal'; onSubscribed?: () => vo
 
 			const payload = await response.json().catch(() => null)
 			setStatus('success')
-			// the address is stored either way; the wording differs if the e-mail failed
-			setMessage(payload?.mailed === false ? t(data.successNoMail) : t(data.success))
+			// a repeated sign-up must not look like a failure or a duplicate request
+			const messages: Record<string, string> = {
+				already_confirmed: t(data.alreadyConfirmed),
+				pending_recent: t(data.pendingRecent),
+				not_mailed: t(data.successNoMail),
+			}
+			setMessage(messages[payload?.status] || t(data.success))
 			onSubscribed?.()
 			setEmail('')
 			setConsent(false)
