@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none" stroke="#110756" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><title>Povolení ČNB</title>
-<path d="M14 8h24l12 12v36a2 2 0 0 1-2 2H14a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2Z"/>
-<path d="M38 8v12h12"/>
-<path d="M20 30h16M20 38h12"/>
-<circle cx="41" cy="43" r="9" fill="#4FCFC8" stroke="#110756"/>
-<path d="M37 43.5l3 3 5.5-6" stroke="#110756"/>
-</svg>
