@@ -51,7 +51,8 @@ const NewsletterForm: FC<{ variant?: 'footer' | 'modal'; onSubscribed?: () => vo
 			const response = await fetch('/api/newsletter', {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
-				body: JSON.stringify({ email, consent, consentText: t(data.consent), locale }),
+				// records whether the sign-up came from the footer or the pop-up
+				body: JSON.stringify({ email, consent, consentText: t(data.consent), locale, source: variant }),
 			})
 
 			if (!response.ok) {

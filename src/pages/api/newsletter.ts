@@ -177,7 +177,8 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
 		const document = {
 			email,
 			locale,
-			source: String(body?.source || 'footer'),
+			// 'footer' | 'modal'; anything else is ignored so the field stays clean
+			source: ['footer', 'modal'].includes(String(body?.source)) ? String(body.source) : 'unknown',
 			// the subscription only becomes active after the address is confirmed
 			active: false,
 			confirmed: false,
