@@ -8,6 +8,9 @@ module.exports = withMDX({
   i18n: {
     locales: ['cs', 'en'],
     defaultLocale: 'cs',
+    // Without this Next redirects by Accept-Language, so a crawler with an
+    // English locale never sees the Czech version at all.
+    localeDetection: false,
   },
   webpack: (config) => {
     // Fix pro Node 17+ / OpenSSL 3:

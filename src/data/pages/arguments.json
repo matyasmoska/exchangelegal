@@ -143,8 +143,8 @@
     "pricingVariants": [
         {
             "title": {
-                "cs": "Basic",
-                "en": "Basic"
+                "cs": "Povolení ČNB",
+                "en": "CNB Authorisation"
             },
             "text": {
                 "cs": "Získání povolení ČNB a oznámení provozovny.",
@@ -293,12 +293,12 @@
         },
         {
             "title": {
-                "cs": "Entry",
-                "en": "Entry"
+                "cs": "Povolení + provozovna",
+                "en": "Authorisation + Premises"
             },
             "text": {
-                "cs": "Vše z balíčku Basic + kompletní dokumentace pro provoz směnárny.",
-                "en": "Everything in Basic + complete documentation for running the exchange office."
+                "cs": "Vše z balíčku Povolení ČNB + kompletní dokumentace pro provoz směnárny.",
+                "en": "Everything in CNB Authorisation + complete documentation for running the exchange office."
             },
             "price": {
                 "cs": "114 000 Kč",
@@ -443,12 +443,12 @@
         },
         {
             "title": {
-                "cs": "All-in-one",
-                "en": "All-in-one"
+                "cs": "Kompletní spuštění směnárny",
+                "en": "Complete Launch"
             },
             "text": {
-                "cs": "Vše z balíčku Entry + AML/CFT školení personálu a 2× kontrola provozovny.",
-                "en": "Everything in Entry + AML/CFT staff training and two on-site inspections."
+                "cs": "Vše z balíčku Povolení + provozovna + AML/CFT školení personálu a 2× kontrola provozovny.",
+                "en": "Everything in Authorisation + Premises + AML/CFT staff training and two on-site inspections."
             },
             "price": {
                 "cs": "139 000 Kč",

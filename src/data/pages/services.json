@@ -39,8 +39,8 @@
         {
             "id": "zalozeni-smenarny-basic",
             "name": {
-                "cs": "Založení směnárny – Basic",
-                "en": "Exchange Office Setup – Basic"
+                "cs": "Založení směnárny – Povolení ČNB",
+                "en": "Exchange Office Setup – CNB Authorisation"
             },
             "description": {
                 "cs": "Získání povolení ČNB a oznámení provozovny: vstupní analýza podmínek, žádost vč. příloh, podání přes REGIS, zastupování v řízení a oznámení provozovny.",
@@ -53,12 +53,12 @@
         {
             "id": "zalozeni-smenarny-entry",
             "name": {
-                "cs": "Založení směnárny – Entry",
-                "en": "Exchange Office Setup – Entry"
+                "cs": "Založení směnárny – Povolení + provozovna",
+                "en": "Exchange Office Setup – Authorisation + Premises"
             },
             "description": {
-                "cs": "Vše z balíčku Basic a navíc kompletní AML/CFT dokumentace, provozní dokumentace (kurzovní lístek, předsmluvní informace, doklad), směrnice pro hotovost a oběživo, GDPR a whistleblowing.",
-                "en": "Everything in Basic plus complete AML/CFT documentation, operating documentation (rate list, pre-contractual information, receipt), cash handling policy, GDPR and whistleblowing."
+                "cs": "Vše z balíčku Povolení ČNB a navíc kompletní AML/CFT dokumentace, provozní dokumentace (kurzovní lístek, předsmluvní informace, doklad), směrnice pro hotovost a oběživo, GDPR a whistleblowing.",
+                "en": "Everything in CNB Authorisation plus complete AML/CFT documentation, operating documentation (rate list, pre-contractual information, receipt), cash handling policy, GDPR and whistleblowing."
             },
             "price": 114000,
             "link": "/zalozeni-smenarny-na-klic",
@@ -67,12 +67,12 @@
         {
             "id": "zalozeni-smenarny-all-in-one",
             "name": {
-                "cs": "Založení směnárny – All-in-one",
-                "en": "Exchange Office Setup – All-in-one"
+                "cs": "Kompletní spuštění směnárny",
+                "en": "Complete Exchange Office Launch"
             },
             "description": {
-                "cs": "Vše z balíčku Entry a navíc AML/CFT školení pracovníků s osvědčením, fyzická kontrola provozovny před spuštěním se zkušební směnou a následná kontrola měsíc po spuštění.",
-                "en": "Everything in Entry plus certified AML/CFT staff training, a pre-launch on-site inspection with a test exchange and a follow-up inspection one month after launch."
+                "cs": "Vše z balíčku Povolení + provozovna a navíc AML/CFT školení pracovníků s osvědčením, fyzická kontrola provozovny před spuštěním se zkušební směnou a následná kontrola měsíc po spuštění.",
+                "en": "Everything in Authorisation + Premises plus certified AML/CFT staff training, a pre-launch on-site inspection with a test exchange and a follow-up inspection one month after launch."
             },
             "price": 139000,
             "link": "/zalozeni-smenarny-na-klic",

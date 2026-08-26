@@ -5,19 +5,19 @@
     },
     "firstSection": {
         "title": {
-            "cs": "Založení směnárny již <em>od 79 000 Kč</em>",
-            "en": "Exchange office setup <em>from CZK 79,000</em>"
+            "cs": "Založíme Vám směnárnu a připravíme ji <em>na provoz i kontrolu ČNB</em>",
+            "en": "We will set up your exchange office and get it ready <em>for operation and CNB inspections</em>"
         },
         "subtitle": {
-            "cs": "Zakládáme směnárny v nejvyšším standardu za férové ceny. Připravíme pro Vás kompletní dokumentaci pro udělení povolení k činnosti směnárníka u České národní banky na klíč.",
-            "en": "We set up exchange offices to the highest standard at fair prices. We will prepare complete turnkey documentation for obtaining the bureau-de-change operator licence from the Czech National Bank."
+            "cs": "Povolení ČNB, AML dokumentace, provozovna a reporting za pevnou cenu od 79 000 Kč. Máme zkušenosti s více než 70 registracemi a řízeními před Českou národní bankou.",
+            "en": "CNB authorisation, AML documentation, premises and reporting for a fixed fee from CZK 79,000. We have experience with more than 70 registrations and proceedings before the Czech National Bank."
         },
         "image": "/images/hero-smenarna.jpg",
         "primaryButton": {
-            "link": "/zalozeni-smenarny-na-klic",
+            "link": "/#je-to-pro-vas",
             "text": {
-                "cs": "Založit směnárnu",
-                "en": "Set up an exchange office"
+                "cs": "Prověřit, zda splňuji podmínky",
+                "en": "Check whether I meet the conditions"
             }
         },
         "secondaryButton": {

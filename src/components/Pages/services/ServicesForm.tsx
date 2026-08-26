@@ -33,14 +33,8 @@ const ServicesForm: FC<{ form: any; visibleRef: any, className?: string }> = ({ 
 			</p>
 			
 			
-			<img src={t(pageData.cryptoImage)} className={c('w-1/2 rounded-lg', 'md:w-3/4')} />
-			<p className={c('md:text-sm')}>
-				{t(pageData.crypto)}{' '}
-				<Link href="/prijimame-kryptomeny">
-					<a target="_blank" className="underline">{t(pageData.here)}</a>
-				</Link>
-			</p>
-			
+			{/* the crypto badge used to sit here; it distracted from the enquiry and now lives only in the footer */}
+
 			<SelectedServicesList form={form} />
 			<div ref={visibleRef} className={c('grid w-full grid-cols-2 gap-4', 'md:block md:space-y-6')}>
 				<TextInput
