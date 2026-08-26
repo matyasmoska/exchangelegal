@@ -1,0 +1,135 @@
+{
+    "contact": {
+        "header": {
+            "cs": "Kontakty",
+            "en": "Contact"
+        },
+        "descriptionForHomePage": {
+            "cs": "Chcete založit vlastní směnárnu nebo vyřešit její compliance? Neváhejte se na nás obrátit.",
+            "en": "Do you want to set up your own exchange office or sort out its compliance? Don't hesitate to contact us."
+        },
+        "description": {
+            "cs": "Chcete založit vlastní směnárnu nebo vyřešit její compliance? Neváhejte se na nás obrátit.",
+            "en": "Do you want to set up your own exchange office or sort out its compliance? Get in touch with us."
+        },
+        "address": {
+            "firstLine1": "PEERS advokátní kancelář, s.r.o.",
+            "firstLine2": "Mgr. Matyáš Moska, advokát, č. ev. ČAK 19149",
+            "secondLine": "City Tower, Hvězdova 1716/2b, Nusle, 140 00 Praha 4, 23. patro"
+        },
+        "secondDescriptionForHomePage": {
+            "cs": "Jsme specialisté na směnárny a AML compliance.",
+            "en": "We are specialists in exchange offices and AML compliance."
+        },
+        "secondDescription": {
+            "cs": "Jsme specialisté na směnárenskou činnost, AML a regulaci finančního trhu.",
+            "en": "We are specialists in currency exchange regulation, AML and financial market law."
+        },
+        "thirdDescription": {
+            "cs": "Orgánem mimosoudního řešení sporů pro klienty – spotřebitele je Česká advokátní komora se sídlem v Praze www.cak.cz / e-mail: epodatelna@cak.cz",
+            "en": "The body for out-of-court dispute resolution for clients – consumers is the Czech Bar Association, based in Prague (www.cak.cz / e-mail: epodatelna@cak.cz)"
+        },
+        "url": "pravoprosmenarny.cz",
+        "phoneNumber": "+420 605 006 807",
+        "phoneNumberLink": "00420605006807",
+        "email": "matyas.moska@peers.law",
+        "emailLink": "matyas.moska@peers.law",
+        "links": {
+            "linkedIn": "https://www.linkedin.com/company/81336235/"
+        },
+        "dataBox": {
+            "cs": "ID datové schránky: 4ruhwvp",
+            "en": "Data box ID: 4ruhwvp"
+        },
+        "identification": {
+            "cs": "PEERS advokátní kancelář, s.r.o., IČO 220 96 973, se sídlem Hvězdova 1716/2b, Nusle, 140 00 Praha 4, zapsaná v obchodním rejstříku vedeném Městským soudem v Praze pod sp. zn. C 410891.",
+            "en": "PEERS advokátní kancelář, s.r.o., Company ID 220 96 973, registered office at Hvězdova 1716/2b, Nusle, 140 00 Prague 4, registered in the Commercial Register maintained by the Municipal Court in Prague under file no. C 410891."
+        }
+    },
+    "cryptoImage": {
+        "cs": "/images/crypto_white.svg",
+        "en": "/images/crypto_white_eng.svg"
+    },
+    "allRightsReserved": {
+        "cs": "© 2026 všechna práva vyhrazena",
+        "en": "© 2026 all rights reserved"
+    },
+    "newsletter": {
+        "title": {
+            "cs": "Regulatorní novinky pro směnárny",
+            "en": "Regulatory updates for exchange offices"
+        },
+        "description": {
+            "cs": "Přehled změn v regulaci směnárenské činnosti, AML povinností a sankční praxe ČNB. Zasíláme přibližně jednou za čtvrtletí, pouze když je o čem psát.",
+            "en": "A summary of changes in bureau-de-change regulation, AML duties and CNB enforcement practice. Sent roughly once a quarter, and only when there is something worth reporting."
+        },
+        "placeholder": {
+            "cs": "Váš e-mail",
+            "en": "Your e-mail"
+        },
+        "button": {
+            "cs": "Odebírat",
+            "en": "Subscribe"
+        },
+        "sending": {
+            "cs": "Odesílám…",
+            "en": "Sending…"
+        },
+        "consent": {
+            "cs": "Souhlasím se zasíláním regulatorních novinek na uvedený e-mail. Souhlas mohu kdykoli odvolat odkazem v každé zprávě nebo e-mailem. Více v dokumentu",
+            "en": "I agree to receive regulatory updates at the e-mail address provided. I may withdraw my consent at any time using the link in every message or by e-mail. More in our"
+        },
+        "privacyLink": {
+            "cs": "Zásady zpracování osobních údajů.",
+            "en": "Privacy Policy."
+        },
+        "success": {
+            "cs": "Zbývá poslední krok – poslali jsme Vám e-mail s potvrzovacím odkazem. Odběr aktivujeme až po jeho otevření.",
+            "en": "One last step – we have sent you an e-mail with a confirmation link. The subscription is activated once you open it."
+        },
+        "errorEmail": {
+            "cs": "Zadejte prosím platnou e-mailovou adresu.",
+            "en": "Please enter a valid e-mail address."
+        },
+        "errorConsent": {
+            "cs": "Bez souhlasu se zasíláním Vás bohužel nemůžeme zapsat.",
+            "en": "We cannot sign you up without your consent."
+        },
+        "errorGeneric": {
+            "cs": "Přihlášení se nepodařilo. Zkuste to prosím znovu, nebo nám napište.",
+            "en": "The sign-up failed. Please try again or drop us an e-mail."
+        },
+        "successNoMail": {
+            "cs": "Vaši adresu jsme uložili, potvrzovací e-mail se ale nepodařilo odeslat. Ozvěte se nám prosím a odběr aktivujeme ručně.",
+            "en": "We have saved your address, but the confirmation e-mail could not be sent. Please contact us and we will activate the subscription manually."
+        },
+        "confirmed": {
+            "cs": "Děkujeme, odběr regulatorních novinek je aktivní.",
+            "en": "Thank you, your subscription to regulatory updates is active."
+        },
+        "confirmError": {
+            "cs": "Potvrzovací odkaz je neplatný nebo již byl použit. Zkuste se prosím přihlásit znovu.",
+            "en": "The confirmation link is invalid or has already been used. Please sign up again."
+        },
+        "confirmedTitle": {
+            "cs": "Odběr je aktivní",
+            "en": "Subscription active"
+        },
+        "confirmErrorTitle": {
+            "cs": "Potvrzení se nezdařilo",
+            "en": "Confirmation failed"
+        },
+        "alreadyConfirmed": {
+            "cs": "Tato adresa už novinky odebírá, takže není potřeba nic dělat.",
+            "en": "This address is already subscribed, so there is nothing more to do."
+        },
+        "pendingRecent": {
+            "cs": "Potvrzovací e-mail už jsme Vám poslali. Zkontrolujte prosím schránku včetně složky s nevyžádanou poštou – odkaz z něj je stále platný.",
+            "en": "We have already sent you the confirmation e-mail. Please check your inbox, including the spam folder – the link in it is still valid."
+        }
+    },
+    "productSiteNote": {
+        "cs": "pravoprosmenarny.cz je produktový web PEERS advokátní kancelář, s.r.o., zaměřený na právní služby pro směnárny. Kompletní nabídku služeb kanceláře najdete na",
+        "en": "pravoprosmenarny.cz is a product website of PEERS advokátní kancelář, s.r.o., dedicated to legal services for bureaux de change. The firm's full range of services is available at"
+    }
+}

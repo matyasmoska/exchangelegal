@@ -1,0 +1,95 @@
+import React, { FC } from 'react'
+import { c } from '../../../services/misc'
+import Image from 'next/image'
+import pageData from '../../../data/pages/index.json'
+import Link from 'next/link'
+import Button from '../../Layout/Button'
+import { useTranslations } from '../../../hooks/useTranslations'
+
+export const components = ["firstSection", "secondSection", "thirdSection"] as const
+
+const CarouselSection: FC<{ sectionKey: typeof components[number] }> = ({ sectionKey, children }) => {
+	const t = useTranslations<string>()
+	
+	const { image, title, subtitle, primaryButton, secondaryButton, firstNumber, secondNumber, thirdNumber } = pageData[sectionKey]
+
+	return (
+		<div
+			className={c(
+				'relative w-full bg-cover px-48 py-24 flex min-h-carousel',
+				'xl:px-20',
+				'md:px-8 md:min-h-0'
+			)}
+		>
+			<Image
+				layout="fill"
+				objectFit="cover"
+				priority
+				src={image}
+				alt="Background Image"
+				className="absolute top-0 left-0 z-0"
+			/>
+			<div
+				className={c(
+					'absolute top-0 left-0 z-10 w-full h-full from-dark-blue via-[#11075699] bg-gradient-to-r to-transparent',
+					'md:to-dark-blue md:opacity-80'
+				)}
+			/>
+
+			<div className={c('relative z-10 font-header my-auto text-white', 'md:text-center')}>
+				<div className="flex flex-col gap-8 md:gap-6">
+					<div className="min-h-header-mobile md:order-3 md:mx-auto">
+						{children}
+					</div>
+					<h1
+						dangerouslySetInnerHTML={{ __html: t(title) }}
+						className={c('text-[54px] font-bold leading-normal whitespace-nowrap', '3xl:text-[46px]', '2xl:text-[40px]', 'xl:text-[34px]', 'lg:text-[36px] lg:whitespace-normal', 'md:text-[30px]')}
+					/>
+					<p className="max-w-xl min-h-header-mobile md:mx-auto md:text-center">
+						{t(subtitle)}
+					</p>
+				</div>
+				<div
+					className={c(
+						'flex flex-wrap gap-x-8 gap-y-6 my-8',
+						'md:flex-col md:my-6'
+					)}
+				>
+					<Link href={secondaryButton.link}>
+						<Button type="light" className="px-8 py-3">
+							{t(secondaryButton.text)}
+						</Button>
+					</Link>
+					<Link href={primaryButton.link}>
+						<Button type="basic" className="px-8 py-3">
+							{t(primaryButton.text)}
+						</Button>
+					</Link>
+				</div>
+				<div
+					className={c(
+						'flex flex-wrap gap-x-10 gap-y-6 max-w-4xl',
+						'md:hidden'
+					)}
+				>
+					<div>
+						<h3 className="text-4xl 2xl:text-3xl leading-tight font-bold mb-3">{t(firstNumber.number)}</h3>
+						<p>{t(firstNumber.text)}</p>
+					</div>
+					<div>
+						<h3 className="text-4xl 2xl:text-3xl leading-tight font-bold mb-3">{t(secondNumber.number)}</h3>
+						<p>{t(secondNumber.text)}</p>
+					</div>
+					{thirdNumber && (
+						<div>
+							<h3 className="text-4xl 2xl:text-3xl leading-tight font-bold mb-3">{t(thirdNumber.number)}</h3>
+							<p>{t(thirdNumber.text)}</p>
+						</div>
+					)}
+				</div>
+			</div>
+		</div>
+	)
+}
+
+export default CarouselSection

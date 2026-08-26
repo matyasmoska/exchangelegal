@@ -1,0 +1,228 @@
+{
+    "castokladenedotazy": {
+        "cs": "Časté otázky",
+        "en": "Frequently asked questions"
+    },
+    "questions": [
+        {
+            "question": {
+                "cs": "Potřebuji k provozování klasické směnárny povolení ČNB?",
+                "en": "Do I need CNB authorisation to operate a traditional exchange office?"
+            },
+            "answer": {
+                "cs": "Ano. Směnárenskou činnost lze provozovat pouze na základě povolení k činnosti směnárníka uděleného Českou národní bankou. Výjimky a hranice zákonné definice je nutné posoudit podle skutečného obchodního modelu.",
+                "en": "Yes. Exchange activities may be conducted only under an authorisation granted by the Czech National Bank. The precise scope of the statutory definition must be assessed by reference to the actual business model."
+            }
+        },
+        {
+            "question": {
+                "cs": "Týká se tato služba také kryptoměnové směnárny?",
+                "en": "Does this service cover crypto exchanges?"
+            },
+            "answer": {
+                "cs": "Ne. Web se zaměřuje na směnárenskou činnost podle zákona č. 277/2013 Sb., tedy především na klasickou směnu měn. Poskytování služeb souvisejících s kryptoaktivy podléhá jinému regulatornímu režimu.",
+                "en": "No. This website focuses on exchange activities under Act No. 277/2013 Coll., primarily traditional currency exchange. Crypto-asset services are subject to a different regulatory regime."
+            }
+        },
+        {
+            "question": {
+                "cs": "Může o povolení požádat fyzická osoba?",
+                "en": "May an individual apply?"
+            },
+            "answer": {
+                "cs": "Ano, žadatelem může být fyzická i právnická osoba, pokud splní zákonné podmínky. Zákon neformuluje univerzální podmínku českého bydliště fyzické osoby; vyžaduje zejména odpovídající územní vazbu v podobě sídla, obchodního závodu nebo jeho části v České republice a splnění dalších osobních a organizačních předpokladů.",
+                "en": "Yes. An individual or a legal entity may apply if the statutory conditions are met. Czech residence is not stated as a universal condition for an individual applicant; the legislation requires the relevant territorial link through a registered office, business establishment or part thereof in the Czech Republic and other personal and organisational criteria."
+            }
+        },
+        {
+            "question": {
+                "cs": "Jaké vzdělání musí mít osoba, která směnárenskou činnost řídí?",
+                "en": "What qualification must the person managing the activities have?"
+            },
+            "answer": {
+                "cs": "Osoba, která skutečně řídí směnárenskou činnost, musí splnit zákonné požadavky, včetně vzdělání alespoň ukončeného maturitní zkouškou. Současně se posuzuje její důvěryhodnost a skutečné zapojení do řízení.",
+                "en": "The person who actually manages the exchange activities must meet the statutory criteria, including at least secondary education completed by a school-leaving examination, as well as the fitness and propriety requirements."
+            }
+        },
+        {
+            "question": {
+                "cs": "Jak dlouho trvá získání povolení?",
+                "en": "How long does authorisation take?"
+            },
+            "answer": {
+                "cs": "Délka závisí na úplnosti žádosti, složitosti struktury a případných výzvách ČNB. Nelze ji obecně garantovat. Po vstupní kontrole podkladů lze stanovit realistický odhad pro konkrétní případ.",
+                "en": "The duration depends on the completeness of the application, the complexity of the structure and any CNB requests. It cannot be guaranteed. A realistic estimate can be provided after the initial review."
+            }
+        },
+        {
+            "question": {
+                "cs": "Je provozovna součástí žádosti o povolení?",
+                "en": "Is notification of the premises part of the authorisation itself?"
+            },
+            "answer": {
+                "cs": "Udělení povolení a oznámení konkrétní provozovny jsou dva odlišné kroky. Po získání povolení je nutné oznámit ČNB zahájení činnosti v konkrétní provozovně nejméně tři pracovní dny předem.",
+                "en": "No. Authorisation and notification of a particular business location are separate steps. The commencement of activities at a location must be notified to the CNB at least three business days in advance."
+            }
+        },
+        {
+            "question": {
+                "cs": "Je doklad o právu užívat provozovnu vždy povinnou přílohou žádosti?",
+                "en": "Is proof of the right to use the premises always a mandatory annex to the application?"
+            },
+            "answer": {
+                "cs": "Neuvádíme jej jako univerzální zákonnou přílohu každé žádosti o povolení. Podle konkrétních okolností si jej však může být vhodné připravit nebo jej může vyžadovat jiný právní či smluvní vztah.",
+                "en": "We do not present it as a universal statutory annex to every application for authorisation. Depending on the circumstances, however, it may be advisable to prepare it, or it may be required under another legal or contractual relationship."
+            }
+        },
+        {
+            "question": {
+                "cs": "Musí směnárna poskytovat předsmluvní informace před každou směnou?",
+                "en": "Must pre-contractual information be given before every transaction?"
+            },
+            "answer": {
+                "cs": "Ne. Zákonná povinnost se uplatní, převyšuje-li částka složená zákazníkem ekvivalent 1 000 EUR. Informace je nutné poskytnout před uzavřením obchodu v rozsahu a způsobem stanoveným zákonem.",
+                "en": "No. The statutory duty applies where the amount tendered by the customer exceeds the equivalent of EUR 1,000. It must be provided before the transaction in the form and scope required by law."
+            }
+        },
+        {
+            "question": {
+                "cs": "Musí směnárna vždy vydat doklad o obchodu?",
+                "en": "Must a receipt always be issued?"
+            },
+            "answer": {
+                "cs": "Ano. Doklad o směnárenském obchodu se vydává po provedení obchodu vždy, nikoli pouze na žádost zákazníka.",
+                "en": "Yes. A transaction receipt must be issued after every exchange transaction, not only at the customer's request."
+            }
+        },
+        {
+            "question": {
+                "cs": "Může zákazník odstoupit od směny?",
+                "en": "May a customer withdraw from an exchange transaction?"
+            },
+            "answer": {
+                "cs": "Za zákonných podmínek může zákazník odstoupit do tří hodin v provozovně, kde byl obchod proveden. Lhůta běží pouze během provozní doby pro veřejnost. U částky nad ekvivalent 1 000 EUR je standardní právo omezeno na část obchodu odpovídající tomuto limitu. Zákon upravuje i zvláštní delší režimy při vybraných pochybeních směnárníka.",
+                "en": "Subject to the statutory conditions, the customer may withdraw within three hours at the premises where the transaction was conducted. The period runs only during public opening hours. Above EUR 1,000, the standard right is limited to the corresponding part of the transaction. Special longer regimes may apply to certain failures by the operator."
+            }
+        },
+        {
+            "question": {
+                "cs": "Od jaké částky musí směnárna identifikovat klienta podle AML zákona?",
+                "en": "At what amount is AML identification required?"
+            },
+            "answer": {
+                "cs": "Identifikace se provádí zejména tehdy, je-li zřejmé, že hodnota obchodu překročí 1 000 EUR. Provádí se však také v dalších zákonem stanovených situacích bez ohledu na částku. Interní pravidla musí zohlednit i související nebo účelově rozdělené obchody a konkrétní rizika.",
+                "en": "Identification is required in particular where it is apparent that the value will exceed EUR 1,000. It is also required in other statutory situations irrespective of value. Linked or artificially split transactions and the assessed risk must be taken into account."
+            }
+        },
+        {
+            "question": {
+                "cs": "Musí mít každá směnárna systém vnitřních zásad a hodnocení rizik?",
+                "en": "Does every exchange office need internal AML rules and a risk assessment?"
+            },
+            "answer": {
+                "cs": "Povinnost a rozsah dokumentace se posuzují podle § 21 a § 21a AML zákona a konkrétního postavení a fungování směnárny. V běžném provozu jde o základní součást AML nastavení. Dokumenty musí odpovídat skutečnosti a musí být předloženy dohledovému orgánu tam, kde to AML zákon vyžaduje.",
+                "en": "The obligation and scope are assessed under Sections 21 and 21a of the Czech AML Act and the particular status and operation of the exchange office. In a standard operation, these documents are a core part of the AML framework. They must reflect actual practice and be submitted to the supervisory authority where required."
+            }
+        },
+        {
+            "question": {
+                "cs": "Jak často se provádí AML školení?",
+                "en": "How often is AML training required?"
+            },
+            "answer": {
+                "cs": "Relevantní pracovník musí být proškolen před zařazením na příslušné pracovní místo a následně nejméně jednou v průběhu každých dvanácti kalendářních měsíců. O školení je nutné vést průkazný záznam.",
+                "en": "Relevant employees must be trained before taking up the role and at least once in every twelve calendar months thereafter. The exchange office must retain evidence of the training."
+            }
+        },
+        {
+            "question": {
+                "cs": "Do kdy se oznamuje podezřelý obchod FAÚ?",
+                "en": "When must a suspicious transaction be reported?"
+            },
+            "answer": {
+                "cs": "Bez zbytečného odkladu po jeho zjištění. Vyžadují-li to okolnosti, zejména hrozí-li nebezpečí z prodlení, oznamuje se neprodleně. Neplatí obecná pětidenní lhůta.",
+                "en": "Without undue delay after it is identified and immediately where the circumstances require it, particularly where there is a risk in delay. There is no general five-day deadline."
+            }
+        },
+        {
+            "question": {
+                "cs": "Znamená shoda se sankčním seznamem automaticky zákaz jakéhokoli obchodu?",
+                "en": "Does a sanctions-list match automatically prohibit every transaction?"
+            },
+            "answer": {
+                "cs": "Nejdříve je nutné ověřit, zda jde o skutečnou shodu, a zjistit obsah použitelného sankčního opatření. Obchod nelze provést, pokud by jím bylo závazné opatření porušeno. Konkrétní postup závisí na právním režimu a může zahrnovat zákaz převodu, zmrazení nebo oznamovací povinnost.",
+                "en": "The operator must first verify the match and identify the applicable restrictive measure. A transaction must not proceed where it would breach a binding measure. The required action depends on the particular sanctions regime."
+            }
+        },
+        {
+            "question": {
+                "cs": "Jsou americké nebo britské sankční seznamy automaticky závazné v České republice?",
+                "en": "Are US or UK sanctions lists automatically binding in the Czech Republic?"
+            },
+            "answer": {
+                "cs": "Ne bez dalšího. Mohou být významným rizikovým nebo smluvním faktorem, zejména ve vztahu k bankám a mezinárodním transakcím. Jejich právní účinky v České republice je však nutné posoudit individuálně. Základem jsou sankce závazné podle práva EU a České republiky.",
+                "en": "Not automatically. They may be important risk or contractual factors, particularly for banks and international transactions, but their legal effect in the Czech Republic must be assessed individually. EU and Czech binding measures are the starting point."
+            }
+        },
+        {
+            "question": {
+                "cs": "Musí mít malá směnárna whistleblowing?",
+                "en": "Does a small exchange office need a whistleblowing mechanism?"
+            },
+            "answer": {
+                "cs": "Směnárník má jako AML povinná osoba zvláštní povinnost zavést mechanismus pro oznámení porušení AML pravidel, včetně možnosti anonymního oznámení. Tato povinnost se neposuzuje pouze podle obecné hranice počtu zaměstnanců.",
+                "en": "As an AML obliged entity, an exchange office has a special duty to implement a mechanism for reporting AML breaches, including anonymous reports. This duty is not determined solely by the general employee-number threshold."
+            }
+        },
+        {
+            "question": {
+                "cs": "Může advokátní kancelář externě vést vnitřní oznamovací systém směnárny?",
+                "en": "May a law firm externally operate the exchange office's reporting system?"
+            },
+            "answer": {
+                "cs": "Ne jako externí provozovatel systému za směnárnu. Můžeme připravit dokumentaci, kanály, evidenci, proškolit interní osobu a poskytovat jí právní konzultace. Přijímání a vyřizování oznámení však musí být nastaveno uvnitř směnárny v souladu se zvláštním AML režimem.",
+                "en": "Not on the exchange office's behalf as its outsourced reporting person. We may prepare the policy, channels and records, train the internal responsible person and provide legal advice, but the system must be operated internally in accordance with the special AML regime."
+            }
+        },
+        {
+            "question": {
+                "cs": "Kdo podává výkaz DEV (ČNB) 26-04?",
+                "en": "Who files DEV (ČNB) 26-04?"
+            },
+            "answer": {
+                "cs": "Čtvrtletní výkaz podává směnárník, který za předchozí kalendářní rok dosáhl objemu směnárenských obchodů alespoň 20 mil. Kč. Podává se za všechny provozovny dohromady do patnácti kalendářních dnů po skončení čtvrtletí.",
+                "en": "An operator whose exchange transaction volume in the preceding year reached at least CZK 20 million files the quarterly return for all premises combined within fifteen calendar days after the end of each quarter."
+            }
+        },
+        {
+            "question": {
+                "cs": "Co podává směnárník pod limitem 20 mil. Kč?",
+                "en": "What does an operator below CZK 20 million provide?"
+            },
+            "answer": {
+                "cs": "Jednou ročně poskytuje ČNB údaj o celkovém objemu směnárenských obchodů za uplynulý rok, zpravidla do 20. února následujícího roku. Nejde o „roční DEV 26-04“.",
+                "en": "Annual information on the total volume of exchange transactions for the preceding year, generally by 20 February. This is not an “annual DEV 26-04”."
+            }
+        },
+        {
+            "question": {
+                "cs": "Jak dlouho se uchovávají dokumenty?",
+                "en": "How long are documents retained?"
+            },
+            "answer": {
+                "cs": "Dokumenty a evidence podle zákona o směnárenské činnosti se uchovávají do konce šestého kalendářního roku ode dne vzniku. AML zákon stanoví pro své záznamy samostatné, zpravidla delší lhůty. Každý typ dokumentu je proto nutné zařadit do správného režimu.",
+                "en": "Records under the Exchange Activities Act are retained until the end of the sixth calendar year following creation. AML records are subject to separate and generally longer periods. Each category must be assigned to the correct regime."
+            }
+        },
+        {
+            "question": {
+                "cs": "Můžete zaručit udělení povolení nebo úspěch při kontrole?",
+                "en": "Can you guarantee authorisation or a successful inspection?"
+            },
+            "answer": {
+                "cs": "Ne. Můžeme připravit kvalitní žádost, dokumentaci, provozní nastavení a právní argumentaci a klienta zastupovat. Rozhodnutí však přijímá příslušný orgán a závisí také na skutečném provozu, jednání pracovníků a úplnosti informací poskytnutých klientem.",
+                "en": "No. We can prepare the application, documentation, operational setup and legal argument and represent the client. The competent authority decides, and the result also depends on the actual operation, staff conduct and completeness of the information supplied."
+            }
+        }
+    ]
+}

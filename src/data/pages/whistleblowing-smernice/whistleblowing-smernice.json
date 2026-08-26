@@ -1,0 +1,27 @@
+{
+    "header": {
+        "cs": "Whistleblowing směrnice",
+        "en": "Whistleblowing Policy"
+    },
+    "shortText": {
+        "cs": "Vnitřní oznamovací systém podle zákona o ochraně oznamovatelů – povinnost i pro směnárny bez ohledu na počet zaměstnanců",
+        "en": "An internal reporting system under the Whistleblower Protection Act – mandatory for exchange offices regardless of headcount"
+    },
+    "topText": [
+        ""
+    ],
+    "highlightSection": {
+        "header": "",
+        "text": [
+            "",
+            ""
+        ]
+    },
+    "bottomText": [
+        " "
+    ],
+    "buttonText": {
+        "cs": "Chci whistleblowing směrnici",
+        "en": "I want a whistleblowing policy"
+    }
+}
