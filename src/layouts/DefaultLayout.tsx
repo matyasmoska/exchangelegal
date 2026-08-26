@@ -3,6 +3,7 @@ import React, { FC, useEffect } from 'react'
 import Footer from '../components/Layout/Footer'
 import Navigation from '../components/Layout/Navigation'
 import CookieBar from '../components/Layout/CookieBar'
+import NewsletterModal from '../components/Layout/NewsletterModal'
 import { useCookies } from 'react-cookie'
 
 // Measurement ID of this site's own GA4 property.
@@ -86,6 +87,7 @@ const DefaultLayout: FC = ({ children }) => {
 			{children}
 			<Footer />
 			<CookieBar />
+			<NewsletterModal />
 		</div>
 	)
 }

@@ -7,7 +7,11 @@ import contactPageData from '../../data/contact.json'
 
 type Status = 'idle' | 'loading' | 'success' | 'error'
 
-const NewsletterForm: FC = () => {
+const NewsletterForm: FC<{ variant?: 'footer' | 'modal'; onSubscribed?: () => void }> = ({
+	variant = 'footer',
+	onSubscribed,
+}) => {
+	const onDark = variant === 'footer'
 	const t = useTranslations<string>()
 	const router = useRouter()
 	const { locale } = router
@@ -61,6 +65,7 @@ const NewsletterForm: FC = () => {
 			setStatus('success')
 			// the address is stored either way; the wording differs if the e-mail failed
 			setMessage(payload?.mailed === false ? t(data.successNoMail) : t(data.success))
+			onSubscribed?.()
 			setEmail('')
 			setConsent(false)
 		} catch (error) {
@@ -70,12 +75,12 @@ const NewsletterForm: FC = () => {
 	}
 
 	return (
-		<div className="space-y-4 max-w-sm md:mx-auto">
-			<h3 className="font-semibold text-lg">{t(data.title)}</h3>
-			<p className={c('text-sm leading-relaxed opacity-80')}>{t(data.description)}</p>
+		<div className={c('space-y-4', onDark ? 'max-w-sm md:mx-auto' : 'w-full')}>
+			{onDark && <h3 className="font-semibold text-lg">{t(data.title)}</h3>}
+			<p className={c('text-sm leading-relaxed', onDark ? 'opacity-80' : 'text-warm-grey')}>{t(data.description)}</p>
 
 			{status === 'success' ? (
-				<p className="text-sm font-semibold text-mint">{message}</p>
+				<p className={c('text-sm font-semibold', onDark ? 'text-mint' : 'text-ok')}>{message}</p>
 			) : (
 				<div className="space-y-3">
 					<div className={c('flex gap-2', 'md:flex-col')}>
@@ -88,6 +93,7 @@ const NewsletterForm: FC = () => {
 							aria-label={t(data.placeholder)}
 							className={c(
 								'flex-grow min-w-0 px-3 py-2 rounded-md text-dark-blue placeholder-warm-grey',
+								!onDark && 'border border-dark-grey',
 								'focus:outline-none focus:ring-2 focus:ring-mint'
 							)}
 						/>
@@ -97,14 +103,14 @@ const NewsletterForm: FC = () => {
 							disabled={status === 'loading'}
 							className={c(
 								'px-4 py-2 rounded-md font-semibold whitespace-nowrap transition',
-								'bg-mint text-dark-blue hover:bg-mint-dark disabled:opacity-60'
+								onDark ? 'bg-mint text-dark-blue hover:bg-mint-dark disabled:opacity-60' : 'bg-dark-blue text-white hover:bg-wine-primary-hover disabled:opacity-60'
 							)}
 						>
 							{status === 'loading' ? t(data.sending) : t(data.button)}
 						</button>
 					</div>
 
-					<label className="flex items-start gap-2 text-xs leading-relaxed cursor-pointer opacity-80">
+					<label className={c('flex items-start gap-2 text-xs leading-relaxed cursor-pointer', onDark ? 'opacity-80' : 'text-warm-grey')}>
 						<input
 							type="checkbox"
 							checked={consent}
@@ -119,7 +125,7 @@ const NewsletterForm: FC = () => {
 						</span>
 					</label>
 
-					{status === 'error' && <p className="text-sm font-semibold text-mint-dark">{message}</p>}
+					{status === 'error' && <p className={c('text-sm font-semibold', onDark ? 'text-mint-dark' : 'text-no')}>{message}</p>}
 				</div>
 			)}
 		</div>
