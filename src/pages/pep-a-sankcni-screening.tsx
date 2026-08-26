@@ -37,6 +37,14 @@ const bottomPart = {
 
 const ObligationsPage = () => {
 	const t = useTranslations()
+
+	// the band is part of the shared template; render it only when it has content
+	const highlightValue = (value: any): string =>
+		typeof value === 'string' ? value : String(t(value) ?? '')
+	const hasHighlight = Boolean(
+		highlightValue(pageData.highlightSection.header).trim() ||
+			pageData.highlightSection.text.some((item: any) => highlightValue(item).trim())
+	)
 	
 				const [targetRef, visible] = useVisible()
 
@@ -88,6 +96,7 @@ const ObligationsPage = () => {
 					<section className={c('py-8 space-y-4 prose max-w-[802px] leading-relaxed', 'md:px-6 md:py-6')}>
 						{t(topPart)}
 					</section>
+					{hasHighlight && (
 					<section className={c('flex justify-center w-full bg-light-blue py-14', 'md:py-8')}>
 						<div
 							className={c(
@@ -102,6 +111,7 @@ const ObligationsPage = () => {
 							
 						</div>
 					</section>
+					)}
 
 					<section className={c('py-8 pb-12 space-y-4 max-w-[802px] leading-relaxed prose', 'md:px-6 md:py-6')}>
 						{t(bottomPart)}
