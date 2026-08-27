@@ -859,8 +859,8 @@
                         },
                         {
                             "text": {
-                                "cs": "Roční revize systému vnitřních zásad a hodnocení rizik",
-                                "en": "Annual review of the internal AML policy and risk assessment"
+                                "cs": "Roční revize SVZ a hodnocení rizik s návrhem úprav",
+                                "en": "Annual review of the AML policy and risk assessment with proposed changes"
                             },
                             "checked": false
                         }
@@ -881,15 +881,15 @@
                         },
                         {
                             "text": {
-                                "cs": "Školení personálu v AML/CFT jednou ročně pro až 5 osob",
-                                "en": "Annual AML/CFT staff training for up to 5 people"
+                                "cs": "Školení AML/CFT jednou ročně pro celý personál",
+                                "en": "Annual AML/CFT training for your entire staff"
                             },
                             "checked": false
                         },
                         {
                             "text": {
-                                "cs": "Aktualizace SVZ a hodnocení rizik při změně právní úpravy",
-                                "en": "Updates to the AML policy and risk assessment when the law changes"
+                                "cs": "Zapracování legislativních změn do SVZ a hodnocení rizik",
+                                "en": "Legislative changes incorporated into the AML policy and risk assessment"
                             },
                             "checked": false
                         },
@@ -1001,8 +1001,8 @@
                         },
                         {
                             "text": {
-                                "cs": "Roční revize systému vnitřních zásad a hodnocení rizik",
-                                "en": "Annual review of the internal AML policy and risk assessment"
+                                "cs": "Roční revize SVZ a hodnocení rizik s návrhem úprav",
+                                "en": "Annual review of the AML policy and risk assessment with proposed changes"
                             },
                             "checked": true
                         }
@@ -1023,15 +1023,15 @@
                         },
                         {
                             "text": {
-                                "cs": "Školení personálu v AML/CFT jednou ročně pro až 5 osob",
-                                "en": "Annual AML/CFT staff training for up to 5 people"
+                                "cs": "Školení AML/CFT jednou ročně pro celý personál",
+                                "en": "Annual AML/CFT training for your entire staff"
                             },
                             "checked": false
                         },
                         {
                             "text": {
-                                "cs": "Aktualizace SVZ a hodnocení rizik při změně právní úpravy",
-                                "en": "Updates to the AML policy and risk assessment when the law changes"
+                                "cs": "Zapracování legislativních změn do SVZ a hodnocení rizik",
+                                "en": "Legislative changes incorporated into the AML policy and risk assessment"
                             },
                             "checked": false
                         },
@@ -1143,8 +1143,8 @@
                         },
                         {
                             "text": {
-                                "cs": "Roční revize systému vnitřních zásad a hodnocení rizik",
-                                "en": "Annual review of the internal AML policy and risk assessment"
+                                "cs": "Roční revize SVZ a hodnocení rizik s návrhem úprav",
+                                "en": "Annual review of the AML policy and risk assessment with proposed changes"
                             },
                             "checked": true
                         }
@@ -1165,15 +1165,15 @@
                         },
                         {
                             "text": {
-                                "cs": "Školení personálu v AML/CFT jednou ročně pro až 5 osob",
-                                "en": "Annual AML/CFT staff training for up to 5 people"
+                                "cs": "Školení AML/CFT jednou ročně pro celý personál",
+                                "en": "Annual AML/CFT training for your entire staff"
                             },
                             "checked": true
                         },
                         {
                             "text": {
-                                "cs": "Aktualizace SVZ a hodnocení rizik při změně právní úpravy",
-                                "en": "Updates to the AML policy and risk assessment when the law changes"
+                                "cs": "Zapracování legislativních změn do SVZ a hodnocení rizik",
+                                "en": "Legislative changes incorporated into the AML policy and risk assessment"
                             },
                             "checked": true
                         },
