@@ -1,0 +1,54 @@
+{
+    "title": {
+        "cs": "Checklist zdarma: povolení ČNB a spuštění směnárny",
+        "en": "Free checklist: CNB licence and launching an exchange office"
+    },
+    "description": {
+        "cs": "Přes 40 kroků od přípravy žádosti po zahájení provozu – podání v REGIS, provozovna, zákaznické dokumenty, AML i reporting, se štítky Povinné / Podle situace / Doporučené. Zadejte e-mail a checklist Vám hned pošleme.",
+        "en": "Over 40 steps from preparing the application to opening day – the REGIS filing, premises, customer documents, AML and reporting, each labelled Mandatory / Situational / Recommended. Enter your e-mail and we will send it right away."
+    },
+    "badge": {
+        "cs": "PDF · 5 stran · právní stav k 27. 8. 2026",
+        "en": "PDF · 5 pages · legal position as at 27 Aug 2026"
+    },
+    "placeholder": {
+        "cs": "Váš e-mail",
+        "en": "Your e-mail"
+    },
+    "button": {
+        "cs": "Poslat checklist",
+        "en": "Send the checklist"
+    },
+    "sending": {
+        "cs": "Odesílám…",
+        "en": "Sending…"
+    },
+    "consent": {
+        "cs": "Souhlasím se zasláním checklistu na uvedený e-mail a s tím, aby mě PEERS advokátní kancelář, s.r.o. kontaktovala s nabídkou svých služeb. Souhlas mohu kdykoli odvolat. Více v",
+        "en": "I agree to receive the checklist at the address provided and to being contacted by PEERS advokátní kancelář, s.r.o. with an offer of its services. I may withdraw my consent at any time. More in our"
+    },
+    "privacyLink": {
+        "cs": "zásadách zpracování osobních údajů",
+        "en": "Privacy Policy"
+    },
+    "success": {
+        "cs": "Hotovo – checklist je na cestě do Vaší schránky. Kdyby nedorazil do pár minut, mrkněte prosím i do spamu.",
+        "en": "Done – the checklist is on its way to your inbox. If it does not arrive within a few minutes, please also check your spam folder."
+    },
+    "successRecent": {
+        "cs": "Checklist jsme Vám před chvílí poslali – zkontrolujte prosím schránku včetně spamu.",
+        "en": "We sent you the checklist a moment ago – please check your inbox, including spam."
+    },
+    "errorEmail": {
+        "cs": "Zadejte prosím platný e-mail.",
+        "en": "Please enter a valid e-mail address."
+    },
+    "errorConsent": {
+        "cs": "Bez souhlasu Vám checklist nemůžeme poslat.",
+        "en": "We cannot send the checklist without your consent."
+    },
+    "errorGeneric": {
+        "cs": "Odeslání se nepovedlo. Zkuste to prosím znovu, nebo nám napište na matyas.moska@peers.law.",
+        "en": "Sending failed. Please try again or write to matyas.moska@peers.law."
+    }
+}

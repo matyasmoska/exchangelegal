@@ -12,6 +12,7 @@ import { trackViewItems } from "../components/Pages/services/serviceHelpers";
 import OrderButton from "../components/Pages/services/OrderButton";
 import ServicesForm from "../components/Pages/services/ServicesForm";
 import PackagePicker from "../components/Pages/services/PackagePicker";
+import ChecklistForm from "../components/Layout/ChecklistForm";
 import { useVisible } from "react-hooks-visible";
 
 import Button from "../components/Layout/Button";
@@ -90,6 +91,7 @@ keywords={{ cs: "směnárna, založení směnárny, povolení k činnosti směn�
 					<section className={c('py-8 pb-12 space-y-4 max-w-[802px] leading-relaxed prose', 'md:px-6 md:py-6')}>
 						{t(bottomPart)}
 					</section>
+					<ChecklistForm />
 					<div className={c('flex')}>
 
 					</div>
