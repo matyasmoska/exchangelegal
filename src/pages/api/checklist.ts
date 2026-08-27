@@ -26,16 +26,22 @@ const siteUrl = (process.env.SITE_URL || 'https://www.pravoprosmenarny.cz').repl
 const escapeHtml = (value: string) =>
 	value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 
-const createTransporter = () => {
+const createTransporter = (kind: 'default' | 'newsletter' = 'default') => {
 	const port = Number(process.env.SMTP_PORT || 465)
+	// the sender must belong to the authenticated mailbox, so the checklist
+	// authenticates as the newsletter account when one is configured
+	const user = kind === 'newsletter'
+		? process.env.NEWSLETTER_SMTP_USER || process.env.SMTP_USER
+		: process.env.SMTP_USER
+	const pass = kind === 'newsletter'
+		? process.env.NEWSLETTER_SMTP_PASSWORD || process.env.SMTP_PASSWORD
+		: process.env.SMTP_PASSWORD
 	return nodemailer.createTransport({
 		host: process.env.SMTP_SERVER,
 		port,
 		secure: port === 465,
 		// auth is optional so the route can be exercised against a local debug SMTP server
-		...(process.env.SMTP_USER
-			? { auth: { user: process.env.SMTP_USER, pass: process.env.SMTP_PASSWORD } }
-			: {}),
+		...(user ? { auth: { user, pass } } : {}),
 	})
 }
 
@@ -53,7 +59,8 @@ const loadPdf = async (): Promise<Buffer> => {
 }
 
 const sendChecklist = async (email: string, locale: 'cs' | 'en', pdf: Buffer) => {
-	const from = (process.env.SEND_FROM_EMAIL || process.env.SMTP_USER || '').trim()
+	// the checklist goes out under the newsletter identity, not the inquiry mailbox
+	const from = (process.env.NEWSLETTER_FROM_EMAIL || process.env.SEND_FROM_EMAIL || process.env.SMTP_USER || '').trim()
 	const link = `${siteUrl}/docs/${PDF_FILE}`
 
 	const texts = locale === 'en'
@@ -134,7 +141,7 @@ const sendChecklist = async (email: string, locale: 'cs' | 'en', pdf: Buffer) =>
 	const text = [texts.intro, '', `${texts.button}: ${link}`, '', texts.next, '', texts.why, '',
 		'PEERS advokátní kancelář, s.r.o., IČO 220 96 973, City Tower, Hvězdova 1716/2b, Nusle, 140 00 Praha 4'].join('\n')
 
-	await createTransporter().sendMail({
+	await createTransporter('newsletter').sendMail({
 		from,
 		to: email,
 		subject: texts.subject,

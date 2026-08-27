@@ -8,6 +8,7 @@ import { ArrowDown, ArrowRight, CloseIcon, LonelyCheckmarkIcon } from '../../Lay
 
 import data from '../../../data/pages/arguments.json'
 import PricingCard from '../services/PricingCard'
+import ChecklistForm from '../../Layout/ChecklistForm'
 import GoogleReviewCards from './GoogleReviewCards'
 
 
@@ -103,6 +104,9 @@ const ArgumentsSection: FC = () => {
 				</Link>
 			</Fade>
 		</div>
+
+		{/* lead magnet: the checklist sits right above the price list */}
+		<ChecklistForm />
 
 		{/* data-newsletter-gate: the newsletter offer waits until the visitor has passed the price list */}
 		<div data-newsletter-gate className={c('font-header w-full space-y-8 mt-24 px-36', '3xl:px-28', '2xl:px-20', 'md:px-8')}>
