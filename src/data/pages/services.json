@@ -71,12 +71,54 @@
                 "en": "Complete Exchange Office Launch"
             },
             "description": {
-                "cs": "Vše z balíčku Povolení + provozovna a navíc AML/CFT školení pracovníků s osvědčením, fyzická kontrola provozovny před spuštěním se zkušební směnou a následná kontrola měsíc po spuštění.",
-                "en": "Everything in Authorisation + Premises plus certified AML/CFT staff training, a pre-launch on-site inspection with a test exchange and a follow-up inspection one month after launch."
+                "cs": "Vše z balíčku Povolení + provozovna a navíc AML/CFT školení pracovníků s osvědčením, fyzická kontrola provozovny před spuštěním se zkušební směnou a následná kontrola měsíc po spuštění. Součástí je i první rok balíčku Právní dohled zdarma.",
+                "en": "Everything in Authorisation + Premises plus certified AML/CFT staff training, a pre-launch on-site inspection with a test exchange and a follow-up inspection one month after launch. Includes the first year of the Legal Oversight package free of charge."
             },
             "price": 139000,
             "link": "/zalozeni-smenarny-na-klic",
             "icon": "/images/serviceIcons/zalozeni-alternativniho-fondu-na-klic.png"
+        },
+        {
+            "id": "compliance-dohled",
+            "name": {
+                "cs": "Compliance: Právní dohled",
+                "en": "Compliance: Legal Oversight"
+            },
+            "description": {
+                "cs": "Roční balíček: regulatorní novinky, konzultace s advokátem, dálková kontrola kurzovního lístku a povinných informací.",
+                "en": "Annual package: regulatory updates, a lawyer consultation and a remote review of the rate list and mandatory information."
+            },
+            "price": 19000,
+            "link": "/uz-provozuji-smenarnu",
+            "icon": "/images/serviceIcons/zasady.svg"
+        },
+        {
+            "id": "compliance-kontrola",
+            "name": {
+                "cs": "Compliance: Dohled a kontrola provozovny",
+                "en": "Compliance: Oversight and On-site Inspection"
+            },
+            "description": {
+                "cs": "Vše z Právního dohledu a navíc osobní kontrola provozovny se zkušební kontrolní směnou a revize AML dokumentace.",
+                "en": "Everything in Legal Oversight plus an on-site inspection with a simulated test purchase and a review of the AML documentation."
+            },
+            "price": 34000,
+            "link": "/uz-provozuji-smenarnu",
+            "icon": "/images/serviceIcons/aml_audit.svg"
+        },
+        {
+            "id": "compliance-servis",
+            "name": {
+                "cs": "Compliance: Kompletní servis",
+                "en": "Compliance: Complete Service"
+            },
+            "description": {
+                "cs": "Vše z předchozího balíčku a navíc reporting ČNB, roční školení personálu a zastoupení při kontrole ČNB.",
+                "en": "Everything in the previous package plus CNB reporting, annual staff training and representation during a CNB inspection."
+            },
+            "price": 59000,
+            "link": "/uz-provozuji-smenarnu",
+            "icon": "/images/serviceIcons/skoleni_a_metodika.svg"
         },
         {
             "id": "aml-povinnosti",

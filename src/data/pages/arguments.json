@@ -285,6 +285,13 @@
                                 "en": "Follow-up inspection 1 month after launch + report"
                             },
                             "checked": false
+                        },
+                        {
+                            "text": {
+                                "cs": "První rok balíčku Právní dohled zdarma (hodnota 19 000 Kč)",
+                                "en": "First year of the Legal Oversight package free of charge (worth CZK 19,000)"
+                            },
+                            "checked": false
                         }
                     ]
                 }
@@ -433,6 +440,13 @@
                             "text": {
                                 "cs": "Následná kontrola 1 měsíc po spuštění + protokol",
                                 "en": "Follow-up inspection 1 month after launch + report"
+                            },
+                            "checked": false
+                        },
+                        {
+                            "text": {
+                                "cs": "První rok balíčku Právní dohled zdarma (hodnota 19 000 Kč)",
+                                "en": "First year of the Legal Oversight package free of charge (worth CZK 19,000)"
                             },
                             "checked": false
                         }
@@ -585,6 +599,13 @@
                                 "en": "Follow-up inspection 1 month after launch + report"
                             },
                             "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "První rok balíčku Právní dohled zdarma (hodnota 19 000 Kč)",
+                                "en": "First year of the Legal Oversight package free of charge (worth CZK 19,000)"
+                            },
+                            "checked": true
                         }
                     ]
                 }
@@ -731,5 +752,483 @@
     "legalReviewNote": {
         "cs": "Text byl naposledy právně revidován dne 25. 8. 2026. Informace mají obecnou povahu a nenahrazují posouzení konkrétního případu.",
         "en": "This page was last legally reviewed on 25 August 2026. The information is general and does not replace advice on an individual matter."
-    }
+    },
+    "compliancePricingTitle": {
+        "cs": "Roční compliance balíčky",
+        "en": "Annual compliance packages"
+    },
+    "compliancePricingText": {
+        "cs": "Ceny jsou uvedeny za jednu provozovnu; za každou další se cena zvyšuje o 4 000 Kč bez DPH ročně. Kontrola provozovny je v ceně pro Prahu a okolí do 50 km, vzdálenější lokality po dohodě za cestovní náhrady.",
+        "en": "Prices are per one set of premises; each additional one adds CZK 4,000 excl. VAT per year. The on-site inspection is included for Prague and up to 50 km around it; more distant locations by arrangement against travel expenses."
+    },
+    "compliancePricingVariants": [
+        {
+            "title": {
+                "cs": "Právní dohled",
+                "en": "Legal Oversight"
+            },
+            "text": {
+                "cs": "Pro směnárny, které chtějí mít jistotu, že jim neunikne změna právní úpravy.",
+                "en": "For exchange offices that want to be sure no change in the law passes them by."
+            },
+            "price": {
+                "cs": "19 000 Kč",
+                "en": "CZK 19 000"
+            },
+            "priceNote": {
+                "cs": "+ DPH ročně",
+                "en": "+ VAT per year"
+            },
+            "buttonText": {
+                "cs": "Vybrat balíček",
+                "en": "Select package"
+            },
+            "buttonLink": "/nase-sluzby",
+            "recommended": false,
+            "serviceId": "compliance-dohled",
+            "itemGroups": [
+                {
+                    "title": {
+                        "cs": "Právní dohled",
+                        "en": "Legal oversight"
+                    },
+                    "items": [
+                        {
+                            "text": {
+                                "cs": "Regulatorní novinky přibližně jednou za čtvrtletí",
+                                "en": "Regulatory updates roughly once a quarter"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Roční konzultace s advokátem na směnárny, do 60 minut",
+                                "en": "Annual consultation with a bureau-de-change lawyer, up to 60 minutes"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Dálková kontrola kurzovního lístku a povinných informací",
+                                "en": "Remote review of the rate list and mandatory information"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Připomenutí termínů reportingu a školení",
+                                "en": "Reminders of reporting and training deadlines"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Zvýhodněná hodinová sazba nad rámec balíčku",
+                                "en": "Discounted hourly rate beyond the package"
+                            },
+                            "checked": true
+                        }
+                    ]
+                },
+                {
+                    "title": {
+                        "cs": "Kontrola provozovny",
+                        "en": "On-site inspection"
+                    },
+                    "items": [
+                        {
+                            "text": {
+                                "cs": "Osobní kontrola provozovny jednou ročně",
+                                "en": "On-site inspection of your premises once a year"
+                            },
+                            "checked": false
+                        },
+                        {
+                            "text": {
+                                "cs": "Zkušební kontrolní směna podle kontrolního listu ČNB",
+                                "en": "Simulated test purchase following the CNB check-list"
+                            },
+                            "checked": false
+                        },
+                        {
+                            "text": {
+                                "cs": "Písemný protokol se zjištěními a návrhem nápravy",
+                                "en": "Written report with findings and a remediation plan"
+                            },
+                            "checked": false
+                        },
+                        {
+                            "text": {
+                                "cs": "Revize systému vnitřních zásad a hodnocení rizik",
+                                "en": "Review of the internal AML policy and risk assessment"
+                            },
+                            "checked": false
+                        },
+                        {
+                            "text": {
+                                "cs": "Dvě konzultace ročně místo jedné",
+                                "en": "Two consultations a year instead of one"
+                            },
+                            "checked": false
+                        }
+                    ]
+                },
+                {
+                    "title": {
+                        "cs": "Provozní agenda",
+                        "en": "Ongoing compliance"
+                    },
+                    "items": [
+                        {
+                            "text": {
+                                "cs": "Reporting ČNB – výkaz DEV (ČNB) 26-04 za jednu provozovnu",
+                                "en": "CNB reporting – the DEV (ČNB) 26-04 return for one set of premises"
+                            },
+                            "checked": false
+                        },
+                        {
+                            "text": {
+                                "cs": "Školení personálu v AML/CFT jednou ročně pro až 5 osob",
+                                "en": "Annual AML/CFT staff training for up to 5 people"
+                            },
+                            "checked": false
+                        },
+                        {
+                            "text": {
+                                "cs": "Aktualizace SVZ a hodnocení rizik při změně právní úpravy",
+                                "en": "Updates to the AML policy and risk assessment when the law changes"
+                            },
+                            "checked": false
+                        },
+                        {
+                            "text": {
+                                "cs": "Zastoupení při kontrole ČNB v rozsahu prvních 3 hodin",
+                                "en": "Representation during a CNB inspection for the first 3 hours"
+                            },
+                            "checked": false
+                        },
+                        {
+                            "text": {
+                                "cs": "Konzultace bez omezení počtu, celkem do 8 hodin ročně",
+                                "en": "Unlimited number of consultations, up to 8 hours a year"
+                            },
+                            "checked": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": {
+                "cs": "Dohled a kontrola provozovny",
+                "en": "Oversight and On-site Inspection"
+            },
+            "text": {
+                "cs": "Pro směnárny, které chtějí vědět, jak jejich provoz obstojí očima kontrolora.",
+                "en": "For exchange offices that want to know how their operations look through an inspector's eyes."
+            },
+            "price": {
+                "cs": "34 000 Kč",
+                "en": "CZK 34 000"
+            },
+            "priceNote": {
+                "cs": "+ DPH ročně",
+                "en": "+ VAT per year"
+            },
+            "buttonText": {
+                "cs": "Vybrat balíček",
+                "en": "Select package"
+            },
+            "buttonLink": "/nase-sluzby",
+            "recommended": true,
+            "serviceId": "compliance-kontrola",
+            "itemGroups": [
+                {
+                    "title": {
+                        "cs": "Právní dohled",
+                        "en": "Legal oversight"
+                    },
+                    "items": [
+                        {
+                            "text": {
+                                "cs": "Regulatorní novinky přibližně jednou za čtvrtletí",
+                                "en": "Regulatory updates roughly once a quarter"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Roční konzultace s advokátem na směnárny, do 60 minut",
+                                "en": "Annual consultation with a bureau-de-change lawyer, up to 60 minutes"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Dálková kontrola kurzovního lístku a povinných informací",
+                                "en": "Remote review of the rate list and mandatory information"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Připomenutí termínů reportingu a školení",
+                                "en": "Reminders of reporting and training deadlines"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Zvýhodněná hodinová sazba nad rámec balíčku",
+                                "en": "Discounted hourly rate beyond the package"
+                            },
+                            "checked": true
+                        }
+                    ]
+                },
+                {
+                    "title": {
+                        "cs": "Kontrola provozovny",
+                        "en": "On-site inspection"
+                    },
+                    "items": [
+                        {
+                            "text": {
+                                "cs": "Osobní kontrola provozovny jednou ročně",
+                                "en": "On-site inspection of your premises once a year"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Zkušební kontrolní směna podle kontrolního listu ČNB",
+                                "en": "Simulated test purchase following the CNB check-list"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Písemný protokol se zjištěními a návrhem nápravy",
+                                "en": "Written report with findings and a remediation plan"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Revize systému vnitřních zásad a hodnocení rizik",
+                                "en": "Review of the internal AML policy and risk assessment"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Dvě konzultace ročně místo jedné",
+                                "en": "Two consultations a year instead of one"
+                            },
+                            "checked": true
+                        }
+                    ]
+                },
+                {
+                    "title": {
+                        "cs": "Provozní agenda",
+                        "en": "Ongoing compliance"
+                    },
+                    "items": [
+                        {
+                            "text": {
+                                "cs": "Reporting ČNB – výkaz DEV (ČNB) 26-04 za jednu provozovnu",
+                                "en": "CNB reporting – the DEV (ČNB) 26-04 return for one set of premises"
+                            },
+                            "checked": false
+                        },
+                        {
+                            "text": {
+                                "cs": "Školení personálu v AML/CFT jednou ročně pro až 5 osob",
+                                "en": "Annual AML/CFT staff training for up to 5 people"
+                            },
+                            "checked": false
+                        },
+                        {
+                            "text": {
+                                "cs": "Aktualizace SVZ a hodnocení rizik při změně právní úpravy",
+                                "en": "Updates to the AML policy and risk assessment when the law changes"
+                            },
+                            "checked": false
+                        },
+                        {
+                            "text": {
+                                "cs": "Zastoupení při kontrole ČNB v rozsahu prvních 3 hodin",
+                                "en": "Representation during a CNB inspection for the first 3 hours"
+                            },
+                            "checked": false
+                        },
+                        {
+                            "text": {
+                                "cs": "Konzultace bez omezení počtu, celkem do 8 hodin ročně",
+                                "en": "Unlimited number of consultations, up to 8 hours a year"
+                            },
+                            "checked": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": {
+                "cs": "Kompletní compliance servis",
+                "en": "Complete Compliance Service"
+            },
+            "text": {
+                "cs": "Pro směnárny, které chtějí mít compliance vyřešené a nevracet se k němu.",
+                "en": "For exchange offices that want compliance sorted and off their desk."
+            },
+            "price": {
+                "cs": "59 000 Kč",
+                "en": "CZK 59 000"
+            },
+            "priceNote": {
+                "cs": "+ DPH ročně",
+                "en": "+ VAT per year"
+            },
+            "buttonText": {
+                "cs": "Vybrat balíček",
+                "en": "Select package"
+            },
+            "buttonLink": "/nase-sluzby",
+            "recommended": false,
+            "serviceId": "compliance-servis",
+            "itemGroups": [
+                {
+                    "title": {
+                        "cs": "Právní dohled",
+                        "en": "Legal oversight"
+                    },
+                    "items": [
+                        {
+                            "text": {
+                                "cs": "Regulatorní novinky přibližně jednou za čtvrtletí",
+                                "en": "Regulatory updates roughly once a quarter"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Roční konzultace s advokátem na směnárny, do 60 minut",
+                                "en": "Annual consultation with a bureau-de-change lawyer, up to 60 minutes"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Dálková kontrola kurzovního lístku a povinných informací",
+                                "en": "Remote review of the rate list and mandatory information"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Připomenutí termínů reportingu a školení",
+                                "en": "Reminders of reporting and training deadlines"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Zvýhodněná hodinová sazba nad rámec balíčku",
+                                "en": "Discounted hourly rate beyond the package"
+                            },
+                            "checked": true
+                        }
+                    ]
+                },
+                {
+                    "title": {
+                        "cs": "Kontrola provozovny",
+                        "en": "On-site inspection"
+                    },
+                    "items": [
+                        {
+                            "text": {
+                                "cs": "Osobní kontrola provozovny jednou ročně",
+                                "en": "On-site inspection of your premises once a year"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Zkušební kontrolní směna podle kontrolního listu ČNB",
+                                "en": "Simulated test purchase following the CNB check-list"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Písemný protokol se zjištěními a návrhem nápravy",
+                                "en": "Written report with findings and a remediation plan"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Revize systému vnitřních zásad a hodnocení rizik",
+                                "en": "Review of the internal AML policy and risk assessment"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Dvě konzultace ročně místo jedné",
+                                "en": "Two consultations a year instead of one"
+                            },
+                            "checked": true
+                        }
+                    ]
+                },
+                {
+                    "title": {
+                        "cs": "Provozní agenda",
+                        "en": "Ongoing compliance"
+                    },
+                    "items": [
+                        {
+                            "text": {
+                                "cs": "Reporting ČNB – výkaz DEV (ČNB) 26-04 za jednu provozovnu",
+                                "en": "CNB reporting – the DEV (ČNB) 26-04 return for one set of premises"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Školení personálu v AML/CFT jednou ročně pro až 5 osob",
+                                "en": "Annual AML/CFT staff training for up to 5 people"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Aktualizace SVZ a hodnocení rizik při změně právní úpravy",
+                                "en": "Updates to the AML policy and risk assessment when the law changes"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Zastoupení při kontrole ČNB v rozsahu prvních 3 hodin",
+                                "en": "Representation during a CNB inspection for the first 3 hours"
+                            },
+                            "checked": true
+                        },
+                        {
+                            "text": {
+                                "cs": "Konzultace bez omezení počtu, celkem do 8 hodin ročně",
+                                "en": "Unlimited number of consultations, up to 8 hours a year"
+                            },
+                            "checked": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

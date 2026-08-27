@@ -13,6 +13,7 @@ import OrderButton from "../components/Pages/services/OrderButton";
 import ServicesForm from "../components/Pages/services/ServicesForm";
 import { ServiceItem, ServiceItemType } from "../components/Pages/services/ServiceItem";
 import argumentsData from "../data/pages/arguments.json";
+import PricingCard from "../components/Pages/services/PricingCard";
 import { useVisible } from "react-hooks-visible";
 
 import Button from "../components/Layout/Button";
@@ -106,6 +107,26 @@ keywords={{ cs: "směnárna, založení směnárny, povolení k činnosti směn�
 				</div>
 									<OrderButton show={!visible} text={pageData.buttonText} />
 			</div>
+				{/* annual compliance packages - the recurring counterpart to one-off services */}
+				<div className={c('py-16 space-y-10 text-center px-36', 'md:px-4 md:py-8')}>
+					<h2 className="text-4xl font-bold leading-snug">{t(argumentsData.compliancePricingTitle)}</h2>
+					<div className={c('grid grid-cols-3 gap-12 text-left', 'lg:grid-cols-1 lg:gap-8')}>
+						{argumentsData.compliancePricingVariants.map((variant, i, arr) => (
+							<PricingCard
+								key={variant.serviceId}
+								variant={variant as any}
+								buttonType={i === arr.length - 1 ? 'basic' : variant.recommended ? 'light' : 'secondary'}
+							/>
+						))}
+					</div>
+					<p className="max-w-4xl mx-auto text-sm leading-relaxed text-center text-warm-grey">
+						{t(argumentsData.compliancePricingText)}
+					</p>
+					<p className="max-w-4xl mx-auto text-sm leading-relaxed text-center text-warm-grey">
+						{t(argumentsData.pricingDisclaimer)}
+					</p>
+				</div>
+
 				<div className={c('py-16 space-y-12 text-center px-36', 'md:px-4 md:py-8 md:relative')}>
 					<h2 className="text-4xl font-bold leading-snug">{t(argumentsData.servicePickerTitle)}</h2>
 					<p className="max-w-2xl mx-auto -mt-6">{t(argumentsData.servicePickerText)}</p>
