@@ -730,12 +730,12 @@
         "en": "See the services"
     },
     "servicePickerTitle": {
-        "cs": "Vyberte si služby",
-        "en": "Choose your services"
+        "cs": "Jednotlivé služby",
+        "en": "Individual services"
     },
     "servicePickerText": {
-        "cs": "Označte, co potřebujete – vybrané služby se propíší do nezávazné poptávky níže.",
-        "en": "Tick what you need – the selected services are carried over into the non-binding inquiry below."
+        "cs": "Potřebujete vyřešit jen konkrétní věc? Objednejte si ji samostatně. Označte, co potřebujete – vybrané služby se propíší do nezávazné poptávky níže.",
+        "en": "Need just one specific thing sorted? Order it on its own. Tick what you need – the selected services are carried over into the non-binding inquiry below."
     },
     "priceFrom": {
         "cs": "od",
@@ -802,8 +802,8 @@
                         },
                         {
                             "text": {
-                                "cs": "Konzultace s advokátem na směnárny jednou ročně, do 60 minut",
-                                "en": "One consultation a year with a bureau-de-change lawyer, up to 60 minutes"
+                                "cs": "Konzultace se specializovaným advokátem jednou ročně, do 60 minut",
+                                "en": "One consultation a year with a specialised lawyer, up to 60 minutes"
                             },
                             "checked": true
                         },
@@ -944,8 +944,8 @@
                         },
                         {
                             "text": {
-                                "cs": "Konzultace s advokátem na směnárny dvakrát ročně, každá do 60 minut",
-                                "en": "Two consultations a year with a bureau-de-change lawyer, up to 60 minutes each"
+                                "cs": "Konzultace se specializovaným advokátem dvakrát ročně, každá do 60 minut",
+                                "en": "Two consultations a year with a specialised lawyer, up to 60 minutes each"
                             },
                             "checked": true
                         },
@@ -1052,8 +1052,8 @@
                 "en": "Full Compliance"
             },
             "text": {
-                "cs": "Pro směnárny, které chtějí mít compliance vyřešené a nevracet se k němu.",
-                "en": "For exchange offices that want compliance sorted and off their desk."
+                "cs": "Pro směnárny, které chtějí mít compliance jednoduše vyřešené.",
+                "en": "For exchange offices that want compliance simply sorted."
             },
             "price": {
                 "cs": "59 000 Kč",
@@ -1086,8 +1086,8 @@
                         },
                         {
                             "text": {
-                                "cs": "Konzultace bez omezení počtu, celkem do 8 hodin ročně",
-                                "en": "Unlimited number of consultations, up to 8 hours a year"
+                                "cs": "Konzultace bez omezení počtu, celkem do 5 hodin ročně (účtováno po 30 minutách)",
+                                "en": "Unlimited number of consultations, up to 5 hours a year (billed in 30-minute increments)"
                             },
                             "checked": true
                         },
