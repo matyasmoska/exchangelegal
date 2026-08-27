@@ -288,8 +288,8 @@
                         },
                         {
                             "text": {
-                                "cs": "První rok balíčku Právní dohled zdarma (hodnota 19 000 Kč)",
-                                "en": "First year of the Legal Oversight package free of charge (worth CZK 19,000)"
+                                "cs": "První rok balíčku <a href=\"/uz-provozuji-smenarnu\" class=\"underline\">Právní dohled</a> zdarma (hodnota 19 000 Kč)",
+                                "en": "First year of the <a href=\"/en/uz-provozuji-smenarnu\" class=\"underline\">Legal Oversight</a> package free of charge (worth CZK 19,000)"
                             },
                             "checked": false
                         }
@@ -445,8 +445,8 @@
                         },
                         {
                             "text": {
-                                "cs": "První rok balíčku Právní dohled zdarma (hodnota 19 000 Kč)",
-                                "en": "First year of the Legal Oversight package free of charge (worth CZK 19,000)"
+                                "cs": "První rok balíčku <a href=\"/uz-provozuji-smenarnu\" class=\"underline\">Právní dohled</a> zdarma (hodnota 19 000 Kč)",
+                                "en": "First year of the <a href=\"/en/uz-provozuji-smenarnu\" class=\"underline\">Legal Oversight</a> package free of charge (worth CZK 19,000)"
                             },
                             "checked": false
                         }
@@ -602,8 +602,8 @@
                         },
                         {
                             "text": {
-                                "cs": "První rok balíčku Právní dohled zdarma (hodnota 19 000 Kč)",
-                                "en": "First year of the Legal Oversight package free of charge (worth CZK 19,000)"
+                                "cs": "První rok balíčku <a href=\"/uz-provozuji-smenarnu\" class=\"underline\">Právní dohled</a> zdarma (hodnota 19 000 Kč)",
+                                "en": "First year of the <a href=\"/en/uz-provozuji-smenarnu\" class=\"underline\">Legal Oversight</a> package free of charge (worth CZK 19,000)"
                             },
                             "checked": true
                         }
@@ -1230,5 +1230,9 @@
                 }
             ]
         }
-    ]
+    ],
+    "compliancePricingIntro": {
+        "cs": "Povolením povinnosti nekončí – ČNB provádí u směnáren kontroly na místě i kontrolní směny a za zjištěná pochybení ukládá pokuty. Roční balíčky hlídají povinnosti za Vás.",
+        "en": "Obtaining the licence is not the end of your duties – the CNB carries out on-site inspections and test purchases and fines any breaches it finds. Our annual packages keep track of your obligations for you."
+    }
 }

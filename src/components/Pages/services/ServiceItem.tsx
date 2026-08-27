@@ -30,6 +30,7 @@ export interface ServiceItemType {
 	name: Translations | string
 	description: Translations | string
 	price: number
+	priceNote?: { cs: string; en: string }
 	link: string
 	icon: string
 }
@@ -91,7 +92,9 @@ export const ServiceItem: FC<ServiceItemProps> = ({ serviceItem, selectedItems, 
 							className={c('text-3xl font-bold text-wine-primary', '3xl:text-2xl')}
 						>{ns(serviceItem.price, locale)}</p>
 					</div>
-					<div className="flex justify-end text-lg text-gray-400">{t(pageData.withoutVAT)}</div>
+					<div className="flex justify-end text-lg text-gray-400">
+						{serviceItem.priceNote ? t(serviceItem.priceNote) : t(pageData.withoutVAT)}
+					</div>
 				</div>
 				{isMd && <Button type="basic" className="px-8 py-2.5">
 					{t(pageData.add)}

@@ -59,17 +59,32 @@ keywords={{ cs: "směnárna, založení směnárny, povolení k činnosti směn�
 			/>
 			<div className={c('py-16 space-y-12 text-center px-36', 'md:px-4 md:py-8 md:relative')}>
 				<h1 className="text-5xl font-bold leading-snug">{t(pageData.ourServices)}</h1>
-				<div className={c('grid grid-cols-3 gap-8 items-stretch', '2xl:grid-cols-3', 'md:grid-cols-1')}>
-					{pageData.services.map((service: ServiceItemType, index: number) => (
-						<ServiceItem
-							key={service.id}
-							index={index}
-							serviceItem={service}
-							selectedItems={selectedServices}
-							setSelectedItems={setSelectedServices}
-						/>
-					))}
-				</div>
+				{/* three clearly separated blocks: one-off setup, annual compliance, individual services */}
+				{(['zalozeni', 'compliance', 'jednorazove'] as const).map((kategorie) => {
+					const sluzby = pageData.services.filter((s: any) => s.category === kategorie) as ServiceItemType[]
+					if (!sluzby.length) return null
+					const sekce = (pageData as any).sections[kategorie]
+
+					return (
+						<div key={kategorie} className="space-y-8">
+							<div className={c('space-y-3 pt-4', kategorie !== 'zalozeni' && 'border-t border-dark-grey pt-12')}>
+								<h2 className="text-3xl font-bold">{t(sekce.title)}</h2>
+								<p className="max-w-2xl mx-auto text-warm-grey">{t(sekce.text)}</p>
+							</div>
+							<div className={c('grid grid-cols-3 gap-8 items-stretch', '2xl:grid-cols-3', 'md:grid-cols-1')}>
+								{sluzby.map((service, index) => (
+									<ServiceItem
+										key={service.id}
+										index={index}
+										serviceItem={service}
+										selectedItems={selectedServices}
+										setSelectedItems={setSelectedServices}
+									/>
+								))}
+							</div>
+						</div>
+					)
+				})}
 				<OrderButton
 					show={selectedServices.length !== 0 && !visible}
 					text={t(pageData.finishInquiry)}

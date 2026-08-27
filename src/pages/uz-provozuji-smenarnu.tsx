@@ -75,7 +75,7 @@ keywords={{ cs: "směnárna, založení směnárny, povolení k činnosti směn�
 							objectFit="cover"
 							className="absolute"
 							priority
-							src={'/images/hero-provozovatel.jpg'}
+							src={'/images/hero-compliance.jpg'}
 						/>
 						<div
 							className={c(
@@ -91,25 +91,10 @@ keywords={{ cs: "směnárna, založení směnárny, povolení k činnosti směn�
 						</div>
 					</div>
 				</div>
-				<div
-					className={c(
-						'flex flex-col items-center text-justify leading-relaxed pb-16',
-						'md:py-6 md:pb-16'
-					)}
-				>
-
-					<section className={c('py-8 pb-12 space-y-4 max-w-[802px] leading-relaxed prose', 'md:px-6 md:py-6')}>
-						{t(bottomPart)}
-					</section>
-					<div className={c('flex')}>
-
-					</div>
-				</div>
-									<OrderButton show={!visible} text={pageData.buttonText} />
-			</div>
 				{/* annual compliance packages - the recurring counterpart to one-off services */}
 				<div className={c('py-16 space-y-10 text-center px-36', 'md:px-4 md:py-8')}>
 					<h2 className="text-4xl font-bold leading-snug">{t(argumentsData.compliancePricingTitle)}</h2>
+					<p className="max-w-3xl mx-auto -mt-4 leading-relaxed">{t(argumentsData.compliancePricingIntro)}</p>
 					<div className={c('grid grid-cols-3 gap-12 text-left', 'lg:grid-cols-1 lg:gap-8')}>
 						{argumentsData.compliancePricingVariants.map((variant, i, arr) => (
 							<PricingCard
@@ -127,6 +112,22 @@ keywords={{ cs: "směnárna, založení směnárny, povolení k činnosti směn�
 					</p>
 				</div>
 
+				<div
+					className={c(
+						'flex flex-col items-center text-justify leading-relaxed pb-16',
+						'md:py-6 md:pb-16'
+					)}
+				>
+
+					<section className={c('py-8 pb-12 space-y-4 max-w-[802px] leading-relaxed prose', 'md:px-6 md:py-6')}>
+						{t(bottomPart)}
+					</section>
+					<div className={c('flex')}>
+
+					</div>
+				</div>
+									<OrderButton show={!visible} text={pageData.buttonText} />
+			</div>
 				<div className={c('py-16 space-y-12 text-center px-36', 'md:px-4 md:py-8 md:relative')}>
 					<h2 className="text-4xl font-bold leading-snug">{t(argumentsData.servicePickerTitle)}</h2>
 					<p className="max-w-2xl mx-auto -mt-6">{t(argumentsData.servicePickerText)}</p>

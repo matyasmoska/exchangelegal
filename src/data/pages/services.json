@@ -48,7 +48,8 @@
             },
             "price": 79000,
             "link": "/zalozeni-smenarny-na-klic",
-            "icon": "/images/serviceIcons/zalozeni-alternativniho-fondu-na-klic.png"
+            "icon": "/images/serviceIcons/zalozeni-alternativniho-fondu-na-klic.png",
+            "category": "zalozeni"
         },
         {
             "id": "zalozeni-smenarny-entry",
@@ -62,7 +63,8 @@
             },
             "price": 114000,
             "link": "/zalozeni-smenarny-na-klic",
-            "icon": "/images/serviceIcons/zalozeni-alternativniho-fondu-na-klic.png"
+            "icon": "/images/serviceIcons/zalozeni-alternativniho-fondu-na-klic.png",
+            "category": "zalozeni"
         },
         {
             "id": "zalozeni-smenarny-all-in-one",
@@ -76,49 +78,65 @@
             },
             "price": 139000,
             "link": "/zalozeni-smenarny-na-klic",
-            "icon": "/images/serviceIcons/zalozeni-alternativniho-fondu-na-klic.png"
+            "icon": "/images/serviceIcons/zalozeni-alternativniho-fondu-na-klic.png",
+            "category": "zalozeni"
         },
         {
             "id": "compliance-dohled",
             "name": {
-                "cs": "Compliance: Právní dohled",
-                "en": "Compliance: Legal Oversight"
+                "cs": "Právní dohled – roční balíček",
+                "en": "Legal Oversight – annual package"
             },
             "description": {
-                "cs": "Roční balíček: regulatorní novinky, konzultace s advokátem, dálková kontrola kurzovního lístku a povinných informací.",
-                "en": "Annual package: regulatory updates, a lawyer consultation and a remote review of the rate list and mandatory information."
+                "cs": "Roční balíček: regulatorní novinky, konzultace s advokátem, dálková kontrola kurzovního lístku a povinných informací. Sjednává se na 12 měsíců, cena je za jednu provozovnu.",
+                "en": "Annual package: regulatory updates, a lawyer consultation and a remote review of the rate list and mandatory information. Agreed for 12 months; the price covers one set of premises."
             },
             "price": 19000,
             "link": "/uz-provozuji-smenarnu",
-            "icon": "/images/serviceIcons/zasady.svg"
+            "icon": "/images/serviceIcons/zasady.svg",
+            "category": "compliance",
+            "priceNote": {
+                "cs": "bez DPH / rok",
+                "en": "excl. VAT / year"
+            }
         },
         {
             "id": "compliance-kontrola",
             "name": {
-                "cs": "Compliance: Dohled a kontrola provozovny",
-                "en": "Compliance: Oversight and On-site Inspection"
+                "cs": "Dohled a kontrola provozovny – roční balíček",
+                "en": "Oversight and On-site Inspection – annual package"
             },
             "description": {
-                "cs": "Vše z Právního dohledu a navíc osobní kontrola provozovny se zkušební kontrolní směnou a revize AML dokumentace.",
-                "en": "Everything in Legal Oversight plus an on-site inspection with a simulated test purchase and a review of the AML documentation."
+                "cs": "Vše z Právního dohledu a navíc osobní kontrola provozovny se zkušební kontrolní směnou a revize AML dokumentace. Sjednává se na 12 měsíců, cena je za jednu provozovnu.",
+                "en": "Everything in Legal Oversight plus an on-site inspection with a simulated test purchase and a review of the AML documentation. Agreed for 12 months; the price covers one set of premises."
             },
             "price": 34000,
             "link": "/uz-provozuji-smenarnu",
-            "icon": "/images/serviceIcons/aml_audit.svg"
+            "icon": "/images/serviceIcons/aml_audit.svg",
+            "category": "compliance",
+            "priceNote": {
+                "cs": "bez DPH / rok",
+                "en": "excl. VAT / year"
+            }
         },
         {
             "id": "compliance-servis",
             "name": {
-                "cs": "Compliance: Kompletní servis",
-                "en": "Compliance: Complete Service"
+                "cs": "Kompletní compliance servis – roční balíček",
+                "en": "Complete Compliance Service – annual package"
             },
             "description": {
-                "cs": "Vše z předchozího balíčku a navíc reporting ČNB, roční školení personálu a zastoupení při kontrole ČNB.",
-                "en": "Everything in the previous package plus CNB reporting, annual staff training and representation during a CNB inspection."
+                "cs": "Vše z předchozího balíčku a navíc reporting ČNB, roční školení personálu a zastoupení při kontrole ČNB. Sjednává se na 12 měsíců, cena je za jednu provozovnu.",
+                "en": "Everything in the previous package plus CNB reporting, annual staff training and representation during a CNB inspection. Agreed for 12 months; the price covers one set of premises."
             },
             "price": 59000,
             "link": "/uz-provozuji-smenarnu",
-            "icon": "/images/serviceIcons/skoleni_a_metodika.svg"
+            "icon": "/images/serviceIcons/skoleni_a_metodika.svg",
+            "category": "compliance",
+            "priceNote": {
+                "cs": "bez DPH / rok",
+                "en": "excl. VAT / year"
+            }
         },
         {
             "id": "aml-povinnosti",
@@ -132,7 +150,8 @@
             },
             "price": 29000,
             "link": "/aml-povinnosti-smenarny",
-            "icon": "/images/serviceIcons/aml-povinnosti.png"
+            "icon": "/images/serviceIcons/aml-povinnosti.png",
+            "category": "jednorazove"
         },
         {
             "id": "reporting-cnb",
@@ -146,7 +165,8 @@
             },
             "price": 10000,
             "link": "/reporting-cnb-pro-smenarny",
-            "icon": "/images/serviceIcons/reporting-cnb.png"
+            "icon": "/images/serviceIcons/reporting-cnb.png",
+            "category": "jednorazove"
         },
         {
             "id": "pep-sankcni-screening",
@@ -160,7 +180,8 @@
             },
             "price": 9900,
             "link": "/pep-a-sankcni-screening",
-            "icon": "/images/serviceIcons/skoleni-na-mezinarodni-sankce.svg"
+            "icon": "/images/serviceIcons/skoleni-na-mezinarodni-sankce.svg",
+            "category": "jednorazove"
         },
         {
             "id": "priprava-na-kontrolu-cnb",
@@ -174,7 +195,8 @@
             },
             "price": 29000,
             "link": "/priprava-na-kontrolu-cnb",
-            "icon": "/images/serviceIcons/aml_audit.svg"
+            "icon": "/images/serviceIcons/aml_audit.svg",
+            "category": "jednorazove"
         },
         {
             "id": "pravni-audit-smenarny",
@@ -188,7 +210,8 @@
             },
             "price": 29000,
             "link": "/pravni-audit-smenarny",
-            "icon": "/images/serviceIcons/aml_audit.svg"
+            "icon": "/images/serviceIcons/aml_audit.svg",
+            "category": "jednorazove"
         },
         {
             "id": "whistleblowing-smernice",
@@ -202,7 +225,8 @@
             },
             "price": 19000,
             "link": "/whistleblowing-smernice",
-            "icon": "/images/serviceIcons/zasady.svg"
+            "icon": "/images/serviceIcons/zasady.svg",
+            "category": "jednorazove"
         },
         {
             "id": "skoleni-aml",
@@ -216,7 +240,8 @@
             },
             "price": 10500,
             "link": "/aml-povinnosti-smenarny",
-            "icon": "/images/serviceIcons/skoleni_a_metodika.svg"
+            "icon": "/images/serviceIcons/skoleni_a_metodika.svg",
+            "category": "jednorazove"
         },
         {
             "id": "bezplatna-konzultace",
@@ -230,7 +255,40 @@
             },
             "price": 0,
             "link": "/nase-sluzby?sluzba=bezplatna-konzultace",
-            "icon": "/images/serviceIcons/bezplatna-konzultace.png"
+            "icon": "/images/serviceIcons/bezplatna-konzultace.png",
+            "category": "jednorazove"
         }
-    ]
+    ],
+    "sections": {
+        "zalozeni": {
+            "title": {
+                "cs": "Zakládáte směnárnu?",
+                "en": "Setting up an exchange office?"
+            },
+            "text": {
+                "cs": "Jednorázové balíčky, které vás dovedou od záměru k zahájení provozu.",
+                "en": "One-off packages that take you from the initial idea to opening day."
+            }
+        },
+        "compliance": {
+            "title": {
+                "cs": "Už směnárnu provozujete?",
+                "en": "Already running an exchange office?"
+            },
+            "text": {
+                "cs": "Roční balíčky, které za vás hlídají povinnosti po celý rok. Sjednávají se na 12 měsíců.",
+                "en": "Annual packages that keep an eye on your obligations all year round. Agreed for 12 months."
+            }
+        },
+        "jednorazove": {
+            "title": {
+                "cs": "Jednotlivé služby",
+                "en": "Individual services"
+            },
+            "text": {
+                "cs": "Potřebujete vyřešit jen konkrétní věc? Objednejte si ji samostatně.",
+                "en": "Need just one specific thing sorted? Order it on its own."
+            }
+        }
+    }
 }
