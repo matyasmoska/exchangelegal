@@ -288,8 +288,8 @@
                         },
                         {
                             "text": {
-                                "cs": "První rok balíčku <a href=\"/uz-provozuji-smenarnu\" class=\"underline\">Právní dohled</a> zdarma (hodnota 19 000 Kč)",
-                                "en": "First year of the <a href=\"/en/uz-provozuji-smenarnu\" class=\"underline\">Legal Oversight</a> package free of charge (worth CZK 19,000)"
+                                "cs": "První rok balíčku <a href=\"/uz-provozuji-smenarnu\" class=\"underline\">Compliance Monitoring</a> zdarma (hodnota 19 000 Kč)",
+                                "en": "First year of the <a href=\"/en/uz-provozuji-smenarnu\" class=\"underline\">Compliance Monitoring</a> package free of charge (worth CZK 19,000)"
                             },
                             "checked": false
                         }
@@ -445,8 +445,8 @@
                         },
                         {
                             "text": {
-                                "cs": "První rok balíčku <a href=\"/uz-provozuji-smenarnu\" class=\"underline\">Právní dohled</a> zdarma (hodnota 19 000 Kč)",
-                                "en": "First year of the <a href=\"/en/uz-provozuji-smenarnu\" class=\"underline\">Legal Oversight</a> package free of charge (worth CZK 19,000)"
+                                "cs": "První rok balíčku <a href=\"/uz-provozuji-smenarnu\" class=\"underline\">Compliance Monitoring</a> zdarma (hodnota 19 000 Kč)",
+                                "en": "First year of the <a href=\"/en/uz-provozuji-smenarnu\" class=\"underline\">Compliance Monitoring</a> package free of charge (worth CZK 19,000)"
                             },
                             "checked": false
                         }
@@ -602,8 +602,8 @@
                         },
                         {
                             "text": {
-                                "cs": "První rok balíčku <a href=\"/uz-provozuji-smenarnu\" class=\"underline\">Právní dohled</a> zdarma (hodnota 19 000 Kč)",
-                                "en": "First year of the <a href=\"/en/uz-provozuji-smenarnu\" class=\"underline\">Legal Oversight</a> package free of charge (worth CZK 19,000)"
+                                "cs": "První rok balíčku <a href=\"/uz-provozuji-smenarnu\" class=\"underline\">Compliance Monitoring</a> zdarma (hodnota 19 000 Kč)",
+                                "en": "First year of the <a href=\"/en/uz-provozuji-smenarnu\" class=\"underline\">Compliance Monitoring</a> package free of charge (worth CZK 19,000)"
                             },
                             "checked": true
                         }
@@ -764,8 +764,8 @@
     "compliancePricingVariants": [
         {
             "title": {
-                "cs": "Právní dohled",
-                "en": "Legal Oversight"
+                "cs": "Compliance Monitoring",
+                "en": "Compliance Monitoring"
             },
             "text": {
                 "cs": "Pro směnárny, které chtějí mít jistotu, že jim neunikne změna právní úpravy.",
@@ -789,8 +789,8 @@
             "itemGroups": [
                 {
                     "title": {
-                        "cs": "Právní dohled",
-                        "en": "Legal oversight"
+                        "cs": "Monitoring",
+                        "en": "Monitoring"
                     },
                     "items": [
                         {
@@ -802,15 +802,15 @@
                         },
                         {
                             "text": {
-                                "cs": "Roční konzultace s advokátem na směnárny, do 60 minut",
-                                "en": "Annual consultation with a bureau-de-change lawyer, up to 60 minutes"
+                                "cs": "Konzultace s advokátem na směnárny jednou ročně, do 60 minut",
+                                "en": "One consultation a year with a bureau-de-change lawyer, up to 60 minutes"
                             },
                             "checked": true
                         },
                         {
                             "text": {
-                                "cs": "Dálková kontrola kurzovního lístku a povinných informací",
-                                "en": "Remote review of the rate list and mandatory information"
+                                "cs": "Dálková kontrola kurzovního lístku a povinných informací jednou ročně",
+                                "en": "Remote review of the rate list and mandatory information once a year"
                             },
                             "checked": true
                         },
@@ -832,8 +832,8 @@
                 },
                 {
                     "title": {
-                        "cs": "Kontrola provozovny",
-                        "en": "On-site inspection"
+                        "cs": "Audit provozovny",
+                        "en": "On-site audit"
                     },
                     "items": [
                         {
@@ -859,15 +859,8 @@
                         },
                         {
                             "text": {
-                                "cs": "Revize systému vnitřních zásad a hodnocení rizik",
-                                "en": "Review of the internal AML policy and risk assessment"
-                            },
-                            "checked": false
-                        },
-                        {
-                            "text": {
-                                "cs": "Dvě konzultace ročně místo jedné",
-                                "en": "Two consultations a year instead of one"
+                                "cs": "Roční revize systému vnitřních zásad a hodnocení rizik",
+                                "en": "Annual review of the internal AML policy and risk assessment"
                             },
                             "checked": false
                         }
@@ -906,13 +899,6 @@
                                 "en": "Representation during a CNB inspection for the first 3 hours"
                             },
                             "checked": false
-                        },
-                        {
-                            "text": {
-                                "cs": "Konzultace bez omezení počtu, celkem do 8 hodin ročně",
-                                "en": "Unlimited number of consultations, up to 8 hours a year"
-                            },
-                            "checked": false
                         }
                     ]
                 }
@@ -920,8 +906,8 @@
         },
         {
             "title": {
-                "cs": "Dohled a kontrola provozovny",
-                "en": "Oversight and On-site Inspection"
+                "cs": "Compliance Audit",
+                "en": "Compliance Audit"
             },
             "text": {
                 "cs": "Pro směnárny, které chtějí vědět, jak jejich provoz obstojí očima kontrolora.",
@@ -945,8 +931,8 @@
             "itemGroups": [
                 {
                     "title": {
-                        "cs": "Právní dohled",
-                        "en": "Legal oversight"
+                        "cs": "Monitoring",
+                        "en": "Monitoring"
                     },
                     "items": [
                         {
@@ -958,15 +944,15 @@
                         },
                         {
                             "text": {
-                                "cs": "Roční konzultace s advokátem na směnárny, do 60 minut",
-                                "en": "Annual consultation with a bureau-de-change lawyer, up to 60 minutes"
+                                "cs": "Konzultace s advokátem na směnárny dvakrát ročně, každá do 60 minut",
+                                "en": "Two consultations a year with a bureau-de-change lawyer, up to 60 minutes each"
                             },
                             "checked": true
                         },
                         {
                             "text": {
-                                "cs": "Dálková kontrola kurzovního lístku a povinných informací",
-                                "en": "Remote review of the rate list and mandatory information"
+                                "cs": "Dálková kontrola kurzovního lístku a povinných informací jednou ročně",
+                                "en": "Remote review of the rate list and mandatory information once a year"
                             },
                             "checked": true
                         },
@@ -988,8 +974,8 @@
                 },
                 {
                     "title": {
-                        "cs": "Kontrola provozovny",
-                        "en": "On-site inspection"
+                        "cs": "Audit provozovny",
+                        "en": "On-site audit"
                     },
                     "items": [
                         {
@@ -1015,15 +1001,8 @@
                         },
                         {
                             "text": {
-                                "cs": "Revize systému vnitřních zásad a hodnocení rizik",
-                                "en": "Review of the internal AML policy and risk assessment"
-                            },
-                            "checked": true
-                        },
-                        {
-                            "text": {
-                                "cs": "Dvě konzultace ročně místo jedné",
-                                "en": "Two consultations a year instead of one"
+                                "cs": "Roční revize systému vnitřních zásad a hodnocení rizik",
+                                "en": "Annual review of the internal AML policy and risk assessment"
                             },
                             "checked": true
                         }
@@ -1062,13 +1041,6 @@
                                 "en": "Representation during a CNB inspection for the first 3 hours"
                             },
                             "checked": false
-                        },
-                        {
-                            "text": {
-                                "cs": "Konzultace bez omezení počtu, celkem do 8 hodin ročně",
-                                "en": "Unlimited number of consultations, up to 8 hours a year"
-                            },
-                            "checked": false
                         }
                     ]
                 }
@@ -1076,8 +1048,8 @@
         },
         {
             "title": {
-                "cs": "Kompletní compliance servis",
-                "en": "Complete Compliance Service"
+                "cs": "Full Compliance",
+                "en": "Full Compliance"
             },
             "text": {
                 "cs": "Pro směnárny, které chtějí mít compliance vyřešené a nevracet se k němu.",
@@ -1101,8 +1073,8 @@
             "itemGroups": [
                 {
                     "title": {
-                        "cs": "Právní dohled",
-                        "en": "Legal oversight"
+                        "cs": "Monitoring",
+                        "en": "Monitoring"
                     },
                     "items": [
                         {
@@ -1114,15 +1086,15 @@
                         },
                         {
                             "text": {
-                                "cs": "Roční konzultace s advokátem na směnárny, do 60 minut",
-                                "en": "Annual consultation with a bureau-de-change lawyer, up to 60 minutes"
+                                "cs": "Konzultace bez omezení počtu, celkem do 8 hodin ročně",
+                                "en": "Unlimited number of consultations, up to 8 hours a year"
                             },
                             "checked": true
                         },
                         {
                             "text": {
-                                "cs": "Dálková kontrola kurzovního lístku a povinných informací",
-                                "en": "Remote review of the rate list and mandatory information"
+                                "cs": "Dálková kontrola kurzovního lístku a povinných informací jednou ročně",
+                                "en": "Remote review of the rate list and mandatory information once a year"
                             },
                             "checked": true
                         },
@@ -1144,8 +1116,8 @@
                 },
                 {
                     "title": {
-                        "cs": "Kontrola provozovny",
-                        "en": "On-site inspection"
+                        "cs": "Audit provozovny",
+                        "en": "On-site audit"
                     },
                     "items": [
                         {
@@ -1171,15 +1143,8 @@
                         },
                         {
                             "text": {
-                                "cs": "Revize systému vnitřních zásad a hodnocení rizik",
-                                "en": "Review of the internal AML policy and risk assessment"
-                            },
-                            "checked": true
-                        },
-                        {
-                            "text": {
-                                "cs": "Dvě konzultace ročně místo jedné",
-                                "en": "Two consultations a year instead of one"
+                                "cs": "Roční revize systému vnitřních zásad a hodnocení rizik",
+                                "en": "Annual review of the internal AML policy and risk assessment"
                             },
                             "checked": true
                         }
@@ -1216,13 +1181,6 @@
                             "text": {
                                 "cs": "Zastoupení při kontrole ČNB v rozsahu prvních 3 hodin",
                                 "en": "Representation during a CNB inspection for the first 3 hours"
-                            },
-                            "checked": true
-                        },
-                        {
-                            "text": {
-                                "cs": "Konzultace bez omezení počtu, celkem do 8 hodin ročně",
-                                "en": "Unlimited number of consultations, up to 8 hours a year"
                             },
                             "checked": true
                         }
