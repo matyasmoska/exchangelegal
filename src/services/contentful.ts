@@ -16,6 +16,26 @@ const client = contentful.createClient({
   environment: environment,
 })
 
+const parseDate = (value?: string): number => {
+    const timestamp = value ? Date.parse(value) : NaN
+    return Number.isNaN(timestamp) ? 0 : timestamp
+}
+
+// Datum vydání článku z pole `date` (Contentful Date field).
+// Query používá locale: '*', takže hodnota je objekt { cs: ..., en: ... };
+// pro jistotu zvládne i obyčejný string. Když pole chybí (jiné content
+// typy), spadne to na sys.createdAt — nikdy na sys.updatedAt, aby pozdější
+// úprava/re-publish starého článku neměnila pořadí na webu.
+const publishedAt = (entry: any): number => {
+    const date = entry?.fields?.date
+    const raw =
+        date && typeof date === 'object'
+            ? date.cs ?? date.en ?? Object.values(date)[0]
+            : date
+
+    return parseDate(raw as string | undefined) || parseDate(entry?.sys?.createdAt)
+}
+
 export async function fetchEntries() {
     const query: Record<string, any> = { locale: '*' }
 
@@ -24,5 +44,13 @@ export async function fetchEntries() {
 
     const entries = await client.getEntries(query)
 
-    if (entries.items) return entries.items
+    if (!entries.items) return
+
+    // Řazení striktně podle data vydání článku (nejnovější první),
+    // při shodě dat rozhoduje datum vytvoření záznamu.
+    return [...entries.items].sort(
+        (a: any, b: any) =>
+            publishedAt(b) - publishedAt(a) ||
+            parseDate(b?.sys?.createdAt) - parseDate(a?.sys?.createdAt)
+    )
 }
