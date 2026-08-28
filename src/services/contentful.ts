@@ -36,7 +36,7 @@ const publishedAt = (entry: any): number => {
     return parseDate(raw as string | undefined) || parseDate(entry?.sys?.createdAt)
 }
 
-export async function fetchEntries() {
+export async function fetchEntries(): Promise<any[]> {
     const query: Record<string, any> = { locale: '*' }
 
     if (contentType) query.content_type = contentType
@@ -44,7 +44,7 @@ export async function fetchEntries() {
 
     const entries = await client.getEntries(query)
 
-    if (!entries.items) return
+    if (!entries.items) return []
 
     // Řazení striktně podle data vydání článku (nejnovější první),
     // při shodě dat rozhoduje datum vytvoření záznamu.
